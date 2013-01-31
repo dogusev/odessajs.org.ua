@@ -1,5 +1,5 @@
 body {
-	background: url(../img/bg.png) repeat;
+	background: url(../images/bg.png) repeat;
 	color: #423e34;
 }
 
@@ -13,7 +13,7 @@ a:hover {
 }
 
 .container {
-	background: url(../img/bg_grey.png) repeat;	
+	background: url(../images/bg_grey.png) repeat;	
 	position: relative;
 	padding: 0 20px;	
 	box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7), -5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -33,7 +33,7 @@ a:hover {
 .menu-bg {
 	position: absolute; 
 	left:-16px; 
-	background: url('../img/ribbon_main_menu.png') no-repeat; 
+	background: url('../images/ribbon_main_menu.png') no-repeat; 
 	width: 1010px; 
 	height: 100px; 
 	z-index: 1;
@@ -62,7 +62,7 @@ a:hover {
 
 .conf-desc {
 	margin: 50px 0 0; 
-	background: url('../img/bg_text.png'); 
+	background: url('../images/bg_text.png'); 
 	text-align: center; 
 	line-height: 50px;	
 	padding-bottom: 30px;
@@ -134,7 +134,7 @@ a:hover {
 
 /* reporters */
 .conf-reps {
-	background: url('../img/spraite_reports.png');
+	background: url('../images/spraite_reports.png');
 	width: 180px;
 	height: 120px;
 	display: inline-block;	
@@ -288,7 +288,7 @@ a:hover {
 }
 
 .conf-orgteam {
-	background: url('../img/bg_organizers.png'); 
+	background: url('../images/bg_organizers.png'); 
 	color: #423e34;
 	margin-top: 20px;
 	box-shadow: 0 0 4px #000, inset 0 0 4px #FFF;
@@ -312,7 +312,7 @@ a:hover {
 }
 
 .conf-orgteam-one {
-	background: url('../img/spraite_organizers.png');
+	background: url('../images/spraite_organizers.png');
 	width: 140px;
 	height: 140px;
 	display: inline-block;
