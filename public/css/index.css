@@ -266,7 +266,15 @@ a:hover {
 
 .conf-partners-elements {
 	text-align: center;
-	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.conf-partners-elements h2 {
+	margin-top: 80px;
+}
+
+.conf-partners-elements h2:first-child {
+	margin-top: 0;
 }
 
 .conf-place {
