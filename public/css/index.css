@@ -295,6 +295,10 @@ a:hover {
 	margin-bottom: 40px;
 }
 
+.conf-place-text a, .conf-place-text a:hover {
+	color: #FFF;
+}
+
 .conf-orgteam {
 	background: url('../images/bg_organizers.png'); 
 	color: #423e34;
