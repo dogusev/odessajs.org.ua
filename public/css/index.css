@@ -232,6 +232,13 @@ a:hover {
 	 background-position: -2160px 120px;
 }
 
+.conf-reps.potravniy {
+	 background-position: -2340px 0px;
+}
+.conf-reps.potravniy:hover {
+	 background-position: -2340px 120px;
+}
+
 
 /*- reporters */
 
