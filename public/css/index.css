@@ -162,10 +162,10 @@ a:hover {
 	 background-position: -360px 120px;
 }
 
-.conf-reps.nazarkin {
+.conf-reps.danilov {
 	 background-position: -540px 0px;
 }
-.conf-reps.nazarkin:hover {
+.conf-reps.danilov:hover {
 	 background-position: -540px 120px;
 }
 
@@ -237,6 +237,13 @@ a:hover {
 }
 .conf-reps.potravniy:hover {
 	 background-position: -2340px 120px;
+}
+
+.conf-reps.listochkin {
+	 background-position: -2520px 0px;
+}
+.conf-reps.listochkin:hover {
+	 background-position: -2520px 120px;
 }
 
 
