@@ -399,6 +399,23 @@ a:hover {
 	padding: 20px 0;
 }
 
+.conf-2013 {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.conf-register {
+	display: inline-block;
+	text-align: center;
+	width: 485px;
+	margin-top: 20px;
+	font-size: 40px;
+	padding: 0;
+}
+
 .frinds-logos {
 	display: inline-block;
 }
