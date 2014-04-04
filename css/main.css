@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+img {
+  border: 0;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  outline-style: none;
+  color: #3f3f3f;
+}
+a:hover {
+  text-decoration: underline;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #423e34;
+}
+.main-wrapper {
+  height: auto !important;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-width: 1000px;
+  background: url("../images/background.jpg") scroll no-repeat 0 0 transparent;
+  background-position: center 0;
+  background-color: #a88975;
+}
+.wrapper,
+section {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper:after,
+section:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.conf-title {
+  margin: 30px 0;
+  font-size: 25px;
+  line-height: 41px;
+  color: #ffffff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+}
+.conf-title span {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background: #f73c0b;
+  width: 240px;
+}
+.conf-desc {
+  margin: 56px 10px 0;
+  background: url("../images/bg_text.png") scroll no-repeat 0 0 transparent;
+  background-repeat: repeat;
+  text-align: center;
+  padding-bottom: 30px;
+  border: 2px solid #f8eecf;
+}
+.menu-bg {
+  position: absolute;
+  top: -45px;
+  left: -25px;
+  background: url("../images/ribbon_main_menu.png") scroll no-repeat 0 0 transparent;
+  width: 1010px;
+  height: 200px;
+  z-index: 1;
+}
+.conf-desk-title {
+  padding-top: 60px;
+  margin: 0 40px 10px;
+  font-size: 40px;
+  line-height: 40px;
+  position: relative;
+}
+.conf-desk-title .conf-2013 {
+  position: absolute;
+  top: -56px;
+  z-index: 1;
+  right: 0;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.conf-desk-title .conf-2013:hover {
+  text-decoration: none;
+}
+.conf-desk {
+  padding-top: 40px;
+}
+.conf-desk:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.conf-desk .date-info {
+  font-size: 40px;
+  line-height: 27px;
+  color: #ed1c24;
+  position: relative;
+  z-index: 1;
+  width: 340px;
+  font-weight: bold;
+}
+.conf-desk .date {
+  float: left;
+  text-align: right;
+}
+.conf-desk .time {
+  padding-top: 8px;
+  float: right;
+  text-align: left;
+}
+.conf-register {
+  text-align: center;
+  width: 485px;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 20px auto;
+}
+.conf-desc-text-about {
+  font-size: 20px;
+  line-height: 40px;
+}
+.conf-desc-text-about .item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin-left: 55px;
+}
+.conf-desc-text-about .item a {
+  position: relative;
+}
+.conf-desc-text-about .icon {
+  width: 32px;
+  height: 31px;
+  position: absolute;
+  left: -40px;
+  top: -3px;
+}
+.conf-desc-text-about .icon.twt-icon {
+  background: url("../images/icon_twitter.png") scroll no-repeat 0 0 transparent;
+}
+.conf-desc-text-about .icon.mail-icon {
+  background: url("../images/icon_mail.png") scroll no-repeat 0 0 transparent;
+}
+.conf-desc-text-about .icon.fb-group {
+  background: url("../images/icon_facebook.png") scroll no-repeat 0 0 transparent;
+}
+.conf-schedule {
+  margin-bottom: 40px;
+  position: relative;
+}
+.conf-reps-join {
+  text-align: center;
+  color: #f8eecf;
+}
+.conf-reps-join a {
+  color: #f8eecf;
+}
+.conf-partners {
+  background-color: #ffffff;
+  border: 2px solid #f8eecf;
+}
+.conf-partners-elements {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.conf-partners-elements h2 {
+  margin-top: 80px;
+}
+.conf-partners-elements h2:first-child {
+  margin-top: 0;
+}
+.conf-partners-join {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.conf-place {
+  margin-bottom: 40px;
+}
+.conf-place-text {
+  color: #f8eecf;
+  text-align: center;
+}
+.conf-orgteam {
+  background: url("../images/bg_organizers.png") scroll no-repeat 0 0 transparent;
+  background-repeat: repeat;
+  margin-top: 20px;
+  border: 2px solid #f8eecf;
+}
+.conf-orgteam-elements {
+  padding: 10px 50px 40px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.conf-orgteam-elements:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.conf-orgteam-elements .item {
+  float: left;
+  width: 50%;
+}
+.conf-orgteam-one {
+  background: url("../images/spraite_organizers.png") scroll no-repeat 0 0 transparent;
+  width: 140px;
+  height: 140px;
+  margin-right: 10px;
+  float: left;
+}
+.conf-orgteam-one.artyomtrityak {
+  background-position: 0 0;
+}
+.conf-orgteam-one.artyomtrityak:hover {
+  background-position: 0 -140px;
+}
+.conf-orgteam-one.cherniak {
+  background-position: -140px 0;
+}
+.conf-orgteam-one.cherniak:hover {
+  background-position: -140px -140px;
+}
+.conf-orgteam-one-descr {
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 22px;
+}
+.conf-orgteam-one-descr .title {
+  font-size: 20px;
+  color: #68834c;
+}
+.conf-friends {
+  margin: 20px 50px;
+  text-align: center;
+}
+.friends-title {
+  font-size: 18px;
+}
+.friends-logos td {
+  width: 15%;
+  padding: 20px 0 0;
+}
+.friends-logos img {
+  height: 60px;
+}
+.copy {
+  text-align: center;
+  color: #f8eecf;
+  padding: 30px 0;
+}
+.copy a {
+  color: #f8eecf;
+}
