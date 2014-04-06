@@ -1,192 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="UTF-8">
     <title>OdessaJS - Конференция для front-end разработчиков в Одессе</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width">
+
     <meta name="description" content="Конференция для Front-end, JavaScript разработчиков в Одессе">
-    <meta name="author" content="Artyom Trityak">
+    <meta name="author" content="Vasiliy Eysmont">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/index.css?v2" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/main.css?0404201401" >
 
     <link rel="shortcut icon" href="images/favicon.png">
-    
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
-    <meta property="og:image" content="http://www.odessajs.org.ua/images/logo.png"/>
-    <meta property="og:title" content="OdessaJS - May 24-25, UA Frontend Conference"/>
+
+    <meta property="og:image" content="http://www.odessajs.org.ua/images/logo.png">
+    <meta property="og:title" content="OdessaJS - May 24-25, UA Frontend Conference">
   </head>
 
   <body>
-
-    <img src="images/logo.png" alt="OdessaJS" style="display:none;" />
-
-    <div class="container">
-        <div class="to-top">
-          <a href="#top"><img src="images/button_top.png" /></a>
-        </div>
-        <header id="top">
-          <div class="menu-bg"></div>          
-          <div class="menu-container">
-            <div class="row">
-              <div class="span2 menu">
-                <a href="#conf-schedule">Доклады</a>
+    <div class="main-wrapper">
+      <header class="header">
+        <div class="wrapper">
+          <div class="conf-desc">
+            <div class="menu-bg"></div>
+            <div class="conf-desk">
+              <div class="date-info date">
+                24-25<br>мая
               </div>
-              <div class="span2 menu">
-                <a href="#conf-partners">Партнеры</a>
-              </div>
-              <div class="span2 menu right-menu-item">
-                <a href="#conf-place">Место</a>
-              </div>
-              <div class="span2 menu">
-                <a href="#conf-orgteam">Организаторы</a>
+              <div class="date-info time">
+                10:00
               </div>
             </div>
-          </div>
-        </header>
 
-        <div class="conf-desc">
-          <div class="conf-desk-title" style="position: relative">
-            <div class="conf-2013">
-              <a href="2013/index.html">OdessaJS 2013</a>
+            <div class="conf-desk-title">
+              <a href="2013/index.html" class="conf-2013">OdessaJS 2013</a>
+              OdessaJS 2014 <br>
+              Тусовка для front-end разработчиков <br> в Одессе
             </div>
 
-            OdessaJS 2014 <br/>
-            Тусовка для front-end разработчиков <br/> в Одессе
-          </div>
-          <div class="conf-desk-date">
-            24-25 мая 2014, начало в 9:30
-          </div>
-          
-          <div>
-            <div class="alert alert-block conf-register">
+            <div class="conf-register">
               Регистрация пока еще закрыта
             </div>
 
-          </div>
-          
-          <div class="conf-desc-text-about">
-            Только модное и современное - будь в тренде <br/>
-            <span style="margin-right:50px"><a href="https://twitter.com/OdessaJS"><img src="images/icon_twitter.png" /></a> <a href="https://twitter.com/OdessaJS">@OdessaJS</a></span>
-            <a href="mailto:odessajsconf@gmail.com"><img src="images/icon_mail.png" /></a> <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a>
-            <span style="margin-left:50px;"><a href="http://www.facebook.com/events/493782437326758/"><img src="images/icon_facebook.png" /></a> <a href="http://www.facebook.com/events/493782437326758/">Group</a></span>
-          </div>
-        </div>
-
-        <div class="conf-schedule" id="conf-schedule">
-          <div class="conf-schedule-title">
-            <img src="images/ribbon_reports.png" />
-          </div>
-          <!--<a href="#sched" class="conf-scedule-print">Расписание</a>-->
-          <div>
-            <table class="conf-schedule-reps">
-              
-            </table>
-          </div>
-
-          <div class="conf-reps-join">Есть что рассказать? Запишитесь на Lighting Talk <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></div>
-
-        </div>
-
-        <div class="conf-partners" id="conf-partners">
-          <div class="conf-partners-title">
-            <img src="images/ribbon_partners.png" />
-          </div>
-          <div class="conf-partners-elements">
-            <h2>General</h2>
-            <a href="http://lohika.com.ua/#main"><img style="height: 110px" src="images/logo_lohika.png" title="Lohika - Генеральный партнер конференции OdessaJS" /></a>
-          </div>
-          <div class="conf-partners-join">Хотите стать партнером? Напишите нам  <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></div>
-        </div>
-
-        <div class="conf-place" id="conf-place">
-          <div class="conf-place-title">
-            <img src="images/ribbon_place.png" />
-          </div>
-          <div>
-            <div class="conf-place-text" style="text-align: center">
-              <strong>Ищем место</strong>
-
-            </div>
-            <div class="conf-place-map-container">
-              
-
+            <div class="conf-desc-text-about">
+              <div>Только модное и современное - будь в тренде</div>
+              <div class="links">
+                <div class="item"><a href="https://twitter.com/OdessaJS"><span class="icon twt-icon"></span>@OdessaJS</a></div>
+                <div class="item"><a href="mailto:odessajsconf@gmail.com"><span class="icon mail-icon"></span>odessajsconf@gmail.com</a></div>
+                <div class="item"><a href="http://www.facebook.com/events/493782437326758/"><span class="icon fb-group"></span>Group</a></div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="conf-orgteam" id="conf-orgteam">
-          <div class="conf-orgteam-title">
-            <img src="images/ribbon_organizers.png" />
+      </header>
+      <div class="body">
+        <div class="wrapper">
+          <div class="conf-schedule" id="conf-schedule">
+            <div class="conf-title">
+              <span>Доклады</span>
+            </div>
+            <div class="conf-reps-join">Есть что рассказать? Запишитесь на Lighting Talk <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></div>
           </div>
-          <div class="conf-orgteam-container">
-            <table class="conf-orgteam-elements">
-              <tr>
-                <td>
+
+          <div class="conf-partners" id="conf-partners">
+            <div class="conf-title">
+              <span>Партнеры</span>
+            </div>
+            <div class="conf-partners-elements">
+              <h2>General</h2>
+              <a href="http://lohika.com.ua/#main" title="Lohika - Генеральный партнер конференции OdessaJS">
+                <img width="217" height="110" src="images/logo_lohika.png" alt="Lohika - Генеральный партнер конференции OdessaJS">
+              </a>
+            </div>
+            <div class="conf-partners-join">Хотите стать партнером? Напишите нам <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></div>
+          </div>
+
+          <div class="conf-place" id="conf-place">
+            <div class="conf-title">
+              <span>Место проведения</span>
+            </div>
+            <div>
+              <div class="conf-place-text">
+                <b>Ищем место</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="conf-orgteam" id="conf-orgteam">
+            <div class="conf-title">
+              <span>Организаторы</span>
+            </div>
+            <div class="conf-orgteam-container">
+              <div class="conf-orgteam-elements">
+                <div class="item">
                   <div class="conf-orgteam-one artyomtrityak"></div>
                   <div class="conf-orgteam-one-descr">
                     <div class="title">Артем Тритяк</div>
-                    <div><a href="https://twitter.com/ArtyomTrityak" class="twitter">@ArtyomTrityak</a></div>
-                    <div><a href="mailto:art.trityak@gmail.com" class="twitter">art.trityak@gmail.com</a></div>
-                    <div>Skype: art.trityak</div>
-                    <div>+38 (050) 611-47-89</div>
+                    <a href="https://twitter.com/ArtyomTrityak" class="twitter">@ArtyomTrityak</a><br>
+                    <a href="mailto:art.trityak@gmail.com" class="twitter">art.trityak@gmail.com</a><br>
+                    Skype: art.trityak<br>
+                    +38 (050) 611-47-89
                   </div>
-                </td>
-
-                <td>
+                </div>
+                <div class="item">
                   <div class="conf-orgteam-one cherniak"></div>
                   <div class="conf-orgteam-one-descr">
                     <div class="title">Юля Черняк</div>
-                    <div><a href="mailto:julia.cherniak@gmail.com" class="twitter">julia.cherniak@gmail.com</a></div>
-                    <div>Skype: cherni44ka</div>
-                    <div>+38 (050) 373-14-65</div>                    
-                  </div>                  
-                </td>
-              </tr>
-            </table>
-          </div>          
+                    <a href="mailto:julia.cherniak@gmail.com" class="twitter">julia.cherniak@gmail.com</a><br>
+                    Skype: cherni44ka<br>
+                    +38 (050) 373-14-65
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div class="conf-friends">
-            <div class="friends-title"><h4>Наши друзья</h4></div>
-            <table class="frinds-logos">
-              <tr>
-                <td>
-                  <a href="http://kyivjs.org.ua"><img src="images/kyivjs-logo.png" title="Front-end developers conference in Kyiv, Ukraine" /></a>
-                </td>
-                <td>
-                  <a href="http://lvivjs.org.ua/"><img src="images/lvivjs.png" title="LvivJS - конференція для Front-End розробників в рамках циклу конференцій CityJS." /></a>
-                </td>
-                <td>
-                  <a href="http://kharkivjs.com/"><img src="images/kharkivjslogo.png" title="Kharkiv JavaScript Conference" /></a>
-                </td>              
-                <td>
-                  <a href="http://scrumguides.com.ua/"><img src="images/SG-logo.png" title="SCRUMguides - guiding teams to Agile since 2007 | TRAININGS. COACHING. MAGIC" /></a>
-                </td>
-                <td>
-                  <a href="http://dou.ua/"><img style="margin-left:20px" src="images/partners/dou.png" title="DOU" /></a>
-                </td>
-                <td>
-                  <a href="http://itstep.org/"><img style="margin-left:20px" src="images/shag.png" title="Компьютерная академия ШАГ" /></a>
-                </td>
-              </tr>
-            </table>
+            <div class="conf-friends">
+              <div class="friends-title"><h4>Наши друзья</h4></div>
+              <table class="friends-logos">
+                <tr>
+                  <td>
+                    <a href="http://kyivjs.org.ua"><img src="images/kyivjs-logo.png" alt="Front-end developers conference in Kyiv, Ukraine"></a>
+                  </td>
+                  <td>
+                    <a href="http://lvivjs.org.ua/"><img src="images/lvivjs.png" alt="LvivJS - конференція для Front-End розробників в рамках циклу конференцій CityJS."></a>
+                  </td>
+                  <td>
+                    <a href="http://kharkivjs.com/"><img src="images/kharkivjslogo.png" alt="Kharkiv JavaScript Conference"></a>
+                  </td>
+                  <td>
+                    <a href="http://scrumguides.com.ua/"><img src="images/SG-logo.png" alt="SCRUMguides - guiding teams to Agile since 2007 | TRAININGS. COACHING. MAGIC"></a>
+                  </td>
+                  <td>
+                    <a href="http://dou.ua/"><img style="margin-left:20px" src="images/partners/dou.png" alt="DOU"></a>
+                  </td>
+                  <td>
+                    <a href="http://itstep.org/"><img style="margin-left:20px" src="images/shag.png" alt="Компьютерная академия ШАГ"></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
           </div>
-
         </div>
-
-        <div class="copyright">
-          &copy; OdessaJS 2013-2014, <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a>
+      </div>
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="copy">
+            &copy; OdessaJS 2013-2014, <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a>
+          </div>
         </div>
+      </footer>
 
-    </div> <!-- /container -->
+      <img src="images/logo.png" alt="OdessaJS" style="display:none;">
+
+    </div>
 
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
   </body>
 </html>

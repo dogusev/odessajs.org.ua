@@ -1,0 +1,264 @@
+@import "mixins.less";
+@import "reset.less";
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: @textColor;
+}
+
+.main-wrapper {
+  height: auto !important;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-width: 1000px;
+  .bg('background.jpg');
+  background-position: center 0;
+  background-color: @bodyBgColor;
+}
+
+.wrapper,
+section {
+  .clear;
+  .box;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.conf-title {
+  margin: 30px 0;
+  font-size: 25px;
+  line-height: 41px;
+  color: @titleColor;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  span {
+    .iblock;
+    background: @titleBgColor;
+    width: 240px;
+  }
+}
+
+.conf-desc {
+  margin: 56px 10px 0;
+  .bg('bg_text.png');
+  background-repeat: repeat;
+  text-align: center;
+  padding-bottom: 30px;
+  border: 2px solid @lightColor;
+}
+
+.menu-bg {
+  position: absolute;
+  top: -45px;
+  left: -25px;
+  .bg('ribbon_main_menu.png');
+  width: 1010px;
+  height: 200px;
+  z-index: 1;
+}
+
+.conf-desk-title {
+  padding-top: 60px;
+  margin: 0 40px 10px;
+  font-size: 40px;
+  line-height: 40px;
+  position: relative;
+  .conf-2013 {
+    position: absolute;
+    top: -56px;
+    z-index: 1;
+    right: 0;
+    font-size: 16px;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.conf-desk {
+  .clear;
+  padding-top: 40px;
+  .date-info {
+    font-size: 40px;
+    line-height: 27px;
+    color: @eventDateColor;
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    font-weight: bold;
+  }
+  .date {
+    float: left;
+    text-align: right;
+  }
+  .time {
+    padding-top: 8px;
+    float: right;
+    text-align: left;
+  }
+}
+
+.conf-register {
+  text-align: center;
+  width: 485px;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 20px auto;
+}
+
+.conf-desc-text-about {
+  font-size: 20px;
+  line-height: 40px;
+
+  .item {
+    .iblock;
+    margin-left: 55px;
+    a {
+      position: relative;
+    }
+  }
+
+  .icon {
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    left: -40px;
+    top: -3px;
+    &.twt-icon {
+      .bg('icon_twitter.png');
+    }
+    &.mail-icon {
+      .bg('icon_mail.png');
+    }
+    &.fb-group {
+      .bg('icon_facebook.png');
+    }
+  }
+}
+
+.conf-schedule {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.conf-reps-join {
+  text-align: center;
+  color: @lightColor;
+  a {
+    color: @lightColor;
+  }
+}
+
+.conf-partners {
+  background-color: @confPartnersBgColor;
+  border: 2px solid @lightColor;
+}
+
+.conf-partners-elements {
+  text-align: center;
+  margin-bottom: 80px;
+  h2 {
+    margin-top: 80px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.conf-partners-join {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conf-place {
+  margin-bottom: 40px;
+}
+
+.conf-place-text {
+  color: @lightColor;
+  text-align: center;
+}
+
+.conf-orgteam {
+  .bg('bg_organizers.png');
+  background-repeat: repeat;
+  margin-top: 20px;
+  border: 2px solid @lightColor;
+}
+
+.conf-orgteam-elements {
+  padding: 10px 50px 40px;
+  .box;
+  .clear;
+  .item {
+    float: left;
+    width: 50%;
+  }
+}
+
+.conf-orgteam-one {
+  .bg('spraite_organizers.png');
+  width: 140px;
+  height: 140px;
+  margin-right: 10px;
+  float: left;
+
+  &.artyomtrityak {
+    background-position: 0 0;
+    &:hover {
+      background-position: 0 -140px;
+    }
+  }
+
+  &.cherniak {
+    background-position: -140px 0;
+    &:hover {
+      background-position: -140px -140px;
+    }
+  }
+}
+
+.conf-orgteam-one-descr {
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 22px;
+  .title {
+    font-size: 20px;
+    color: @orgteamTitleColor;
+  }
+}
+
+.conf-friends {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.friends-title {
+  font-size: 18px;
+}
+
+.friends-logos {
+  td {
+    width: 15%;
+    padding: 20px 0 0;
+  }
+  img {
+    height: 60px;
+  }
+}
+
+.copy {
+  text-align: center;
+  color: @lightColor;
+  padding: 30px 0;
+  a {
+    color: @lightColor;
+  }
+}
