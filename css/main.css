@@ -84,6 +84,12 @@ section:after {
   height: 200px;
   z-index: 1;
 }
+.menu-bg .menu-item {
+  position: absolute;
+  top: 30px;
+  color: #FFF;
+  font-size: 22px;
+}
 .conf-desk-title {
   padding-top: 60px;
   margin: 0 40px 10px;
