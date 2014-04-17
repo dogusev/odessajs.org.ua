@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
     <title>OdessaJS - Конференция для front-end разработчиков в Одессе</title>
@@ -10,7 +10,7 @@
     <meta name="author" content="Vasiliy Eysmont">
 
     <!-- Le styles -->
-    <link rel="stylesheet" media="screen" href="css/main.css?0404201401" >
+    <link rel="stylesheet" media="screen" href="css/main.css?1704201401" >
 
     <link rel="shortcut icon" href="images/favicon.png">
 
@@ -30,7 +30,7 @@
         <div class="wrapper">
           <div class="conf-desc">
             <div class="menu-bg">
-              <img src="images/logojs2.png" style="position: absolute; left: 400px; top: 10px" />
+              <img src="images/logojs2.png" class="logo" width="200" height="200">
               <a class="menu-item" style="left: 100px;" href="#conf-schedule">Доклады</a>
               <a class="menu-item" style="left: 235px;" href="#conf-partners">Партнеры</a>
               <a class="menu-item" style="left: 660px;" href="#conf-place">Место</a>
@@ -77,8 +77,8 @@
           <div class="conf-schedule" id="conf-schedule">
             <div class="conf-title">
               <span class="head">Доклады</span>
-              <div style="margin-top: 40px;">
-              
+              <div class="speakers-list">
+
                 <div class="speaker">
                   <div class="photo ksenia"></div>
                   <div class="description">
@@ -87,7 +87,7 @@
                     <span class="speak">Что-то о D3</span>
                   </div>
                 </div>
-                
+
                 <div class="speaker">
                   <div class="photo invgvar"></div>
                   <div class="description">
@@ -105,7 +105,7 @@
                     <span class="speak">Building Realtime WebApps with XMPP</span>
                   </div>
                 </div>
-                
+
                 <div class="speaker">
                   <div class="photo agafonkin"></div>
                   <div class="description">
@@ -190,8 +190,6 @@
                   </div>
                 </div>
 
-                <div style="clear:both" />
-
               </div>
 
 
@@ -221,12 +219,12 @@
                 <br/><br/>
 
                 Мы рады сообщить вам о том, что OdessaJS пройдет в прекрасном месте совсем рядышком с морем - в конференц- холле ОК «Одесса».<br/><br/>
-   
+
                 Гостиница ОК «Одесса», расположенная в самом сердце Аркадии, идеально подходит как для деловой поездки, так и для отдыха. Находится всего в нескольких шагах от пляжа Аркадия по адресу: Гагаринское плато, 5 .
                 Расстояние до ж/д вокзала – 5 км., до аэропорта – 9 км.<br/><br/>
                 <div class="conf-place-map-container">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d10999.143712008134!2d30.75697737847901!3d46.43312248145069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x40c63197c55747bf%3A0x19e26a38498a2772!2zItCe0Jog0J7QtNC10YHRgdCwIiwg0JPQsNCz0LDRgNGW0L3RgdGM0LrQuNC5INC_0YDQvtCyLiwgNSwg0J7QtNC10YHQsCwg0KPQutGA0LDQuNC90LA!3m2!1d46.433198999999995!2d30.761782999999998!5e0!3m2!1sru!2sus!4v1397716422966" width="800" height="450" frameborder="0" style="border:0"></iframe>
-                  
+
                 </div>
               </div>
             </div>
@@ -293,13 +291,44 @@
           <div class="copy">
             &copy; OdessaJS 2013-2014, <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a>
           </div>
+          <div class="to-top">
+            <div class="top-button"></div>
+          </div>
         </div>
       </footer>
 
-      <img src="images/logo.png" alt="OdessaJS" style="display:none;">
+      <img src="images/logojs2.png" alt="OdessaJS" style="display:none;">
 
     </div>
 
     <script src="js/jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.to-top').on('click', function(){
+          $('html, body').animate({
+            scrollTop: 0
+          }, 500);
+        });
+
+        $('.menu-item').click(function() {
+            var elementHref = $(this).attr('href');
+            var destination = $(elementHref).offset().top - 30;
+            $('html, body').animate({
+                scrollTop: destination
+            }, 800);
+            return false;
+        });
+      });
+
+      $(window).on('scroll', function(event) {
+        if (this.pageYOffset > 250) {
+          $('.to-top').show();
+        } else {
+          $('.to-top').hide();
+        }
+      });
+    </script>
+
+    <!-- todo: add google analitics -->
   </body>
 </html>
