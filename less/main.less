@@ -15,9 +15,10 @@ body {
   overflow: hidden;
   position: relative;
   min-width: 1000px;
-  .bg('background.jpg');
+  .bg('odessajs_backok2.jpg');
   background-position: center 0;
   background-color: @bodyBgColor;
+  background-repeat: repeat-y;
 }
 
 .wrapper,
@@ -36,7 +37,7 @@ section {
   color: @titleColor;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
-  span {
+  .head {
     .iblock;
     background: @titleBgColor;
     width: 240px;
@@ -155,15 +156,29 @@ section {
 
   .speaker {
     float: left;
-    margin-right: 40px;
-    margin-bottom: 60px;
+    margin: 0 20px;
+    width: 275px;
+    height: 350px;
     .description {
       font-size: 16px;
+      line-height: 16px;
+      .name {
+        font-weight: bold;
+      }
+
+      .speak {
+        font-size: 16px;
+        
+      }
     }
+
+    
 
     .photo {
       width: 200px;
       height: 200px;
+      display: inline-block;
+      margin: 0 auto;
 
       &.ksenia {
         background: data-uri('../images/bw/Ksenia_Redunova.png') no-repeat 0 0 transparent;
@@ -219,10 +234,10 @@ section {
           background: data-uri('../images/col/eldar_djafarov.png') no-repeat 0 0 transparent;
         }
       }
-      &.puchnina {
-        background: data-uri('../images/bw/Julia_Puchnina.jpg') no-repeat 0 0 transparent;
+      &.vadim {
+        background: data-uri('../images/bw/vadim.jpg') no-repeat 0 0 transparent;
         &:hover {
-          background: data-uri('../images/col/Julia_Puchnina.png') no-repeat 0 0 transparent;
+          background: data-uri('../images/col/vadim.jpg') no-repeat 0 0 transparent;
         }
       }
       &.listochkin {
@@ -313,23 +328,22 @@ section {
 }
 
 .conf-orgteam-one {
-  .bg('spraite_organizers.png');
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   margin-right: 10px;
   float: left;
 
   &.artyomtrityak {
-    background-position: 0 0;
+    background: data-uri('../images/bw/Artyom_Trityak.png') no-repeat 0 0 transparent;
     &:hover {
-      background-position: 0 -140px;
+      background: data-uri('../images/col/Artyom_Trityak.png') no-repeat 0 0 transparent;
     }
   }
 
   &.cherniak {
-    background-position: -140px 0;
+    background: data-uri('../images/bw/For-website_Julia-Cherniak.jpg') no-repeat 0 0 transparent;
     &:hover {
-      background-position: -140px -140px;
+      background: data-uri('../images/col/For-website_Julia-Cherniak.png') no-repeat 0 0 transparent;
     }
   }
 }
