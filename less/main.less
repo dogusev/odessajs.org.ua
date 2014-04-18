@@ -184,6 +184,17 @@ section {
       height: 200px;
       display: inline-block;
       margin: 0 auto;
+      position: relative;
+
+      &.workshop:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 55px;
+        height: 100px;
+        background: data-uri('../images/workshop.png') no-repeat 0 0 transparent;
+      }
 
       &.ksenia {
         background: data-uri('../images/bw/Ksenia_Redunova.png') no-repeat 0 0 transparent;
