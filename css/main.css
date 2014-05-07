@@ -456,3 +456,10 @@ section:after {
   clear: both;
   visibility: hidden;
 }
+.where-stay {
+  margin-top: 60px;
+}
+.where-stay a {
+  color: #f8eecf;
+  text-decoration: underline;
+}
