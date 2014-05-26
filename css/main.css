@@ -474,8 +474,9 @@ section:after {
 }
 .where-stay {
   margin-top: 60px;
+  color: black;
 }
 .where-stay a {
-  color: #f8eecf;
+  color: black;
   text-decoration: underline;
 }
