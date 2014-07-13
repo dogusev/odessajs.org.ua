@@ -203,6 +203,14 @@ section:after {
 .conf-schedule .speaker .description .speak {
   font-size: 16px;
 }
+.conf-schedule .speaker .description a,
+.conf-schedule .speaker .description a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.conf-schedule .speaker .description a:hover {
+  text-decoration: none;
+}
 .conf-schedule .speaker .photo {
   width: 200px;
   height: 200px;
