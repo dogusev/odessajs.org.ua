@@ -29,3 +29,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['watch', 'less']);
+gulp.task('build', ['less']);
