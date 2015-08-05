@@ -80,15 +80,18 @@
     var speak = element.find('.speak').text();
     var more = element.find('.more').text();
     var modal = $(document.createElement('div'));
+    var transliteratedName = transliterate(name).replace(/\s/g, '-');
 
-    element.attr('data-remodal-target', transliterate(name).replace(/\s/g, '-'));
+    element.attr('data-remodal-target', transliteratedName);
 
     modal
       .addClass('remodal')
-      .attr('data-remodal-id', transliterate(name).replace(/\s/g, '-'))
+      .attr('data-remodal-id', transliteratedName)
       .append($(document.createElement('button')).attr('data-remodal-action', 'close').addClass('remodal-close'))
-      .append($(document.createElement('h1')).text(name))
-      .append($(document.createElement('p')).text(speak))
+      .append($(document.createElement('h2')).text(name))
+      .append($(document.createElement('br')))
+      .append($(document.createElement('h3')).text(speak))
+      .append($(document.createElement('br')))
       .append($(document.createElement('p')).text(more));
 
     $('body').append(modal);
