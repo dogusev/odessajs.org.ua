@@ -1,11 +1,12 @@
-var gulp = require('gulp'),
-    less = require('gulp-less'),
-    watch = require('gulp-watch'),
-    plumber = require('gulp-plumber'),
-    livereload = require('gulp-livereload');
+var gulp = require('gulp');
+var less = require('gulp-less');
+var watch = require('gulp-watch');
+var plumber = require('gulp-plumber');
+var livereload = require('gulp-livereload');
 
 gulp.task('less', function () {
-  gulp.src('./less/main.less')
+  return gulp
+    .src('./less/main.less')
     .pipe(less())
     .pipe(plumber())
     .pipe(gulp.dest('./css'))
@@ -13,19 +14,22 @@ gulp.task('less', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src('./css/index.css')
+  return gulp
+    .src('./css/main.css')
     .pipe(livereload())
 });
 
 gulp.task('html', function () {
-  gulp.src('./*.html')
+  return gulp
+    .src('./*.html')
     .pipe(livereload())
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('./less/*.less', ['less']);
   gulp.watch('./css/*.css', ['css']);
   gulp.watch('./*.html', ['html']);
 });
 
 gulp.task('default', ['watch', 'less']);
+gulp.task('build', ['less']);

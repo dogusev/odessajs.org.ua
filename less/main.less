@@ -93,6 +93,7 @@ section {
     }
   }
 }
+
 .conf-desk {
   .clear;
   padding-top: 40px;
@@ -168,6 +169,7 @@ section {
     margin: 0 20px;
     width: 275px;
     height: 350px;
+    cursor: pointer;
     .description {
       font-size: 16px;
       line-height: 16px;
@@ -179,6 +181,10 @@ section {
         font-size: 16px;
       }
 
+      .more {
+        display: none;
+      }
+
       a, a:hover {
         color: white;
         text-decoration: underline;
@@ -187,8 +193,6 @@ section {
         text-decoration: none;
       }
     }
-
-
 
     .photo {
       width: 200px;
@@ -237,7 +241,7 @@ section {
         background: data-uri('../images/bw/dima-i-zheka.jpg') no-repeat 0 0 transparent;
         &:hover {
           background: data-uri('../images/col/dima-i-zheka.jpg') no-repeat 0 0 transparent;
-        }  
+        }
       }
       &.tatarincev {
         background: data-uri('../images/bw/tatarincev.jpg') no-repeat 0 0 transparent;
@@ -366,8 +370,6 @@ section {
         }
       }
 
-
-
     }
   }
 }
@@ -492,6 +494,7 @@ section {
   left: -30px;
   display: none;
 }
+
 .top-button {
   .bg('button_top.png');
   cursor: pointer;
