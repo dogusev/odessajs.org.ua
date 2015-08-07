@@ -19,6 +19,9 @@ body {
   background-position: center -1659px;
   background-color: @bodyBgColor;
   background-repeat: repeat-y;
+  @media screen and (max-width: 1000px) {
+    min-width: auto;
+  }
 }
 
 .wrapper,
@@ -28,6 +31,9 @@ section {
   width: 960px;
   margin: 0 auto;
   position: relative;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 }
 
 .conf-title {
@@ -51,6 +57,10 @@ section {
   text-align: center;
   padding-bottom: 30px;
   border: 2px solid @lightColor;
+  @media screen and (max-width: 1000px) {
+    position: relative;
+    padding-top: 110px;
+  }
 }
 
 .menu-bg {
@@ -73,6 +83,19 @@ section {
     left: 400px;
     top: 10px;
   }
+  @media screen and (max-width: 1000px) {
+    background: none;
+    width: 100%;
+    left: 0;
+    top: -65px;
+    .logo {
+      left: 50%;
+      margin-left: -100px;
+    }
+    .menu-item {
+      display: none;
+    }
+  }
 }
 
 .conf-desk-title {
@@ -91,6 +114,13 @@ section {
     &:hover {
       text-decoration: none;
     }
+    @media screen and (max-width: 720px) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+    line-height: 32px;
   }
 }
 
@@ -109,11 +139,21 @@ section {
   .date {
     float: left;
     text-align: right;
+    @media screen and (max-width: 720px) {
+      float: none;
+      text-align: center;
+      width: auto;
+    }
   }
   .time {
     padding-top: 8px;
     float: right;
     text-align: left;
+    @media screen and (max-width: 720px) {
+      float: none;
+      text-align: center;
+      width: auto;
+    }
   }
 }
 
@@ -124,6 +164,9 @@ section {
   line-height: 40px;
   padding: 0;
   margin: 20px auto;
+  @media screen and (max-width: 500px) {
+    width: auto;
+  }
 }
 
 .conf-desc-text-about {
@@ -133,6 +176,9 @@ section {
   .item {
     .iblock;
     margin-left: 55px;
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
     a {
       position: relative;
     }
@@ -157,6 +203,9 @@ section {
       .bg('vk_icon.png');
       background-position: -10px -10px;
     }
+  }
+  @media screen and (max-width: 720px) {
+    padding: 0 10px;
   }
 }
 
@@ -370,6 +419,20 @@ section {
         }
       }
     }
+    @media screen and (max-width: 1000px) {
+      width: 33.3%;
+      .box;
+      height: auto;
+      min-height: 365px;
+    }
+    @media screen and (max-width: 720px) {
+      width: 50%;
+      min-height: 350px;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      min-height: auto;
+    }
   }
 
   .speaker:hover {
@@ -404,6 +467,16 @@ section {
       margin-top: 0;
     }
   }
+  @media screen and (max-width: 480px) {
+    a {
+      margin: 5px 0 !important;
+    }
+    img {
+      margin: 0px !important;
+      max-width: 100%;
+      height: auto !important;
+    }
+  }
 }
 
 .conf-partners-join {
@@ -418,6 +491,9 @@ section {
 .conf-place-text {
   color: @lightColor;
   text-align: center;
+  @media screen and (max-width: 1000px) {
+    padding: 0 10px;
+  }
 }
 
 .conf-orgteam {
@@ -434,6 +510,19 @@ section {
   .item {
     float: left;
     width: 50%;
+    text-align: right;
+    &:first-child {
+      text-align: left;
+    }
+    @media screen and (max-width: 940px) {
+      width: auto;
+      float: none;
+      .clear;
+      padding: 10px 0;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px 10px 20px;
   }
 }
 
@@ -452,9 +541,22 @@ section {
 
   &.cherniak {
     background: data-uri('../images/bw/For-website_Julia-Cherniak.jpg') no-repeat 0 0 transparent;
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
     &:hover {
       background: data-uri('../images/col/For-website_Julia-Cherniak.png') no-repeat 0 0 transparent;
     }
+  }
+  @media screen and (max-width: 500px) {
+    width: 150px;
+    height: 150px;
+    background-size: contain !important;
+  }
+  @media screen and (max-width: 380px) {
+    width: 120px;
+    height: 120px;
+    background-size: contain !important;
   }
 }
 
@@ -466,6 +568,12 @@ section {
   .title {
     font-size: 20px;
     color: @orgteamTitleColor;
+  }
+  @media screen and (max-width: 720px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
   }
 }
 
@@ -482,9 +590,20 @@ section {
   td {
     width: 15%;
     padding: 20px 0 0;
+    @media screen and (max-width: 840px) {
+      float: left;
+      width: auto;
+    }
+    @media screen and (max-width: 640px) {
+      float: left;
+      width: 100%;
+    }
   }
   img {
     height: 60px;
+    @media screen and (max-width: 840px) {
+      margin: 0 !important;
+    }
   }
 }
 
@@ -510,6 +629,9 @@ section {
   height: 59px;
   position: fixed;
   bottom: 20px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .speakers-list {
