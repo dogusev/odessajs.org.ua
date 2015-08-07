@@ -39,7 +39,7 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .main-wrapper {
-    min-width: auto;
+    min-width: 0;
   }
 }
 .wrapper,
