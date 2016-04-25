@@ -1,773 +1,217 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>OdessaJS - Конференция для front-end разработчиков в Одессе</title>
-
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="Конференция для Front-end, JavaScript разработчиков в Одессе">
-
-  <!-- Le styles -->
-  <link rel="stylesheet" href="./css/vendor/remodal.css"/>
-  <link rel="stylesheet" href="./css/vendor/remodal-default-theme.css"/>
-  <link rel="stylesheet" media="screen" href="css/main.css?1704201401">
-  <link rel="shortcut icon" href="images/favicon-01.png">
-
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <meta property="og:image" content="http://odessajs.org/images/logo.png">
-  <meta property="og:title" content="OdessaJS - 22 Августа 2015, UA Frontend Conference">
-  <meta property="og:url" content="http://odessajs.org/">
-  <meta property="og:type" content="article"/>
-  <meta property="og:description" content="OdessaJS - Август 22 2015, UA Frontend Conference">
+	<title>OdessaJS</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-<div class="main-wrapper">
-  <header class="header">
-    <div class="wrapper">
-      <div class="conf-desc">
-        <div class="menu-bg">
-          <img src="images/logojs2.png" class="logo" width="200" height="200">
-          <a class="menu-item" style="left: 100px;" href="#conf-schedule">Доклады</a>
-          <a class="menu-item" style="left: 235px;" href="#conf-partners">Партнеры</a>
-          <a class="menu-item" style="left: 660px;" href="#conf-place">Место</a>
-          <a class="menu-item" style="left: 760px;" href="#conf-orgteam">Организаторы</a>
-        </div>
-        <div class="conf-desk">
-          <div class="date-info date">
-            22<br>августа
-          </div>
-          <div class="date-info time">
-            10:00
-          </div>
-        </div>
-
-        <div class="conf-desk-title">
-          <a href="2013/index.html" class="conf-2013">OdessaJS 2013</a>
-          <a href="2014/index.html" class="conf-2013" style="top:-30px">OdessaJS 2014</a>
-          OdessaJS 2015 <br>
-          Время собраться вместе и оторваться <br> в Одессе
-          <br/>
-              <span style="font-size: 20px; line-height: 10px;">
-                Препати с докладами - 21 августа в 18-00 в <a href="http://dataart.ua/contacts/odessa/" style="text-decoration:underline">офисе компании DataArt</a> <br/><br/>
-                Главный день конференции 22 августа с 10:00 в <a href="http://ok-odessa.com/contact.php" style="text-decoration:underline">ОК Одесса</a> <br/><br/>
-                Afterparty в летнем <a style="text-decoration:underline" href="https://vk.com/true_man_musicclub">True Man Hot Boat (пляж Дельфин)</a> с 20:00 <br/><br/>
-                Второй день конференции 23 августа в летнем <a href="https://vk.com/true_man_musicclub" style="text-decoration:underline">True Man Hot Boat (пляж Дельфин)</a> с 10:30 
-              </span>
-        </div>
-
-        <div class="conf-register">
-          <a href="https://odessajs2015.ticketforevent.com/" style="color: red; text-decoration: underline">
-            Купить билеты
-          </a>
-        </div>
-
-        <div class="conf-desc-text-about">
-          <div>Только модное и современное - будь в тренде</div>
-          <div class="links">
-            <div class="item"><a href="https://twitter.com/OdessaJS"><span class="icon twt-icon"></span>@OdessaJS</a>
-            </div>
-            <div class="item"><a href="mailto:odessajsconf@gmail.com"><span class="icon mail-icon"></span>odessajsconf@gmail.com</a>
-            </div>
-            <div class="item"><a href="https://www.facebook.com/odessajs"><span
-              class="icon fb-group"></span>Facebook</a></div>
-            <div class="item"><a href="https://vk.com/public71431820"><span class="icon vk-group"></span>ВК</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="body">
-    <div class="wrapper">
-      <div class="conf-schedule" id="conf-schedule">
-        <div class="conf-title">
-          <span class="head">Доклады</span>
-
-          <div class="speakers-list">
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/valentyn_gde1.jpg');"></div>
-              <div class="description">
-                <span class="name">Валентин Шибанов</span>
-                <br><br>
-                <span class="speak"><a href="http://olostan.github.io/slides_ng2arch/#1">Angular 2.0: Architectures behind it</a></span>
-                <span class="more">
-                  Angular 2.0 and Angular 1.0 have significant differences - ES6, rendering, dirty-checking etc.
-                  During this talk we’ll dive into reasons behind making each of these decisions.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/voronchuk.png');"></div>
-              <div class="description">
-                <span class="name">Вячеслав Ворончук</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/voroncuk/meteor-modules-52222480">Структура проекта и разработка модулей на Meteor.js</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-
-            <div class="speaker">
-              <div class="photo trityak workshop"></div>
-              <div class="description">
-                <span class="name">Артем Тритяк</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/arttrityak/react-native-52196237">React Native: инфраструктура, компоненты, Webpack, Flux и другие наркотики</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo ksenia"></div>
-              <div class="description">
-                <span class="name">Ксения Редунова</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/redunova/marionettejs-shall-we-dance">Marionette. Shall we dance?</a></span>
-                <span class="more">
-                  Обзор библиотеки Marionette, которая расширяет и структурирует Backbone-приложения.
-                  Модульная и событийная архитектура.
-                  Особенности marionette views: Regions & Layouts.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo listochkin"></div>
-              <div class="description">
-                <span class="name">Андрей Листочкин</span>
-                <br><br>
-                <span class="speak"><a href="https://speakerdeck.com/listochkin/ember-plus-redux-odessa-js-2015">Ember+Redux - вместе веселей</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/kriachko.jpg');"></div>
-              <div class="description">
-                <span class="name">Андрей Кучеренко и Максим Крячко</span>
-                <br><br>
-                <span class="speak"><a href="http://slides.com/andreykucherenko/deck-11#/">Connect physical world to the Internet with JavaScript</a></span>
-                <span class="more">
-                  В докладе пойдет речь о быстроразвивающейся отрасли называемой Internet of Things, мы расскажем о том, что это такое, чем и для кого это может быть интересно.
-                  Приведем примеры интересных и амбициозных проектов таких как Intel Edison, Raspberry Pi, Sphero.
-                  Расскажем о популярном javascript фреймворке cylon.js, покажем примеры кода, который запустим на наших девайсах.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/segeda.jpg');"></div>
-              <div class="description">
-                <span class="name">Илья Сегеда ака Альфер</span>
-                <br><br>
-                <span class="speak"><a href="http://alf-er.github.io/odessajs2015/#/home">React, Flux и правильные абстракции</a></span>
-                <span class="more">
-                  Какие идеи лежат в основе React'а.
-                  Как его разработчики пришли к этим идеям.
-                  Почему абстракции которые используются в React'е значительно облегчают разработку интерфейсов приложений.
-                  Какие идеи лежат в основе Flux.
-                  Почему идеи используемые в Flux значительно облегчают разработку и поддержку приложений.
-                  Как взаимодействуют React и Flux и какие это взаимодействие даёт преимущество.
-                  Доклад будет интересен тем кто хочет понять принципы работы React и Flux и расчитан на любой уровень frontend девелоперов.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/raspopov.jpg');"></div>
-              <div class="description">
-                <span class="name">Алексей Распопов</span>
-                <br><br>
-                <span
-                  class="speak"><a href="http://alexeyraspopov.github.io/talks/first-class-programming/">Новая жизнь с декларативным программированием и first-class структурами programming</a></span>
-                <span class="more">
-                  Нам (разработчикам) понадобилось несколько десятилетий чтобы избавиться от оператора goto.
-                  Императивное программирование захватив мир тормозит прогресс и усложняет код любого приложения.
-                  В этом докладе я хочу рассказать о подходе, который позволяет описывать многие вещи в декларативном, более удобном виде.
-                  Поговорим о высокой материи, функциональщине и прочем.
-                </span>
-              </div>
-            </div>
-
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/valentyn_gde1.jpg');"></div>
-              <div class="description">
-                <span class="name">Валентин Шибанов</span>
-                <br><br>
-                <span class="speak"><a href="http://olostan.github.io/slides_kubernode/#1">Cloud Development with NodeJS</a></span>
-                <span class="more">
-                  Packing NodeJS app into docker container is just a first step to become a “cloud-ready”.
-                  During this session we will make all steps from simplest NodeJS “helloworld” to microservice-based application, managed by Kubernetes.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/zakharchenko.jpg');"></div>
-              <div class="description">
-                <span class="name">Артем Захарченко</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/ssuserd67606/background-js">Пацаны, го в бекграунд</a></span>
-                <span class="more">
-                  У Вас толстые клиенты, куча логики и тормозов, вы обрабатываете кучу данных на клиенте, тогда background scripting идет к Вам.
-                  Мы поговорим о том как, зачем и когда необходимо использовать WebWorkers, вспомним о Shared Workers, а также рассмотрим Service Workers, одно из самых свежих веяний в последнего времени.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/zoz.png');"></div>
-              <div class="description">
-                <span class="name">Виктор Зозуляк</span>
-                <br><br>
-                <span class="speak">Service Worker - Bringing Native App Experience To Web Apps</span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/kasianenko.jpg');"></div>
-              <div class="description">
-                <span class="name">Илья Касьяненко</span>
-                <br><br>
-                <span class="speak">WebRTC - real-tim​e communications</span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/kira.jpg');"></div>
-              <div class="description">
-                <span class="name">Юля Пучнина</span>
-                <br><br>
-                <span class="speak"><a href="https://docs.google.com/presentation/d/1wMIUhtinLlFR7nT6hNX5QfhrUcxU77CKESWRQBFoHS8/edit">Интерактивная графика: многопользовательские приложения на Paper.js</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/mikola.png');"></div>
-              <div class="description">
-                <span class="name">Николай Беличук</span>
-                <br><br>
-                <span class="speak"><a href="https://speakerdeck.com/belichuk/frontend-security">Front-end Security</a></span>
-                <span class="more">
-                  В последнее время все больше бизнес логики выносится на фронтенд.
-                  А ведь эта логика зачастую исполняется при помощи Javascript.
-                  Любой человек может открыть исходный код и при наличии определенных навыков найти уязвимые места в системе, а возможно даже и модифицировать некоторые участки кода без прямого воздействия на серверную платформу.
-                  В данном докладе будут затронуты client-side атаки, а также способы их предотвращения.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/kuch.jpg');"></div>
-              <div class="description">
-                <span class="name">Андрей Кучеренко</span>
-                <br><br>
-                <span class="speak"><a href="http://slides.com/andreykucherenko/deck-9-10#/">Разработка через тестирование на Javascript</a></span>
-                <span class="more">
-                  В этом докладе я рассажу о tdd в javascript проектах.
-                  В начале я сделаю короткое введение в TDD, расскажу о преимуществах, сопутствующих полезных практиках и инструментах.
-                  Затем я расскажу о инструментах в JavaScript, о фреймвоках для написания тестов, отчетах о покрытии, мутационном тестировании.
-                  И в конце я смогу поделиться опытом моих предыдущих 5-7 проектов с TDD на javascript.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/malenko.png');"></div>
-              <div class="description">
-                <span class="name">Дима Малеев</span>
-                <br><br>
-                <span class="speak">Учи разные языки! Будь мужиком, Карл</span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo workshop" style="background-image: url('images/2015/yandex.png');"></div>
-              <div class="description">
-                <span class="name">Сергей Бережной</span>
-                <br><br>
-                <span class="speak"><a href="https://veged.github.io/odessajs-bem/">Мастер-класс: строим сервис по БЭМ</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/ashva.jpg');"></div>
-              <div class="description">
-                <span class="name">Алексей Швайка</span>
-                <br><br>
-                <span class="speak"><a href="https://docs.google.com/presentation/d/1jcGSA2WEqh81uMO-3IBSX-LKOjA8jSVwyAsIIA96_ec/edit?pli=1#slide=id.p">Chrome internals & rendering performance</a></span>
-                <span class="more">
-                  Будем говорить про то как организована разработка Chromium, какие есть команды программистов и как в ней поучавствовать, а также про многопроцессорную архитектуру (1 вкладка != 1 процесс), рендеринг и композитинг. Я постараюсь дать конкретные советы по улучшению производительности анимаций и расскажу как правильно использовать will-change.
-
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/obrezkov.jpeg');"></div>
-              <div class="description">
-                <span class="name">Евгений Обрезков</span>
-                <br><br>
-                <span class="speak"><a href="https://medium.com/@ghaiklor/how-nodejs-works-bfe09efc80ca">Как устроен NodeJS (V8, libuv, async, bindings)</a></span>
-                <span class="more">
-                  Поговорим с вами о том, как NodeJS устроен изнутри.
-                  Расскажу немного о виртуальных машинах.
-                  Каким образом мы получаем доступ к низкоуровневому API с JavaScript контекста.
-                  require() - это не только JavaScript код или как происходит подключение модулей.
-                  Приходите, будет хардкор, холивар и немножко С++ :)
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('images/2015/philip.jpg');"></div>
-              <div class="description">
-                <span class="name">Филип Шурпик</span>
-                <br><br>
-                <span class="speak"><a href="https://www.dropbox.com/s/37ejdwmswt9vlv8/ReactNativeReflux%20v3%20OdessaJS.pptx?dl=0">React Native & Reflux - how to share code between web and mobile apps</a></span>
-                <span class="more">
-                  Introduction into React Native and it’s features.
-                  Some words about how React Native works.
-                  And dive into details (building app, debugging).
-                  Sharing code between React and React Native with Reflux architecture - show example of application -> dive into code.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/pshinko.jpg');"></div>
-              <div class="description">
-                <span class="name">Юля Пшинко</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/YuliP1/12-frontend/1">12 ошибок Frontend разработчика или как оптимизировать готовый продукт</a></span>
-                <span class="more">
-                  Ошибки производительности и юзабилити больших коммерческих проектов или возможности, которые они упускают, на конкретных примерах.
-                  Обязательные компоненты успешных Home, Basket и Subscription Page.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/vandakurov.jpg');"></div>
-              <div class="description">
-                <span class="name">Андрей Вандакуров</span>
-                <br><br>
-                <span class="speak"><a href="http://www.slideshare.net/ssuser0e4922/webpack-slides-51907869">The new rock star of build tools – WebPack</a></span>
-                <span class="more">
-                  This topic about WebPack build tool that tell you why you are missing a lot while not using it.
-                  I will tell you about pros and cons and try to show advantages on a simple project with comparison with other build tools, like Grunt and Gulp.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/ostapchuk.png');"></div>
-              <div class="description">
-                <span class="name">Маргарита Остапчук</span>
-                <br><br>
-                <span class="speak">Whoa, I can test Microsoft Edge on a Mac and Linux</span>
-                <span class="more">
-                  OS X і Linux - дві популярних операційні системи серед веб-розробників.
-                  Інколи виникає необхідність тестуванння на IE чи у новому браузері Microsoft Edge прямо з цих операційних систем.
-                  Ми поговоримо про теперішній стан MIcrosoft Edge, підтримку ES6 стандартів, про способи, що доступні для тестування на цьому браузері на OS X і Linux та про нові інструменти, які пропонують розширені можливості тестування мобільних браузерів.
-                </span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/pozniak.jpg');"></div>
-              <div class="description">
-                <span class="name">Андрей Позняк</span>
-                <br><br>
-                <span class="speak"><a href="https://docs.google.com/presentation/d/1CZAyGW9XsyZWt__thSQsSAst98MzbxOOA_Ef0bXGVrU/edit#slide=id.p">Применяем однонаправленный поток данных за пределами экосистемы ReactJS</a></span>
-                <span class="more"></span>
-              </div>
-            </div>
-
-            <div class="speaker">
-              <div class="photo" style="background-image: url('./images/2015/shemsedinov.jpg');"></div>
-              <div class="description">
-                <span class="name">Тимур Шемсединов</span>
-                <br><br>
-                <span class="speak"><a href="http://habrahabr.ru/post/264851/">Как исправить ошибку в NodeJS и нечаянно поднять производительность в 2 раза</a></span>
-                <span class="more">
-                  Началось все с того, что я оптимизировал отдачу ошибки HTTP 408 Request Timeout и с удивлением обнаружил, что событие timeout вызывается и для тех сокетов, которые подвисли и для уже получивших ответ и закрытых.
-                  Это странное поведение оказалось достаточно сложным, о чем я и расскажу.
-                  Можно было бы вставить одну проверку в событие, но со своим идеализмом я не удержался и полез исправлять дальше.
-                  Оказалось, что в http.Server режим keep-alive реализован не то что не по RFC, а откровенно не дописан.
-                  Это было бы не так страшно, если бы браузеры хорошо работали с keep-alive и переиспользовали его эффективно.
-                  В результате 15 строк исправлений, 10 дней тестов и закономерный, но неожиданный эффект.
-                </span>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div>
-
-        <img src="images/2015/programma_01.jpg"/>
-
-      </div>
-
-      <div class="conf-partners" id="conf-partners">
-        <div class="conf-title">
-          <span class="head">Партнеры</span>
-        </div>
-        <div class="conf-partners-elements">
-
-          <div>
-            <h1> General </h1>
-          </div>
-
-          <a href="http://www.electric-cloud.com/" title="Electric Cloud - Gold партнер конференции OdessaJS">
-            <img style="margin-left: 100px; margin-right: 150px" width="217" height="110"
-                 src="images/electriccloud_logo.png" alt="Gold партнер конференции OdessaJS">
-          </a>
-          <a href="http://jobs.dou.ua/companies/opower-ukraine/"
-             title="Opower - Gold партнер конференции OdessaJS">
-            <img style="margin-top:15px; height: 110px;" src="images/partners/opower.png"
-                 alt="Gold партнер конференции OdessaJS">
-          </a>
-
-          <a href="http://www.eleks.com/">
-            <img style="margin-left: 20px; height: 80px;" src="images/eleks.png" alt="Eleks"/>
-          </a>
-
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
-          <div>
-            <h1> Gold </h1>
-          </div>
-
-          <a href="http://dataart.ua/vacancy/odessa/"
-             title="DataArt - международная компания DataArt, профессионалы и при этом хорошие люди, которые с 97-го года занимаются разработкой ПО">
-            <img style="margin-top:15px; height: 50px; " src="images/2015/dataart.jpg"
-                 alt="DataArt - международная компания DataArt, профессионалы и при этом хорошие люди, которые с 97-го года занимаются разработкой ПО">
-          </a>
-
-          <a href="http://cogniance.com/" title="Cogniance" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 60px;" src="images/2015/cogniance.png" alt="Cogniance">
-          </a>
-
-          <br>
-          <br/>
-          <br/>
-
-          <a href="http://www.epam.com/" title="EPAM" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 80px;" src="images/2015/epam.png" alt="EPAM">
-          </a>
-
-          <a href="http://www.ciklum.com/" title="Ciklum" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 65px;" src="images/2015/ciklum.png" alt="Ciklum">
-          </a>
-
-          <br><br>
-          <br><br>
-          <br><br>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br><br>
-
-          <div>
-            <h1> Bronze </h1>
-          </div>
-
-          <a href="https://www.maxymiser.com/ua" title="Maximizer" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 60px;" src="images/2015/maximizer.png" alt="Maximizer">
-          </a>
-
-          <a href="https://rx-name.ua/ua" title="RX" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 35px;" src="images/2015/rx.png" alt="RX">
-          </a>
-
-          <a href="http://www.microsoft.com/uk-ua/" title="Microsoft" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 80px;" src="images/2015/msft.png" alt="Microsoft">
-          </a>
-
-          <a href="http://ab-soft.net/" title="AB Soft" style="margin-left: 40px;">
-            <img style="margin-top:15px; height: 80px;" src="images/2015/ab.png" alt="AB Soft">
-          </a>
-
-          <br/>
-          <br/>
-
-          <br><br><br><br>
-          <br><br><br><br>
-          <br><br>
-          <h4>Анонимный поиск работы для разработчиков</h4>
-          <a href="http://djinni.co/?from=odessajs" target="_blank">
-            <img height="60px" src="images/djinni.png" alt="Djinni - работа от DOU">
-          </a>
-        </div>
-        <div class="conf-partners-join">Хотите стать партнером? Напишите нам <a
-          href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></div>
-        <div class="conf-partners-join">
-          <a style="text-decoration: underline;" href="odessajs_proposal_2015_new.pdf">Скачать партнерскую
-            программу</a>
-        </div>
-
-
-      </div>
-
-      <div class="conf-place" id="conf-place">
-        <div class="conf-title">
-          <span class="head">Место проведения</span>
-        </div>
-        <div>
-          <div class="conf-place-text">
-            <strong style="color: red">Адрес Гагаринское плато, 5. OК «Одесса»</strong>
-            <br/><br/>
-
-            Мы рады сообщить вам о том, что OdessaJS пройдет в прекрасном месте совсем рядышком с морем - в
-            конференц холле ОК «Одесса».<br/><br/>
-
-            Гостиница ОК «Одесса», расположенная в самом сердце Аркадии, идеально подходит как для деловой
-            поездки, так и для отдыха. Находится всего в нескольких шагах от пляжа Аркадия по адресу:
-            Гагаринское плато, 5 .
-            Расстояние до ж/д вокзала – 5 км., до аэропорта – 9 км.<br/><br/>
-
-            <div style="margin-bottom: 20px;">
-              <img src="2013/images/ok1.png"/>
-            </div>
-
-            <div class="conf-place-map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d10999.143712008134!2d30.75697737847901!3d46.43312248145069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x40c63197c55747bf%3A0x19e26a38498a2772!2zItCe0Jog0J7QtNC10YHRgdCwIiwg0JPQsNCz0LDRgNGW0L3RgdGM0LrQuNC5INC_0YDQvtCyLiwgNSwg0J7QtNC10YHQsCwg0KPQutGA0LDQuNC90LA!3m2!1d46.433198999999995!2d30.761782999999998!5e0!3m2!1sru!2sus!4v1397716422966"
-                width="100%" height="450" frameborder="0" style="border:0"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="conf-place" id="conf-place">
-        <div class="conf-title">
-          <span class="head">Афтепати</span>
-        </div>
-        <div style="text-align:center; color: white; font-size: 24px;">
-          Afterparty в летнем <a style="text-decoration:underline; color: red" href="https://vk.com/true_man_musicclub">True Man Hot Boat (пляж Дельфин)</a> с 20:00 <br/><br/>
-        </div>
-      </div>
-
-      <div class="conf-orgteam" id="conf-orgteam">
-        <div class="conf-title">
-          <span class="head">Организаторы</span>
-        </div>
-        <div class="conf-orgteam-container">
-          <div class="conf-orgteam-elements">
-            <div class="item">
-              <div class="conf-orgteam-one artyomtrityak"></div>
-              <div class="conf-orgteam-one-descr">
-                <div class="title">
-                  <a href="https://www.linkedin.com/pub/artyom-trityak/24/a1/740" target="_blank">
-                    Артем Тритяк
-                  </a>
-                </div>
-                <a href="https://twitter.com/ArtyomTrityak" class="twitter">@ArtyomTrityak</a><br>
-                <a href="mailto:art.trityak@gmail.com" class="twitter">art.trityak@gmail.com</a><br>
-                Skype: art.trityak<br>
-                +38 (050) 611-47-89
-              </div>
-            </div>
-            <div class="item">
-              <div class="conf-orgteam-one cherniak"></div>
-              <div class="conf-orgteam-one-descr">
-                <div class="title">
-                  <a href="https://www.linkedin.com/pub/julia-cherniak/26/23a/403" target="_blank">
-                    Юля Черняк
-                  </a>
-                </div>
-                <a href="mailto:julia.cherniak@gmail.com"
-                   class="twitter">julia.cherniak@gmail.com</a><br>
-                Skype: cherni44ka<br>
-                +38 (050) 373-14-65
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="conf-friends">
-          <div class="friends-title"><h4>Наши друзья</h4></div>
-          <table class="friends-logos">
-            <tr>
-              <td>
-                <a href="http://kyivjs.org.ua">
-                  <img src="images/kyivjs-logo.png" alt="Front-end developers conference in Kyiv, Ukraine">
-                </a>
-              </td>
-              <td>
-                <a href="http://lvivjs.org.ua/">
-                  <img src="images/lvivjs.png"
-                       alt="LvivJS - конференція для Front-End розробників в рамках циклу конференцій CityJS.">
-                </a>
-              </td>
-              <td>
-                <a href="http://kharkivjs.org/">
-                  <img src="images/kharkivjslogo.png" alt="Kharkiv JavaScript Conference">
-                </a>
-              </td>
-              <td>
-                <a href="http://dou.ua/">
-                  <img style="margin-left:20px" src="images/partners/dou.png" alt="DOU">
-                </a>
-              </td>
-              <td>
-                <a href="http://itarena.lviv.ua/">
-                  <img style="margin-left:20px" src="images/2015/itarena.png" alt="IT Arena">
-                </a>
-              </td>
-              <td colspan="2">
-                <a href="http://guid.com.ua/">
-                  <img style="height:50px" src="images/guid.jpg">
-                </a>
-              </td>
-              
-            </tr>
-            <tr>
-              <td>
-                <a href="http://itstep.org/">
-                  <img style="margin-left:20px" src="images/shag.png" alt="Компьютерная академия ШАГ">
-                </a>
-              </td>
-              <td>
-                <a href="http://www.itschool-hillel.org/">
-                  <img style="height: 50px" src="images/school.jpg">
-                </a>
-              </td>
-              <td>
-                <a href="http://it-sobytie.ru/events/4868">
-                  <img style="height: 50px;" src="images/itsob_logo.png" alt="Айти-Событие"/>
-                </a>
-              </td>
-              <td>
-                <a href="http://trudman.com/">
-                  <img style="height: 50px;" src="images/trudman.png" alt="TrudMan"/>
-                </a>
-              </td>
-              <td>
-                <a href="http://lemarbet.com">
-                  <img style="height: 50px;" src="images/lemarbet.jpg" alt="Lemarbet"/>
-                </a>
-              </td>
-              
-              
-            </tr>
-            <tr>
-              <td>
-                <a href="http://www.fabrika.od.ua">
-                  <img style="height: 50px;" src="images/fabrika_logo.png" alt="Fabrika"/>
-                </a>
-              </td>
-              
-              <td>
-                <a href="http://itvdn.com/">
-                  <img style="height: 50px;" src="images/itvdn.png" alt="ITVDN"/>
-                </a>
-              </td>
-              
-              <td>
-                <a href="https://www.facebook.com/groups/uzhitc/">
-                  <img style="height: 50px;" src="images/2015/uzhit.png" alt="UZHitc"/>
-                </a>
-              </td>
-              <td>
-                <a href="http://svitla.com/">
-                  <img style="height: 50px;" src="images/2015/svita.jpg" alt="Svita"/>
-                </a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="copy">
-        &copy; OdessaJS 2013-2015, <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a>
-      </div>
-      <div class="to-top">
-        <div class="top-button"></div>
-      </div>
-    </div>
-  </footer>
-
-  <img src="images/logojs2.png" alt="OdessaJS" style="display:none;">
-
-</div>
-
-<script src="js/jquery.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.to-top').on('click', function () {
-      $('html, body').animate({
-        scrollTop: 0
-      }, 500);
-    });
-
-    $('.menu-item').click(function () {
-      var elementHref = $(this).attr('href');
-      var destination = $(elementHref).offset().top - 30;
-      $('html, body').animate({
-        scrollTop: destination
-      }, 800);
-      return false;
-    });
-  });
-
-  $(window).on('scroll', function (event) {
-    if (this.pageYOffset > 250) {
-      $('.to-top').show();
-    } else {
-      $('.to-top').hide();
-    }
-  });
-</script>
-
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-  ga('create', 'UA-50170908-1', 'odessajs.org.ua');
-  ga('send', 'pageview');
-
-</script>
+	<div class="main">
+		<div class="content">
+			<div class="menu">
+				<ul class="menu__list">
+					<li data-target="reports" class="menu__list-item">Доклады</li>
+					<li data-target="partners" class="menu__list-item">Партнеры</li>
+					<li data-target="address" class="menu__list-item">Место</li>
+					<li data-target="organizers" class="menu__list-item">Организаторы</li>
+				</ul>
+			</div>
+			<div class="logo">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<div class="main-title">
+				ODESSA JS <span class="main-title__year">2016</span>
+			</div>
+			<div class="main-subtitle">
+				Время встретить старых и новых друзей
+			</div>
+			<div class="main-info">
+				2-3 июля <span class="separate-slash">/</span> ГРИБОВКА, отель "ЧЕРНОЕ МОРЕ БУГАЗ" <span class="separate-slash">/</span> Лето. Море. Javascript.
+			</div>
+			<a href="" class="registration-btn">Зарегистрироваться</a>
+			<div  data-section="reports" class="reports">
+				<div class="reports__title">Доклады</div>
+				<div class="reports__list">
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/olexander-labah.png" alt="olexander-labah"></div>
+						<div class="reports__list-item-name">Александр Лябах</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Секретная тема</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/andrei-listochkin.png" alt="andrei-listochkin"></div>
+						<div class="reports__list-item-name">Андрей Листочкин</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/denis-stoyanov.png" alt="denis-stoyanov"></div>
+						<div class="reports__list-item-name">Denis Stoyanov</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/ingwar-stepanyan.png" alt="ingwar-stepanyan"></div>
+						<div class="reports__list-item-name">Ингвар Степанян <span class="r-tw">(@RReverser)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">AST</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/xenia-redulova.png" alt="xenia-redulova"></div>
+						<div class="reports__list-item-name">Ксения Редулова</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/julia-puchnina.png" alt="julia-puchnina"></div>
+						<div class="reports__list-item-name">Юля Пучнина</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Моды для Майнкрафта на Javascript</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/julia-pshinko.png" alt="julia-pshinko"></div>
+						<div class="reports__list-item-name">Юля Пшинко</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/alexey-raspopov.png" alt="alexey-raspopov"></div>
+						<div class="reports__list-item-name">Alexey Raspopov <span class="r-tw">(@alexeyraspopov)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Async/await and why it's good to have this in JS</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/andrey-kucherenko.png" alt="andrey-kucherenko"></div>
+						<div class="reports__list-item-name">Andrey Kucherenko</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Smart Home and IoT</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/artyom.png" alt="artyom"></div>
+						<div class="reports__list-item-name">Artyom Trityak</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/dima-maleev.png" alt="dima-maleev"></div>
+						<div class="reports__list-item-name">Dima Maleev</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/eugene-obrezkov.png" alt="eugene-obrezkov"></div>
+						<div class="reports__list-item-name">Eugene Obrezkov <span class="r-tw">(@ghajklor)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Profiling NodeJS apps and looking for deopts/bailouts + workshop</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/kirill_yakovenko.png" alt="kirill_yakovenko"></div>
+						<div class="reports__list-item-name">Kirill Yakovenko <span class="r-tw">(@blia)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Css in JS</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/martin-naumann.png" alt="martin-naumann"></div>
+						<div class="reports__list-item-name">Martin Naumann</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">WebGL, basic computer graphics for frontend devs</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/nikolay-belichuk.png" alt="nikolay-belichuk"></div>
+						<div class="reports__list-item-name">Nikolay Belichuk</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Карты и картографические сервисы</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/sergey-rubanov.png" alt="sergey-rubanov"></div>
+						<div class="reports__list-item-name">Sergey Rubanov <span class="r-tw">(@chicoxyzzyy)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">История о том как tc39 всех обманывает</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/vyacheslav-slinko.png" alt="vyacheslav-slinko"></div>
+						<div class="reports__list-item-name">Vyacheslav Slinko <span class="r-tw">(@vslinko)</span></div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme">Relay internals, such as cache algorithm, garbage collector, algorithm of applying optimistic updates</div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-img"><img src="images/reporters/yurii-artyukh.png" alt="yurii-artyukh"></div>
+						<div class="reports__list-item-name">Yurii Artyukh</div>
+						<div class="reports__list-item-about">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme">Lorem ipsum dolor sit amet, pro in idque commodo aperiam, ut stet senserit dissentiet nam. Illum summo gloriatur te sea.</div>
+					</div>
+				</div>
+			</div>
+			<div  data-section="partners" class="partners"></div>
+			<div  data-section="address" id="map" class="map">
+				
+			</div>
+			<div data-section="organizers" class="organizers">
+				<div class="organizers__title">Организаторы</div>
+				<div class="organizers__list">
+					<div class="organizers__list-item">
+						<div class="organizers__list-item-img"><img src="images/reporters/artyom.png" alt="artyom"></div>
+						<div class="organizers__list-item-name">Артем Тритяк</div>
+						<div class="organizers__list-item-info">@ArtyomTrityak <br>art.trityak@gmail.com <br>Skype: art.trityak <br><strong>+38 (050) 611-47-89</strong></div>
+					</div>
+					<div class="organizers__list-item organizers__list-item--right">
+						<div class="organizers__list-item-img"><img src="images/reporters/julia.png" alt="julia"></div>
+						<div class="organizers__list-item-name">Юля Черняк</div>
+						<div class="organizers__list-item-info">julia.cherniak@gmail.com <br>Skype: cherni44ka <br><strong>+38 (050) 373-14-65</strong></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__inner">
+					<div class="footer__left">
+						<div class="footer__last">
+							<a href="">OdessaJS 2013</a>
+							<a href="">OdessaJS 2014</a>
+							<a href="">OdessaJS 2015</a>
+						</div>
+						<div class="copyright">
+							&#169; OdessaJS 2013-2015, odessajsconf@gmail.com
+						</div>
+					</div>
+					<div class="footer__right">
+						<div class="socials">
+							<a class="socials__tw" href=""></a>
+							<a class="socials__ml" href=""></a>
+							<a class="socials__fb" href=""></a>
+							<a class="socials__vk" href=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="button-top"></div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+	<script src="script.js" type="text/javascript"></script>
 </body>
 </html>

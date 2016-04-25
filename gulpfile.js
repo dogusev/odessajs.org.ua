@@ -1,35 +1,13 @@
 var gulp = require('gulp');
-var less = require('gulp-less');
-var watch = require('gulp-watch');
-var plumber = require('gulp-plumber');
-var livereload = require('gulp-livereload');
+var sass = require('gulp-sass');
 
-gulp.task('less', function () {
-  return gulp
-    .src('./less/main.less')
-    .pipe(less())
-    .pipe(plumber())
-    .pipe(gulp.dest('./css'))
-    .pipe(livereload())
+gulp.task('styles', function() {
+    gulp.src('sass/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./css/'))
 });
 
-gulp.task('css', function () {
-  return gulp
-    .src('./css/main.css')
-    .pipe(livereload())
+//Watch task
+gulp.task('default',function() {
+    gulp.watch('sass/**/*.scss',['styles']);
 });
-
-gulp.task('html', function () {
-  return gulp
-    .src('./*.html')
-    .pipe(livereload())
-});
-
-gulp.task('watch', function () {
-  gulp.watch('./less/*.less', ['less']);
-  gulp.watch('./css/*.css', ['css']);
-  gulp.watch('./*.html', ['html']);
-});
-
-gulp.task('default', ['watch', 'less']);
-gulp.task('build', ['less']);
