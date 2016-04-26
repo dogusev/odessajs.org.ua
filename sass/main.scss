@@ -7,6 +7,14 @@ body {
 	color: #000;
 }
 
+a {
+	color: #000;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 .main {
 	min-width: 1200px;
 	background: url('../images/main-bg.png') no-repeat 50% 0;
