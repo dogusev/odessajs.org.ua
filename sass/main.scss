@@ -156,8 +156,13 @@ body {
 			font-family: 'Jura';
 			font-weight: 600;
 			.r-tw {
+				color: #e52f3f;
+				text-decoration: none;
 				letter-spacing: -1px;
 				font-size: 18px;
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 		&-about {
