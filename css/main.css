@@ -174,8 +174,12 @@ body {
       font-family: 'Jura';
       font-weight: 600; }
       .reports__list-item-name .r-tw {
+        color: #e52f3f;
+        text-decoration: none;
         letter-spacing: -1px;
         font-size: 18px; }
+        .reports__list-item-name .r-tw:hover {
+          text-decoration: underline; }
     .reports__list-item-about {
       font-size: 15px;
       color: #999999;
