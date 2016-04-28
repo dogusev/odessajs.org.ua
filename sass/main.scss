@@ -1,7 +1,7 @@
 @import 'fonts';
 
 body {
-	font-family: 'Proxima Nova';
+	font-family: 'Open sans';
 	font-weight: 400;
 	font-size: 14px;
 	color: #000;
@@ -35,9 +35,9 @@ a {
 	&__list-item {
 		display: inline-block;
 		font-family: 'Jura';
-		font-weight: 600;
-		font-size: 20px;
-		margin: 0 35px;
+		font-weight: 300;
+		font-size: 16px;
+		margin: 0 18px;
 		cursor: pointer;
 		color: #fff;
 		border-bottom: 1px dashed transparent;
@@ -137,6 +137,15 @@ a {
 		vertical-align: top;
 		display: inline-block;
 		width: 310px;
+		position: relative;
+		&-on-review {
+			width: 212px;
+			height: 68px;
+			background: url('../images/in-review.png') no-repeat 0 0;
+			position: absolute;
+			top: 156px;
+    	right: 49px;
+		}
 		&-img {
 			cursor: pointer;
 			margin: 0 auto;
@@ -216,26 +225,21 @@ a {
 	}
 
 	&__list {
-		text-align: justify;
-		&:after {
-			content: "";
-			display: inline-block;
-			width: 100%;
-			overflow: hidden;
-			visibility: hidden;
-		}
+		text-align: center;
 	}
 
 	&__list-item {
-		width: 450px;
+		width: 300px;
 		display: inline-block;
 		vertical-align: top;
+		margin: 35px 40px 0;
+		text-align: left;
 		&-img {
-			float: left;
-			margin-right: 22px;
-			width: 190px;
-			height: 190px;
-			border-radius: 100px;
+			display: inline-block;
+			margin: 0 40px;
+			width: 270px;
+			height: 270px;
+			border-radius: 140px;
 			border: 2px solid #c9c9c9;
 			padding: 6px;
 			img {
@@ -261,17 +265,267 @@ a {
 			}
 		}
 		&--right {
-			.organizers__list-item-img {
-				float: right;
-				margin-right: 0;
-				margin-left: 22px;
+			text-align: right;
+		}
+	}
+}
+
+.schedule {
+	margin: -150px 0 0;
+  padding-top: 480px;
+	background: url('../images/ninja-bg.png') no-repeat 50% 0 #e63040;
+	&__inner {
+		padding: 0 20px;
+		width: 1160px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #fff;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	&__bottom-bg {
+		height: 309px;
+		width: 100%;
+		background: url('../images/schedule.png') no-repeat 50% 100%;
+	}
+	&__info {
+		display: flex;
+		margin-bottom: 8px;
+		&-time {
+			padding-left: 25px;
+			color: #fff;
+			font-size: 16px;
+			width: 205px;
+			height: 56px;
+			line-height: 56px;
+			background: url('../images/connector-1.png') no-repeat 100% 50% #db2b3d;
+			&--hatching { 
+				background: url('../images/connector-hatching.png')  no-repeat 100% 50% #db2b3d;
 			}
-			.organizers__list-item-name{
-				text-align: right;
+		}
+		&-text {
+			flex: 1;
+			height: 56px;
+			line-height: 56px;
+			color: #fff;
+			font-size: 16px;
+			background: #cd1f31;
+			padding-left: 15px;
+			&--hatching {
+				background: url('../images/hatching.png') repeat -1px 0 #cd1f31;
 			}
-			.organizers__list-item-info{
-				text-align: right;
+			&--with-margin {
+				margin-right: 13px;
 			}
+			&-icon {
+				display: inline-block;
+				margin: -4px 10px 0 0;
+				vertical-align: middle;
+				&.form {
+					width: 34px;
+					height: 37px;
+					background: url('../images/form.png') no-repeat 0 0;
+				}
+				&.cup {
+					width: 41px;
+					height: 41px;
+					background: url('../images/cup.png') no-repeat 0 0;
+				}
+				&.key {
+					width: 38px;
+					height: 38px;
+					background: url('../images/key.png') no-repeat 0 0;
+				}
+				&.dinner {
+					width: 34px;
+					height: 32px;
+					background: url('../images/dinner.png') no-repeat 0 0;
+				}
+			}
+		}
+	}
+
+	&__reporter {
+		color: #666666;
+	}
+
+	&__report {
+		margin-bottom: 8px;
+		display: flex;
+		&-time {
+			padding-left: 25px;
+			color: #000;
+			font-size: 16px;
+			width: 185px;
+			height: 56px;
+			line-height: 56px;
+			background: url('../images/connector-2.png') no-repeat 100% 50% #fff;
+		}
+		&-hall-a,
+		&-hall-b {
+			padding: 25px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+			flex: 1;
+			font-size: 16px;
+			text-align: center;
+			background: #fff;
+		}
+		&-hall-a {
+			margin-right: 13px;
+		}
+	}
+}
+
+.helpful-info {
+	padding: 276px 0 110px;
+	margin: -110px 0 0;
+	background: url("../images/footer-bg.png") no-repeat 50% 0 #dedede;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	&__text {
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+	}
+}
+
+.sponsors {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 20px auto 80px;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 45px;
+	}
+
+	&__list {
+		text-align: center;
+		margin-bottom: 15px;
+		&-title {
+			font-family: 'Jura';
+			font-weight: 600;
+			color: #c7c7c7;
+			font-size: 28px;
+			text-align: center;
+			position: relative;
+			margin-bottom: 25px;
+			letter-spacing: -1px;
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 14px;
+				width: 100%;
+				border-top: 2px solid #c7c7c7;
+			}
+			&-inner {
+				position: relative;
+				display: inline-block;
+				width: 130px;
+				background: #fff;
+			}
+		}
+		&-item {
+			margin: 0 35px 25px;
+			display: inline-block;
+		}
+	}
+	&__additional {
+		margin-top: 45px;
+		&-text {
+			font-size: 16px;
+			color: #666666;
+			text-align: center;
+			margin: 0 0 25px;
+		}
+		&-info {
+			margin-bottom: 30px;
+			&-title {
+				font-family: 'Jura';
+				font-weight: 600;
+				font-size: 30px;
+				text-align: center;
+				letter-spacing: -1px;
+				margin-bottom: 20px;
+			}
+			&-text {
+				font-size: 18px;
+				line-height: 24px;
+				text-align: center;
+				strong {
+					font-weight: 800;
+				}
+			}
+		}
+		&-download-info {
+			width: 280px;
+			display: block;
+			margin: 0 auto;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			background: #e52f3f;
+			&-icon {
+				vertical-align: middle;
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: url('../images/download.png') no-repeat 0 0;
+				margin-right: 13px
+			}
+			color: #fff;
+			&:hover {
+				text-decoration: none;
+				background: darken(#e42c40, 5%);
+			}
+		}
+	}
+}
+
+.friends {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 130px auto;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+
+	&__list {
+		text-align: center;
+		margin-bottom: 15px;
+		&-item {
+			margin: 0 35px 25px;
+			display: inline-block;
 		}
 	}
 }

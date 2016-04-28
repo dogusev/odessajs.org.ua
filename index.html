@@ -14,6 +14,7 @@
 	<title>OdessaJS - Конференция для front-end разработчиков в Одессе</title>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -23,9 +24,11 @@
 			<div class="menu">
 				<ul class="menu__list">
 					<li data-target="reports" class="menu__list-item">Доклады</li>
-					<li data-target="partners" class="menu__list-item">Партнеры</li>
-					<li data-target="address" class="menu__list-item">Место</li>
+					<li data-target="sponsors" class="menu__list-item">Спонсоры</li>
+					<li data-target="friends" class="menu__list-item">Друзья</li>
+					<li data-target="address" class="menu__list-item">Место проведения</li>
 					<li data-target="organizers" class="menu__list-item">Организаторы</li>
+					<li data-target="helpful-info" class="menu__list-item">Полезная информация</li>
 				</ul>
 			</div>
 			<div class="logo">
@@ -45,6 +48,7 @@
 				<div class="reports__title">Доклады</div>
 				<div class="reports__list">
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/olexander-labah.png" alt="olexander-labah"></div>
 						<div class="reports__list-item-name">Александр Лябах</div>
 						<div class="reports__list-item-about"></div>
@@ -52,6 +56,7 @@
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/andrei-listochkin.png" alt="andrei-listochkin"></div>
 						<div class="reports__list-item-name">Андрей Листочкин</div>
 						<div class="reports__list-item-about"></div>
@@ -59,6 +64,7 @@
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/vadim-makeev.png" alt="vadim-makeev"></div>
 						<div class="reports__list-item-name">Вадим Макеев</div>
 						<div class="reports__list-item-about"></div>
@@ -66,6 +72,7 @@
 						<div class="reports__list-item-about-theme">Верстаете, как юный бог, на флексах или пасёте флоуты по углам — неважно. Когда-нибудь вам придётся перейти на грид-раскладки. Не просто инлайн-блоки на стероидах, как флексы, а принципиально новую систему, созданную специально для сложных раскладок. Понятное введение и примеры использования для реальных задач.</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/denis-stoyanov.png" alt="denis-stoyanov"></div>
 						<div class="reports__list-item-name">Денис Стоянов</div>
 						<div class="reports__list-item-about"></div>
@@ -73,6 +80,7 @@
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/ingwar-stepanyan.png" alt="ingwar-stepanyan"></div>
 						<div class="reports__list-item-name">Ингвар Степанян <a target="_blank" href="https://twitter.com/RReverser" class="r-tw">(@RReverser)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -81,6 +89,7 @@
 During this talk, I'm going to give a brief introduction into modern desktop systems that natively support JavaScript apps — from the originally web-based such as ChromeOS to the monsters of desktop worlds such as Windows and MacOS, into their programming models and exposed APIs, and will show off some cool demos.</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/xenia-redulova.png" alt="xenia-redulova"></div>
 						<div class="reports__list-item-name">Ксения Редунова</div>
 						<div class="reports__list-item-about"></div>
@@ -88,6 +97,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/julia-puchnina.png" alt="julia-puchnina"></div>
 						<div class="reports__list-item-name">Юля Пучнина</div>
 						<div class="reports__list-item-about"></div>
@@ -95,6 +105,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/julia-pshinko.png" alt="julia-pshinko"></div>
 						<div class="reports__list-item-name">Юля Пшинко</div>
 						<div class="reports__list-item-about"></div>
@@ -102,6 +113,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme">We'll talk about principles of Functional Programming, why it is important to know and understand them and how these techniques can help you to write well-designed and testable code. You will see examples of code written with using Imperative and Functional Programming with its test coverage, to be able to compare.</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/alexey-raspopov.png" alt="alexey-raspopov"></div>
 						<div class="reports__list-item-name">Алексей Распопов <a target="_blank" href="https://twitter.com/alexeyraspopov" class="r-tw">(@alexeyraspopov)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -109,6 +121,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/andrey-kucherenko.png" alt="andrey-kucherenko"></div>
 						<div class="reports__list-item-name">Андрей Кучеренко</div>
 						<div class="reports__list-item-about"></div>
@@ -116,6 +129,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/artyom.png" alt="artyom"></div>
 						<div class="reports__list-item-name">Артем Тритяк</div>
 						<div class="reports__list-item-about"></div>
@@ -123,6 +137,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/dima-maleev.png" alt="dima-maleev"></div>
 						<div class="reports__list-item-name">Дима Малеев</div>
 						<div class="reports__list-item-about"></div>
@@ -130,6 +145,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/eugene-obrezkov.png" alt="eugene-obrezkov"></div>
 						<div class="reports__list-item-name">Евгений Обрезков <a target="_blank" href="https://twitter.com/ghaiklor" class="r-tw">(@ghaiklor)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -137,6 +153,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/kirill_yakovenko.png" alt="kirill_yakovenko"></div>
 						<div class="reports__list-item-name">Кирилл Яковенко <a target="_blank" href="https://twitter.com/blia" class="r-tw">(@blia)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -144,13 +161,15 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/martin-naumann.png" alt="martin-naumann"></div>
 						<div class="reports__list-item-name">Martin Naumann</div>
 						<div class="reports__list-item-about"></div>
 						<div class="reports__list-item-theme">WebGL, basic computer graphics for frontend devs</div>
 						<div class="reports__list-item-about-theme">The talk will explain how rendering works and what performance issues may be rendering related and what to do about them.</div>
 					</div>
-					<div class="reports__list-item">
+					<div class="reports__list-item">	
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/nikolay-belichuk.png" alt="nikolay-belichuk"></div>
 						<div class="reports__list-item-name">Николай Беличук</div>
 						<div class="reports__list-item-about"></div>
@@ -158,6 +177,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/sergey-rubanov.png" alt="sergey-rubanov"></div>
 						<div class="reports__list-item-name">Сергей Рубанов <a target="_blank" href="https://twitter.com/chicoxyzzy" class="r-tw">(@chicoxyzzy)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -165,6 +185,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/vyacheslav-slinko.png" alt="vyacheslav-slinko"></div>
 						<div class="reports__list-item-name">Вячеслав Слинко <a target="_blank" href="https://twitter.com/vslinko" class="r-tw">(@vslinko)</a></div>
 						<div class="reports__list-item-about"></div>
@@ -172,6 +193,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/yurii-artyukh.png" alt="yurii-artyukh"></div>
 						<div class="reports__list-item-name">Юрий Артюх</div>
 						<div class="reports__list-item-about"></div>
@@ -179,13 +201,15 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
-						<div class="reports__list-item-img"></div>
+						<div class="reports__list-item-on-review"></div>
+						<div class="reports__list-item-img"><img src="images/reporters/dima-bildin.png" alt="dima-bildin"></div>
 						<div class="reports__list-item-name">Дима Бильдин</div>
 						<div class="reports__list-item-about"></div>
 						<div class="reports__list-item-theme">Основы Rx.js</div>
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/gusev-dima.png" alt="gusev-dima"></div>
 						<div class="reports__list-item-name">Дмитрий Гусев</div>
 						<div class="reports__list-item-about"></div>
@@ -193,6 +217,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme">Доклад о том как развернуться node.js приложением на N серверах, с лоад балансингом, репликами и шардами монги, максимально использовать железо на котором все крутится.</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/denis-zaichenko.png" alt="denis-zaichenko"></div>
 						<div class="reports__list-item-name">Денис Зайченко</div>
 						<div class="reports__list-item-about"></div>
@@ -200,6 +225,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme">Что происходит в ng комьюнити? Какие полезные библиотеки уже написаны? Что нам дает TypeScript? Какие киллер фичи идут из коробки?</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/timur-shemsedinov.png" alt="timur-shemsedinov"></div>
 						<div class="reports__list-item-name">Тимур Шемсединов</div>
 						<div class="reports__list-item-about"></div>
@@ -207,6 +233,7 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-about-theme">Доклад о экспериментальном технологическом стеке и реактивной интерактивности, приходящей на смену ветхому вебу.</div>
 					</div>
 					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/alex-trush.png" alt="alex-trush"></div>
 						<div class="reports__list-item-name">Алекс Труш</div>
 						<div class="reports__list-item-about"></div>
@@ -215,24 +242,186 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 					</div>
 				</div>
 			</div>
-			<div  data-section="partners" class="partners"></div>
+			<div  data-section="schedule" class="schedule">
+				<div class="schedule__inner">
+					<div class="schedule__title">Расписание</div>
+					<div class="schedule__content">
+						<div class="schedule__info">
+							<div class="schedule__info-time">10:00</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon form"></span>
+								начало регистрации
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time">11:00</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon key"></span>
+								открытие конференции
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time">11:45</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon cup"></span>
+								кофе-брейк
+							</div>
+						</div>
+						<div class="schedule__report">
+							<div class="schedule__report-time">12:00</div>
+							<div class="schedule__report-hall-a">Моды для Майнкрафта на Javascript <div class="schedule__reporter">Юля Пучнина</div>
+							</div>
+							<div class="schedule__report-hall-b">
+								Async/await and why it's good to have this in JS
+								<div class="schedule__reporter">Alexey Raspopov</div>
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time">12:45</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon cup"></span>
+								кофе-брейк
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time schedule__info-time--hatching">12:45</div>
+							<div class="schedule__info-text schedule__info-text--hatching schedule__info-text--with-margin">
+								Recruitment Session by Ciklum
+							</div>
+							<div class="schedule__info-text">
+							</div>
+						</div>
+						<div class="schedule__report">
+							<div class="schedule__report-time">13:00</div>
+							<div class="schedule__report-hall-a">Relay internals, such as cache algorithm, garbage collector, algorithm of applying optimistic updates<div class="schedule__reporter">Vyacheslav Slinko</div>
+							</div>
+							<div class="schedule__report-hall-b">
+								карты и картографические сервисы
+								<div class="schedule__reporter">Nikolay Belichuk</div>
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time">13:45-14:20</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon dinner"></span>
+								обед (часть 1)
+							</div>
+						</div>
+						<div class="schedule__info">
+							<div class="schedule__info-time">14:20-15:00</div>
+							<div class="schedule__info-text">
+								<span class="schedule__info-text-icon dinner"></span>
+								обед (часть 2)
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="schedule__bottom-bg"></div>
+			</div>
+			<div  data-section="sponsors" class="sponsors">
+				<div class="sponsors__title">Спонсоры</div>
+				<div class="sponsors__content">
+					<div class="sponsors__block">
+						<div class="sponsors__list-title"><span class="sponsors__list-title-inner">General</span></div>
+						<div class="sponsors__list">
+							<div class="sponsors__list-item"><a target="_blank" href="http://electric-cloud.com/"><img src="images/ecloud.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a target="_blank" href="https://opower.com/"><img src="images/opower.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a target="_blank" href="http://eleks.com/"><img src="images/eleks.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a target="_blank" href="http://dataart.ru/"><img src="images/dataart.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a target="_blank" href="http://cogniance.com/"><img src="images/cogniance.png" alt=""></a></div>
+						</div>
+					</div>
+					<div class="sponsors__block">
+						<div class="sponsors__list-title"><span class="sponsors__list-title-inner">Gold</span></div>
+						<div class="sponsors__list">
+							<div class="sponsors__list-item"><a href=""><img src="images/ecloud.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/opower.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/eleks.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/dataart.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/cogniance.png" alt=""></a></div>
+						</div>
+					</div>
+					<div class="sponsors__block">
+						<div class="sponsors__list-title"><span class="sponsors__list-title-inner">Silver</span></div>
+						<div class="sponsors__list">
+							<div class="sponsors__list-item"><a href=""><img src="images/ecloud.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/opower.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/eleks.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/dataart.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/cogniance.png" alt=""></a></div>
+						</div>
+					</div>
+					<div class="sponsors__block">
+						<div class="sponsors__list-title"><span class="sponsors__list-title-inner">Bronze</span></div>
+						<div class="sponsors__list">
+							<div class="sponsors__list-item"><a href=""><img src="images/ecloud.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/opower.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/eleks.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/dataart.png" alt=""></a></div>
+							<div class="sponsors__list-item"><a href=""><img src="images/cogniance.png" alt=""></a></div>
+						</div>
+					</div>
+					<div class="sponsors__additional">
+						<div class="sponsors__additional-text">
+							Мы рады обсудить с Вами дополнительные условия партнерства, которые будут наиболее <br> интересны для Вас, в индивидуальном порядке.
+						</div>
+						<div class="sponsors__additional-info">
+							<div class="sponsors__additional-info-title">
+								Хотите стать спонсором?
+							</div>
+							<div class="sponsors__additional-info-text">
+								позвоните по телефону <strong>+38 050 373 14 65 (Юлия)</strong> <br> напишите нам <strong><a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></strong><br> или постучитесь в Skype - <strong>cherni44ka</strong>
+							</div>
+						</div>
+						<a class="sponsors__additional-download-info" href=""><span class="sponsors__additional-download-info-icon"></span>Скачать партнерскую программу</a>
+					</div>
+				</div>
+			</div>
+			<div data-section="friends" class="friends">
+				<div class="friends__title">Друзья</div>
+				<div class="friends__list">
+					<div class="friends__list-item">
+						<a href=""><img src="images/jskyiv.png" alt=""></a>
+					</div>
+					<div class="friends__list-item">
+						<a href=""><img src="images/jskharkov.png" alt=""></a>
+					</div>
+					<div class="friends__list-item">
+						<a href=""><img src="images/dou.png" alt=""></a>
+					</div>
+					<div class="friends__list-item">
+						<a href=""><img src="images/factory.png" alt=""></a>
+					</div>
+					<div class="friends__list-item">
+						<a href=""><img src="images/guid.png" alt=""></a>
+					</div>
+					<div class="friends__list-item">
+						<a href=""><img src="images/uzhhorodit.png" alt=""></a>
+					</div>
+				</div>
+			</div>
 			<div  data-section="address" id="map" class="map">
 				
 			</div>
 			<div data-section="organizers" class="organizers">
 				<div class="organizers__title">Организаторы</div>
 				<div class="organizers__list">
-					<div class="organizers__list-item">
-						<div class="organizers__list-item-img"><img src="images/reporters/artyom.png" alt="artyom"></div>
-						<div class="organizers__list-item-name">Артем Тритяк</div>
-						<div class="organizers__list-item-info"><a target="_blank" href="https://twitter.com/ArtyomTrityak">@ArtyomTrityak</a> <br>art.trityak@gmail.com <br>Skype: art.trityak</div>
-					</div>
 					<div class="organizers__list-item organizers__list-item--right">
-						<div class="organizers__list-item-img"><img src="images/reporters/julia.png" alt="julia"></div>
 						<div class="organizers__list-item-name">Юля Черняк</div>
 						<div class="organizers__list-item-info">julia.cherniak@gmail.com <br>Skype: cherni44ka <br><strong>+38 (050) 373-14-65</strong></div>
 					</div>
+					<div class="organizers__list-item-img"><img src="images/reporters/organizers.png" alt="organizers"></div>
+					<div class="organizers__list-item">
+						<div class="organizers__list-item-name">Артем Тритяк</div>
+						<div class="organizers__list-item-info"><a target="_blank" href="https://twitter.com/ArtyomTrityak">@ArtyomTrityak</a> <br>art.trityak@gmail.com <br>Skype: art.trityak</div>
+					</div>
 				</div>
+			</div>
+			<div class="helpful-info">
+				<div data-section="helpful-info" class="helpful-info__title">Полезная информация</div>
+				<div class="helpful-info__text">
+					<strong>Препати с докладами</strong> - 21 августа в 18-00 в офисе компании DataArt <br>Главный день конференции 22 августа с 10:00 в ОК Одесса <br>Afterparty в летнем True Man Hot Boat (пляж Дельфин) с 20:00 <br>Второй день  конференции 23 августа в летнем true Man Hot Boat (пляж Дельфин) с 10:30
+ 				</div>
 			</div>
 			<div class="footer">
 				<div class="footer__inner">
