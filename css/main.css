@@ -100,7 +100,8 @@ a {
   text-transform: uppercase;
   text-decoration: none; }
   .registration-btn:hover {
-    background: #db1c31; }
+    background: #db1c31;
+    text-decoration: none; }
 
 .reports {
   padding: 0 20px;
