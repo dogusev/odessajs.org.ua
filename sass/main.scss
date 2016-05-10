@@ -1,0 +1,670 @@
+@import 'fonts';
+
+body {
+	font-family: 'Open sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: #000;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.main {
+	min-width: 1200px;
+	background: url('../images/main-bg.png') no-repeat 50% 0;
+}
+
+.separate-slash {
+	padding: 0 20px;
+}
+
+.menu {
+	padding: 25px 20px 90px;
+	width: 1160px;
+	margin: 0 auto;
+	&__list {
+		text-align: center;
+		margin: 0;
+	}
+	&__list-item {
+		display: inline-block;
+		font-family: 'Jura';
+		font-weight: 300;
+		font-size: 16px;
+		margin: 0 18px;
+		cursor: pointer;
+		color: #fff;
+		border-bottom: 1px dashed transparent;
+		&:hover {
+			border-bottom: 1px dashed #fff;
+		}
+	}
+}
+
+.logo {
+	text-align: center;
+}
+
+.main-title {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 10px auto 0;
+	letter-spacing: -2px;
+	font-size: 80px;
+	text-align: center;
+	color: #e52f3f;
+	font-family: 'Jura';
+	font-weight: 600;
+	&__year {
+		font-weight: 300;
+	}
+}
+
+.main-subtitle {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 0 auto;
+	letter-spacing: -2px;
+	text-align: center;
+	font-family: 'Jura';
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.main-info {
+	padding: 65px 20px 60px;
+	width: 1160px;
+	margin: 0 auto;
+	letter-spacing: -1px;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Jura';
+	font-weight: 600;
+}
+
+.registration-btn {
+	display: block;
+	background: #e42c40;
+	color: #fff;
+	width: 286px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	font-family: 'Jura';
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	&:hover {
+		background: darken(#e42c40, 5%);
+		text-decoration: none;
+	}
+}
+
+.reports {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 320px auto 60px;
+	&__title {
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 55px;
+	}
+
+	&__list {
+		text-align: justify;
+		&:after {
+			content: "";
+			display: inline-block;
+			width: 100%;
+			overflow: hidden;
+			visibility: hidden;
+		}
+	}
+
+	&__list-item {
+		margin-bottom: 60px;
+		vertical-align: top;
+		display: inline-block;
+		width: 310px;
+		position: relative;
+		&-on-review {
+			width: 212px;
+			height: 68px;
+			background: url('../images/in-review.png') no-repeat 0 0;
+			position: absolute;
+			top: 156px;
+    	right: 49px;
+		}
+		&-img {
+			cursor: pointer;
+			margin: 0 auto;
+			width: 190px;
+			height: 190px;
+			border-radius: 100px;
+			border: 2px solid #c9c9c9;
+			padding: 6px;
+			&:hover {
+				border-color: #e52f3f;
+			}
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&-name {
+			font-size: 28px;
+			text-align: center;
+			color: #e52f3f;
+			line-height: 28px;
+			margin: 25px 0 10px;
+			letter-spacing: -2px;
+			font-family: 'Jura';
+			font-weight: 600;
+			.r-tw {
+				color: #e52f3f;
+				text-decoration: none;
+				letter-spacing: -1px;
+				font-size: 18px;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		&-about {
+			font-size: 15px;
+			color: #999999;
+			text-align: center;
+		}
+		&-theme {
+			letter-spacing: -1px;
+			font-size: 20px;
+			text-align: center;
+			color: #000;
+			font-family: 'Jura';
+			font-weight: 600;
+			margin: 20px 0;
+		}
+		&-about-theme {
+			font-size: 15px;
+			color: #999999;
+			text-align: center;
+		}
+	}
+}
+
+.map {
+	width: 100%;
+	height: 605px;
+}
+
+.organizers {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 95px auto;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 65px;
+	}
+
+	&__list {
+		text-align: center;
+	}
+
+	&__list-item {
+		width: 300px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 35px 40px 0;
+		text-align: left;
+		&-img {
+			display: inline-block;
+			margin: 0 40px;
+			width: 270px;
+			height: 270px;
+			border-radius: 140px;
+			border: 2px solid #c9c9c9;
+			padding: 6px;
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&-name {
+			letter-spacing: -2px;
+			margin: 15px 0 20px;
+			color: #e52f3f;
+			font-family: 'Jura';
+			font-weight: 600;
+			overflow: hidden;
+			font-size: 30px;
+		}
+		&-info {
+			line-height: 26px;
+			font-size: 18px;
+			strong {
+				font-weight: 900;
+			}
+		}
+		&--right {
+			text-align: right;
+		}
+	}
+}
+
+.schedule {
+	margin: -150px 0 0;
+  padding-top: 480px;
+	background: url('../images/ninja-bg.png') no-repeat 50% 0 #e63040;
+	&__inner {
+		padding: 0 20px;
+		width: 1160px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #fff;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	&__bottom-bg {
+		height: 309px;
+		width: 100%;
+		background: url('../images/schedule.png') no-repeat 50% 100%;
+	}
+	&__info {
+		display: flex;
+		margin-bottom: 8px;
+		&-time {
+			padding-left: 25px;
+			color: #fff;
+			font-size: 16px;
+			width: 205px;
+			height: 56px;
+			line-height: 56px;
+			background: url('../images/connector-1.png') no-repeat 100% 50% #db2b3d;
+			&--hatching { 
+				background: url('../images/connector-hatching.png')  no-repeat 100% 50% #db2b3d;
+			}
+		}
+		&-text {
+			flex: 1;
+			height: 56px;
+			line-height: 56px;
+			color: #fff;
+			font-size: 16px;
+			background: #cd1f31;
+			padding-left: 15px;
+			&--hatching {
+				background: url('../images/hatching.png') repeat -1px 0 #cd1f31;
+			}
+			&--with-margin {
+				margin-right: 13px;
+			}
+			&-icon {
+				display: inline-block;
+				margin: -4px 10px 0 0;
+				vertical-align: middle;
+				&.form {
+					width: 34px;
+					height: 37px;
+					background: url('../images/form.png') no-repeat 0 0;
+				}
+				&.cup {
+					width: 41px;
+					height: 41px;
+					background: url('../images/cup.png') no-repeat 0 0;
+				}
+				&.key {
+					width: 38px;
+					height: 38px;
+					background: url('../images/key.png') no-repeat 0 0;
+				}
+				&.dinner {
+					width: 34px;
+					height: 32px;
+					background: url('../images/dinner.png') no-repeat 0 0;
+				}
+			}
+		}
+	}
+
+	&__reporter {
+		color: #666666;
+	}
+
+	&__report {
+		margin-bottom: 8px;
+		display: flex;
+		&-time {
+			padding-left: 25px;
+			color: #000;
+			font-size: 16px;
+			width: 185px;
+			height: 56px;
+			line-height: 56px;
+			background: url('../images/connector-2.png') no-repeat 100% 50% #fff;
+		}
+		&-hall-a,
+		&-hall-b {
+			padding: 25px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+			flex: 1;
+			font-size: 16px;
+			text-align: center;
+			background: #fff;
+		}
+		&-hall-a {
+			margin-right: 13px;
+		}
+	}
+}
+
+.helpful-info {
+	padding: 276px 0 110px;
+	margin: -110px 0 0;
+	background: url("../images/footer-bg.png") no-repeat 50% 0 #dedede;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	&__text {
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+	}
+}
+
+.sponsors {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 20px auto 80px;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 45px;
+	}
+
+	&__list {
+		text-align: center;
+		margin-bottom: 15px;
+		&-title {
+			font-family: 'Jura';
+			font-weight: 600;
+			color: #c7c7c7;
+			font-size: 28px;
+			text-align: center;
+			position: relative;
+			margin-bottom: 25px;
+			letter-spacing: -1px;
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 14px;
+				width: 100%;
+				border-top: 2px solid #c7c7c7;
+			}
+			&-inner {
+				position: relative;
+				display: inline-block;
+				width: 130px;
+				background: #fff;
+			}
+		}
+		&-item {
+			margin: 0 35px 25px;
+			display: inline-block;
+		}
+	}
+	&__additional {
+		margin-top: 45px;
+		&-text {
+			font-size: 16px;
+			color: #666666;
+			text-align: center;
+			margin: 0 0 25px;
+		}
+		&-info {
+			margin-bottom: 30px;
+			&-title {
+				font-family: 'Jura';
+				font-weight: 600;
+				font-size: 30px;
+				text-align: center;
+				letter-spacing: -1px;
+				margin-bottom: 20px;
+			}
+			&-text {
+				font-size: 18px;
+				line-height: 24px;
+				text-align: center;
+				strong {
+					font-weight: 800;
+				}
+			}
+		}
+		&-download-info {
+			width: 280px;
+			display: block;
+			margin: 0 auto;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			background: #e52f3f;
+			&-icon {
+				vertical-align: middle;
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: url('../images/download.png') no-repeat 0 0;
+				margin-right: 13px
+			}
+			color: #fff;
+			&:hover {
+				text-decoration: none;
+				background: darken(#e42c40, 5%);
+			}
+		}
+	}
+}
+
+.friends {
+	padding: 0 20px;
+	width: 1160px;
+	margin: 130px auto;
+	&__title {
+		letter-spacing: -3px;
+		text-transform: uppercase;
+		font-size: 80px;
+		text-align: center;
+		color: #e52f3f;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+
+	&__list {
+		text-align: center;
+		margin-bottom: 15px;
+		&-item {
+			margin: 0 35px 25px;
+			display: inline-block;
+		}
+	}
+}
+
+.footer {
+	height: 140px;
+	background: #000;
+	&__inner {
+		margin: 0 auto;
+		width: 1160px;
+		padding: 0 20px;
+	}
+	&__left {
+		float: left;
+	}
+
+	&__right {
+		float: right;
+	}
+
+	&__last {
+		margin: 35px 0 32px;
+		font-size: 16px;
+		color: #434343;
+		a {
+			display: inline-block;
+			margin-right: 40px;
+			color: #434343;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.copyright {
+		font-size: 16px;
+		color: #434343;
+	}
+
+	.socials {
+		margin-top: 33px;
+		text-align: right;
+		&__tw {
+			margin-left: 16px;
+			display: inline-block;
+			text-decoration: none;
+			background: url('../images/twitter.png');
+			width: 30px;
+			height: 30px;
+		}
+		&__ml {
+			margin-left: 16px;
+			display: inline-block;
+			text-decoration: none;
+			background: url('../images/e-mail.png');
+			width: 30px;
+			height: 30px;
+		}
+		&__fb {
+			margin-left: 16px;
+			display: inline-block;
+			text-decoration: none;
+			background: url('../images/fb.png');
+			width: 30px;
+			height: 30px;
+		}
+		&__vk {
+			margin-left: 16px;
+			display: inline-block;
+			text-decoration: none;
+			background: url('../images/vk.png');
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
+
+.button-top {
+	width: 78px;
+	height: 78px;
+	background: url('../images/arrow.png') no-repeat 0 0;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+.map-popover {
+	position: absolute;
+	&__inner {
+		width: 412px;
+		height: 160px;
+		padding: 20px;
+		background: #e63040;
+		color: #fff;
+	}
+
+	&__image {
+		margin-right: 20px;
+		float: left;
+		width: 174px;
+		height: 160px;
+		background: url('../images/bukov.png') no-repeat 0 0;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 34px;
+		line-height: 32px;
+		overflow: hidden;
+		color: #fff;
+		font-family: 'Jura';
+		font-weight: 600;
+		margin: 10px 0 15px;
+	}
+
+	&__adress {
+		overflow: hidden;
+	}
+
+	&__marker {
+		position: absolute;
+		background: url('../images/marker.png') no-repeat 0 0;
+		width: 48px;
+		height: 59px;
+		left: 50%;
+		margin-left: -24px;
+		top: 100%;
+		margin-top: -23px;
+	}
+
+	&__close {
+		font-size: 30px;
+		color: #f398a0;
+		text-decoration: none;
+		position: absolute;
+		right: 10px;
+		top: 5px;
+	}
+}

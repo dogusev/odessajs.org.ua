@@ -1,15 +1,19 @@
 {
+  "name": "odessajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "gulp",
-    "build": "gulp build"
+    "build": "gulp styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
   },
   "devDependencies": {
-    "gulp": "~3.5.6",
-    "gulp-less": "~1.2.3",
-    "gulp-livereload": "~1.2.0",
-    "gulp-plumber": "~0.5.6",
-    "gulp-watch": "~0.5.3",
-    "karma-requirejs": "^0.2.2",
-    "requirejs": "^2.1.14"
+    "gulp-autoprefixer": "^3.1.0"
   }
 }
