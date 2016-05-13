@@ -18,13 +18,21 @@ $('.button-top').click(function(){
 	$('body').animate({scrollTop: 0}, '500');
 });
 
+  $('.sponsors__list-item').hover(function(){
+    var $img = $(this).find('img');
+    $img.attr('src', $img.attr('data-color-src'));
+  }, function(){
+    var $img = $(this).find('img');
+    $img.attr('src', $img.attr('data-grey-src'));
+  });
+
 });
 
 
 
 ymaps.ready(init);
 
-function init(){     
+function init(){
     var myMap = new ymaps.Map("map", {
         center: [46.1505,30.5425],
         zoom: 10
@@ -95,7 +103,7 @@ function init(){
     MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
       '<div class="map-popover__image"></div>' +
       '<div class="map-popover__title">Место проведения</div>' +
-      '<div class="map-popover__adress">Грибовка, <br>отель «<strong>Черное море Бугаз</strong>»</div>' 
+      '<div class="map-popover__adress">Грибовка, <br>отель «<strong>Черное море Бугаз</strong>»</div>'
 
     ),
 
