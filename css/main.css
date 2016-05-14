@@ -409,7 +409,12 @@ a {
         background: #fff; }
     .sponsors__list-item {
       margin: 0 35px 25px;
-      display: inline-block; }
+      display: inline-block;
+      width: 150px;
+    }
+      .sponsors__list-item img {
+        width: 100%;
+      }
   .sponsors__additional {
     margin-top: 45px; }
     .sponsors__additional-text {
