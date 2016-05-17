@@ -21,29 +21,92 @@
 <body>
 	<div class="main">
 		<div class="content">
-			<div class="menu">
-				<ul class="menu__list">
-					<li data-target="reports" class="menu__list-item">Доклады</li>
-					<li data-target="sponsors" class="menu__list-item">Спонсоры</li>
-					<li data-target="friends" class="menu__list-item">Друзья</li>
-					<li data-target="address" class="menu__list-item">Место проведения</li>
-					<li data-target="organizers" class="menu__list-item">Организаторы</li>
-					<li data-target="helpful-info" class="menu__list-item">Полезная информация</li>
-				</ul>
+			<div class="header">
+				<div class="menu">
+					<ul class="menu__list">
+						<li data-target="reports" class="menu__list-item">Доклады</li>
+						<li data-target="sponsors" class="menu__list-item">Спонсоры</li>
+						<li data-target="friends" class="menu__list-item">Друзья</li>
+						<li data-target="address" class="menu__list-item">Место проведения</li>
+						<li data-target="organizers" class="menu__list-item">Организаторы</li>
+						<li data-target="helpful-info" class="menu__list-item">Полезная информация</li>
+					</ul>
+				</div>
+				<div class="logo">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<div class="main-title">
+					ODESSA JS <span class="main-title__year">2016</span>
+				</div>
+				<div class="main-subtitle">
+					Время встретить старых и новых друзей
+				</div>
+				<div class="main-info">
+					2-3 июля <span class="separate-slash">/</span> ГРИБОВКА, отель "ЧЕРНОЕ МОРЕ БУГАЗ" <span class="separate-slash">/</span> Лето. Море. JavaScript.
+				</div>
+				<a href="http://odessajs2016.ticketforevent.com/" class="registration-btn">Зарегистрироваться</a>
 			</div>
-			<div class="logo">
-				<img src="images/logo.png" alt="logo">
+			<div class="ticket-include">
+				<div class="ticket-include__inner">
+					<div class="ticket-include__title">В стоимость билета <br>входит:</div>
+					<div class="ticket-include__list">
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-1.png" alt="horn">
+							</div>
+							<div class="ticket-include__list-item-text">Посещение <br> Lighting Talks pre-party <br> 1 июля</div>
+						</div>
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-2.png" alt="people">
+							</div>
+							<div class="ticket-include__list-item-text">Участие <br> в конференции 2-3 июля <br> (2 потока докладов)</div>
+						</div>
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-3.png" alt="pizza">
+							</div>
+							<div class="ticket-include__list-item-text">Вкусные <br> обеды и кофе-брейки</div>
+						</div>
+						<div class="ticket-include__list-item ticket-include__list-item--big">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-4.png" alt="bus">
+							</div>
+							<div class="ticket-include__list-item-text">
+								Групповой трансфер <br>на автобусе <br>
+								<span class="ticket-include__list-item-text--little">(в субботу и воскресенье, утром <br>и вечером из Одессы в отель и обратно)</span>
+							</div>
+						</div>
+						<div class="ticket-include__list-item ticket-include__list-item--big">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-5.png" alt="price">
+							</div>
+							<div class="ticket-include__list-item-text">Участие во всех <br> розыгрышах и активностях
+								<br> конференции</div>
+						</div>
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-6.png" alt="party">
+							</div>
+							<div class="ticket-include__list-item-text">Посещение afterparty <br> на берегу моря</div>
+						</div>
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-7.png" alt="search">
+							</div>
+							<div class="ticket-include__list-item-text">Доступ к материалам <br>конференции
+								<span class="ticket-include__list-item-text--little">(презентации, видеозаписи докладов)</span>
+							</div>
+						</div>
+						<div class="ticket-include__list-item">
+							<div class="ticket-include__list-item-img">
+								<img src="images/ticket-include-8.png" alt="folder">
+							</div>
+							<div class="ticket-include__list-item-text">Конференц-пакет <br> участника</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="main-title">
-				ODESSA JS <span class="main-title__year">2016</span>
-			</div>
-			<div class="main-subtitle">
-				Время встретить старых и новых друзей
-			</div>
-			<div class="main-info">
-				2-3 июля <span class="separate-slash">/</span> ГРИБОВКА, отель "ЧЕРНОЕ МОРЕ БУГАЗ" <span class="separate-slash">/</span> Лето. Море. JavaScript.
-			</div>
-			<a href="http://odessajs2016.ticketforevent.com/" class="registration-btn">Регистрация</a>
 			<div  data-section="reports" class="reports">
 				<div class="reports__title">Доклады</div>
 				<div class="reports__list">
@@ -110,14 +173,6 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-name">Юля Пучнина</div>
 						<div class="reports__list-item-about"></div>
 						<div class="reports__list-item-theme">Моды для Майнкрафта на Javascript</div>
-						<div class="reports__list-item-about-theme"></div>
-					</div>
-					<div class="reports__list-item">
-						<div class="reports__list-item-on-review"></div>
-						<div class="reports__list-item-img"><img src="images/reporters/alexey-raspopov.png" alt="alexey-raspopov"></div>
-						<div class="reports__list-item-name">Алексей Распопов <a target="_blank" href="https://twitter.com/alexeyraspopov" class="r-tw">(@alexeyraspopov)</a></div>
-						<div class="reports__list-item-about"></div>
-						<div class="reports__list-item-theme">Async/await and why it's good to have this in JS</div>
 						<div class="reports__list-item-about-theme"></div>
 					</div>
 					<div class="reports__list-item">
@@ -194,14 +249,14 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-theme">Why functional programming makes life easier?</div>
 						<div class="reports__list-item-about-theme">We'll talk about principles of Functional Programming, why it is important to know and understand them and how these techniques can help you to write well-designed and testable code. You will see examples of code written with using Imperative and Functional Programming with its test coverage, to be able to compare.</div>
 					</div>
-					<div class="reports__list-item">
-						<div class="reports__list-item-on-review"></div>
-						<div class="reports__list-item-img"><img src="images/reporters/yurii-artyukh.png" alt="yurii-artyukh"></div>
-						<div class="reports__list-item-name">Юрий Артюх</div>
-						<div class="reports__list-item-about"></div>
-						<div class="reports__list-item-theme"></div>
-						<div class="reports__list-item-about-theme"></div>
-					</div>
+					<!--<div class="reports__list-item">-->
+						<!--<div class="reports__list-item-on-review"></div>-->
+						<!--<div class="reports__list-item-img"><img src="images/reporters/yurii-artyukh.png" alt="yurii-artyukh"></div>-->
+						<!--<div class="reports__list-item-name">Юрий Артюх</div>-->
+						<!--<div class="reports__list-item-about"></div>-->
+						<!--<div class="reports__list-item-theme"></div>-->
+						<!--<div class="reports__list-item-about-theme"></div>-->
+					<!--</div>-->
 					<div class="reports__list-item">
 						<div class="reports__list-item-on-review"></div>
 						<div class="reports__list-item-img"><img src="images/reporters/dima-bildin.png" alt="dima-bildin"></div>
@@ -242,6 +297,14 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 						<div class="reports__list-item-theme">Elm: functional programming in your browser</div>
 						<div class="reports__list-item-about-theme"></div>
 					</div>
+					<div class="reports__list-item">
+						<div class="reports__list-item-on-review"></div>
+						<div class="reports__list-item-img"><img src="images/reporters/lesha-migutskii.png" alt="lesha-migutskii"></div>
+						<div class="reports__list-item-name">Алексей Мигуцкий</div>
+						<div class="reports__list-item-about"></div>
+						<div class="reports__list-item-theme"></div>
+						<div class="reports__list-item-about-theme"></div>
+					</div>
 				</div>
 			</div>
 			<!--
@@ -250,6 +313,10 @@ During this talk, I'm going to give a brief introduction into modern desktop sys
 					<div class="schedule__title">Расписание</div>
 
 					<div class="schedule__content">
+						<div class="schedule__hall-titles">
+							<div class="schedule__hall-title-a">Зал А</div>
+							<div class="schedule__hall-title-b">Зал Б</div>
+						</div>
 						<div class="schedule__info">
 							<div class="schedule__info-time">10:00</div>
 							<div class="schedule__info-text">
