@@ -571,12 +571,35 @@ a {
 		@media screen and (max-width: 720px) {
 			font-size: 40px;
 		}
-	}
+  }
 	&__text {
-		font-size: 24px;
-		line-height: 50px;
+    max-width: 1160px;
+		font-size: 20px;
+		line-height: 30px;
 		text-align: center;
-	}
+    margin: 0 auto;
+    &__inner {
+      max-width: 1160px;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  &__banner {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 33px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 70%;
+    text-align: center;
+    background: #e52f3f;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
 }
 
 .sponsors {
