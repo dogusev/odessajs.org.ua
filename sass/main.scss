@@ -882,5 +882,8 @@ a {
 		position: absolute;
 		right: 10px;
 		top: 5px;
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
