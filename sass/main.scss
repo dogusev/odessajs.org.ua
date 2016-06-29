@@ -15,6 +15,15 @@ a {
 	}
 }
 
+
+.link {
+	color: #5E9CCB;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
 .main {
 	// min-width: 1200px;
 }
@@ -435,6 +444,15 @@ a {
 		width: 50%;
 		text-align: center;
 		display: inline-block;
+		&--triple {
+			width: 33%;
+		}
+	}
+
+	&__hall-title-c {
+		width: 33%;
+		text-align: center;
+		display: inline-block;
 	}
 
 	&__title {
@@ -564,7 +582,8 @@ a {
 			}
 		}
 		&-hall-a,
-		&-hall-b {
+		&-hall-b,
+		&-hall-c {
 			padding: 25px;
 	    display: flex;
 	    flex-direction: column;
@@ -579,6 +598,10 @@ a {
 		}
 		&-hall-a {
 			margin-right: 13px;
+		}
+
+		&-hall-c {
+			margin-left: 13px;
 		}
 	}
 }
@@ -904,6 +927,7 @@ a {
 	}
 
 	&__close {
+		z-index: 2;
 		font-size: 30px;
 		color: #f398a0;
 		text-decoration: none;

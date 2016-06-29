@@ -24,6 +24,12 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.link {
+  color: #5E9CCB;
+  text-decoration: underline; }
+  .link:hover {
+    text-decoration: none; }
+
 .separate-slash {
   padding: 0 20px; }
 
@@ -382,6 +388,12 @@ a {
     width: 50%;
     text-align: center;
     display: inline-block; }
+    .schedule__hall-title-a--triple, .schedule__hall-title-b--triple {
+      width: 33%; }
+  .schedule__hall-title-c {
+    width: 33%;
+    text-align: center;
+    display: inline-block; }
   .schedule__title {
     letter-spacing: -3px;
     text-transform: uppercase;
@@ -497,7 +509,7 @@ a {
           width: 80px;
           padding-left: 5px;
           font-size: 13px; } }
-    .schedule__report-hall-a, .schedule__report-hall-b {
+    .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
       padding: 25px;
       display: -webkit-box;
       display: -webkit-flex;
@@ -520,10 +532,12 @@ a {
       text-align: center;
       background: #fff; }
       @media screen and (max-width: 720px) {
-        .schedule__report-hall-a, .schedule__report-hall-b {
+        .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
           font-size: 13px; } }
     .schedule__report-hall-a {
       margin-right: 13px; }
+    .schedule__report-hall-c {
+      margin-left: 13px; }
 
 .helpful-info {
   padding: 276px 0 110px;
@@ -790,6 +804,7 @@ a {
     top: 100%;
     margin-top: -23px; }
   .map-popover__close {
+    z-index: 2;
     font-size: 30px;
     color: #f398a0;
     text-decoration: none;
