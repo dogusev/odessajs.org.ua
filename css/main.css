@@ -364,6 +364,10 @@ a {
     padding: 0 20px;
     max-width: 1160px;
     margin: 0 auto; }
+  .schedule__content {
+    margin-bottom: 50px; }
+    .schedule__content:last-child {
+      margin-bottom: 0; }
   .schedule__hall-titles {
     margin-left: 210px;
     white-space: nowrap;
@@ -373,7 +377,7 @@ a {
     @media screen and (max-width: 720px) {
       .schedule__hall-titles {
         margin-left: 100px;
-        font-size: 12px; } }
+        font-size: 13px; } }
   .schedule__hall-title-a, .schedule__hall-title-b {
     width: 50%;
     text-align: center;
@@ -390,6 +394,19 @@ a {
     @media screen and (max-width: 720px) {
       .schedule__title {
         font-size: 40px;
+        letter-spacing: -1px; } }
+  .schedule__second-title {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jura';
+    margin-bottom: 30px;
+    font-weight: 600; }
+    @media screen and (max-width: 720px) {
+      .schedule__second-title {
+        font-size: 30px;
         letter-spacing: -1px; } }
   .schedule__bottom-bg {
     height: 309px;
@@ -414,7 +431,7 @@ a {
       @media screen and (max-width: 720px) {
         .schedule__info-time {
           width: 100px;
-          font-size: 12px;
+          font-size: 13px;
           padding-left: 5px; } }
     .schedule__info-text {
       -webkit-box-flex: 1;
@@ -429,9 +446,14 @@ a {
       padding-left: 15px; }
       @media screen and (max-width: 720px) {
         .schedule__info-text {
-          font-size: 10px; } }
+          font-size: 13px; } }
       .schedule__info-text--hatching {
         background: url("../images/hatching.png") repeat -1px 0 #cd1f31; }
+        @media screen and (max-width: 720px) {
+          .schedule__info-text--hatching {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; } }
       .schedule__info-text--with-margin {
         margin-right: 13px; }
       .schedule__info-text-icon {
@@ -474,7 +496,7 @@ a {
         .schedule__report-time {
           width: 80px;
           padding-left: 5px;
-          font-size: 12px; } }
+          font-size: 13px; } }
     .schedule__report-hall-a, .schedule__report-hall-b {
       padding: 25px;
       display: -webkit-box;
@@ -499,7 +521,7 @@ a {
       background: #fff; }
       @media screen and (max-width: 720px) {
         .schedule__report-hall-a, .schedule__report-hall-b {
-          font-size: 10px; } }
+          font-size: 13px; } }
     .schedule__report-hall-a {
       margin-right: 13px; }
 
