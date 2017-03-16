@@ -208,6 +208,35 @@ a {
 	}
 }
 
+.btn {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #e52f3f;
+  color: #fff;
+  &:hover {
+    text-decoration: none;
+    background: darken(#e42c40, 5%);
+  }
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.helpful-text {
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+
 .reports {
 	padding: 0 20px;
 	max-width: 1160px;
@@ -314,6 +343,20 @@ a {
 
   &__register {
     text-align: center;
+    &-btn2 {
+      width: 550px;
+      display: inline-block;
+      margin: 0 auto;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: #e52f3f;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        background: darken(#e42c40, 5%);
+      }
+    }
     &-btn {
       width: 280px;
       display: inline-block;
