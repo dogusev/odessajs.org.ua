@@ -18,6 +18,9 @@ body {
   font-size: 14px;
   color: #000; }
 
+html {
+  scroll-behavior: smooth; }
+
 a {
   color: #000;
   text-decoration: none; }
@@ -54,6 +57,11 @@ a {
     @media screen and (max-width: 720px) {
       .menu__list {
         padding: 0; } }
+  .menu__list-link {
+    text-decoration: none;
+    color: white; }
+    .menu__list-link:hover {
+      text-decoration: none; }
   .menu__list-item {
     display: inline-block;
     font-family: 'Jura';
