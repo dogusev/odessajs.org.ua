@@ -482,6 +482,136 @@ a {
 	}
 }
 
+.program-committee {
+  padding: 0 20px;
+  max-width: 1160px;
+  margin: 100px auto 60px;
+  &__title {
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    color: #e52f3f;
+    font-family: 'Jura';
+    font-weight: 600;
+    margin-bottom: 55px;
+    @media screen and (max-width: 720px) {
+      font-size: 40px;
+    }
+  }
+
+  &__list {
+    text-align: justify;
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      visibility: hidden;
+    }
+  }
+
+  &__list-item {
+    margin-bottom: 60px;
+    vertical-align: top;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+    @media screen and (max-width: 720px) {
+      width: 100%;
+    }
+    &-on-review {
+      width: 212px;
+      height: 68px;
+      background: url('../images/in-review.png') no-repeat 0 0;
+      position: absolute;
+      top: 156px;
+      right: 50%;
+      transform: translateX(50%);
+    }
+    &-img {
+      cursor: pointer;
+      margin: 0 auto;
+      width: 190px;
+      height: 190px;
+      border-radius: 100px;
+      border: 2px solid #c9c9c9;
+      padding: 6px;
+      &:hover {
+        border-color: #e52f3f;
+      }
+      img {
+        border-radius: 100%;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &-name {
+      font-size: 28px;
+      text-align: center;
+      color: #e52f3f;
+      line-height: 28px;
+      margin: 25px 0 10px;
+      letter-spacing: -2px;
+      font-family: 'Jura';
+      font-weight: 600;
+      .r-tw {
+        color: #e52f3f;
+        text-decoration: none;
+        letter-spacing: -1px;
+        font-size: 18px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    &-about {
+      font-size: 15px;
+      color: #999999;
+      text-align: center;
+    }
+    &-about-links {
+      font-size: 15px;
+      color: #999999;
+      text-align: center;
+      margin-top: .5rem;
+    }
+  }
+
+  &__register {
+    text-align: center;
+    &-btn2 {
+      width: 550px;
+      display: inline-block;
+      margin: 0 auto;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: #e52f3f;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        background: darken(#e42c40, 5%);
+      }
+    }
+    &-btn {
+      width: 280px;
+      display: inline-block;
+      margin: 0 auto;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      background: #e52f3f;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        background: darken(#e42c40, 5%);
+      }
+    }
+  }
+}
+
 .schedule {
 	margin: -150px 0 0;
   padding-top: 480px;
