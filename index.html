@@ -17,6 +17,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
 	<div class="main" id="#main">
@@ -49,34 +50,126 @@
 
 			<div  data-section="reports" id="reports" class="reports">
 				<div class="reports__title">Доклады</div>
-        <div class="reports__register">
-          <a class="reports__register-btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScdbpQZjh8zxBvCmZpgSeToxwT7WaRpRMDXddgVXIK516wHpg/viewform">
-            <span class=""></span>Call for speakers
-          </a>
+        <div class="reports__list">
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/lavrenyk.jpg" alt="lavrenyk"></div>
+            <div class="reports__list-item-name">Тимофей Лавренюк</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Progressive Web Apps или как сделать веб-приложение ближе к нативному</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">В своем докладе я хочу рассказать о своем опыте внедрения поддержки offline при помощи Service Workers. А также будет рассмотрено что еще предлагает Chrome чтобы веб приложение по функционалу было ближе в нативному</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/kalinina.jpg" alt="kalinina"></div>
+            <div class="reports__list-item-name">Александра Калинина</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Троянская война: SinonJS</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">Know each horse in your castle.</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/kogyharenko.jpg" alt="kogyharenko"></div>
+            <div class="reports__list-item-name">Кожухаренко Николай</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Component-Driven Development</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">I'll talk about the CDD methodology and the existing problems it tries to solve. In particular, we will consider the benefits of developing the components outside of regular app: they become more maintainable and testable, it's easier to work on them in the large team.</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/boiko.JPG" alt="boiko"></div>
+            <div class="reports__list-item-name">Бойко Виктор</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Понимание Vim</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">В прошлом году текстовому редактору vim исполнилось четверть века, а если вести отсчет от vi, то все сорок лет. Он популярен, развивается и до сих пор вызывает горячие споры. Мнения полярные: от «имеет только два режима: в одном бибикает, в другом — портит текст» до «есть только два настоящих редактора — vim и emacs». А еще считается, что у vim высокий «порог вхождения». Попытаемся развеять мифы, которыми окружен vim, узнаем о том, какими Чужими и для каких Хищников делался этот редактор, и поговорим о том, чем он полезен для программистов.</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/gysev.jpg" alt="gysev"></div>
+            <div class="reports__list-item-name">Гусев Евгений</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Dart... жив?</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">"Давайте начистоту. Ну кому нужен Дарт в 2017 году? Спроси любого, что стало с когда-то ""убийцей JavaScript"", и услышишь что-то вроде ""он же это, мёртв"". Да, всё так. Вернее было бы так, если бы не несколько фактов. Ну, во-первых, мы в Wrike его используем уже два года и написали огромную кучу кода. А если где-то в промозглом Питере сидит не один десяток программистов, и, отказавшись от JS (да-да, совсем), пишет высоконагруженный сервис, которым пользуется много клиентов - наверное это что-то значит? Во-вторых, сам Гугл категорически не согласен с такой трактовкой текущего состояния дел. Настолько не согласен, что выпускает одну новость за другой. То Flutter (https://flutter.io/), то Fuchsia (http://www.androidauthority.com/we-compiled-fuchsia-os-710491/). А ещё взяли и переписали свой ADWords (основной продукт, зарабатывающий им деньги) на связку Dart+Angular2. Так может быть это что-то да значит?
+              Может показаться странным, зачем на JS конференции говорить про Dart. Однако, я берусь убедить упорных JS фанатов в том, что на Dart стоит как минимум посмотреть, а как максимум - начать его использовать в бою прямо здесь и сейчас."</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/shumada.jpg" alt="Shumada"></div>
+            <div class="reports__list-item-name">Andrii Shumada</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Use cases of Node.js Streams</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">Streams (не путати з “Node.js однопоточний”;)  відносятся до тих речей, про які просто необхідно знати кожному Node.js розробнику. Розповім для чого їх створили, який їх принцип роботи, як правильно використовувати, як не правильно використовувати а також незвичні способи їх застосування. Доповідь буде цікава як і новачкам в “ноді” так і бувалим в цій темі. </div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/pletnov.jpg" alt="pletnov"></div>
+            <div class="reports__list-item-name">Oleksiy Pletnov</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Как правильно думать</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">Мощность ПК, на которой вы ведёте разработку важна. Но гораздо важнее мощность вашего разума.</div>
+          </div>
+          <div class="reports__list-item">
+            <div class="reports__list-item-img"><img src="images/reporters/shehet.jpg" alt="shehet"></div>
+            <div class="reports__list-item-name">Григорий Шехет</div>
+            <div class="reports__list-item-about"></div>
+            <div class="reports__list-item-theme">Reactive State Management with Focal</div>
+            <i class="fa fa-pencil reports__list-item__theme-desc-btn" aria-hidden="true"></i>
+            <div class="reports__list-item-about-theme">Сейчас набирает популярность функционально реактивное программирование (FRP). Но, как мы знаем, оно не имеет ничего общего с React. Тем не менее, используя правильный стейт-менеджер, мы можем “подружить” FPR и React и сделать приложение действительно реактивным. В своем докладе я расскажу о Focal - именно таком стейт-менеджере.</div>
+          </div>
         </div>
       </div>
+      </div>
 			</div>
+      <div  data-section="sponsors" class="sponsors">
+        <div class="sponsors__title">Спонсоры</div>
+        <div class="sponsors__content">
+          <div class="sponsors__block">
+            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">General</span></div>
+            <div class="sponsors__list">
 
-			<div  data-section="sponsors" id="sponsors" class="sponsors">
-				<div class="sponsors__title">Спонсоры</div>
-				<div class="sponsors__content">
+            </div>
+          </div>
 
-					<div class="sponsors__additional">
-						<div class="sponsors__additional-text">
-							Мы рады обсудить с Вами дополнительные условия партнерства, которые будут наиболее <br> интересны для Вас, в индивидуальном порядке.
-						</div>
-						<div class="sponsors__additional-info">
-							<div class="sponsors__additional-info-title">
-								Хотите стать спонсором?
-							</div>
-							<div class="sponsors__additional-info-text">
-								позвоните по телефону <strong>+38 050 373 14 65 (Юлия)</strong> <br> напишите нам <strong><a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></strong><br> или постучитесь в Skype - <strong>cherni44ka</strong>
-							</div>
-						</div>
-						<a class="sponsors__additional-download-info" target="_blank" href="odessajs_proposal_2017.pdf"><span class="sponsors__additional-download-info-icon"></span>Скачать партнерскую программу</a>
-					</div>
-				</div>
-			</div>
+          <div class="sponsors__block">
+            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Gold</span></div>
+            <div class="sponsors__list">
+              <div class="sponsors__list-item">
+                <a target="_blank" href="http://dataart.ua/vacancy/odessa/">
+                  <img src="images/sponsors/dataart_grey.png"
+                       data-grey-src="images/sponsors/dataart_grey.png"
+                       data-color-src="images/sponsors/dataart_color.png"
+                       alt="dataart">
+                </a>
+              </div>
+              </div>
+          </div>
+          <div class="sponsors__block">
+            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Silver</span></div>
+
+          </div>
+          <div class="sponsors__block">
+            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Bronze</span></div>
+            <div class="sponsors__list">
+
+            </div>
+          </div>
+
+          <div class="sponsors__additional">
+            <div class="sponsors__additional-text">
+              Мы рады обсудить с Вами дополнительные условия партнерства, которые будут наиболее <br> интересны для Вас, в индивидуальном порядке.
+            </div>
+            <div class="sponsors__additional-info">
+              <div class="sponsors__additional-info-title">
+                Хотите стать спонсором?
+              </div>
+              <div class="sponsors__additional-info-text">
+                позвоните по телефону <strong>+38 050 373 14 65 (Юлия)</strong> <br> напишите нам <strong><a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a></strong><br> или постучитесь в Skype - <strong>cherni44ka</strong>
+              </div>
+            </div>
+            <a class="sponsors__additional-download-info" href="odessajs_proposal_2016.pdf"><span class="sponsors__additional-download-info-icon"></span>Скачать партнерскую программу</a>
+          </div>
+        </div>
+      </div>
 
 			<div data-section="address" id="address" class="sponsors">
 				<div class="sponsors__title">Место проведения</div>

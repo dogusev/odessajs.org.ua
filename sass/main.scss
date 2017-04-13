@@ -286,6 +286,14 @@ a {
 		@media screen and (max-width: 720px) {
 			width: 100%;
 		}
+    &__theme-desc-btn {
+      width: 100%;
+      text-align: center;
+      font-size: 2rem!important;
+      &::before {
+      cursor: pointer;
+    }
+    }
 		&-on-review {
 			width: 212px;
 			height: 68px;
@@ -307,7 +315,10 @@ a {
 				border-color: #e52f3f;
 			}
 			img {
-				display: block;
+        border-radius: 100%;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        display: block;
 				width: 100%;
 				height: 100%;
 			}
@@ -349,6 +360,7 @@ a {
 			font-size: 15px;
 			color: #999999;
 			text-align: center;
+      display: none;
 		}
 	}
 

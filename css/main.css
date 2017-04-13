@@ -250,6 +250,12 @@ a {
     @media screen and (max-width: 720px) {
       .reports__list-item {
         width: 100%; } }
+    .reports__list-item__theme-desc-btn {
+      width: 100%;
+      text-align: center;
+      font-size: 2rem !important; }
+      .reports__list-item__theme-desc-btn::before {
+        cursor: pointer; }
     .reports__list-item-on-review {
       width: 212px;
       height: 68px;
@@ -271,6 +277,9 @@ a {
       .reports__list-item-img:hover {
         border-color: #e52f3f; }
       .reports__list-item-img img {
+        border-radius: 100%;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
         display: block;
         width: 100%;
         height: 100%; }
@@ -305,7 +314,8 @@ a {
     .reports__list-item-about-theme {
       font-size: 15px;
       color: #999999;
-      text-align: center; }
+      text-align: center;
+      display: none; }
   .reports__register {
     text-align: center; }
     .reports__register-btn2 {
