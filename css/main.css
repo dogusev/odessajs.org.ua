@@ -245,15 +245,16 @@ a {
     margin-bottom: 60px;
     vertical-align: top;
     display: inline-block;
-    width: 310px;
+    width: 370px;
     position: relative; }
     @media screen and (max-width: 720px) {
       .reports__list-item {
         width: 100%; } }
     .reports__list-item__theme-desc-btn {
-      width: 100%;
       text-align: center;
-      font-size: 2rem !important; }
+      margin-left: .4rem;
+      font-size: 1.5rem !important;
+      margin-top: .4rem; }
       .reports__list-item__theme-desc-btn::before {
         cursor: pointer; }
     .reports__list-item-on-review {
@@ -809,6 +810,11 @@ a {
       color: #666666;
       text-align: center;
       margin: 0 0 25px; }
+      .sponsors__additional-text__image-wrapper {
+        width: 100%;
+        margin-top: 2rem; }
+        .sponsors__additional-text__image-wrapper > img {
+          width: 100%; }
     .sponsors__additional-info {
       margin-bottom: 30px; }
       .sponsors__additional-info-title {
@@ -957,7 +963,8 @@ a {
     float: left;
     width: 174px;
     height: 160px;
-    background: url("../images/bukov.png") no-repeat 0 0; }
+    background: url("../images/hotel2.jpg") no-repeat 0 0;
+    background-size: contain; }
   .map-popover__title {
     text-transform: uppercase;
     font-size: 34px;
@@ -988,3 +995,6 @@ a {
     top: 5px; }
     .map-popover__close:hover {
       text-decoration: none; }
+
+.pointer {
+  cursor: pointer; }
