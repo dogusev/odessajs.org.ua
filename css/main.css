@@ -317,6 +317,12 @@ a {
       color: #999999;
       text-align: center;
       display: none; }
+    .reports__list-item-awaiting-approval {
+      text-align: center;
+      margin-top: 13px;
+      color: #a0a0a0; }
+      .reports__list-item-awaiting-approval > i {
+        color: black; }
   .reports__register {
     text-align: center; }
     .reports__register-btn2 {
