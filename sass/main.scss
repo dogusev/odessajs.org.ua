@@ -538,7 +538,7 @@ a {
     margin-bottom: 60px;
     vertical-align: top;
     display: inline-block;
-    width: 310px;
+    width: 380px;
     position: relative;
     @media screen and (max-width: 720px) {
       width: 100%;
@@ -595,12 +595,6 @@ a {
       font-size: 15px;
       color: #999999;
       text-align: center;
-    }
-    &-about-links {
-      font-size: 15px;
-      color: #999999;
-      text-align: center;
-      margin-top: .5rem;
     }
   }
 
