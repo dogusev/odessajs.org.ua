@@ -1009,9 +1009,22 @@ a {
   cursor: pointer; }
 
 .subscribe-button {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 0;
   width: 120px;
   height: 30px;
   margin: 0;
   line-height: 0; }
+  .subscribe-button > i {
+    display: none; }
