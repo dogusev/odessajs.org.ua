@@ -1,3 +1,24 @@
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyBxgrhYdpPp8tY53oWf53evLPrOkREFQV0",
+  authDomain: "odessajs-2017.firebaseapp.com",
+  databaseURL: "https://odessajs-2017.firebaseio.com",
+  projectId: "odessajs-2017",
+  storageBucket: "odessajs-2017.appspot.com",
+  messagingSenderId: "72618231509"
+};
+firebase.initializeApp(config);
+
+function subscribeEmail(email) {
+  var id = Date.now();
+  return firebase.database().ref('emails/' + id).set(email);
+}
+
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
 $(document).ready(function() {
 
 $('.menu__list').on('click', '.menu__list-item', function() {
@@ -29,6 +50,25 @@ $('.button-top').click(function(){
   }, function(){
     var $img = $(this).find('img');
     $img.attr('src', $img.attr('data-grey-src'));
+  });
+
+  $('.subscribe-button').click(function() {
+    var that = $(this);
+    that.find('i').css('display', 'block');
+    that.find('span').css('display', 'none');
+    var email = $('.subscribe-input').val();
+    if (validateEmail(email)) {
+      subscribeEmail(email).then(function() {
+        that.find('i').css('display', 'none');
+        that.find('span').css('display', 'block');
+        $('.subscribe-input').val('');
+        alert('Благодарим за подписку.');
+      });
+    } else {
+      alert('Невалидный e-mail!');
+      that.find('i').css('display', 'none');
+      that.find('span').css('display', 'block');
+    }
   });
 
 });
