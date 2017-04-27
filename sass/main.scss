@@ -86,6 +86,13 @@ a {
 			border-bottom: 1px dashed #fff;
 		}
 	}
+  &__register-btn {
+    border: 2px solid white;
+    padding: 5px;
+    background: #e42c40;
+    border-radius: 8px;
+    display: inline-block;
+  }
 }
 
 .logo {

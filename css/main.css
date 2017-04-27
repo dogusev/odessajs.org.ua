@@ -79,6 +79,12 @@ a {
         margin: 0 10px; } }
     .menu__list-item:hover {
       border-bottom: 1px dashed #fff; }
+  .menu__register-btn {
+    border: 2px solid white;
+    padding: 5px;
+    background: #e42c40;
+    border-radius: 8px;
+    display: inline-block; }
 
 .logo {
   text-align: center; }
