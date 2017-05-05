@@ -921,10 +921,6 @@ a {
     font-size: 16px;
     color: white; }
   .footer .socials {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     margin-top: 33px;
     text-align: right; }
     @media screen and (max-width: 720px) {
@@ -953,6 +949,12 @@ a {
       background: url("../images/fb.png"); }
     .footer .socials__vk {
       background: url("../images/vk.png"); }
+    .footer .socials__icons {
+      margin-top: 2rem;
+      text-align: left; }
+    .footer .socials input {
+      width: 130px;
+      height: 24px; }
 
 .button-top {
   z-index: 10;

@@ -1072,7 +1072,7 @@ a {
 	}
 
 	.socials {
-		display: flex;
+		//display: flex;
 		margin-top: 33px;
 		text-align: right;
 		@media screen and (max-width: 720px) {
@@ -1104,6 +1104,14 @@ a {
 		&__vk {
 			background: url('../images/vk.png');
 		}
+    &__icons {
+      margin-top: 2rem;
+      text-align: left;
+    }
+    & input {
+      width: 130px;
+      height: 24px;
+    }
 	}
 }
 
