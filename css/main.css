@@ -929,7 +929,7 @@ a {
     .footer .socials .socials__link {
       -webkit-transition: all ease .5s;
       transition: all ease .5s;
-      margin-left: 16px;
+      margin-left: 14px;
       display: inline-block;
       text-decoration: none;
       width: 30px;
@@ -949,6 +949,8 @@ a {
       background: url("../images/fb.png"); }
     .footer .socials__vk {
       background: url("../images/vk.png"); }
+    .footer .socials__yt {
+      background: url("../images/youtube.png"); }
     .footer .socials__icons {
       margin-top: 2rem;
       text-align: left; }

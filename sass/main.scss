@@ -1080,7 +1080,7 @@ a {
 		}
 		.socials__link {
 			transition: all ease .5s;
-			margin-left: 16px;
+			margin-left: 14px;
 			display: inline-block;
 			text-decoration: none;
 			width: 30px;
@@ -1104,6 +1104,9 @@ a {
 		&__vk {
 			background: url('../images/vk.png');
 		}
+    &__yt {
+      background: url('../images/youtube.png');
+    }
     &__icons {
       margin-top: 2rem;
       text-align: left;
