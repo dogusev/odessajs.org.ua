@@ -1055,8 +1055,7 @@ a {
   .partners-list .partner {
     width: 20%;
     padding: 10px;
-    text-align: center;
-    background-color: rgba(136, 152, 167, 0.1); }
+    text-align: center; }
     .partners-list .partner .logo {
       margin: auto;
       height: 150px;
