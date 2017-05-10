@@ -1084,3 +1084,8 @@ a {
       color: #003399; }
     .partners-list .partner .email {
       font-size: 8pt; }
+
+.promocode {
+  text-align: center;
+  margin: 25px 60px;
+  font-size: 8pt; }
