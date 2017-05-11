@@ -1052,8 +1052,17 @@ a {
   flex-direction: row;
   margin: auto 60px;
   color: #666666; }
+  @media screen and (max-width: 950px) {
+    .partners-list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center; } }
   .partners-list .partner {
-    width: 20%;
     padding: 10px;
     text-align: center; }
     .partners-list .partner .logo {
