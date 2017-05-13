@@ -1210,18 +1210,17 @@ a {
 }
 
 .partners-list {
-  display: flex;
-  flex-direction: row;
   margin: auto 60px;
   color: #666666;
-  @media screen and (max-width: 950px) {
-    flex-direction: column;
-    align-content: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
 
   .partner {
+    min-width: 250px;
     padding: 10px;
     text-align: center;
+    flex: 1 0 30%;
+    box-sizing: border-box;
 
     .logo {
       margin: auto;
@@ -1239,11 +1238,6 @@ a {
     .info {
       font-size: 8.5pt;
       margin: 0;
-    }
-    .website {
-      text-decoration: underline;
-      display: block;
-      color: #003399;
     }
     .email {
       font-size: 8pt;

@@ -1041,30 +1041,25 @@ a {
   height: 24px; }
 
 .partners-list {
+  margin: auto 60px;
+  color: #666666;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  margin: auto 60px;
-  color: #666666; }
-  @media screen and (max-width: 950px) {
-    .partners-list {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-      align-content: center; } }
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .partners-list .partner {
+    min-width: 250px;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 30%;
+    -ms-flex: 1 0 30%;
+    flex: 1 0 30%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
     .partners-list .partner .logo {
       margin: auto;
       height: 150px;
@@ -1087,10 +1082,6 @@ a {
     .partners-list .partner .info {
       font-size: 8.5pt;
       margin: 0; }
-    .partners-list .partner .website {
-      text-decoration: underline;
-      display: block;
-      color: #003399; }
     .partners-list .partner .email {
       font-size: 8pt; }
 
