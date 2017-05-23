@@ -1019,6 +1019,10 @@ a {
 		&-item {
 			margin: 0 35px 25px;
 			display: inline-block;
+      img {
+        max-width: 200px;
+        max-height: 200px;
+      }
 		}
 	}
 }

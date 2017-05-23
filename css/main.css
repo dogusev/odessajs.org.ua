@@ -882,6 +882,9 @@ a {
     .friends__list-item {
       margin: 0 35px 25px;
       display: inline-block; }
+      .friends__list-item img {
+        max-width: 200px;
+        max-height: 200px; }
 
 .footer {
   background: #000;
