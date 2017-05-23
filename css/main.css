@@ -44,7 +44,8 @@ a {
 .menu {
   padding: 25px 20px 90px;
   max-width: 1160px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   @media screen and (max-width: 720px) {
     .menu {
       padding: 25px 10px 50px; } }
@@ -53,7 +54,9 @@ a {
       padding: 10px 10px 50px; } }
   .menu__list {
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    display: inline-block;
+    list-style-type: none; }
     @media screen and (max-width: 720px) {
       .menu__list {
         padding: 0; } }
@@ -79,6 +82,10 @@ a {
         margin: 0 10px; } }
     .menu__list-item:hover {
       border-bottom: 1px dashed #fff; }
+  .menu__i18n {
+    display: inline-block;
+    margin-left: 18px;
+    color: #fff; }
   .menu__register-btn {
     border: 2px solid white;
     padding: 5px;
@@ -884,7 +891,7 @@ a {
       display: inline-block; }
       .friends__list-item img {
         max-width: 200px;
-        max-height: 200px; }
+        max-height: 100px; }
 
 .footer {
   background: #000;
