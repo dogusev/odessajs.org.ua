@@ -1225,7 +1225,9 @@ a {
   margin: auto 60px;
   color: #666666;
   display: flex;
+  flex-flow: row;
   flex-wrap: wrap;
+  justify-content: center;
 
   .partner {
     min-width: 250px;
