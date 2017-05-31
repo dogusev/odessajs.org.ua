@@ -1108,3 +1108,46 @@ a {
   text-align: center;
   margin: 25px 60px;
   font-size: 8pt; }
+
+.workshops {
+  padding: 0 20px;
+  max-width: 1160px;
+  margin: 0px auto 100px; }
+  .workshops__theme {
+    text-align: center; }
+  .workshops__image {
+    width: 345px;
+    float: left; }
+    .workshops__image img {
+      width: 100%; }
+  .workshops__reporter_img {
+    display: inline-block;
+    margin-right: 1.3rem;
+    cursor: pointer;
+    float: left;
+    width: 190px;
+    height: 190px;
+    border-radius: 100px;
+    border: 2px solid #c9c9c9;
+    padding: 6px; }
+    .workshops__reporter_img:hover {
+      border-color: #e52f3f; }
+    .workshops__reporter_img img {
+      border-radius: 100%;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .workshops__about_author {
+    text-align: justify; }
+  .workshops__author {
+    max-width: 750px;
+    margin: 0 auto; }
+  .workshops__payments {
+    opacity: 0.3; }
+  .workshops__register {
+    width: 125px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 52px; }

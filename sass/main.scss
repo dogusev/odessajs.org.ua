@@ -1264,3 +1264,59 @@ a {
   margin: 25px 60px;
   font-size: 8pt;
 }
+
+.workshops {
+  padding: 0 20px;
+  max-width: 1160px;
+  margin: 0px auto 100px;
+  &__theme {
+    text-align: center;
+  }
+
+  &__image {
+    width: 345px;
+    float: left;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__reporter_img {
+    display: inline-block;
+    margin-right: 1.3rem;
+    cursor: pointer;
+    float: left;
+    width: 190px;
+    height: 190px;
+    border-radius: 100px;
+    border: 2px solid #c9c9c9;
+    padding: 6px;
+    &:hover {
+      border-color: #e52f3f;
+    }
+    img {
+      border-radius: 100%;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__about_author {
+    text-align: justify;
+  }
+  &__author {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  &__payments {
+    opacity: 0.3;
+  }
+  &__register {
+    width: 125px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 52px;
+  }
+}
