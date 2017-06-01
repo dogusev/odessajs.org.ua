@@ -26,6 +26,8 @@
 				<div class="menu">
 					<ul class="menu__list">
             <li data-target="reports" class="menu__list-item"><a class="menu__list-link" href="#reports">Speakers</a></li>
+            <li data-target="workshops"
+                class="menu__list-item"><a class="menu__list-link" href="#workshops">Workshops</a></li>
             <li data-target="sponsors" class="menu__list-item"><a class="menu__list-link" href="#sponsors">Sponsors</a></li>
             <li data-target="friends" class="menu__list-item"><a class="menu__list-link" href="#friends">Partners</a></li>
             <li data-target="address" class="menu__list-item"><a class="menu__list-link" href="#address">Venue</a></li>
@@ -588,51 +590,184 @@
       </div>
       </div>
 			</div>
-      <div  data-section="sponsors" class="sponsors">
-        <div class="sponsors__title">Sponsors</div>
-        <div class="sponsors__content">
-          <!--<div class="sponsors__block">-->
-            <!--<div class="sponsors__list-title"><span class="sponsors__list-title-inner">General</span></div>-->
-          <!--</div>-->
-          <div class="sponsors__block">
-            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Platinum</span></div>
-            <div class="sponsors__list">
-              <div class="sponsors__list-item">
-                <a target="_blank" href="https://ukraine.levi9.jobs/">
-                  <img src="images/sponsors/levi9.png"
-                       alt="levi9">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="sponsors__block">
-            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Gold</span></div>
-            <div class="sponsors__list">
-              <div class="sponsors__list-item">
-                <a target="_blank" href="http://dataart.ua/vacancy/odessa/">
-                  <img src="images/sponsors/dataart_grey.png"
-                       data-grey-src="images/sponsors/dataart_grey.png"
-                       data-color-src="images/sponsors/dataart_color.png"
-                       alt="dataart">
-                </a>
-              </div>
-            </div>
-          </div>
-          <!--<div class="sponsors__block">-->
-            <!--<div class="sponsors__list-title"><span class="sponsors__list-title-inner">Silver</span></div>-->
+  <div data-section="workshops" class="workshops">
+    <div class="workshops__theme">
+      <h1><b>Welcome to join workshop: <br>The rise of JavaScript Robotics (by Markus Leutwyler)</b></h1>
+    </div>
+    <div class="workshops__opacity">
+      When? On July 2, 9 pm-12pm
+      <br>
+      How to participate? Please buy a special workshop ticket.
+    </div>
+    <br>
+    <div class="workshops__image">
+      <img src="./images/workshops/markusworkshop.png" alt="markus_workshop">
+    </div>
+    <div>
+      Wanna be a Maker? Rock the robotics and use your super brain power on alive metallic beings? Create, design and program your own awesome robots with JavaScript and open source hardware?
+      <br>
+      <br>
+      Developers, this is your chance to dive into the World of Hardware! JavaScript is already the most used Language on the Web that it makes sense to use it for Robotics as well! Ever more powerful and cheap Microprocessors (<a
+      href="https://www.arduino.cc/">Arduino</a>, <a href="https://software.intel.com/en-us/iot/hardware/edison">Intel Edison</a>,
+      <a href="https://www.raspberrypi.org/">Raspberry Pi</a>) combined with Javascript Frameworks for Robotics (cylon/johnny-five) enable to easily build even complex robots.
+      <br>
+      <br>
+      In this 3h practical Workshop for Robotics Beginners we start by assembling the 2 wheeled Robot Kits (Wifi-enabled, and with custom Lasercut and 3D printed parts), decorate them to your taste and then program them with JavaScript! We end with a Sumo-style Battle or Capture the Flag Session!
+      <br>
+      <br>
+      Topics:
+      <ul>
+        <li>
+          Building the Sumobot
+        </li>
+        <li>
+          Installation and Configuration of the Robot Brain (Microcontroller plus Motor Driver)
+        </li>
+        <li>
+          Programming your Robot using JavaScript and the johnny-five framework
+        </li>
+      </ul>
+      <br>
+      After the workshop, you can take the Robot home with you :)
+      <br>
+      Prerequisites:
+      Just bring your own notebook (Linux, Mac or Windows)
+      <br>
+      <br>
+      Target group:
+      Anyone interested in Robotics, Ages 14 and up.
+      <br>
+      <br>
+      <a class="registration-btn workshops__register" href="https://odessajs2017.ticketforevent.com/?draft_mode=on" target="_blank">
+        Регистрация
+      </a>
+    </div>
+    <br>
+    <div class="workshops__author">
+      <div class="workshops__reporter_img"><img src="images/reporters/markus.jpeg" alt="leutwyler"></div>
+      <div class="workshops__about_author">
+        <br>
+        <br>
+        <br>
+        <b>Markus</b> is a technical consultant during day time and a maker in his spare time. As a co-founder and regular at FabLab Winterthur, he works on Robotics, IoT and Low-Power Networking. His various interests range from Photography, Multipotentialism to co-working, 360 Degree Video and Music.</div>
+    </div>
 
-          <!--</div>-->
-          <div class="sponsors__block">
-            <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Bronze</span></div>
-            <div class="sponsors__list">
-              <div class="sponsors__list-item">
-                <a target="_blank" href="http://lohika.com.ua">
-                  <img src="images/sponsors/lohika.JPG"
-                       alt="lohika">
-                </a>
+    <br><br><br><br><br>
+    <div class="workshops__theme">
+      <h1><b>Master-class "JSPM way of doing ES6 development" (by Sergey Seletskyy)"</b></h1>
+    </div>
+    <div class="workshops__opacity">
+      Когда? Дата и время согласовывается. Билет на мастер-класс можно купить <a href="https://odessajs2017.ticketforevent.com/?draft_mode=on" target="_blank">тут</a>
+    </div>
+    <div>
+      <br>
+      На простом примере React/Redux приложения я покажу:
+      <ul>
+        <li>как можно использовать SystemJS для React разработки;</li>
+        <li>как обойтись без Webpack'a, но при этом использовать hot reload;</li>
+        <li>как писать код по BDD и получать от этого удовольствие.</li>
+      </ul>
+      <br>
+      Данный мастер-класс направлен на разработчиков, которые уже пишут на React, используя ES6, и желает приобрести/улучшить свои навыки в использовании SystemJS/JSPM.
+      <br>
+      Программа мастер-класса включает следующие разделы:
+      <ul>
+        <li>Теоретические основы SystemJS и JSPM (а дальше только практика)</li>
+        <li>базовая конфигурация проекта, использование Docker как изолированное окружение разработчика</li>
+        <li>подключение HMR (Hot Reload)</li>
+        <li>Разработка через тестирование - практика BDD</li>
+      </ul>
+      <br>
+      Требования к участникам мастер-класса:
+      <ul>
+        <li>знание JavaScript ES6</li>
+        <li>базовые знания git и npm, React</li>
+        <li>наличие ноутбука с установленным git, Docker (последняя стабильная версия)</li>
+      </ul>
+      <br>
+      После прохождения мастер-класса участники:
+      <ul>
+        <li>постигнут основы философии дзен</li>
+        <li>научатся конфигурировать React проекты без использования Webpack</li>
+        <li>познакомятся с техникой проектирования кода через юнит-тестирование</li>
+        <li>начнут путь к душевному спокойствию после каждого трудового дня</li>
+      </ul>
+      <br>
+      <a class="registration-btn workshops__register" href="https://odessajs2017.ticketforevent.com/?draft_mode=on" target="_blank">
+        Регистрация
+      </a>
+    </div>
+    <br>
+    <div class="workshops__author">
+      <div class="workshops__reporter_img"><img src="images/reporters/seleckiy.png" alt="seleckiy"></div>
+      <div class="workshops__about_author">
+        <br>
+        <br>
+        <br>
+        <b>Сергей Селецкий</b> full stack разработчик ruby-javascript, старший разработчик в компании Lohika (Altran).
+      </div>
+    </div>
+  </div>
+  <br>
+  <div data-section="sponsors" class="sponsors"></div>
+        <div data-section="sponsors" class="sponsors">
+          <div class="sponsors__title">Спонсоры</div>
+          <div class="sponsors__content">
+            <!--<div class="sponsors__block">-->
+            <!--<div class="sponsors__list-title"><span class="sponsors__list-title-inner">General</span></div>-->
+            <!--</div>-->
+            <div class="sponsors__block">
+              <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Platinum</span></div>
+              <div class="sponsors__list">
+                <div class="sponsors__list-item">
+                  <a target="_blank" href="https://ukraine.levi9.jobs/">
+                    <img src="images/sponsors/levi9.png"
+                         alt="levi9">
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
+            <div class="sponsors__block">
+              <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Gold</span></div>
+              <div class="sponsors__list">
+                <div class="sponsors__list-item">
+                  <a target="_blank" href="http://dataart.ua/vacancy/odessa/">
+                    <img src="images/sponsors/dataart_logo.png"
+                         alt="dataart">
+                  </a>
+                </div>
+              </div>
+              <div class="sponsors__list">
+                <div class="sponsors__list-item">
+                  <a target="_blank" href="https://do-it-solutions.com">
+                    <img src="images/sponsors/do_it_logo.png"
+                         alt="doit">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="sponsors__block">
+              <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Silver</span></div>
+              <div class="sponsors__list">
+                <div class="sponsors__list-item">
+                  <a target="_blank" href="https://zone3000.net">
+                    <img src="images/sponsors/zone3000.png"
+                         alt="zone3000">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="sponsors__block">
+              <div class="sponsors__list-title"><span class="sponsors__list-title-inner">Bronze</span></div>
+              <div class="sponsors__list">
+                <div class="sponsors__list-item">
+                  <a target="_blank" href="http://lohika.com.ua">
+                    <img src="images/sponsors/lohika.JPG"
+                         alt="lohika">
+                  </a>
+                </div>
+              </div>
+            </div>
 
           <div class="sponsors__additional">
             <div class="sponsors__additional-text">
