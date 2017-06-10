@@ -699,7 +699,7 @@ a {
       background: url("../images/connector-2.png") no-repeat 100% 50% #fff; }
       @media screen and (max-width: 720px) {
         .schedule__report-time {
-          width: 80px;
+          width: 100px;
           padding-left: 5px;
           font-size: 13px; } }
     .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
