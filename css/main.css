@@ -648,7 +648,9 @@ a {
       color: #fff;
       font-size: 16px;
       background: #cd1f31;
-      padding-left: 15px; }
+      padding-left: 15px;
+      position: relative;
+      overflow: hidden; }
       @media screen and (max-width: 720px) {
         .schedule__info-text {
           font-size: 13px; } }
@@ -681,6 +683,15 @@ a {
           width: 34px;
           height: 32px;
           background: url("../images/dinner.png") no-repeat 0 0; }
+      .schedule__info-text--note {
+        display: block;
+        position: absolute;
+        top: 15px;
+        font-size: 9px;
+        padding-left: 15px;
+        color: antiquewhite;
+        left: 0;
+        right: 0; }
   .schedule__reporter {
     color: #666666; }
   .schedule__report {

@@ -754,6 +754,8 @@ a {
 			font-size: 16px;
 			background: #cd1f31;
 			padding-left: 15px;
+      position: relative;
+      overflow: hidden;
 			@media screen and (max-width: 720px) {
 				font-size: 13px;
 			}
@@ -793,6 +795,16 @@ a {
 					background: url('../images/dinner.png') no-repeat 0 0;
 				}
 			}
+      &--note {
+        display: block;
+        position: absolute;
+        top: 15px;
+        font-size: 9px;
+        padding-left: 15px;
+        color: antiquewhite;
+        left: 0;
+        right: 0;
+      }
 		}
 	}
 
