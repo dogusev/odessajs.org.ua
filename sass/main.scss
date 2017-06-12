@@ -820,7 +820,7 @@ a {
 		&-hall-a,
 		&-hall-b,
 		&-hall-c {
-			padding: 25px;
+			//padding: 25px;
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
@@ -832,9 +832,9 @@ a {
 				font-size: 13px;
 			}
 		}
-		&-hall-a {
-			margin-right: 13px;
-		}
+		//&-hall-a {
+		//	margin-right: 13px;
+		//}
 
 		&-hall-c {
 			margin-left: 13px;

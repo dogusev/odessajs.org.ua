@@ -703,7 +703,6 @@ a {
           padding-left: 5px;
           font-size: 13px; } }
     .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
-      padding: 25px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -727,8 +726,6 @@ a {
       @media screen and (max-width: 720px) {
         .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
           font-size: 13px; } }
-    .schedule__report-hall-a {
-      margin-right: 13px; }
     .schedule__report-hall-c {
       margin-left: 13px; }
 
