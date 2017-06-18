@@ -794,6 +794,11 @@ a {
 					height: 32px;
 					background: url('../images/dinner.png') no-repeat 0 0;
 				}
+        &.pizza {
+          width: 34px;
+          height: 32px;
+          background: url('../images/dinner.png') no-repeat 0 0;
+        }
 			}
       &--note {
         display: block;
@@ -831,7 +836,8 @@ a {
 		}
 		&-hall-a,
 		&-hall-b,
-		&-hall-c {
+		&-hall-c,
+    &-hall-tc {
 			//padding: 25px;
 	    display: flex;
 	    flex-direction: column;
@@ -844,9 +850,9 @@ a {
 				font-size: 13px;
 			}
 		}
-		//&-hall-a {
-		//	margin-right: 13px;
-		//}
+		&-hall-a {
+			margin-right: 13px;
+		}
 
 		&-hall-c {
 			margin-left: 13px;

@@ -683,6 +683,10 @@ a {
           width: 34px;
           height: 32px;
           background: url("../images/dinner.png") no-repeat 0 0; }
+        .schedule__info-text-icon.pizza {
+          width: 34px;
+          height: 32px;
+          background: url("../images/dinner.png") no-repeat 0 0; }
       .schedule__info-text--note {
         display: block;
         position: absolute;
@@ -713,7 +717,7 @@ a {
           width: 100px;
           padding-left: 5px;
           font-size: 13px; } }
-    .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
+    .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c, .schedule__report-hall-tc {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -735,8 +739,10 @@ a {
       text-align: center;
       background: #fff; }
       @media screen and (max-width: 720px) {
-        .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c {
+        .schedule__report-hall-a, .schedule__report-hall-b, .schedule__report-hall-c, .schedule__report-hall-tc {
           font-size: 13px; } }
+    .schedule__report-hall-a {
+      margin-right: 13px; }
     .schedule__report-hall-c {
       margin-left: 13px; }
 
