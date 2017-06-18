@@ -676,13 +676,17 @@ a {
 	}
 
 	&__hall-title-a,
-	&__hall-title-b {
+	&__hall-title-b,
+  &__hall-title-c {
 		width: 50%;
 		text-align: center;
 		display: inline-block;
 		&--triple {
 			width: 33%;
 		}
+    &--squad {
+      width: 25%;
+    }
 	}
 
 	&__hall-title-c {
@@ -690,6 +694,15 @@ a {
 		text-align: center;
 		display: inline-block;
 	}
+
+  &__hall-title-tc {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    &--squad {
+      width: 25%;
+    }
+  }
 
 	&__title {
 		letter-spacing: -3px;
