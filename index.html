@@ -18,6 +18,21 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '549071635216417'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=549071635216417&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- DO NOT MODIFY -->
+  <!-- End Facebook Pixel Code -->
 </head>
 <body>
 <div class="main" id="#main">
@@ -137,7 +152,7 @@
           </div>
         </div>
 
-        <div class="reports__list-item">
+        <div class="reports__list-item" data-section="lol">
           <div class="reports__list-item-img"><img src="images/reporters/artyomtrityak.jpg" alt="artyomtrityak"></div>
           <div class="reports__list-item-name">
             Артем Тритяк
@@ -761,6 +776,11 @@
     <div class="schedule__title">Расписание</div>
 
     <div class="schedule__second-title">30 июня ПРЕПАТИ</div>
+    <div class="registration-btn" style="background: white;font-size: 24px;cursor: pointer;">
+      <a style="color: red" href="https://docs.google.com/forms/d/e/1FAIpQLSeNllSVwdzdwdlU_UUhtzRl5eGHzhcOnyTaIdAY41Yv_SH5JA/viewform" target="_blank">
+        Регистрация
+      </a>
+    </div>
     <div class="schedule__content">
       <div class="schedule__info">
         <div class="schedule__info-time">17:00</div>
@@ -1693,5 +1713,6 @@
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
 <script src="script.js" type="text/javascript"></script>
+<script src="./fb.js" type="text/javascript"></script>
 </body>
 </html>
