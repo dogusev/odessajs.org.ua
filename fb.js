@@ -5,7 +5,7 @@ $(document).ready(function() {
     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
     document,'script','//connect.facebook.net/en_US/fbevents.js');
 // Insert Your Facebook Pixel ID below.
-  fbq('init', '<549071635216417>');
+  fbq('init', '549071635216417');
   fbq('track', 'PageView');
 
   fbq('track', 'ViewContent', {
