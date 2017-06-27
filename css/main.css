@@ -853,7 +853,9 @@ a {
         width: 100%;
         margin-top: 2rem; }
         .sponsors__additional-text__image-wrapper > img {
-          width: 100%; }
+          width: 100%;
+          border: 2px solid #c9c9c9;
+          padding: 6px; }
     .sponsors__additional-info {
       margin-bottom: 30px; }
       .sponsors__additional-info-title {
