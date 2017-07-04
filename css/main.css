@@ -325,7 +325,12 @@ a {
       color: #000;
       font-family: 'Jura';
       font-weight: 600;
-      margin: 20px 0; }
+      margin: 20px 0 0; }
+    .reports__list-item-report {
+      margin: 0;
+      text-align: center; }
+      .reports__list-item-report img {
+        width: 30px; }
     .reports__list-item-about-theme {
       font-size: 15px;
       color: #999999;
