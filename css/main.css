@@ -1180,3 +1180,8 @@ a {
     height: 50px;
     font-size: 13px;
     line-height: 52px; }
+
+.share-links {
+  font-size: 20px;
+  margin-top: 1rem;
+}
