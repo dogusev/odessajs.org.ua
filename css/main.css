@@ -84,7 +84,7 @@ a {
       border-bottom: 1px dashed #fff; }
   .menu__i18n {
     display: inline-block;
-    margin-left: 18px;
+    /*margin-left: 18px;*/
     color: #fff; }
   .menu__register-btn {
     border: 2px solid white;
@@ -101,7 +101,7 @@ a {
   max-width: 1160px;
   margin: 10px auto 0;
   letter-spacing: -2px;
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
   color: #e52f3f;
   font-family: 'Jura';
@@ -119,7 +119,7 @@ a {
   letter-spacing: -2px;
   text-align: center;
   font-family: 'Jura';
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 300; }
   @media screen and (max-width: 720px) {
     .main-subtitle {
@@ -153,6 +153,8 @@ a {
   .registration-btn:hover {
     background: #db1c31;
     text-decoration: none; }
+  .registration-btn.inline-block-btn {
+    display: inline-block; }
 
 .ticket-include {
   margin-top: -120px;
@@ -792,7 +794,6 @@ a {
     font-size: 20px;
     line-height: 33px;
     padding: 30px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 70%;
     text-align: center;
@@ -1106,7 +1107,6 @@ a {
     -webkit-flex: 1 0 30%;
     -ms-flex: 1 0 30%;
     flex: 1 0 30%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     .partners-list .partner .logo {
       margin: auto;
@@ -1183,5 +1183,7 @@ a {
 
 .share-links {
   font-size: 20px;
-  margin-top: 1rem;
-}
+  margin-top: 1rem; }
+
+.visible-link {
+  color: #fff; }

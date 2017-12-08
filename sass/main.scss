@@ -91,7 +91,7 @@ a {
 	}
   &__i18n {
     display: inline-block;
-    margin-left: 18px;
+    /*margin-left: 18px;*/
     color: #fff;
   }
   &__register-btn {
@@ -112,7 +112,7 @@ a {
 	max-width: 1160px;
 	margin: 10px auto 0;
 	letter-spacing: -2px;
-	font-size: 80px;
+	font-size: 50px;
 	text-align: center;
 	color: #e52f3f;
 	font-family: 'Jura';
@@ -132,7 +132,7 @@ a {
 	letter-spacing: -2px;
 	text-align: center;
 	font-family: 'Jura';
-	font-size: 48px;
+	font-size: 38px;
 	font-weight: 300;
 	@media screen and (max-width: 720px) {
 		font-size: 32px;
@@ -170,6 +170,10 @@ a {
 		background: darken(#e42c40, 5%);
 		text-decoration: none;
 	}
+
+  &.inline-block-btn {
+    display: inline-block;
+  }
 }
 
 .ticket-include {
@@ -1364,4 +1368,8 @@ a {
 .share-links {
   font-size: 20px;
   margin-top: 1rem;
+}
+
+.visible-link {
+  color: #fff;
 }
