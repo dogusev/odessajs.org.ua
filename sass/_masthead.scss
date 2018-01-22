@@ -1,0 +1,131 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('../images/parallax-img.png');
+  background-position: center center;
+  @include background-cover;
+  .main_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+  }
+  .main_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: $white;
+  }
+  .main_button {
+    margin: 0 3rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+  .main_caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: $white;
+    margin-bottom: 4rem;
+  }
+  .buttons_row {
+    margin-bottom: 3rem;
+  }
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+
+
+    .main_button {
+      margin-bottom: 0rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
+section {
+  .subscribe_form {
+    .form-group {
+    margin: 0 auto;
+      .col-auto {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .subscribe_form {
+      .form-group {
+       .col-auto {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .socials {
+    //display: flex;
+    margin-top: 33px;
+    text-align: right;
+    @media screen and (max-width: 720px) {
+      text-align: center;
+    }
+    .socials__link {
+      transition: all ease .5s;
+      margin-left: 14px;
+      display: inline-block;
+      text-decoration: none;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      @media screen and (max-width: 720px) {
+        margin: 0 8px;
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    &__tw {
+      background: url('../images/twitter-red.png');
+    }
+    &__tg {
+      background: url('../images/telegram-red.png');
+    }
+    &__ml {
+      background: url('../images/e-mail.png');
+    }
+    &__fb {
+      background: url('../images/fb-red.png');
+    }
+    &__vk {
+      background: url('../images/vk.png');
+    }
+    &__yt {
+      background: url('../images/youtube-red.png');
+    }
+    &__icons {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+}

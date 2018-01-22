@@ -1,0 +1,26 @@
+section#speakers {
+  background-image: url(../images/section_top_bg.png);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -4rem;
+  padding-top: 6rem;
+  .main_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: $primary;
+  }
+  .main_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: $black;
+  }
+  .buttons_row {
+    text-align: center;
+  }
+  .announce-container {
+    h3 {
+      font-weight: bold;
+    }
+  }
+}
