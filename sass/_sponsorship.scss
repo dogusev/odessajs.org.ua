@@ -3,8 +3,6 @@ section#sponsorship {
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: -4rem;
-  padding-top: 6rem;
   .main_title {
     font-family: 'Jura', sans-serif;
     font-size: 45px;
@@ -45,6 +43,10 @@ section#sponsorship {
   .sponsor_stats_container {
     padding-bottom: 4rem;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    @media (min-width: 992px) {
+      text-align: left;
+    }
     .sponsort_stats_title {
       color: $primary;
       font-size: 70px;

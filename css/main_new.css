@@ -70,7 +70,20 @@ body {
   -webkit-tap-highlight-color: #212529; }
 
 .block_title {
-  padding-bottom: 6rem; }
+  padding-bottom: 1rem; }
+  @media (min-width: 992px) {
+    .block_title {
+      padding-bottom: 6rem; } }
+
+section.paddings {
+  margin-top: -1rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem; }
+  @media (min-width: 992px) {
+    section.paddings {
+      margin-top: -4rem;
+      padding-top: 6rem;
+      padding-bottom: 8rem; } }
 
 .img-responsive {
   width: 100%;
@@ -252,9 +265,7 @@ section#speakers {
   background-image: url(../images/section_top_bg.png);
   background-position: top center;
   background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -4rem;
-  padding-top: 6rem; }
+  background-repeat: no-repeat; }
   section#speakers .main_title {
     font-family: 'Jura', sans-serif;
     font-size: 45px;
@@ -272,9 +283,7 @@ section#sponsorship {
   background-image: url(../images/section_top_bg.png);
   background-position: top center;
   background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -4rem;
-  padding-top: 6rem; }
+  background-repeat: no-repeat; }
   section#sponsorship .main_title {
     font-family: 'Jura', sans-serif;
     font-size: 45px;
@@ -304,7 +313,11 @@ section#sponsorship {
     float: right; }
   section#sponsorship .sponsor_stats_container {
     padding-bottom: 4rem;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    text-align: center; }
+    @media (min-width: 992px) {
+      section#sponsorship .sponsor_stats_container {
+        text-align: left; } }
     section#sponsorship .sponsor_stats_container .sponsort_stats_title {
       color: #e32d42;
       font-size: 70px;
@@ -314,9 +327,7 @@ section#rocked {
   background-image: url(../images/section_top_bg.png);
   background-position: top center;
   background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: -4rem;
-  padding-top: 6rem; }
+  background-repeat: no-repeat; }
   section#rocked .main_title {
     font-family: 'Jura', sans-serif;
     font-size: 45px;

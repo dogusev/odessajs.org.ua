@@ -83,8 +83,24 @@ body {
 }
 
 .block_title {
-  padding-bottom: 6rem;
+  padding-bottom: 1rem;
+  @media (min-width: 992px) {
+    padding-bottom: 6rem;
+  }
 }
+
+section.paddings {
+  margin-top: -1rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  @media (min-width: 992px) {
+    margin-top: -4rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+  }
+
+}
+
 
 .btn {}
 
