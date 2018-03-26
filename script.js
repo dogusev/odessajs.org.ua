@@ -21,37 +21,43 @@ function validateEmail(email) {
 
 $(document).ready(function() {
 
-/*
-  $('.menu__list').on('click', '.menu__list-item', function() {
-    $('body').animate({scrollTop: $('[data-section="'+ $(this).attr('data-target')+'"]').offset().top}, '500');
+  $('#programCommitteeCarousel').carousel({
+    interval: 5000
   });
 
-  $(document).on('scroll', function() {
-    if ($(document).scrollTop() > 200) {
-      $('.button-top').fadeIn(200);
-    } else {
-      $('.button-top').fadeOut(200);
+  $('.program-committee .carousel .carousel-item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+
+    for (var i=0;i<2;i++) {
+      next=next.next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
+      }
+
+      next.children(':first-child').clone().appendTo($(this));
     }
   });
-*/
+
+    $('#speakers-carousel').carousel({
+        interval: 5000
+    });
+
+    $('.speakers .carousel .carousel-item').each(function(){
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+    });
+
 
   $('.reports__list-item-theme').click(function () {
     $(this).next().toggle();
   });
-
-  /*$(document).trigger('scroll');
-
-  $('.button-top').click(function(){
-    $('body').animate({scrollTop: 0}, '500');
-  });
-
-  $('.sponsors__list-item').hover(function(){
-    var $img = $(this).find('img');
-    $img.attr('src', $img.attr('data-color-src'));
-  }, function(){
-    var $img = $(this).find('img');
-    $img.attr('src', $img.attr('data-grey-src'));
-  });*/
 
   $('.subscribe_form').submit(function(e) {
     e.preventDefault();
@@ -74,110 +80,24 @@ $(document).ready(function() {
     }
   });
 
+  $('[data-modal-trigger="#ask-form"]').click(function() {
+    var $speakerBlock = $(this);
+    loadAskQuestionModal($speakerBlock);
+
+    $('#ask-form').modal('show');
+;  });
+
 });
-/*
 
+function loadAskQuestionModal($speakerBlock) {
+  var $modalBody = $('#ask-form');
+  var $modalHiddenInput = $modalBody.find('#ask-to');
+  var $modalNameElement = $modalBody.find('.speaker_ask_name');
+  var speakerName = $speakerBlock.closest('.chairman-info').find('.chairman__name').text();
+  $modalHiddenInput.val(speakerName);
+  $modalNameElement.text(speakerName);
 
-
-ymaps.ready(init);
-
-function init(){
-    var myMap = new ymaps.Map("map", {
-        center: [46.4803,30.7543],
-        zoom: 10
-    }),
-
-		MyBalloonLayout = ymaps.templateLayoutFactory.createClass(
-	    '<div class="map-popover top">' +
-      '<a class="map-popover__close" href="#">&times;</a>' +
-      '<div class="map-popover__arrow"></div>' +
-      '<div class="map-popover__marker"></div>' +
-      '<div class="map-popover__inner">' +
-      '$[[options.contentLayout]]' +
-      '</div>' +
-      '</div>', {
-      build: function () {
-          this.constructor.superclass.build.call(this);
-          this._$element = $('.map-popover', this.getParentElement());
-          this.applyElementOffset();
-          this._$element.find('.map-popover__close')
-              .on('click', $.proxy(this.onCloseClick, this));
-      },
-      clear: function () {
-          this._$element.find('.map-popover__close')
-              .off('click');
-          this.constructor.superclass.clear.call(this);
-      },
-
-      onSublayoutSizeChange: function () {
-          MyBalloonLayout.superclass.onSublayoutSizeChange.apply(this, arguments);
-
-          if(!this._isElement(this._$element)) {
-              return;
-          }
-
-          this.applyElementOffset();
-          this.events.fire('shapechange');
-      },
-      applyElementOffset: function () {
-          this._$element.css({
-              left: -(this._$element[0].offsetWidth / 2),
-              top: -(this._$element[0].offsetHeight + this._$element.find('.map-popover__arrow')[0].offsetHeight)
-          });
-      },
-      onCloseClick: function (e) {
-          e.preventDefault();
-
-          this.events.fire('userclose');
-      },
-      getShape: function () {
-        if(!this._isElement(this._$element)) {
-            return MyBalloonLayout.superclass.getShape.call(this);
-        }
-
-        var position = this._$element.position();
-
-        return new ymaps.shape.Rectangle(new ymaps.geometry.pixel.Rectangle([
-            [position.left, position.top], [
-                position.left + this._$element[0].offsetWidth,
-                position.top + this._$element[0].offsetHeight + this._$element.find('.map-popover__arrow')[0].offsetHeight
-            ]
-        ]));
-      },
-      _isElement: function (element) {
-        return element && element[0] && element.find('.map-popover__arrow')[0];
-      }
-    }),
-
-    MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-      '<div class="map-popover__image"></div>' +
-      '<div class="map-popover__title">Место проведения</div>' +
-      '<div class="map-popover__adress">парк Шевченко, <br>отель «<strong>Черное море</strong>»</div>'
-
-    ),
-
-    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
-        balloonShadow: false,
-        balloonLayout: MyBalloonLayout,
-        balloonContentLayout: MyBalloonContentLayout,
-        balloonPanelMaxMapArea: 0,
-        iconLayout: 'default#image',
-        // Своё изображение иконки метки.
-        iconImageHref: 'images/marker.png',
-        // Размеры метки.
-        iconImageSize: [48, 59],
-        iconImageOffset: [-24, -59],
-        // Не скрываем иконку при открытом балуне.
-        hideIconOnBalloonOpen: false,
-        // И дополнительно смещаем балун, для открытия над иконкой.
-        balloonOffset: [0, -36]
-    });
-
-    myMap.behaviors.disable('scrollZoom');
-
-    myMap.geoObjects.add(myPlacemark);
 }
-*/
 
 (function($) {
   "use strict"; // Start of use strict
@@ -238,3 +158,207 @@ function init(){
   }, 300);
 
 })(jQuery); // End of use strict
+
+
+// bondar changes tsarts here
+function initMap() {
+  var center = new google.maps.LatLng(46.432882, 30.761098);
+  var mapOptions = {
+    center: center,
+    zoom: 16,
+    styles: [
+      {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#e9e9e9"
+          },
+          {
+            "lightness": 17
+          }
+        ]
+      },
+      {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f5f5f5"
+          },
+          {
+            "lightness": 20
+          }
+        ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 17
+          }
+        ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 29
+          },
+          {
+            "weight": 0.2
+          }
+        ]
+      },
+      {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 18
+          }
+        ]
+      },
+      {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 16
+          }
+        ]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f5f5f5"
+          },
+          {
+            "lightness": 21
+          }
+        ]
+      },
+      {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#dedede"
+          },
+          {
+            "lightness": 21
+          }
+        ]
+      },
+      {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+          {
+            "visibility": "on"
+          },
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": 16
+          }
+        ]
+      },
+      {
+        "elementType": "labels.text.fill",
+        "stylers": [
+          {
+            "saturation": 36
+          },
+          {
+            "color": "#333333"
+          },
+          {
+            "lightness": 40
+          }
+        ]
+      },
+      {
+        "elementType": "labels.icon",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#f2f2f2"
+          },
+          {
+            "lightness": 19
+          }
+        ]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#fefefe"
+          },
+          {
+            "lightness": 20
+          }
+        ]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+          {
+            "color": "#fefefe"
+          },
+          {
+            "lightness": 17
+          },
+          {
+            "weight": 1.2
+          }
+        ]
+      }
+    ]
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  var marker = new google.maps.Marker({
+    position: center
+  });
+  marker.setMap(map);
+}
+
+$(document).ready(function(){
+
+
+  $('.speakers-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    infinite: false
+  });
+
+  //initMap();
+});

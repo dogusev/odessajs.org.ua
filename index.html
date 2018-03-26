@@ -29,10 +29,14 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Jura|Roboto" rel="stylesheet">
 
+  <link rel="stylesheet" href="vendor/animate/animations.css">
 
 
   <!-- Custom styles -->
   <link href="css/main_new.css" rel="stylesheet">
+  <!--Slick-->
+  <link rel="stylesheet" href="vendor/slick/slick.css">
+  <link rel="stylesheet" href="vendor/slick/slick-theme.css">
 <!--
   <link rel="stylesheet" href="css/main.css">-->
   <!-- Facebook Pixel Code -->
@@ -64,7 +68,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#speakers">Call for speakers</a>
+          <a class="nav-link js-scroll-trigger" href="#program-commitee">Programs commitee</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#sponsorship">Sponsors</a>
@@ -74,6 +78,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger rounded-circle" href="#contact">Register now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger rounded-circle" href="#location">Location</a>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link js-scroll-trigger language-selector" href="#language">EN|RU</a>
@@ -99,7 +106,9 @@
       <div class="col-lg-8 mx-auto">
         <p class="text-faded mb-5 main_subtitle">Next Odessa JS conference is coming on 6-8 July 2018</p>
         <div class="buttons_row">
+          <!--
           <a class="btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQqU4iM-vBx6VRWHQcE1zKh3LW4KZ5231Oe0dQx-neBrrc3g/viewform">Submit your talk</a>
+          -->
           <a class="btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank" href="files/ODESSAJS_2018_en.pdf">Become a sponsor</a>
         </div>
         <p class="mb5 main_caption">
@@ -110,19 +119,77 @@
   </div>
 </header>
 
-
+<section class="about">
+  <div class="container">
+    <div class="col-lg-12 block_title">
+      <hr>
+      <h2 class="text-uppercase main-title text-center">
+        <strong>Three-day conference on in-depth JavaScript Technologies</strong>
+      </h2>
+      <hr>
+    </div>
+    <div class="col-gl-10 mx-auto mb-5">
+      <p class="main_subtitle text-center">
+        Welcome to OdessaJS conference - one of the biggest JavaScript conference next to
+        the Black Sea in Ukraine. This year it will be already the 6th conference.<br>
+        All three days of the conference are full of strong technical talks and workshops,
+        carefully selected by our Program Committee. We care about building a companionable
+        community of truly enthusiastic experts in JavaScript programming regardless of gender,
+        sexual orientation, abilities, mother tongue, religion or ethnicity. To connect attendees
+        together and drive more interesting meetings, every year we prepare big afterparty on the beach,
+        a lot of fun and tech activities during the conference. The sunny Odessa, warm sea, the
+        summerly and friendly atmosphere at OdessaJS are memories and knowledge to remember all
+        following year after the conference.
+      </p>
+    </div>
+    <div class="about-schedule row col-lg-12">
+      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+        <div class="img-wrapper">
+          <img src="images/microphone.png" alt="">
+        </div>
+        <h4 class="my-3">July 6th</h4>
+        <ul>
+          <li>Full day of extensively trainings</li>
+          <li>Ice breaker pre-party with lightning talks</li>
+        </ul>
+      </div>
+      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+        <div class="img-wrapper">
+          <img src="images/fireworks.png" alt="">
+        </div>
+        <h4 class="my-3">July 7th</h4>
+        <ul>
+          <li>Morning yoga on the beach</li>
+          <li>Full-day of 2 tracks technical speeches and tech-corners for open discussions on trended topics</li>
+          <li>Big afterparty with music, food and easy networking</li>
+        </ul>
+      </div>
+      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+        <div class="img-wrapper">
+          <img src="images/sunset.png" alt="">
+        </div>
+        <h4 class="my-3">July 8th</h4>
+        <ul>
+          <li>Morning yoga on the beach</li>
+          <li>Full-day of 2 tracks technical speeches and tech-corners for open discussions on trended topics</li>
+          <li>Big afterparty with music, food and easy networking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="contact">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+    <div class="row animatedParent">
+      <div class="col-lg-8 mx-auto text-center animated fadeInLeft">
         <h2 class="section-heading">Stay tuned for more</h2>
         <hr class="my-4">
         <p class="mb-5">Subscribe to get latest news and updates and follow us on social media</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12 ml-auto text-center">
+    <div class="row animatedParent">
+      <div class="col-lg-12 ml-auto text-center animated fadeInRight">
         <div class="socials">
           <form class="form-inline subscribe_form">
             <div class="form-group">
@@ -161,8 +228,8 @@
 <section id="infographics">
   <div class="container my-auto">
     <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <img src="images/OdessaJS-Infographics.jpg" alt="" class="img-responsive">
+      <div class="col-lg-12 mx-auto animatedParent">
+        <img src="images/OdessaJS-Infographics.png" alt="" class="img-responsive animated bounce">
         <hr>
       </div>
     </div>
@@ -170,6 +237,334 @@
 </section>
 
 
+<section id="program-commitee" class="program-committee">
+  <div class="container">
+    <div class="col-lg-12 mx-auto block_title animatedParent">
+      <h2 class="text-uppercase text-center main-title animated fadeInLeft"><strong>Programs Committee</strong></h2>
+      <hr>
+    </div>
+    <!--<div class="col-lg-10 mx-auto animatedParent">
+      <p class="mb-5 main_subtitle animated fadeInRight">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis
+        sem justo, consequat
+        posuere velit scelerisque sit amet. Praesent aliquam ex a hendrerit elementum. Integer ante dui,
+        tincidunt vel dictum eu, ullamcorper sit amet orci. Sed accumsan dapibus mi nec placerat.
+        Praesent eu libero ut urna laoreet viverra. Vestibulum eget fringilla elit. Aenean porttitor
+        ultrices condimentum. Donec ultricies ligula ullamcorper congue tempor. Morbi rutrum quam nec
+        eleifend tempus.
+
+        Sed tempus eget urna vitae sollicitudin. Vestibulum ut rutrum velit, non molestie metus.
+        Quisque a enim quis metus varius hendrerit. Nulla enim urna, imperdiet eu magna dictum,
+        suscipit malesuada augue. Donec ultricies tellus ut tellus sollicitudin condimentum. Proin
+        at magna urna. Nunc vel tempus sem. Suspendisse eu tristique sem, ut fringilla nisl.
+
+        Proin eget maximus libero. Proin malesuada nunc sit amet turpis congue, in malesuada quam
+        fringilla. Donec nec metus nulla. Sed sed dui enim. Etiam neque tellus, dignissim a nibh quis,
+        sollicitudin hendrerit enim. Cras ac dignissim felis. Fusce pulvinar nisi facilisis finibus
+        aliquet. Aliquam sit amet euismod ante. Duis cursus maximus sollicitudin. Vestibulum ac
+        vestibulum leo. Aliquam quis finibus massa. Donec pellentesque dui massa, at eleifend purus
+        aliquam eu. Fusce vel rhoncus purus. Integer blandit sem arcu, fermentum placerat elit
+        bibendum ac.
+
+        In hac habitasse platea dictumst. Sed rutrum nibh vitae urna condimentum feugiat. Proin sit
+        amet ipsum sit amet turpis tincidunt pretium. Donec in turpis semper, mollis urna eu,
+        feugiat neque. Nulla vestibulum turpis nunc, at pharetra felis iaculis vel. Morbi ullamcorper
+        dolor eu velit feugiat tincidunt. Nunc a mauris ut justo gravida volutpat et ut enim. Aenean
+        non leo dictum, cursus orci sit amet, vestibulum nisi. Proin vehicula scelerisque erat, nec
+        tempus erat efficitur vel. Fusce viverra, massa sed lobortis finibus, felis purus finibus nunc,
+        non interdum risus dui non dui. Sed id odio eget sapien iaculis aliquet.
+      </p>
+    </div>-->
+    <div id="programCommitteeCarousel" class="program-committee-carousel carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner w-100" role="listbox">
+        <div class="carousel-item active">
+          <div class="chairman-info insides-wrapper col-3">
+            <!--<div class="img-wrapper w-100" data-toggle="modal" data-target="#modal-1">-->
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/gerard-sans.jpg">
+            </div>
+            <h2 class="chairman__name">Gerard Sans</h2>
+            <p class="chairman__position">Google Developer Expert</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://twitter.com/gerardsans">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://github.com/gsans">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://medium.com/@gerard.sans">
+                <i class="fa fa-medium" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="chairman-info insides-wrapper col-3">
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/nikita-galkin.jpg">
+            </div>
+            <h2 class="chairman__name">Nikita Galkin</h2>
+            <p class="chairman__position">IT Architect at GlobalLogic</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://www.facebook.com/nikita.galkin">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="chairman-info insides-wrapper col-3">
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/andrii-shumada.jpg">
+            </div>
+            <h2 class="chairman__name">Andrii Shumada</h2>
+            <p class="chairman__position">Full-full stack developer at Debitoor / Ciklum</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://www.facebook.com/andrii.shumada">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://www.instagram.com/andrii.shumada/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="chairman-info insides-wrapper col-3">
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/ksenia-redunova.jpg">
+            </div>
+            <h2 class="chairman__name">Ksenia Redunova</h2>
+            <p class="chairman__position">Team Lead in Lohika</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://www.facebook.com/redunova">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://www.linkedin.com/in/redunovaksenia/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="chairman-info insides-wrapper col-3">
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/sergiy-seletsky.jpg">
+            </div>
+            <h2 class="chairman__name">Sergiy Seletsky</h2>
+            <p class="chairman__position">Tech Lead at Lohika / Altran</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://www.facebook.com/sseletskyy">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://twitter.com/sseletskyy">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://github.com/sseletskyy">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://stackoverflow.com/users/781048/serge-seletskyy">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="chairman-info insides-wrapper col-3">
+            <div class="img-wrapper w-100">
+              <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
+            </div>
+            <h2 class="chairman__name">Timofey Lavrenyuk</h2>
+            <p class="chairman__position">Software Engineer at KeepSolid</p>
+            <div class="chairman__link-list w-100">
+              <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#programCommitteeCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#programCommitteeCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="chairman-info-popup modal fade" id="modal-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="img-wrapper w-25">
+            <img class="d-block img-fluid" src="images/program-committee/gerard-sans.jpg">
+          </div>
+          <div class="info-wrapper">
+            <h2 class="chairman__name">Gerard Sans</h2>
+            <p class="chairman__position">Google Developer Expert</p>
+            <div class="chairman__link-list">
+              <a class="chairman__link" target="_blank" href="https://twitter.com/gerardsans">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://github.com/gsans">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a class="chairman__link" target="_blank" href="https://medium.com/@gerard.sans">
+                <i class="fa fa-medium" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices porta viverra.
+            Integer facilisis sapien at neque viverra cursus. Aliquam sed lectus eu nisl hendrerit consequat
+            eget eget magna. Nam tincidunt volutpat nulla vitae pellentesque. Mauris tincidunt iaculis dolor,
+            in molestie odio finibus et. In laoreet rutrum dapibus. Curabitur purus orci, maximus nec faucibus
+            ut, ultrices vehicula felis. Morbi massa tellus, auctor eget consectetur consectetur, convallis et
+            tortor. Morbi quis scelerisque est. Phasellus tellus lacus, condimentum quis tortor quis, dapibus
+            vestibulum dolor. Nullam justo elit, lacinia eu rhoncus vel, hendrerit vel arcu. Curabitur aliquam
+            aliquam commodo. Mauris non lectus et lorem ornare rhoncus vel quis mauris. Phasellus laoreet egestas
+            turpis ut tempor. Mauris pharetra maximus arcu, eu aliquam purus vehicula vitae.
+
+            Suspendisse id urna eget massa ultricies sodales at a lectus. Donec nunc velit, aliquet eu
+            ornare et, dapibus eu metus. Suspendisse eu velit dictum odio condimentum iaculis. Mauris
+            consectetur lacus odio, eleifend bibendum massa consectetur et. Aenean pharetra ut lacus et
+            varius. Etiam ut metus nec nunc maximus posuere a tristique felis. Quisque egestas nibh tellus,
+            eget tristique mi condimentum in. Morbi ac eros luctus, pellentesque metus ac, dapibus turpis.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Vestibulum molestie tristique condimentum.
+
+            Fusce vel ultrices enim, eu efficitur nisl. Aliquam ut mi sed sem dignissim tristique. Aenean
+            non fringilla lorem, non pretium ex. Donec in mauris lectus. Vestibulum posuere luctus suscipit.
+            Etiam sit amet arcu convallis, tristique libero vitae, imperdiet metus. Phasellus at tristique est,
+            a pulvinar leo. Aliquam erat volutpat. Cras pharetra faucibus augue nec posuere.
+
+            Phasellus sollicitudin lorem tellus, quis scelerisque nibh tristique vitae. In fermentum efficitur
+            ex et tempus. Nam eleifend egestas tellus. Morbi vitae varius nulla. Nunc massa quam, vehicula sit
+            amet arcu eget, tempus suscipit ligula. Nunc iaculis bibendum commodo. Maecenas accumsan nisl sed
+            tristique volutpat. Nam id nisl sit amet neque auctor vestibulum eu rhoncus neque. Donec congue,
+            libero a laoreet mollis, erat nunc porttitor tellus, vitae auctor turpis purus eu quam. Vestibulum
+            eget elit nunc. Nulla bibendum nibh a odio suscipit, sit amet aliquam libero bibendum.
+
+            Maecenas velit nunc, consequat non risus non, blandit mattis justo. Pellentesque libero orci, laoreet
+            id enim et, facilisis dapibus erat. Maecenas cursus bibendum neque, ut dictum tortor iaculis eu.
+            Nulla facilisi. Suspendisse potenti. Aenean in mi semper, scelerisque tortor et, lacinia ipsum. Nunc
+            fermentum arcu nunc, a tristique turpis finibus et.
+
+            In fringilla, dolor sed euismod sagittis, ligula nisl maximus tortor, a faucibus mi tortor sit amet
+            diam. Nulla pulvinar dignissim diam. Aenean at quam nunc. Maecenas a venenatis massa, vel vehicula risus.
+            Maecenas vel finibus enim. Vivamus sagittis metus pellentesque eros placerat, ac posuere erat ornare.
+            Vestibulum ante erat, volutpat nec porta fermentum, accumsan non nulla. Nulla eget varius lectus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas
+            vel euismod augue, id iaculis felis. Vivamus fermentum tristique augue a congue. Duis consectetur
+            faucibus nisl eget laoreet. Pellentesque ex turpis, viverra a lobortis in, maximus.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ask-form" class="form-modal modal fade">
+    <div class="modal-dialog">
+      <form action="" class="modal-content container">
+        <div class="form-title">
+          <h3>Ask <span class="speaker_ask_name"></span>!</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="form-group row">
+          <input id="ask-to" name="ask-to" type="hidden">
+          <label for="ask-name" class="col-3 control-label">Name</label>
+          <div class="col-9">
+            <input id="ask-name" name="ask-name" type="text" placeholder="Your name *" class="form-control" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="ask-mail" class="col-3 control-label">Email</label>
+          <div class="col-9">
+            <input id="ask-mail" name="ask-mail" type="email" placeholder="Your email *" class="form-control" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-3 control-label" for="ask-message">Your message</label>
+          <div class="col-9">
+            <textarea class="form-control" id="ask-message" name="ask-message" placeholder="Please enter your message here..." rows="5" required></textarea>
+          </div>
+        </div>
+        <div class="form-group text-right">
+          <button type="submit" class="ask-submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--<div class="form-container modal fade" id="ask-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="" method="post">
+              <fieldset>
+                <legend class="text-center">Contact us</legend>
+
+                <div class="form-group">
+                  <label class="col-3 control-label" for="name">Name</label>
+                  <div class="col-9">
+                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-3 control-label" for="email">Your E-mail</label>
+                  <div class="col-9">
+                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-3 control-label" for="message">Your message</label>
+                  <div class="col-9">
+                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <div class="col-12 text-right">
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+</section>
+
+<!--
 <section id="speakers" class="paddings">
   <div class="container my-auto">
     <div class="row">
@@ -203,11 +598,11 @@
               For further inspiration, check out the video recordings of Odessa JS’s talks on <a href="https://www.youtube.com/c/OdessaJSConference" target="_blank">YouTube</a>.
             </p>
           </div>
-          <!--<div class="announce-container">
+          &lt;!&ndash;<div class="announce-container">
             <h3>Title</h3>
             <p>Lorem ipsum dolor sit amet, eam id regione noluisse ullamcorper, no vituperata posidonium pri. Te postea virtute tincidunt eos, at duo timeam discere inciderint. Cu cum wisi denique voluptatum, eam ea graeci sanctus invidunt.</p>
           </div>
-          -->
+          &ndash;&gt;
 
           <a class="main_button btn btn-primary btn-xl main_button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQqU4iM-vBx6VRWHQcE1zKh3LW4KZ5231Oe0dQx-neBrrc3g/viewform">Submit a talk now</a>
         </div>
@@ -227,19 +622,19 @@
   </div>
   </div>
 </section>
-
+-->
 
 
 <section id="sponsorship" class="paddings">
   <div class="container my-auto">
-    <div class="row">
+    <div class="row animatedParent">
       <div class="col-lg-12 mx-auto block_title">
         <h2 class="text-uppercase main_title text-center">
           <strong>Sponsorship opportunities</strong>
         </h2>
         <hr>
       </div>
-      <div class="col-lg-10 mx-auto">
+      <div class="col-lg-10 mx-auto animated fadeInLeft">
         <p class="text-faded mb-5 main_subtitle">
 
           We are glad to offer you our sponsorship packages for Odessa JS 2018.
@@ -249,7 +644,7 @@
           We’re looking forward to create a custom offer for you and find the best possible way to connect you with our audience!
         </p>
       </div>
-      <div class="col-lg-10 mx-auto">
+      <div class="col-lg-10 mx-auto animated fadeInRight">
         <div class="sponsor_stats_container row">
           <div class="col-md-3 col-sm-6">
             <div class="sponsort_stats_title">800+</div>
@@ -277,11 +672,11 @@
           <a class="main_button btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank" href="ODESSAJS_2018_en.pdf">Become a sponsor</a>
         </div>
       </div>
-      <div class="col-lg-10 mx-auto block_title thank-container">
+      <div class="col-lg-10 mx-auto block_title thank-container animated fadeInLeft">
         <h3 class="text-uppercase text-center">
-          Thanks to these great companies who supported us in <a href="http://odessajs.org/2017/index.html#sponsors" target="_blank">2017</a>!
+          THANKS TO THESE GREAT COMPANIES WHO SUPPORTED US!
         </h3>
-        <div class="container">
+        <!--<div class="container">
           <div class="row">
             <div class="col-lg-2 col-md-4 text-center thank-box">
               <img src="2017/images/sponsors/neotech.png" alt="" class="img-responsive">
@@ -310,7 +705,7 @@
               <img src="2017/images/sponsors/noosphereglobal.png" alt="" class="img-responsive">
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
@@ -380,6 +775,639 @@
 
 
     </div>
+  </div>
+</section>
+<!--
+
+<section class="speakers">
+  <img src="images/speakers-waves.png" alt="" class="speakers-img-1">
+  <div class="container">
+    <div class="speakers-title offset-1 col-10">
+      <img src="images/speakers-circle.png" alt="" class="speakers-title-img-1">
+      <h1>Our Awesome Speakers</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <ul class="speakers-filters">
+      <li class="speakers-filters__item">
+        <a href="javascript:void(0);" class="speakers-filters__link" target="_blank">Node JS</a>
+      </li>
+      <li class="speakers-filters__item">
+        <a href="javascript:void(0);" class="speakers-filters__link" target="_blank">VUE</a>
+      </li>
+      <li class="speakers-filters__item">
+        <a href="javascript:void(0);" class="speakers-filters__link" target="_blank">Angular JS</a>
+      </li>
+      <li class="speakers-filters__item">
+        <a href="javascript:void(0);" class="speakers-filters__link" target="_blank">React JS</a>
+      </li>
+    </ul>
+    <div id="speakers-carousel" class="speakers-carousel carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner w-100" role="listbox">
+        <div class="carousel-item active">
+          <div class="speakers-slide col-6">
+            <div class="speakers-slide__item">
+              <div class="speakers-slide__img-wrapper">
+                <img src="images/speakers-img.jpg" alt="">
+              </div>
+              <div class="speakers-slide__info-wrapper">
+                <div class="speakers-slide__info">
+                  <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+                  <p class="speakers-slider__info-position">Position</p>
+                  <p class="speakers-slider__info-company">Company</p>
+                  <div class="speakers-slide__info-links">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="speakers-slide__item">
+              <div class="speakers-slide__img-wrapper">
+                <img src="images/speakers-img.jpg" alt="">
+              </div>
+              <div class="speakers-slide__info-wrapper">
+                <div class="speakers-slide__info">
+                  <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+                  <p class="speakers-slider__info-position">Position</p>
+                  <p class="speakers-slider__info-company">Company</p>
+                  <div class="speakers-slide__info-links">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="speakers-slide col-6">
+            <div class="speakers-slide__item">
+              <div class="speakers-slide__img-wrapper">
+                <img src="images/speakers-img.jpg" alt="">
+              </div>
+              <div class="speakers-slide__info-wrapper">
+                <div class="speakers-slide__info">
+                  <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+                  <p class="speakers-slider__info-position">Position</p>
+                  <p class="speakers-slider__info-company">Company</p>
+                  <div class="speakers-slide__info-links">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="speakers-slide__item">
+              <div class="speakers-slide__img-wrapper">
+                <img src="images/speakers-img.jpg" alt="">
+              </div>
+              <div class="speakers-slide__info-wrapper">
+                <div class="speakers-slide__info">
+                  <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+                  <p class="speakers-slider__info-position">Position</p>
+                  <p class="speakers-slider__info-company">Company</p>
+                  <div class="speakers-slide__info-links">
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#speakers-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#speakers-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+    &lt;!&ndash;<div class="speakers-slider">
+      <div class="speakers-slide row">
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="speakers-slide row">
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="speakers-slide row">
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item offset-1 col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide__item col-5">
+          <div class="speakers-slide__img-wrapper">
+            <img src="images/speakers-img.jpg" alt="">
+          </div>
+          <div class="speakers-slide__info-wrapper">
+            <div class="speakers-slide__info">
+              <h3 class="speakers-slide__info-title">Name Last Name</h3>
+              <p class="speakers-slider__info-position">Position</p>
+              <p class="speakers-slider__info-company">Company</p>
+            </div>
+            <div class="speakers-slide__info-links">
+              <a href="javascript:void(0)">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa fa-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>&ndash;&gt;
+  </div>
+</section>
+-->
+
+<section id="location" class="location">
+  <div id="locationCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#locationCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#locationCarousel" data-slide-to="1"></li>
+      <li data-target="#locationCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="location-slider carousel-inner">
+      <div class="location-slide carousel-item active">
+        <div class="container">
+          <h1 class="location-slide__title">Location</h1>
+          <p class="location-slide__info">
+            Let’s meet this year in the biggest conference hall in the city - “OK-Odessa”.
+            Two big halls seat as much as 1000 people at once with cozy interiors and places for networking and lunch.
+            The most popular beaches and places for summerly nightlife are just in a 5-minute walk from the venue - at Arcadia Beach
+            Odessa, Gagarinsky plateau, 5.
+          </p>
+        </div>
+        <img src="images/location/location-img-1.jpg" alt="" class="location-slide__img">
+      </div>
+      <div class="location-slide carousel-item">
+        <div class="container">
+          <h1 class="location-slide__title">Location</h1>
+          <p class="location-slide__info">
+            Let’s meet this year in the biggest conference hall in the city - “OK-Odessa”.
+            Two big halls seat as much as 1000 people at once with cozy interiors and places for networking and lunch.
+            The most popular beaches and places for summerly nightlife are just in a 5-minute walk from the venue - at Arcadia Beach
+            Odessa, Gagarinsky plateau, 5.
+          </p>
+        </div>
+        <img src="images/location/location-img-2.jpg" alt="" class="location-slide__img">
+      </div>
+      <div class="location-slide carousel-item">
+        <div class="container">
+          <h1 class="location-slide__title">Location</h1>
+          <p class="location-slide__info">
+            Let’s meet this year in the biggest conference hall in the city - “OK-Odessa”.
+            Two big halls seat as much as 1000 people at once with cozy interiors and places for networking and lunch.
+            The most popular beaches and places for summerly nightlife are just in a 5-minute walk from the venue - at Arcadia Beach
+            Odessa, Gagarinsky plateau, 5.
+          </p>
+        </div>
+        <img src="images/location/location-img-3.jpg" alt="" class="location-slide__img">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#locationCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#locationCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="location-map-wrapper">
+      <div class="contaner location-map" id="map">
+
+      </div>
   </div>
 </section>
 
@@ -471,7 +1499,10 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/animate/animateit.js"></script>
 
+<!--Slick-->
+<script src="vendor/slick/slick.min.js"></script>
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -480,7 +1511,9 @@
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
 
+
 <script src="script.js" type="text/javascript"></script>
 <script src="./fb.js" type="text/javascript"></script>
+<script  async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzoXopiOzGo8FIg2stF6gTn4yM5jo-Ups&callback=initMap"></script>
 </body>
 </html>

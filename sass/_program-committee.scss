@@ -1,0 +1,223 @@
+section.program-committee {
+  padding-top: 0!important;
+
+  #programCommitteeCarousel {
+    position: relative;
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+
+    .carousel-inner .carousel-item-right,
+    .carousel-inner .carousel-item-left{
+      transform: translateX(0);
+    }
+
+    .carousel-control-prev {
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%);
+      left: -50px;
+      height: 45px;
+      width: 25px;
+
+      .carousel-control-prev-icon {
+        background-image: url(../images/location/location-prev.png);
+        left: -50px;
+        height: 45px;
+        width: 25px;
+
+        &:active {
+          background-image: url(../images/speakers-slider-left.png);
+        }
+      }
+    }
+
+    .carousel-control-next {
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%);
+      right: -50px;
+      height: 45px;
+      width: 25px;
+
+      .carousel-control-next-icon {
+        background-image: url(../images/location/location-next.png);
+        right: -50px;
+        height: 45px;
+        width: 25px;
+
+        &:active {
+          background-image: url(../images/speakers-slider-right.png);
+        }
+      }
+    }
+  }
+
+  .main-title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: $primary;
+    margin-top: 15px;
+  }
+
+  .main_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .img-wrapper {
+    cursor: pointer;
+
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .insides-wrapper {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    @include align-items(center);
+  }
+
+  .chairman__name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .chairman__position {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    min-height: 60px;
+
+  }
+
+  .chairman__link-list {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+
+    .chairman__link {
+      margin-right: 20px;
+      text-decoration: none;
+
+      i {
+        display: block;
+        font-size: 20px;
+        color: #8d8d8d;
+        @include transition-all();
+      }
+
+      &:hover i{
+        color: #e32d42;
+      }
+
+      &:last-child {
+        margin-right:0;
+      }
+    }
+  }
+
+  .ask-a-question {
+    font-family: 'Roboto', sans-serif;
+    border:1px solid transparent;
+    border-radius: 5px;
+    background-color: #e32d42;
+    @include transition-all();
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+
+    &:active {
+      border:1px solid #e32d42;
+      color: #e32d42;
+      background-color: #fff;
+    }
+  }
+
+  .modal-header {
+
+    .close {
+      margin-left: 0;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+
+  .modal-body {
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .modal-footer {
+    @include justify-content(center);
+
+    button {
+      background-color: #e32d42;
+      color: #fff;
+    }
+  }
+
+  .form-modal {
+
+    .form-title {
+      padding: 30px 0;
+      @include flexbox;
+      @include justify-content(space-between);
+      @include align-items(flex-start);
+
+      .close {
+        margin-left: 0;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+
+    .ask-submit {
+      font-family: 'Roboto', sans-serif;
+      border:1px solid transparent;
+      border-radius: 5px;
+      background-color: #e32d42;
+      @include transition-all();
+      color: #fff;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      outline: none;
+
+      &:active {
+        border:1px solid #e32d42;
+        color: #e32d42;
+        background-color: #fff;
+      }
+    }
+  }
+}
