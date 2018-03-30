@@ -26,6 +26,46 @@ section.program-committee {
       transform: translateX(0);
     }
 
+    @media (max-width: 1024px) {
+      .carousel-item-next.carousel-item-left,
+      .carousel-item-next.carousel-item-right,
+      .carousel-item-prev.carousel-item-left,
+      .carousel-item-prev.carousel-item-right {
+        display: none;
+      }
+
+      .carousel-inner .carousel-item-right.active,
+      .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+      }
+
+      .carousel-inner .carousel-item-left.active,
+      .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .carousel-item-next.carousel-item-left,
+      .carousel-item-next.carousel-item-right,
+      .carousel-item-prev.carousel-item-left,
+      .carousel-item-prev.carousel-item-right {
+        display: none;
+      }
+
+      .carousel-inner .carousel-item-right.active,
+      .carousel-inner .carousel-item-next {
+        transform: translateX(100%);
+      }
+
+      .carousel-inner .carousel-item-left.active,
+      .carousel-inner .carousel-item-prev {
+        transform: translateX(-100%);
+      }
+
+    }
+
+
     .carousel-control-prev {
       top: 50%;
       bottom: auto;
