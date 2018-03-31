@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+  var filters = [
+    'React', 'NativeScript', 'Angular', 'Node.js', 'ExpressJS', 'MongoDB', 'PgSQL', 'JavaScript',
+    'WebAssembly', 'Kubernetes', 'Azure', 'Go', 'Redux/Flow', 'Docker'
+  ];
+
   var speakers = [
     {
       image: "http://henningmu.com/assets/img/avatar.jpg",
@@ -179,13 +184,7 @@ $(document).ready(function(){
       ]
     },
 
-
   ];
-
-
-
-
-
 
 
   /* <a href="https://github.com/roman-sachenko">
@@ -213,9 +212,9 @@ $(document).ready(function(){
   $.template( "socialsTemplate", socialsItem );
 
 
-  var speakerItem = " <div class='speakers-slide__item'> <div class='speakers-slide__img-wrapper'>" +
+  var speakerItem = " <div class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper  col-sm-12 col-lg-4'>" +
    "<img src='${image}' alt=''>" +
-    "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
+    "</div> <div class='speakers-slide__info-wrapper  col-sm-12 col-lg-8'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span>${name}</span></h3>"+
   "<p class='speakers-slider__info-position'>${position} @ ${company}</p>"+
   "<p class='speakers-slider__info-company font-weight-bold'>${location}</p>"+
@@ -223,6 +222,9 @@ $(document).ready(function(){
   $.template( "speakerTemplate", speakerItem );
 
 
+
+
+function renderSpeakersCarousel() {
 
   // start render all
   $.each(speakers, function(i, sp) {
@@ -234,11 +236,26 @@ $(document).ready(function(){
 
   var finalSliderHtml = '';
 
-  for (var i=0; i< renderedSpeakers.length; i++) {
-    var activeClass = '';
-    if (i===0) {
-      activeClass = 'active';
+  if($(document).width() < 1024) {
+
+    for (var i=0; i< renderedSpeakers.length; i++) {
+      var activeClass = '';
+      if (i===0) {
+        activeClass = 'active';
+      }
+      finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide col-12">';
+      finalSliderHtml+=renderedSpeakers[i];
+
+      finalSliderHtml+='</div></div>'
     }
+
+  } else {
+
+    for (var i=0; i< renderedSpeakers.length; i++) {
+      var activeClass = '';
+      if (i===0) {
+        activeClass = 'active';
+      }
       finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide col-6">';
       finalSliderHtml+=renderedSpeakers[i];
 
@@ -246,10 +263,14 @@ $(document).ready(function(){
         finalSliderHtml+=renderedSpeakers[i+1];
         i++;
       }
-        finalSliderHtml+='</div></div>'
+      finalSliderHtml+='</div></div>'
+    }
+
   }
 
   $('#speakersSlider').html(finalSliderHtml);
+}
 
+  renderSpeakersCarousel();
 
 });
