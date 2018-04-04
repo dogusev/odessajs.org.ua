@@ -11,7 +11,8 @@ $(document).ready(function(){
       name: "Henning Muszynski",
       position: "Software Engineer" ,
       company: "Doist",
-      location: "The ABC of Coded Style Guides",
+      rept: "The ABC of Coded Style Guides",
+      reptDescription: "Teams today are facing similar problems: How do we encourage the reuse of existing components? How do we raise awareness for them? How do we keep them stable while keeping maintenance efforts low? How do we ensure a coherent branding without exploiting our designers? If you are worried by these questions fear no longer. I aim to show you a way out of this self-made jungle into a brighter world of coded style guides. We will explore together how we can tear down walls between design and development and how everyone can benefit from introducing living component directories into their project.",
       socialsRendered: '',
       socials: [
         {
@@ -33,7 +34,8 @@ $(document).ready(function(){
       name: "Rowdy Rabouw",
       position: "web development" ,
       company: "double-R",
-      location: "Unleash your web skills on native!",
+      rept: "Unleash your web skills on native!",
+      reptDescription: "Did you know you can use your knowledge of HTML, CSS and JavaScript to build truly native apps for iOS and Android with NativeScript? I’ll explain what NativeScript is, how it compares to other frameworks and demo how easy and fun it is to get started and how to make use of native capabilities. Do you want to build your own personal assistant like Siri? I'll show you how!",
       socialsRendered: '',
       socials: [
         {
@@ -56,7 +58,8 @@ $(document).ready(function(){
       name: "Asim Hussain",
       position: "Cloud Developer Advocate" ,
       company: "Microsoft",
-      location: "Serverless & SPAs, a match made in Spevan",
+      rept: "Serverless & SPAs, a match made in Spevan",
+      reptDescription: "There is a wrong way and a right way to deploy, scale and architect an SPA. If you do it the wrong way you DON'T get the advantages of an SPA, you might as well have built a server-side Express app. If you do it the right way, you can take advantage of optimisations that give you epic scalability, with super low latencies at a fraction of the cost. In this talk, I'll teach you the right way to host your SPA (hint: don't use node). I'll unlock the doors to the hidden free caching layer on the internet. I'll prove why serverless & SPAs complement each other so perfectly and I'll show you how easy it is to build the rest of your application using a serverless stack.",
       socialsRendered: '',
       socials: [
         {
@@ -78,7 +81,8 @@ $(document).ready(function(){
       name: "Ivan Jovanovic",
       position: "Senior Software Engineer" ,
       company: "nearForm",
-      location: "Serverless - the way microservices should be",
+      rept: "Serverless - the way microservices should be",
+      reptDescription: "Serverless, the buzzword that we’re hearing probably every day. What’s that exactly? Serverless is the way microservices should be. It will save you money, time, and you will be able to easily build, test and deploy your applications. Serverless is here to stay, let’s learn how to use it!",
       socialsRendered: '',
       socials: [
         {
@@ -100,7 +104,8 @@ $(document).ready(function(){
       name: "Roman Sachenko",
       position: "Software Engineer" ,
       company: "DA-14",
-      location: "NodeJS Microservices + CQRS + Event Sourcing - Why do I do this?",
+      rept: "NodeJS Microservices + CQRS + Event Sourcing - Why do I do this?",
+      reptDescription: "Why do I do this? I kept asking myself this question while working on the next project and building microservices-based architecture with CQRS and Event Sourcing. What does this system do and why is it so complicated? I'll tell you about mistakes, which I’ve made, issues, which I've faced with, and solutions, which shouldn’t be applied. I’ll share my own experience and tell about those things, I wish I’d known before I started working on the project.",
       socialsRendered: '',
       socials: [
         {
@@ -134,7 +139,8 @@ $(document).ready(function(){
       name: "Oleksandr Skachkov",
       position: "Lead FrontEnd Developer" ,
       company: "Itera",
-      location: "WebAssembly vs JavaScript: What is faster?",
+      rept: "WebAssembly vs JavaScript: What is faster?",
+      reptDescription: "As WebAssmebly is increasing its popularity and more, and more languages start to support WebAssmebly as the build target, development team start asking question when do we need to use WebAssmebly and where it is better to rely on javascript.As open source contributor to WebKit JavaScript Engine, I would like overview differences between WebAssmebly and JavaScript, that engineers should to known when choose between WebAssembly and JavaScript, and overview in which cases is WebAssembly is faster and vice verse ",
       socialsRendered: '',
       socials: [
         {
@@ -152,7 +158,8 @@ $(document).ready(function(){
       name: "Oleg Chorny",
       position: "Site Reliability Engineering Manager" ,
       company: "Ciklum",
-      location: "Observability of Cloud Native Applications",
+      rept: "Observability of Cloud Native Applications",
+      reptDescription: "Let's discuss how Observability enables you to write software that can be managed by software.",
       socialsRendered: '',
       socials: [
         {
@@ -166,7 +173,8 @@ $(document).ready(function(){
       name: "Leonid Baida",
       position: "Lead Front-End Developer" ,
       company: "SPD-Ukraine",
-      location: "If you don't like how your static typing smells, maybe you do it wrong",
+      rept: "If you don't like how your static typing smells, maybe you do it wrong",
+      reptDescription: "Статична типізація і досі лишається широкою темою для дискусій та полем для баталій. Світ JS розробки розділився на її прибічників та противників. Слід пам'ятати, що написанням типізованого коду керують інші принципи і підходи, ніж того вимагає vanilla JS. Інша філософія, якщо хочете. Дизайн типізованого JS часто суттєво різниться від нетипізованого, що і стає поширеною проблемою в освоєнні статичної типізації та її ефективного використання. Крок за кроком, черпаючи натхнення із мов програмування зі строгою типізацією, давайте розберемося, яким має бути типізований код на JS. Щоб його написання принесло користь, а не біль та розчарування. (За основу буде взято типізацію Flow, проте більшість з наведених принципів будуть актуальними також і для TypeScript)",
       socialsRendered: '',
       socials: [
         {
@@ -208,19 +216,18 @@ $(document).ready(function(){
     <a href="https://medium.com/@rsachenko">
       <i class="fa fa-medium" aria-hidden="true"></i>
     </a>*/
-  var socialsItem = "<a href='${link}'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
+  var socialsItem = "<a class='speaker__link' href='${link}'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
   $.template( "socialsTemplate", socialsItem );
 
 
-  var speakerItem = " <div class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper  col-sm-12 col-lg-4'>" +
+  var speakerItem = " <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper  col-sm-12 col-lg-4'>" +
    "<img src='${image}' alt=''>" +
     "</div> <div class='speakers-slide__info-wrapper  col-sm-12 col-lg-8'> <div class='speakers-slide__info'>"+
-    "<h3 class='speakers-slide__info-title'><span>${name}</span></h3>"+
-  "<p class='speakers-slider__info-position'>${position} @ ${company}</p>"+
-  "<p class='speakers-slider__info-company font-weight-bold'>${location}</p>"+
+    "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
+  "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span> <span class='speakers-slider__info-company'>${company}</span></p>"+
+  "<p class='speakers-slider__info-rept font-weight-bold'>${rept}</p>"+
   "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div>";
   $.template( "speakerTemplate", speakerItem );
-
 
 
 
@@ -232,45 +239,104 @@ function renderSpeakersCarousel() {
   });
 
   var renderedSpeakers = [];
-  $.each($.tmpl("speakerTemplate", speakers ), function(a, i){ renderedSpeakers.push(i.outerHTML); });
+  $.each($.tmpl("speakerTemplate", speakers ), function(a, i){
+    renderedSpeakers.push(i.outerHTML.replace('__ReplaceWithIndex', a));
+  });
 
   var finalSliderHtml = '';
-
-  if($(document).width() < 1024) {
-
-    for (var i=0; i< renderedSpeakers.length; i++) {
-      var activeClass = '';
-      if (i===0) {
-        activeClass = 'active';
-      }
-      finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide col-12">';
-      finalSliderHtml+=renderedSpeakers[i];
-
-      finalSliderHtml+='</div></div>'
-    }
-
-  } else {
+  var ifmobile = $(document).width() < 1024;
 
     for (var i=0; i< renderedSpeakers.length; i++) {
       var activeClass = '';
+      var colClass = ifmobile ? 'col-12' : 'col-6';
       if (i===0) {
         activeClass = 'active';
       }
-      finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide col-6">';
+      finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide '+colClass+'">';
       finalSliderHtml+=renderedSpeakers[i];
 
-      if (renderedSpeakers[i+1]) {
+      if(!ifmobile && renderedSpeakers[i+1]) {
         finalSliderHtml+=renderedSpeakers[i+1];
         i++;
       }
+
       finalSliderHtml+='</div></div>'
     }
 
-  }
+
 
   $('#speakersSlider').html(finalSliderHtml);
 }
 
   renderSpeakersCarousel();
+
+
+  $(document).on('click', '[data-modal-trigger="#speaker-modal"]', function() {
+    var $speakerInfoBlock = $(this);
+    loadSpeakerModal($speakerInfoBlock);
+  });
+
+
+  function loadSpeakerModal($speakerInfoBlock) {
+    var $modalBody = $('#speaker-modal'),
+      $modalSpeakerAvatar = $modalBody.find('.img-fluid'),
+      $modalNameElement = $modalBody.find('.speaker__name'),
+      $modalSpeakerPosition = $modalBody.find('.speaker__position'),
+      $modalSpeakerCompany = $modalBody.find('.speaker__company'),
+      $modalSpeakerLinks = $modalBody.find('.speaker__link-list'),
+      $modalSpeakerTitle = $modalBody.find('.modal-body__title'),
+      $modalSpeakerText = $modalBody.find('.modal-body__text');
+
+    var speakerIndex = parseInt($speakerInfoBlock.attr('data-item-index'));
+
+    var $prevButton = $modalBody.find('button.prev');
+    var $nextButton = $modalBody.find('button.next');
+
+    $prevButton.unbind('click').click(function(){
+      var prevIndex = speakerIndex == 0 ? (speakers.length-1) : speakerIndex - 1;
+      console.log(prevIndex);
+      $('#speaker-modal').modal('hide');
+      setTimeout(function(){
+        loadSpeakerModal($('[data-item-index="'+prevIndex+'"]'));
+      },600);
+
+    });
+
+    $nextButton.unbind('click').click(function(){
+      var nextIndex = speakerIndex == speakers.length-1 ? 0 : speakerIndex + 1;
+      console.log(nextIndex);
+      $('#speaker-modal').modal('hide');
+      setTimeout(function(){
+        loadSpeakerModal($('[data-item-index="'+nextIndex+'"]'));
+      },600);
+
+    });
+
+    var speakerData = speakers[speakerIndex];
+
+    if (speakerData) {
+      var speakerAvatar = speakerData.image,
+        speakerName = speakerData.name,
+        speakerPosition = speakerData.position,
+        speakerCompany = speakerData.company,
+        speakerTitle = speakerData.rept,
+        speakerText = speakerData.reptDescription;
+
+      speakerAvatar && $modalSpeakerAvatar.attr('src', speakerAvatar);
+      speakerName && $modalNameElement.text(speakerName);
+      speakerPosition && $modalSpeakerPosition.text(speakerPosition);
+      speakerCompany && $modalSpeakerCompany.text(speakerCompany);
+      speakerTitle && $modalSpeakerTitle.text(speakerTitle);
+      speakerText && $modalSpeakerText.text(speakerText);
+      $modalSpeakerLinks.html($speakerInfoBlock.find('.speakers-slide__info-links').html());
+
+
+      $('#speaker-modal').modal('show');
+    }
+
+
+
+  }
+
 
 });

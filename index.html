@@ -88,7 +88,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#program-commitee">Programs commitee</a>
+          <a class="nav-link js-scroll-trigger" href="#speakers">Speakers</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#sponsorship">Sponsors</a>
@@ -131,6 +131,7 @@
           -->
           <a class="btn btn-primary btn-xl main_button" target="_blank"
              href="https://odessajs2018.ticketforevent.com/en/">Buy tickets</a>
+
         </div>
         <p class="mb5 main_caption">
           Contact us at <a href="mailto:odessajsconf@gmail.com">odessajsconf@gmail.com</a> if you have any questions or
@@ -209,56 +210,19 @@
 <section id="contact">
   <div class="container">
     <div class="row animatedParent">
-      <div class="col-lg-8 mx-auto text-center animated fadeInLeft">
-        <h2 class="section-heading">Stay tuned for more</h2>
-        <hr class="my-4">
-        <p class="mb-5">Subscribe to get latest news and updates and follow us on social media</p>
+      <div class="col-lg-12 mx-auto text-center animated fadeInLeft">
+        <script type="text/javascript" src="https://odessajs2018.ticketforevent.com/en/widget/?h=0.01&s=0.73&rc=1&bt=1"></script>
+
       </div>
     </div>
-    <div class="row animatedParent">
-      <div class="col-lg-12 ml-auto text-center animated fadeInRight">
-        <div class="socials">
-          <form class="form-inline subscribe_form">
-            <div class="form-group">
-              <div class="col-auto">
-                <input type="text" name="ojs_name" id="ojs_name" placeholder="your name"
-                       class="form-control subscribe-name-input"/>
-              </div>
-              <div class="col-auto">
-                <input type="email" name="ojs_email" id="ojs_email" placeholder="email address"
-                       class="form-control subscribe-email-input"/>
-              </div>
-              <div class="col-auto">
-                <button type="submit" class="btn btn-primary subscribe-button">
-                  <span>SUBSCRIBE</span>
-                  <i class="fa fa-refresh fa-spin" style=" display: none; "></i>
-                </button>
-              </div>
 
-            </div>
-          </form>
-          <div class="socials__icons">
-
-            <a target="_blank" class="socials__link socials__fb" href="https://www.facebook.com/odessajs"></a>
-            <a target="_blank" class="socials__link socials__tw" href="https://twitter.com/OdessaJS"></a>
-            <a target="_blank" class="socials__link socials__yt"
-               href="https://www.youtube.com/c/OdessaJSConference"></a>
-            <a target="_blank" class="socials__link socials__tg" href="https://t.me/odessajs"></a>
-            <a class="socials__link socials__ml" href="mailto:odessajsconf@gmail.com"></a>
-
-          </div>
-
-        </div>
-      </div>
-
-    </div>
   </div>
 </section>
 
 <section id="infographics">
   <div class="container my-auto">
     <div class="row">
-      <div class="col-lg-12 mx-auto animatedParent">
+      <div class="col-lg-8 col-sm-12 mx-auto animatedParent">
         <img src="images/OdessaJS-Infographics.jpg" alt="" class="img-responsive animated bounce">
         <hr>
       </div>
@@ -267,7 +231,7 @@
 </section>
 
 
-<section class="speakers">
+<section id="speakers" class="speakers">
   <img src="images/speakers-waves.png" alt="" class="speakers-img-1">
   <div class="container">
     <div class="row">
@@ -303,12 +267,107 @@
 
       </div>
      -->
+      <div class="speakers-info-popup modal fade" id="speaker-modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="img-wrapper w-25">
+                <img class="d-block img-fluid" src="">
+              </div>
+              <div class="info-wrapper">
+                <div class="speaker-info">
+                  <h2><span class="speaker__name"></span></h2>
+                  <p class="speaker__position"></p>
+                  <p class="speaker__company"></p>
+                </div>
+                <div class="speaker__link-list">
+                  <a class="speaker__link" target="_blank" href="javascript:void(0);">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a class="speaker__link" target="_blank" href="javascript:void(0);">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a class="speaker__link" target="_blank" href="javascript:void(0);">
+                    <i class="fa fa-medium" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="bg-img">
+                <img src="images/speakers-waves.png" alt="">
+              </div>
+            </div>
+            <div class="modal-body">
+              <h2 class="modal-body__title">Title Lorem Ipsum</h2>
+              <p class="modal-body__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices porta viverra.
+                Integer facilisis sapien at neque viverra cursus. Aliquam sed lectus eu nisl hendrerit consequat
+                eget eget magna. Nam tincidunt volutpat nulla vitae pellentesque. Mauris tincidunt iaculis dolor,
+                in molestie odio finibus et. In laoreet rutrum dapibus. Curabitur purus orci, maximus nec faucibus
+                ut, ultrices vehicula felis. Morbi massa tellus, auctor eget consectetur consectetur, convallis et
+                tortor. Morbi quis scelerisque est. Phasellus tellus lacus, condimentum quis tortor quis, dapibus
+                vestibulum dolor. Nullam justo elit, lacinia eu rhoncus vel, hendrerit vel arcu. Curabitur aliquam
+                aliquam commodo. Mauris non lectus et lorem ornare rhoncus vel quis mauris. Phasellus laoreet egestas
+                turpis ut tempor. Mauris pharetra maximus arcu, eu aliquam purus vehicula vitae.
+
+                Suspendisse id urna eget massa ultricies sodales at a lectus. Donec nunc velit, aliquet eu
+                ornare et, dapibus eu metus. Suspendisse eu velit dictum odio condimentum iaculis. Mauris
+                consectetur lacus odio, eleifend bibendum massa consectetur et. Aenean pharetra ut lacus et
+                varius. Etiam ut metus nec nunc maximus posuere a tristique felis. Quisque egestas nibh tellus,
+                eget tristique mi condimentum in. Morbi ac eros luctus, pellentesque metus ac, dapibus turpis.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Vestibulum molestie tristique condimentum.
+
+                Fusce vel ultrices enim, eu efficitur nisl. Aliquam ut mi sed sem dignissim tristique. Aenean
+                non fringilla lorem, non pretium ex. Donec in mauris lectus. Vestibulum posuere luctus suscipit.
+                Etiam sit amet arcu convallis, tristique libero vitae, imperdiet metus. Phasellus at tristique est,
+                a pulvinar leo. Aliquam erat volutpat. Cras pharetra faucibus augue nec posuere.
+
+                Phasellus sollicitudin lorem tellus, quis scelerisque nibh tristique vitae. In fermentum efficitur
+                ex et tempus. Nam eleifend egestas tellus. Morbi vitae varius nulla. Nunc massa quam, vehicula sit
+                amet arcu eget, tempus suscipit ligula. Nunc iaculis bibendum commodo. Maecenas accumsan nisl sed
+                tristique volutpat. Nam id nisl sit amet neque auctor vestibulum eu rhoncus neque. Donec congue,
+                libero a laoreet mollis, erat nunc porttitor tellus, vitae auctor turpis purus eu quam. Vestibulum
+                eget elit nunc. Nulla bibendum nibh a odio suscipit, sit amet aliquam libero bibendum.
+
+                Maecenas velit nunc, consequat non risus non, blandit mattis justo. Pellentesque libero orci, laoreet
+                id enim et, facilisis dapibus erat. Maecenas cursus bibendum neque, ut dictum tortor iaculis eu.
+                Nulla facilisi. Suspendisse potenti. Aenean in mi semper, scelerisque tortor et, lacinia ipsum. Nunc
+                fermentum arcu nunc, a tristique turpis finibus et.
+
+                In fringilla, dolor sed euismod sagittis, ligula nisl maximus tortor, a faucibus mi tortor sit amet
+                diam. Nulla pulvinar dignissim diam. Aenean at quam nunc. Maecenas a venenatis massa, vel vehicula risus.
+                Maecenas vel finibus enim. Vivamus sagittis metus pellentesque eros placerat, ac posuere erat ornare.
+                Vestibulum ante erat, volutpat nec porta fermentum, accumsan non nulla. Nulla eget varius lectus.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas
+                vel euismod augue, id iaculis felis. Vivamus fermentum tristique augue a congue. Duis consectetur
+                faucibus nisl eget laoreet. Pellentesque ex turpis, viverra a lobortis in, maximus.</p>
+              <video style="display:none;" src="https://youtu.be/9SPFrQrnlI8" controls poster="images/header.jpg"></video>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="prev">
+                <img src="images/speakers-slider-left.png" alt="">
+                Previous Speaker</button>
+              <button type="button" class="next">
+                Next speaker
+                <img src="images/speakers-slider-right.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button style="margin: 50px auto;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#speakers-modal">
+        Launch demo modal for speakers
+      </button>
+
+
       <div id="speakers-carousel" class="speakers-carousel carousel slide w-100" data-ride="carousel">
         <div class="carousel-inner w-100" role="listbox" id="speakersSlider">
           <div class="carousel-item active">
             <div class="speakers-slide col-6">
               <div class="speakers-slide__item">
-                <div class="speakers-slide__img-wrapper">
+                <div class="speakers-slide__img-wrapper" data-modal-trigger="#speakers-modal">
                   <img src="http://henningmu.com/assets/img/avatar.jpg" alt="">
                 </div>
                 <div class="speakers-slide__info-wrapper">
@@ -813,7 +872,7 @@
                   </a>
                   <a href="javascript:void(0)">
                     <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
+                  </a>W
                   <a href="javascript:void(0)">
                     <i class="fa fa-download" aria-hidden="true"></i>
                   </a>
@@ -1014,7 +1073,7 @@
           <div class="carousel-item">
             <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
               <div class="img-wrapper w-100">
-                <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
+                <img class="d-block img-fluid" src="images/program-committee/andrew-borisenko.png">
               </div>
               <h2 class="chairman__name">Andrew Borisenko</h2>
               <p class="chairman__position">Javascript developer at Moovweb</p>
@@ -1276,6 +1335,28 @@
     <div class="row animatedParent">
       <div class="col-lg-12 mx-auto block_title">
         <h2 class="text-uppercase main_title text-center">
+          <strong>Thanks to these media friends for support</strong>
+        </h2>
+        <hr>
+      </div>
+
+      <div class="col-lg-10 mx-auto thank-container block_title">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 text-center thank-box mx-auto ">
+            <a href="https://eatdog.com.ua/">
+              <img src="images/partners/eat_dog.png" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-4 text-center thank-box mx-auto">
+            <a href="http://reactnative.com.ua/">
+              <img src="images/partners/react.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 mx-auto block_title">
+        <h2 class="text-uppercase main_title text-center">
           <strong>THANKS TO THESE GREAT COMPANIES WHO SUPPORT US!</strong>
         </h2>
         <hr>
@@ -1293,7 +1374,6 @@
                 <div class="col-lg-2 col-md-4 text-center thank-box mx-auto">
                   <a href="https://eteam.io/">
                     <img src="images/sponsors/eteam.jpg" alt="" class="img-responsive">
-                    <span>eTeam</span>
                   </a>
                 </div>
               </div>
@@ -1324,7 +1404,6 @@
                 <div class="col-lg-2 col-md-4 text-center thank-box mx-auto">
                   <a href="http://www.lohika.com.ua/">
                     <img src="2017/images/sponsors/lohika_color.png" alt="" class="img-responsive">
-                    <span>Lohika</span>
                   </a>
                 </div>
               </div>

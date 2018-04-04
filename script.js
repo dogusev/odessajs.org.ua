@@ -89,7 +89,7 @@ $(document).ready(function() {
     loadAskQuestionModal($speakerBlock);
 
     $('#ask-form').modal('show');
-;  });
+  });
 
 });
 
