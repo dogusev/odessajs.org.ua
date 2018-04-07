@@ -3,13 +3,7 @@ section.program-committee {
 
   #programCommitteeCarousel {
     position: relative;
-
-    .carousel-inner .carousel-item.active,
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
-      display: flex;
-      align-items: stretch;
-    }
+    margin: 0 auto;
 
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
@@ -63,53 +57,6 @@ section.program-committee {
         transform: translateX(-100%);
       }
 
-    }
-
-
-    .carousel-control-prev {
-      top: 50%;
-      bottom: auto;
-      transform: translateY(-50%);
-      left: -50px;
-      height: 45px;
-      width: 25px;
-      @media (max-width: 1024px) {
-        left: 0;
-      }
-      .carousel-control-prev-icon {
-        background-image: url(../images/location/location-prev.png);
-        left: -50px;
-        height: 45px;
-        width: 25px;
-
-        &:active {
-          background-image: url(../images/speakers-slider-left.png);
-        }
-      }
-    }
-
-    .carousel-control-next {
-      top: 50%;
-      bottom: auto;
-      transform: translateY(-50%);
-      right: -50px;
-      height: 45px;
-      width: 25px;
-
-      @media (max-width: 1024px) {
-        right: 0;
-      }
-
-      .carousel-control-next-icon {
-        background-image: url(../images/location/location-next.png);
-        right: -50px;
-        height: 45px;
-        width: 25px;
-
-        &:active {
-          background-image: url(../images/speakers-slider-right.png);
-        }
-      }
     }
   }
 

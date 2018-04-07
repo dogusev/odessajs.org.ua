@@ -169,7 +169,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://scontent.fkbp1-1.fna.fbcdn.net/v/t1.0-9/14102522_1816871395214147_1099645124302123929_n.jpg?_nc_cat=0&oh=0b04d445ce4c3b3f58bb9a2128909f50&oe=5B71B421",
+      image: "images/reporters/leonid_baida.jpg",
       name: "Leonid Baida",
       position: "Lead Front-End Developer" ,
       company: "SPD-Ukraine",
@@ -220,9 +220,9 @@ $(document).ready(function(){
   $.template( "socialsTemplate", socialsItem );
 
 
-  var speakerItem = " <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper  col-sm-12 col-lg-4'>" +
+  var speakerItem = " <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper col-sm-12 col-md-5 col-lg-4'>" +
    "<img src='${image}' alt=''>" +
-    "</div> <div class='speakers-slide__info-wrapper  col-sm-12 col-lg-8'> <div class='speakers-slide__info'>"+
+    "</div> <div class='speakers-slide__info-wrapper  col-sm-12 col-md-7 col-lg-8'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
   "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span> <span class='speakers-slider__info-company'>${company}</span></p>"+
   "<p class='speakers-slider__info-rept font-weight-bold'>${rept}</p>"+
@@ -248,7 +248,7 @@ function renderSpeakersCarousel() {
 
     for (var i=0; i< renderedSpeakers.length; i++) {
       var activeClass = '';
-      var colClass = ifmobile ? 'col-12' : 'col-6';
+      var colClass = ifmobile ? 'col-12' : 'col-lg-6';
       if (i===0) {
         activeClass = 'active';
       }

@@ -245,59 +245,18 @@
   }
 
   &-carousel {
-
-    .carousel-inner .carousel-item.active,
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
-      display: flex;
-      align-items: stretch;
-    }
-
+  margin: 0 auto;
     .carousel-control-prev {
-      top: 50%;
-      bottom: auto;
-      transform: translateY(-50%);
-      left: -100px;
-      height: 45px;
-      width: 50px;
-      @media (max-width: 1024px) {
-        left: 0;
-      }
-
-      .carousel-control-prev-icon {
-        background-image: url(../images/location/location-prev.png);
-        left: -100px;
-        height: 90px;
-        width: 50px;
-
-        &:active {
-          background-image: url(../images/speakers-slider-left.png);
-        }
+      @media (min-width: 1024px) and (max-width: 1200px){
+          left: -20px;
       }
     }
 
     .carousel-control-next {
-      top: 50%;
-      bottom: auto;
-      transform: translateY(-50%);
-      right: -100px;
-      height: 90px;
-      width: 50px;
-      @media (max-width: 1024px) {
-        right: 0;
-      }
-      .carousel-control-next-icon {
-        background-image: url(../images/location/location-next.png);
-        right: -100px;
-        height: 90px;
-        width: 50px;
-
-        &:active {
-          background-image: url(../images/speakers-slider-right.png);
-        }
+      @media (min-width: 1024px) and (max-width: 1200px){
+        right: -20px;
       }
     }
-
     //.slick-arrow {
     //  width: 42px;
     //  height: 72px;
@@ -321,8 +280,6 @@
   }
 
   &-slide {
-
-
     &__item {
       @include flexbox;
       @include justify-content(flex-start);
@@ -330,25 +287,55 @@
       margin-bottom: 90px;
       width: 100%;
       cursor: pointer;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 1024px) {
+        margin: 0;
+      }
     }
 
     &__img-wrapper {
       height: 100%;
 
+      @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      @media (max-width: 1024px) {
+        padding-left: 0;
+      }
+
       img {
         width: 160px;
         height: 160px;
         object-fit: cover;
-        @media (max-width: 1024px) {
+
+        @media (max-width: 1040px) {
           width: 100%;
           height: auto;
           display: block;
+        }
+
+        @media (min-width: 1041px) and (max-width: 1200px){
+          width: 130px;
+          height: 130px;
         }
       }
     }
 
     &__info-wrapper {
 
+      @media (max-width: 768px) {
+        padding: 0;
+        margin-top: 15px;
+      }
+      @media (max-width: 1024px) {
+        padding-right: 0;
+      }
     }
 
     &__info {
@@ -361,10 +348,25 @@
 
       &-title {
         font-family: 'Roboto', sans-serif;
-        height: 25px;
+        height: auto;
         font-weight: 600;
         margin-bottom: 20px;
         text-transform: uppercase;
+
+        @media (min-width: 1024px) and (max-width: 1200px){
+          font-size: 21px;
+          margin-bottom: 5px;
+        }
+        @media (min-width: 1201px){
+          height: 25px;
+        }
+
+        &-name {
+          font-size: 28px;
+          @media (min-width: 1024px) and (max-width: 1200px){
+            font-size: 23px;
+          }
+        }
       }
 
       p {
@@ -372,6 +374,10 @@
         font-size: 20px;
         line-height: 1;
         margin-bottom: 15px;
+        @media (min-width: 1024px) and (max-width: 1200px){
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
       }
     }
 

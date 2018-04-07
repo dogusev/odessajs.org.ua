@@ -147,16 +147,17 @@
     <div class="row">
       <div class="col-lg-12 block_title">
         <hr>
+
         <h2 class="text-uppercase main-title text-center">
           <strong>Three-day conference on in-depth JavaScript Technologies</strong>
         </h2>
-        <hr>
+        <p class="about_subtitle">
+          Welcome to OdessaJS conference - one of the biggest JavaScript conference <br>
+          next to the Black Sea in Ukraine.
+        </p>
       </div>
       <div class="col-lg-8 mx-auto mb-5">
         <p class="main_subtitle text-center">
-          Welcome to OdessaJS conference - one of the biggest JavaScript conference next to
-          the Black Sea in Ukraine.
-          <br><br>
           This year it will be already the 6th conference.
           <br><br>
           Conference is full of strong technical talks and workshops, carefully selected by our Program Committee.
@@ -171,7 +172,7 @@
     </div>
 
     <div class="about-schedule row col-lg-12">
-      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+      <div class="about-schedule__item col-lg-4 col-md-4 d-flex flex-column align-items-center">
         <div class="img-wrapper">
           <img src="images/microphone.png" alt="">
         </div>
@@ -181,7 +182,7 @@
           <li>Ice breaker pre-party with lightning talks</li>
         </ul>
       </div>
-      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+      <div class="about-schedule__item col-lg-4 col-md-4 d-flex flex-column align-items-center">
         <div class="img-wrapper">
           <img src="images/fireworks.png" alt="">
         </div>
@@ -192,7 +193,7 @@
           <li>Big afterparty with music, food and easy networking</li>
         </ul>
       </div>
-      <div class="about-schedule__item col-lg-4 col-md-4 mb-5 d-flex flex-column align-items-center">
+      <div class="about-schedule__item col-lg-4 col-md-4 d-flex flex-column align-items-center">
         <div class="img-wrapper">
           <img src="images/sunset.png" alt="">
         </div>
@@ -200,7 +201,6 @@
         <ul>
           <li>Morning yoga on the beach</li>
           <li>Full-day of 2 tracks technical speeches and tech-corners for open discussions on trended topics</li>
-          <li>Big afterparty with music, food and easy networking</li>
         </ul>
       </div>
     </div>
@@ -222,7 +222,7 @@
 <section id="infographics">
   <div class="container my-auto">
     <div class="row">
-      <div class="col-lg-8 col-sm-12 mx-auto animatedParent">
+      <div class="col-lg-8 col-sm-12 mx-auto animatedParent infographics-container">
         <img src="images/OdessaJS-Infographics.jpg" alt="" class="img-responsive animated bounce">
         <hr>
       </div>
@@ -357,12 +357,7 @@
         </div>
       </div>
 
-      <button style="margin: 50px auto;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#speakers-modal">
-        Launch demo modal for speakers
-      </button>
-
-
-      <div id="speakers-carousel" class="speakers-carousel carousel slide w-100" data-ride="carousel">
+      <div id="speakers-carousel" class="speakers-carousel carousel custom-carousel slide w-100 col-sm-11 col-lg-12" data-ride="carousel">
         <div class="carousel-inner w-100" role="listbox" id="speakersSlider">
           <div class="carousel-item active">
             <div class="speakers-slide col-6">
@@ -481,11 +476,15 @@
           </div>
         </div>
         <a class="carousel-control-prev" href="#speakers-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <i class="fa fa-angle-left"></i>
+          </span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#speakers-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <i class="fa fa-angle-right"></i>
+          </span>
           <span class="sr-only">Next</span>
         </a>
 
@@ -929,7 +928,7 @@
       </p>
     </div>-->
     <div class="row">
-      <div id="programCommitteeCarousel" class="program-committee-carousel carousel slide col-sm-11"
+      <div id="programCommitteeCarousel" class="program-committee-carousel carousel custom-carousel slide col-sm-11"
            data-ride="carousel">
         <div class="carousel-inner w-100" role="listbox">
           <div class="carousel-item active">
@@ -1011,7 +1010,7 @@
                 <img class="d-block img-fluid" src="images/program-committee/sergiy-seletsky.jpg">
               </div>
               <h2 class="chairman__name">Sergiy Seletsky</h2>
-              <p class="chairman__position">Tech Lead at Lohika / Altran</p>
+              <p class="chairman__position">Team Lead at Lohika / Altran</p>
               <div class="chairman__link-list w-100">
                 <a class="chairman__link" target="_blank" href="https://www.facebook.com/sseletskyy">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -1087,10 +1086,6 @@
                 <a class="chairman__link" target="_blank" href="https://github.com/Seigiard">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-                <a class="chairman__link" target="_blank"
-                   href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
-                  <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                </a>
                 <a class="chairman__link" target="_blank" href="https://www.instagram.com/seigiard/">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
@@ -1102,11 +1097,15 @@
 
         </div>
         <a class="carousel-control-prev" href="#programCommitteeCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <i class="fa fa-angle-left"></i>
+          </span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#programCommitteeCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <i class="fa fa-angle-right"></i>
+          </span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -1414,7 +1413,7 @@
       </div>
 
       <div class="col-lg-10 mx-auto animated fadeInLeft">
-        <p class="text-faded mb-5 main_subtitle">
+        <p class="text-faded mb-5 main_subtitle text-center">
 
           We are glad to offer you our sponsorship packages for Odessa JS 2018.
           <br>
@@ -1425,7 +1424,7 @@
         </p>
       </div>
       <div class="col-lg-10 mx-auto animated fadeInRight">
-        <div class="sponsor_stats_container row">
+        <div class="sponsor_stats_container row text-center">
           <div class="col-md-3 col-sm-6">
             <div class="sponsort_stats_title">800+</div>
             <div class="sponsor_stats_caption">IT Geeks in one place</div>
@@ -1471,7 +1470,7 @@
       </div>
 
 
-      <div class="container-fluid p-0">
+      <div class="container-fluid p-0 rocked-container">
         <div class="row popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box"
@@ -1520,8 +1519,10 @@
             </a>
           </div>
           <div class="col-lg-12 col-sm-12">
-            <iframe width="100%" height="480" src="https://www.youtube.com/embed/RLN0FQxn_Qo" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="adaptive-frame-container">
+              <iframe width="100%" height="480" src="https://www.youtube.com/embed/RLN0FQxn_Qo" frameborder="0"
+                      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
           </div>
           <div class="col-lg-8 col-sm-12">
             <a class="portfolio-box"
@@ -1653,19 +1654,19 @@
         <div class="socials">
           <form class="subscribe_form">
             <div class="form-group row">
-              <div class="col-sm-4 mx-auto">
+              <div class="col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
                 <input type="text" name="ojs_name" id="ojs_name2" placeholder="your name"
                        class="form-control subscribe-name-input"/>
               </div>
             </div>
             <div class="form-group row">
-              <div class="col-sm-4 mx-auto">
+              <div class="col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
                 <input type="email" name="ojs_email" id="ojs_email2" placeholder="email address"
                        class="form-control subscribe-email-input"/>
               </div>
             </div>
             <div class="form-group row">
-              <div class="col-sm-4 mx-auto">
+              <div class="col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
                 <button type="submit" class="btn btn-primary subscribe-button">
                   <span>SUBSCRIBE</span>
                   <i class="fa fa-refresh fa-spin" style=" display: none; "></i>
@@ -1675,12 +1676,22 @@
           </form>
 
           <div class="socials__icons">
-            <a target="_blank" class="socials__link socials__fb" href="https://www.facebook.com/odessajs"></a>
-            <a target="_blank" class="socials__link socials__tw" href="https://twitter.com/OdessaJS"></a>
+            <a target="_blank" class="socials__link socials__fb" href="https://www.facebook.com/odessajs">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a target="_blank" class="socials__link socials__tw" href="https://twitter.com/OdessaJS">
+              <i class="fa fa-twitter"></i>
+            </a>
             <a target="_blank" class="socials__link socials__yt"
-               href="https://www.youtube.com/c/OdessaJSConference"></a>
-            <a target="_blank" class="socials__link socials__tg" href="https://t.me/odessajs"></a>
-            <a class="socials__link socials__ml" href="mailto:odessajsconf@gmail.com"></a>
+               href="https://www.youtube.com/c/OdessaJSConference">
+              <i class="fa fa-youtube-play"></i>
+            </a>
+            <a target="_blank" class="socials__link socials__tg" href="https://t.me/odessajs">
+              <i class="fa fa-paper-plane"></i>
+            </a>
+            <a class="socials__link socials__ml" href="mailto:odessajsconf@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
           </div>
         </div>
 
@@ -1709,6 +1720,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
 <script src="vendor/animate/animateit.js"></script>
 
 <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>

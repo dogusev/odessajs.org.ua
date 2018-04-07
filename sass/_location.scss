@@ -5,11 +5,19 @@
     display: block;
     position: relative;*/
 
+
     &__img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
+
+      @media (max-width: 768px) {
+        min-height: 530px;
+      }
+      @media (max-width: 992px) {
+        min-height: 470px;
+      }
     }
 
     .container {
@@ -23,6 +31,10 @@
       @include flexbox;
       @include flex-direction(column);
       @include justify-content(space-between);
+
+      @media (max-width: 992px) {
+        padding-bottom: 45px;
+      }
     }
 
     &__title {
@@ -40,6 +52,10 @@
       width: 45%;
       text-align: left;
       margin: 0;
+
+      @media (max-width: 992px) {
+        width: 100%;
+      }
     }
   }
 

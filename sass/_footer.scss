@@ -34,43 +34,51 @@ footer#footer {
   .socials {
     //display: flex;
     margin-top: 33px;
+    margin-bottom: 15px;
     text-align: right;
     @media screen and (max-width: 720px) {
       text-align: center;
     }
     .socials__link {
-      transition: all ease .5s;
-      margin-left: 14px;
+      transition: all ease .3s;
+      margin-left: 17px;
       display: inline-block;
       text-decoration: none;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      background-position: center center;
+      //width: 30px;
+      //height: 30px;
+      //background-repeat: no-repeat;
+      //background-position: center center;
       @media screen and (max-width: 720px) {
         margin: 0 8px;
       }
+      .fa {
+        font-size: 1.6rem;
+      }
+
       &:hover {
         transform: scale(1.2);
       }
+      &:first-child {
+        margin-left: 0;
+      }
     }
     &__tw {
-      background: url('../images/twitter-red.png');
+      //background: url('../images/twitter-red.png');
     }
     &__tg {
-      background: url('../images/telegram-red.png');
+      //background: url('../images/telegram-red.png');
     }
     &__ml {
-      background: url('../images/e-mail.png');
+      //background: url('../images/e-mail.png');
     }
     &__fb {
-      background: url('../images/fb-red.png');
+      //background: url('../images/fb-red.png');
     }
     &__vk {
-      background: url('../images/vk.png');
+      //background: url('../images/vk.png');
     }
     &__yt {
-      background: url('../images/youtube-red.png');
+      //background: url('../images/youtube-red.png');
     }
     &__icons {
       margin-top: 2rem;

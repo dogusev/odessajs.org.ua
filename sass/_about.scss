@@ -4,6 +4,21 @@ section.about {
     font-family: 'Jura', sans-serif;
     font-size: 45px;
     color: #e32d42;
+
+    @media screen and (max-width: 767px) {
+      font-size: 35px;
+    }
+  }
+
+  .about_subtitle {
+    @extend .main-title;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20px;
+
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 
   .main_subtitle {
@@ -16,6 +31,13 @@ section.about {
 
     &__item {
 
+      @media (max-width: 768px) {
+        margin-bottom: 3rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
 
       .img-wrapper {
         height: 40px;
@@ -37,6 +59,7 @@ section.about {
       }
 
       ul {
+        margin-bottom: 0;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         color: #000;

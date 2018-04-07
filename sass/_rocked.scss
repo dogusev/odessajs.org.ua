@@ -19,14 +19,24 @@ section#rocked {
   .portfolio-box {
     display: inline-block;
   }
+  .rocked-container {
+    overflow: hidden;
+  }
   .popup-gallery {
     padding-top: 60px;
     > div {
       padding: 15px;
+
+      @media (max-width: 575px) {
+        padding: 0 0 15px 0;
+      }
     }
 
     .portfolio-box+.portfolio-box {
       padding-top: 20px;
+      @media (max-width: 575px) {
+        padding-top: 15px;
+      }
     }
   }
 }

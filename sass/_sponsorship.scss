@@ -33,12 +33,30 @@ section#sponsorship {
     }
   }
   .buttons_row {
-    .btn:first-child {
-      float: left;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+
+      .btn{
+        width: 100%;
+        max-width: 400px;
+        font-size: 0.8rem;
+        white-space: normal;
+
+        &:last-child {
+          margin-top: 15px;
+        }
+      }
     }
-    .btn:last-child {
-      float: right;
-    }
+    //.btn:first-child {
+    //  float: left;
+    //}
+    //.btn:last-child {
+    //  float: right;
+    //}
   }
   .sponsor_stats_container {
     padding-bottom: 4rem;

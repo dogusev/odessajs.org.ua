@@ -5,6 +5,8 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
+    display: inline-flex;
+    align-items: center;
     text-transform: uppercase;
     color: $black;
     @include sans-serif-font;
