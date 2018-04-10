@@ -976,11 +976,14 @@ section#rocked {
       padding: 30px 50px;
       border: none; }
       .speakers-info-popup .modal-dialog .modal-content .modal-body__title {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Jura', sans-serif;
         font-weight: 600;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         text-transform: uppercase;
         color: #e32d42; }
+      .speakers-info-popup .modal-dialog .modal-content .modal-body__text {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 25px; }
       .speakers-info-popup .modal-dialog .modal-content .modal-body video {
         margin-top: 20px;
         width: 100%;
@@ -1121,7 +1124,7 @@ section#rocked {
     .speakers-slide__info p {
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
-      line-height: 1;
+      line-height: 1.2;
       margin-bottom: 15px; }
       @media (min-width: 1024px) and (max-width: 1200px) {
         .speakers-slide__info p {
