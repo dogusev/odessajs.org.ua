@@ -287,30 +287,7 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/andrey_grachev.png",
-      name: "Андрей Грачёв",
-      position: "CTO" ,
-      company: "Crello",
-      rept: [
-        {
-          title: "Nuxtjs - Universal apps made easy",
-          description: "Универсальные приложения с nuxtjs, или когда нужно просто и быстро",
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/drontxl',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://www.linkedin.com/in/andrew-grachov/',
-          fatype: 'linkedin-square'
-        }
-      ]
-    },
+
     {
       image: "images/reporters/roman_rodomansky.png",
       name: "Roman Rodomansky",
@@ -376,6 +353,30 @@ $(document).ready(function(){
         {
           link: 'https://github.com/yasinishyn',
           fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/andrey_grachev.png",
+      name: " Andrew Grachov",
+      position: "CTO" ,
+      company: "Crello",
+      rept: [
+        {
+          title: "Universal VUE apps made easy",
+          description: "Универсальные приложения с nuxtjs, или когда нужно просто и быстро",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/drontxl',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.linkedin.com/in/andrew-grachov/',
+          fatype: 'linkedin-square'
         }
       ]
     },
@@ -547,6 +548,42 @@ $(document).ready(function(){
           link: 'https://github.com/apilguk',
           fatype: 'github'
         }
+      ]
+    },
+    {
+      image: "images/reporters/ivan_goncharov.png",
+      name: "Ivan Goncharov",
+      position: "API consultant" ,
+      company: "APIs.guru",
+      rept: [
+        {
+          title: "W.T.F. is GraphQL?",
+          description: "Recently, there is a lot of hype around GraphQL and you are probably wondering if it is a good fit for your project. In my talk, I want to demystify GraphQL by explaining what problems does it solve and how it works internally. I will show how to write requests and send them to the server and how they are executed under the hood. I will also talk about problems of GraphQL and how ready it is for production"
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/ivan.goncharov.3591',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/E1Goncharov',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/igoncharov/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/IvanGoncharov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://medium.com/@IvanGoncharov',
+          fatype: 'link'
+        },
       ]
     },
   ];

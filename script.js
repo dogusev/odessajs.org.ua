@@ -113,7 +113,7 @@ function loadAskQuestionModal($speakerBlock) {
   var $modalBody = $('#ask-form');
   var $modalHiddenInput = $modalBody.find('#ask-to');
   var $modalNameElement = $modalBody.find('.speaker_ask_name');
-  var speakerName = $speakerBlock.closest('.chairman-info').find('.chairman__name').text();
+  var speakerName = $speakerBlock.closest('.chairman-info').find('.chairman__name').text() || 'us';
   $modalHiddenInput.val(speakerName);
   $modalNameElement.text(speakerName);
 
