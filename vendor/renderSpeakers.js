@@ -289,6 +289,58 @@ $(document).ready(function(){
     },
 
     {
+      image: "images/program-committee/ksenia-redunova.jpg",
+      name: "Ksenia Redunova",
+      position: "Team Lead" ,
+      company: "Lohika",
+      rept: [
+        {
+          title: "Estimates: is there a silver bullet?",
+          description: "",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/redunova',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.linkedin.com/in/redunovaksenia/',
+          fatype: 'linkedin-square'
+        }
+      ]
+    },
+    {
+      image: "https://pbs.twimg.com/profile_images/875823348118417408/WSMpFKgm_400x400.jpg",
+      name: "Aleksandra Shinkevich",
+      position: "Full-stack NodeJS Developer" ,
+      company: "LOVATA",
+      rept: [
+        {
+          title: "Как подготовить выступление. Пошаговое руководство спикеру от организатора",
+          description: "",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/aleksandra.shinkevich',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://github.com/neesoglasnaja',
+          fatype: 'github'
+        },
+        {
+          link: 'http://ash-web.by',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
       image: "images/reporters/roman_rodomansky.png",
       name: "Roman Rodomansky",
       position: "CTO & Co-Founder" ,
