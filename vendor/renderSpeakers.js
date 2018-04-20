@@ -7,6 +7,126 @@ $(document).ready(function(){
 
   var speakers = [
     {
+      image: "images/reporters/asimhussain.png",
+      name: "Asim Hussain",
+      position: "Cloud Developer Advocate" ,
+      company: "Microsoft",
+      rept: [
+        {
+          title: "Serverless & SPAs, a match made in Spevan",
+          description: "There is a wrong way and a right way to deploy, scale and architect an SPA. If you do it the wrong way you DON'T get the advantages of an SPA, you might as well have built a server-side Express app. If you do it the right way, you can take advantage of optimisations that give you epic scalability, with super low latencies at a fraction of the cost. In this talk, I'll teach you the right way to host your SPA (hint: don't use node). I'll unlock the doors to the hidden free caching layer on the internet. I'll prove why serverless & SPAs complement each other so perfectly and I'll show you how easy it is to build the rest of your application using a serverless stack."
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/jawache',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/jawache',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://codecraft.tv',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "https://ivanjov.com/content/images/2017/11/latest-zoomed.jpg",
+      name: "Ivan Jovanovic",
+      position: "Senior Software Engineer" ,
+      company: "nearForm",
+      rept: [
+        {
+          title: "Serverless - the way microservices should be",
+          description: "Serverless, the buzzword that we’re hearing probably every day. What’s that exactly? Serverless is the way microservices should be. It will save you money, time, and you will be able to easily build, test and deploy your applications. Serverless is here to stay, let’s learn how to use it!"
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/ivanjov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/ivanjov96',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://ivanjov.com/',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "https://pbs.twimg.com/profile_images/875823348118417408/WSMpFKgm_400x400.jpg",
+      name: "Aleksandra Shinkevich",
+      position: "Full-stack NodeJS Developer" ,
+      company: "LOVATA",
+      rept: [
+        {
+          title: "Как подготовить выступление. Пошаговое руководство спикеру от организатора",
+          description: "",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/aleksandra.shinkevich',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://github.com/neesoglasnaja',
+          fatype: 'github'
+        },
+        {
+          link: 'http://ash-web.by',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/trishul_goel.png",
+      name: "Trishul Goel",
+      position: "Tech Speaker" ,
+      company: "Mozilla",
+      rept: [
+        {
+          title: "Cross browser extensions - lets make one",
+          description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/tsl143',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/trishulgoel',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/trishul/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'http://github.com/tsl143/',
+          fatype: 'github'
+        },
+        {
+          link: 'http://trishulgoel.com/',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
       image: "http://henningmu.com/assets/img/avatar.jpg",
       name: "Henning Muszynski",
       position: "Software Engineer" ,
@@ -62,62 +182,6 @@ $(document).ready(function(){
         }
       ]
 
-    },
-    {
-      image: "images/reporters/asimhussain.png",
-      name: "Asim Hussain",
-      position: "Cloud Developer Advocate" ,
-      company: "Microsoft",
-      rept: [
-        {
-          title: "Serverless & SPAs, a match made in Spevan",
-          description: "There is a wrong way and a right way to deploy, scale and architect an SPA. If you do it the wrong way you DON'T get the advantages of an SPA, you might as well have built a server-side Express app. If you do it the right way, you can take advantage of optimisations that give you epic scalability, with super low latencies at a fraction of the cost. In this talk, I'll teach you the right way to host your SPA (hint: don't use node). I'll unlock the doors to the hidden free caching layer on the internet. I'll prove why serverless & SPAs complement each other so perfectly and I'll show you how easy it is to build the rest of your application using a serverless stack."
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/jawache',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/jawache',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://codecraft.tv',
-          fatype: 'link'
-        },
-      ]
-    },
-    {
-      image: "https://ivanjov.com/content/images/2017/11/latest-zoomed.jpg",
-      name: "Ivan Jovanovic",
-      position: "Senior Software Engineer" ,
-      company: "nearForm",
-      rept: [
-        {
-          title: "Serverless - the way microservices should be",
-          description: "Serverless, the buzzword that we’re hearing probably every day. What’s that exactly? Serverless is the way microservices should be. It will save you money, time, and you will be able to easily build, test and deploy your applications. Serverless is here to stay, let’s learn how to use it!"
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/ivanjov',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/ivanjov96',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://ivanjov.com/',
-          fatype: 'link'
-        }
-      ]
     },
     {
       image: "images/reporters/roman_sachenko.jpg",
@@ -251,42 +315,6 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/trishul_goel.png",
-      name: "Trishul Goel",
-      position: "Tech Speaker" ,
-      company: "Mozilla",
-      rept: [
-        {
-          title: "Cross browser extensions - lets make one",
-          description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/tsl143',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://twitter.com/trishulgoel',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/trishul/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'http://github.com/tsl143/',
-          fatype: 'github'
-        },
-        {
-          link: 'http://trishulgoel.com/',
-          fatype: 'link'
-        },
-      ]
-    },
 
     {
       image: "images/program-committee/ksenia-redunova.jpg",
@@ -309,34 +337,6 @@ $(document).ready(function(){
         {
           link: 'https://www.linkedin.com/in/redunovaksenia/',
           fatype: 'linkedin-square'
-        }
-      ]
-    },
-    {
-      image: "https://pbs.twimg.com/profile_images/875823348118417408/WSMpFKgm_400x400.jpg",
-      name: "Aleksandra Shinkevich",
-      position: "Full-stack NodeJS Developer" ,
-      company: "LOVATA",
-      rept: [
-        {
-          title: "Как подготовить выступление. Пошаговое руководство спикеру от организатора",
-          description: "",
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/aleksandra.shinkevich',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://github.com/neesoglasnaja',
-          fatype: 'github'
-        },
-        {
-          link: 'http://ash-web.by',
-          fatype: 'link'
         }
       ]
     },
