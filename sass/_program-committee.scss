@@ -89,6 +89,12 @@ section.program-committee {
     @include flex-direction(column);
     @include justify-content(space-between);
     @include align-items(center);
+    border: 2px solid transparent;
+    padding: 5px;
+    &:hover {
+      border: 2px solid red;
+      border-radius: 9px;
+    }
   }
 
   .chairman__name {

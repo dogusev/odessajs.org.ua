@@ -511,7 +511,12 @@ section.program-committee {
     -ms-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    border: 2px solid transparent;
+    padding: 5px; }
+    section.program-committee .insides-wrapper:hover {
+      border: 2px solid red;
+      border-radius: 9px; }
   section.program-committee .chairman__name {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
@@ -1067,14 +1072,46 @@ section#rocked {
     align-items: stretch;
     margin-bottom: 90px;
     width: 100%;
+    min-height: 280px;
+    padding: 10px;
+    border: 2px solid transparent;
     cursor: pointer; }
     .speakers-slide__item:last-child {
       margin-bottom: 0; }
+    .speakers-slide__item:hover {
+      border: 2px solid red;
+      border-radius: 9px; }
     @media (max-width: 1024px) {
       .speakers-slide__item {
         margin: 0; } }
   .speakers-slide__img-wrapper {
-    height: 100%; }
+    height: 100%;
+    position: relative; }
+    .speakers-slide__img-wrapper::before {
+      position: absolute;
+      top: 0;
+      left: -75%;
+      z-index: 2;
+      display: block;
+      content: '';
+      width: 50%;
+      height: 100%;
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+      -webkit-transform: skewX(-25deg);
+      -ms-transform: skewX(-25deg);
+      transform: skewX(-25deg); }
+    .speakers-slide__img-wrapper:hover::before {
+      -webkit-animation: shine .75s;
+      animation: shine .75s; }
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%; } }
+
+@keyframes shine {
+  100% {
+    left: 125%; } }
     @media (max-width: 768px) {
       .speakers-slide__img-wrapper {
         padding-left: 0;
@@ -1138,7 +1175,7 @@ section#rocked {
           margin-bottom: 5px; } }
       @media (min-width: 1201px) {
         .speakers-slide__info-title {
-          height: 25px; } }
+          min-height: 25px; } }
       .speakers-slide__info-title-name {
         font-size: 28px; }
         @media (min-width: 1024px) and (max-width: 1200px) {

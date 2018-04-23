@@ -238,8 +238,8 @@ $(document).ready(function(){
       socialsRendered: '',
       socials: [
         {
-          link: 'https://github.com/ivanjov',
-          fatype: 'github'
+          link: 'https://twitter.com/alSkachkov\n',
+          fatype: 'twitter'
         },
         {
           link: 'https://www.linkedin.com/in/alexskachkov/',

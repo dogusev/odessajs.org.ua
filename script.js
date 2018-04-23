@@ -228,7 +228,7 @@ function initMap() {
         "elementType": "geometry.stroke",
         "stylers": [
           {
-            "color": "#ffffff"
+            "color": "#f0f0f0"
           },
           {
             "lightness": 29
@@ -255,7 +255,7 @@ function initMap() {
         "elementType": "geometry",
         "stylers": [
           {
-            "color": "#ffffff"
+            "color": "#f2f2f2"
           },
           {
             "lightness": 16
