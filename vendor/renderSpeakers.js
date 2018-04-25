@@ -638,6 +638,143 @@ $(document).ready(function(){
         },
       ]
     },
+    {
+      image: "images/reporters/nikita_dubko.png",
+      name: "Nikita Dubko",
+      position: "Software Engineer" ,
+      company: "iTechArt",
+      rept: [
+        {
+          title: "Houdini — CSS, который JavaScript",
+          description: "CSS Houdini — набор спецификаций, которые изменят веб-разработку в ближайшие годы. С их приходом простому верстальщику придется выучить JavaScript, но зато вместо ожидания появления реализации условных \"супер-мега-гридов\" в браузерах можно будет подключить полифил для CSS. И начать это делать можно уже сейчас! Или нет?"
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/Dark.MeFoDy',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/dark_mefody',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/MeFoDy',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/valentyn_barmashyn.png",
+      name: "Valentyn Barmashyn",
+      position: "Full Stack Software Engineer, Team Lead" ,
+      company: "ETeam",
+      rept: [
+        {
+          title: "Rx in React, Rx in Angular and why we all should be friends",
+          description: "В 2017-18 годах React и Angular стэки становятся похожи как никогда раньше и концептуальные границы между ними стираются, оставляя только разницу в имплементации. Поговорим про современную работу с данными и событиями, роль потоков и конкретно Rx, функциональное программирование и многое другое с практической и философской точки зрения, с кодом, чтобы ни у кого не осталось сомнений что все мы делаем одно и то же, а конкретный стэк имеет всё меньшее значение. "
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/valentynbarmashyn',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.linkedin.com/in/valentyn-barmashyn-1a323aa9/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/Va1',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/alexander_shushunov.png",
+      name: "Alexander Shushunov",
+      position: "Senior Developer" ,
+      company: "EPAM",
+      rept: [
+        {
+          title: "Let's kill lifecycle",
+          description: "Do you hate lifecycle? componentWillReceiveProps make you bored? Let's make make React pure again! I will show, how lifecycle brings complexity (and errors) to your code. And how we can avoid it. Or make it more safety."
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.linkedin.com/in/ashushunov/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/AlexanderShushunov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://www.youtube.com/channel/UCujRYXmvPilNTgDw-uZQJ0Q?view_as=subscriber',
+          fatype: 'link'
+        },
+      ]
+    },
+
+    {
+      image: "images/reporters/artem_zakharchenko.jpg",
+      name: "Artem Zakharchenko",
+      position: "TeamLead" ,
+      company: "Namecheap",
+      rept: [
+        {
+          title: "Что 30 летний программист должен сказать себе 20 летнему aka А что делать, когда ты перестал писать код",
+          description: "Это доклад о том как меняется восприятие индустрии с возрастном и приходящим опытом"
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/Javascriptdeveloper',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/blackrabbit99?lang=en',
+          fatype: 'twitter'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/andrey_kucherenko.png",
+      name: "Andrey Kucherenko",
+      position: "Lead Software Engineer" ,
+      company: "EPAM System",
+      rept: [
+        {
+          title: "Code copy/paste detection on JavaScript",
+          description: "During the talk I will describe how to solve task of copy/paste detection with javascript. I will start with task, areas of apply of the task, tools and algorithms for solving copy.paste detection task."
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/andrey.kucherenko',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/a_kucherenko',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/kucherenko/',
+          fatype: 'github'
+        }
+      ]
+    },
   ];
 
 

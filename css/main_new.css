@@ -663,7 +663,8 @@ section#sponsorship {
   section#sponsorship .buttons_row {
     text-align: center; }
   section#sponsorship .thank-container {
-    padding-top: 3rem; }
+    padding-top: 3rem;
+    padding-bottom: 6rem; }
   section#sponsorship .thank-box {
     display: inline-block;
     width: 100%;
