@@ -21,7 +21,8 @@ section#sponsorship {
     padding-bottom: 6rem;
   }
   .thank-box {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
     margin: 15px;
@@ -66,9 +67,16 @@ section#sponsorship {
     @media (min-width: 992px) {
       text-align: left;
     }
+
     .sponsort_stats_title {
       color: $primary;
       font-size: 70px;
+      font-weight: bold;
+    }
+    .sponsort_stats_title_small{
+      text-align: left;
+      color: $primary;
+      font-size: 28px;
       font-weight: bold;
     }
     .sponsor_stats_caption {}

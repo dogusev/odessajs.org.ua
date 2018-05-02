@@ -127,7 +127,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "http://henningmu.com/assets/img/avatar.jpg",
+      image: "images/reporters/henning_muszynski.png",
       name: "Henning Muszynski",
       position: "Software Engineer" ,
       company: "Doist",
@@ -184,6 +184,46 @@ $(document).ready(function(){
 
     },
     {
+      image: "images/reporters/patrick_kettner.jpeg",
+      name: "Patrick Kettner",
+      position: "Program Manager",
+      company: "Microsoft Edge",
+      rept: [
+        {
+          title: "Creating magic with Houdini",
+          description: "Since the dawn of (internet) time, web developers have been at the mercy of browsers when it comes to features. But what if the black magic they use to create new HTML and CSS properties were given to you? Thats exactly what the Houdini working group is working to provide web developers today! In a futuristic, code heavy session I will show how in the not too distant future, you will be able to create your own custom browser features using low lever APIs never before available to developers.",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/patrickkettner',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/patrickkettner',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://instagram.com/patrickkettner',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/patrickkettner',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/960588/patrick',
+          fatype: 'stack-overflow'
+        },
+        {
+          link: 'https://patrickkettner.com',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
       image: "images/reporters/roman_sachenko.jpg",
       name: "Roman Sachenko",
       position: "Software Engineer" ,
@@ -224,7 +264,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/oskackov.jpg",
+      image: "images/reporters/oskackov.png",
       name: "Oleksandr Skachkov",
       position: "Lead FrontEnd Developer" ,
       company: "Itera",
@@ -315,7 +355,6 @@ $(document).ready(function(){
         },
       ]
     },
-
     {
       image: "images/program-committee/ksenia-redunova.jpg",
       name: "Ksenia Redunova",
@@ -410,7 +449,7 @@ $(document).ready(function(){
     },
     {
       image: "images/reporters/andrey_grachev.png",
-      name: " Andrew Grachov",
+      name: "Andrew Grachov",
       position: "CTO" ,
       company: "Crello",
       rept: [
@@ -722,7 +761,6 @@ $(document).ready(function(){
         },
       ]
     },
-
     {
       image: "images/reporters/artem_zakharchenko.jpg",
       name: "Artem Zakharchenko",
@@ -775,6 +813,50 @@ $(document).ready(function(){
         }
       ]
     },
+    {
+      image: "images/reporters/dovhan_denys.png",
+      name: "Denys Dovhan",
+      position: "Software Consultant" ,
+      company: "Bizico",
+      rept: [
+        {
+          title: "Automating GitHub workflow with probot",
+          description: "Most of developers are passionated in Open Source, some of them have their own OS projects, some of them have commercial projects hosted on GitHub. Automating projects workflow can simplify daily work and make typical tasks automated.",
+        }
+      ],
+      aboutSpeaker: 'Speaker info',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/denysdovhan',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/denysdovhan',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/denysdovhan/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/denysdovhan/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/denysdovhan',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/5508862/denysdovhan',
+          fatype: 'stack-overflow'
+        },
+        {
+          link: 'https://denysdovhan.com/',
+          fatype: 'link'
+        },
+      ]
+    },
   ];
 
 
@@ -799,67 +881,68 @@ $(document).ready(function(){
     <a href="https://medium.com/@rsachenko">
       <i class="fa fa-medium" aria-hidden="true"></i>
     </a>*/
-  var socialsItem = "<a class='speaker__link' href='${link}'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
+  var socialsItem = "<a class='speaker__link' href='${link}' target='_blank'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
   $.template( "socialsTemplate", socialsItem );
 
   var reportTitles = '';
 
-  var speakerItem = " <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item row'> <div class='speakers-slide__img-wrapper col-sm-12 col-md-5 col-lg-4'>" +
-   "<img src='${image}' alt=''>" +
-    "</div> <div class='speakers-slide__info-wrapper  col-sm-12 col-md-7 col-lg-8'> <div class='speakers-slide__info'>"+
+  var speakerItem = "<div class='row h-100'> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
+    " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
+    "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
-  "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span> <span class='speakers-slider__info-company'>${company}</span></p>"+
+  "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +
+    " <span class='speakers-slider__info-company'>${company}</span></p>"+
   "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept}} ${$value.title}</br>{{/each}}</p>"+
-  "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div>";
+  "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
   $.template( "speakerTemplate", speakerItem );
 
 
 
-function renderSpeakersCarousel() {
+  function renderSpeakersCarousel() {
 
-  // start render all
-  $.each(speakers, function(i, sp) {
-    $.each($.tmpl("socialsTemplate", sp.socials ), function(a, i){ sp.socialsRendered += i.outerHTML; });
-  });
+    // start render all
+    $.each(speakers, function(i, sp) {
+      $.each($.tmpl("socialsTemplate", sp.socials ), function(a, i){ sp.socialsRendered += i.outerHTML; });
+    });
 
-  var renderedSpeakers = [];
-  $.each($.tmpl("speakerTemplate", speakers ), function(a, i){
-    renderedSpeakers.push(i.outerHTML.replace('__ReplaceWithIndex', a));
-  });
+    var renderedSpeakers = [];
+    $.each($.tmpl("speakerTemplate", speakers ), function(a, i){
+      renderedSpeakers.push(i.outerHTML.replace('__ReplaceWithIndex', a));
+    });
 
-  var finalSliderHtml = '';
-  var ifmobile = $(document).width() < 1024;
+    var finalSliderHtml = '';
+    var ifmobile = $(document).width() < 720;
+    // var iftablet = $(document).width() < 960;
 
     for (var i=0; i< renderedSpeakers.length; i++) {
       var activeClass = '';
-      var colClass = ifmobile ? 'col-12' : 'col-lg-6';
+      // var colClass = iftablet ? (ifmobile ? 'col-10' : 'col-md-6') : 'col-lg-4';
+      var colClass ='col-10 col-sm-6 col-lg-4';
       if (i===0) {
         activeClass = 'active';
       }
-      finalSliderHtml+= '<div class="carousel-item '+activeClass+'"><div class="speakers-slide '+colClass+'">';
+      finalSliderHtml+= '<div class="speakers-slide '+colClass+'">';
       finalSliderHtml+=renderedSpeakers[i];
 
-      if(!ifmobile && renderedSpeakers[i+1]) {
-        finalSliderHtml+=renderedSpeakers[i+1];
-        i++;
-      }
+      // if(!ifmobile && renderedSpeakers[i+1]) {
+      //   finalSliderHtml+=renderedSpeakers[i+1];
+      //   i++;
+      // }
 
-      finalSliderHtml+='</div></div>'
+      finalSliderHtml+='</div>'
     }
 
 
 
-  $('#speakersSlider').html(finalSliderHtml);
-}
+    $('#speakersSlider').html(finalSliderHtml);
+  }
 
   renderSpeakersCarousel();
-
 
   $(document).on('click', '[data-modal-trigger="#speaker-modal"]', function() {
     var $speakerInfoBlock = $(this);
     loadSpeakerModal($speakerInfoBlock);
   });
-
 
   function loadSpeakerModal($speakerInfoBlock) {
     var $modalBody = $('#speaker-modal'),
@@ -941,6 +1024,5 @@ function renderSpeakersCarousel() {
       $('#speaker-modal').modal('show');
     }
   }
-
 
 });
