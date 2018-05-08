@@ -35,7 +35,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://ivanjov.com/content/images/2017/11/latest-zoomed.jpg",
+      image: "images/reporters/ivan_jovanovich.png",
       name: "Ivan Jovanovic",
       position: "Senior Software Engineer" ,
       company: "nearForm",
@@ -144,7 +144,7 @@ $(document).ready(function(){
           link: 'https://github.com/henningmu',
           fatype: 'github'
         },
-       {
+        {
           link: 'https://twitter.com/henningmus',
           fatype: 'twitter'
         },
@@ -890,10 +890,10 @@ $(document).ready(function(){
     " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
     "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
-  "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +
+    "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +
     " <span class='speakers-slider__info-company'>${company}</span></p>"+
-  "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept}} ${$value.title}</br>{{/each}}</p>"+
-  "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
+    "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept}} ${$value.title}</br>{{/each}}</p>"+
+    "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
   $.template( "speakerTemplate", speakerItem );
 
 
