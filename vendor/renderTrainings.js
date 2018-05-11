@@ -282,6 +282,110 @@ $(document).ready(function(){
         },
       ]
     },
+    {
+      image: "images/reporters/max_klymyshyn.jpg",
+      name: "Max Klymyshyn",
+      position: "-" ,
+      company: "-",
+      aboutSpeaker: 'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
+      ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
+      'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
+      'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
+      duration: '<strong>2 hours</strong>',
+      title: "Build blockchain using CRDT and Merkle Trees",
+      description: "-",
+      topics:[
+        '<ul>\n' +
+        '  <li>intro & basic tools installation</li>\n' +
+        '  <li>blockchain basic implementation</li>\n' +
+        '  <li>low-level transport</li>\n' +
+        '  <li>high-level transport & CRDT payload definition</li>\n' +
+        '  <li>adding distributed properties</li>\n' +
+        '</ul>'
+      ],
+      purpose: '<p>People who developing modern client-side apps with JavaScript should know about distributed data structures like CRDT.</p>',
+      tools: '<p>Laptop, internet, git, node.js installed on laptop</p>',
+      target: '<p>Middle+ front-end developers</p>',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.linkedin.com/in/klymyshyn',
+          fatype: 'linkedin'
+        },
+        {
+          link: 'https://twitter.com/maxmaxmaxmax',
+          fatype: 'twitter'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/nik_graf.jpg",
+      name: "Nik Graf",
+      position: "-" ,
+      company: "-",
+      aboutSpeaker: 'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
+        'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
+        ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
+      duration: '<strong>5-6 hours</strong>',
+      title: "Build Serverless Node.js Applications on AWS",
+      description:
+        "<p>The core of serverless architectures are auto-scaling systems and a pay-per-execution pricing." +
+        " This allows developers to significantly reduce operational cost and complexity, by outsourcing infrastructure management" +
+        " to cloud providers and third-party services. Teams can focus on customers and improve their applications instead of managing servers.</p>" +
+        "<p>In this workshop you will learn how to build and deploy scaleable, production ready, low maintenance applications " +
+        "using Node.js. Therefor we are going to explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
+      topics:[
+        '-'
+      ],
+      purpose: '<p>-</p>',
+      tools: '<p>For this workshop you need to bring a Laptop with at least Node 8 installed and have an AWS (Amazon Web Services) account with the permission to deploy. ' +
+        'You should have some basic knowledge about JavaScript as well. Backend experience is not required.</p>',
+      target: '<p>Everyone interested to deploy their own low maintenance, auto-scaling, pay-per-execution backend. This is useful for backend as well as frontend developers.</p>',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/nikgraf',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/nikgraf',
+          fatype: 'github'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/nik_graf.jpg",
+      name: "Nik Graf",
+      position: "-" ,
+      company: "-",
+      aboutSpeaker: 'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
+      'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
+      ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
+      duration: '<strong>5-6 hours</strong>',
+      title: "Get Started with Reason & ReasonReact",
+      description:
+      "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
+      "the creator of React.</p>" +
+      "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about powerful " +
+      "concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
+      topics:[
+        '-'
+      ],
+      purpose: '<p>-</p>',
+      tools: '<p>Attendees should be experienced in JavaScript and have basic understanding of React.</p>',
+      target: '<p>Everyone interested in functional programming.</p>',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/nikgraf',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/nikgraf',
+          fatype: 'github'
+        },
+      ]
+    },
   ];
 
   $(document).on('click', '[data-modal-trigger="#training-modal"]', function() {

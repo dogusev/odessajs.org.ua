@@ -67,4 +67,24 @@ section.about {
       }
     }
   }
+
+  .about-include {
+
+    .about-include__item {
+      margin-bottom: 40px;
+
+      .img-wrapper {
+        text-align: center;
+        img {
+          display: inline-block;
+          height: 75px;
+        }
+      }
+      .main_subtitle{
+        text-align: center;
+        margin-top: 25px;
+      }
+    }
+
+  }
 }

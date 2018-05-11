@@ -1,3 +1,4 @@
+section#diversity,
 section#sponsorship {
   background-image: url(../images/section_top_bg.png);
   background-position: top center;
@@ -81,6 +82,12 @@ section#sponsorship {
     }
     .sponsor_stats_caption {}
   }
+}
 
+section#diversity {
+  background-image: none;
 
+  p.main_subtitle {
+    font-size: 18px;
+  }
 }

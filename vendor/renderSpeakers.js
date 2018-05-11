@@ -447,30 +447,30 @@ $(document).ready(function(){
         }
       ]
     },
-    {
-      image: "images/reporters/andrey_grachev.png",
-      name: "Andrew Grachov",
-      position: "CTO" ,
-      company: "Crello",
-      rept: [
-        {
-          title: "Universal VUE apps made easy",
-          description: "Универсальные приложения с nuxtjs, или когда нужно просто и быстро",
-        }
-      ],
-      aboutSpeaker: 'Speaker info',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/drontxl',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://www.linkedin.com/in/andrew-grachov/',
-          fatype: 'linkedin-square'
-        }
-      ]
-    },
+    // {
+    //   image: "images/reporters/andrey_grachev.png",
+    //   name: "Andrew Grachov",
+    //   position: "CTO" ,
+    //   company: "Crello",
+    //   rept: [
+    //     {
+    //       title: "Universal VUE apps made easy",
+    //       description: "Универсальные приложения с nuxtjs, или когда нужно просто и быстро",
+    //     }
+    //   ],
+    //   aboutSpeaker: 'Speaker info',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.facebook.com/drontxl',
+    //       fatype: 'facebook'
+    //     },
+    //     {
+    //       link: 'https://www.linkedin.com/in/andrew-grachov/',
+    //       fatype: 'linkedin-square'
+    //     }
+    //   ]
+    // },
     {
       image: "images/reporters/denis_radin.png",
       name: "Denis Radin",
