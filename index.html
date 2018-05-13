@@ -18,13 +18,13 @@
         rel='stylesheet' type='text/css'>
 
 
-  <link rel="stylesheet" href="css/reset.css?v=fc852">
+  <link rel="stylesheet" href="css/reset.css?v=9370e">
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css?v=9a41f" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css?v=10272" rel="stylesheet">
 
   <!-- Custom fonts -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css?v=26955" rel="stylesheet" type="text/css">
+  <link href="vendor/font-awesome/css/font-awesome.min.css?v=a0e78" rel="stylesheet" type="text/css">
 
   <link
     href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
@@ -34,14 +34,14 @@
     rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Jura|Roboto" rel="stylesheet">
 
-  <link rel="stylesheet" href="vendor/animate/animations.css?v=56599">
+  <link rel="stylesheet" href="vendor/animate/animations.css?v=96d35">
 
 
   <!-- Custom styles -->
-  <link href="css/main_new.css?v=6b7de" rel="stylesheet">
+  <link href="css/main_new.css?v=4fe47" rel="stylesheet">
   <!--Slick-->
-  <link rel="stylesheet" href="vendor/slick/slick.css?v=f38b2">
-  <link rel="stylesheet" href="vendor/slick/slick-theme.css?v=9f5f2">
+  <link rel="stylesheet" href="vendor/slick/slick.css?v=b0607">
+  <link rel="stylesheet" href="vendor/slick/slick-theme.css?v=36503">
   <!--
     <link rel="stylesheet" href="css/main.css?v=4621a">-->
   <!-- Facebook Pixel Code -->
@@ -92,7 +92,7 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <img src="images/logo_small_dark.png" alt="OdessaJS logo" class="img-logo">
-      <span class="header_title">Odessa JS'2018</span>
+      <span class="header_title">OdessaJS'2018</span>
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -295,7 +295,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="speakers" class="speakers">
   <img src="images/speakers-waves.png" alt="" class="speakers-img-1">
@@ -827,7 +826,7 @@
         </p>
       </div>
 
-      <div class="speakers-info-popup modal fade" id="training-modal">
+      <div class="trainings-info-popup modal fade" id="training-modal">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -840,9 +839,25 @@
               <div class="info-wrapper">
                 <div class="speaker-info">
                   <h2><span class="speaker__name"></span></h2>
-                  <p class="speaker__position"></p>
-                  <p class="speaker__company"></p>
+                  <div class="speaker__position"></div>
+                  <div class="speaker__company"></div>
+
+                  <div class="training-info">
+                    <div class="training__place">
+                      Location: <span></span>
+                    </div>
+                    <div class="training__date">
+                      Date: <span></span>
+                    </div>
+                    <div class="training__duration">
+                      Duration: <span></span>
+                    </div>
+                    <div class="training__price">
+                      Price: <span></span>
+                    </div>
+                  </div>
                 </div>
+
                 <div class="speaker__link-list">
                   <a class="speaker__link" target="_blank" href="javascript:void(0);">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -864,23 +879,16 @@
               <h2 class="modal-body__workshop-title modal-body__title">Workshop</h2>
               <hr class="mt-4 mb-4 ml-0">
 
-              <!-- About workshop -->
+              <!-- Description -->
               <div class="modal-body__description">
-                <h4 class="modal-body__title">About the workshop</h4>
+                <h4 class="modal-body__title">Description</h4>
                 <div class="modal-body__text"></div>
               </div>
-              <!-- About workshop -->
-
-              <!--Duration -->
-              <div class="modal-body__duration">
-                <h4 class="modal-body__title">Total duration</h4>
-                <div class="modal-body__text"></div>
-              </div>
-              <!--Duration -->
+              <!-- Description -->
 
               <!-- Topics -->
               <div class="modal-body__topics">
-                <h4 class="modal-body__title">Topics</h4>
+                <h4 class="modal-body__title">Major Topics</h4>
                 <div class="modal-body__text"></div>
               </div>
               <!-- Topics -->
@@ -888,8 +896,7 @@
               <!-- Purpose -->
               <div class="modal-body__purpose">
                 <h4 class="modal-body__title">
-                  Why should people come to your workshop?
-                  What knowledge and/or skills do you want people to learn?
+                  WHY YOU SHOULD COME TO THIS WORKSHOP
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
@@ -898,8 +905,7 @@
               <!-- Tools -->
               <div class="modal-body__tools">
                 <h4 class="modal-body__title">
-                  What kind of tools will you use for that?
-                  What equipment is needed for the workshop?
+                  SKILLS &amp; EQUIPMENT REQUIRED FOR THE WORKSHOP
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
@@ -908,17 +914,17 @@
               <!-- Target -->
               <div class="modal-body__target">
                 <h4 class="modal-body__title">
-                  Who needs this workshop?
-                  For whom the workshop will be useful?
-                  Are any specific preparations should be done before the workshop by participants?
+                  TARGET AUDIENCE
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
               <!-- Target -->
 
               <!-- About trainer -->
-              <h4 class="modal-body__title">About Trainer</h4>
-              <p class="modal-body__text speaker-text"></p>
+              <div class="modal-body__about-speaker">
+                <h4 class="modal-body__title ">About the Trainer</h4>
+                <div class="modal-body__text"></div>
+              </div>
               <!-- About trainer -->
 
               <div class="modal-body__text">
@@ -2059,15 +2065,15 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js?v=c9f5a"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js?v=85bef"></script>
-<script src="vendor/touchSwipe/jquery.touchSwipe.min.js?v=71d58"></script>
-<script src="vendor/animate/animateit.js?v=7bdaf"></script>
+<script src="vendor/jquery/jquery.min.js?v=47395"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js?v=b02fa"></script>
+<script src="vendor/touchSwipe/jquery.touchSwipe.min.js?v=90758"></script>
+<script src="vendor/animate/animateit.js?v=830bd"></script>
 
 <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
 
 <!--Slick-->
-<script src="vendor/slick/slick.min.js?v=d5a61"></script>
+<script src="vendor/slick/slick.min.js?v=777da"></script>
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js?v=e2d41"></script>
@@ -2077,10 +2083,10 @@
 
 
 <!--<script src="vendor/renderSpeakers.js?v=df3ec"></script>-->
-<!--<script src="script.js?v=b7fce" type="text/javascript"></script>-->
-<script src="js/script.min.js?v=d80fa" type="text/javascript"></script>
+<!--<script src="script.js?v=30fa8" type="text/javascript"></script>-->
+<script src="js/script.min.js?v=3467f" type="text/javascript"></script>
 
-<script src="./fb.js?v=6d797" type="text/javascript"></script>
+<script src="./fb.js?v=8e75b" type="text/javascript"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzoXopiOzGo8FIg2stF6gTn4yM5jo-Ups&callback=initMap"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->

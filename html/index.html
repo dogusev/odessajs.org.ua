@@ -92,7 +92,7 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <img src="images/logo_small_dark.png" alt="OdessaJS logo" class="img-logo">
-      <span class="header_title">Odessa JS'2018</span>
+      <span class="header_title">OdessaJS'2018</span>
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -295,7 +295,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="speakers" class="speakers">
   <img src="images/speakers-waves.png" alt="" class="speakers-img-1">
@@ -827,7 +826,7 @@
         </p>
       </div>
 
-      <div class="speakers-info-popup modal fade" id="training-modal">
+      <div class="trainings-info-popup modal fade" id="training-modal">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -840,9 +839,25 @@
               <div class="info-wrapper">
                 <div class="speaker-info">
                   <h2><span class="speaker__name"></span></h2>
-                  <p class="speaker__position"></p>
-                  <p class="speaker__company"></p>
+                  <div class="speaker__position"></div>
+                  <div class="speaker__company"></div>
+
+                  <div class="training-info">
+                    <div class="training__place">
+                      Location: <span></span>
+                    </div>
+                    <div class="training__date">
+                      Date: <span></span>
+                    </div>
+                    <div class="training__duration">
+                      Duration: <span></span>
+                    </div>
+                    <div class="training__price">
+                      Price: <span></span>
+                    </div>
+                  </div>
                 </div>
+
                 <div class="speaker__link-list">
                   <a class="speaker__link" target="_blank" href="javascript:void(0);">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -864,23 +879,16 @@
               <h2 class="modal-body__workshop-title modal-body__title">Workshop</h2>
               <hr class="mt-4 mb-4 ml-0">
 
-              <!-- About workshop -->
+              <!-- Description -->
               <div class="modal-body__description">
-                <h4 class="modal-body__title">About the workshop</h4>
+                <h4 class="modal-body__title">Description</h4>
                 <div class="modal-body__text"></div>
               </div>
-              <!-- About workshop -->
-
-              <!--Duration -->
-              <div class="modal-body__duration">
-                <h4 class="modal-body__title">Total duration</h4>
-                <div class="modal-body__text"></div>
-              </div>
-              <!--Duration -->
+              <!-- Description -->
 
               <!-- Topics -->
               <div class="modal-body__topics">
-                <h4 class="modal-body__title">Topics</h4>
+                <h4 class="modal-body__title">Major Topics</h4>
                 <div class="modal-body__text"></div>
               </div>
               <!-- Topics -->
@@ -888,8 +896,7 @@
               <!-- Purpose -->
               <div class="modal-body__purpose">
                 <h4 class="modal-body__title">
-                  Why should people come to your workshop?
-                  What knowledge and/or skills do you want people to learn?
+                  WHY YOU SHOULD COME TO THIS WORKSHOP
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
@@ -898,8 +905,7 @@
               <!-- Tools -->
               <div class="modal-body__tools">
                 <h4 class="modal-body__title">
-                  What kind of tools will you use for that?
-                  What equipment is needed for the workshop?
+                  SKILLS &amp; EQUIPMENT REQUIRED FOR THE WORKSHOP
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
@@ -908,17 +914,17 @@
               <!-- Target -->
               <div class="modal-body__target">
                 <h4 class="modal-body__title">
-                  Who needs this workshop?
-                  For whom the workshop will be useful?
-                  Are any specific preparations should be done before the workshop by participants?
+                  TARGET AUDIENCE
                 </h4>
                 <div class="modal-body__text"></div>
               </div>
               <!-- Target -->
 
               <!-- About trainer -->
-              <h4 class="modal-body__title">About Trainer</h4>
-              <p class="modal-body__text speaker-text"></p>
+              <div class="modal-body__about-speaker">
+                <h4 class="modal-body__title ">About the Trainer</h4>
+                <div class="modal-body__text"></div>
+              </div>
               <!-- About trainer -->
 
               <div class="modal-body__text">
