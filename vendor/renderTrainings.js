@@ -388,6 +388,7 @@ $(document).ready(function(){
         "tools. Previously he worked for Serverless Inc., the company behind Serverless" +
         "Framework. He’s co-created several popular open source projects like DraftJS Plugins &amp;" +
         "Polished. In his spare time Nik enjoys cycling &amp; skiing.",
+      title: "Build Serverless Node.js Applications on AWS",
       description:
         "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
         "pricing. This allows developers to reduce significantly operational cost and complexity" +
