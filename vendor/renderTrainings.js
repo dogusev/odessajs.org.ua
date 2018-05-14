@@ -426,39 +426,43 @@ $(document).ready(function(){
         },
       ]
     },
-    // {
-    //   image: "images/reporters/nik_graf.jpg",
-    //   name: "Nik Graf",
-    //   position: "" ,
-    //   company: "",
-    //   aboutSpeaker: 'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
-    //   'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
-    //   ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
-    //   duration: '<strong>5-6 hours</strong>',
-    //   title: "Get Started with Reason & ReasonReact",
-    //   description:
-    //   "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
-    //   "the creator of React.</p>" +
-    //   "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about powerful " +
-    //   "concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
-    //   topics:[
-    //     '-'
-    //   ],
-    //   purpose: '<p>-</p>',
-    //   tools: '<p>Attendees should be experienced in JavaScript and have basic understanding of React.</p>',
-    //   target: '<p>Everyone interested in functional programming.</p>',
-    //   socialsRendered: '',
-    //   socials: [
-    //     {
-    //       link: 'https://twitter.com/nikgraf',
-    //       fatype: 'twitter'
-    //     },
-    //     {
-    //       link: 'https://github.com/nikgraf',
-    //       fatype: 'github'
-    //     },
-    //   ]
-    // },
+    {
+      image: "images/reporters/nik_graf.jpg",
+      name: "Nik Graf",
+      position: "" ,
+      company: "",
+      place: '',
+      date: '',
+      duration: '5-6 h',
+      price: '',
+      aboutSpeaker:
+        'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
+        'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
+        ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
+      title: "Get Started with Reason & ReasonReact",
+      description:
+        "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
+        "the creator of React.</p>" +
+        "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about powerful " +
+        "concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
+      topics:[
+        '-'
+      ],
+      purpose: '',
+      tools: '<p>Attendees should be experienced in JavaScript and have basic understanding of React.</p>',
+      target: '<p>Everyone interested in functional programming.</p>',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/nikgraf',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/nikgraf',
+          fatype: 'github'
+        },
+      ]
+    },
   ];
 
   $(document).on('click', '[data-modal-trigger="#training-modal"]', function() {
