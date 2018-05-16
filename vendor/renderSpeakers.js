@@ -17,7 +17,7 @@ $(document).ready(function(){
           description: "There is a wrong way and a right way to deploy, scale and architect an SPA. If you do it the wrong way you DON'T get the advantages of an SPA, you might as well have built a server-side Express app. If you do it the right way, you can take advantage of optimisations that give you epic scalability, with super low latencies at a fraction of the cost. In this talk, I'll teach you the right way to host your SPA (hint: don't use node). I'll unlock the doors to the hidden free caching layer on the internet. I'll prove why serverless & SPAs complement each other so perfectly and I'll show you how easy it is to build the rest of your application using a serverless stack."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -45,7 +45,7 @@ $(document).ready(function(){
           description: "Serverless, the buzzword that we’re hearing probably every day. What’s that exactly? Serverless is the way microservices should be. It will save you money, time, and you will be able to easily build, test and deploy your applications. Serverless is here to stay, let’s learn how to use it!"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -73,7 +73,7 @@ $(document).ready(function(){
           description: "",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -101,7 +101,7 @@ $(document).ready(function(){
           description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -127,6 +127,58 @@ $(document).ready(function(){
       ]
     },
     {
+      image: "images/reporters/gerard.jpg",
+      name: "Gerard Sans",
+      position: "Google Developer Expert" ,
+      company: "Freelance",
+      rept: [
+        {
+          title: "Advanced State Management using ngrx v6",
+          description: "State Management is key to build modern Web Apps",
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/gerardsans',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://github.com/gsans',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/4508433/gerard-sans',
+          fatype: 'stack-overflow'
+        },
+        {
+          link: 'https://medium.com/@gerard.sans',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/natalia_tepluhina.jpg",
+      name: "Natalia Tepluhina",
+      position: "Frontend Developer" ,
+      company: "Scalac (Gdansk, Poland)",
+      rept: [
+        {
+          title: "Workshop: Simple pet fetching web app using VueJS",
+          description: "Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women'. ",
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/N_Tepluhina',
+          fatype: 'twitter'
+        }
+      ]
+    },
+    {
       image: "images/reporters/henning_muszynski.png",
       name: "Henning Muszynski",
       position: "Software Engineer" ,
@@ -137,7 +189,7 @@ $(document).ready(function(){
           description: "Teams today are facing similar problems: How do we encourage the reuse of existing components? How do we raise awareness for them? How do we keep them stable while keeping maintenance efforts low? How do we ensure a coherent branding without exploiting our designers? If you are worried by these questions fear no longer. I aim to show you a way out of this self-made jungle into a brighter world of coded style guides. We will explore together how we can tear down walls between design and development and how everyone can benefit from introducing living component directories into their project."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -165,7 +217,7 @@ $(document).ready(function(){
           description: "Did you know you can use your knowledge of HTML, CSS and JavaScript to build truly native apps for iOS and Android with NativeScript? I’ll explain what NativeScript is, how it compares to other frameworks and demo how easy and fun it is to get started and how to make use of native capabilities. Do you want to build your own personal assistant like Siri? I'll show you how!"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -194,7 +246,7 @@ $(document).ready(function(){
           description: "Since the dawn of (internet) time, web developers have been at the mercy of browsers when it comes to features. But what if the black magic they use to create new HTML and CSS properties were given to you? Thats exactly what the Houdini working group is working to provide web developers today! In a futuristic, code heavy session I will show how in the not too distant future, you will be able to create your own custom browser features using low lever APIs never before available to developers.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -234,7 +286,7 @@ $(document).ready(function(){
           description: "Why do I do this? I kept asking myself this question while working on the next project and building microservices-based architecture with CQRS and Event Sourcing. What does this system do and why is it so complicated? I'll tell you about mistakes, which I’ve made, issues, which I've faced with, and solutions, which shouldn’t be applied. I’ll share my own experience and tell about those things, I wish I’d known before I started working on the project."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -274,7 +326,7 @@ $(document).ready(function(){
           description: "As WebAssmebly is increasing its popularity and more, and more languages start to support WebAssmebly as the build target, development team start asking question when do we need to use WebAssmebly and where it is better to rely on javascript.As open source contributor to WebKit JavaScript Engine, I would like overview differences between WebAssmebly and JavaScript, that engineers should to known when choose between WebAssembly and JavaScript, and overview in which cases is WebAssembly is faster and vice verse"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -298,7 +350,7 @@ $(document).ready(function(){
           description: "Let's discuss how Observability enables you to write software that can be managed by software."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -318,7 +370,7 @@ $(document).ready(function(){
           description: "Статична типізація і досі лишається широкою темою для дискусій та полем для баталій. Світ JS розробки розділився на її прибічників та противників. Слід пам'ятати, що написанням типізованого коду керують інші принципи і підходи, ніж того вимагає vanilla JS. Інша філософія, якщо хочете. Дизайн типізованого JS часто суттєво різниться від нетипізованого, що і стає поширеною проблемою в освоєнні статичної типізації та її ефективного використання. Крок за кроком, черпаючи натхнення із мов програмування зі строгою типізацією, давайте розберемося, яким має бути типізований код на JS. Щоб його написання принесло користь, а не біль та розчарування. (За основу буде взято типізацію Flow, проте більшість з наведених принципів будуть актуальними також і для TypeScript)"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -346,7 +398,7 @@ $(document).ready(function(){
           description: "Stop talking about WebAssembly specification, let's solve a problems using it! How to WebAssembly work and how we can use it to enhance Machine Learning in browser experience."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -366,7 +418,7 @@ $(document).ready(function(){
           description: "",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -390,7 +442,7 @@ $(document).ready(function(){
           description: "(TBD) What will you do if biggest media will ask you about new website? Seems like trivial, right? Ugh, why WordPress is not a right fit here? We'll tell you a story with problems and solutions that we raised during all phases from project first steps.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -422,11 +474,11 @@ $(document).ready(function(){
       company: "Ralabs",
       rept: [
         {
-          title: "(TBD) Building media resource.",
+          title: "(TBD) Building media resource",
           description: "",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -458,7 +510,7 @@ $(document).ready(function(){
     //       description: "Универсальные приложения с nuxtjs, или когда нужно просто и быстро",
     //     }
     //   ],
-    //   aboutSpeaker: 'Speaker info',
+    //   aboutSpeaker: '',
     //   socialsRendered: '',
     //   socials: [
     //     {
@@ -482,7 +534,7 @@ $(document).ready(function(){
           description: "5 years ago shaders became the technology behind all amazing VFX we see in computer games. Now they are ready to rock the Web. In this talk we ll dive into shaders history and theory then move to a real world usage for Web UI development with a little workshop writing your first ever pixel shader.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -514,7 +566,7 @@ $(document).ready(function(){
           description: "One pet project. One idea. One specification. That's what lead me to create app using only native web components and no framework or library. I want to share you my practical knowledge how it is even possible to create such app in such circumstances and why it is important to even do this.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -535,7 +587,7 @@ $(document).ready(function(){
 
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -556,7 +608,7 @@ $(document).ready(function(){
         }
       ],
 
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -596,7 +648,7 @@ $(document).ready(function(){
           description: "Maintainable component structure is a crucial prerequisite for a stable React application. You can achieve this by writing your code in a functional way using the higher-order components (HoCs). I want to show you how to define smart HoCs and use them to enhance your presentational components. You'll also learn how to compose several HoCs to get more complex logic. Sticking to this pattern, you'll end up with reusable components that are readable and easy to test since each component is responsible only for a single task.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -628,7 +680,7 @@ $(document).ready(function(){
           description: "How to Computer Vision inside a browser"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -652,7 +704,7 @@ $(document).ready(function(){
           description: "Recently, there is a lot of hype around GraphQL and you are probably wondering if it is a good fit for your project. In my talk, I want to demystify GraphQL by explaining what problems does it solve and how it works internally. I will show how to write requests and send them to the server and how they are executed under the hood. I will also talk about problems of GraphQL and how ready it is for production"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -688,7 +740,7 @@ $(document).ready(function(){
           description: "CSS Houdini — набор спецификаций, которые изменят веб-разработку в ближайшие годы. С их приходом простому верстальщику придется выучить JavaScript, но зато вместо ожидания появления реализации условных \"супер-мега-гридов\" в браузерах можно будет подключить полифил для CSS. И начать это делать можно уже сейчас! Или нет?"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -709,14 +761,14 @@ $(document).ready(function(){
       image: "images/reporters/valentyn_barmashyn.png",
       name: "Valentyn Barmashyn",
       position: "Full Stack Software Engineer, Team Lead" ,
-      company: "ETeam",
+      company: "eTeam",
       rept: [
         {
           title: "Rx in React, Rx in Angular and why we all should be friends",
-          description: "В 2017-18 годах React и Angular стэки становятся похожи как никогда раньше и концептуальные границы между ними стираются, оставляя только разницу в имплементации. Поговорим про современную работу с данными и событиями, роль потоков и конкретно Rx, функциональное программирование и многое другое с практической и философской точки зрения, с кодом, чтобы ни у кого не осталось сомнений что все мы делаем одно и то же, а конкретный стэк имеет всё меньшее значение. "
+          description: "React and Angular stacks became so similar In 2017-18 as they've never been before. Conceptual distinctions between them are blurring out. There only remained difference in their implementation. Let's talk about the modern work with data and events, role of flows (particularly Rx), functional programming and many more from  two points of view: practical and philosophical. We'll also dwell on the work with a code. Thus no-one will have any doubts about the fact that all of us are doing quite the same while a particular stack matters less and less."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -734,7 +786,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/alexander_shushunov.png",
+      image: "images/reporters/alexander_shushunov.jpg",
       name: "Alexander Shushunov",
       position: "Senior Developer" ,
       company: "EPAM",
@@ -744,7 +796,7 @@ $(document).ready(function(){
           description: "Do you hate lifecycle? componentWillReceiveProps make you bored? Let's make make React pure again! I will show, how lifecycle brings complexity (and errors) to your code. And how we can avoid it. Or make it more safety."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -768,11 +820,11 @@ $(document).ready(function(){
       company: "Namecheap",
       rept: [
         {
-          title: "Что 30 летний программист должен сказать себе 20 летнему aka А что делать, когда ты перестал писать код",
+          title: "What happens when you don't write the code. What advises would I like to take 10 years ago",
           description: "Это доклад о том как меняется восприятие индустрии с возрастном и приходящим опытом"
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -796,7 +848,7 @@ $(document).ready(function(){
           description: "During the talk I will describe how to solve task of copy/paste detection with javascript. I will start with task, areas of apply of the task, tools and algorithms for solving copy.paste detection task."
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -814,7 +866,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/dovhan_denys.png",
+      image: "images/reporters/dovhan_denys.jpg",
       name: "Denys Dovhan",
       position: "Software Consultant" ,
       company: "Bizico",
@@ -824,7 +876,7 @@ $(document).ready(function(){
           description: "Most of developers are passionated in Open Source, some of them have their own OS projects, some of them have commercial projects hosted on GitHub. Automating projects workflow can simplify daily work and make typical tasks automated.",
         }
       ],
-      aboutSpeaker: 'Speaker info',
+      aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
@@ -853,6 +905,49 @@ $(document).ready(function(){
         },
         {
           link: 'https://denysdovhan.com/',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/valerii_sorokobatko.jpg",
+      name: "Valerii Sorokobatko",
+      position: "Software Architect" ,
+      company: "Plarium",
+      rept: [
+        {
+          title: "Parsing Strings using (in)Finite-State-Machine and Prepack",
+          description: "I became interested in parsers when I started to use CSS in JS libraries. I am in love with performance and if something works slow - I always try to find the ways to improve it. One of the  CSS in JS problem - parsing CSS strings in runtime.\n" +
+          "\n" +
+          "Especially if solution should support syntax validation, interpolation for dynamic CSS rules and be super fast and small.\n" +
+          "\n" +
+          "Of course we can use postCSS or similar lib to parse CSS to AST, validate it, process it and build final CSS but this approach is not the best for runtime environment (browser).\n" +
+          "\n" +
+          "Last year I spent a lot of time for research an development the way to build parser for such cases (and not only for CSS). At OdessaJS I would like to speak about:\n" +
+          "\n" +
+          "- Basic Parser theory\n" +
+          "- How to build parser using Finite-state machine\n" +
+          "- How to develop parser with super readable code (even juniors could easily contribute it and add new syntax rules without additional knowledges)\n" +
+          "- My fist successful experience using Prepack by Facebook - pre-evaluate parser and compress it to 800 bytes.",
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/tuchk4',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/tuchk4',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/tuchk4',
+          fatype: 'github'
+        },
+        {
+          link: 'https://medium.com/@tuchk4',
           fatype: 'link'
         },
       ]
@@ -951,14 +1046,8 @@ $(document).ready(function(){
       $modalSpeakerPosition = $modalBody.find('.speaker__position'),
       $modalSpeakerCompany = $modalBody.find('.speaker__company'),
       $modalSpeakerLinks = $modalBody.find('.speaker__link-list'),
-      // report
-
-      // $modalSpeakerTitle = $modalBody.find('.modal-body__title'),
-      // $modalSpeakerText = $modalBody.find('.modal-body__text'),
       $modalreportsContainer = $modalBody.find('.modal-body__reports'),
-
-      // report
-      $modalSpeakerAboutText = $modalBody.find('.modal-body__text.speaker-text');
+      $modalSpeakerAboutText = $modalBody.find('.speaker-text').toggle(false);
 
     var speakerIndex = parseInt($speakerInfoBlock.attr('data-item-index'));
 
@@ -992,14 +1081,8 @@ $(document).ready(function(){
         speakerName = speakerData.name,
         speakerPosition = speakerData.position,
         speakerCompany = speakerData.company,
-        // report
-
-        // speakerTitle = speakerData.rept,
-        // speakerText = speakerData.reptDescription,
         reports = speakerData.rept,
         reportsContent = '',
-
-        // report
         speakerAboutText = speakerData.aboutSpeaker;
 
       reports.forEach(function (item, i, arr) {
@@ -1010,14 +1093,10 @@ $(document).ready(function(){
       speakerName && $modalNameElement.text(speakerName);
       speakerPosition && $modalSpeakerPosition.text(speakerPosition);
       speakerCompany && $modalSpeakerCompany.text(speakerCompany);
-      //report
 
-      // speakerTitle && $modalSpeakerTitle.text(speakerTitle);
-      // speakerText && $modalSpeakerText.text(speakerText);
       reportsContent && $modalreportsContainer.html(reportsContent);
 
-      //report
-      speakerAboutText && $modalSpeakerAboutText.text(speakerAboutText);
+      speakerAboutText && $modalSpeakerAboutText.find('.modal-body__text').text(speakerAboutText).end().toggle(true);
       $modalSpeakerLinks.html($speakerInfoBlock.find('.speakers-slide__info-links').html());
 
 
