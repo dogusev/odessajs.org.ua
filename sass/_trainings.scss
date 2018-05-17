@@ -78,8 +78,6 @@ section#trainings {
             @include flex-wrap(wrap);
           }
 
-
-
           .bg-img {
             display: none;
             position: absolute;
@@ -111,6 +109,10 @@ section#trainings {
             }
 
             .speaker-info {
+              font-family: 'Roboto', sans-serif;
+              font-size: 15px;
+              line-height: 1;
+              margin-bottom: 10px;
 
               @media (min-width: 300px) and (max-width: 551px) {
                 text-align: center;
@@ -123,18 +125,12 @@ section#trainings {
                 text-transform: uppercase;
               }
 
-              .speaker__position {
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
-                line-height: 1;
-                margin-bottom: 10px;
+              .training-info span {
+                font-weight: bold;
               }
 
-              .speaker__company {
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
-                line-height: 1;
-                margin-bottom: 15px;
+              p, div {
+                margin-bottom: 10px;
               }
             }
 
@@ -203,6 +199,12 @@ section#trainings {
           }
         }
 
+        h4.modal-body__title {
+          color: $black;
+          font-weight: bold;
+          font-size: 20px;
+        }
+
         .modal-footer {
           border: none;
           @include flexbox;
@@ -260,7 +262,7 @@ section#trainings {
         border-radius: 9px;
 
         .trainings-slide__img-wrapper img {
-          filter: blur(4px);
+          //filter: blur(4px);
         }
       }
 
