@@ -166,7 +166,7 @@ $(document).ready(function(){
       rept: [
         {
           title: "Workshop: Simple pet fetching web app using VueJS",
-          description: "Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women'. ",
+          description: "Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women'",
         }
       ],
       aboutSpeaker: '',
