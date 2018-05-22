@@ -14,7 +14,7 @@ $(document).ready(function(){
       'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
       'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
       ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
-      title: "Get Started with Reason & ReasonReact",
+      title: "Get Started with Reason & ReasonReact [En]",
       description:
       "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
       "the creator of React.</p>" +
@@ -49,13 +49,13 @@ $(document).ready(function(){
       duration: '6-7 h',
       price: '',
       aboutSpeaker:
-      'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
-      'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
-      'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
-      '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
-      'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
-      '(GDE) in Angular.',
-      title: "Angular 101",
+        'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
+        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
+        'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
+        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
+        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
+        '(GDE) in Angular.',
+      title: "Angular 101 [En]",
       description:
       "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
       "applications. The framework gives clear structures and supports u. a. Modularization" +
@@ -106,12 +106,12 @@ $(document).ready(function(){
       duration: '5-6 h',
       price: '',
       aboutSpeaker:
-      'Ivan Jovanovic is the senior software engineer, team lead, speaker and mentor. His' +
-      'focus is on building scalable JS applications and experimenting with new languages and' +
-      'frameworks. He is into functional and reactive programming. Leading teams and' +
-      'mentoring junior developers is his everyday duty. He loves to share knowledge and to' +
-      'keep his tech blog. In his free time Ivan reads a lot and plays basketball.',
-      title: "Testing JavaScript applications 101",
+        'Ivan Jovanovic is the senior software engineer, team lead, speaker and mentor. His' +
+        'focus is on building scalable JS applications and experimenting with new languages and' +
+        'frameworks. He is into functional and reactive programming. Leading teams and' +
+        'mentoring junior developers is his everyday duty. He loves to share knowledge and to' +
+        'keep his tech blog. In his free time Ivan reads a lot and plays basketball.',
+      title: "Testing JavaScript applications 101 [En]",
       description:
       "<p>Testing JavaScript applications 101 workshop will show you how to use modern testing" +
       "tools to test JS full-stack applications. It will cover frontend and backend side (React" +
@@ -176,7 +176,7 @@ $(document).ready(function(){
         'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
         ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
         'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance!",
+      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
       description:
         "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
         " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
@@ -228,15 +228,15 @@ $(document).ready(function(){
       duration: '3 h',
       price: '',
       aboutSpeaker:
-      "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
-      "Founder of Metadevelopment.io. He is originally from Belarus, lived in Odessa, Ukraine" +
-      "and now resides in Berlin, Germany. Alexey has 8 years of professional experience" +
-      "building user-facing web apps and services for companies like Coca-Cola, Wolters" +
-      "Kluwer, HP, and Microsoft. He worked in startups, outsource and product companies," +
-      "cofounded 3 startups of his own and mentored personally more than 30 professional" +
-      "developers. In his spare time, Alexey is building a mentoring network for professional" +
-      "software developers (mtdv.io) to help people build lifestyle and career of their dreams.",
-      title: "Growing your career as software engineer",
+        "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
+        "Founder of Metadevelopment.io. He is originally from Belarus, lived in Odessa, Ukraine" +
+        "and now resides in Berlin, Germany. Alexey has 8 years of professional experience" +
+        "building user-facing web apps and services for companies like Coca-Cola, Wolters" +
+        "Kluwer, HP, and Microsoft. He worked in startups, outsource and product companies," +
+        "cofounded 3 startups of his own and mentored personally more than 30 professional" +
+        "developers. In his spare time, Alexey is building a mentoring network for professional" +
+        "software developers (mtdv.io) to help people build lifestyle and career of their dreams.",
+      title: "Growing your career as software engineer [Ru]",
       description:
       "<p>Get an essential set of skills to control your career!<br>" +
       "After the intense training, you will get basic skills to:</p>" +
@@ -323,7 +323,7 @@ $(document).ready(function(){
       duration: '',
       price: '',
       aboutSpeaker: '',
-      title: "Workshop: Simple pet fetching web app using VueJS",
+      title: "Workshop: Simple pet fetching web app using VueJS [Ru]",
       description:
       "<p>Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women</p>",
       topics:[],
@@ -352,7 +352,7 @@ $(document).ready(function(){
         'Gerard is very excited about the future of the Web and JavaScript. Always happy Computer Science ' +
         'Engineer and humble Google Developer Expert. He loves to share his learnings by giving talks, trainings and writing about cool technologies.' +
         ' He loves running AngularZone and GraphQL London, mentoring students and giving back to the community.',
-      title: "Fullstack GraphQL using React with Gerard Sans",
+      title: "Fullstack GraphQL using React with Gerard Sans [En]",
       description:
         "<p>In this full day training we will cover everything you need to successfully adopt GraphQL" +
         "across your full-stack from client to backend including tooling and best practices" +
@@ -416,15 +416,15 @@ $(document).ready(function(){
       duration: '3 h',
       price: '',
       aboutSpeaker:
-      "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
-      "Founder of Metadevelopment.io. He is originally from Belarus, lived in Odessa, Ukraine" +
-      "and now resides in Berlin, Germany. Alexey has 8 years of professional experience" +
-      "building user-facing web apps and services for companies like Coca-Cola, Wolters" +
-      "Kluwer, HP, and Microsoft. He worked in startups, outsource and product companies," +
-      "cofounded 3 startups of his own and mentored personally more than 30 professional" +
-      "developers. In his spare time, Alexey is building a mentoring network for professional" +
-      "software developers (mtdv.io) to help people build lifestyle and career of their dreams.",
-      title: "Growing your career as software engineer",
+        "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
+        "Founder of Metadevelopment.io. He is originally from Belarus, lived in Odessa, Ukraine" +
+        "and now resides in Berlin, Germany. Alexey has 8 years of professional experience" +
+        "building user-facing web apps and services for companies like Coca-Cola, Wolters" +
+        "Kluwer, HP, and Microsoft. He worked in startups, outsource and product companies," +
+        "cofounded 3 startups of his own and mentored personally more than 30 professional" +
+        "developers. In his spare time, Alexey is building a mentoring network for professional" +
+        "software developers (mtdv.io) to help people build lifestyle and career of their dreams.",
+      title: "Growing your career as software engineer [Ru]",
       description:
       "<p>Get an essential set of skills to control your career!<br>" +
       "After the intense training, you will get basic skills to:</p>" +
@@ -511,12 +511,12 @@ $(document).ready(function(){
       duration: '2-3 h',
       price: '',
       aboutSpeaker:
-      'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-      ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-      'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-      ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-      'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance!",
+        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
       description:
       "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
       " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
@@ -568,7 +568,7 @@ $(document).ready(function(){
       duration: '',
       price: '',
       aboutSpeaker: '',
-      title: "Workshop: Simple pet fetching web app using VueJS",
+      title: "Workshop: Simple pet fetching web app using VueJS [Ru]",
       description:
         "<p>Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women</p>",
       topics:[],
@@ -598,7 +598,7 @@ $(document).ready(function(){
         ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
         'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
         'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
-      title: "Build blockchain using CRDT and Merkle Trees",
+      title: "Build blockchain using CRDT and Merkle Trees [Ru]",
       description: "",
       topics:[
         '<ul>\n' +
@@ -637,19 +637,19 @@ $(document).ready(function(){
       duration: '6-7 h',
       price: '',
       aboutSpeaker:
-      "Nik is a software developer passionate about good UX, functional programming and dev" +
-      "tools. Previously he worked for Serverless Inc., the company behind Serverless" +
-      "Framework. He’s co-created several popular open source projects like DraftJS Plugins &amp;" +
-      "Polished. In his spare time Nik enjoys cycling &amp; skiing.",
-      title: "Build Serverless Node.js Applications on AWS",
+        "Nik is a software developer passionate about good UX, functional programming and dev" +
+        "tools. Previously he worked for Serverless Inc., the company behind Serverless" +
+        "Framework. He’s co-created several popular open source projects like DraftJS Plugins &amp;" +
+        "Polished. In his spare time Nik enjoys cycling &amp; skiing.",
+      title: "Build Serverless Node.js Applications on AWS [En]",
       description:
-      "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
-      "pricing. This allows developers to reduce significantly operational cost and complexity" +
-      "by outsourcing infrastructure management to cloud providers and third-party services." +
-      "Teams can focus on customers and improve their applications instead of managing" +
-      "servers. During this workshop you will learn how to build and deploy scaleable," +
-      "production ready and low maintenance applications using Node.js. We are going to" +
-      "explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
+        "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
+        "pricing. This allows developers to reduce significantly operational cost and complexity" +
+        "by outsourcing infrastructure management to cloud providers and third-party services." +
+        "Teams can focus on customers and improve their applications instead of managing" +
+        "servers. During this workshop you will learn how to build and deploy scaleable," +
+        "production ready and low maintenance applications using Node.js. We are going to" +
+        "explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
       topics:[
         '<ul>' +
         '<li>what is AWS Lambda</li>' +
@@ -690,7 +690,7 @@ $(document).ready(function(){
       duration: '',
       price: '',
       aboutSpeaker: "",
-      title: "Build your own browser extension",
+      title: "Build your own browser extension [En]",
       description: "",
       topics:[],
       purpose: '',

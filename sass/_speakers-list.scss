@@ -199,6 +199,10 @@
             margin-bottom: 15px;
             text-transform: uppercase;
             color: #e32d42;
+
+            span {
+              text-transform: none;
+            }
           }
 
           &__text {
