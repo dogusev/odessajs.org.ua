@@ -69,8 +69,10 @@ $(document).ready(function(){
       company: "LOVATA",
       rept: [
         {
-          title: "Get prepared with your performance. Speaker's guidelines to an organizer [Ru]",
-          description: "",
+          title: "Development standards: a step-by-step guide to implement it without pain [Ru]",
+          description:
+            "<p>There is always a room for discussion about what to use: tabs or spaces, quotes or double quotes, and so on. There are so many personal preferences in writing code that most likely you'll end up discussing not the logic or implementation itself, but how to use braces, spaces, and semicolons. But do we really need to talk about such things every time we start the project, do code reviews or a new developer joins the team? How to make your code base consistent and clear no matter how big your team or the project are? The whole bunch of tools is here to rescue you!</p>" +
+            "<p>I'm going to talk about all those tools and how to implement them into your code base to help you to improve the development process and code quality.</p>",
         }
       ],
       aboutSpeaker: '',
@@ -162,10 +164,10 @@ $(document).ready(function(){
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
-      company: "Scalac (Gdansk, Poland)",
+      company: "Scalac",
       rept: [
         {
-          title: "Workshop: Simple pet fetching web app using VueJS [En]",
+          title: "Workshop: Simple pet fetching web app using VueJS [Ru]",
           description: "Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women'",
         }
       ],
@@ -318,7 +320,185 @@ $(document).ready(function(){
         },
       ]
     },
+
     {
+      image: "images/reporters/katarzyna_jastrzebsk.jpg",
+      name: "Katarzyna Jastrzębska-Łachacz",
+      position: "Frontend Developer" ,
+      company: "Twill",
+      rept: [
+        {
+          title: "Reuse your code in React like it's 2018 [En]",
+          description: ""
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/kajas90',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/kejt_bw',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://stackoverflow.com/users/7364681/kejt',
+          fatype: 'stack-overflow'
+        },
+        {
+          link: 'https://medium.com/@katarzyna.jastrzebska90',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/nik_graf.jpg",
+      name: "Nik Graf",
+      position: "" ,
+      company: "",
+      rept: [
+        {
+          title: "Workshop: Get Started with Reason & ReasonReact [En]",
+          description:
+            "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
+            "the creator of React.</p>" +
+            "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about powerful " +
+            "concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
+        },
+        {
+          title: "Build Serverless Node.js Applications on AWS [En]",
+          description:
+            "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
+            "pricing. This allows developers to reduce significantly operational cost and complexity" +
+            "by outsourcing infrastructure management to cloud providers and third-party services." +
+            "Teams can focus on customers and improve their applications instead of managing" +
+            "servers. During this workshop you will learn how to build and deploy scaleable," +
+            "production ready and low maintenance applications using Node.js. We are going to" +
+            "explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
+        }
+      ],
+      aboutSpeaker:
+        'Nik is a software developer and passionate about good UX, functional programming and dev tools. ' +
+        'He previously worked for Serverless Inc., the company behind Serverless Framework.' +
+        ' He co-created several popular open source projects like DraftJS Plugins & Polished. In his spare-time he enjoys cycling & skiing.',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/nikgraf',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/nikgraf',
+          fatype: 'github'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/david_mullerchen.jpg",
+      name: "David Müllerchen",
+      position: "" ,
+      company: "",
+      rept: [
+        {
+          title: "Workshop: Angular 101 [En]",
+          description:
+            "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
+            "applications. The framework gives clear structures and supports u. a. Modularization" +
+            "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
+            "complex enterprise applications. Since the release of version 2, the framework is no" +
+            "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
+            "principles of Angular.</p>",
+          }
+      ],
+      aboutSpeaker:
+        'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
+        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
+        'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
+        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
+        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
+        '(GDE) in Angular.',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/web-dave',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/webdave_de',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://webdave.de/',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/alex_renandez.jpeg",
+      name: "Alex Fernandez",
+      position: "" ,
+      company: "",
+      rept: [
+        {
+          title: "Workshop: Building Efficient Software: Let's Improve Our Performance! [En]",
+          description:
+            "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+            " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+            "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+            " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+            " Most of the techniques can be used in other environments too!</p>",
+          }
+      ],
+      aboutSpeaker:
+        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/alexfernandez/',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/pinchito',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://pinchito.es/',
+          fatype: 'link'
+        },
+      ]
+    },
+
+    {
+      image: "images/reporters/oskackov.png",
+      name: "Oleksandr Skachkov",
+      position: "Lead FrontEnd Developer" ,
+      company: "Itera",
+      rept: [
+        {
+          title: "WebAssembly vs JavaScript: What is faster? [Ru]",
+          description: "As WebAssmebly is increasing its popularity and more, and more languages start to support WebAssmebly as the build target, development team start asking question when do we need to use WebAssmebly and where it is better to rely on javascript.As open source contributor to WebKit JavaScript Engine, I would like overview differences between WebAssmebly and JavaScript, that engineers should to known when choose between WebAssembly and JavaScript, and overview in which cases is WebAssembly is faster and vice verse"
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/alSkachkov\n',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/alexskachkov/',
+          fatype: 'linkedin-square'
+        }
+      ]
+    },
+     {
       image: "images/reporters/roman_sachenko.jpg",
       name: "Roman Sachenko",
       position: "Software Engineer" ,
@@ -359,37 +539,13 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/oskackov.png",
-      name: "Oleksandr Skachkov",
-      position: "Lead FrontEnd Developer" ,
-      company: "Itera",
-      rept: [
-        {
-          title: "WebAssembly vs JavaScript: What is faster? [Ru]",
-          description: "As WebAssmebly is increasing its popularity and more, and more languages start to support WebAssmebly as the build target, development team start asking question when do we need to use WebAssmebly and where it is better to rely on javascript.As open source contributor to WebKit JavaScript Engine, I would like overview differences between WebAssmebly and JavaScript, that engineers should to known when choose between WebAssembly and JavaScript, and overview in which cases is WebAssembly is faster and vice verse"
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://twitter.com/alSkachkov\n',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/alexskachkov/',
-          fatype: 'linkedin-square'
-        }
-      ]
-    },
-    {
       image: "https://scontent.fdnk1-1.fna.fbcdn.net/v/t1.0-9/27867981_1761648527232195_4674196445569727871_n.jpg?_nc_cat=0&oh=c46e67848f25c4467264711ee09a1dae&oe=5B4167D6",
       name: "Oleg Chorny",
       position: "Site Reliability Engineering Manager" ,
       company: "Ciklum",
       rept: [
         {
-          title: "Observability of Cloud Native Applications [Ru]",
+          title: "Cloud Native Observability [Ru]",
           description: "Let's discuss how Observability enables you to write software that can be managed by software."
         }
       ],
@@ -400,6 +556,57 @@ $(document).ready(function(){
           link: 'https://www.linkedin.com/in/oleg-chorny-57124352',
           fatype: 'linkedin-square'
         }
+      ]
+    },
+    {
+      image: "images/reporters/migutsky.jpg",
+      name: "Alexey Migutsky",
+      position: "Senior Software Development Engineer" ,
+      company: "Microsoft Berlin and Founder of Metadevelopment.io",
+      rept: [
+        {
+          title: "Workshop: Growing your career as software engineer [Ru]",
+          description:
+            "<p>Get an essential set of skills to control your career!<br>" +
+            "After the intense training, you will get basic skills to:</p>" +
+            "<ul>" +
+            "  <li>Position yourself better on the market</li>" +
+            "  <li>Get more money for what you are already doing</li>" +
+            "  <li>Get \"unstuck\" in your career situation</li>" +
+            "  <li>Find better, more interesting projects, which fit you best</li>" +
+            "  <li>Find and prioritize opportunities for your personal and professional development</li>" +
+            "  <li>Build a professional network and career capital</li>" +
+            "  <li>Efficiently grow your career without sacrificing other life aspects</li>" +
+            "</ul>",
+        }
+      ],
+      aboutSpeaker:
+        "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
+        "Founder of Metadevelopment.io. He is originally from Belarus, lived in Odessa, Ukraine" +
+        "and now resides in Berlin, Germany. Alexey has 8 years of professional experience" +
+        "building user-facing web apps and services for companies like Coca-Cola, Wolters" +
+        "Kluwer, HP, and Microsoft. He worked in startups, outsource and product companies," +
+        "cofounded 3 startups of his own and mentored personally more than 30 professional" +
+        "developers. In his spare time, Alexey is building a mentoring network for professional" +
+        "software developers (mtdv.io) to help people build lifestyle and career of their dreams.",
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://facebook.com/alex.migutsky',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://github.com/mr-mig',
+          fatype: 'github'
+        },
+        {
+          link: 'https://twitter.com/mr_mig_by',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://mtdv.io',
+          fatype: 'link'
+        },
       ]
     },
     {
@@ -493,6 +700,35 @@ $(document).ready(function(){
         }
       ]
     },
+    {
+      image: "images/reporters/max_klymyshyn.jpg",
+      name: "Max Klymyshyn",
+      position: "" ,
+      company: "",
+      rept: [
+        {
+          title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
+          description: "",
+        }
+      ],
+      aboutSpeaker:
+        'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
+        ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
+        'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
+        'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.linkedin.com/in/klymyshyn',
+          fatype: 'linkedin'
+        },
+        {
+          link: 'https://twitter.com/maxmaxmaxmax',
+          fatype: 'twitter'
+        },
+      ]
+    },
+
     {
       image: "images/reporters/roman_rodomansky.png",
       name: "Roman Rodomansky",
@@ -669,8 +905,13 @@ $(document).ready(function(){
       company: "Product Hunt",
       rept: [
         {
-          title: "React Patterns at Product Hunt [Ru]",
-          description: "Couple React patterns I have noticed Product Hunt uses.",
+          title: "React Patterns at Product Hunt [En]",
+          description: "Most of the work developer does is refactoring and restructuring existing code. While working with React at Product Hunt, I noticed common patterns our team use to deal with changing project requirements.\n" +
+          "\n" +
+          "If you have problems dealing with external dependences, reusability and rapidly project iterations - this is the talk for you.\n" +
+          "\n" +
+          "Often we start with one top-level redux-connected component and then splitting into several smaller HOCs.\n" +
+          "One other pattern we use at Product Hunt is to wrap external component to reduce their surface area in the application. This also helps with dealing with dependencies updates\n",
         }
       ],
 
@@ -710,7 +951,7 @@ $(document).ready(function(){
       company: "Blueberry",
       rept: [
         {
-          title: "Unleash the power of the higher-order components [Ru]",
+          title: "Unleash the power of the higher-order components [En]",
           description: "Maintainable component structure is a crucial prerequisite for a stable React application. You can achieve this by writing your code in a functional way using the higher-order components (HoCs). I want to show you how to define smart HoCs and use them to enhance your presentational components. You'll also learn how to compose several HoCs to get more complex logic. Sticking to this pattern, you'll end up with reusable components that are readable and easy to test since each component is responsible only for a single task.",
         }
       ],
@@ -742,8 +983,11 @@ $(document).ready(function(){
       company: "Pentatonica",
       rept: [
         {
-          title: "<span>WebGL</span> powered Computer Vision [Ru]",
-          description: "How to Computer Vision inside a browser"
+          title: "Real-world application of computer vision and machine learning in modern web applications. [Ru]",
+          description: "An Introduction to Computer Vision and Augmented Reality in modern web browsers and how to accelerate it with WebGL. " +
+          "We will build on this foundation and discuss how to improve results utilizing machine learning models, measure their performance and" +
+          " use these metrics to improve the accuracy of the solution. Finally we will explore how to apply these techniques to a practical" +
+          " business problem."
         }
       ],
       aboutSpeaker: '',
@@ -949,7 +1193,7 @@ $(document).ready(function(){
       company: "Bizico",
       rept: [
         {
-          title: "Automating GitHub workflow with probot [Ru]",
+          title: "Automating GitHub workflow with probot [Ua]",
           description: "Most of developers are passionated in Open Source, some of them have their own OS projects, some of them have commercial projects hosted on GitHub. Automating projects workflow can simplify daily work and make typical tasks automated.",
         }
       ],
@@ -1028,6 +1272,43 @@ $(document).ready(function(){
         {
           link: 'https://medium.com/@tuchk4',
           fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/turskyi.jpg",
+      name: "Viktor Turskyi",
+      position: "CEO and founder" ,
+      company: "WebbyLab",
+      rept: [
+        {
+          title: "How to create a VR application with React. [En]",
+          description:
+            "<p>I will talk about virtual reality (VR). " +
+            "At what state the technology now, why and how to use it.	" +
+            "JavaScript is very popular today it is possible todo almost any time of application with it. " +
+            "And it seems that even VR applications can be build easily with JavaScript and React today. " +
+            "The technology is very yang but it will be great to every JS dev to know about new possibilities.</p>\n" ,
+        }
+      ],
+      aboutSpeaker: 'More than 30 talks at different conferences and meetups. More than 14 years in software development of complex and large projects. ',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/koorchik',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/koorchik',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/koorchik',
+          fatype: 'github'
+        },
+        {
+          link: 'https://www.linkedin.com/in/turskyi',
+          fatype: 'linkedin-square'
         },
       ]
     },
@@ -1165,7 +1446,7 @@ $(document).ready(function(){
         speakerAboutText = speakerData.aboutSpeaker;
 
       reports.forEach(function (item, i, arr) {
-        reportsContent += '<h2 class="modal-body__title">'+ item.title +'</h2>' + '<p class="modal-body__text">'+ item.description +'</p>';
+        reportsContent += '<h2 class="modal-body__title">'+ item.title +'</h2>' + '<div class="modal-body__text">'+ item.description +'</div>';
       });
 
       speakerAvatar && $modalSpeakerAvatar.attr('src', speakerAvatar);
