@@ -18,7 +18,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('script-min', function () {
-  return gulp.src(['vendor/renderSpeakers.js','vendor/renderTrainings.js', 'script.js'])
+  return gulp.src(['vendor/renderSpeakers.js','vendor/renderTrainings.js','vendor/renderKeyTopics.js', 'script.js'])
     .pipe(concat('script.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./js'));
