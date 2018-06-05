@@ -22,4 +22,55 @@ section#speakers {
       font-weight: bold;
     }
   }
+
+  #key-topics {
+
+    .modal-content {
+      border-radius: 0;
+      border: 3px solid #e32d42;
+      -webkit-box-shadow: 20px 40px 0px 1px rgba(227,45,66,1);
+      -moz-box-shadow: 20px 40px 0px 1px rgba(227,45,66,1);
+      box-shadow: 20px 40px 0px 1px rgba(227,45,66,1);
+      overflow: hidden;
+
+      .modal-header {
+        padding: 30px 50px;
+        @include justify-content(flex-start);
+        @include align-items(stretch);
+        position: relative;
+        border: none;
+
+        @media (min-width: 300px) and (max-width: 551px) {
+          @include flex-wrap(wrap);
+        }
+
+        .modal-title {
+          font-family: 'Roboto', sans-serif;
+          color: #da1d33;
+          font-size: 24px;
+        }
+
+        .close {
+          top: 30px;
+          right: 30px;
+          cursor: pointer;
+        }
+      }
+
+      .modal-body {
+        padding: 30px 50px;
+        border: none;
+
+        .topics-list {
+
+          &__item {
+            list-style: none;
+            padding: 5px 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -73,6 +73,20 @@ $(document).ready(function(){
           description:
             "<p>There is always a room for discussion about what to use: tabs or spaces, quotes or double quotes, and so on. There are so many personal preferences in writing code that most likely you'll end up discussing not the logic or implementation itself, but how to use braces, spaces, and semicolons. But do we really need to talk about such things every time we start the project, do code reviews or a new developer joins the team? How to make your code base consistent and clear no matter how big your team or the project are? The whole bunch of tools is here to rescue you!</p>" +
             "<p>I'm going to talk about all those tools and how to implement them into your code base to help you to improve the development process and code quality.</p>",
+        },
+        {
+          title: "Get prepared for your performance. Speaker's guidelines from an organizer (tech corner) [Ru]",
+          description:
+            "<p>" +
+              "Talking to a public is not an easy thing to learn, and it takes a lot of courage and time to become experienced " +
+              "with and to feel comfortable on a stage. There is always a fear of failing. Is the topic right? Do your slides help " +
+              "you or draw too much attention? Are they informative? Does your voice sound reasonable and confident? What should you " +
+              "do before the event? When it's better to force yourself to finish preparations? Is it OK to make changes to your slides" +
+              " in 5 minutes before the talk? </p>" +
+            "<p>We a going to discuss all those questions and much more, and me and my colleagues, " +
+              "who also have some experience with speaking and organizing events, will give you some tips on how to start talking or" +
+              " make your talks even more interesting and exciting" +
+            "</p>"
         }
       ],
       aboutSpeaker: '',
@@ -1347,7 +1361,7 @@ $(document).ready(function(){
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
     "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +
     "<span class='speakers-slider__info-company'>${company}</span></p>"+
-    "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br>{{/each}}</p>"+
+    "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>"+
     "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
   $.template( "speakerTemplate", speakerItem );
 
