@@ -449,44 +449,44 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/alex_renandez.jpeg",
-      name: "Alex Fernandez",
-      position: "" ,
-      company: "",
-      rept: [
-        {
-          title: "Workshop: Building Efficient Software: Let's Improve Our Performance! [En]",
-          description:
-            "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
-            " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
-            "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
-            " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
-            " Most of the techniques can be used in other environments too!</p>",
-          }
-      ],
-      aboutSpeaker:
-        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/alexfernandez/',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/pinchito',
-          fatype: 'twitter'
-        },
-        {
-          link: 'http://pinchito.es/',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/alex_renandez.jpeg",
+    //   name: "Alex Fernandez",
+    //   position: "" ,
+    //   company: "",
+    //   rept: [
+    //     {
+    //       title: "Workshop: Building Efficient Software: Let's Improve Our Performance! [En]",
+    //       description:
+    //         "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+    //         " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+    //         "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+    //         " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+    //         " Most of the techniques can be used in other environments too!</p>",
+    //       }
+    //   ],
+    //   aboutSpeaker:
+    //     'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+    //     ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+    //     'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+    //     ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+    //     'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/alexfernandez/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/pinchito',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'http://pinchito.es/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
 
     {
       image: "images/reporters/oskackov.png",
@@ -661,6 +661,36 @@ $(document).ready(function(){
           link: 'https://www.instagram.com/leonidbaida/',
           fatype: 'instagram'
         }
+      ]
+    },
+    { 
+      id: 4,
+      image: "images/reporters/timur_shemsedinov.jpg",
+      name: "Timur Shemsedinov",
+      position: "Software systems architect" ,
+      company: "Metarhia",
+      rept: [
+        {
+          title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
+          description:
+            "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/tshemsedinov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://www.linkedin.com/in/shemsedinov/',
+          fatype: 'linkedin'
+        },
+        {
+          link: 'https://habr.com/users/marcusaurelius/posts/',
+          fatype: 'link'
+        },
       ]
     },
     {
@@ -1024,7 +1054,7 @@ $(document).ready(function(){
       company: "APIs.guru",
       rept: [
         {
-          title: "W.T.F. is <span>GraphQL?</span> [Ru]",
+          title: "W.T.F. is <span>GraphQL?</span> [Ua]",
           description:
           "Recently, there is a lot of hype around GraphQL " +
           "and you are probably wondering if it is a good fit for your project. " +
@@ -1299,7 +1329,7 @@ $(document).ready(function(){
           title: "How to create a VR application with React. [En]",
           description:
             "<p>I will talk about virtual reality (VR). " +
-            "At what state the technology now, why and how to use it.	" +
+            "At what state the technology now, why and how to use it. " +
             "JavaScript is very popular today it is possible todo almost any time of application with it. " +
             "And it seems that even VR applications can be build easily with JavaScript and React today. " +
             "The technology is very yang but it will be great to every JS dev to know about new possibilities.</p>\n" ,
@@ -1322,6 +1352,62 @@ $(document).ready(function(){
         },
         {
           link: 'https://www.linkedin.com/in/turskyi',
+          fatype: 'linkedin-square'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/alex_troush.jpeg",
+      name: "Alex Troush",
+      position: "CTO" ,
+      company: "Edenlab",
+      rept: [
+        {
+          title: "The existential crisis in a blockchain era. [Ru]",
+          description: "" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/troush69',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/Troush',
+          fatype: 'github'
+        },
+        {
+          link: 'https://www.linkedin.com/in/troush/',
+          fatype: 'linkedin-square'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/roman_savitskyi.jpg",
+      name: "Roman Savitskyi",
+      position: "Team lead" ,
+      company: "Infopulse",
+      rept: [
+        {
+          title: "Chrome Dev Tools. [Ru]",
+          description: "I'll tell you about my tricks with chrome devTools, and also show the new features that were added to the latest versions. An overview speech tips that will speed up your work" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/roman.savitskiy.104',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/sssrsav1',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/roman-savitskiy-98b49158/',
           fatype: 'linkedin-square'
         },
       ]

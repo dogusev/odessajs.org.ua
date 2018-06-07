@@ -160,59 +160,102 @@ $(document).ready(function(){
         },
       ]
     },
-    {
+    // {
+    //   id: 4,
+    //   image: "images/reporters/alex_renandez.jpeg",
+    //   name: "Alex Fernandez",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 6',
+    //   duration: '2-3 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+    //     ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+    //     'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+    //     ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+    //     'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+    //   title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+    //   description:
+    //     "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+    //     " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+    //     "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+    //     " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+    //     " Most of the techniques can be used in other environments too!</p>",
+    //   topics:[
+    //     '<ul>\n' +
+    //     '  <li>15 min: Review some theory about efficient software.</li>\n' +
+    //     '  <li>45 min: load testing. Practical session 1.</li>\n' +
+    //     '  <li>45 min: profiling. Practical session 2</li>\n' +
+    //     '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
+    //     '</ul>'
+    //   ],
+    //   purpose:
+    //     '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
+    //     'you “Your software is slow!” At that point you need to be able to find hotspots and' +
+    //     'optimize them.</p>',
+    //   tools:
+    //     '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
+    //     'and used.</p>',
+    //   target:
+    //     '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
+    //     'with specific performance constraints as well as for fans of optimization.</p>',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/alexfernandez/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/pinchito',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'http://pinchito.es/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
+    { 
       id: 4,
-      image: "images/reporters/alex_renandez.jpeg",
-      name: "Alex Fernandez",
-      position: "" ,
-      company: "",
+      image: "images/reporters/timur_shemsedinov.jpg",
+      name: "Timur Shemsedinov",
+      position: "Software systems architect" ,
+      company: "Metarhia",
       place: '',
       date: 'July 6',
-      duration: '2-3 h',
+      duration: '4 h',
       price: '',
-      aboutSpeaker:
-        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+      aboutSpeaker: '',
+      title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
       description:
-        "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
-        " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
-        "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
-        " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
-        " Most of the techniques can be used in other environments too!</p>",
+        "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
       topics:[
-        '<ul>\n' +
-        '  <li>15 min: Review some theory about efficient software.</li>\n' +
-        '  <li>45 min: load testing. Practical session 1.</li>\n' +
-        '  <li>45 min: profiling. Practical session 2</li>\n' +
-        '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
-        '</ul>'
+        '<p>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</p>' +
+        '<p>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees and N-linked trees, balancing and searching, graphs</p>' +
+        '<p>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key collectors, Async adapters and utilities</p>' +
+        '<p>Functional programming: higher order functions, composition, curry, partial application, functors, function objects, monads, functional inheritance, functional code style comparison and optimizations</p>' +
+        '<p>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</p>' +
+        '<p>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</p>'
       ],
       purpose:
-        '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
-        'you “Your software is slow!” At that point you need to be able to find hotspots and' +
-        'optimize them.</p>',
-      tools:
-        '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
-        'and used.</p>',
+        '<p>To get overview of all aspects and techniques in software engendering because it usually lays behind frameworks and practical skills, but generalization and complex view allows to find better and elegant solutions in most cases and makes code structural, reusable and compatible</p>',
+      tools: '',
       target:
-        '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
-        'with specific performance constraints as well as for fans of optimization.</p>',
+        '<p>I believe developer of any level will find something interesting in proposed topics</p>',
       socialsRendered: '',
       socials: [
         {
-          link: 'https://github.com/alexfernandez/',
+          link: 'https://github.com/tshemsedinov',
           fatype: 'github'
         },
         {
-          link: 'https://twitter.com/pinchito',
-          fatype: 'twitter'
+          link: 'https://www.linkedin.com/in/shemsedinov/',
+          fatype: 'linkedin'
         },
         {
-          link: 'http://pinchito.es/',
+          link: 'https://habr.com/users/marcusaurelius/posts/',
           fatype: 'link'
         },
       ]
@@ -511,65 +554,65 @@ $(document).ready(function(){
         },
       ]
     },
+    // {
+    //   id: 9,
+    //   image: "images/reporters/alex_renandez.jpeg",
+    //   name: "Alex Fernandez",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 8',
+    //   duration: '2-3 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+    //     ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+    //     'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+    //     ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+    //     'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+    //   title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+    //   description:
+    //   "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+    //   " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+    //   "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+    //   " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+    //   " Most of the techniques can be used in other environments too!</p>",
+    //   topics:[
+    //     '<ul>\n' +
+    //     '  <li>15 min: Review some theory about efficient software.</li>\n' +
+    //     '  <li>45 min: load testing. Practical session 1.</li>\n' +
+    //     '  <li>45 min: profiling. Practical session 2</li>\n' +
+    //     '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
+    //     '</ul>'
+    //   ],
+    //   purpose:
+    //   '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
+    //   'you “Your software is slow!” At that point you need to be able to find hotspots and' +
+    //   'optimize them.</p>',
+    //   tools:
+    //   '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
+    //   'and used.</p>',
+    //   target:
+    //   '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
+    //   'with specific performance constraints as well as for fans of optimization.</p>',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/alexfernandez/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/pinchito',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'http://pinchito.es/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       id: 9,
-      image: "images/reporters/alex_renandez.jpeg",
-      name: "Alex Fernandez",
-      position: "" ,
-      company: "",
-      place: '',
-      date: 'July 8',
-      duration: '2-3 h',
-      price: '',
-      aboutSpeaker:
-        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
-      description:
-      "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
-      " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
-      "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
-      " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
-      " Most of the techniques can be used in other environments too!</p>",
-      topics:[
-        '<ul>\n' +
-        '  <li>15 min: Review some theory about efficient software.</li>\n' +
-        '  <li>45 min: load testing. Practical session 1.</li>\n' +
-        '  <li>45 min: profiling. Practical session 2</li>\n' +
-        '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
-        '</ul>'
-      ],
-      purpose:
-      '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
-      'you “Your software is slow!” At that point you need to be able to find hotspots and' +
-      'optimize them.</p>',
-      tools:
-      '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
-      'and used.</p>',
-      target:
-      '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
-      'with specific performance constraints as well as for fans of optimization.</p>',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/alexfernandez/',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/pinchito',
-          fatype: 'twitter'
-        },
-        {
-          link: 'http://pinchito.es/',
-          fatype: 'link'
-        },
-      ]
-    },
-    {
-      id: 10,
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
@@ -606,7 +649,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 11,
+      id: 10,
       image: "images/reporters/max_klymyshyn.jpg",
       name: "Max Klymyshyn",
       position: "" ,
@@ -649,7 +692,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 12,
+      id: 11,
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
       position: "" ,
@@ -702,7 +745,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 13,
+      id: 12,
       image: "images/reporters/trishul_goel.png",
       name: "Trishul Goel",
       position: "Frontend Developer" ,
@@ -759,7 +802,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 14,
+      id: 13,
       image: "images/logo.png",
       name: "Sara Vieira & Katarzyna Jastrzębska-Łachacz",
       position: "" ,
