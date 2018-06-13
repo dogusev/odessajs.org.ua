@@ -370,15 +370,13 @@ function initMap() {
   marker.setMap(map);
 }
 
-$(document).ready(function(){
-
-
-  $('.speakers-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: false,
-    infinite: false
-  });
-
-  //initMap();
-});
+// $(document).ready(function(){
+//   $('.speakers-slider').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     dots: false,
+//     infinite: false
+//   });
+//
+//   //initMap();
+// });

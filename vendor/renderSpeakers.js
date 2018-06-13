@@ -35,7 +35,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/ivan_jovanovich.png",
+      image: "images/reporters/ivan_jovanovich.jpg",
       name: "Ivan Jovanovic",
       position: "Senior Software Engineer" ,
       company: "nearForm",
@@ -223,7 +223,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://double-r.nl/rowdyrabouw.jpg",
+      image: "images/reporters/rowdyrabouw.jpg",
       name: "Rowdy Rabouw",
       position: "web development" ,
       company: "double-R",
@@ -334,7 +334,6 @@ $(document).ready(function(){
         },
       ]
     },
-
     {
       image: "images/reporters/katarzyna_jastrzebsk.jpg",
       name: "Katarzyna Jastrzębska-Łachacz",
@@ -412,8 +411,8 @@ $(document).ready(function(){
     {
       image: "images/reporters/david_mullerchen.jpg",
       name: "David Müllerchen",
-      position: "" ,
-      company: "",
+      position: "Freelancer" ,
+      company: "Webdave",
       rept: [
         {
           title: "Workshop: Angular 101 [En]",
@@ -449,6 +448,38 @@ $(document).ready(function(){
         },
       ]
     },
+      {
+          image: "images/reporters/HaroenViaene.jpg",
+          name: "Haroen Viaene",
+          position: "Library Developer" ,
+          company: "Algolia",
+          rept: [
+              {
+                  title: "You’re probably making an API client. [En]",
+                  description: "When you are interacting with another piece of software, be it a REST API or a third party, what you’re actually making is your own abstraction around it. Once you realise that, you can use the tricks used in real API clients for your advantage and make reusable, good code. " ,
+              }
+          ],
+          aboutSpeaker: '',
+          socialsRendered: '',
+          socials: [
+              {
+                  link: 'Https:/GitHub.com/haroenv',
+                  fatype: 'github'
+              },
+              {
+                  link: 'https://twitter.com/haroenv',
+                  fatype: 'twitter'
+              },
+              {
+                  link: 'http://linkedin.com/in/haroen',
+                  fatype: 'linkedin-square'
+              },
+              {
+                  link: 'https://haroen.me/',
+                  fatype: 'link'
+              },
+          ]
+      },
     // {
     //   image: "images/reporters/alex_renandez.jpeg",
     //   name: "Alex Fernandez",
@@ -576,7 +607,7 @@ $(document).ready(function(){
       image: "images/reporters/migutsky.jpg",
       name: "Alexey Migutsky",
       position: "Senior Software Development Engineer" ,
-      company: "Microsoft Berlin and Founder of Metadevelopment.io",
+      company: "Microsoft Berlin",
       rept: [
         {
           title: "Workshop: Growing your career as software engineer [Ru]",
@@ -663,7 +694,7 @@ $(document).ready(function(){
         }
       ]
     },
-    { 
+    {
       id: 4,
       image: "images/reporters/timur_shemsedinov.jpg",
       name: "Timur Shemsedinov",
@@ -671,7 +702,7 @@ $(document).ready(function(){
       company: "Metarhia",
       rept: [
         {
-          title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
+          title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
           description:
             "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
         }
