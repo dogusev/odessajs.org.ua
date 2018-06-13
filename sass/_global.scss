@@ -117,3 +117,15 @@ section.paddings {
 .margin-top-6-rem {
   margin-top: 6rem;
 }
+
+
+/* Image lazy load*/
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+/* Image lazy load*/

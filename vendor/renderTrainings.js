@@ -217,7 +217,7 @@ $(document).ready(function(){
     //     },
     //   ]
     // },
-    { 
+    {
       id: 4,
       image: "images/reporters/timur_shemsedinov.jpg",
       name: "Timur Shemsedinov",
@@ -232,12 +232,14 @@ $(document).ready(function(){
       description:
         "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
       topics:[
-        '<p>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</p>' +
-        '<p>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees and N-linked trees, balancing and searching, graphs</p>' +
-        '<p>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key collectors, Async adapters and utilities</p>' +
-        '<p>Functional programming: higher order functions, composition, curry, partial application, functors, function objects, monads, functional inheritance, functional code style comparison and optimizations</p>' +
-        '<p>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</p>' +
-        '<p>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</p>'
+        '<ul>'+
+          '<li>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</li>' +
+          '<li>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees and N-linked trees, balancing and searching, graphs</li>' +
+          '<li>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key collectors, Async adapters and utilities</li>' +
+          '<li>Functional programming: higher order functions, composition, curry, partial application, functors, function objects, monads, functional inheritance, functional code style comparison and optimizations</li>' +
+          '<li>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</li>' +
+          '<li>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</li>'+
+        '</ul>'
       ],
       purpose:
         '<p>To get overview of all aspects and techniques in software engendering because it usually lays behind frameworks and practical skills, but generalization and complex view allows to find better and elegant solutions in most cases and makes code structural, reusable and compatible</p>',
@@ -951,7 +953,7 @@ $(document).ready(function(){
       trainingTopics.forEach(function (item, i, arr) {
         topicsContent += '<div class="modal-body__text">'+ item +'</div>';
       });
-      topicsContent && $modalTopicsContainer.html(topicsContent).toggle(true);
+      topicsContent && $modalTopicsContainer.find('.modal-body__text').html(topicsContent).end().toggle(true);
 
       trainingPurpose && $modalPurposeContainer.find('.modal-body__text').html(trainingPurpose).end().toggle(true);
       trainingTools && $modalToolsContainer.find('.modal-body__text').html(trainingTools).end().toggle(true);

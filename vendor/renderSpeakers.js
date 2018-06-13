@@ -63,7 +63,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://pbs.twimg.com/profile_images/875823348118417408/WSMpFKgm_400x400.jpg",
+      image: "images/reporters/shinkevich.jpg",
       name: "Aleksandra Shinkevich",
       position: "Full-stack NodeJS Developer" ,
       company: "LOVATA",
@@ -295,7 +295,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/patrick_kettner.jpeg",
+      image: "images/reporters/patrick_kettner.jpg",
       name: "Patrick Kettner",
       position: "Program Manager",
       company: "Microsoft Edge",
@@ -370,15 +370,15 @@ $(document).ready(function(){
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
       position: "" ,
-      company: "",
+      company: "Independent",
       rept: [
         {
           title: "Workshop: Get Started with Reason & ReasonReact [En]",
           description:
-            "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by Jordan Walke, " +
-            "the creator of React.</p>" +
-            "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about powerful " +
-            "concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
+            "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by " +
+            "Jordan Walke, the creator of React.</p>" +
+            "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about" +
+            " powerful concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
         },
         {
           title: "Build Serverless Node.js Applications on AWS [En]",
@@ -405,6 +405,10 @@ $(document).ready(function(){
         {
           link: 'https://github.com/nikgraf',
           fatype: 'github'
+        },
+        {
+          link: 'https://medium.com/@nikgraf',
+          fatype: 'medium'
         },
       ]
     },
@@ -661,7 +665,7 @@ $(document).ready(function(){
       company: "SPD-Ukraine",
       rept: [
         {
-          title: "If you don't like how your static typing smells, maybe you do it wrong [Ru]",
+          title: "If you don't like how your static typing smells, maybe you do it wrong [Ua]",
           description:
             "Static typing remains a popular topic for discussions somewhat " +
             "akin to a battle field. JS development world split up into its " +
@@ -1443,6 +1447,110 @@ $(document).ready(function(){
         },
       ]
     },
+    {
+      image: "images/reporters/valentine_mezentsev.jpg",
+      name: "Valentine Mezentsev",
+      position: "JS Developer at Chatbot Community" ,
+      company: "Master Of Code Global",
+      rept: [
+        {
+          title: "Workshop: Bot Battle. [Ru]",
+          description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/profile.php?id=100001637934934',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/Mnilko',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/valentine-mezentsev-32205693/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/mnilko/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/Mnilko',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/6375530/Валентин-Мезенцев',
+          fatype: 'stack-overflow'
+        },
+        {
+          link: 'https://masterofcode.com/blog',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/gleb_dobzhanskyi.jpg",
+      name: "Gleb Dobzhanskyi",
+      position: "VP of Engineering" ,
+      company: "Master Of Code Global",
+      rept: [
+        {
+          title: "Workshop: Bot Battle. [Ru]",
+          description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/glebone',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://www.linkedin.com/in/glibdobzhanskyi',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/glebone',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/rustam_aliyev.jpg",
+      name: "Rustam Aliyev",
+      position: "CTO" ,
+      company: "OneDome",
+      rept: [
+        {
+          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [Ru]",
+          description:
+            "Single-Page Application (SPA) is the main-stream modern frontend development approach. However," +
+            " we quickly hit limitations of monolith SPA in the growing company with multiple product teams, different technologies " +
+            "and release cycles. In this talk we share how these limitations have been overcome by extending microservice architecture to" +
+            " React frontend using Lerna mono-repository and discuss alternative approaches such as WebComponents." ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/rstml',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/aliyev/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/rstml',
+          fatype: 'github'
+        }
+      ]
+    },
   ];
 
 
@@ -1472,8 +1580,8 @@ $(document).ready(function(){
 
   var reportTitles = '';
 
-  var speakerItem = "<div class='row h-100'> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
-    " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
+  var speakerItem = "<div class='row '> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
+    " <div class='speakers-slide__img-wrapper'>" + "<img data-src='${image}' alt=''>" +
     "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
     "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +

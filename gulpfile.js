@@ -23,6 +23,7 @@ gulp.task('script-min', function () {
       // libs
       'vendor/jquery/jquery.min.js',
       'vendor/bootstrap/js/bootstrap.bundle.min.js',
+      // 'vendor/bootstrap/js/bootstrap.min.js',
       'vendor/touchSwipe/jquery.touchSwipe.min.js',
       'vendor/animate/animateit.js',
       'vendor/jquery-tmpl/jquery.tmpl.min.js',
