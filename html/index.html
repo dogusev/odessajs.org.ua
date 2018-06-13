@@ -14,18 +14,10 @@
   <title>OdessaJS - Conference on JavaScript best practices for truly enthusiastic community</title>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="icon" href="favicon.png" type="image/x-icon">
+
+  <!-- Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext'
         rel='stylesheet' type='text/css'>
-
-
-  <link rel="stylesheet" href="css/reset.css">
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
   <link
     href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
@@ -34,16 +26,16 @@
     rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Jura|Roboto" rel="stylesheet">
 
-  <link rel="stylesheet" href="vendor/animate/animations.css">
-
-
+  <!--<link rel="stylesheet" href="css/reset.css">-->
+  <!-- Bootstrap core CSS -->
+  <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+  <!-- Custom fonts -->
+  <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
   <!-- Custom styles -->
+  <!--<link rel="stylesheet" href="vendor/animate/animations.css">-->
+
   <link href="css/main_new.css" rel="stylesheet">
-  <!--Slick-->
-  <link rel="stylesheet" href="vendor/slick/slick.css">
-  <link rel="stylesheet" href="vendor/slick/slick-theme.css">
-  <!--
-    <link rel="stylesheet" href="css/main.css">-->
+
   <!-- Facebook Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {
@@ -99,6 +91,23 @@
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="socials__icons">
+      <a target="_blank" class="socials__link socials__fb col-sm-3" href="https://www.facebook.com/odessajs">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a target="_blank" class="socials__link socials__tw col-sm-3" href="https://twitter.com/OdessaJS">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a target="_blank" class="socials__link socials__yt col-sm-3" href="https://www.youtube.com/c/OdessaJSConference">
+        <i class="fa fa-youtube-play"></i>
+      </a>
+      <a target="_blank" class="socials__link socials__tg col-sm-3" href="https://t.me/odessajs">
+        <i class="fa fa-paper-plane"></i>
+      </a>
+      <a class="socials__link socials__ml col-sm-3" href="mailto:odessajs.partners@gmail.com">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -153,13 +162,14 @@
           <a class="btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQqU4iM-vBx6VRWHQcE1zKh3LW4KZ5231Oe0dQx-neBrrc3g/viewform">Submit your talk</a>
           -->
           <a class="btn btn-primary btn-xl main_button" target="_blank"
-             href="https://odessajs2018.ticketforevent.com/en/">Buy tickets</a>
+             href="https://docs.google.com/forms/d/e/1FAIpQLSeedcTlwvHgz9rv5DbfC7rHbNrs-0s42n7J2p-X-WUJ8WZvqQ/viewform">Buy tickets</a>
 
         </div>
         <p class="mb5 main_caption">
           Contact us at <a href="mailto:odessajs.partners@gmail.com">odessajs.partners@gmail.com</a> if you have any questions or
           ideas
         </p>
+
       </div>
     </div>
   </div>
@@ -191,6 +201,7 @@
           remember all following year after the conference.
           <br><br>
           Ticket price is <strong>4000 UAH ~ 150 $</strong>. <br>
+          One Day Pass is <strong>2000 UAH ~ 77$</strong>. <br>
           If you want to send a group of <strong>10+</strong> people there'll be <strong>15%</strong> of group discount
           <br><br>
           Ticket price covers two days of conference <br>
@@ -356,6 +367,29 @@
         <img src="images/speakers-circle.png" alt="" class="speakers-title-img-1">
         <h1>Our Awesome Speakers</h1>
       </div>
+      <div class="mb-4 col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
+        <button style="cursor: pointer" type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#key-topics">
+          Key Topics
+        </button>
+      </div>
+
+      <div class="modal fade" id="key-topics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Key Topics</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul class="topics-list">
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--
        <div class="col-sm-11">
 
@@ -415,7 +449,7 @@
               <!-- About report -->
               <div class="modal-body__reports">
                 <h2 class="modal-body__title">Title Lorem Ipsum</h2>
-                <p class="modal-body__text">
+                <div class="modal-body__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices porta viverra.
                   Integer facilisis sapien at neque viverra cursus. Aliquam sed lectus eu nisl hendrerit consequat
                   eget eget magna. Nam tincidunt volutpat nulla vitae pellentesque. Mauris tincidunt iaculis dolor,
@@ -425,7 +459,7 @@
                   vestibulum dolor. Nullam justo elit, lacinia eu rhoncus vel, hendrerit vel arcu. Curabitur aliquam
                   aliquam commodo. Mauris non lectus et lorem ornare rhoncus vel quis mauris. Phasellus laoreet egestas
                   turpis ut tempor. Mauris pharetra maximus arcu, eu aliquam purus vehicula vitae.
-                </p>
+                </div>
               </div>
               <!-- About report -->
 
@@ -1046,12 +1080,23 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+<!--           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="4" class="trainings-slide__item">
 
                 <div class="trainings-slide__img-wrapper">
                   <img src="images/workshops/fernandez_training_1.jpg" alt="Alex Fernandez">
+                </div>
+
+              </div>
+            </div>
+          </div> -->
+          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+            <div class="row h-100">
+              <div data-modal-trigger="#training-modal" data-item-index="4" class="trainings-slide__item">
+
+                <div class="trainings-slide__img-wrapper">
+                  <img src="images/workshops/shemsedinov_training.jpg" alt="Timur Shemsedinov">
                 </div>
 
               </div>
@@ -1112,7 +1157,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+<!--           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="9" class="trainings-slide__item">
 
@@ -1122,10 +1167,10 @@
 
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
-              <div data-modal-trigger="#training-modal" data-item-index="10" class="trainings-slide__item">
+              <div data-modal-trigger="#training-modal" data-item-index="9" class="trainings-slide__item">
 
                 <div class="trainings-slide__img-wrapper">
                   <img src="images/workshops/tepluhina_training_2.jpg" alt="Natalia Tepluhina">
@@ -1136,7 +1181,7 @@
           </div>
           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
-              <div data-modal-trigger="#training-modal" data-item-index="11" class="trainings-slide__item">
+              <div data-modal-trigger="#training-modal" data-item-index="10" class="trainings-slide__item">
 
                 <div class="trainings-slide__img-wrapper">
                   <img src="images/workshops/klymyshyn_training.jpg" alt="Max Klymyshyn">
@@ -1147,7 +1192,7 @@
           </div>
           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
-              <div data-modal-trigger="#training-modal" data-item-index="12" class="trainings-slide__item">
+              <div data-modal-trigger="#training-modal" data-item-index="11" class="trainings-slide__item">
 
                 <div class="trainings-slide__img-wrapper">
                   <img src="images/workshops/graf_training_2.jpg" alt="Nik Graf">
@@ -1156,12 +1201,25 @@
               </div>
             </div>
           </div>
+
+          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+            <div class="row h-100">
+              <div data-modal-trigger="#training-modal" data-item-index="12" class="trainings-slide__item">
+
+                <div class="trainings-slide__img-wrapper">
+                  <img src="images/workshops/goel_training.jpg" alt="Trishul Goel">
+                </div>
+
+              </div>
+            </div>
+          </div>
+
           <div class="trainings-slide col-10 col-md-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="13" class="trainings-slide__item">
 
                 <div class="trainings-slide__img-wrapper">
-                  <img src="images/workshops/goel_training.jpg" alt="Trishul Goel">
+                  <img src="images/workshops/sara_katar.jpg" alt="Sara Vieira & Katarzyna Jastrzębska-Łachacz">
                 </div>
 
               </div>
@@ -1188,6 +1246,22 @@
       <div class="col-lg-10 mx-auto block_title thank-container">
         <div class="container">
           <div class="row  animated fadeInLeft">
+
+
+            <div class="col-sm-10 mx-auto">
+              <h4 class="text-uppercase main_title text-center">
+                <strong>Platinum</strong>
+              </h4>
+              <hr>
+              <div class="row">
+                <div class="col-6 col-md-4 text-center thank-box mx-auto">
+                  <a class="w-100" href="http://coingaming.io/" target="_blank">
+                    <img src="images/sponsors/coingaming.jpg" alt="coingaming" class="img-responsive">
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div class="col-sm-10 mx-auto">
               <h4 class="text-uppercase main_title text-center">
                 <strong>Golden</strong>
@@ -1195,33 +1269,24 @@
               <hr>
               <div class="row">
                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
-                  <a href="https://eteam.io/" target="_blank">
+                  <a class="w-100" href="https://eteam.io/" target="_blank">
                     <img src="images/sponsors/eteam.jpg" alt="" class="img-responsive">
                   </a>
                 </div>
 
                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
-                  <a href="http://www.wearewaes.com/" target="_blank">
+                  <a class="w-100" href="http://www.wearewaes.com/" target="_blank">
                     <img src="images/sponsors/waes-logo-rgb.png" alt="" class="img-responsive">
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 text-center thank-box mx-auto">
+                  <a class="w-100" href="http://www.infopulse.com/" target="_blank">
+                    <img src="https://www.infopulse.com/wp-content/themes/infopulse/img/infopulse-logo.svg" alt="" class="img-responsive">
                   </a>
                 </div>
               </div>
             </div>
 
-
-            <!--
-            <div class="col-lg-2 col-md-4 text-center thank-box">
-              <img src="2017/images/sponsors/levi9.png" alt="" class="img-responsive">
-            </div>
-            <div class="col-lg-2 col-md-4 text-center thank-box">
-              <img src="2017/images/sponsors/dataart_logo.png" alt="" class="img-responsive">
-            </div>
-            <div class="col-lg-2 col-md-4 text-center thank-box">
-              <img src="2017/images/sponsors/do_it_logo.png" alt="" class="img-responsive">
-            </div>
-            <div class="col-lg-2 col-md-4 text-center thank-box">
-              <img src="2017/images/sponsors/zone3000.png" alt="" class="img-responsive">
-            </div>-->
           </div>
           <div class="row  animated fadeInRight">
             <div class="col-sm-10 mx-auto">
@@ -1231,7 +1296,7 @@
               <hr>
               <div class="row">
                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
-                  <a href="http://www.lohika.com.ua/" target="_blank">
+                  <a class="w-100" href="http://www.lohika.com.ua/" target="_blank">
                     <img src="2017/images/sponsors/lohika_color.png" alt="" class="img-responsive">
                   </a>
                 </div>
@@ -1380,46 +1445,46 @@
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1806139302980352.1073741850.1380400472220906/1806142312980051/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fods1-1.fna.fbcdn.net/v/t31.0-8/20121449_1806142312980051_3287057231441355090_o.jpg?_nc_cat=0&oh=75b3249f2d3173c512bfbeec1c8e67c6&oe=5B54592D"
-                   alt="">
+                   src="images/rocked/1.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1800913063502976.1073741846.1380400472220906/1800916750169274/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fods1-1.fna.fbcdn.net/v/t31.0-8/19787508_1800916750169274_5572686471536796960_o.jpg?_nc_cat=0&oh=e91dd32eebb495f64a699c9956e0854e&oe=5B6084D9"
-                   alt="">
+                   src="images/rocked/2.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1800913063502976.1073741846.1380400472220906/1800914816836134/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fods1-1.fna.fbcdn.net/v/t31.0-8/19703023_1800914816836134_2235643610336146137_o.jpg?_nc_cat=0&oh=e50e57b8eb6140f609f1cad8cf1933b8&oe=5B9241D0"
-                   alt="">
+                   src="images/rocked/3.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1801568010104148.1073741848.1380400472220906/1801569816770634/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fiev11-1.fna.fbcdn.net/v/t31.0-8/19577178_1801569816770634_4884077554430675658_o.jpg?oh=338601a2b816921f0d80dd8ed620caff&oe=5AFAE4C7"
-                   alt="">
+                   src="images/rocked/4.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1800046863589596.1073741845.1380400472220906/1800050350255914/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fods1-1.fna.fbcdn.net/v/t31.0-8/19693431_1800050350255914_8597997128304949387_o.jpg?_nc_cat=0&oh=2104a2b6fa53c82159157e463d2df360&oe=5B562781"
-                   alt="">
+                   src="images/rocked/5.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-8 col-sm-12">
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1801568010104148.1073741848.1380400472220906/1801569810103968/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fods1-1.fna.fbcdn.net/v/t31.0-8/19787369_1801569810103968_9144504050224347315_o.jpg?_nc_cat=0&oh=5714b3886c23325ab56cfabd0eea302f&oe=5B5177C4"
-                   alt="">
+                   src="images/rocked/6.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-12 col-sm-12">
@@ -1435,22 +1500,22 @@
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1806139302980352.1073741850.1380400472220906/1806142832979999/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fiev11-1.fna.fbcdn.net/v/t31.0-8/20157520_1806142832979999_6758634627217351954_o.jpg?oh=97a20a35b4eec04f5dbbc95ad04de8cd&oe=5AF85072"
-                   alt="">
+                   src="images/rocked/7.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1800913063502976.1073741846.1380400472220906/1800916620169287/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fiev11-1.fna.fbcdn.net/v/t31.0-8/19956663_1800916620169287_78967440803789897_o.jpg?oh=cce533d09b2658c294c00d343d14ecf7&oe=5AF5E6C0"
-                   alt="">
+                   src="images/rocked/8.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
             <a class="portfolio-box"
                href="https://www.facebook.com/odessajs/photos/a.1806139302980352.1073741850.1380400472220906/1806141179646831/?type=3&theater">
               <img class="img-fluid"
-                   src="https://scontent.fiev11-1.fna.fbcdn.net/v/t31.0-8/20232113_1806141179646831_7155148061338565349_o.jpg?oh=385de2f9e61e2426d5298c37d006b552&oe=5AF91C27"
-                   alt="">
+                   src="images/rocked/9.jpg"
+                   alt="THIS IS HOW WE ROCKED IN 2017">
             </a>
           </div>
 
@@ -1561,44 +1626,96 @@
         <div class="row">
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://eatdog.com.ua/" target="_blank">
-              <img src="images/partners/eat_dog.png" alt="" class="img-responsive">
+              <img src="images/partners/eat_dog.png" alt="Съесть собаку" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="http://reactnative.com.ua/" target="_blank">
-              <img src="images/partners/react.jpg" alt="" class="img-responsive">
+              <img src="images/partners/react.jpg" alt="React Native Camp" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="http://syndicode.co/" target="_blank">
-              <img src="images/partners/syndicode.png" alt="" class="img-responsive">
+              <img src="images/partners/syndicode.png" alt="Syndicode" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://www.facebook.com/itclubsproject/" target="_blank">
-              <img src="images/partners/itcp.png" alt="" class="img-responsive">
+              <img src="images/partners/itcp.png" alt="itcp" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://www.facebook.com/angularkharkiv/" target="_blank">
-              <img src="images/partners/angular_kharkiv.png" alt="" class="img-responsive">
+              <img src="images/partners/angular_kharkiv.png" alt="angular kharkiv" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://www.facebook.com/TernopilJS/" target="_blank">
-              <img src="images/partners/ternopil_js.jpg" alt="" class="img-responsive">
+              <img src="images/partners/ternopil_js.jpg" alt="Ternopil js" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://www.daxx.com/" target="_blank">
-              <img src="images/partners/daxx.png" alt="" class="img-responsive">
+              <img src="images/partners/daxx.png" alt="Daxx" class="img-responsive">
             </a>
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://holyjs-piter.ru/" target="_blank">
-              <img src="images/partners/holyjs.png" alt="" class="img-responsive">
+              <img src="images/partners/holyjs.png" alt="holyjs" class="img-responsive">
             </a>
           </div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://itea.ua" target="_blank">
+              <img src="https://itea.ua/wp-content/themes/new-it/relize/img/logo-itea.svg" alt="IT Education Academy" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="http://it-cluster.if.ua/" target="_blank">
+              <img src="images/partners/it-cluster-2.png" alt="IT-cluster" class="img-responsive">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://it-rating.in.ua/" target="_blank">
+              <img src="images/partners/it-rating.png" alt="IT-рейтинг Украины" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://fwdays.com/en/" target="_blank">
+              <img src="images/partners/fwdays.png" alt="fwdays" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://www.digest.pro/" target="_blank">
+              <img src="images/partners/digest.png" alt="Digest Pro" class="img-responsive">
+            </a>
+          </div>
+
+
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://edu.cbsystematics.com" target="_blank">
+              <img src="images/partners/cbs.png" alt="CyberBionic Systematics" class="img-responsive">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://itvdn.com/" target="_blank">
+              <img src="images/partners/itvdn.png" alt="ITVDN" class="img-responsive">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://reactiveconf.com/" target="_blank">
+              <img src="images/partners/reactive.png" alt="Reactive Conf" class="img-responsive">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
+            <a href="https://od.itstep.org/" target="_blank">
+              <img src="images/partners/step.jpg" alt="Академия Шаг" class="img-responsive">
+            </a>
+          </div>
+
         </div>
       </div>
 
@@ -2072,6 +2189,11 @@
 
         <a class="btn btn-rounded btn-xl main_button" target="_blank" href="Code_of_Conduct.pdf">Code of conduct</a>
 
+        <div class="mt-4 col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
+          <a href="https://goo.gl/forms/sJA5sZwPSyenM4uH2" target="_blank" class="btn btn-primary w-100">
+            <span>Call for Volunteers</span>
+          </a>
+        </div>
       </div>
 
     </div>
@@ -2093,25 +2215,22 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
-<script src="vendor/animate/animateit.js"></script>
-
-<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
-
-<!--Slick-->
-<script src="vendor/slick/slick.min.js"></script>
+<!--<script src="vendor/jquery/jquery.min.js"></script>-->
+<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<!--<script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>-->
+<!--<script src="vendor/animate/animateit.js"></script>-->
+<!--<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>-->
 
 <!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+<!--<script src="vendor/scrollreveal/scrollreveal.min.js"></script>-->
 
-<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
-
+<!--<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>-->
 
 <!--<script src="vendor/renderSpeakers.js"></script>-->
 <!--<script src="script.js" type="text/javascript"></script>-->
+
+
 <script src="js/script.min.js" type="text/javascript"></script>
 
 <script src="./fb.js" type="text/javascript"></script>

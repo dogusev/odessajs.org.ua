@@ -104,7 +104,7 @@
           }
 
           .img-wrapper {
-            min-width: 150px!important;
+            min-width: 150px!important;   
 
             @media (min-width: 300px) and (max-width: 551px) {
               width: 100%!important;
@@ -205,7 +205,8 @@
             }
           }
 
-          &__text {
+          &__text,
+          &__text p {
             font-family: 'Roboto', sans-serif;
             margin-bottom: 25px;
           }

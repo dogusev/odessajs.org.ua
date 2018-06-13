@@ -4,6 +4,7 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   background-image: url('../images/parallax-img.png');
   background-position: center center;
+  background-color: #a7a7a7;
   @include background-cover;
 
   @media screen and (max-width: 767px) {

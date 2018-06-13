@@ -49,19 +49,19 @@ $(document).ready(function(){
       duration: '6-7 h',
       price: '',
       aboutSpeaker:
-        'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
-        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
-        'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
-        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
-        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
+        'David is an Angular consultant and trainer. He’s also a team member and trainer at ' +
+        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge, ' +
+        'speaking and teaching at meetups and conferences. David’s keeping his own blog ' +
+        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s ' +
+        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert ' +
         '(GDE) in Angular.',
       title: "Angular 101 [En]",
       description:
-      "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
-      "applications. The framework gives clear structures and supports u. a. Modularization" +
-      "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
-      "complex enterprise applications. Since the release of version 2, the framework is no" +
-      "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
+      "<p>Angular is a client-side JavaScript framework used world-wide to create web " +
+      "applications. The framework gives clear structures and supports u. a. Modularization " +
+      "and lazy loading. It is developed by a team at Google and is aimed at developers of " +
+      "complex enterprise applications. Since the release of version 2, the framework is no " +
+      "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic " +
       "principles of Angular.</p>",
       topics:[
         '<ul>' +
@@ -160,59 +160,102 @@ $(document).ready(function(){
         },
       ]
     },
-    {
+    // {
+    //   id: 4,
+    //   image: "images/reporters/alex_renandez.jpeg",
+    //   name: "Alex Fernandez",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 6',
+    //   duration: '2-3 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+    //     ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+    //     'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+    //     ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+    //     'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+    //   title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+    //   description:
+    //     "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+    //     " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+    //     "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+    //     " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+    //     " Most of the techniques can be used in other environments too!</p>",
+    //   topics:[
+    //     '<ul>\n' +
+    //     '  <li>15 min: Review some theory about efficient software.</li>\n' +
+    //     '  <li>45 min: load testing. Practical session 1.</li>\n' +
+    //     '  <li>45 min: profiling. Practical session 2</li>\n' +
+    //     '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
+    //     '</ul>'
+    //   ],
+    //   purpose:
+    //     '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
+    //     'you “Your software is slow!” At that point you need to be able to find hotspots and' +
+    //     'optimize them.</p>',
+    //   tools:
+    //     '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
+    //     'and used.</p>',
+    //   target:
+    //     '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
+    //     'with specific performance constraints as well as for fans of optimization.</p>',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/alexfernandez/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/pinchito',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'http://pinchito.es/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
+    { 
       id: 4,
-      image: "images/reporters/alex_renandez.jpeg",
-      name: "Alex Fernandez",
-      position: "" ,
-      company: "",
+      image: "images/reporters/timur_shemsedinov.jpg",
+      name: "Timur Shemsedinov",
+      position: "Software systems architect" ,
+      company: "Metarhia",
       place: '',
       date: 'July 6',
-      duration: '2-3 h',
+      duration: '4 h',
       price: '',
-      aboutSpeaker:
-        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+      aboutSpeaker: '',
+      title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
       description:
-        "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
-        " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
-        "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
-        " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
-        " Most of the techniques can be used in other environments too!</p>",
+        "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
       topics:[
-        '<ul>\n' +
-        '  <li>15 min: Review some theory about efficient software.</li>\n' +
-        '  <li>45 min: load testing. Practical session 1.</li>\n' +
-        '  <li>45 min: profiling. Practical session 2</li>\n' +
-        '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
-        '</ul>'
+        '<p>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</p>' +
+        '<p>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees and N-linked trees, balancing and searching, graphs</p>' +
+        '<p>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key collectors, Async adapters and utilities</p>' +
+        '<p>Functional programming: higher order functions, composition, curry, partial application, functors, function objects, monads, functional inheritance, functional code style comparison and optimizations</p>' +
+        '<p>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</p>' +
+        '<p>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</p>'
       ],
       purpose:
-        '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
-        'you “Your software is slow!” At that point you need to be able to find hotspots and' +
-        'optimize them.</p>',
-      tools:
-        '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
-        'and used.</p>',
+        '<p>To get overview of all aspects and techniques in software engendering because it usually lays behind frameworks and practical skills, but generalization and complex view allows to find better and elegant solutions in most cases and makes code structural, reusable and compatible</p>',
+      tools: '',
       target:
-        '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
-        'with specific performance constraints as well as for fans of optimization.</p>',
+        '<p>I believe developer of any level will find something interesting in proposed topics</p>',
       socialsRendered: '',
       socials: [
         {
-          link: 'https://github.com/alexfernandez/',
+          link: 'https://github.com/tshemsedinov',
           fatype: 'github'
         },
         {
-          link: 'https://twitter.com/pinchito',
-          fatype: 'twitter'
+          link: 'https://www.linkedin.com/in/shemsedinov/',
+          fatype: 'linkedin'
         },
         {
-          link: 'http://pinchito.es/',
+          link: 'https://habr.com/users/marcusaurelius/posts/',
           fatype: 'link'
         },
       ]
@@ -319,17 +362,28 @@ $(document).ready(function(){
       position: "Frontend Developer" ,
       company: "Scalac (Gdansk, Poland)",
       place: '',
-      date: 'July 6',
-      duration: '',
+      date: 'JULY 6, JULY 8 (2 SESSIONS)',
+      duration: '1.5 h',
       price: '',
-      aboutSpeaker: '',
-      title: "Workshop: Simple pet fetching web app using VueJS [Ru]",
+      aboutSpeaker: '<p> Natalia Tepluhina is a Frontend Developer based in Kyiv, Ukraine. She works at Scalac, ' +
+  '    where she builds single-page applications using different JavaScript frameworks (mostly ' +
+  '  Angular &amp; VueJS). Natalia is a constant learner and loves to share knowledge with ' +
+  '    other people. She is a regular participant of local VueJS meetups and is an occasional ' +
+  '  speaker at Scalac internal frontend development presentations. In her spare time ' +
+  '  Natalia enjoys playing videogames and doing some sports.</p>',
+      title: "Build A Simple Pet Fetching Web App using VueJS [Ru]",
       description:
-      "<p>Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women</p>",
+        "<p>During the workshop we will create a Vue application from scratch using the " +
+        "  Codesandbox Vue template. Together we’ll apply Vuetify (Vue Material Design-based " +
+        "  CSS framework) and Axios for API calls. The workshop will include Vue core concepts, " +
+        "    component basics (props &amp; event emitters) and REST API calls with Axios. There will " +
+        "  be some &#39;challenge chapters&#39; for the persons who finished workshop content faster than " +
+        "  planned.</p>",
       topics:[],
-      purpose: '',
-      tools: '',
-      target:'',
+      purpose: '<p>It&#39;s a free workshop for women willing to get familiar with VueJS. It&#39;s very basic and will ' +
+  '  give attendees the knowledge of the core framework concepts.</p>',
+      tools: 'You will use Codesandbox so no need in any kind of IDE, only your laptops.',
+      target:'Any women who want to start learning VueJS.',
       socialsRendered: '',
       socials: [
         {
@@ -500,81 +554,92 @@ $(document).ready(function(){
         },
       ]
     },
+    // {
+    //   id: 9,
+    //   image: "images/reporters/alex_renandez.jpeg",
+    //   name: "Alex Fernandez",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 8',
+    //   duration: '2-3 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
+    //     ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
+    //     'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
+    //     ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
+    //     'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
+    //   title: "Building Efficient Software: Let's Improve Our Performance! [En]",
+    //   description:
+    //   "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
+    //   " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
+    //   "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
+    //   " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
+    //   " Most of the techniques can be used in other environments too!</p>",
+    //   topics:[
+    //     '<ul>\n' +
+    //     '  <li>15 min: Review some theory about efficient software.</li>\n' +
+    //     '  <li>45 min: load testing. Practical session 1.</li>\n' +
+    //     '  <li>45 min: profiling. Practical session 2</li>\n' +
+    //     '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
+    //     '</ul>'
+    //   ],
+    //   purpose:
+    //   '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
+    //   'you “Your software is slow!” At that point you need to be able to find hotspots and' +
+    //   'optimize them.</p>',
+    //   tools:
+    //   '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
+    //   'and used.</p>',
+    //   target:
+    //   '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
+    //   'with specific performance constraints as well as for fans of optimization.</p>',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/alexfernandez/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/pinchito',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'http://pinchito.es/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       id: 9,
-      image: "images/reporters/alex_renandez.jpeg",
-      name: "Alex Fernandez",
-      position: "" ,
-      company: "",
-      place: '',
-      date: 'July 8',
-      duration: '2-3 h',
-      price: '',
-      aboutSpeaker:
-        'Alex Fernández is a developer with more than 20 years of experience in the software industry.' +
-        ' Shameless tinkerer since forever, he likes building more than adapting and adapting more than configuring. During ' +
-        'the course of his career he has gone from caring about seconds to worrying about milliseconds,' +
-        ' and then to squeezing those last microseconds; which honestly feels like an improvement. ' +
-        'My main hobby is talking to my 9 year old daughter, who is a really interesting little person!',
-      title: "Building Efficient Software: Let's Improve Our Performance! [En]",
-      description:
-      "<p>Software is usually built without specific constraints in mind. Then it is deployed to production, and in certain situations" +
-      " it may fail to meet expectations, consume too many resources – or break completely. As a developer you are likely to meet performance " +
-      "issues at some point. In this workshop we will see a few techniques that will be useful in these situations: finding bottlenecks," +
-      " running load tests, profiling and writing benchmarks. We will work on practical examples using JavaScript and Node.js." +
-      " Most of the techniques can be used in other environments too!</p>",
-      topics:[
-        '<ul>\n' +
-        '  <li>15 min: Review some theory about efficient software.</li>\n' +
-        '  <li>45 min: load testing. Practical session 1.</li>\n' +
-        '  <li>45 min: profiling. Practical session 2</li>\n' +
-        '  <li>45 min: micro-benchmarks. Practical session 3.</li>\n' +
-        '</ul>'
-      ],
-      purpose:
-      '<p>As your career progresses, there inevitably comes a dreaded day when a customer tells' +
-      'you “Your software is slow!” At that point you need to be able to find hotspots and' +
-      'optimize them.</p>',
-      tools:
-      '<p>A laptop with Node.js (v8 or later) installed. A few npm packages will be downloaded' +
-      'and used.</p>',
-      target:
-      '<p>The workshop is useful for developers of websites with sizeable traffic and software' +
-      'with specific performance constraints as well as for fans of optimization.</p>',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/alexfernandez/',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/pinchito',
-          fatype: 'twitter'
-        },
-        {
-          link: 'http://pinchito.es/',
-          fatype: 'link'
-        },
-      ]
-    },
-    {
-      id: 10,
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
       company: "Scalac (Gdansk, Poland)",
       place: '',
-      date: 'July 8',
-      duration: '',
+      date: 'JULY 6, JULY 8 (2 SESSIONS)',
+      duration: '1.5 h',
       price: '',
-      aboutSpeaker: '',
-      title: "Workshop: Simple pet fetching web app using VueJS [Ru]",
+      aboutSpeaker: '<p> Natalia Tepluhina is a Frontend Developer based in Kyiv, Ukraine. She works at Scalac, ' +
+      '    where she builds single-page applications using different JavaScript frameworks (mostly ' +
+      '  Angular &amp; VueJS). Natalia is a constant learner and loves to share knowledge with ' +
+      '    other people. She is a regular participant of local VueJS meetups and is an occasional ' +
+      '  speaker at Scalac internal frontend development presentations. In her spare time ' +
+      '  Natalia enjoys playing videogames and doing some sports.</p>',
+      title: "Build A Simple Pet Fetching Web App using VueJS [Ru]",
       description:
-        "<p>Mini-workshop to teach Vue.js in a cool and fun way to 'foxy people who identify as women</p>",
+      "<p>During the workshop we will create a Vue application from scratch using the " +
+      "  Codesandbox Vue template. Together we’ll apply Vuetify (Vue Material Design-based " +
+      "  CSS framework) and Axios for API calls. The workshop will include Vue core concepts, " +
+      "    component basics (props &amp; event emitters) and REST API calls with Axios. There will " +
+      "  be some &#39;challenge chapters&#39; for the persons who finished workshop content faster than " +
+      "  planned.</p>",
       topics:[],
-      purpose: '',
-      tools: '',
-      target:'',
+      purpose: '<p>It&#39;s a free workshop for women willing to get familiar with VueJS. It&#39;s very basic and will ' +
+      '  give attendees the knowledge of the core framework concepts.</p>',
+      tools: 'You will use Codesandbox so no need in any kind of IDE, only your laptops.',
+      target:'Any women who want to start learning VueJS.',
       socialsRendered: '',
       socials: [
         {
@@ -584,7 +649,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 11,
+      id: 10,
       image: "images/reporters/max_klymyshyn.jpg",
       name: "Max Klymyshyn",
       position: "" ,
@@ -627,7 +692,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 12,
+      id: 11,
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
       position: "" ,
@@ -680,22 +745,38 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 13,
+      id: 12,
       image: "images/reporters/trishul_goel.png",
       name: "Trishul Goel",
-      position: "Tech Speaker" ,
-      company: "Mozilla",
+      position: "Frontend Developer" ,
+      company: "IOMEDIA & Mozilla Representative",
       place: '',
       date: 'July 8',
-      duration: '',
+      duration: '3 h',
       price: '',
-      aboutSpeaker: "",
-      title: "Build your own browser extension [En]",
-      description: "",
-      topics:[],
-      purpose: '',
+      aboutSpeaker: "<p>Trishul is a professional frontend developer; writes React code for living and volunteers" +
+        "  for Mozilla to justify his existence. He is an expert in developing browser extensions." +
+        "    You may know him for his Measure-it extension with 15K+ users.\n" +
+        "    He also creates YouTube tutorial videos, to help developers understand and get started" +
+        "  with various Webextension APIs.</p>",
+      title: "Unleash power of browsers with extensions [En]",
+      description: "<p>Browsers are our gateway to the Internet. Therefore, they should be the most" +
+        "  personalized/customized/adaptive things. During this workshop we will get started with" +
+        "    creating quick browser extension and then proceed with talking about several web-" +
+        "  extensions API, mainly ‘tabs’ API and ‘webRequest’ APIs. Following that we’ll discover" +
+        "  how to port this extension across Chrome/ Firefox/ Safari.</p>",
+      topics: ['<ul>\n' +
+        "<li>Explaining webRequest and tabs APIs in details</li>"+
+        "<li>Collecting quick ideas for browser extensions</li>"+
+        "<li>Getting started with creating an extension with some of the collected ideas</li>"+
+        "<li>By the end of the workshop we will hopefully have a few add-ons published to the Firefox/ Chrome store.</li>"+
+        "</ul>"],
+      purpose: '<p>Have you ever had a thought like “why doesn’t my browser do ‘this’ for me”? ' +
+      'Then what about making your browser do ‘that’? This workshop is all about how to make maximum use ' +
+      'of your browser by creating extensions.</p>',
       tools: '',
-      target: '',
+      target: 'You do not require any tools or equipment other than your laptop. Before this workshop ' +
+      'it’d be really nice if you gave a thought about what you want your browser to do ‘extra’.',
       socialsRendered: '',
       socials: [
         {
@@ -720,6 +801,37 @@ $(document).ready(function(){
         },
       ]
     },
+    {
+      id: 13,
+      image: "images/logo.png",
+      name: "Sara Vieira & Katarzyna Jastrzębska-Łachacz",
+      position: "" ,
+      company: "",
+      place: '',
+      date: 'July 8',
+      duration: '6-7 h',
+      price: '',
+      aboutSpeaker:
+        "<p>Sara Vieira is a frontend developer at a consulting company, so she loves making things and teaching people all about the amazing Internet. Sara likes football and used to play as a goalkeeper for many years! Also, she knows how to play drums and jokes that 'that's a reason of her terrible earing'</p>"+
+        "<p>Katarzyna Jastrzębska-Łachacz is a frontend developer with over 6 years of experience in various frameworks and libraries (Polymer, Ember, Backbone). She really likes to work with Node.js, React, Redux, GraphQL and Apollo. Katarzyna loves horse riding, Fincher movies and King books and draws inspiration from two closest people: her daughter and mom.</p>",
+      title: "Ultimate styling workshop for react developers [En]",
+      description:
+        "During the workshop attendees will learn how to solve styling for their React Application. We will start with applying vanilla CSS to the app with BEM architecture. Then we’ll proceed with applying preprocessors like Sass to the app and will go through setup with Webpack. Together we’ll use CSSModules library instead of BEM and try to compare them both. Finally, the last module of the workshop will be ‘CSS-in-JS’. It’ll be supplemented with the styled-components example.",
+      topics:[
+        "<ul>"+
+          "<li>Application of vanilla CSS to the app with BEM</li>"+
+          "<li>Design of architecture for a small application</li>"+
+          "<li>Application of preprocessors to the app</li>"+
+          "<li>Creation of a theme with color and size variables using Sass</li>"+
+          "<li>Creation of components which don’t share any styles using CSSModules</li>"+
+        "</ul>"
+      ],
+      purpose: "Sara and Katarzyna will show you that CSS and styling react application can be painless. There are various options to build CSS architecture around an application. You will see possibilities of all these options and compare them in practice.",
+      tools: "Computer with chosen IDE, node.js installed, internet. Basic React knowledge is required.",
+      target: '',
+      socialsRendered: '',
+      socials: []
+    },
   ];
 
   $(document).on('click', '[data-modal-trigger="#training-modal"]', function() {
@@ -729,7 +841,7 @@ $(document).ready(function(){
 
   function loadSpeakerModal($trainingInfoBlock) {
     var $modalBody = $('#training-modal'),
-      $modalSpeakerAvatar = $modalBody.find('.img-fluid'),
+      $modalSpeakerAvatar = $modalBody.find('.img-fluid').toggle(false),
 
       $modalNameElement = $modalBody.find('.speaker__name').toggle(false),
       $modalSpeakerPosition = $modalBody.find('.speaker__position').toggle(false),
@@ -814,7 +926,7 @@ $(document).ready(function(){
         links = '',
         topicsContent = '';
 
-      trainingAvatar && $modalSpeakerAvatar.attr('src', trainingAvatar);
+      trainingAvatar && $modalSpeakerAvatar.attr('src', trainingAvatar).toggle(true);
 
       trainingName && $modalNameElement.text(trainingName).toggle(true);
       trainingPosition && $modalSpeakerPosition.text(trainingPosition).toggle(true);
@@ -844,7 +956,7 @@ $(document).ready(function(){
       trainingPurpose && $modalPurposeContainer.find('.modal-body__text').html(trainingPurpose).end().toggle(true);
       trainingTools && $modalToolsContainer.find('.modal-body__text').html(trainingTools).end().toggle(true);
       trainingTarget && $modalTargetContainer.find('.modal-body__text').html(trainingTarget).end().toggle(true);
-      trainingAboutText && $modalSpeakerAboutText.find('.modal-body__text').text(trainingAboutText).end().toggle(true);
+      trainingAboutText && $modalSpeakerAboutText.find('.modal-body__text').html(trainingAboutText).end().toggle(true);
 
       $modalBody.modal('show');
     }
