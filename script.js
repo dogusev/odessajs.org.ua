@@ -177,6 +177,35 @@ function loadAskQuestionModal($speakerBlock) {
     distance: '0px'
   }, 300);
 
+
+//  Image Lazy loading
+
+  initLazyLoad();
+
+  $(window).on('scroll', function () {
+    initLazyLoad()
+  });
+
+  function initLazyLoad() {
+    var windowPosition = $(window)[0].pageYOffset + $(window)[0].innerHeight,
+      $items = $('img[data-src]');
+
+    $items.each(function(i, item){
+      if ( windowPosition >= $(item).offset().top - 200) {
+        setSource(item)
+      }
+    });
+
+    function setSource (img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+
+      img.onload = function() {
+        img.removeAttribute('data-src');
+      };
+    }
+  }
+//  Image Lazy loading
+
 })(jQuery); // End of use strict
 
 
@@ -369,14 +398,3 @@ function initMap() {
   });
   marker.setMap(map);
 }
-
-// $(document).ready(function(){
-//   $('.speakers-slider').slick({
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     dots: false,
-//     infinite: false
-//   });
-//
-//   //initMap();
-// });
