@@ -187,11 +187,20 @@ function loadAskQuestionModal($speakerBlock) {
   });
 
   function initLazyLoad() {
-    var windowPosition = $(window)[0].pageYOffset + $(window)[0].innerHeight,
-      $items = $('img[data-src]');
+    var windowTopPosition = $(window)[0].pageYOffset,
+        windowBottomPosition = $(window)[0].pageYOffset + $(window)[0].innerHeight,
+        $items = $('img[data-src]'),
+        showOffsets = $(window)[0].innerHeight / 2;
+
+    if( window.matchMedia("(max-width: 768px)").matches ){
+      showOffsets =  $(window)[0].innerHeight * 1.5;
+    }
 
     $items.each(function(i, item){
-      if ( windowPosition >= $(item).offset().top - 200) {
+      if (
+          ( windowTopPosition - ( $(item).offset().top + $(item).height ) <= showOffsets ) ||
+          (windowBottomPosition + showOffsets >= $(item).offset().top )
+      ) {
         setSource(item)
       }
     });

@@ -368,11 +368,11 @@ $(document).ready(function(){
       duration: '1.5 h',
       price: '',
       aboutSpeaker: '<p> Natalia Tepluhina is a Frontend Developer based in Kyiv, Ukraine. She works at Scalac, ' +
-  '    where she builds single-page applications using different JavaScript frameworks (mostly ' +
-  '  Angular &amp; VueJS). Natalia is a constant learner and loves to share knowledge with ' +
-  '    other people. She is a regular participant of local VueJS meetups and is an occasional ' +
-  '  speaker at Scalac internal frontend development presentations. In her spare time ' +
-  '  Natalia enjoys playing videogames and doing some sports.</p>',
+        '    where she builds single-page applications using different JavaScript frameworks (mostly ' +
+        '  Angular &amp; VueJS). Natalia is a constant learner and loves to share knowledge with ' +
+        '    other people. She is a regular participant of local VueJS meetups and is an occasional ' +
+        '  speaker at Scalac internal frontend development presentations. In her spare time ' +
+        '  Natalia enjoys playing videogames and doing some sports.</p>',
       title: "Build A Simple Pet Fetching Web App using VueJS [Ru]",
       description:
         "<p>During the workshop we will create a Vue application from scratch using the " +
@@ -383,9 +383,10 @@ $(document).ready(function(){
         "  planned.</p>",
       topics:[],
       purpose: '<p>It&#39;s a free workshop for women willing to get familiar with VueJS. It&#39;s very basic and will ' +
-  '  give attendees the knowledge of the core framework concepts.</p>',
+        '  give attendees the knowledge of the core framework concepts.</p>',
       tools: 'You will use Codesandbox so no need in any kind of IDE, only your laptops.',
       target:'Any women who want to start learning VueJS.',
+      buyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeedcTlwvHgz9rv5DbfC7rHbNrs-0s42n7J2p-X-WUJ8WZvqQ/viewform',
       socialsRendered: '',
       socials: [
         {
@@ -642,6 +643,7 @@ $(document).ready(function(){
       '  give attendees the knowledge of the core framework concepts.</p>',
       tools: 'You will use Codesandbox so no need in any kind of IDE, only your laptops.',
       target:'Any women who want to start learning VueJS.',
+      buyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeedcTlwvHgz9rv5DbfC7rHbNrs-0s42n7J2p-X-WUJ8WZvqQ/viewform',
       socialsRendered: '',
       socials: [
         {
@@ -864,6 +866,7 @@ $(document).ready(function(){
       $modalToolsContainer = $modalBody.find('.modal-body__tools').toggle(false),
       $modalTargetContainer = $modalBody.find('.modal-body__target').toggle(false),
       $modalSpeakerAboutText = $modalBody.find('.modal-body__about-speaker').toggle(false),
+      $modalBuyBtn = $('#workshop-buy'),
 
       trainingIndex = parseInt($trainingInfoBlock.attr('data-item-index')),
       $prevButton = $modalBody.find('button.prev'),
@@ -925,6 +928,7 @@ $(document).ready(function(){
         trainingTools = trainingData.tools,
         trainingTarget = trainingData.target,
         trainingAboutText = trainingData.aboutSpeaker,
+        $modalBuyBtnText = trainingData.buyLink || $modalBuyBtn.attr('data-link'),
         links = '',
         topicsContent = '';
 
@@ -959,6 +963,8 @@ $(document).ready(function(){
       trainingTools && $modalToolsContainer.find('.modal-body__text').html(trainingTools).end().toggle(true);
       trainingTarget && $modalTargetContainer.find('.modal-body__text').html(trainingTarget).end().toggle(true);
       trainingAboutText && $modalSpeakerAboutText.find('.modal-body__text').html(trainingAboutText).end().toggle(true);
+
+      $modalBuyBtn.attr('href', $modalBuyBtnText);
 
       $modalBody.modal('show');
     }

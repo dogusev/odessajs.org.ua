@@ -278,6 +278,7 @@ section#workshops {
       background-image: url(../images/ninja-bg-gray.png);
       background-size: cover;
       background-position: center;
+      min-height: 350px;
 
       &::before {
         position: absolute;
@@ -297,25 +298,43 @@ section#workshops {
         -webkit-animation: shine .75s;
         animation: shine .75s;
       }
+
       @-webkit-keyframes shine {
         100% {
           left: 125%;
         }
       }
+
       @keyframes shine {
         100% {
           left: 125%;
         }
       }
 
-
-      @media (max-width: 768px) {
-        padding-left: 0;
-        padding-right: 0;
+      @media (max-width: 1200px) {
+        min-height: 290px;
       }
 
       @media (max-width: 1024px) {
         padding-left: 0;
+      }
+
+      @media (max-width: 992px) {
+        min-height: 330px;
+      }
+
+      @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+        min-height: 240px;
+      }
+
+      @media (max-width: 575px) {
+        min-height: 300px;
+      }
+
+      @media (max-width: 400px) {
+        min-height: 220px;
       }
 
       img {
