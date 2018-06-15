@@ -1583,9 +1583,9 @@ $(document).ready(function(){
   var speakerItem = "<div class='row '> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
     " <div class='speakers-slide__img-wrapper'>" + "<img data-src='${image}' alt=''>" +
     "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
-    "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name'>${name}</span></h3>"+
-    "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position'>${position} @</span>" +
-    "<span class='speakers-slider__info-company'>${company}</span></p>"+
+    "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>"+
+    "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
+    "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>"+
     "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>"+
     "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
   $.template( "speakerTemplate", speakerItem );
@@ -1615,7 +1615,7 @@ $(document).ready(function(){
       if (i===0) {
         activeClass = 'active';
       }
-      finalSliderHtml+= '<div class="speakers-slide '+colClass+'">';
+      finalSliderHtml+= '<div class="speakers-slide '+colClass+'" itemprop="performer" itemscope itemtype="http://schema.org/Person">';
       finalSliderHtml+=renderedSpeakers[i];
 
       // if(!ifmobile && renderedSpeakers[i+1]) {

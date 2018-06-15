@@ -73,7 +73,7 @@
 
 
 </head>
-<body id="page-top">
+<body id="page-top" itemscope itemtype="http://schema.org/Event">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4Z6WPL"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -126,7 +126,7 @@
         <!--<a class="nav-link js-scroll-trigger" href="#rocked">How we rocked in 2017</a>-->
         <!--</li>-->
         <!--<li class="nav-item">-->
-          <!--<a class="nav-link js-scroll-trigger" href="#diversity">Diversity Program</a>-->
+        <!--<a class="nav-link js-scroll-trigger" href="#diversity">Diversity Program</a>-->
         <!--</li>-->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger rounded-circle" href="#location">Location</a>
@@ -146,7 +146,7 @@
   <div class="container my-auto">
     <div class="row">
       <div class="col-lg-4 mx-auto margin-top-6-rem">
-        <img src="images/logo.png" alt="" class="">
+        <img src="images/logo.png" alt="" class="" itemprop="image">
         <hr>
       </div>
       <div class="col-lg-12 mx-auto">
@@ -156,13 +156,15 @@
         <hr>
       </div>
       <div class="col-lg-8 mx-auto">
-        <p class="text-faded mb-5 main_subtitle">Next Odessa JS conference is coming on 6-8 July 2018</p>
+        <p class="text-faded mb-5 main_subtitle">Next <span itemprop="name">OdessaJS</span> conference is coming on
+          <time itemprop="startDate" datetime="2018-06-06">6</time>-<time itemprop="endDate" datetime="2018-06-08">8</time> July 2018
+        </p>
         <div class="buttons_row">
           <!--
           <a class="btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQqU4iM-vBx6VRWHQcE1zKh3LW4KZ5231Oe0dQx-neBrrc3g/viewform">Submit your talk</a>
           -->
           <a class="btn btn-primary btn-xl main_button" target="_blank"
-             href="https://docs.google.com/forms/d/e/1FAIpQLSeedcTlwvHgz9rv5DbfC7rHbNrs-0s42n7J2p-X-WUJ8WZvqQ/viewform">Buy tickets</a>
+             href="https://odessajs2018.ticketforevent.com/en/">Buy tickets</a>
 
         </div>
         <p class="mb5 main_caption">
@@ -189,7 +191,7 @@
         </p>
       </div>
       <div class="col-lg-8 mx-auto mb-5">
-        <p class="main_subtitle text-center">
+        <p class="main_subtitle text-center" itemprop="description">
           This year it will already be the 6th conference.
           <br><br>
           The conference is full of strong technical talks and workshops, carefully selected by our Program Committee.
@@ -198,8 +200,21 @@
           <br><br>
           Sunny Odessa and the warm sea create a friendly atmosphere at OdessaJS which will be remembered the rest of the year.
           <br><br>
-          Ticket price is <strong>4000 UAH ~ 150 $</strong>. <br>
-          One Day Pass is <strong>2000 UAH ~ 77$</strong>. <br>
+
+          <span itemprop="offers" itemscope itemtype="http://schema.org/Offer"><u itemprop="name">Ticket price</u> is
+              <strong itemprop="price" content="150.00">4000 UAH ~ 150<u itemprop="priceCurrency" content="USD">$</u></strong>
+              <link itemprop="availability" href="http://schema.org/InStock">.
+              <meta itemprop="url" content="https://odessajs2018.ticketforevent.com/?_ga=2.34072484.400460245.1528873080-417015121.1526845254">.
+              <meta itemprop="validFrom" content="2018-01-01">
+            </span> <br>
+
+          <span itemprop="offers" itemscope itemtype="http://schema.org/Offer"><u itemprop="name">One Day Pass</u> is
+              <strong itemprop="price" content="77.00">2000 UAH ~ 77<u itemprop="priceCurrency" content="USD">$</u></strong>
+              <link itemprop="availability" href="http://schema.org/InStock">.
+              <meta itemprop="url" content="https://odessajs2018.ticketforevent.com/?_ga=2.34072484.400460245.1528873080-417015121.1526845254">.
+              <meta itemprop="validFrom" content="2018-01-01">
+            </span>  <br>
+
           We offer <strong>15%</strong>  discount for groups of <strong>10+</strong> or more.
           <br><br>
           Ticket price covers two days of conference <br>
@@ -290,19 +305,17 @@
 
 <section id="contact">
   <div class="container">
-    <div class="row animatedParent">
+    <div class="row animatedParent animateOnce">
       <div class="col-lg-12 mx-auto text-center animated fadeInLeft">
         <script type="text/javascript" src="https://odessajs2018.ticketforevent.com/en/widget/?h=0.01&s=0.73&rc=1&bt=1"></script>
-
       </div>
     </div>
-
   </div>
 </section>
 
 <section id="diversity">
   <div class="container my-auto">
-    <div class="row animatedParent">
+    <div class="row animatedParent animateOnce">
       <div class="col-lg-12 mx-auto block_title">
         <h3 class="text-uppercase main_subtitle text-center">
           <strong>Diversity Scholarships</strong>
@@ -350,7 +363,7 @@
 <section id="infographics">
   <div class="container my-auto">
     <div class="row">
-      <div class="col-lg-8 col-sm-12 mx-auto animatedParent infographics-container">
+      <div class="col-lg-8 col-sm-12 mx-auto animatedParent animateOnce infographics-container">
         <img data-src="images/OdessaJS-Infographics.jpg" alt="" class="img-responsive animated bounce">
         <br>
       </div>
@@ -391,9 +404,7 @@
       </div>
       <!--
        <div class="col-sm-11">
-
          <ul class="speakers-filters row">
-
            <li class="speakers-filters__item col-sm-6 col-lg-3">
              <a href="#" class="speakers-filters__link" target="_blank">Node JS</a>
            </li>
@@ -407,8 +418,6 @@
              <a href="#" class="speakers-filters__link" target="_blank">React JS</a>
            </li>
          </ul>
-
-
        </div>
       -->
       <div class="speakers-info-popup modal fade" id="speaker-modal">
@@ -486,409 +495,409 @@
 
       <div id="speakers-carousel" class="speakers-carousel slide w-100 col-12" data-ride="carousel">
         <div class="row" role="listbox" id="speakersSlider">
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="0" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/asimhussain.png"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Asim Hussain</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Cloud Developer Advocate @</span><span class="speakers-slider__info-company">Microsoft</span></p><p class="speakers-slider__info-rept font-weight-bold"> Serverless &amp; SPAs, a match made in Spevan [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://github.com/jawache" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/jawache" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://codecraft.tv" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="1" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/ivan_jovanovich.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Ivan Jovanovic</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Senior Software Engineer @</span><span class="speakers-slider__info-company">nearForm</span></p><p class="speakers-slider__info-rept font-weight-bold"> Serverless - the way microservices should be [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://github.com/ivanjov" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/ivanjov96" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://ivanjov.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="2" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/shinkevich.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Aleksandra Shinkevich</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Full-stack NodeJS Developer @</span><span class="speakers-slider__info-company">LOVATA</span></p><p class="speakers-slider__info-rept font-weight-bold"> Development standards: a step-by-step guide to implement it without pain [Ru] <br> <br> Get prepared for your performance. Speaker's guidelines from an organizer (tech corner) [Ru] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://www.facebook.com/aleksandra.shinkevich" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="speaker__link" href="https://github.com/neesoglasnaja" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="http://ash-web.by" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="3" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/trishul_goel.png"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Trishul Goel</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Tech Speaker @</span><span class="speakers-slider__info-company">Mozilla</span></p><p class="speakers-slider__info-rept font-weight-bold"> Cross browser extensions - lets make one [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://www.facebook.com/tsl143" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/trishulgoel" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://www.linkedin.com/in/trishul/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a><a class="speaker__link" href="http://github.com/tsl143/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="http://trishulgoel.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="4" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/gerard.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Gerard Sans</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Google Developer Expert @</span><span class="speakers-slider__info-company">Freelance</span></p><p class="speakers-slider__info-rept font-weight-bold"> Advanced State Management using ngrx v6 [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://twitter.com/gerardsans" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="http://github.com/gsans" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://stackoverflow.com/users/4508433/gerard-sans" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a><a class="speaker__link" href="https://medium.com/@gerard.sans" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
-          <div class="speakers-slide col-10 col-sm-6 col-lg-4"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="5" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/natalia_tepluhina.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span class="speakers-slide__info-title-name">Natalia Tepluhina</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position">Frontend Developer @</span><span class="speakers-slider__info-company">Scalac</span></p><p class="speakers-slider__info-rept font-weight-bold"> Workshop: Simple pet fetching web app using VueJS [Ru] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://twitter.com/N_Tepluhina" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="0" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/asimhussain.png"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Asim Hussain</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Cloud Developer Advocate @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">Microsoft</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Serverless &amp; SPAs, a match made in Spevan [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://github.com/jawache" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/jawache" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://codecraft.tv" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="1" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/ivan_jovanovich.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Ivan Jovanovic</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Senior Software Engineer @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">nearForm</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Serverless - the way microservices should be [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://github.com/ivanjov" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/ivanjov96" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://ivanjov.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="2" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/shinkevich.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Aleksandra Shinkevich</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Full-stack NodeJS Developer @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">LOVATA</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Development standards: a step-by-step guide to implement it without pain [Ru] <br> <br> Get prepared for your performance. Speaker's guidelines from an organizer (tech corner) [Ru] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://www.facebook.com/aleksandra.shinkevich" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="speaker__link" href="https://github.com/neesoglasnaja" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="http://ash-web.by" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="3" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/trishul_goel.png"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Trishul Goel</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Tech Speaker @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">Mozilla</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Cross browser extensions - lets make one [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://www.facebook.com/tsl143" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="speaker__link" href="https://twitter.com/trishulgoel" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="https://www.linkedin.com/in/trishul/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a><a class="speaker__link" href="http://github.com/tsl143/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="http://trishulgoel.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="4" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/gerard.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Gerard Sans</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Google Developer Expert @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">Freelance</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Advanced State Management using ngrx v6 [En] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://twitter.com/gerardsans" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="speaker__link" href="http://github.com/gsans" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a class="speaker__link" href="https://stackoverflow.com/users/4508433/gerard-sans" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a><a class="speaker__link" href="https://medium.com/@gerard.sans" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
+          <div class="speakers-slide col-10 col-sm-6 col-lg-4" itemprop="performer" itemscope itemtype="http://schema.org/Person"><div class="row "> <div data-modal-trigger="#speaker-modal" data-item-index="5" class="speakers-slide__item"> <div class="speakers-slide__img-wrapper"><img alt="" data-src="images/reporters/natalia_tepluhina.jpg"></div> <div class="speakers-slide__info-wrapper"> <div class="speakers-slide__info"><h3 class="speakers-slide__info-title"><span itemprop="name" class="speakers-slide__info-title-name">Natalia Tepluhina</span></h3><p class="speakers-slider__info__place-of-work"><span class="speakers-slider__info-position" itemprop="jobTitle">Frontend Developer @</span><span class="speakers-slider__info-company" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><u itemprop="name">Scalac</u></span></p><p class="speakers-slider__info-rept font-weight-bold"> Workshop: Simple pet fetching web app using VueJS [Ru] <br> <br></p><div class="speakers-slide__info-links"><a class="speaker__link" href="https://twitter.com/N_Tepluhina" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div> </div> </div> </div></div></div>
         </div>
-
-        <!--<div class="speakers-slider">
-          <div class="speakers-slide row">
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="speakers-slide row">
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="speakers-slide row">
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item offset-1 col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="speakers-slide__item col-5">
-              <div class="speakers-slide__img-wrapper">
-                <img src="images/speakers-img.jpg" alt="">
-              </div>
-              <div class="speakers-slide__info-wrapper">
-                <div class="speakers-slide__info">
-                  <h3 class="speakers-slide__info-title">Name Last Name</h3>
-                  <p class="speakers-slider__info-position">Position</p>
-                  <p class="speakers-slider__info-company">Company</p>
-                </div>
-                <div class="speakers-slide__info-links">
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  </a>W
-                  <a href="javascript:void(0)">
-                    <i class="fa fa-download" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>-->
       </div>
-    </div>
 
+      <!--<div class="speakers-slider">
+        <div class="speakers-slide row">
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title"><span>Name</span> <span>Last Name</span></h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide row">
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speakers-slide row">
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item offset-1 col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="speakers-slide__item col-5">
+            <div class="speakers-slide__img-wrapper">
+              <img src="images/speakers-img.jpg" alt="">
+            </div>
+            <div class="speakers-slide__info-wrapper">
+              <div class="speakers-slide__info">
+                <h3 class="speakers-slide__info-title">Name Last Name</h3>
+                <p class="speakers-slider__info-position">Position</p>
+                <p class="speakers-slider__info-company">Company</p>
+              </div>
+              <div class="speakers-slide__info-links">
+                <a href="javascript:void(0)">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="javascript:void(0)">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>W
+                <a href="javascript:void(0)">
+                  <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </div>
 </section>
 
 <section id="workshops" class="trainings">
@@ -1020,7 +1029,8 @@
               <!-- About trainer -->
 
               <div class="modal-body__text">
-                <a class="btn btn-primary btn-xl main_button" target="_blank"
+                <a id="workshop-buy" class="btn btn-primary btn-xl main_button" target="_blank"
+                   data-link="https://odessajs2018.ticketforevent.com/en/"
                    href="https://odessajs2018.ticketforevent.com/en/">Buy tickets</a>
               </div>
 
@@ -1046,7 +1056,7 @@
 
       <div class="trainings-carousel slide w-100 mb-3 col-12">
         <div class="row" role="listbox">
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="1" class="trainings-slide__item">
 
@@ -1057,7 +1067,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="2" class="trainings-slide__item">
 
@@ -1068,7 +1078,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="3" class="trainings-slide__item">
 
@@ -1079,18 +1089,16 @@
               </div>
             </div>
           </div>
-<!--           <div class="trainings-slide col-10 col-md-6 col-lg-4">
-            <div class="row h-100">
-              <div data-modal-trigger="#training-modal" data-item-index="4" class="trainings-slide__item">
-
-                <div class="trainings-slide__img-wrapper">
-                  <img data-src="images/workshops/fernandez_training_1.jpg" alt="Alex Fernandez">
-                </div>
-
-              </div>
-            </div>
-          </div> -->
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <!--           <div class="trainings-slide col-10 col-sm-6 col-lg-4">
+                      <div class="row h-100">
+                        <div data-modal-trigger="#training-modal" data-item-index="4" class="trainings-slide__item">
+                          <div class="trainings-slide__img-wrapper">
+                            <img data-src="images/workshops/fernandez_training_1.jpg" alt="Alex Fernandez">
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="4" class="trainings-slide__item">
 
@@ -1101,7 +1109,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="5" class="trainings-slide__item">
 
@@ -1112,7 +1120,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="6" class="trainings-slide__item">
 
@@ -1123,7 +1131,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="7" class="trainings-slide__item">
 
@@ -1145,7 +1153,7 @@
 
       <div class="trainings-carousel slide w-100 col-12">
         <div class="row" role="listbox">
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="8" class="trainings-slide__item">
 
@@ -1156,18 +1164,16 @@
               </div>
             </div>
           </div>
-<!--           <div class="trainings-slide col-10 col-md-6 col-lg-4">
-            <div class="row h-100">
-              <div data-modal-trigger="#training-modal" data-item-index="9" class="trainings-slide__item">
-
-                <div class="trainings-slide__img-wrapper">
-                  <img data-src="images/workshops/fernandez_training_2.jpg" alt="Alex Fernandez">
-                </div>
-
-              </div>
-            </div>
-          </div> -->
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <!--           <div class="trainings-slide col-10 col-sm-6 col-lg-4">
+                      <div class="row h-100">
+                        <div data-modal-trigger="#training-modal" data-item-index="9" class="trainings-slide__item">
+                          <div class="trainings-slide__img-wrapper">
+                            <img data-src="images/workshops/fernandez_training_2.jpg" alt="Alex Fernandez">
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="9" class="trainings-slide__item">
 
@@ -1178,7 +1184,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="10" class="trainings-slide__item">
 
@@ -1189,7 +1195,7 @@
               </div>
             </div>
           </div>
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="11" class="trainings-slide__item">
 
@@ -1201,7 +1207,7 @@
             </div>
           </div>
 
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="12" class="trainings-slide__item">
 
@@ -1213,7 +1219,7 @@
             </div>
           </div>
 
-          <div class="trainings-slide col-10 col-md-6 col-lg-4">
+          <div class="trainings-slide col-10 col-sm-6 col-lg-4">
             <div class="row h-100">
               <div data-modal-trigger="#training-modal" data-item-index="13" class="trainings-slide__item">
 
@@ -1234,7 +1240,7 @@
 
 <section id="sponsorship" class="paddings">
   <div class="container my-auto">
-    <div class="row animatedParent">
+    <div class="row animatedParent animateOnce">
       <div class="col-lg-12 mx-auto block_title">
         <h2 class="text-uppercase main_title text-center">
           <strong>SPONSORS</strong>
@@ -1406,7 +1412,6 @@
             <p>Lorem ipsum dolor sit amet, eam id regione noluisse ullamcorper, no vituperata posidonium pri. Te postea virtute tincidunt eos, at duo timeam discere inciderint. Cu cum wisi denique voluptatum, eam ea graeci sanctus invidunt.</p>
           </div>
           &ndash;&gt;
-
           <a class="main_button btn btn-primary btn-xl main_button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeQqU4iM-vBx6VRWHQcE1zKh3LW4KZ5231Oe0dQx-neBrrc3g/viewform">Submit a talk now</a>
         </div>
       </div>
@@ -1565,8 +1570,13 @@
             </div>
             <div class="col-12 offset-md-1 col-md-5">
               <br>
-              OK-Odessa<br>
-              Odessa, Gagarinsky plateau, 5<br>
+              <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                  <span itemprop="name">OK-Odessa</span><br>
+                  <span itemprop="address">
+                    Odessa, Gagarinsky plateau, 5
+                  </span>
+                </span>
+              <br>
               тел:  (048) 705 77 10,<br>
               (048) 705 77 08<br>
             </div>
@@ -1613,7 +1623,7 @@
 
 <section id="media-partners" class="paddings">
   <div class="container my-auto">
-    <div class="row animatedParent">
+    <div class="row animatedParent animateOnce">
       <div class="col-lg-12 mx-auto block_title">
         <h2 class="text-uppercase main_title text-center">
           <strong>Media Partners</strong>
@@ -1732,13 +1742,13 @@
 <section id="program-commitee" class="program-committee">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 mx-auto block_title animatedParent">
+      <div class="col-lg-12 mx-auto block_title animatedParent animateOnce">
         <h2 class="text-uppercase text-center main-title animated fadeInLeft"><strong>program committee</strong></h2>
         <hr>
       </div>
     </div>
 
-    <!--<div class="col-lg-10 mx-auto animatedParent">
+    <!--<div class="col-lg-10 mx-auto animatedParent animateOnce">
       <p class="mb-5 main_subtitle animated fadeInRight">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis
         sem justo, consequat
@@ -1747,12 +1757,10 @@
         Praesent eu libero ut urna laoreet viverra. Vestibulum eget fringilla elit. Aenean porttitor
         ultrices condimentum. Donec ultricies ligula ullamcorper congue tempor. Morbi rutrum quam nec
         eleifend tempus.
-
         Sed tempus eget urna vitae sollicitudin. Vestibulum ut rutrum velit, non molestie metus.
         Quisque a enim quis metus varius hendrerit. Nulla enim urna, imperdiet eu magna dictum,
         suscipit malesuada augue. Donec ultricies tellus ut tellus sollicitudin condimentum. Proin
         at magna urna. Nunc vel tempus sem. Suspendisse eu tristique sem, ut fringilla nisl.
-
         Proin eget maximus libero. Proin malesuada nunc sit amet turpis congue, in malesuada quam
         fringilla. Donec nec metus nulla. Sed sed dui enim. Etiam neque tellus, dignissim a nibh quis,
         sollicitudin hendrerit enim. Cras ac dignissim felis. Fusce pulvinar nisi facilisis finibus
@@ -1760,7 +1768,6 @@
         vestibulum leo. Aliquam quis finibus massa. Donec pellentesque dui massa, at eleifend purus
         aliquam eu. Fusce vel rhoncus purus. Integer blandit sem arcu, fermentum placerat elit
         bibendum ac.
-
         In hac habitasse platea dictumst. Sed rutrum nibh vitae urna condimentum feugiat. Proin sit
         amet ipsum sit amet turpis tincidunt pretium. Donec in turpis semper, mollis urna eu,
         feugiat neque. Nulla vestibulum turpis nunc, at pharetra felis iaculis vel. Morbi ullamcorper
@@ -1942,15 +1949,15 @@
 
         </div>
         <a class="carousel-control-prev" href="#programCommitteeCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true">
-            <i class="fa fa-angle-left"></i>
-          </span>
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fa fa-angle-left"></i>
+            </span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#programCommitteeCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true">
-            <i class="fa fa-angle-right"></i>
-          </span>
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fa fa-angle-right"></i>
+            </span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -2055,8 +2062,8 @@
         <div class="form-group row">
           <label class="col-3 control-label" for="ask-message">Your message</label>
           <div class="col-9">
-            <textarea class="form-control" id="ask-message" name="ask-message"
-                      placeholder="Please enter your message here..." rows="5" required></textarea>
+              <textarea class="form-control" id="ask-message" name="ask-message"
+                        placeholder="Please enter your message here..." rows="5" required></textarea>
           </div>
         </div>
         <div class="form-group text-right">
@@ -2074,31 +2081,24 @@
             <form class="form-horizontal" action="" method="post">
               <fieldset>
                 <legend class="text-center">Contact us</legend>
-
                 <div class="form-group">
                   <label class="col-3 control-label" for="name">Name</label>
                   <div class="col-9">
                     <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
                   </div>
                 </div>
-
-
                 <div class="form-group">
                   <label class="col-3 control-label" for="email">Your E-mail</label>
                   <div class="col-9">
                     <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
                   </div>
                 </div>
-
-
                 <div class="form-group">
                   <label class="col-3 control-label" for="message">Your message</label>
                   <div class="col-9">
                     <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                   </div>
                 </div>
-
-
                 <div class="form-group">
                   <div class="col-12 text-right">
                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
@@ -2239,13 +2239,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116592399-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-
   function gtag() {
     dataLayer.push(arguments);
   }
-
   gtag('js', new Date());
-
   gtag('config', 'UA-116592399-1');
 </script>
 
