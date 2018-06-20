@@ -5,9 +5,25 @@
     margin: 0 auto;
     width: 100%;
     max-width: 170px;
+    transition: .2s;
+
+
+    @media (min-width: 1200px) and (max-height: 740px) {
+      max-width: 140px;
+    }
+
+    @media (min-width: 1200px) and (max-height: 640px) {
+      max-width: 130px;
+    }
 
     @media (max-width: 1200px) {
       max-width: 150px;
+    }
+    @media (max-width: 1200px) and (max-height: 700px) {
+      max-width: 120px;
+    }
+    @media (max-width: 1200px) and (max-height: 640px) {
+      max-width: 110px;
     }
     @media (max-width: 992px) {
       max-width: 135px;
@@ -90,13 +106,22 @@
       font-family: 'Jura', sans-serif;
       font-size: 25px;
 
+      @media screen and (min-width: 1200px) {
+        font-size: 35px;
+      }
+      @media (min-width: 1200px) and (max-height: 740px) {
+        font-size: 30px;
+      }
+
+      @media (min-width: 1200px) and (max-height: 640px) {
+        font-size: 25px;
+      }
+
       @media screen and (max-width: 767px) {
         font-size: 27px;
       }
 
-      @media screen and (min-width: 1200px) {
-        font-size: 35px;
-      }
+
     }
     .main_subtitle {
       font-family: 'Roboto', sans-serif;
@@ -129,6 +154,7 @@
     background-image: url('../images/footer_bg.png');
     background-position: center bottom;
     background-color: #e8e8e8;
+    background-repeat: no-repeat;
     @include background-cover;
   }
 
@@ -138,6 +164,7 @@
     background-image: url('../images/ninja-bg-gray.png');
     background-position: center;
     background-color: #e8e8e8;
+    background-repeat: no-repeat;
     @include background-cover;
   }
 
@@ -147,6 +174,7 @@
     background-image: url('../images/header_top_gray.png');
     background-position: center top;
     background-color: #e8e8e8;
+    background-repeat: no-repeat;
     @include background-cover;
   }
 
@@ -165,9 +193,24 @@
       height: 230px;
       width: 100%;
 
+      @media (min-width: 1200px) and (max-height: 740px) {
+        height: 170px;
+      }
+
+      @media (min-width: 992px) and (max-height: 640px) {
+        height: 140px;
+      }
+
       @media (max-width: 1200px) {
         height: 170px;
       }
+      @media (max-width: 1200px) and (max-height: 700px) {
+        height: 150px;
+      }
+      @media (max-width: 1200px) and (max-height: 640px) {
+        height: 130px;
+      }
+
       @media (max-width: 768px) {
         height: 130px;
       }
@@ -186,8 +229,20 @@
       color: #e32d42;
       font-weight: 600;
 
+      @media (min-width: 1200px) and (max-height: 740px) {
+        font-size: 100px;
+      }
+      @media (min-width: 992px) and (max-height: 640px) {
+        font-size: 800px;
+      }
       @media (max-width: 1200px) {
         font-size: 100px;
+      }
+      @media (max-width: 1200px) and (max-height: 700px) {
+        font-size: 80px;
+      }
+      @media (max-width: 1200px) and (max-height: 640px) {
+        font-size: 60px;
       }
       @media (max-width: 992px) {
         font-size: 80px;
@@ -209,8 +264,22 @@
       li {
         font-size: 30px;
 
+        @media (min-width: 1200px) and (max-height: 740px) {
+          font-size: 27px;
+        }
+
+        @media (min-width: 992px) and (max-height: 640px) {
+          font-size: 24px;
+        }
         @media (max-width: 1200px) {
           font-size: 27px;
+        }
+
+        @media (max-width: 1200px) and (max-height: 700px) {
+          font-size: 25px;
+        }
+        @media (max-width: 1200px) and (max-height: 640px) {
+          font-size: 22px;
         }
         @media (max-width: 992px) {
           font-size: 25px;
