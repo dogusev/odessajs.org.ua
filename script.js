@@ -107,6 +107,10 @@ $(document).ready(function() {
     $('#ask-form').modal('show');
   });
 
+  $('[data-modal-trigger="#diversity-more"]').click(function(e) {
+    $( $(e.currentTarget).attr('data-modal-trigger') ).modal('show');
+  });
+
 });
 
 function loadAskQuestionModal($speakerBlock) {

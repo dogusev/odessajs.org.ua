@@ -27,46 +27,46 @@ section.about {
     color: #000;
   }
 
-  .about-schedule {
+  // .about-schedule {
 
-    &__item {
+  //   &__item {
 
-      @media (max-width: 768px) {
-        margin-bottom: 3rem;
+  //     @media (max-width: 768px) {
+  //       margin-bottom: 3rem;
 
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
+  //       &:last-child {
+  //         margin-bottom: 0;
+  //       }
+  //     }
 
-      .img-wrapper {
-        height: 40px;
-        width: 100%;
+  //     .img-wrapper {
+  //       height: 40px;
+  //       width: 100%;
 
-        img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-      }
+  //       img {
+  //         display: block;
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: contain;
+  //       }
+  //     }
 
-      h4 {
-        font-family: 'Jura', sans-serif;
-        font-size: 25px;
-        color: #e32d42;
-        font-weight: 600;
-      }
+  //     h4 {
+  //       font-family: 'Jura', sans-serif;
+  //       font-size: 25px;
+  //       color: #e32d42;
+  //       font-weight: 600;
+  //     }
 
-      ul {
-        margin-bottom: 0;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: #000;
-        list-style-image: url("../images/star.png");
-      }
-    }
-  }
+  //     ul {
+  //       margin-bottom: 0;
+  //       font-family: 'Roboto', sans-serif;
+  //       font-size: 16px;
+  //       color: #000;
+  //       list-style-image: url("../images/star.png");
+  //     }
+  //   }
+  // }
 
   .about-include {
 
