@@ -1,0 +1,226 @@
+.schedule {
+  //margin: -150px 0 0;
+  //padding-top: 480px;
+  //background: url('../images/ninja-bg.1.png') no-repeat 50% 0 #8b8b8b;
+  //background-color: #8b8b8b;
+
+  &__inner {
+    padding: 0 20px;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__hall-titles {
+    margin-left: 210px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #212529;
+    @media screen and (max-width: 720px) {
+      margin-left: 100px;
+      font-size: 13px;
+    }
+  }
+
+  &__hall-title-a,
+  &__hall-title-b,
+  &__hall-title-c {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    &--triple {
+      width: 33%;
+    }
+    &--squad {
+      width: 25%;
+    }
+  }
+
+  &__hall-title-c {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  &__hall-title-tc {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    &--squad {
+      width: 25%;
+    }
+  }
+
+  &__title {
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jura';
+    font-weight: 600;
+    margin-bottom: 40px;
+    @media screen and (max-width: 720px) {
+      font-size: 40px;
+      letter-spacing: -1px;
+    }
+  }
+
+  &__second-title {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jura';
+    margin-bottom: 30px;
+    font-weight: 600;
+    @media screen and (max-width: 720px) {
+      font-size: 30px;
+      letter-spacing: -1px;
+    }
+  }
+
+  &__bottom-bg {
+    height: 309px;
+    width: 100%;
+    background: url('../images/schedule.png') no-repeat 50% 100%;
+  }
+  &__info {
+    display: flex;
+    margin-bottom: 8px;
+    &-time {
+      padding-left: 25px;
+      color: #fff;
+      font-size: 16px;
+      width: 205px;
+      height: 56px;
+      line-height: 56px;
+      background: url('../images/connector-1.1.png') no-repeat 100% 50% #838383;
+      &--hatching {
+        background: url('../images/connector-hatching.png')  no-repeat 100% 50% #db2b3d;
+      }
+      @media screen and (max-width: 720px) {
+        width: 100px;
+        font-size: 13px;
+        padding-left: 5px;
+      }
+    }
+    &-text {
+      flex: 1;
+      height: 56px;
+      line-height: 56px;
+      color: #fff;
+      font-size: 16px;
+      background: #767676;
+      padding-left: 15px;
+      position: relative;
+      overflow: hidden;
+      @media screen and (max-width: 720px) {
+        font-size: 13px;
+      }
+      &--hatching {
+        background: url('../images/hatching.png') repeat -1px 0 #cd1f31;
+        @media screen and (max-width: 720px) {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      &--with-margin {
+        margin-right: 13px;
+      }
+      &-icon {
+        display: inline-block;
+        margin: -4px 10px 0 0;
+        vertical-align: middle;
+        &.form {
+          width: 34px;
+          height: 37px;
+          background: url('../images/form.png') no-repeat 0 0;
+        }
+        &.cup {
+          width: 41px;
+          height: 41px;
+          background: url('../images/cup.png') no-repeat 0 0;
+        }
+        &.key {
+          width: 38px;
+          height: 38px;
+          background: url('../images/key.png') no-repeat 0 0;
+        }
+        &.dinner {
+          width: 34px;
+          height: 32px;
+          background: url('../images/dinner.png') no-repeat 0 0;
+        }
+        &.pizza {
+          width: 34px;
+          height: 32px;
+          background: url('../images/dinner.png') no-repeat 0 0;
+        }
+      }
+      &--note {
+        display: block;
+        position: absolute;
+        top: 15px;
+        font-size: 9px;
+        padding-left: 15px;
+        color: antiquewhite;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+
+  &__reporter {
+    color: #666666;
+  }
+
+  &__report {
+    margin-bottom: 8px;
+    display: flex;
+    &-time {
+      padding-left: 25px;
+      color: #000;
+      font-size: 16px;
+      width: 185px;
+      height: 56px;
+      line-height: 56px;
+      background: url('../images/connector-2.1.png') no-repeat 100% 50% #fff;
+      @media screen and (max-width: 720px) {
+        width: 100px;
+        padding-left: 5px;
+        font-size: 13px;
+      }
+    }
+    &-hall {
+      //padding: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      font-size: 16px;
+      text-align: center;
+      background: #fff;
+      @media screen and (max-width: 720px) {
+        font-size: 13px;
+      }
+
+      &:nth-child(2) {
+        margin-right: 13px;
+      }
+
+      &:last-child {
+        margin-left: 13px;
+      }
+    }
+  }
+}

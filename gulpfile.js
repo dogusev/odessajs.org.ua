@@ -35,6 +35,7 @@ gulp.task('script-min', function () {
       'vendor/renderSpeakers.js',
       'vendor/renderTrainings.js',
       'vendor/renderKeyTopics.js',
+      'vendor/renderSchedule.js',
       'script.js'
     ])
     .pipe(concat('script.min.js'))
