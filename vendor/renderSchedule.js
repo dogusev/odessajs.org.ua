@@ -4,13 +4,13 @@ $(document).ready(function () {
     {time: '16:30', author: '', title: 'Registration and welcome drinks'},
     {time: '17:00', author: 'Sara Vieira', title: 'The Dream of Styleguide Driven Development'},
     {time: '17:30', author: '', title: 'Break'},
-    {time: '17:45', author: 'Haroen Viaene', title: 'You’re probably making an api client'},
+    {time: '17:45'},
     {time: '18:15', author: '', title: 'Break'},
     {time: '18:30', author: 'Alex Troush', title: 'The existential crisis in a blockchain era'},
     {time: '19:00', author: '', title: 'Pizza break'},
     {time: '19:30', author: 'Aleksandra Shynkevich & Nikita Dubko', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer [Speech]'},
     {time: '20:00', author: '', title: 'Break'},
-    {time: '20:10', author: 'Mike MacCana', title: 'Deploying your JS app in 2018 [en]'},
+    {time: '20:10'},
     {time: '20:30', author: '', title: 'Q&A Session'},
   ];
 
@@ -102,7 +102,7 @@ $(document).ready(function () {
       talks: [
         {author: 'Patrick Kettner ', title: ' JavaScript without javascript'},
         {author: 'Roman Sachenko', title: 'NodeJS + CQRS + Event Sourcing: pros and cons'},
-        {author: 'Denis Radin ', title: 'TBD'}
+        {author: '', title: ''}
       ]
     },
     {
@@ -115,7 +115,7 @@ $(document).ready(function () {
       time: '16:50- 17:30',
       talks: [
         {author: '[en] David Kopal', title: 'Unleash the power of the higher-order components'},
-        {author: 'Mihail Zachepilo', title: 'WebAssembly powered Machine Learning'},
+        {author: '[ru] Arkadiy Pilguk ', title: 'Real-world application of computer vision and machine learning in modern web applications'},
         {author: 'Roman Rodomansky and Andrew Yasinishyn', title: 'Processes automation within the company'}
       ]
     },
@@ -130,7 +130,7 @@ $(document).ready(function () {
       talks: [
         {author: 'Henning Muszynski', title: 'The ABC of Coded Style Guides'},
         {author: '[ua] Леонід Байда', title: 'If you don\'t like how your static typing smells, maybe you do it wrong'},
-        {author: '', title: ''}
+        { author: 'Mike MacCana', title: 'Deploying your JS app in 2018 [en]'}
       ]
     },
     {
@@ -152,7 +152,7 @@ $(document).ready(function () {
       time: '09:30- 10:10',
       talks: [
         {author: 'Viktor Turskyi', title: 'Virtual reality with ReactVR'},
-        {author: '[ru] Valerii Sorokobatko', title: 'Passing strings using (in)finite-state-machine and prepack'},
+        {author: 'Mihail Zachepilo', title: 'WebAssembly powered Machine Learning'},
         {author: 'Eyal Eizenberg', title: 'The Psychology of building your first open source'},
         {author: '', title: ''},
       ]
@@ -213,8 +213,7 @@ $(document).ready(function () {
       talks: [
         {author: 'Katarzyna Jastrzębska', title: 'Reuse your code in React like it\'s 2018'},
         {author: 'Nikita Dubko', title: 'Houdini - css which is JavaScript'},
-        {author: '', title: ''},
-        {author: '', title: ''},
+        { author: 'Haroen Viaene', title: 'You’re probably making an api client'},
       ]
     },
     {
@@ -243,7 +242,7 @@ $(document).ready(function () {
       talks: [
         {author: '[en] Denis Radin ', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try'},
         {author: '[ru] Arkadiy Pilguk ', title: 'Real-world application of computer vision and machine learning in modern web applications'},
-        {author: 'Phillip Shurpik', title: 'OK Google. What\'s next?'},
+        {author: '[ru] Valerii Sorokobatko', title: 'Passing strings using (in)finite-state-machine and prepack'},
         {author: '', title: ''},
       ]
     },

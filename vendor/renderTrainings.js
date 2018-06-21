@@ -220,25 +220,40 @@ $(document).ready(function(){
     {
       id: 4,
       image: "images/reporters/timur_shemsedinov.jpg",
-      name: "Timur Shemsedinov",
-      position: "Software systems architect" ,
-      company: "Metarhia",
+      name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
+      position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
+      company: "Metarhia, MIA, KPI & vi",
       place: '',
       date: 'July 6',
-      duration: '4 h',
+      duration: '6 h',
       price: '',
       aboutSpeaker: '',
       title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
       description:
-        "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+        "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. " +
+        "Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative," +
+        " asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful" +
+        " software abstractions and code examples, best parts and demo projects with modern technologies usage." +
+        " Lectures includes over 500 code examples collected after years of practice in different languages ​​and " +
+        "platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes " +
+        "75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the " +
+        "Kiev Polytechnic Institute.</p>",
       topics:[
         '<ul>'+
-          '<li>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</li>' +
-          '<li>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees and N-linked trees, balancing and searching, graphs</li>' +
-          '<li>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key collectors, Async adapters and utilities</li>' +
-          '<li>Functional programming: higher order functions, composition, curry, partial application, functors, function objects, monads, functional inheritance, functional code style comparison and optimizations</li>' +
-          '<li>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</li>' +
-          '<li>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</li>'+
+          '<li>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and ' +
+              'Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</li>' +
+          '<li>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented ' +
+            'on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees ' +
+            'and N-linked trees, balancing and searching, graphs</li>' +
+          '<li>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, ' +
+            'event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key' +
+            ' collectors, Async adapters and utilities</li>' +
+          '<li>Functional programming: higher order functions, composition, curry, partial application, functors, function ' +
+            'objects, monads, functional inheritance, functional code style comparison and optimizations</li>' +
+          '<li>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication,' +
+            ' bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</li>' +
+          '<li>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload ' +
+            'and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</li>'+
         '</ul>'
       ],
       purpose:
@@ -487,7 +502,7 @@ $(document).ready(function(){
         "<p>As a result, we can start a game in which one of the assistants will start the game and say the first move, and the second " +
         "will accept the voice command and make a decision about its actions. And so until one of them wins. During the game it would be cool" +
         " to connect the TV on which the visualization of moves will be made and the real battle will be seen.</p>" +
-          
+
         "<p>Our mentors will be divided into 2 teams and will create a skill for Alexa and for Google and talk about the main points " +
         "of creating bots. After both teams tell and show all points - the battle will start!</p>",
       topics:[],
@@ -883,7 +898,67 @@ $(document).ready(function(){
       target: '',
       socialsRendered: '',
       socials: []
-    }
+    },
+    {
+      id: 15,
+      image: "images/reporters/timur_shemsedinov.jpg",
+      name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
+      position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
+      company: "Metarhia, MIA, KPI & vi",
+      place: '',
+      date: 'July 8',
+      duration: '6 h',
+      price: '',
+      aboutSpeaker: '',
+      title: "Software Engendering Fundamentals for JavaScript Developers [Ru]",
+      description:
+      "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. " +
+      "Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative," +
+      " asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful" +
+      " software abstractions and code examples, best parts and demo projects with modern technologies usage." +
+      " Lectures includes over 500 code examples collected after years of practice in different languages ​​and " +
+      "platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes " +
+      "75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the " +
+      "Kiev Polytechnic Institute.</p>",
+      topics:[
+        '<ul>'+
+        '<li>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining, Factory and ' +
+        'Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and caching</li>' +
+        '<li>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list implemented ' +
+        'on classes, prototypes, arrays and closures, other linked structures, ArrayList, Buffer, binary trees ' +
+        'and N-linked trees, balancing and searching, graphs</li>' +
+        '<li>Asynchronous programming: callbacks, parallel and sequential collections iteration, control flow, ' +
+        'event flow and data flow approaches, generators, Promise, events, asynchronous function composition, Data and Key' +
+        ' collectors, Async adapters and utilities</li>' +
+        '<li>Functional programming: higher order functions, composition, curry, partial application, functors, function ' +
+        'objects, monads, functional inheritance, functional code style comparison and optimizations</li>' +
+        '<li>Structure and architecture: modules, layers, isolation and binding, web services, inter process communication,' +
+        ' bus, broker, pipeline, Inversion of Control and Dependency Injection, metamprogramming and dynamic binding</li>' +
+        '<li>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration, live code reload ' +
+        'and updating application on the fly, testing, deployment, garbage collection, memory leaks, object-relational mapping</li>'+
+        '</ul>'
+      ],
+      purpose:
+        '<p>To get overview of all aspects and techniques in software engendering because it usually lays behind frameworks and practical skills, but generalization and complex view allows to find better and elegant solutions in most cases and makes code structural, reusable and compatible</p>',
+      tools: '',
+      target:
+        '<p>I believe developer of any level will find something interesting in proposed topics</p>',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://github.com/tshemsedinov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://www.linkedin.com/in/shemsedinov/',
+          fatype: 'linkedin'
+        },
+        {
+          link: 'https://habr.com/users/marcusaurelius/posts/',
+          fatype: 'link'
+        },
+      ]
+    },
   ];
 
   $(document).on('click', '[data-modal-trigger="#training-modal"]', function() {
