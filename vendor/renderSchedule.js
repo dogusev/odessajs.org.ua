@@ -214,6 +214,7 @@ $(document).ready(function () {
         {author: 'Katarzyna Jastrzębska', title: 'Reuse your code in React like it\'s 2018'},
         {author: 'Nikita Dubko', title: 'Houdini - css which is JavaScript'},
         { author: 'Haroen Viaene', title: 'You’re probably making an api client'},
+        {author: '', title: ''},
       ]
     },
     {
@@ -274,6 +275,31 @@ $(document).ready(function () {
       ]
     }
   ];
+
+
+  var workshop6july = [
+    {time: '09:00 - 12:00', talks: [ { author: 'Alex Migutsky ', title: 'Growing your career as software engineer' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Ivan Jovanovic ', title: 'Testing javascript applications' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Gerard Sans ', title: 'Fullstack graphQl using react with Gerard Sans' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'David Mullerchen ', title: 'Angular 101' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf ', title: 'Get Started with Reason & ReasonReact' },]},
+    {time: '13:00 - 15:00', talks: [ { author: 'Natalia Tepluhina ', title: 'Build A Simple Pet Fetching Web App using VueJS' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developer' },]},
+    {time: '12:00 - 15:00', talks: [ { author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle' },]}
+  ];
+
+
+
+  var workshop8july = [
+    {time: '09:00 - 11:00', talks: [ { author: 'Natalia Tepluhina', title: 'Build A Simple Pet Fetching Web App using VueJS' },]},
+    {time: '11:00 - 14:00', talks: [ { author: 'Alex Migutsky', title: 'Growing your career as software engineer' },]},
+    {time: '14:00 - 16:00', talks: [ { author: 'Max Klymyshyn', title: 'Build blockchain using CRDT and Merkle Trees' },]},
+    {time: '10:00 - 12:00', talks: [ { author: 'Sara and Katarzyna', title: 'Ultimate style workshop for React' },]},
+    {time: '12:00 - 15:00', talks: [ { author: 'Trishul Goel', title: 'Build your own browser extension' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf', title: 'Build Serverless Node.js Application on AWS' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developers' },]}
+  ];
+
 
   var infoBlock =
     '           <div class="schedule__info">' +
@@ -356,12 +382,42 @@ $(document).ready(function () {
       selector: '#july8_schedule'
     });
 
+
+
+    // _____________________________________________
+
+    var july6_workshops = '';
+
+    renderSchedulesWithHalls({
+      data: workshop6july,
+      render: july6_workshops,
+      selector: '#july6_workshops',
+      splitLines: true
+    });
+
+
+
+    // _____________________________________________
+
+
+    var july8_workshops = '';
+
+    renderSchedulesWithHalls({
+      data: workshop8july,
+      render: july8_workshops,
+      selector: '#july8_workshops',
+      splitLines: true
+    });
   }
 
   function renderSchedulesWithHalls(opt) {
     $.each(opt.data, function (i, sp) {
+      var divider = '';
+      if (opt.splitLines) {
+        divider = ' splitted';
+      }
 
-      var scheduleRow = '<div class="schedule__report">',
+      var scheduleRow = '<div class="schedule__report '+divider+'">',
         scheduleCells = '',
         timeBlock = $.tmpl("reportTimeBlockTemplate", sp)[0].outerHTML;
 
