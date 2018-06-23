@@ -853,8 +853,8 @@ $(document).ready(function(){
     {
       image: "images/reporters/max_klymyshyn.jpg",
       name: "Max Klymyshyn",
-      position: "" ,
-      company: "",
+      position: "Tech Lead",
+      company: "Takeoff Technologies",
       rept: [
         {
           title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
@@ -886,7 +886,7 @@ $(document).ready(function(){
       company: "Ralabs",
       rept: [
         {
-          title: "The New Media. What it takes to create a news website in 2018 [Ru]",
+          title: "The New Media. What it takes to create a news website in 2018 [Ua]",
           description: "What will you do if biggest media will ask you about new website? Seems like trivial, right? Ugh, why WordPress is not a right fit here? We'll tell you a story with problems and solutions that we raised during all phases from project first steps.",
         }
       ],
@@ -922,7 +922,7 @@ $(document).ready(function(){
       company: "Ralabs",
       rept: [
         {
-          title: "The New Media. What it takes to create a news website in 2018 [Ru]",
+          title: "The New Media. What it takes to create a news website in 2018 [Ua]",
           description:
             "What will you do if biggest media will ask you about new website? " +
             "Seems like trivial, right? Ugh, why WordPress is not a right fit here?" +
@@ -1043,7 +1043,7 @@ $(document).ready(function(){
       socialsRendered: '',
       socials: [
         {
-          link: 'mailto:yurshery@gmail.com',
+          link: 'mailto:yursherstyuk@gmail.com',
           fatype: 'envelope'
         }
       ]
@@ -1597,7 +1597,7 @@ $(document).ready(function(){
       company: "OneDome",
       rept: [
         {
-          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [Ru]",
+          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [En]",
           description:
             "Single-Page Application (SPA) is the main-stream modern frontend development approach. However," +
             " we quickly hit limitations of monolith SPA in the growing company with multiple product teams, different technologies " +

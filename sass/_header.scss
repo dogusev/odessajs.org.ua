@@ -187,6 +187,36 @@
     }
   }
 
+
+   .title-large {
+      font-family: 'Jura', sans-serif;
+      font-size: 150px;
+      color: #e32d42;
+      font-weight: 600;
+
+      @media (min-width: 1200px) and (max-height: 740px) {
+        font-size: 100px;
+      }
+      @media (min-width: 992px) and (max-height: 640px) {
+        font-size: 80px;
+      }
+      @media (max-width: 1200px) {
+        font-size: 100px;
+      }
+      @media (max-width: 1200px) and (max-height: 700px) {
+        font-size: 80px;
+      }
+      @media (max-width: 1200px) and (max-height: 640px) {
+        font-size: 60px;
+      }
+      @media (max-width: 992px) {
+        font-size: 80px;
+      }
+      @media (max-width: 768px) {
+        font-size: 65px;
+      }
+    }
+
   .header-schedule__item {
 
     .img-wrapper {
@@ -220,35 +250,6 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
-      }
-    }
-
-    h4 {
-      font-family: 'Jura', sans-serif;
-      font-size: 150px;
-      color: #e32d42;
-      font-weight: 600;
-
-      @media (min-width: 1200px) and (max-height: 740px) {
-        font-size: 100px;
-      }
-      @media (min-width: 992px) and (max-height: 640px) {
-        font-size: 80px;
-      }
-      @media (max-width: 1200px) {
-        font-size: 100px;
-      }
-      @media (max-width: 1200px) and (max-height: 700px) {
-        font-size: 80px;
-      }
-      @media (max-width: 1200px) and (max-height: 640px) {
-        font-size: 60px;
-      }
-      @media (max-width: 992px) {
-        font-size: 80px;
-      }
-      @media (max-width: 768px) {
-        font-size: 65px;
       }
     }
 
@@ -452,6 +453,29 @@
      }
 
    }
+  }
+
+  .key-topics {
+  }
+
+  .key-topics-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    >div {
+      display: inline-flex;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+      padding: 0 20px;
+      background: $primary;
+      color: #fff;
+      height: 50px;
+      font-weight: 400;
+      line-height: 1;
+      white-space: nowrap;
+    }
   }
 
   .carousel-control-next,

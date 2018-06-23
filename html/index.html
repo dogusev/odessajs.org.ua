@@ -134,17 +134,55 @@
 
 <header class="header">
 
-  <div id="headerCarousel" class="carousel slide" data-ride="carousel"  data-interval="3000">
- <!--<div id="headerCarousel" class="carousel slide" data-interval="false">-->
+  <!--<div id="headerCarousel" class="carousel slide" data-ride="carousel"  data-interval="3000">-->
+ <div id="headerCarousel" class="carousel slide" data-interval="false">
     <ol class="carousel-indicators">
       <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#headerCarousel" data-slide-to="1"></li>
       <li data-target="#headerCarousel" data-slide-to="2"></li>
       <li data-target="#headerCarousel" data-slide-to="3"></li>
       <li data-target="#headerCarousel" data-slide-to="4"></li>
+      <li data-target="#headerCarousel" data-slide-to="5"></li>
     </ol>
 
     <div class="carousel-inner">
+
+      <!--<div class="carousel-item active">-->
+        <!--<div class="header-slide schedule_2 text-center text-white d-flex">-->
+          <!--<div class="container my-auto">-->
+            <!--<div class="row justify-content-center key-topics">-->
+              <!--<h4 class="title-large text-center mb-5">Key Topics</h4>-->
+
+              <!--<div class="col-lg-12 mx-auto key-topics-items">-->
+
+                <!--<div>React design patterns</div>-->
+                <!--<div>Application architecture design</div>-->
+                <!--<div>CSS parsing</div>-->
+                <!--<div>Houdini / Next gen CSS</div>-->
+                <!--<div>JS transpilers</div>-->
+                <!--<div>Algorithms</div>-->
+                <!--<div>Estimation</div>-->
+                <!--<div>Advanced React Native</div>-->
+                <!--<div>Algorithms</div>-->
+                <!--<div>Application architecture design</div>-->
+                <!--<div>Crypto mining</div>-->
+                <!--<div>Web Extentions</div>-->
+                <!--<div>RxJS + React / Angular</div>-->
+                <!--<div>Automation / Probot</div>-->
+                <!--<div>React VR</div>-->
+                <!--<div>ngrx</div>-->
+                <!--<div>serverless + microfontends</div>-->
+                <!--<div>WebComponents</div>-->
+                <!--<div>WebAssembly</div>-->
+                <!--<div>Flow typing</div>-->
+
+
+
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
       <div class="carousel-item active">
         <div class="header-slide masthead text-center text-white d-flex">
@@ -197,7 +235,7 @@
                     <img src="images/microphone.png" alt="">
                   </div>
 
-                  <h4 class="mb-4">July 6th</h4>
+                  <h4 class="title-large mb-4">July 6th</h4>
                   <ul>
                     <li>Full day of extensive workshops</li>
                     <li>Bike tour</li>
@@ -223,7 +261,7 @@
                     <img data-src="images/fireworks.png" alt="">
                   </div>
 
-                  <h4 class="my-3">July 7th</h4>
+                  <h4 class="title-large my-3">July 7th</h4>
 
                   <ul>
                     <li>Morning yoga on the beach</li>
@@ -251,7 +289,7 @@
                     <img data-src="images/sunset.png" alt="">
                   </div>
 
-                  <h4 class="my-3">July 8th</h4>
+                  <h4 class="title-large my-3">July 8th</h4>
 
                   <ul>
                     <li>Morning yoga on the beach</li>
@@ -275,7 +313,7 @@
               <div class="col-12 col-md-3">
                 <div class="diversity-item student">
 
-                  <h4 class="title">
+                  <h4 class="title-large title">
                     Student <br> Ticket
                   </h4>
 
@@ -585,6 +623,7 @@
             <li>Bicycle tour <span>(July 6)</span></li>
             <li>Pre-party on the beach <span>(July 6)</span></li>
             <li>Morning beach yoga <span>(July 8)</span></li>
+            <li><span>After-party is not included</span></li>
           </ul>
 
           <div class="ticket-item-btn">
@@ -780,37 +819,51 @@
   </div>
 </section>
 
+<section id="key-topics">
+  <div class="container">
+    <div class="row">
+      <div class="speakers-title col-12 mb-0">
+        <h1>Key topics</h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <div id="keywords"></div>
+</section>
+
 <section id="speakers" class="speakers">
   <img src="images/speakers-waves.png" alt="" class="speakers-img-1">
   <div class="container">
+
     <div class="row">
       <div class="speakers-title offset-1 col-10">
         <img src="images/speakers-circle.png" alt="" class="speakers-title-img-1">
         <h1>Our Awesome Speakers</h1>
       </div>
-      <div class="mb-4 col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">
-        <button style="cursor: pointer" type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#key-topics">
-          Key Topics
-        </button>
-      </div>
 
-      <div class="modal fade" id="key-topics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Key Topics</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <ul class="topics-list">
+      <!--<div class="mb-4 col-12 col-sm-9 col-md-7 col-lg-4 mx-auto">-->
+        <!--<button style="cursor: pointer" type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#key-topics">-->
+          <!--Key Topics-->
+        <!--</button>-->
+      <!--</div>-->
 
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!--<div class="modal fade" id="key-topics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+        <!--<div class="modal-dialog" role="document">-->
+          <!--<div class="modal-content">-->
+            <!--<div class="modal-header">-->
+              <!--<h5 class="modal-title" id="exampleModalLabel">Key Topics</h5>-->
+              <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+                <!--<span aria-hidden="true">&times;</span>-->
+              <!--</button>-->
+            <!--</div>-->
+            <!--<div class="modal-body">-->
+              <!--<ul class="topics-list">-->
+
+              <!--</ul>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
       <!--
        <div class="col-sm-11">
          <ul class="speakers-filters row">
@@ -1789,6 +1842,11 @@
                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                   <a class="w-100" href="https://www.onedome.com/" target="_blank">
                     <img data-src="images/sponsors/thumbnail.jpeg" alt="" class="img-responsive">
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 text-center thank-box mx-auto">
+                  <a class="w-100" href="https://www.ciklum.com/" target="_blank">
+                    <img data-src="images/sponsors/ciklum.png" alt="Ciklum" class="img-responsive">
                   </a>
                 </div>
               </div>
