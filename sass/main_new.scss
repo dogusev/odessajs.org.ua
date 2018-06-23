@@ -2,6 +2,7 @@
 @import "../vendor/font-awesome/css/font-awesome.min.css";
 /* animations.css tablet/desktop only. @media fixed in lib */
 @import "../vendor/animate/animations.css";
+@import "../vendor/jqcloud/jqcloud.less";
 
 @import "variables.scss";
 @import "mixins.scss";
@@ -21,5 +22,6 @@
 @import "location.scss";
 @import "speakers-list.scss";
 @import "schedule.scss";
+@import "cloud.scss";
 @import "footer.scss";
 @import "bootstrap-overrides.scss";

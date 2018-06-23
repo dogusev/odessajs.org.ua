@@ -219,6 +219,63 @@ function loadAskQuestionModal($speakerBlock) {
   }
 //  Image Lazy loading
 
+//  tags cloud
+//   {text: "Lorem", weight: 13},
+//   {text: "Ipsum", weight: 10.5},
+//   {text: "Dolor", weight: 9.4},
+//   {text: "Sit", weight: 8},
+//   {text: "Amet", weight: 6.2},
+//   {text: "Consectetur", weight: 5},
+
+   var words = [
+    {text: "React design patterns", weight: 8},
+    {text: "Application architecture design", weight: 6},
+    {text: "CSS parsing", weight: 8},
+    {text: "Houdini / Next gen CSS", weight: 7},
+    {text: "JS transpilers", weight: 8},
+    {text: "Estimation", weight: 9},
+    {text: "Advanced React Native", weight: 7},
+    {text: "Algorithms", weight: 7},
+    {text: "Application architecture design", weight: 6},
+    {text: "Crypto mining", weight: 7},
+    {text: "Web Extentions", weight: 8},
+    {text: "RxJS + React / Angular", weight: 10},
+    {text: "Automation / Probot", weight: 8},
+    {text: "React VR", weight: 7},
+    {text: "ngrx", weight: 10},
+    {text: "serverless + microfontends", weight: 9},
+    {text: "WebComponents", weight: 7},
+    {text: "WebAssembly", weight: 5},
+    {text: "Flow typing", weight: 7},
+    /* ... */
+  ];
+
+  var jqOptions = {
+    autoResize: true,
+    removeOverflowing: true
+  };
+
+  renderCloud();
+
+  $(window).on('resize', function() {
+    renderCloud();
+  });
+
+  function renderCloud() {
+    var renderWords = words;
+    if( window.matchMedia("(max-width: 768px)").matches ) {
+      renderWords = words.map(function (item) {
+        item.weight = 1;
+        return item
+      });
+    }
+
+    $('#keywords')
+      .children().remove().end()
+      .jQCloud(renderWords, jqOptions);
+  }
+//  tags cloud
+
 })(jQuery); // End of use strict
 
 
