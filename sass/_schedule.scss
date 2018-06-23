@@ -187,6 +187,9 @@
   &__report {
     margin-bottom: 8px;
     display: flex;
+    &.splitted {
+      border-bottom: 1px solid #767676;
+    }
     &-time {
       padding-left: 25px;
       color: #000;

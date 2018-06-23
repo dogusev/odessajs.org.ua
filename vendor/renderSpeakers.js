@@ -667,12 +667,31 @@ $(document).ready(function(){
               {
                   title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
                   description:
-                      "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+                      "<p>Selected topics from the software engineering lectures with JavaScript and " +
+                      "Node.js examples. Includes fundamental concepts and design patterns of functional, " +
+                      "reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming," +
+                      " data structures and algorithms, useful software abstractions and code examples, best parts and " +
+                      "demo projects with modern technologies usage. Lectures includes over 500 code examples collected after " +
+                      "years of practice in different languages ​​and platforms, combined and implemented using the newest features and " +
+                      "syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science " +
+                      "and Computer Science of the Kiev Polytechnic Institute.</p>",
               }
           ],
           aboutSpeaker: '',
           socialsRendered: '',
           socials: [
+              {
+                  link: 'https://facebook.com/tshemsedinov',
+                  fatype: 'facebook'
+              },
+              {
+                  link: 'https://twitter.com/ImpressAppSrv',
+                  fatype: 'twitter'
+              },
+              {
+                  link: 'https://www.instagram.com/tshemsedinov/',
+                  fatype: 'instagram'
+              },
               {
                   link: 'https://github.com/tshemsedinov',
                   fatype: 'github'
@@ -1600,6 +1619,107 @@ $(document).ready(function(){
         {
           link: 'https://github.com/rstml',
           fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/ivan_martynov.jpg",
+      name: "Ivan Martynov",
+      position: "Frontend Engineer" ,
+      company: "OneDome",
+      rept: [
+        {
+          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [Ru]",
+          description:
+            "Single-Page Application (SPA) is the main-stream modern frontend development approach. However," +
+            " we quickly hit limitations of monolith SPA in the growing company with multiple product teams, different technologies " +
+            "and release cycles. In this talk we share how these limitations have been overcome by extending microservice architecture to" +
+            " React frontend using Lerna mono-repository and discuss alternative approaches such as WebComponents." ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/profile.php?id=100000022396764',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://github.com/j-martyn',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/philip_shurpik.jpeg",
+      name: "Philip Shurpik",
+      position: "AI Engineer / Data Scientist" ,
+      company: "Freelance / Self-employed",
+      rept: [
+        {
+          title: "OK Google. What's next? [Ru]",
+          description:
+            "<p>В какой-то момент тебе 25-26 лет, ты Senior JavaScript уже два-три года :) И ты понимаешь, что не знаешь что делать дальше о_0</p>" +
+            "<p>Поговорим о расширении сознания, самообразовании и переходе в новую сферу (AI / DataScience)</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/philip.shurpik',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/philipshurpik',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://linkedin.com/in/philipshurpik',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/philipshurpik/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://www.github.com/philipshurpik/',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/ilya_ivanov.png",
+      name: "Ilya Ivanov",
+      position: "Mobile Team Lead" ,
+      company: "Ciklum",
+      rept: [
+        {
+          title: "Advanced React-Native. [Ru]",
+          description:
+            "<p>How is it possible to write native applications in JavaScript? In this talk we will meet React-Native " +
+            "and dive a bit into advanced concepts. How React-Native is different from classical hybrid mobile development in JavaScript. " +
+            "We will look how React-Native works and write great mobile applications using animations and navigations.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/ilya.ivanov.585?ref=bookmarks',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.linkedin.com/in/ilya-ivanov-a655082a/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/ilyaivanov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/1283124/ilya-ivanov',
+          fatype: 'stackoverflow'
         }
       ]
     },
