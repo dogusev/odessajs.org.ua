@@ -4,13 +4,13 @@ $(document).ready(function () {
     {time: '16:30', author: '', title: 'Registration and welcome drinks'},
     {time: '17:00', author: 'Sara Vieira', title: 'The Dream of Styleguide Driven Development'},
     {time: '17:30', author: '', title: 'Break'},
-    {time: '17:45'},
+    {time: '17:45', author: '', title: 'TBD'},
     {time: '18:15', author: '', title: 'Break'},
     {time: '18:30', author: 'Alex Troush', title: 'The existential crisis in a blockchain era'},
     {time: '19:00', author: '', title: 'Pizza break'},
     {time: '19:30', author: 'Aleksandra Shynkevich & Nikita Dubko', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer [Speech]'},
     {time: '20:00', author: '', title: 'Break'},
-    {time: '20:10'},
+    {time: '20:10', author: '', title: 'TBD'},
     {time: '20:30', author: '', title: 'Q&A Session'},
   ];
 
@@ -242,8 +242,8 @@ $(document).ready(function () {
       time: '16:50- 17:30',
       talks: [
         {author: '[en] Denis Radin ', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try'},
-        {author: '[ru] Arkadiy Pilguk ', title: 'Real-world application of computer vision and machine learning in modern web applications'},
-        {author: '[ru] Valerii Sorokobatko', title: 'Passing strings using (in)finite-state-machine and prepack'},
+        {author: '[ru] Valerii Sorokobatko ', title: 'Passing strings using (in)finite-state-machine and prepack'},
+        {author: '[ru] Phillip Shurpik', title: 'OK Google. What\'s next?'},
         {author: '', title: ''},
       ]
     },

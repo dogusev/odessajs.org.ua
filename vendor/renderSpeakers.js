@@ -342,7 +342,11 @@ $(document).ready(function(){
       rept: [
         {
           title: "Reuse your code in React like it's 2018 [En]",
-          description: ""
+          description:
+            "The talk will be about possible ways to reuse code in React. We will " +
+            "go through hocs, render and children props and other patterns, but also a little about " +
+            "design and architecture decisions (how developers usually make them). Why some of the " +
+            "components should be written separately when other should be more flexible."
         }
       ],
       aboutSpeaker: '',
@@ -522,7 +526,49 @@ $(document).ready(function(){
     //     },
     //   ]
     // },
-
+    {
+      image: "images/reporters/eyal_eizenberg.jpg",
+      name: "Eyal Eizenberg",
+      position: "Engineer Team Leader" ,
+      company: "Wix",
+      rept: [
+        {
+          title: "Trim your redux boilerplate with Redux Cornell. [En]",
+          description:
+          "<p>Redux is awesome and is used in countless projects. However, using Redux does" +
+          " mean that there is a lot of boilerplate. Enter Redux Cornell. Named after the legendary " +
+          "singer Chris Cornell, Redux Cornell aims to remove most of the boilerplate which comes with " +
+          "using Redux, yet allows you to completely customize it. The library brings the concept of " +
+          "'convention over configuration' into the JS world to help reduce boiler plate.</p>"+
+          "<p>Redux Cornell now powers Wix's 2nd most visited page with over 3M unique views " +
+          "per month so you can say that it's 'Battle Tested'!</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/EyalEizenberg',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/eyal-eizenberg',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/eyaleizenberg',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/1983301/eyal83',
+          fatype: 'stackoverflow'
+        },
+        {
+          link: 'https://medium.com/@eyaleizenberg',
+          fatype: 'link'
+        },
+      ]
+    },
     {
       image: "images/reporters/oskackov.png",
       name: "Oleksandr Skachkov",
@@ -627,7 +673,12 @@ $(document).ready(function(){
             "  <li>Build a professional network and career capital</li>" +
             "  <li>Efficiently grow your career without sacrificing other life aspects</li>" +
             "</ul>",
-        }
+        },
+        {
+          title: "TechCorner: Architecture evolution of Microsoft To-Do web app. [Ru]",
+          description:
+            "",
+        },
       ],
       aboutSpeaker:
         "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
@@ -1659,8 +1710,9 @@ $(document).ready(function(){
         {
           title: "OK Google. What's next? [Ru]",
           description:
-            "<p>В какой-то момент тебе 25-26 лет, ты Senior JavaScript уже два-три года :) И ты понимаешь, что не знаешь что делать дальше о_0</p>" +
-            "<p>Поговорим о расширении сознания, самообразовании и переходе в новую сферу (AI / DataScience)</p>" ,
+            "<p>In a certain moment you are 25-26 years old and work as a Senior JavaScript for already 2-3 years:) " +
+            "At this very moment you understand that you don't know what to do next o_O</p>" +
+            "<p>Let's talk about conscience extension, self-education and transit to a new sphere (AI/DataScience).</p>" ,
         }
       ],
       aboutSpeaker: '',
@@ -1719,10 +1771,11 @@ $(document).ready(function(){
         },
         {
           link: 'https://stackoverflow.com/users/1283124/ilya-ivanov',
-          fatype: 'stackoverflow'
+          fatype: 'stack-overflow'
         }
       ]
     },
+
   ];
 
 
