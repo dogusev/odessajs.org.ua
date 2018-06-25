@@ -901,10 +901,10 @@ $(document).ready(function(){
     },
     {
       id: 15,
-      image: "images/reporters/timur_shemsedinov.jpg",
+      image: "images/logo.png",
       name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
-      position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
-      company: "Metarhia, MIA, KPI & vi",
+      position: "" ,
+      company: "",
       place: '',
       date: 'July 8',
       duration: '6 h',
@@ -944,20 +944,7 @@ $(document).ready(function(){
       target:
         '<p>I believe developer of any level will find something interesting in proposed topics</p>',
       socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/tshemsedinov',
-          fatype: 'github'
-        },
-        {
-          link: 'https://www.linkedin.com/in/shemsedinov/',
-          fatype: 'linkedin'
-        },
-        {
-          link: 'https://habr.com/users/marcusaurelius/posts/',
-          fatype: 'link'
-        },
-      ]
+      socials: [ ]
     },
   ];
 
