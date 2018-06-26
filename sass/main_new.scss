@@ -3,11 +3,13 @@
 /* animations.css tablet/desktop only. @media fixed in lib */
 @import "../vendor/animate/animations.css";
 @import "../vendor/jqcloud/jqcloud.less";
+@import "../vendor/beefup/beefup.css";
 
 @import "variables.scss";
 @import "mixins.scss";
 @import "global.scss";
 @import "carousel.scss";
+@import "accordion.scss";
 @import "tickets.scss";
 @import "navbar.scss";
 @import "header.scss";

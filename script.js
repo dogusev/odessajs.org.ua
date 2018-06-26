@@ -184,20 +184,31 @@ function loadAskQuestionModal($speakerBlock) {
 
 //  Image Lazy loading
 
+  var lazyLoadTimeout = null;
+
   initLazyLoad();
 
-  $(window).on('scroll', function () {
-    initLazyLoad()
-  });
+  $(window).bind('scroll', lazyLoadHandler);
+
+  function lazyLoadHandler() {
+    clearTimeout(lazyLoadTimeout);
+
+    lazyLoadTimeout = setTimeout(function () {
+      initLazyLoad();
+    }, 100);
+  }
 
   function initLazyLoad() {
     var windowTopPosition = $(window)[0].pageYOffset,
         windowBottomPosition = $(window)[0].pageYOffset + $(window)[0].innerHeight,
         $items = $('img[data-src]'),
-        showOffsets = $(window)[0].innerHeight / 2;
+        showOffsets = $(window)[0].innerHeight;
+    if(!$items.length) {
+      $(window).unbind('scroll', lazyLoadHandler);
+    }
 
     if( window.matchMedia("(max-width: 768px)").matches ){
-      showOffsets =  $(window)[0].innerHeight * 1.5;
+      showOffsets =  $(window)[0].innerHeight * 4;
     }
 
     $items.each(function(i, item){
@@ -220,13 +231,6 @@ function loadAskQuestionModal($speakerBlock) {
 //  Image Lazy loading
 
 //  tags cloud
-//   {text: "Lorem", weight: 13},
-//   {text: "Ipsum", weight: 10.5},
-//   {text: "Dolor", weight: 9.4},
-//   {text: "Sit", weight: 8},
-//   {text: "Amet", weight: 6.2},
-//   {text: "Consectetur", weight: 5},
-
    var words = [
     {text: "React design patterns", weight: 8},
     {text: "Application architecture design", weight: 6},
