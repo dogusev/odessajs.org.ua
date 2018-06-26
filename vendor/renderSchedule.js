@@ -408,6 +408,9 @@ $(document).ready(function () {
       selector: '#july8_workshops',
       splitLines: true
     });
+
+    /* accordion init */
+    $('.beefup').beefup();
   }
 
   function renderSchedulesWithHalls(opt) {

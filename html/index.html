@@ -133,8 +133,8 @@
 
 <header class="header">
 
-  <!--<div id="headerCarousel" class="carousel slide" data-ride="carousel"  data-interval="3000">-->
- <div id="headerCarousel" class="carousel slide" data-interval="false">
+  <div id="headerCarousel" class="carousel slide" data-ride="carousel"  data-interval="3000">
+ <!--<div id="headerCarousel" class="carousel slide" data-interval="false">-->
     <ol class="carousel-indicators">
       <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#headerCarousel" data-slide-to="1"></li>
@@ -145,43 +145,6 @@
     </ol>
 
     <div class="carousel-inner">
-
-      <!--<div class="carousel-item active">-->
-        <!--<div class="header-slide schedule_2 text-center text-white d-flex">-->
-          <!--<div class="container my-auto">-->
-            <!--<div class="row justify-content-center key-topics">-->
-              <!--<h4 class="title-large text-center mb-5">Key Topics</h4>-->
-
-              <!--<div class="col-lg-12 mx-auto key-topics-items">-->
-
-                <!--<div>React design patterns</div>-->
-                <!--<div>Application architecture design</div>-->
-                <!--<div>CSS parsing</div>-->
-                <!--<div>Houdini / Next gen CSS</div>-->
-                <!--<div>JS transpilers</div>-->
-                <!--<div>Algorithms</div>-->
-                <!--<div>Estimation</div>-->
-                <!--<div>Advanced React Native</div>-->
-                <!--<div>Algorithms</div>-->
-                <!--<div>Application architecture design</div>-->
-                <!--<div>Crypto mining</div>-->
-                <!--<div>Web Extentions</div>-->
-                <!--<div>RxJS + React / Angular</div>-->
-                <!--<div>Automation / Probot</div>-->
-                <!--<div>React VR</div>-->
-                <!--<div>ngrx</div>-->
-                <!--<div>serverless + microfontends</div>-->
-                <!--<div>WebComponents</div>-->
-                <!--<div>WebAssembly</div>-->
-                <!--<div>Flow typing</div>-->
-
-
-
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
 
       <div class="carousel-item active">
         <div class="header-slide masthead text-center text-white d-flex">
@@ -312,7 +275,7 @@
               <div class="col-12 col-md-3">
                 <div class="diversity-item student">
 
-                  <h4 class="title-large title">
+                  <h4 class="title">
                     Student <br> Ticket
                   </h4>
 
@@ -1382,16 +1345,17 @@
 
 <section id="playlist" class="trainings">
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
 
-      <div class="trainings-title offset-1 col-10">
+      <div class="trainings-title col-12 col-sm-10">
         <h1>Welcome to OdessaJS'2018!</h1>
         <hr>
 
-
-        <iframe width="100%" height="480px"
-                src="https://www.youtube.com/embed/videoseries?list=PLUF1zRLAgrPELelYwrxlGtaQAa18TpvMJ"
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+        <div class="adaptive-video-frame">
+          <iframe width="100%"
+                  src="https://www.youtube.com/embed/videoseries?list=PLUF1zRLAgrPELelYwrxlGtaQAa18TpvMJ"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+        </div>
 
         <hr>
 
@@ -1775,35 +1739,100 @@
           <hr>
         </div>
 
-        <div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 6 Workshops</h3><hr></div>
-        <div class="schedule__content" id="july6_workshops"></div>
+        <!--<div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 6 Workshops</h3><hr></div>-->
+        <!--<div class="schedule__content" id="july6_workshops"></div>-->
 
-        <div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 6</h3><hr></div>
-        <div class="schedule__content" id="july6_schedule"></div>
-
-        <div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 7</h3><hr></div>
-        <div class="schedule__content" id="july7_schedule">
-          <div class="schedule__hall-titles">
-            <div class="schedule__hall-title-a schedule__hall-title-a--triple">Hall А</div>
-            <div class="schedule__hall-title-b schedule__hall-title-b--triple">Hall В</div>
-            <div class="schedule__hall-title-c">Hall С</div>
+        <div class="beefup">
+          <div class="beefup__head">
+            <h3 class="main_subtitle text-center">July 6 Workshops</h3>
           </div>
-
+          <div class="beefup__body">
+            <div class="schedule__content" id="july6_workshops"></div>
+          </div>
         </div>
 
-        <div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 8</h3><hr></div>
-        <div class="schedule__content" id="july8_schedule">
-          <div class="schedule__hall-titles">
-            <div class="schedule__hall-title-a schedule__hall-title-a--squad">Hall А</div>
-            <div class="schedule__hall-title-b schedule__hall-title-b--squad">Hall В</div>
-            <div class="schedule__hall-title-c schedule__hall-title-tc--squad">Hall C</div>
-            <div class="schedule__hall-title-c schedule__hall-title-tc--squad">Hall D</div>
-          </div>
+        <!--<div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 6</h3><hr></div>-->
+        <!--<div class="schedule__content" id="july6_schedule"></div>-->
 
+
+        <div class="beefup">
+          <div class="beefup__head">
+            <h3 class="main_subtitle text-center">July 6</h3>
+          </div>
+          <div class="beefup__body">
+            <div class="schedule__content" id="july6_schedule"></div>
+          </div>
         </div>
 
-        <div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 8 Workshops</h3><hr></div>
-        <div class="schedule__content" id="july8_workshops"></div>
+
+
+        <!--<div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 7</h3><hr></div>-->
+
+        <!--<div class="schedule__content" id="july7_schedule">-->
+          <!--<div class="schedule__hall-titles">-->
+            <!--<div class="schedule__hall-title-a schedule__hall-title-a&#45;&#45;triple">Hall А</div>-->
+            <!--<div class="schedule__hall-title-b schedule__hall-title-b&#45;&#45;triple">Hall В</div>-->
+            <!--<div class="schedule__hall-title-c">Hall С</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <div class="beefup">
+          <div class="beefup__head">
+            <h3 class="main_subtitle text-center">July 7</h3>
+          </div>
+          <div class="beefup__body">
+            <div class="schedule__content" id="july7_schedule">
+              <div class="schedule__hall-titles">
+                <div class="schedule__hall-title-a schedule__hall-title-a--triple">Hall А</div>
+                <div class="schedule__hall-title-b schedule__hall-title-b--triple">Hall В</div>
+                <div class="schedule__hall-title-c">Hall С</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <!--<div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 8</h3><hr></div>-->
+        <!--<div class="schedule__content" id="july8_schedule">-->
+          <!--<div class="schedule__hall-titles">-->
+            <!--<div class="schedule__hall-title-a schedule__hall-title-a&#45;&#45;squad">Hall А</div>-->
+            <!--<div class="schedule__hall-title-b schedule__hall-title-b&#45;&#45;squad">Hall В</div>-->
+            <!--<div class="schedule__hall-title-c schedule__hall-title-tc&#45;&#45;squad">Hall C</div>-->
+            <!--<div class="schedule__hall-title-c schedule__hall-title-tc&#45;&#45;squad">Hall D</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <div class="beefup">
+          <div class="beefup__head">
+            <h3 class="main_subtitle text-center">July 8</h3>
+          </div>
+          <div class="beefup__body">
+            <div class="schedule__content" id="july8_schedule">
+              <div class="schedule__hall-titles">
+                <div class="schedule__hall-title-a schedule__hall-title-a--squad">Hall А</div>
+                <div class="schedule__hall-title-b schedule__hall-title-b--squad">Hall В</div>
+                <div class="schedule__hall-title-c schedule__hall-title-tc--squad">Hall C</div>
+                <div class="schedule__hall-title-c schedule__hall-title-tc--squad">Hall D</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--<div class="col-12 mb-3"><h3 class="main_subtitle text-center">July 8 Workshops</h3><hr></div>-->
+        <!--<div class="schedule__content" id="july8_workshops"></div>-->
+
+          <div class="beefup">
+            <div class="beefup__head">
+              <h3 class="main_subtitle text-center">July 8 Workshops</h3>
+            </div>
+            <div class="beefup__body">
+              <div class="schedule__content" id="july8_workshops"></div>
+            </div>
+          </div>
 
       </div>
     </div>
@@ -2102,9 +2131,10 @@
             <div class="adaptive-frame-container">
               <!--<iframe width="100%" height="480" src="https://www.youtube.com/embed/RLN0FQxn_Qo" frameborder="0"-->
               <!--allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-
-              <iframe width="100%"  height="480" src="https://www.youtube.com/embed/PJ3adSxgpcE" frameborder="0"
-                      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div class="adaptive-video-frame">
+                <iframe width="100%"  src="https://www.youtube.com/embed/PJ3adSxgpcE" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div class="col-lg-8 col-sm-12">
@@ -2384,7 +2414,7 @@
           </div>
           <div class="col-lg-2 col-sm-4 col-6 mb-4 text-center thank-box mx-auto">
             <a href="https://startup.ua/" target="_blank">
-              <img data-src="images/partners/sn.png.png" alt="startup network" class="img-responsive">
+              <img data-src="images/partners/sn.png" alt="startup network" class="img-responsive">
             </a>
           </div>
 
@@ -2918,30 +2948,11 @@
     </div>
 
   </div>
-
 </footer>
 
 <a id="bot-link" href="https://www.messenger.com/t/odessajs" title="Odessia bot" target="_blank"></a>
 
-<!-- Bootstrap core JavaScript -->
-<!--<script src="vendor/jquery/jquery.min.js"></script>-->
-<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
-<!--<script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>-->
-<!--<script src="vendor/animate/animateit.js"></script>-->
-<!--<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>-->
-
-<!-- Plugin JavaScript -->
-<!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
-<!--<script src="vendor/scrollreveal/scrollreveal.min.js"></script>-->
-
-<!--<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>-->
-
-<!--<script src="vendor/renderSpeakers.js"></script>-->
-<!--<script src="script.js" type="text/javascript"></script>-->
-
-
 <script src="js/script.min.js" type="text/javascript"></script>
-
 <script src="./fb.js" type="text/javascript"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzoXopiOzGo8FIg2stF6gTn4yM5jo-Ups&callback=initMap"></script>

@@ -31,6 +31,7 @@ gulp.task('script-min', function () {
       'vendor/scrollreveal/scrollreveal.min.js',
       'vendor/firebase/firebase.js',
       'vendor/jqcloud/jqcloud-1.0.4.min.js',
+      'vendor/beefup/beefup.min.js',
 
       //scripts
       'vendor/renderSpeakers.js',
