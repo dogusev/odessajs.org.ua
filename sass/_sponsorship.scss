@@ -13,6 +13,19 @@ section#sponsorship {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: $black;
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+
+  h5 {
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 767px) {
+    font-size: 16px;
   }
   .buttons_row {
     text-align: center;
