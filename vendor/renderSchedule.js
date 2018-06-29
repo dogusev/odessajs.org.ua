@@ -1,22 +1,21 @@
 $(document).ready(function () {
 
   var talks6july = [
-    {time: '16:30', author: '', title: 'Registration and welcome drinks'},
-    {time: '17:00', author: 'Sara Vieira', title: 'The Dream of Styleguide Driven Development'},
-    {time: '17:30', author: '', title: 'Break'},
-    {time: '17:45', author: '', title: 'TBD'},
-    {time: '18:15', author: '', title: 'Break'},
-    {time: '18:30', author: 'Alex Troush', title: 'The existential crisis in a blockchain era'},
-    {time: '19:00', author: '', title: 'Pizza break'},
-    {time: '19:30', author: 'Aleksandra Shynkevich & Nikita Dubko', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer [Speech]'},
-    {time: '20:00', author: '', title: 'Break'},
-    {time: '20:10', author: '', title: 'TBD'},
-    {time: '20:30', author: '', title: 'Q&A Session'},
+    {time: '16:00 - 16:30', author: '', title: 'Registration and welcome drinks'},
+    {time: '16:30 - 17:00', author: 'Eyal Eizenberg', title: 'The Psychology of building your first open source. [en]'},
+    {time: '17:00 - 17:30', author: '', title: 'TBD'},
+    {time: '17:30 - 18:00', author: 'Aleksandr Khokhlov', title: 'Do not chase the hype train. Just steal ideas.'},
+    {time: '18:00 - 18:30', author: 'Haroen Viane', title: 'You’re probably making an API client. [en]'},
+    {time: '18:30 - 19:00', author: 'Aleksandra Shynkevich and Nikita Dubko', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer. [ru]'},
+    {time: '19:00 - 19:30', author: 'Mike MacCana', title: 'Deploying your JS app in 2018 ? [en]'},
+    {time: '19:30 - 17:30', author: '', title: 'TBD'},   
+    {time: '20:00 - 20:30', author: 'Denis Radin', title: 'Let`s write your first pixel shader. [ru]'},
+    {time: '20:30', author: '', title: 'Q&A Session'}
   ];
 
   var talks7july = [
     {
-      time: '08:00-09:00',
+      time: '07:45 - 09:00',
       talks: [
         {author: '', title: 'Yoga'}
       ]
@@ -28,248 +27,309 @@ $(document).ready(function () {
       ]
     },
     {
-      time: '09:30- 10:10',
+      time: '09:30 - 10:00',
       talks: [
-        {author: '[en] Gerard Sans', title: 'Advanced State Management using ngrx v5'},
-        {author: 'Yuriy Sherstyuk', title: 'Algorithms  in Front End: from V8 to VDOM'},
-        {author: 'Artem Zakharchenko ', title: 'What I have to do at OdessaJS Conference'},
+        {author: 'Gerard Sans', title: 'Advanced State Management using ngrx v5. [en]'},
+        {author: 'Artem Zakharchenko', title: 'What I have to do at OdessaJS Conference. [ru]'},
       ]
     },
     {
-      time: '10:10-10:30',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '10:30 - 11:10',
-      talks: [
-        {author: '[en] Ivan Jovanovic', title: 'Serverless - the way microservices should be.'},
-        {author: 'Sergiy Babich', title: 'WebComponents why and how'},
-        {author: 'Ksenia Redunova ', title: 'Estimates: is there a silver bullet?'}
-      ]
-    },
-    {
-      time: '11:10 - 11:30',
+      time: '10:00 - 10:10',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:30 - 12:15',
+      time: '10:10 - 10:40',
       talks: [
-        {author: '[en] Nik Graf', title: 'ReasonML'},
-        {author: 'Roman Rodomansky and Andrew Yasinishyn', title: 'The New Media and What It Takes to Create a News Website in 2018'},
-        {author: 'Andrey Kucherenko ', title: 'Copy paste detector for 150+ languages on JavaScript'}
+        {author: 'Roman Rodomansky and Andrew Yasinishyn', title: 'The New Media and What It Takes to Create a News Website in 2018. [ua]'},
+        {author: 'Andrey Kucherenko ', title: 'Copy paste detector for 150+ languages on JavaScript. [ru]'}
       ]
     },
     {
-      time: '12:15 - 12:30',
+      time: '10:40 - 10:50',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '12:30 - 13:10',
+      time: '10:50 - 11:20',
       talks: [
-        {author: '[en] Rowdy Rabouw ', title: 'Unleash your web skills on native'},
-        {author: 'Oleg Chorny ', title: 'Cloud Native Observability'},
-        {author: 'Andrew Mykhaliuk', title: 'Excuse me, I have to assemble Frontend'}
+        {author: 'Ivan Jovanovic', title: 'Serverless - the way microservices should be. [en]'},
+        {author: 'Sergiy Babich', title: 'WebComponents why and how. [ua]'}
       ]
     },
     {
-      time: '13:10 - 14:30',
+      time: '11:20 - 11:35',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '11:35 - 12:05',
+      talks: [
+        {author: 'Yuriy Sherstyuk', title: 'Algorithms  in Front End: from V8 to VDOM. [ru]'},
+        {author: 'Ksenia Redunova', title: 'Estimates: is there a silver bullet? [ru]'}
+      ]
+    },
+    {
+      time: '12:05 - 12:15',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '12:15 - 12:45',
+      talks: [
+        {author: 'Nik Graf', title: 'ReasonML. [en]'},
+        {author: 'Alex Migutsky', title: 'Architecture evolution of Microsoft To-Do web app. [ru]'}
+      ]
+    },
+    {
+      time: '12:45 - 12:55',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '12:55 - 13:25',
+      talks: [
+        {author: 'Rowdy Rabouw', title: 'Unleash your web skills on native. [en]'},
+        {author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle: Google Home vs Alexa. [Ru]'}
+      ]
+    },
+    {
+      time: '13:25 - 14:25',
       talks: [
         {author: '', title: 'Lunch'}
       ]
     },
     {
-      time: '14:30-15:10',
+      time: '14:25 - 14:55',
       talks: [
-        {author: 'Trishul Goel', title: 'Cross browser extensions - lets make one'},
-        {author: 'Илья Иванов', title: 'Advanced React-Native'},
-        {author: 'Alex Migutsky ', title: 'Architecture evolution of Microsoft To-Do web app'}
+        {author: 'Trishul Goel', title: 'Cross browser extensions - lets make one. [en]'},
+        {author: 'Andrew Mykhaliuk', title: 'Excuse me, I have to assemble Frontend.'}
       ]
     },
     {
-      time: '15:10 - 15:40',
-      talks: [
-        {author: '', title: 'Long break'}
-      ]
-    },
-    {
-      time: '15:40-16:20',
-      talks: [
-        {author: 'Patrick Kettner ', title: ' JavaScript without javascript'},
-        {author: 'Roman Sachenko', title: 'NodeJS + CQRS + Event Sourcing: pros and cons'},
-        {author: '', title: ''}
-      ]
-    },
-    {
-      time: '16:30 - 16:50',
+      time: '14:55-15:05',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '16:50- 17:30',
+      time: '15:05-15:35',
       talks: [
-        {author: '[en] David Kopal', title: 'Unleash the power of the higher-order components'},
-        {author: '[ru] Arkadiy Pilguk ', title: 'Real-world application of computer vision and machine learning in modern web applications'},
-        {author: 'Roman Rodomansky and Andrew Yasinishyn', title: 'Processes automation within the company'}
+        {author: 'Nikita Dubko', title: 'Houdini - css which is JavaScript. [ru]'},
+        {author: 'Philip Shurpik', title: 'OK Google. What\'s next?. [ru]'}
       ]
     },
     {
-      time: '17:30-18:00',
+      time: '15:35-15:50',
       talks: [
-        {author: '', title: 'Long break'}
+        {author: '', title: 'Break'}
       ]
     },
     {
-      time: '18:00-18:40',
+      time: '15:50-16:20',
       talks: [
-        {author: 'Henning Muszynski', title: 'The ABC of Coded Style Guides'},
-        {author: '[ua] Леонід Байда', title: 'If you don\'t like how your static typing smells, maybe you do it wrong'},
-        { author: 'Mike MacCana', title: 'Deploying your JS app in 2018 [en]'}
+        {author: 'Patrick Kettner', title: 'JavaScript without javascript. [en]'},
+        {author: 'Roman Sachenko', title: 'NodeJS + CQRS + Event Sourcing: pros and cons. [ru]'}
       ]
     },
     {
-      time: '18:40 - 20:00',
+      time: '16:20-16:30',
       talks: [
-        {author: '', title: 'Afterparty with drinks and snacks'}
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '16:30-17:00',
+      talks: [
+        {author: 'David Kopal', title: 'Unleash the power of the higher-order components. [en]'},
+        {author: 'Arkadiy Pilguk', title: 'Real-world application of computer vision and machine. [ru]'}
+      ]
+    },
+    {
+      time: '17:00-17:10',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '17:10-17:40',
+      talks: [
+        {author: 'Ilya Ivanov', title: 'Advanced React-Native. [ru]'},
+        {author: 'Oleg Chorny', title: 'Cloud Native Observability. [ru]'}
+      ]
+    },
+    {
+      time: '17:40-17:50',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '17:50-18:20',
+      talks: [
+        {author: 'Henning Muszynski', title: 'The ABC of Coded Style Guides. [en]'},
+        {author: 'Denys Dovhan', title: 'Automating GitHub workflow with probot. [ua]'}
+      ]
+    },
+    {
+      time: '20:00',
+      talks: [
+        {author: '', title: 'Afterparty with drinks and snacks.'}
       ]
     }
   ];
 
   var talks8july = [
     {
-      time: '08:30-09:30',
+      time: '08:30 - 09:30',
       talks: [
         {author: '', title: 'Yoga'}
       ]
     },
     {
-      time: '09:30- 10:10',
+      time: '09:30 - 10:00',
       talks: [
-        {author: 'Viktor Turskyi', title: 'Virtual reality with ReactVR'},
-        {author: 'Mihail Zachepilo', title: 'WebAssembly powered Machine Learning'},
-        {author: 'Eyal Eizenberg', title: 'The Psychology of building your first open source'},
-        {author: '', title: ''},
+        {author: 'Rustam Aliyev and Ivan Martynov', title: 'From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [en/ru]'},
+        {author: 'Mihail Zachepilo', title: 'WebAssembly powered Machine Learning. [ru]'}
       ]
     },
     {
-      time: '10:10-10:30',
+      time: '10:00 - 10:10',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '10:30 - 11:10',
+      time: '10:10 - 10:40',
       talks: [
-        {author: '[en] Ivan Jovanovic', title: 'Introduction to Micro Frontends'},
-        {author: 'Ivan Goncharov', title: 'W.T.F. is GraphQL?'},
-          {author: 'Yuriy Sherstyuk', title: 'Full-time remote only'},
-        {author: '', title: ''},
+        {author: 'Viktor Turskyi', title: 'Virtual reality with ReactVR. [en]'},
+        {author: 'Denis Artyuhovic', title: 'Evolution of Web Performance. [ru]'}
       ]
     },
     {
-      time: '11:10 - 11:30',
+      time: '10:40 - 10:50',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:30 - 12:15',
+      time: '10:50 - 11:20',
       talks: [
-        {author: '[en] Patrick Kettner', title: 'Creating magic with houdini'},
-        {author: 'Rustam Aliyev+Ivan Martynov', title: 'From monolith web app to micro-frontends – How we extended microservices architecture to frontend'},
-        {author: 'Aleksandr Shushunov', title: 'Let\'s kill lifecycle'},
-        {author: '', title: ''},
+        {author: 'Ivan Jovanovic', title: 'Introduction to Micro Frontends. [en]'},
+        {author: 'Ivan Goncharov', title: 'W.T.F. is GraphQL? [ua]'}
       ]
     },
     {
-      time: '12:15 - 12:30',
+      time: '11:20 - 11:35',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '12:30 - 13:10',
+      time: '11:35 - 12:05',
       talks: [
-        {author: '[en] Asim Hussain ', title: 'How to scale an SPA to 1M views for $1?'},
-        {author: 'Valentyn Barmashyn ', title: 'RxJS in React, RxJS in Angular and why we all should be friends'},
-        {author: 'Savitsky Roman ', title: 'Chrome Dev Tools. New & Tips'},
-        {author: '', title: ''},
+        {author: 'Eyal Eizenberg', title: 'Redux-cornell. [en]'},
+        {author: 'Savitsky Roman', title: 'Chrome Dev Tools. New & Tips. [ru]'}
       ]
     },
     {
-      time: '13:10 - 14:30',
+      time: '12:05 - 12:15',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '12:15 - 12:45',
+      talks: [
+        {author: 'Patrick Kettner', title: 'Creating magic with houdini. [en]'},
+        {author: 'Roman Rodomansky', title: 'Processes automation within the company. [ua]'}
+      ]
+    },
+    {
+      time: '12:45 - 12:55',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '12:55 - 13:25',
+      talks: [
+        {author: 'Asim Hussain', title: 'How to scale an SPA to 1M views for $1? [en]'},
+        {author: 'Aleksandr Shushunov', title: 'Let\'s kill lifecycle. [ru]'}
+      ]
+    },
+    {
+      time: '13:25 - 14:25',
       talks: [
         {author: '', title: 'Lunch'}
       ]
     },
     {
-      time: '14:30-15:10',
+      time: '14:25 - 14:55',
       talks: [
-        {author: 'Katarzyna Jastrzębska', title: 'Reuse your code in React like it\'s 2018'},
-        {author: 'Nikita Dubko', title: 'Houdini - css which is JavaScript'},
-        { author: 'Haroen Viaene', title: 'You’re probably making an api client'},
-        {author: '', title: ''},
+        {author: 'Katarzyna Jastrzębska', title: 'Reuse your code in React like it\'s 2018. [en]'},
+        {author: 'Alex Troush', title: 'The existential crisis in a blockchain era. [ru]'}
       ]
     },
     {
-      time: '15:10 - 15:40',
-      talks: [
-        {author: '', title: 'Long break'}
-      ]
-    },
-    {
-      time: '15:40-16:20',
-      talks: [
-        {author: 'Radoslav Stankov ', title: 'React Refactoring Patterns'},
-        {author: 'Oleksandr Skachkov', title: 'WebAssembly vs JavaScript: What is faster?'},
-        {author: 'Denys Dovhan ', title: 'Automating GitHub workflow with probot'},
-        {author: '', title: ''},
-      ]
-    },
-    {
-      time: '16:30 - 16:50',
+      time: '14:55 - 15:05',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '16:50- 17:30',
+      time: '15:05 - 15:35',
       talks: [
-        {author: '[en] Denis Radin ', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try'},
-        {author: '[ru] Valerii Sorokobatko ', title: 'Passing strings using (in)finite-state-machine and prepack'},
-        {author: '[ru] Phillip Shurpik', title: 'OK Google. What\'s next?'},
-        {author: '', title: ''},
+        {author: 'Valerii Sorokobatko', title: 'Passing strings using (in)finite-state-machine and prepack. [ru]'},
+        {author: 'Aleksandra Shinkevich', title: 'Development atandarts: a step-by-step guide to implement it without pain. [ru]'}
       ]
     },
     {
-      time: '17:30-18:00',
+      time: '15:35 - 15:50',
       talks: [
-        {author: '', title: 'Long break'}
+        {author: '', title: 'Break'}
       ]
     },
     {
-      time: '18:00-18:40',
+      time: '15:50 - 16:20',
       talks: [
-        {author: '[ru] Artem Zakharchenko', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago'},
-        {author: 'Eyal Eizenberg', title: 'redux-cornell'},
-        {author: '', title: ''},
-        {author: '', title: ''},
+        {author: 'Radoslav Stankov', title: 'React Refactoring Patterns. [en]'},
+        {author: 'Oleksandr Skachkov', title: 'WebAssembly vs JavaScript: What is faster? [ru]'}
       ]
     },
     {
-      time: '18:40 - 19:00',
+      time: '16:20 - 16:30',
       talks: [
-        {author: '', title: 'Q&A Session'}
+        {author: '', title: 'Break'}
       ]
     },
     {
-      time: '20:00',
+      time: '16:30 - 17:00',
+      talks: [
+        {author: 'Denis Radin', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try. [ru]'},
+        {author: 'Valentyn Barmashyn ', title: 'RxJS in React, RxJS in Angular and why we all should be friends. [ru]'}
+      ]
+    },
+    {
+      time: '17:00 - 17:10',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '17:10 - 17:40',
+      talks: [
+        {author: 'Artem Zakharchenko', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago. [ru]'},
+        {author: 'Leonid Baida', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'}
+      ]
+    },
+    {
+      time: '18:40 - 20:00',
       talks: [
         {author: '', title: 'Speakers Dinner'}
       ]
@@ -278,26 +338,26 @@ $(document).ready(function () {
 
 
   var workshop6july = [
-    {time: '09:00 - 12:00', talks: [ { author: 'Alex Migutsky ', title: 'Growing your career as software engineer' },]},
-    {time: '09:00 - 16:00', talks: [ { author: 'Ivan Jovanovic ', title: 'Testing javascript applications' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'Gerard Sans ', title: 'Fullstack graphQl using react with Gerard Sans' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'David Mullerchen ', title: 'Angular 101' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf ', title: 'Get Started with Reason & ReasonReact' },]},
-    {time: '13:00 - 15:00', talks: [ { author: 'Natalia Tepluhina ', title: 'Build A Simple Pet Fetching Web App using VueJS' },]},
-    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developer' },]},
-    {time: '12:00 - 15:00', talks: [ { author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle' },]}
+    {time: '09:00 - 12:00', talks: [ { author: 'Alex Migutsky ', title: 'Growing your career as software engineer. [ru]' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Ivan Jovanovic ', title: 'Testing javascript applications.' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Gerard Sans ', title: 'Fullstack graphQl using react with Gerard Sans. [en]' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'David Mullerchen ', title: 'Angular 101. [en]' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf ', title: 'Get Started with Reason & ReasonReact. [en]' },]},
+    {time: '13:00 - 15:00', talks: [ { author: 'Natalia Tepluhina ', title: 'Build A Simple Pet Fetching Web App using VueJS. [ru]' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developer.' },]},
+    {time: '12:00 - 15:00', talks: [ { author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle: Google Home vs Alexa. [Ru]' },]}
   ];
 
 
 
   var workshop8july = [
-    {time: '09:00 - 11:00', talks: [ { author: 'Natalia Tepluhina', title: 'Build A Simple Pet Fetching Web App using VueJS' },]},
-    {time: '11:00 - 14:00', talks: [ { author: 'Alex Migutsky', title: 'Growing your career as software engineer' },]},
-    {time: '14:00 - 16:00', talks: [ { author: 'Max Klymyshyn', title: 'Build blockchain using CRDT and Merkle Trees' },]},
-    {time: '10:00 - 12:00', talks: [ { author: 'Sara and Katarzyna', title: 'Ultimate style workshop for React' },]},
-    {time: '12:00 - 15:00', talks: [ { author: 'Trishul Goel', title: 'Build your own browser extension' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf', title: 'Build Serverless Node.js Application on AWS' },]},
-    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developers' },]}
+    {time: '09:00 - 11:00', talks: [ { author: 'Natalia Tepluhina', title: 'Build A Simple Pet Fetching Web App using VueJS. [ru]' },]},
+    {time: '11:00 - 14:00', talks: [ { author: 'Alex Migutsky', title: 'Growing your career as software engineer. [ru]' },]},
+    {time: '14:00 - 16:00', talks: [ { author: 'Max Klymyshyn', title: 'Build blockchain using CRDT and Merkle Trees.' },]},
+    {time: '10:00 - 12:00', talks: [ { author: 'Sara and Katarzyna', title: 'Ultimate style workshop for React.' },]},
+    {time: '12:00 - 15:00', talks: [ { author: 'Trishul Goel', title: 'Build your own browser extension.' },]},
+    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf', title: 'Build Serverless Node.js Application on AWS. [en]' },]},
+    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developers.' },]}
   ];
 
 

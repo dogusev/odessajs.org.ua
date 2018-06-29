@@ -251,49 +251,49 @@ $(document).ready(function(){
       ]
 
     },
-    {
-      image: "images/reporters/sara_vieira.jpg",
-      name: "Sara Vieira",
-      position: "Developer Relations" ,
-      company: "YLD",
-      rept: [
-        {
-          title: "The Dream of Styleguide Driven Development [En]",
-          description:
-          "You have heard of all types of driven development but react emerged a new type," +
-          " styleguide driven development became a reality with components. This type " +
-          "of development focuses on Developer/Designer collaboration and on assertive" +
-          " components. With the use of React, CSS-in-JS, Flow and Snapshot testing " +
-          "we were able to almost remove style regressions. In this talk you get a " +
-          "glimpse of you can start styleguide " +
-          "driven development and how you can sell this dream to your project managers.",
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://twitter.com/NikkitaFTW',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/saravieira1/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'https://www.instagram.com/niikkitaftw/',
-          fatype: 'instagram'
-        },
-        {
-          link: 'https://github.com/SaraVieira/',
-          fatype: 'github'
-        },
-        {
-          link: 'https://iamsaravieira.com',
-          fatype: 'link'
-        }
-      ]
-    },
+    // {
+    //   image: "images/reporters/sara_vieira.jpg",
+    //   name: "Sara Vieira",
+    //   position: "Developer Relations" ,
+    //   company: "YLD",
+    //   rept: [
+    //     {
+    //       title: "The Dream of Styleguide Driven Development [En]",
+    //       description:
+    //       "You have heard of all types of driven development but react emerged a new type," +
+    //       " styleguide driven development became a reality with components. This type " +
+    //       "of development focuses on Developer/Designer collaboration and on assertive" +
+    //       " components. With the use of React, CSS-in-JS, Flow and Snapshot testing " +
+    //       "we were able to almost remove style regressions. In this talk you get a " +
+    //       "glimpse of you can start styleguide " +
+    //       "driven development and how you can sell this dream to your project managers.",
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://twitter.com/NikkitaFTW',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://www.linkedin.com/in/saravieira1/',
+    //       fatype: 'linkedin-square'
+    //     },
+    //     {
+    //       link: 'https://www.instagram.com/niikkitaftw/',
+    //       fatype: 'instagram'
+    //     },
+    //     {
+    //       link: 'https://github.com/SaraVieira/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://iamsaravieira.com',
+    //       fatype: 'link'
+    //     }
+    //   ]
+    // },
     {
       image: "images/reporters/patrick_kettner.jpg",
       name: "Patrick Kettner",
@@ -385,7 +385,7 @@ $(document).ready(function(){
             " powerful concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
         },
         {
-          title: "Build Serverless Node.js Applications on AWS [En]",
+          title: "Workshop: Build Serverless Node.js Applications on AWS [En]",
           description:
             "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
             "pricing. This allows developers to reduce significantly operational cost and complexity" +
@@ -394,6 +394,11 @@ $(document).ready(function(){
             "servers. During this workshop you will learn how to build and deploy scaleable," +
             "production ready and low maintenance applications using Node.js. We are going to" +
             "explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
+        },
+        {
+          "title": "Get started with Reason and ReasonReact",
+          "description":
+            "We will kick off with the basics and then quickly go into how to leverage features like variant types and pattern matching to make impossible states impossible. After you gained some knowledge about the basics the course will dig even further into ReasonReact."
         }
       ],
       aboutSpeaker:
@@ -570,6 +575,47 @@ $(document).ready(function(){
       ]
     },
     {
+      image: "images/reporters/mike_maccana.jpg",
+      name: "Mike MacCana",
+      position: "Founder" ,
+      company: "CertSimple",
+      rept: [
+        {
+          title: "Deploying your JS app in 2018. [En]",
+          description:
+          "<p>HTTP/2! Brotli compression! Elliptic curve crypto! EV! ACME! Bundles! AMP! It seems there’s suddenly a whole bunch of new ways to deploy your web apps. Here's how to make your site fast, secure, handle upgrades without downtime.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/mikemaccana',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://uk.linkedin.com/in/mikemaccana',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/mikemaccana/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/mikemaccana',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/123671/mikemaccana',
+          fatype: 'stackoverflow'
+        },
+        {
+          link: 'https://certsimple.com',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
       image: "images/reporters/oskackov.png",
       name: "Oleksandr Skachkov",
       position: "Lead FrontEnd Developer" ,
@@ -634,7 +680,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://scontent.fdnk1-1.fna.fbcdn.net/v/t1.0-9/27867981_1761648527232195_4674196445569727871_n.jpg?_nc_cat=0&oh=c46e67848f25c4467264711ee09a1dae&oe=5B4167D6",
+      image: "images/reporters/oleg_chorny.jpg",
       name: "Oleg Chorny",
       position: "Site Reliability Engineering Manager" ,
       company: "Ciklum",
@@ -1576,7 +1622,7 @@ $(document).ready(function(){
       company: "Master Of Code Global",
       rept: [
         {
-          title: "Workshop: Bot Battle. [Ru]",
+          title: "Workshop: Bot Battle: Google Home vs Alexa. [Ru]",
           description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
         }
       ],
@@ -1620,7 +1666,7 @@ $(document).ready(function(){
       company: "Master Of Code Global",
       rept: [
         {
-          title: "Workshop: Bot Battle. [Ru]",
+          title: "Workshop: Bot Battle: Google Home vs Alexa. [Ru]",
           description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
         }
       ],
@@ -1772,6 +1818,68 @@ $(document).ready(function(){
         {
           link: 'https://stackoverflow.com/users/1283124/ilya-ivanov',
           fatype: 'stack-overflow'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/alexander_khokhlov.jpeg",
+      name: "Alexander Khokhlov",
+      position: "Founder" ,
+      company: "Nots.io",
+      rept: [
+        {
+          title: "Do not chase the hype train. Just steal the ideas. [Ru]",
+          description:
+            "<p>There's so much happening in javascript nowadays —  lot's of libraries, lot's of frameworks, lot's of ways of doing things pop up every week. So it's really easy to miss the point. But there’s no need to endlessly learn every new promising technology that comes out and painfully integrate it into your existing project. If the programming language you use is powerful enough, this lets you take just the ideas behind those and get them implemented blazingly fast in your code. This talk tells our story of how we use this concept while building complex realtime UI of nots.io in Clojure(Script).</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/notsio/',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/nots_io',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://blog.nots.io/',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/denis_artyuhovich.jpg",
+      name: "Denis Artyuhovich",
+      position: "Javascript Developer" ,
+      company: "Evolution Gaming",
+      rept: [
+        {
+          title: "Evolution of Web Performance. [Ru]",
+          description:
+            "<p>For web developers, especially for web games developers, performance is a key point. We try to make user interaction as smooth as possible to achieve better user experience. During the speech, we'll look at how the web changed, what actually happens with our application in the browser and how to deal with it.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.linkedin.com/in/denisby/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/re_ise/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/zaqqaz',
+          fatype: 'github'
+        },
+        {
+          link: 'https://denis.by/',
+          fatype: 'link'
         }
       ]
     },
