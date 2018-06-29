@@ -5137,15 +5137,6 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
-  .modal-dialog {
-    max-width: 500px;
-    margin: 30px auto;
-  }
-  .modal-sm {
-    max-width: 300px;
-  }
-}
 
 @media (min-width: 992px) {
   .modal-lg {

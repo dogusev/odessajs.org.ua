@@ -38,65 +38,65 @@ $(document).ready(function(){
         },
       ]
     },
+    // {
+    //   id: 2,
+    //   image: "images/reporters/david_mullerchen.jpg",
+    //   name: "David Müllerchen",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 6',
+    //   duration: '6-7 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     'David is an Angular consultant and trainer. He’s also a team member and trainer at ' +
+    //     'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge, ' +
+    //     'speaking and teaching at meetups and conferences. David’s keeping his own blog ' +
+    //     '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s ' +
+    //     'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert ' +
+    //     '(GDE) in Angular.',
+    //   title: "Angular 101 [En]",
+    //   description:
+    //   "<p>Angular is a client-side JavaScript framework used world-wide to create web " +
+    //   "applications. The framework gives clear structures and supports u. a. Modularization " +
+    //   "and lazy loading. It is developed by a team at Google and is aimed at developers of " +
+    //   "complex enterprise applications. Since the release of version 2, the framework is no " +
+    //   "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic " +
+    //   "principles of Angular.</p>",
+    //   topics:[
+    //     '<ul>' +
+    //     '<li>NgModules</li>' +
+    //     '<li>Components</li>' +
+    //     '<li>Routing</li>' +
+    //     '<li>Submodules</li>' +
+    //     '<li>Feature Modules</li>' +
+    //     '<li>Services</li>' +
+    //     '<li>Forms (Template driven / reactive)</li>' +
+    //     '<li>Pipe</li>' +
+    //     '<li>Directive</li>' +
+    //     '</ul>'
+    //   ],
+    //   purpose: '<p>If you want to work with the latest web technologies, you must not miss this workshop.</p>',
+    //   tools: '<p>All you need is your laptop and curiosity.</p>',
+    //   target: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/web-dave',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/webdave_de',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://webdave.de/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       id: 2,
-      image: "images/reporters/david_mullerchen.jpg",
-      name: "David Müllerchen",
-      position: "" ,
-      company: "",
-      place: '',
-      date: 'July 6',
-      duration: '6-7 h',
-      price: '',
-      aboutSpeaker:
-        'David is an Angular consultant and trainer. He’s also a team member and trainer at ' +
-        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge, ' +
-        'speaking and teaching at meetups and conferences. David’s keeping his own blog ' +
-        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s ' +
-        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert ' +
-        '(GDE) in Angular.',
-      title: "Angular 101 [En]",
-      description:
-      "<p>Angular is a client-side JavaScript framework used world-wide to create web " +
-      "applications. The framework gives clear structures and supports u. a. Modularization " +
-      "and lazy loading. It is developed by a team at Google and is aimed at developers of " +
-      "complex enterprise applications. Since the release of version 2, the framework is no " +
-      "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic " +
-      "principles of Angular.</p>",
-      topics:[
-        '<ul>' +
-        '<li>NgModules</li>' +
-        '<li>Components</li>' +
-        '<li>Routing</li>' +
-        '<li>Submodules</li>' +
-        '<li>Feature Modules</li>' +
-        '<li>Services</li>' +
-        '<li>Forms (Template driven / reactive)</li>' +
-        '<li>Pipe</li>' +
-        '<li>Directive</li>' +
-        '</ul>'
-      ],
-      purpose: '<p>If you want to work with the latest web technologies, you must not miss this workshop.</p>',
-      tools: '<p>All you need is your laptop and curiosity.</p>',
-      target: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/web-dave',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/webdave_de',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://webdave.de/',
-          fatype: 'link'
-        },
-      ]
-    },
-    {
-      id: 3,
       image: "images/reporters/ivan_jovanovich.png",
       name: "Ivan Jovanovic",
       position: "Senior Software Engineer" ,
@@ -218,7 +218,7 @@ $(document).ready(function(){
     //   ]
     // },
     {
-      id: 4,
+      id: 3,
       image: "images/reporters/timur_shemsedinov.jpg",
       name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
       position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
@@ -278,7 +278,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 5,
+      id: 4,
       image: "images/reporters/migutsky.jpg",
       name: "Alexey Migutsky",
       position: "Senior Software Development Engineer" ,
@@ -373,7 +373,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 6,
+      id: 5,
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
@@ -411,7 +411,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 7,
+      id: 6,
       image: "images/program-committee/gerard-sans.jpg",
       name: "Gerard Sans",
       position: "Google Developer Expert" ,
@@ -474,7 +474,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 8,
+      id: 7,
       image: "images/logo.png",
       name: "Gleb Dobzhanskiy & Valentine Mezentsev",
       position: "VP of Engeeniirig & NodeJS developer" ,
@@ -486,7 +486,7 @@ $(document).ready(function(){
       aboutSpeaker:
       "<p>Gleb Dobzhanskiy: -I like programming for the fact that I can create things that work without my help. New technologies for me are like a quest, at first you sit and try to understand them, you dig deeper and deeper and then everything works - it's like magic. My last interesting task was working with NLU algorithms. And I am a real Apple ambasador))) I wish all the participants cool conferences, memories and networking.</p>"+
       "<p>Valentine Mezentsev: -I'm a part of bots development department. We are working with Facebook Messenger Bots a lot, but I also have experience with Amazon Alexa and Google Home. My hobbies is working with voice assistant platform(Amazon Alexa), learn something new, gym and watching football. \n</p>",
-      title: "Bot Battle [Ru]",
+      title: "Bot Battle: Google Home vs Alexa. [Ru]",
       description:
         "<p>The battle will be based on a tic-tac-toe game through the interaction of 2 bots " +
         "(Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers.</p>" +
@@ -526,7 +526,7 @@ $(document).ready(function(){
     // July 8
 
     {
-      id: 9,
+      id: 8,
       image: "images/reporters/migutsky.jpg",
       name: "Alexey Migutsky",
       position: "Senior Software Development Engineer" ,
@@ -678,7 +678,7 @@ $(document).ready(function(){
     //   ]
     // },
     {
-      id: 10,
+      id: 9,
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
@@ -716,7 +716,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 11,
+      id: 10,
       image: "images/reporters/max_klymyshyn.jpg",
       name: "Max Klymyshyn",
       position: "" ,
@@ -759,7 +759,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 12,
+      id: 11,
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
       position: "" ,
@@ -812,7 +812,7 @@ $(document).ready(function(){
       ]
     },
     {
-      id: 13,
+      id: 12,
       image: "images/reporters/trishul_goel.png",
       name: "Trishul Goel",
       position: "Frontend Developer" ,
@@ -868,39 +868,39 @@ $(document).ready(function(){
         },
       ]
     },
+    // {
+    //   id: 14,
+    //   image: "images/logo.png",
+    //   name: "Sara Vieira & Katarzyna Jastrzębska-Łachacz",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 'July 8',
+    //   duration: '6-7 h',
+    //   price: '',
+    //   aboutSpeaker:
+    //     "<p>Sara Vieira is a frontend developer at a consulting company, so she loves making things and teaching people all about the amazing Internet. Sara likes football and used to play as a goalkeeper for many years! Also, she knows how to play drums and jokes that 'that's a reason of her terrible earing'</p>"+
+    //     "<p>Katarzyna Jastrzębska-Łachacz is a frontend developer with over 6 years of experience in various frameworks and libraries (Polymer, Ember, Backbone). She really likes to work with Node.js, React, Redux, GraphQL and Apollo. Katarzyna loves horse riding, Fincher movies and King books and draws inspiration from two closest people: her daughter and mom.</p>",
+    //   title: "Ultimate styling workshop for react developers [En]",
+    //   description:
+    //     "During the workshop attendees will learn how to solve styling for their React Application. We will start with applying vanilla CSS to the app with BEM architecture. Then we’ll proceed with applying preprocessors like Sass to the app and will go through setup with Webpack. Together we’ll use CSSModules library instead of BEM and try to compare them both. Finally, the last module of the workshop will be ‘CSS-in-JS’. It’ll be supplemented with the styled-components example.",
+    //   topics:[
+    //     "<ul>"+
+    //       "<li>Application of vanilla CSS to the app with BEM</li>"+
+    //       "<li>Design of architecture for a small application</li>"+
+    //       "<li>Application of preprocessors to the app</li>"+
+    //       "<li>Creation of a theme with color and size variables using Sass</li>"+
+    //       "<li>Creation of components which don’t share any styles using CSSModules</li>"+
+    //     "</ul>"
+    //   ],
+    //   purpose: "Sara and Katarzyna will show you that CSS and styling react application can be painless. There are various options to build CSS architecture around an application. You will see possibilities of all these options and compare them in practice.",
+    //   tools: "Computer with chosen IDE, node.js installed, internet. Basic React knowledge is required.",
+    //   target: '',
+    //   socialsRendered: '',
+    //   socials: []
+    // },
     {
-      id: 14,
-      image: "images/logo.png",
-      name: "Sara Vieira & Katarzyna Jastrzębska-Łachacz",
-      position: "" ,
-      company: "",
-      place: '',
-      date: 'July 8',
-      duration: '6-7 h',
-      price: '',
-      aboutSpeaker:
-        "<p>Sara Vieira is a frontend developer at a consulting company, so she loves making things and teaching people all about the amazing Internet. Sara likes football and used to play as a goalkeeper for many years! Also, she knows how to play drums and jokes that 'that's a reason of her terrible earing'</p>"+
-        "<p>Katarzyna Jastrzębska-Łachacz is a frontend developer with over 6 years of experience in various frameworks and libraries (Polymer, Ember, Backbone). She really likes to work with Node.js, React, Redux, GraphQL and Apollo. Katarzyna loves horse riding, Fincher movies and King books and draws inspiration from two closest people: her daughter and mom.</p>",
-      title: "Ultimate styling workshop for react developers [En]",
-      description:
-        "During the workshop attendees will learn how to solve styling for their React Application. We will start with applying vanilla CSS to the app with BEM architecture. Then we’ll proceed with applying preprocessors like Sass to the app and will go through setup with Webpack. Together we’ll use CSSModules library instead of BEM and try to compare them both. Finally, the last module of the workshop will be ‘CSS-in-JS’. It’ll be supplemented with the styled-components example.",
-      topics:[
-        "<ul>"+
-          "<li>Application of vanilla CSS to the app with BEM</li>"+
-          "<li>Design of architecture for a small application</li>"+
-          "<li>Application of preprocessors to the app</li>"+
-          "<li>Creation of a theme with color and size variables using Sass</li>"+
-          "<li>Creation of components which don’t share any styles using CSSModules</li>"+
-        "</ul>"
-      ],
-      purpose: "Sara and Katarzyna will show you that CSS and styling react application can be painless. There are various options to build CSS architecture around an application. You will see possibilities of all these options and compare them in practice.",
-      tools: "Computer with chosen IDE, node.js installed, internet. Basic React knowledge is required.",
-      target: '',
-      socialsRendered: '',
-      socials: []
-    },
-    {
-      id: 15,
+      id: 13,
       image: "images/logo.png",
       name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
       position: "" ,
