@@ -16,6 +16,11 @@
     &:last-child {
       margin-bottom: 0;
     }
+    // Alex
+    // Nothing chenge ???
+    &--8-july {
+      min-width: 900px;
+    }
   }
 
   &__hall-titles {
@@ -32,10 +37,16 @@
 
   &__hall-title-a,
   &__hall-title-b,
-  &__hall-title-c {
-    width: 50%;
+  &__hall-title-c,
+  &__hall-title-d,
+  &__hall-title-e,
+  &__hall-title-f, {
+    // width: 50%;
     text-align: center;
     display: inline-block;
+    &--hexenary {
+      width: 16.66666666666667%;
+    }
     &--triple {
       width: 33%;
     }
@@ -44,11 +55,11 @@
     }
   }
 
-  &__hall-title-c {
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-  }
+  // &__hall-title-c {
+  //   width: 33%;
+  //   text-align: center;
+  //   display: inline-block;
+  // }
 
   &__hall-title-tc {
     width: 33%;
@@ -219,7 +230,9 @@
       }
 
       &:nth-child(2) {
+        // Alex
         margin-right: 13px;
+        margin-left: 30px;
       }
 
       &:last-child {

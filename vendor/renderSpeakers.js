@@ -421,46 +421,46 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/david_mullerchen.jpg",
-      name: "David Müllerchen",
-      position: "Freelancer" ,
-      company: "Webdave",
-      rept: [
-        {
-          title: "Workshop: Angular 101 [En]",
-          description:
-            "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
-            "applications. The framework gives clear structures and supports u. a. Modularization" +
-            "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
-            "complex enterprise applications. Since the release of version 2, the framework is no" +
-            "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
-            "principles of Angular.</p>",
-          }
-      ],
-      aboutSpeaker:
-        'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
-        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
-        'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
-        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
-        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
-        '(GDE) in Angular.',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/web-dave',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/webdave_de',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://webdave.de/',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/david_mullerchen.jpg",
+    //   name: "David Müllerchen",
+    //   position: "Freelancer" ,
+    //   company: "Webdave",
+    //   rept: [
+    //     {
+    //       title: "Workshop: Angular 101 [En]",
+    //       description:
+    //         "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
+    //         "applications. The framework gives clear structures and supports u. a. Modularization" +
+    //         "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
+    //         "complex enterprise applications. Since the release of version 2, the framework is no" +
+    //         "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
+    //         "principles of Angular.</p>",
+    //       }
+    //   ],
+    //   aboutSpeaker:
+    //     'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
+    //     'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
+    //     'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
+    //     '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
+    //     'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
+    //     '(GDE) in Angular.',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/web-dave',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/webdave_de',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://webdave.de/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
       {
           image: "images/reporters/HaroenViaene.jpg",
           name: "Haroen Viaene",
