@@ -51,6 +51,10 @@
         justify-content: center;
         >.btn {
           margin: 0 0.8rem;
+
+          @media screen and (max-width: 720px) {
+            margin-top: 15px;
+          }
         }
       }
     }
