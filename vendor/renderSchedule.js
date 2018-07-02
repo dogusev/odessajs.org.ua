@@ -201,7 +201,7 @@ $(document).ready(function () {
         {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
         {place: 'Hall D - workshop', author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov *', title: '<b>Workshop <br> 09:00-16:00</b> Software Engendering Fundamentals for JavaScript Developers. [ru]'},
         {place: 'Hall E - workshop', author: 'Max Klymyshyn ***', title: '<b>Workshop <br> 09:00 - 11:00 </b> Build blockchain using CRDT and Merkle Trees. [ru]'},       
-        {place: 'Hall F - workshop', author: 'Valentine Mezentsev, Gleb Dobzhanskyi *', title: '<b>Workshop <br> 10:00 - 13:00</b> Bot Battle: Google Home vs Alexa. [ru]'}
+        {place: 'Hall F - workshop', author: 'Valentine Mezentsev, Gleb Dobzhanskyi **', title: '<b>Workshop <br> 10:00 - 13:00</b> Bot Battle: Google Home vs Alexa. [ru]'}
       ]
     },
     {
@@ -214,9 +214,9 @@ $(document).ready(function () {
       time: '10:10 - 10:40',
       talks: [
         {place: 'Hall A', author: 'Viktor Turskyi **', title: 'How to create a VR application with React. [en]'},
-        {place: 'Hall B', author: 'Denis Artyuhovich **', title: 'Growing your career as software engineer. [ru]'},
-        {place: 'Hall C - workshop', author: 'Alex Migutsky', title: '<b>Workshop <br> 11:00 - 14:00</b> Evolution of Web Performance. [ru]'},
-        {place: 'Hall D - workshop', author: 'Trishul Goel *', title: '<b>Workshop <br> 13:00 - 16:00</b> Build your own browser extension. [en]'}
+        {place: 'Hall B', author: 'Denis Artyuhovich **', title: 'Evolution of Web Performance. [ru]'},
+        {place: 'Hall E - workshop', author: 'Alex Migutsky', title: '<b>Workshop <br> 11:00 - 14:00</b> Growing your career as software engineer. [ru]'},
+        {place: 'Hall F - workshop', author: 'Trishul Goel *', title: '<b>Workshop <br> 13:00 - 16:00</b> Build your own browser extension. [en]'}
       ]
     },
     {
@@ -230,7 +230,7 @@ $(document).ready(function () {
       talks: [
         {place: 'Hall A', author: 'Ivan Jovanovic ***', title: 'Introduction to Micro Frontends. [en]'},
         {place: 'Hall B', author: 'Ivan Goncharov **', title: 'W.T.F. is GraphQL? [ua]'},
-        {place: 'Hall C - workshop', author: 'Natalia Tepluhina', title: '<b>Workshop <br> 14:00 - 16:00</b> Build A Simple Pet Fetching Web App using VueJS. [ru]'}
+        {place: 'Hall E - workshop', author: 'Natalia Tepluhina', title: '<b>Workshop <br> 14:00 - 16:00</b> Build A Simple Pet Fetching Web App using VueJS. [ru]'}
       ]
     },
     {
