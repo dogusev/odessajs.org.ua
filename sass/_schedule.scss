@@ -7,7 +7,9 @@
   // Alex
   &__trueman {
     position: relative;
+    display: flex;
     min-height: 50px;
+    color: #ffffff;
     background-color: #e32d42;
     &::before {
       content: '';
@@ -15,35 +17,41 @@
       z-index: 1;
       left: 50%;
       right: 50%;
-      width: 50%;
-      height: 100%;
+      width: 60%;
+      height: 50px;
       background-color: #fff;
       transform: translate(-50%, 0) skewX(-30deg);
     }
     &-header {
-      display: inline-block;
-      margin-left: 50px;
-      color: #ffffff;
+      width: 200px;
+      padding-left: 50px;
     }
     &-info {
-      position: absolute;
+      flex-grow: 1;
       z-index: 10;
-      top: 0;
-      left: 30%;
-      right: 30%;
       text-align: center;
-      text-transform: uppercase;
       color: #e32d42;
-      a {
-        text-transform: lowercase;
-      }
     }
-    &-waves {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      transform: scale(-1,1);
+    &-facebook {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      a {
+        .fa-stack {
+          transition: all ease .3s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        color: #ffffff;
+        .fa-circle {
+          color: #ffffff;
+        }
+        .fa-facebook {
+          color: #e32d42;
+        }
+      }
     }
   }
 
