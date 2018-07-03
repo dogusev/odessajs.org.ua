@@ -334,42 +334,42 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/katarzyna_jastrzebsk.jpg",
-      name: "Katarzyna Jastrzębska-Łachacz",
-      position: "Frontend Developer" ,
-      company: "Twill",
-      rept: [
-        {
-          title: "Reuse your code in React like it's 2018 [En]",
-          description:
-            "The talk will be about possible ways to reuse code in React. We will " +
-            "go through hocs, render and children props and other patterns, but also a little about " +
-            "design and architecture decisions (how developers usually make them). Why some of the " +
-            "components should be written separately when other should be more flexible."
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/kajas90',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/kejt_bw',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://stackoverflow.com/users/7364681/kejt',
-          fatype: 'stack-overflow'
-        },
-        {
-          link: 'https://medium.com/@katarzyna.jastrzebska90',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/katarzyna_jastrzebsk.jpg",
+    //   name: "Katarzyna Jastrzębska-Łachacz",
+    //   position: "Frontend Developer" ,
+    //   company: "Twill",
+    //   rept: [
+    //     {
+    //       title: "Reuse your code in React like it's 2018 [En]",
+    //       description:
+    //         "The talk will be about possible ways to reuse code in React. We will " +
+    //         "go through hocs, render and children props and other patterns, but also a little about " +
+    //         "design and architecture decisions (how developers usually make them). Why some of the " +
+    //         "components should be written separately when other should be more flexible."
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/kajas90',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/kejt_bw',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://stackoverflow.com/users/7364681/kejt',
+    //       fatype: 'stack-overflow'
+    //     },
+    //     {
+    //       link: 'https://medium.com/@katarzyna.jastrzebska90',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
