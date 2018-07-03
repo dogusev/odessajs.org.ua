@@ -281,7 +281,7 @@ $(document).ready(function () {
     {
       time: '14:25 - 14:55',
       talks: [
-        {place: 'Hall A', author: 'Katarzyna Jastrzębska **', title: 'Reuse your code in React like it\'s 2018. [en]'},
+        {place: 'Hall A', author: '', title: 'TBD'},
         {place: 'Hall B', author: 'Alex Troush ***', title: 'The existential crisis in a blockchain era. [ru]'},
       ]
     },
