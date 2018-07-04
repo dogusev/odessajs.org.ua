@@ -4,6 +4,80 @@
   //background: url('../images/ninja-bg.1.png') no-repeat 50% 0 #8b8b8b;
   //background-color: #8b8b8b;
 
+  // Alex
+  &__trueman {
+    position: relative;
+    display: flex;
+    min-height: 50px;
+    min-width: 550px;
+    color: #ffffff;
+    background-color: #e32d42;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      right: 50%;
+      width: 60%;
+      height: 50px;
+      background-color: #fff;
+      transform: translate(-50%, 0) skewX(-30deg);
+    }
+    &-header {
+      width: 200px;
+      padding-left: 50px;
+    }
+    &-info {
+      flex-grow: 1;
+      z-index: 10;
+      text-align: center;
+      color: #e32d42;
+    }
+    &-facebook {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      a {
+        .fa-stack {
+          transition: all ease .3s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        color: #ffffff;
+        .fa-circle {
+          color: #ffffff;
+        }
+        .fa-facebook {
+          color: #e32d42;
+        }
+      }
+    }
+
+    @media screen and (max-width: 767px){
+      align-items: center;
+      &::before {
+        display: none;
+      }
+      &-header {
+        padding-left: 15px;
+        width: 100px;
+      }
+
+      &-facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+      }
+
+      &-info {
+        color: #fff;
+      }
+    }
+  }
+
   &__inner {
     padding: 0 20px;
     max-width: 1160px;
@@ -12,14 +86,21 @@
 
   &__content {
     margin-bottom: 50px;
-    min-width: 500px;
+    min-width: 550px;
+
     &:last-child {
       margin-bottom: 0;
     }
+    // Alex
+    // Nothing chenge ???
+    // &--8-july {
+    //   min-width: 900px;
+    // }
   }
 
   &__hall-titles {
-    margin-left: 210px;
+    display: flex;
+    margin-left: 150px;
     white-space: nowrap;
     margin-bottom: 10px;
     font-size: 16px;
@@ -30,12 +111,23 @@
     }
   }
 
+  &__hall-title {
+    text-align: center;
+    width: 100%;
+  }
+
   &__hall-title-a,
   &__hall-title-b,
-  &__hall-title-c {
-    width: 50%;
+  &__hall-title-c,
+  &__hall-title-d,
+  &__hall-title-e,
+  &__hall-title-f, {
+    // width: 50%;
     text-align: center;
     display: inline-block;
+    &--hexenary {
+      width: 16.66666666666667%;
+    }
     &--triple {
       width: 33%;
     }
@@ -44,11 +136,11 @@
     }
   }
 
-  &__hall-title-c {
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-  }
+  // &__hall-title-c {
+  //   width: 33%;
+  //   text-align: center;
+  //   display: inline-block;
+  // }
 
   &__hall-title-tc {
     width: 33%;
@@ -101,7 +193,8 @@
       padding-left: 25px;
       color: #fff;
       font-size: 16px;
-      width: 205px;
+      min-width: 150px;
+      max-width: 150px;
       height: 56px;
       line-height: 56px;
       background: url('../images/connector-1.1.png') no-repeat 100% 50% #838383;
@@ -109,9 +202,11 @@
         background: url('../images/connector-hatching.png')  no-repeat 100% 50% #db2b3d;
       }
       @media screen and (max-width: 720px) {
-        width: 100px;
+        // width: 100px;
         font-size: 13px;
         padding-left: 5px;
+        min-width: 130px;
+        max-width: 130px;
       }
     }
     &-text {
@@ -185,6 +280,13 @@
     color: $primary;
   }
 
+  &__place {
+    font-size: 16px;
+    font-weight: bold;
+    color: $primary;
+
+  }
+
   &__report {
     margin-bottom: 8px;
     display: flex;
@@ -192,40 +294,71 @@
       border-bottom: 1px solid #767676;
     }
     &-time {
+      position: absolute;
       padding-left: 25px;
       color: $primary;
       font-size: 16px;
-      width: 185px;
+      min-width: 150px;
+      max-width: 150px;
       height: 56px;
       line-height: 56px;
       background: url('../images/connector-2.1.png') no-repeat 100% 50% #fff;
       @media screen and (max-width: 720px) {
-        width: 100px;
         padding-left: 5px;
         font-size: 13px;
+        min-width: 130px;
+        max-width: 130px;
       }
     }
+
+    >.schedule__report-hall {
+      &:nth-child(2) {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
+    }
+
     &-hall {
       //padding: 25px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex: 1;
-      font-size: 16px;
-      text-align: center;
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+      // flex: 1;
+      // text-align: center;
+
+      width: 100%;
+      padding: 10px;
       background: #fff;
+      font-size: 16px;
+
+      &-cont {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
+
       @media screen and (max-width: 720px) {
         font-size: 13px;
       }
 
-      &:nth-child(2) {
-        margin-right: 13px;
+      &:first-child {
+        background: #fff;
+      }
+      &:nth-child(2n) {
+        background: #d2d2d2;
       }
 
       &:last-child {
-        margin-left: 13px;
+        padding-bottom: 0;
       }
     }
+
+
   }
 
   .main_subtitle {
