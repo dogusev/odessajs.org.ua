@@ -9,6 +9,7 @@
     position: relative;
     display: flex;
     min-height: 50px;
+    min-width: 550px;
     color: #ffffff;
     background-color: #e32d42;
     &::before {
@@ -53,6 +54,28 @@
         }
       }
     }
+
+    @media screen and (max-width: 767px){
+      align-items: center;
+      &::before {
+        display: none;
+      }
+      &-header {
+        padding-left: 15px;
+        width: 100px;
+      }
+
+      &-facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+      }
+
+      &-info {
+        color: #fff;
+      }
+    }
   }
 
   &__inner {
@@ -63,7 +86,8 @@
 
   &__content {
     margin-bottom: 50px;
-    // min-width: 500px;
+    min-width: 550px;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -75,7 +99,8 @@
   }
 
   &__hall-titles {
-    margin-left: 210px;
+    display: flex;
+    margin-left: 150px;
     white-space: nowrap;
     margin-bottom: 10px;
     font-size: 16px;
@@ -84,6 +109,11 @@
       margin-left: 100px;
       font-size: 13px;
     }
+  }
+
+  &__hall-title {
+    text-align: center;
+    width: 100%;
   }
 
   &__hall-title-a,
@@ -264,6 +294,7 @@
       border-bottom: 1px solid #767676;
     }
     &-time {
+      position: absolute;
       padding-left: 25px;
       color: $primary;
       font-size: 16px;
@@ -279,6 +310,17 @@
         max-width: 130px;
       }
     }
+
+    >.schedule__report-hall {
+      &:nth-child(2) {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
+    }
+
     &-hall {
       //padding: 25px;
       // display: flex;
@@ -286,18 +328,25 @@
       // justify-content: center;
       // flex: 1;
       // text-align: center;
+
       width: 100%;
       padding: 10px;
       background: #fff;
       font-size: 16px;
 
+      &-cont {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
 
       @media screen and (max-width: 720px) {
         font-size: 13px;
       }
-      // &:only-of-type,
 
-      &::first-child {
+      &:first-child {
         background: #fff;
       }
       &:nth-child(2n) {
@@ -308,6 +357,8 @@
         padding-bottom: 0;
       }
     }
+
+
   }
 
   .main_subtitle {

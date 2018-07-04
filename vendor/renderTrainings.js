@@ -372,7 +372,7 @@ $(document).ready(function(){
         },
       ]
     },
-    {
+    /*{
       id: 5,
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
@@ -409,7 +409,7 @@ $(document).ready(function(){
           fatype: 'twitter'
         }
       ]
-    },
+    },*/
     {
       id: 6,
       image: "images/program-committee/gerard-sans.jpg",
