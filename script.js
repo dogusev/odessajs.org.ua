@@ -287,10 +287,10 @@ function loadAskQuestionModal($speakerBlock) {
 
 // bondar changes tsarts here
 function initMap() {
-  var center = new google.maps.LatLng(46.432882, 30.761098);
+  var center = new google.maps.LatLng(46.457410, 30.749509);
   var mapOptions = {
     center: center,
-    zoom: 16,
+    zoom: 14,
     styles: [
       {
         "featureType": "water",
@@ -469,8 +469,152 @@ function initMap() {
     ]
   };
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-  var marker = new google.maps.Marker({
-    position: center
-  });
-  marker.setMap(map);
+
+
+  var infoWindowBlock =
+    '<div class="infoWindow-content">' +
+      '<h3>${title}</h3>' +
+      '<div class="flex justify-content-between mb-1">\n' +
+        '<div class="">' +
+          '<a href="${link}" target="_blank">\n' +
+          '  <img src="${img}" alt="logo">\n' +
+          '</a>' +
+        '</div>\n' +
+        '<div class="pl-2">' +
+          '<ul>' +
+            '{{html content}}' +
+          '</ul>' +
+        '</div>\n' +
+      '</div>' +
+    '</div>';
+
+  $.template("infoWindowBlockTemplate", infoWindowBlock);
+
+  function renderInfoWindowHTML(content) {
+    return $.tmpl("infoWindowBlockTemplate", content)[0].outerHTML
+  }
+
+  var places = [
+    {
+      lat: 46.481920,
+      lng: 30.747213,
+      infoWindow: renderInfoWindowHTML ({
+        title: 'Full immersion workshops',
+        content:
+        '<ul>' +
+        '<li>july 6</li>' +
+        '<li>Impact Hub</li>' +
+        '</ul>',
+        img: 'images/map_logos/hub.png',
+        link: ''
+      })
+    },
+    {lat: 46.464886, lng: 30.762811,
+      infoWindow: renderInfoWindowHTML ({
+        title: 'Relaxing afterparty',
+        content:
+        '<ul>' +
+        '<li>july 7</li>' +
+        '<li>Otrada beach</li>' +
+        '</ul>',
+        img: 'images/map_logos/beer.png',
+        link: 'javascript: void(0)'
+      })
+    },
+    {lat: 46.454979, lng: 30.768147,
+      infoWindow: renderInfoWindowHTML({
+        title: 'Making new friends. Pre-party',
+        content:
+        '<ul>' +
+        '<li>july 6</li>' +
+        '<li>True Man</li>' +
+        '</ul>',
+        img: 'images/map_logos/trueman.jpg',
+        link: 'https://www.facebook.com/truemanodessa/'
+      })
+    },
+    {lat: 46.454117, lng: 30.766310,
+      infoWindow: renderInfoWindowHTML ({
+        title: 'Seashore bike tour',
+        content:
+        '<ul>' +
+        '<li>july 6</li>' +
+        '<li>Langeron beach</li>' +
+        '<li>Start of the Health track</li>' +
+        '</ul>',
+        img: 'images/map_logos/bike.png',
+        link: 'javascript: void(0)'
+      })
+    },
+    {lat: 46.432768, lng: 30.761167,
+      infoWindow: renderInfoWindowHTML ({
+        title: 'Intense main program',
+        content:
+        '<ul>' +
+        '<li>OK-Odessa</li>' +
+        '<li>july 7-8</li>' +
+        '</ul>',
+        img: 'images/map_logos/logo.png',
+        link: 'http://odessajs.org/#schedule'
+      })
+    },
+  ];
+
+  var markers = [],
+    bounds = new google.maps.LatLngBounds(),
+    infowindow = new google.maps.InfoWindow();
+
+  drop();
+
+  function drop() {
+    clearMarkers();
+    for (var i = 0; i < places.length; i++) {
+      addMarkerWithTimeout(places[i], i * 200);
+    }
+    //крайние точки
+    bounds.extend({lat: 46.4326, lng: 30.764051});
+    bounds.extend({lat: 46.48226, lng: 30.764051});
+    map.fitBounds(bounds);
+  }
+
+  function addMarkerWithTimeout(position, timeout) {
+    window.setTimeout(function() {
+      var pin = new google.maps.Marker({
+        position: position,
+        map: map,
+        animation: google.maps.Animation.DROP
+      });
+
+      markers.push(pin);
+      bounds.extend(pin.getPosition());
+
+      google.maps.event.addListener(pin, 'click', (function (pin, i) {
+        return function () {
+          infowindow.setContent(position.infoWindow);
+          infowindow.open(map, pin);
+        }
+      })(pin, i));
+    }, timeout);
+  }
+
+  function clearMarkers() {
+    for (var i = 0; i < markers.length; i++) {
+      markers[i].setMap(null);
+    }
+    markers = [];
+  }
+
+
+  for (var i = 0; i < location.length; i++) {
+
+    // var marker = new google.maps.Marker({
+    //   position: new google.maps.LatLng(location[i][1], location[i][2]),
+    //   map: map,
+    //   title: location[i][0]
+    // });
+
+
+  }
+
+
 }
