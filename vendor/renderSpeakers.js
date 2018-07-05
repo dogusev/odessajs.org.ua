@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  var filters = [
-    'React', 'NativeScript', 'Angular', 'Node.js', 'ExpressJS', 'MongoDB', 'PgSQL', 'JavaScript',
-    'WebAssembly', 'Kubernetes', 'Azure', 'Go', 'Redux/Flow', 'Docker'
-  ];
+  // var filters = [
+  //   'React', 'NativeScript', 'Angular', 'Node.js', 'ExpressJS', 'MongoDB', 'PgSQL', 'JavaScript',
+  //   'WebAssembly', 'Kubernetes', 'Azure', 'Go', 'Redux/Flow', 'Docker'
+  // ];
 
   var speakers = [
     {
@@ -106,42 +106,42 @@ $(document).ready(function(){
         }
       ]
     },
-    {
-      image: "images/reporters/trishul_goel.png",
-      name: "Trishul Goel",
-      position: "Tech Speaker" ,
-      company: "Mozilla",
-      rept: [
-        {
-          title: "Cross browser extensions - lets make one [En]",
-          description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/tsl143',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://twitter.com/trishulgoel',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/trishul/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'http://github.com/tsl143/',
-          fatype: 'github'
-        },
-        {
-          link: 'http://trishulgoel.com/',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/trishul_goel.png",
+    //   name: "Trishul Goel",
+    //   position: "Tech Speaker" ,
+    //   company: "Mozilla",
+    //   rept: [
+    //     {
+    //       title: "Cross browser extensions - lets make one [En]",
+    //       description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.facebook.com/tsl143',
+    //       fatype: 'facebook'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/trishulgoel',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://www.linkedin.com/in/trishul/',
+    //       fatype: 'linkedin-square'
+    //     },
+    //     {
+    //       link: 'http://github.com/tsl143/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'http://trishulgoel.com/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       image: "images/reporters/gerard.jpg",
       name: "Gerard Sans",
@@ -377,14 +377,6 @@ $(document).ready(function(){
       company: "Independent",
       rept: [
         {
-          title: "Workshop: Get Started with Reason & ReasonReact [En]",
-          description:
-            "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by " +
-            "Jordan Walke, the creator of React.</p>" +
-            "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about" +
-            " powerful concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
-        },
-        {
           title: "Workshop: Build Serverless Node.js Applications on AWS [En]",
           description:
             "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
@@ -583,7 +575,10 @@ $(document).ready(function(){
         {
           title: "Deploying your JS app in 2018. [En]",
           description:
-          "<p>HTTP/2! Brotli compression! Elliptic curve crypto! EV! ACME! Bundles! AMP! It seems there’s suddenly a whole bunch of new ways to deploy your web apps. Here's how to make your site fast, secure, handle upgrades without downtime.</p>" ,
+            "<p>HTTP/2! Brotli compression! Elliptic curve crypto! EV! ACME! Bundles! " +
+            "AMP! It seems there’s suddenly a whole bunch of new ways to deploy your" +
+            " web apps. Here's how to make your site fast, secure, handle upgrades" +
+            " without downtime.</p>" ,
         }
       ],
       aboutSpeaker: '',
@@ -613,6 +608,37 @@ $(document).ready(function(){
           link: 'https://certsimple.com',
           fatype: 'link'
         },
+      ]
+    },
+    {
+      image: "images/reporters/gabriel_micko.jpg",
+      name: "Gabriel Mičko",
+      position: "Streaming engineer" ,
+      company: "Docler Holding, Mozilla Tech Speaker",
+      rept: [
+        {
+          title: " WebRTC talk for OdessaJS. [En]",
+          description:
+            "<p>WebRTC is a free, open project that provides browsers and mobile " +
+            "applications with Real-Time Communications capabilities via simple APIs. " +
+            "Mission behind is to enable rich, high-quality RTC applications to be developed" +
+            " for the browser. You are able to do this all without the need of installing any " +
+            "third party software or plugin. The talk is designed for those who want to get " +
+            "started with the technology or who are just curious about the bright features of " +
+            "the web. </p>" ,
+        }
+      ],
+      aboutSpeaker:
+        'I am enthusiastic front-end developer who loves the web and new technologies ' +
+        'around it. I am tech speaker, contributor, volunteer at Mozilla. I believe in ' +
+        'the mission to ensure the Internet is a ' +
+        'global public resource, open and accessible to all.',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/gabriel_micko',
+          fatype: 'twitter'
+        }
       ]
     },
     {
@@ -1567,12 +1593,25 @@ $(document).ready(function(){
       rept: [
         {
           title: "The existential crisis in a blockchain era. [Ru]",
-          description: "" ,
+          description:
+            "My talk will address problems that have any individuals through their lifetime. " +
+            "Did you find your self in a place where everything changing so fast and you" +
+            " cannot catch up? Asking yourself what to do with your life next? Regret " +
+            "something in past that can totally change the life you live now?  I will " +
+            "share a knowledge on how to sustain your mind in a new era of hype trains on " +
+            "the example of new hype technology – blockchain. You will understand how the " +
+            "blockchain works and how it changes the industry around you, but mostly this " +
+            "talk is targeted to share the instruments and ideas around sustaining a healthy" +
+            " mind during the era of changes." ,
         }
       ],
       aboutSpeaker: '',
       socialsRendered: '',
       socials: [
+        {
+          link: 'http://fb.me/troush69',
+          fatype: 'facebook'
+        },
         {
           link: 'https://twitter.com/troush69',
           fatype: 'twitter'
@@ -1883,31 +1922,64 @@ $(document).ready(function(){
         }
       ]
     },
+    {
+      image: "images/reporters/alexander_khokhlov.jpeg",
+      name: "Alexander Khokhlov",
+      position: "Founder" ,
+      company: "Nots.io",
+      rept: [
+        {
+          title: "Do not chase the hype train. Just steal the ideas. [Ru]",
+          description:
+            "<p>There's so much happening in javascript nowadays —  lot's of libraries, lot's of frameworks, lot's of ways of doing things pop up every week. So it's really easy to miss the point. But there’s no need to endlessly learn every new promising technology that comes out and painfully integrate it into your existing project. If the programming language you use is powerful enough, this lets you take just the ideas behind those and get them implemented blazingly fast in your code. This talk tells our story of how we use this concept while building complex realtime UI of nots.io in Clojure(Script).</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/notsio/',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/nots_io',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://blog.nots.io/',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/andrew_mykhaliuk.jpg",
+      name: "Andrew Mykhaliuk",
+      position: "Frontend Engineer" ,
+      company: "Snap inc.",
+      rept: [
+        {
+          title: "Sorry, I need to make a build for frontend. [Ru]",
+          description:
+            "<p>Every time when you start your project, developer thinks about how build his project. Why we need to pay attention about it? How it's going with a build tools around frontend frameworks. We'll talk about webpack growth, how we can use build with less dependencies to be more flexible to switch between technologies, and we will go to the next level how we can use build tools as a framework.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/AndreyCtkn',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/AndreyUtka',
+          fatype: 'github'
+        }
+      ]
+    },
 
   ];
 
 
-  /* <a href="https://github.com/roman-sachenko">
-      <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/rsachenko/">
-      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.facebook.com/rsachenko">
-      <i class="fa fa-facebook" aria-hidden="true"></i>
-    </a>
-    <a href="https://twitter.com/RSachenko">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-    </a>
-    <a href="https://stackoverflow.com/users/5132363/roman-sachenko">
-      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.instagram.com/rsachenko/">
-      <i class="fa fa-instagram" aria-hidden="true"></i>
-    </a>
-    <a href="https://medium.com/@rsachenko">
-      <i class="fa fa-medium" aria-hidden="true"></i>
-    </a>*/
   var socialsItem = "<a class='speaker__link' href='${link}' target='_blank'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
   $.template( "socialsTemplate", socialsItem );
 
