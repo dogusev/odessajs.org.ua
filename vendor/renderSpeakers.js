@@ -1861,7 +1861,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/alexander_khokhlov.jpeg",
+      image: "images/reporters/alexander_khokhlov.jpg",
       name: "Alexander Khokhlov",
       position: "Founder" ,
       company: "Nots.io",
@@ -1918,35 +1918,6 @@ $(document).ready(function(){
         },
         {
           link: 'https://denis.by/',
-          fatype: 'link'
-        }
-      ]
-    },
-    {
-      image: "images/reporters/alexander_khokhlov.jpeg",
-      name: "Alexander Khokhlov",
-      position: "Founder" ,
-      company: "Nots.io",
-      rept: [
-        {
-          title: "Do not chase the hype train. Just steal the ideas. [Ru]",
-          description:
-            "<p>There's so much happening in javascript nowadays —  lot's of libraries, lot's of frameworks, lot's of ways of doing things pop up every week. So it's really easy to miss the point. But there’s no need to endlessly learn every new promising technology that comes out and painfully integrate it into your existing project. If the programming language you use is powerful enough, this lets you take just the ideas behind those and get them implemented blazingly fast in your code. This talk tells our story of how we use this concept while building complex realtime UI of nots.io in Clojure(Script).</p>" ,
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/notsio/',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://twitter.com/nots_io',
-          fatype: 'twitter'
-        },
-        {
-          link: 'http://blog.nots.io/',
           fatype: 'link'
         }
       ]
