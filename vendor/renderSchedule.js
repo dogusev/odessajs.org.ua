@@ -140,7 +140,7 @@ $(document).ready(function () {
       time: '16:15-16:45',
       talks: [
         {place: 'Hall A', author: 'Patrick Kettner **', title: 'JavaScript without javascript. [en]'},
-        {place: 'Hall B', author: 'Roman Sachenko ***', title: 'NodeJS + CQRS + Event Sourcing: pros and cons. [ru]'},
+        {place: '', author: '', title: ''},
         {place: '', author: '', title: ''}
       ]
     },
@@ -203,15 +203,15 @@ $(document).ready(function () {
     },
     {
       time: '09:30 - 10:10',
-      talks: [
-        {place: 'Hall A', author: 'Rustam Aliyev and Ivan Martynov **', title: 'From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [en/ru]'},
-        {place: 'Hall B', author: 'Mihail Zachepilo ***', title: 'WebAssembly powered Machine Learning. [ru]'},
+      talks: [      
+        {place: 'Hall A', author: 'Gabriel Mičko', title: 'WebRTC talk for OdessaJS. [en]'},
+        {place: 'Hall B', author: 'Mihail Zachepilo ***', title: 'WebAssembly powered Machine Learning. [ru]'}
       ],
       workshops: [
-        {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
+        // {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
+        {place: 'Hall С - workshop', author: 'Valentine Mezentsev, Gleb Dobzhanskyi **', title: '<b>Workshop <br> 10:00 - 13:00</b> Bot Battle: Google Home vs Alexa. [ru]'},
         {place: 'Hall D - workshop', author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov *', title: '<b>Workshop <br> 09:00-16:00</b> Software Engendering Fundamentals for JavaScript Developers. [ru]'},
-        {place: 'Hall E - workshop', author: 'Alex Migutsky', title: '<b>Workshop <br> 09:00 - 12:00 </b> Growing your career as software engineer. [ru]'},
-        {place: 'Hall F - workshop', author: 'Valentine Mezentsev, Gleb Dobzhanskyi **', title: '<b>Workshop <br> 10:00 - 13:00</b> Bot Battle: Google Home vs Alexa. [ru]'}
+        {place: 'Hall E - workshop', author: 'Alex Migutsky', title: '<b>Workshop <br> 09:00 - 12:00 </b> Growing your career as software engineer. [ru]'}
       ]
     },
     {
@@ -225,6 +225,7 @@ $(document).ready(function () {
       talks: [
         {place: 'Hall A', author: 'Viktor Turskyi **', title: 'How to create a VR application with React. [en]'},
         {place: 'Hall B', author: 'Denis Artyuhovich **', title: 'Evolution of Web Performance. [ru]'},
+        {place: '', author: '', title: ''}
       ]
     },
     {
@@ -250,7 +251,7 @@ $(document).ready(function () {
     {
       time: '11:55 - 12:25',
       talks: [
-        {place: 'Hall A', author: 'Gabriel Mičko', title: 'WebRTC talk for OdessaJS. [en]'},
+        {place: 'Hall A', author: 'Rustam Aliyev and Ivan Martynov **', title: 'From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [en/ru]'},
         {place: 'Hall B', author: 'Savitskyi Roman *', title: 'Chrome Dev Tools. New & Tips. [ua]'},
         {place: '', author: '', title: ''}
       ]
@@ -265,7 +266,9 @@ $(document).ready(function () {
       time: '12:35 - 13:05',
       talks: [
         {place: 'Hall A', author: 'Patrick Kettner *', title: 'Creating magic with houdini. [en]'},
-        {place: 'Hall B', author: 'Roman Rodomansky ***', title: 'Processes automation within the company. [Tech Corner] [ua]'},
+        {place: 'Hall B', author: 'Leonid Baida **', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'},
+
+        // {place: 'Hall B', author: 'Roman Rodomansky ***', title: 'Processes automation within the company. [Tech Corner] [ua]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -280,7 +283,7 @@ $(document).ready(function () {
       talks: [
         {place: 'Hall A', author: 'Asim Hussain ***', title: 'How to scale an SPA to 1M views for $1? [en]'},
         {place: 'Hall B', author: 'Aleksandr Shushunov **', title: 'Let\'s kill lifecycle. [ru]'},
-        {place: '', author: '', title: ''}
+        {place: 'Hall C', author: 'Gerard Sans', title: 'Global Diversity CFP Day Odessa [en]'}
       ]
     },
     {
@@ -335,8 +338,8 @@ $(document).ready(function () {
       time: '16:50 - 17:20',
       talks: [
         {place: 'Hall A', author: 'Haroen Viaene *', title: 'You’re probably making an API client. [en]'},
-        {place: 'Hall B', author: 'Yuriy Sherstyuk', title: 'Full-Time Remote Only [Tech Corner] [ru]'},
-        {place: '', author: '', title: ''}
+        {place: '', author: '', title: ''},
+        {place: 'Hall C', author: 'Yuriy Sherstyuk', title: 'Full-Time Remote Only [Tech Corner] [ru]'},
       ]
     },
     {
@@ -350,8 +353,9 @@ $(document).ready(function () {
       talks: [
         {place: 'Hall A', author: 'Denis Radin ***', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try. [ru]'},
         // {place: 'Hall A', author: 'Artem Zakharchenko *', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago. [ru]'},
-        {place: 'Hall B', author: 'Leonid Baida **', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'},
-        {place: '', author: '', title: ''}
+        // {place: 'Hall B', author: 'Leonid Baida **', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'},
+        {place: '', author: '', title: ''},
+        {place: 'Hall C', author: 'R. Rodomansky & A. Yasinishyn ***', title: 'Processes automation within the company. [Tech Corner] [ua]'}
       ]
     },
     {
@@ -364,6 +368,7 @@ $(document).ready(function () {
       time: '18:10 - 18:40',
       talks: [
         {place: 'Hall A', author: 'Artem Zakharchenko *', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago. [ru]'},
+        // {place: 'Hall B', author: 'Savitskyi Roman *', title: 'Chrome Dev Tools. New & Tips. [ua]'},
         {place: '', author: '', title: ''},
         {place: '', author: '', title: ''}
       ]
@@ -519,6 +524,7 @@ $(document).ready(function () {
   }
 
   function renderSchedulesWithHalls(opt) {
+
     $.each(opt.data, function (i, sp) {
       var divider = '';
       if (opt.splitLines) {
@@ -528,6 +534,7 @@ $(document).ready(function () {
       var scheduleRow = '<div class="schedule__report '+divider+'">',
         scheduleCells = '',
         timeBlock = $.tmpl("reportTimeBlockTemplate", sp)[0].outerHTML;
+
 
       $.each(sp.talks, function (i, obj) {
         if( obj.author || (!obj.author && !obj.title) ) {
