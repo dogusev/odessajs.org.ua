@@ -556,7 +556,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/timur_shemsedinov.jpg",
+      image: "images/logo.png",
       label: "images/workshops/Networking_3b.jpg",
       name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
       position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
