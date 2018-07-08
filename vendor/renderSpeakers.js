@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-  var filters = [
-    'React', 'NativeScript', 'Angular', 'Node.js', 'ExpressJS', 'MongoDB', 'PgSQL', 'JavaScript',
-    'WebAssembly', 'Kubernetes', 'Azure', 'Go', 'Redux/Flow', 'Docker'
-  ];
+  // var filters = [
+  //   'React', 'NativeScript', 'Angular', 'Node.js', 'ExpressJS', 'MongoDB', 'PgSQL', 'JavaScript',
+  //   'WebAssembly', 'Kubernetes', 'Azure', 'Go', 'Redux/Flow', 'Docker'
+  // ];
 
   var speakers = [
     {
@@ -106,42 +106,42 @@ $(document).ready(function(){
         }
       ]
     },
-    {
-      image: "images/reporters/trishul_goel.png",
-      name: "Trishul Goel",
-      position: "Tech Speaker" ,
-      company: "Mozilla",
-      rept: [
-        {
-          title: "Cross browser extensions - lets make one [En]",
-          description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.facebook.com/tsl143',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://twitter.com/trishulgoel',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/trishul/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'http://github.com/tsl143/',
-          fatype: 'github'
-        },
-        {
-          link: 'http://trishulgoel.com/',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/trishul_goel.png",
+    //   name: "Trishul Goel",
+    //   position: "Tech Speaker" ,
+    //   company: "Mozilla",
+    //   rept: [
+    //     {
+    //       title: "Cross browser extensions - lets make one [En]",
+    //       description: "Browsers are built on very simple principle - “one fit that suits all”. We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one. From Javascript developer to a cross browser extension developer in 30 mins.",
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.facebook.com/tsl143',
+    //       fatype: 'facebook'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/trishulgoel',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://www.linkedin.com/in/trishul/',
+    //       fatype: 'linkedin-square'
+    //     },
+    //     {
+    //       link: 'http://github.com/tsl143/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'http://trishulgoel.com/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       image: "images/reporters/gerard.jpg",
       name: "Gerard Sans",
@@ -174,7 +174,7 @@ $(document).ready(function(){
         },
       ]
     },
-    {
+   /* {
       image: "images/reporters/natalia_tepluhina.jpg",
       name: "Natalia Tepluhina",
       position: "Frontend Developer" ,
@@ -193,7 +193,7 @@ $(document).ready(function(){
           fatype: 'twitter'
         }
       ]
-    },
+    },*/
     {
       image: "images/reporters/henning_muszynski.png",
       name: "Henning Muszynski",
@@ -251,49 +251,49 @@ $(document).ready(function(){
       ]
 
     },
-    {
-      image: "images/reporters/sara_vieira.jpg",
-      name: "Sara Vieira",
-      position: "Developer Relations" ,
-      company: "YLD",
-      rept: [
-        {
-          title: "The Dream of Styleguide Driven Development [En]",
-          description:
-          "You have heard of all types of driven development but react emerged a new type," +
-          " styleguide driven development became a reality with components. This type " +
-          "of development focuses on Developer/Designer collaboration and on assertive" +
-          " components. With the use of React, CSS-in-JS, Flow and Snapshot testing " +
-          "we were able to almost remove style regressions. In this talk you get a " +
-          "glimpse of you can start styleguide " +
-          "driven development and how you can sell this dream to your project managers.",
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://twitter.com/NikkitaFTW',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://www.linkedin.com/in/saravieira1/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'https://www.instagram.com/niikkitaftw/',
-          fatype: 'instagram'
-        },
-        {
-          link: 'https://github.com/SaraVieira/',
-          fatype: 'github'
-        },
-        {
-          link: 'https://iamsaravieira.com',
-          fatype: 'link'
-        }
-      ]
-    },
+    // {
+    //   image: "images/reporters/sara_vieira.jpg",
+    //   name: "Sara Vieira",
+    //   position: "Developer Relations" ,
+    //   company: "YLD",
+    //   rept: [
+    //     {
+    //       title: "The Dream of Styleguide Driven Development [En]",
+    //       description:
+    //       "You have heard of all types of driven development but react emerged a new type," +
+    //       " styleguide driven development became a reality with components. This type " +
+    //       "of development focuses on Developer/Designer collaboration and on assertive" +
+    //       " components. With the use of React, CSS-in-JS, Flow and Snapshot testing " +
+    //       "we were able to almost remove style regressions. In this talk you get a " +
+    //       "glimpse of you can start styleguide " +
+    //       "driven development and how you can sell this dream to your project managers.",
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://twitter.com/NikkitaFTW',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://www.linkedin.com/in/saravieira1/',
+    //       fatype: 'linkedin-square'
+    //     },
+    //     {
+    //       link: 'https://www.instagram.com/niikkitaftw/',
+    //       fatype: 'instagram'
+    //     },
+    //     {
+    //       link: 'https://github.com/SaraVieira/',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://iamsaravieira.com',
+    //       fatype: 'link'
+    //     }
+    //   ]
+    // },
     {
       image: "images/reporters/patrick_kettner.jpg",
       name: "Patrick Kettner",
@@ -334,38 +334,42 @@ $(document).ready(function(){
         },
       ]
     },
-    {
-      image: "images/reporters/katarzyna_jastrzebsk.jpg",
-      name: "Katarzyna Jastrzębska-Łachacz",
-      position: "Frontend Developer" ,
-      company: "Twill",
-      rept: [
-        {
-          title: "Reuse your code in React like it's 2018 [En]",
-          description: ""
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/kajas90',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/kejt_bw',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://stackoverflow.com/users/7364681/kejt',
-          fatype: 'stack-overflow'
-        },
-        {
-          link: 'https://medium.com/@katarzyna.jastrzebska90',
-          fatype: 'link'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/katarzyna_jastrzebsk.jpg",
+    //   name: "Katarzyna Jastrzębska-Łachacz",
+    //   position: "Frontend Developer" ,
+    //   company: "Twill",
+    //   rept: [
+    //     {
+    //       title: "Reuse your code in React like it's 2018 [En]",
+    //       description:
+    //         "The talk will be about possible ways to reuse code in React. We will " +
+    //         "go through hocs, render and children props and other patterns, but also a little about " +
+    //         "design and architecture decisions (how developers usually make them). Why some of the " +
+    //         "components should be written separately when other should be more flexible."
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/kajas90',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/kejt_bw',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://stackoverflow.com/users/7364681/kejt',
+    //       fatype: 'stack-overflow'
+    //     },
+    //     {
+    //       link: 'https://medium.com/@katarzyna.jastrzebska90',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
       image: "images/reporters/nik_graf.jpg",
       name: "Nik Graf",
@@ -373,15 +377,7 @@ $(document).ready(function(){
       company: "Independent",
       rept: [
         {
-          title: "Workshop: Get Started with Reason & ReasonReact [En]",
-          description:
-            "<p>Reason is a new functional, JavaScript-like language with a strong type-system and first level React bindings initiated by " +
-            "Jordan Walke, the creator of React.</p>" +
-            "<p>In this workshop you will first learn about the syntax and semantics of the programming language Reason. Further we learn about" +
-            " powerful concepts like pattern matching and Variants. We are going to refactoring a React component written in JavaScript to Reason.</p>",
-        },
-        {
-          title: "Build Serverless Node.js Applications on AWS [En]",
+          title: "Workshop: Build Serverless Node.js Applications on AWS [En]",
           description:
             "<p>The core of serverless architectures is auto-scaling systems and a pay-per- execution" +
             "pricing. This allows developers to reduce significantly operational cost and complexity" +
@@ -390,6 +386,11 @@ $(document).ready(function(){
             "servers. During this workshop you will learn how to build and deploy scaleable," +
             "production ready and low maintenance applications using Node.js. We are going to" +
             "explore and leverage AWS services like Lambda, API Gateway, DynamoDB, Kinesis, S3.</p>",
+        },
+        {
+          "title": "Get started with Reason and ReasonReact",
+          "description":
+            "We will kick off with the basics and then quickly go into how to leverage features like variant types and pattern matching to make impossible states impossible. After you gained some knowledge about the basics the course will dig even further into ReasonReact."
         }
       ],
       aboutSpeaker:
@@ -412,78 +413,78 @@ $(document).ready(function(){
         },
       ]
     },
+    // {
+    //   image: "images/reporters/david_mullerchen.jpg",
+    //   name: "David Müllerchen",
+    //   position: "Freelancer" ,
+    //   company: "Webdave",
+    //   rept: [
+    //     {
+    //       title: "Workshop: Angular 101 [En]",
+    //       description:
+    //         "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
+    //         "applications. The framework gives clear structures and supports u. a. Modularization" +
+    //         "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
+    //         "complex enterprise applications. Since the release of version 2, the framework is no" +
+    //         "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
+    //         "principles of Angular.</p>",
+    //       }
+    //   ],
+    //   aboutSpeaker:
+    //     'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
+    //     'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
+    //     'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
+    //     '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
+    //     'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
+    //     '(GDE) in Angular.',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/web-dave',
+    //       fatype: 'github'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/webdave_de',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://webdave.de/',
+    //       fatype: 'link'
+    //     },
+    //   ]
+    // },
     {
-      image: "images/reporters/david_mullerchen.jpg",
-      name: "David Müllerchen",
-      position: "Freelancer" ,
-      company: "Webdave",
-      rept: [
-        {
-          title: "Workshop: Angular 101 [En]",
-          description:
-            "<p>Angular is a client-side JavaScript framework used world-wide to create web" +
-            "applications. The framework gives clear structures and supports u. a. Modularization" +
-            "and lazy loading. It is developed by a team at Google and is aimed at developers of" +
-            "complex enterprise applications. Since the release of version 2, the framework is no" +
-            "longer AngularJS but Angular. Curious? then come to my workshop and learn the basic" +
-            "principles of Angular.</p>",
-          }
-      ],
-      aboutSpeaker:
-        'David is an Angular consultant and trainer. He’s also a team member and trainer at' +
-        'AngularJS.DE, the Angular platform in DACH. His passion is sharing knowledge,' +
-        'speaking and teaching at meetups and conferences. David’s keeping his own blog' +
-        '(webdave.de). During leisure time David jumps around with his 3 boys and his wife. He’s' +
-        'also an organizer of the Hamburg AngularJS Meetup and a Google Developer Expert' +
-        '(GDE) in Angular.',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/web-dave',
-          fatype: 'github'
-        },
-        {
-          link: 'https://twitter.com/webdave_de',
-          fatype: 'twitter'
-        },
-        {
-          link: 'https://webdave.de/',
-          fatype: 'link'
-        },
-      ]
+        image: "images/reporters/HaroenViaene.jpg",
+        name: "Haroen Viaene",
+        position: "Library Developer" ,
+        company: "Algolia",
+        rept: [
+            {
+                title: "You’re probably making an API client. [En]",
+                description: "When you are interacting with another piece of software, be it a REST API or a third party, what you’re actually making is your own abstraction around it. Once you realise that, you can use the tricks used in real API clients for your advantage and make reusable, good code. " ,
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'Https:/GitHub.com/haroenv',
+                fatype: 'github'
+            },
+            {
+                link: 'https://twitter.com/haroenv',
+                fatype: 'twitter'
+            },
+            {
+                link: 'http://linkedin.com/in/haroen',
+                fatype: 'linkedin-square'
+            },
+            {
+                link: 'https://haroen.me/',
+                fatype: 'link'
+            },
+        ]
     },
-      {
-          image: "images/reporters/HaroenViaene.jpg",
-          name: "Haroen Viaene",
-          position: "Library Developer" ,
-          company: "Algolia",
-          rept: [
-              {
-                  title: "You’re probably making an API client. [En]",
-                  description: "When you are interacting with another piece of software, be it a REST API or a third party, what you’re actually making is your own abstraction around it. Once you realise that, you can use the tricks used in real API clients for your advantage and make reusable, good code. " ,
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'Https:/GitHub.com/haroenv',
-                  fatype: 'github'
-              },
-              {
-                  link: 'https://twitter.com/haroenv',
-                  fatype: 'twitter'
-              },
-              {
-                  link: 'http://linkedin.com/in/haroen',
-                  fatype: 'linkedin-square'
-              },
-              {
-                  link: 'https://haroen.me/',
-                  fatype: 'link'
-              },
-          ]
-      },
     // {
     //   image: "images/reporters/alex_renandez.jpeg",
     //   name: "Alex Fernandez",
@@ -522,7 +523,124 @@ $(document).ready(function(){
     //     },
     //   ]
     // },
-
+    {
+      image: "images/reporters/eyal_eizenberg.jpg",
+      name: "Eyal Eizenberg",
+      position: "Engineer Team Leader" ,
+      company: "Wix",
+      rept: [
+        {
+          title: "Trim your redux boilerplate with Redux Cornell. [En]",
+          description:
+          "<p>Redux is awesome and is used in countless projects. However, using Redux does" +
+          " mean that there is a lot of boilerplate. Enter Redux Cornell. Named after the legendary " +
+          "singer Chris Cornell, Redux Cornell aims to remove most of the boilerplate which comes with " +
+          "using Redux, yet allows you to completely customize it. The library brings the concept of " +
+          "'convention over configuration' into the JS world to help reduce boiler plate.</p>"+
+          "<p>Redux Cornell now powers Wix's 2nd most visited page with over 3M unique views " +
+          "per month so you can say that it's 'Battle Tested'!</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/EyalEizenberg',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://www.linkedin.com/in/eyal-eizenberg',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/eyaleizenberg',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/1983301/eyal83',
+          fatype: 'stackoverflow'
+        },
+        {
+          link: 'https://medium.com/@eyaleizenberg',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/mike_maccana.jpg",
+      name: "Mike MacCana",
+      position: "Founder" ,
+      company: "CertSimple",
+      rept: [
+        {
+          title: "Deploying your JS app in 2018. [En]",
+          description:
+            "<p>HTTP/2! Brotli compression! Elliptic curve crypto! EV! ACME! Bundles! " +
+            "AMP! It seems there’s suddenly a whole bunch of new ways to deploy your" +
+            " web apps. Here's how to make your site fast, secure, handle upgrades" +
+            " without downtime.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/mikemaccana',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://uk.linkedin.com/in/mikemaccana',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/mikemaccana/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/mikemaccana',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/123671/mikemaccana',
+          fatype: 'stackoverflow'
+        },
+        {
+          link: 'https://certsimple.com',
+          fatype: 'link'
+        },
+      ]
+    },
+    {
+      image: "images/reporters/gabriel_micko.jpg",
+      name: "Gabriel Mičko",
+      position: "Streaming engineer" ,
+      company: "Docler Holding, Mozilla Tech Speaker",
+      rept: [
+        {
+          title: " WebRTC talk for OdessaJS. [En]",
+          description:
+            "<p>WebRTC is a free, open project that provides browsers and mobile " +
+            "applications with Real-Time Communications capabilities via simple APIs. " +
+            "Mission behind is to enable rich, high-quality RTC applications to be developed" +
+            " for the browser. You are able to do this all without the need of installing any " +
+            "third party software or plugin. The talk is designed for those who want to get " +
+            "started with the technology or who are just curious about the bright features of " +
+            "the web. </p>" ,
+        }
+      ],
+      aboutSpeaker:
+        'I am enthusiastic front-end developer who loves the web and new technologies ' +
+        'around it. I am tech speaker, contributor, volunteer at Mozilla. I believe in ' +
+        'the mission to ensure the Internet is a ' +
+        'global public resource, open and accessible to all.',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/gabriel_micko',
+          fatype: 'twitter'
+        }
+      ]
+    },
     {
       image: "images/reporters/oskackov.png",
       name: "Oleksandr Skachkov",
@@ -547,7 +665,7 @@ $(document).ready(function(){
         }
       ]
     },
-     {
+    {
       image: "images/reporters/roman_sachenko.jpg",
       name: "Roman Sachenko",
       position: "Software Engineer" ,
@@ -588,7 +706,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "https://scontent.fdnk1-1.fna.fbcdn.net/v/t1.0-9/27867981_1761648527232195_4674196445569727871_n.jpg?_nc_cat=0&oh=c46e67848f25c4467264711ee09a1dae&oe=5B4167D6",
+      image: "images/reporters/oleg_chorny.jpg",
       name: "Oleg Chorny",
       position: "Site Reliability Engineering Manager" ,
       company: "Ciklum",
@@ -627,7 +745,12 @@ $(document).ready(function(){
             "  <li>Build a professional network and career capital</li>" +
             "  <li>Efficiently grow your career without sacrificing other life aspects</li>" +
             "</ul>",
-        }
+        },
+        {
+          title: "TechCorner: Architecture evolution of Microsoft To-Do web app. [Ru]",
+          description:
+            "",
+        },
       ],
       aboutSpeaker:
         "Alexey Migutsky is a Senior Software Development Engineer at Microsoft Berlin and a" +
@@ -659,74 +782,145 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/leonid_baida.jpg",
-      name: "Leonid Baida",
-      position: "Lead Front-End Developer" ,
-      company: "SPD-Ukraine",
-      rept: [
-        {
-          title: "If you don't like how your static typing smells, maybe you do it wrong [Ua]",
-          description:
-            "Static typing remains a popular topic for discussions somewhat " +
-            "akin to a battle field. JS development world split up into its " +
-            "proponents and opponents. Don't forget that type-code" +
-            " writing is managed by principles and approached different " +
-            "from those required by vanilla JS. It's a different philosophy, so to say." +
-            " Type JS is very different from non-type one. This becomes a common problem " +
-            "in static type learning and its efficient application. Let's clarify which " +
-            "like JS type code should be. And let's do it step-by-step, getting inspired " +
-            "by strick type programming languages. Let's find out how to apply it so that " +
-            "it proved useful but did not turn into our greatest disappointment." +
-            " (Flow type will be taken as a basis here, but the majority of these " +
-            "examples will be actual for TypeScript as well)."
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.linkedin.com/in/leonid-bayda-46587438/',
-          fatype: 'linkedin-square'
-        },
-        {
-          link: 'https://www.facebook.com/leonid.baida',
-          fatype: 'facebook'
-        },
-        {
-          link: 'https://www.instagram.com/leonidbaida/',
-          fatype: 'instagram'
-        }
-      ]
+        image: "images/reporters/timur2018.jpg",
+        name: "Timur Shemsedinov",
+        position: "Architect, Lecturer" ,
+        company: "Metarhia, MIA, KPI",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:
+                    "<p>Selected topics from the software engineering lectures with JavaScript and " +
+                    "Node.js examples. Includes fundamental concepts and design patterns of functional, " +
+                    "reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming," +
+                    " data structures and algorithms, useful software abstractions and code examples, best parts and " +
+                    "demo projects with modern technologies usage. Lectures includes over 500 code examples collected after " +
+                    "years of practice in different languages ​​and platforms, combined and implemented using the newest features and " +
+                    "syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science " +
+                    "and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://facebook.com/tshemsedinov',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://twitter.com/ImpressAppSrv',
+                fatype: 'twitter'
+            },
+            {
+                link: 'https://www.instagram.com/tshemsedinov/',
+                fatype: 'instagram'
+            },
+            {
+                link: 'https://github.com/tshemsedinov',
+                fatype: 'github'
+            },
+            {
+                link: 'https://www.linkedin.com/in/shemsedinov/',
+                fatype: 'linkedin'
+            },
+            {
+                link: 'https://habr.com/users/marcusaurelius/posts/',
+                fatype: 'link'
+            },
+        ]
     },
     {
-      id: 4,
-      image: "images/reporters/timur_shemsedinov.jpg",
-      name: "Timur Shemsedinov",
-      position: "Software systems architect" ,
-      company: "Metarhia",
-      rept: [
-        {
-          title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
-          description:
-            "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
-        }
-      ],
-      aboutSpeaker: '',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://github.com/tshemsedinov',
-          fatype: 'github'
-        },
-        {
-          link: 'https://www.linkedin.com/in/shemsedinov/',
-          fatype: 'linkedin'
-        },
-        {
-          link: 'https://habr.com/users/marcusaurelius/posts/',
-          fatype: 'link'
-        },
-      ]
+        image: "images/reporters/orlenko.jpg",
+        name: "Aleksey Orlenko",
+        position: "Senior software engineer" ,
+        company: "Metarhia, KPI",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:
+                    "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://github.com/aqrln',
+                fatype: 'github'
+            },
+            {
+                link: 'https://twitter.com/aqrln',
+                fatype: 'twitter'
+            },
+        ]
+    },
+    {
+        image: "images/reporters/golikov.jpg",
+        name: "Alex Golikov",
+        position: "Senior software engineer" ,
+        company: "vi",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:"<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://facebook.com/aleksey.golikov.14',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://www.linkedin.com/in/golikov/',
+                fatype: 'linkedin'
+            },
+            {
+                link: 'https://github.com/agil',
+                fatype: 'github'
+            },
+        ]
+    },
+    {
+        image: "images/reporters/leonid_baida.jpg",
+        name: "Leonid Baida",
+        position: "Lead Front-End Developer" ,
+        company: "SPD-Ukraine",
+        rept: [
+            {
+                title: "If you don't like how your static typing smells, maybe you do it wrong [Ua]",
+                description:
+                "Static typing remains a popular topic for discussions somewhat " +
+                "akin to a battle field. JS development world split up into its " +
+                "proponents and opponents. Don't forget that type-code" +
+                " writing is managed by principles and approached different " +
+                "from those required by vanilla JS. It's a different philosophy, so to say." +
+                " Type JS is very different from non-type one. This becomes a common problem " +
+                "in static type learning and its efficient application. Let's clarify which " +
+                "like JS type code should be. And let's do it step-by-step, getting inspired " +
+                "by strick type programming languages. Let's find out how to apply it so that " +
+                "it proved useful but did not turn into our greatest disappointment." +
+                " (Flow type will be taken as a basis here, but the majority of these " +
+                "examples will be actual for TypeScript as well)."
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://www.linkedin.com/in/leonid-bayda-46587438/',
+                fatype: 'linkedin-square'
+            },
+            {
+                link: 'https://www.facebook.com/leonid.baida',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://www.instagram.com/leonidbaida/',
+                fatype: 'instagram'
+            }
+        ]
     },
     {
       image: "images/reporters/mihail_zachepilo.png",
@@ -779,34 +973,34 @@ $(document).ready(function(){
         }
       ]
     },
-    {
-      image: "images/reporters/max_klymyshyn.jpg",
-      name: "Max Klymyshyn",
-      position: "" ,
-      company: "",
-      rept: [
-        {
-          title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
-          description: "",
-        }
-      ],
-      aboutSpeaker:
-        'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
-        ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
-        'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
-        'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.linkedin.com/in/klymyshyn',
-          fatype: 'linkedin'
-        },
-        {
-          link: 'https://twitter.com/maxmaxmaxmax',
-          fatype: 'twitter'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/max_klymyshyn.jpg",
+    //   name: "Max Klymyshyn",
+    //   position: "Tech Lead",
+    //   company: "Takeoff Technologies",
+    //   rept: [
+    //     {
+    //       title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
+    //       description: "",
+    //     }
+    //   ],
+    //   aboutSpeaker:
+    //     'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
+    //     ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
+    //     'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
+    //     'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.linkedin.com/in/klymyshyn',
+    //       fatype: 'linkedin'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/maxmaxmaxmax',
+    //       fatype: 'twitter'
+    //     },
+    //   ]
+    // },
 
     {
       image: "images/reporters/roman_rodomansky.png",
@@ -815,7 +1009,7 @@ $(document).ready(function(){
       company: "Ralabs",
       rept: [
         {
-          title: "The New Media. What it takes to create a news website in 2018 [Ru]",
+          title: "The New Media. What it takes to create a news website in 2018 [Ua]",
           description: "What will you do if biggest media will ask you about new website? Seems like trivial, right? Ugh, why WordPress is not a right fit here? We'll tell you a story with problems and solutions that we raised during all phases from project first steps.",
         }
       ],
@@ -851,7 +1045,7 @@ $(document).ready(function(){
       company: "Ralabs",
       rept: [
         {
-          title: "The New Media. What it takes to create a news website in 2018 [Ru]",
+          title: "The New Media. What it takes to create a news website in 2018 [Ua]",
           description:
             "What will you do if biggest media will ask you about new website? " +
             "Seems like trivial, right? Ugh, why WordPress is not a right fit here?" +
@@ -972,7 +1166,7 @@ $(document).ready(function(){
       socialsRendered: '',
       socials: [
         {
-          link: 'mailto:yurshery@gmail.com',
+          link: 'mailto:yursherstyuk@gmail.com',
           fatype: 'envelope'
         }
       ]
@@ -1399,12 +1593,25 @@ $(document).ready(function(){
       rept: [
         {
           title: "The existential crisis in a blockchain era. [Ru]",
-          description: "" ,
+          description:
+            "My talk will address problems that have any individuals through their lifetime. " +
+            "Did you find your self in a place where everything changing so fast and you" +
+            " cannot catch up? Asking yourself what to do with your life next? Regret " +
+            "something in past that can totally change the life you live now?  I will " +
+            "share a knowledge on how to sustain your mind in a new era of hype trains on " +
+            "the example of new hype technology – blockchain. You will understand how the " +
+            "blockchain works and how it changes the industry around you, but mostly this " +
+            "talk is targeted to share the instruments and ideas around sustaining a healthy" +
+            " mind during the era of changes." ,
         }
       ],
       aboutSpeaker: '',
       socialsRendered: '',
       socials: [
+        {
+          link: 'http://fb.me/troush69',
+          fatype: 'facebook'
+        },
         {
           link: 'https://twitter.com/troush69',
           fatype: 'twitter'
@@ -1454,7 +1661,7 @@ $(document).ready(function(){
       company: "Master Of Code Global",
       rept: [
         {
-          title: "Workshop: Bot Battle. [Ru]",
+          title: "Workshop: Bot Battle: Google Home vs Alexa. [Ru]",
           description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
         }
       ],
@@ -1498,7 +1705,7 @@ $(document).ready(function(){
       company: "Master Of Code Global",
       rept: [
         {
-          title: "Workshop: Bot Battle. [Ru]",
+          title: "Workshop: Bot Battle: Google Home vs Alexa. [Ru]",
           description: "The battle will be based on a tic-tac-toe game through the interaction of 2 bots (Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers." ,
         }
       ],
@@ -1526,7 +1733,7 @@ $(document).ready(function(){
       company: "OneDome",
       rept: [
         {
-          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [Ru]",
+          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [En]",
           description:
             "Single-Page Application (SPA) is the main-stream modern frontend development approach. However," +
             " we quickly hit limitations of monolith SPA in the growing company with multiple product teams, different technologies " +
@@ -1551,37 +1758,205 @@ $(document).ready(function(){
         }
       ]
     },
+    {
+      image: "images/reporters/ivan_martynov.jpg",
+      name: "Ivan Martynov",
+      position: "Frontend Engineer" ,
+      company: "OneDome",
+      rept: [
+        {
+          title: "From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [Ru]",
+          description:
+            "Single-Page Application (SPA) is the main-stream modern frontend development approach. However," +
+            " we quickly hit limitations of monolith SPA in the growing company with multiple product teams, different technologies " +
+            "and release cycles. In this talk we share how these limitations have been overcome by extending microservice architecture to" +
+            " React frontend using Lerna mono-repository and discuss alternative approaches such as WebComponents." ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/profile.php?id=100000022396764',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://github.com/j-martyn',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/philip_shurpik.jpeg",
+      name: "Philip Shurpik",
+      position: "AI Engineer / Data Scientist" ,
+      company: "Freelance / Self-employed",
+      rept: [
+        {
+          title: "OK Google. What's next? [Ru]",
+          description:
+            "<p>In a certain moment you are 25-26 years old and work as a Senior JavaScript for already 2-3 years:) " +
+            "At this very moment you understand that you don't know what to do next o_O</p>" +
+            "<p>Let's talk about conscience extension, self-education and transit to a new sphere (AI/DataScience).</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/philip.shurpik',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/philipshurpik',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://linkedin.com/in/philipshurpik',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/philipshurpik/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://www.github.com/philipshurpik/',
+          fatype: 'github'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/ilya_ivanov.png",
+      name: "Ilya Ivanov",
+      position: "Mobile Team Lead" ,
+      company: "Ciklum",
+      rept: [
+        {
+          title: "Advanced React-Native. [Ru]",
+          description:
+            "<p>How is it possible to write native applications in JavaScript? In this talk we will meet React-Native " +
+            "and dive a bit into advanced concepts. How React-Native is different from classical hybrid mobile development in JavaScript. " +
+            "We will look how React-Native works and write great mobile applications using animations and navigations.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/ilya.ivanov.585?ref=bookmarks',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.linkedin.com/in/ilya-ivanov-a655082a/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://github.com/ilyaivanov',
+          fatype: 'github'
+        },
+        {
+          link: 'https://stackoverflow.com/users/1283124/ilya-ivanov',
+          fatype: 'stack-overflow'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/alexander_khokhlov.jpg",
+      name: "Alexander Khokhlov",
+      position: "Founder" ,
+      company: "Nots.io",
+      rept: [
+        {
+          title: "Do not chase the hype train. Just steal the ideas. [Ru]",
+          description:
+            "<p>There's so much happening in javascript nowadays —  lot's of libraries, lot's of frameworks, lot's of ways of doing things pop up every week. So it's really easy to miss the point. But there’s no need to endlessly learn every new promising technology that comes out and painfully integrate it into your existing project. If the programming language you use is powerful enough, this lets you take just the ideas behind those and get them implemented blazingly fast in your code. This talk tells our story of how we use this concept while building complex realtime UI of nots.io in Clojure(Script).</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/notsio/',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://twitter.com/nots_io',
+          fatype: 'twitter'
+        },
+        {
+          link: 'http://blog.nots.io/',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/denis_artyuhovich.jpg",
+      name: "Denis Artyuhovich",
+      position: "Javascript Developer" ,
+      company: "Evolution Gaming",
+      rept: [
+        {
+          title: "Evolution of Web Performance. [Ru]",
+          description:
+            "<p>For web developers, especially for web games developers, performance is a key point. We try to make user interaction as smooth as possible to achieve better user experience. During the speech, we'll look at how the web changed, what actually happens with our application in the browser and how to deal with it.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.linkedin.com/in/denisby/',
+          fatype: 'linkedin-square'
+        },
+        {
+          link: 'https://www.instagram.com/re_ise/',
+          fatype: 'instagram'
+        },
+        {
+          link: 'https://github.com/zaqqaz',
+          fatype: 'github'
+        },
+        {
+          link: 'https://denis.by/',
+          fatype: 'link'
+        }
+      ]
+    },
+    {
+      image: "images/reporters/andrew_mykhaliuk.jpg",
+      name: "Andrew Mykhaliuk",
+      position: "Frontend Engineer" ,
+      company: "Snap inc.",
+      rept: [
+        {
+          title: "Sorry, I need to make a build for frontend. [Ru]",
+          description:
+            "<p>Every time when you start your project, developer thinks about how build his project. Why we need to pay attention about it? How it's going with a build tools around frontend frameworks. We'll talk about webpack growth, how we can use build with less dependencies to be more flexible to switch between technologies, and we will go to the next level how we can use build tools as a framework.</p>" ,
+        }
+      ],
+      aboutSpeaker: '',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://twitter.com/AndreyCtkn',
+          fatype: 'twitter'
+        },
+        {
+          link: 'https://github.com/AndreyUtka',
+          fatype: 'github'
+        }
+      ]
+    },
   ];
 
 
-  /* <a href="https://github.com/roman-sachenko">
-      <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/rsachenko/">
-      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.facebook.com/rsachenko">
-      <i class="fa fa-facebook" aria-hidden="true"></i>
-    </a>
-    <a href="https://twitter.com/RSachenko">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-    </a>
-    <a href="https://stackoverflow.com/users/5132363/roman-sachenko">
-      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-    </a>
-    <a href="https://www.instagram.com/rsachenko/">
-      <i class="fa fa-instagram" aria-hidden="true"></i>
-    </a>
-    <a href="https://medium.com/@rsachenko">
-      <i class="fa fa-medium" aria-hidden="true"></i>
-    </a>*/
   var socialsItem = "<a class='speaker__link' href='${link}' target='_blank'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
   $.template( "socialsTemplate", socialsItem );
 
   var reportTitles = '';
 
   var speakerItem = "<div class='row '> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
-    " <div class='speakers-slide__img-wrapper'>" + "<img data-src='${image}' alt=''>" +
+    " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
     "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
     "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>"+
     "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +

@@ -1,4 +1,5 @@
 section.about {
+  padding-top: 1rem;
 
   .main-title {
     font-family: 'Jura', sans-serif;
@@ -6,7 +7,7 @@ section.about {
     color: #e32d42;
 
     @media screen and (max-width: 767px) {
-      font-size: 35px;
+      font-size: 30px;
     }
   }
 
@@ -25,47 +26,6 @@ section.about {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000;
-  }
-
-  .about-schedule {
-
-    &__item {
-
-      @media (max-width: 768px) {
-        margin-bottom: 3rem;
-
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-
-      .img-wrapper {
-        height: 40px;
-        width: 100%;
-
-        img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-      }
-
-      h4 {
-        font-family: 'Jura', sans-serif;
-        font-size: 25px;
-        color: #e32d42;
-        font-weight: 600;
-      }
-
-      ul {
-        margin-bottom: 0;
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        color: #000;
-        list-style-image: url("../images/star.png");
-      }
-    }
   }
 
   .about-include {

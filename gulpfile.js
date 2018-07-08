@@ -30,11 +30,14 @@ gulp.task('script-min', function () {
       'vendor/jquery-easing/jquery.easing.min.js',
       'vendor/scrollreveal/scrollreveal.min.js',
       'vendor/firebase/firebase.js',
+      'vendor/jqcloud/jqcloud-1.0.4.min.js',
+      'vendor/beefup/beefup.min.js',
 
       //scripts
       'vendor/renderSpeakers.js',
       'vendor/renderTrainings.js',
       'vendor/renderKeyTopics.js',
+      'vendor/renderSchedule.js',
       'script.js'
     ])
     .pipe(concat('script.min.js'))
