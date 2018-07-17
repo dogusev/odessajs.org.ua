@@ -453,38 +453,38 @@ $(document).ready(function(){
     //     },
     //   ]
     // },
-      {
-          image: "images/reporters/HaroenViaene.jpg",
-          name: "Haroen Viaene",
-          position: "Library Developer" ,
-          company: "Algolia",
-          rept: [
-              {
-                  title: "You’re probably making an API client. [En]",
-                  description: "When you are interacting with another piece of software, be it a REST API or a third party, what you’re actually making is your own abstraction around it. Once you realise that, you can use the tricks used in real API clients for your advantage and make reusable, good code. " ,
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'Https:/GitHub.com/haroenv',
-                  fatype: 'github'
-              },
-              {
-                  link: 'https://twitter.com/haroenv',
-                  fatype: 'twitter'
-              },
-              {
-                  link: 'http://linkedin.com/in/haroen',
-                  fatype: 'linkedin-square'
-              },
-              {
-                  link: 'https://haroen.me/',
-                  fatype: 'link'
-              },
-          ]
-      },
+    {
+        image: "images/reporters/HaroenViaene.jpg",
+        name: "Haroen Viaene",
+        position: "Library Developer" ,
+        company: "Algolia",
+        rept: [
+            {
+                title: "You’re probably making an API client. [En]",
+                description: "When you are interacting with another piece of software, be it a REST API or a third party, what you’re actually making is your own abstraction around it. Once you realise that, you can use the tricks used in real API clients for your advantage and make reusable, good code. " ,
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'Https:/GitHub.com/haroenv',
+                fatype: 'github'
+            },
+            {
+                link: 'https://twitter.com/haroenv',
+                fatype: 'twitter'
+            },
+            {
+                link: 'http://linkedin.com/in/haroen',
+                fatype: 'linkedin-square'
+            },
+            {
+                link: 'https://haroen.me/',
+                fatype: 'link'
+            },
+        ]
+    },
     // {
     //   image: "images/reporters/alex_renandez.jpeg",
     //   name: "Alex Fernandez",
@@ -665,7 +665,7 @@ $(document).ready(function(){
         }
       ]
     },
-     {
+    {
       image: "images/reporters/roman_sachenko.jpg",
       name: "Roman Sachenko",
       position: "Software Engineer" ,
@@ -781,147 +781,147 @@ $(document).ready(function(){
         },
       ]
     },
-      {
-          image: "images/reporters/timur2018.jpg",
-          name: "Timur Shemsedinov",
-          position: "Architect, Lecturer" ,
-          company: "Metarhia, MIA, KPI",
-          rept: [
-              {
-                  title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
-                  description:
-                      "<p>Selected topics from the software engineering lectures with JavaScript and " +
-                      "Node.js examples. Includes fundamental concepts and design patterns of functional, " +
-                      "reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming," +
-                      " data structures and algorithms, useful software abstractions and code examples, best parts and " +
-                      "demo projects with modern technologies usage. Lectures includes over 500 code examples collected after " +
-                      "years of practice in different languages ​​and platforms, combined and implemented using the newest features and " +
-                      "syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science " +
-                      "and Computer Science of the Kiev Polytechnic Institute.</p>",
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'https://facebook.com/tshemsedinov',
-                  fatype: 'facebook'
-              },
-              {
-                  link: 'https://twitter.com/ImpressAppSrv',
-                  fatype: 'twitter'
-              },
-              {
-                  link: 'https://www.instagram.com/tshemsedinov/',
-                  fatype: 'instagram'
-              },
-              {
-                  link: 'https://github.com/tshemsedinov',
-                  fatype: 'github'
-              },
-              {
-                  link: 'https://www.linkedin.com/in/shemsedinov/',
-                  fatype: 'linkedin'
-              },
-              {
-                  link: 'https://habr.com/users/marcusaurelius/posts/',
-                  fatype: 'link'
-              },
-          ]
-      },
-      {
-          image: "images/reporters/orlenko.jpg",
-          name: "Aleksey Orlenko",
-          position: "Senior software engineer" ,
-          company: "Metarhia, KPI",
-          rept: [
-              {
-                  title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
-                  description:
-                      "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'https://github.com/aqrln',
-                  fatype: 'github'
-              },
-              {
-                  link: 'https://twitter.com/aqrln',
-                  fatype: 'twitter'
-              },
-          ]
-      },
-      {
-          image: "images/reporters/golikov.jpg",
-          name: "Alex Golikov",
-          position: "Senior software engineer" ,
-          company: "vi",
-          rept: [
-              {
-                  title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
-                  description:"<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'https://facebook.com/aleksey.golikov.14',
-                  fatype: 'facebook'
-              },
-              {
-                  link: 'https://www.linkedin.com/in/golikov/',
-                  fatype: 'linkedin'
-              },
-              {
-                  link: 'https://github.com/agil',
-                  fatype: 'github'
-              },
-          ]
-      },
-      {
-          image: "images/reporters/leonid_baida.jpg",
-          name: "Leonid Baida",
-          position: "Lead Front-End Developer" ,
-          company: "SPD-Ukraine",
-          rept: [
-              {
-                  title: "If you don't like how your static typing smells, maybe you do it wrong [Ua]",
-                  description:
-                  "Static typing remains a popular topic for discussions somewhat " +
-                  "akin to a battle field. JS development world split up into its " +
-                  "proponents and opponents. Don't forget that type-code" +
-                  " writing is managed by principles and approached different " +
-                  "from those required by vanilla JS. It's a different philosophy, so to say." +
-                  " Type JS is very different from non-type one. This becomes a common problem " +
-                  "in static type learning and its efficient application. Let's clarify which " +
-                  "like JS type code should be. And let's do it step-by-step, getting inspired " +
-                  "by strick type programming languages. Let's find out how to apply it so that " +
-                  "it proved useful but did not turn into our greatest disappointment." +
-                  " (Flow type will be taken as a basis here, but the majority of these " +
-                  "examples will be actual for TypeScript as well)."
-              }
-          ],
-          aboutSpeaker: '',
-          socialsRendered: '',
-          socials: [
-              {
-                  link: 'https://www.linkedin.com/in/leonid-bayda-46587438/',
-                  fatype: 'linkedin-square'
-              },
-              {
-                  link: 'https://www.facebook.com/leonid.baida',
-                  fatype: 'facebook'
-              },
-              {
-                  link: 'https://www.instagram.com/leonidbaida/',
-                  fatype: 'instagram'
-              }
-          ]
-      },
+    {
+        image: "images/reporters/timur2018.jpg",
+        name: "Timur Shemsedinov",
+        position: "Architect, Lecturer" ,
+        company: "Metarhia, MIA, KPI",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:
+                    "<p>Selected topics from the software engineering lectures with JavaScript and " +
+                    "Node.js examples. Includes fundamental concepts and design patterns of functional, " +
+                    "reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming," +
+                    " data structures and algorithms, useful software abstractions and code examples, best parts and " +
+                    "demo projects with modern technologies usage. Lectures includes over 500 code examples collected after " +
+                    "years of practice in different languages ​​and platforms, combined and implemented using the newest features and " +
+                    "syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science " +
+                    "and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://facebook.com/tshemsedinov',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://twitter.com/ImpressAppSrv',
+                fatype: 'twitter'
+            },
+            {
+                link: 'https://www.instagram.com/tshemsedinov/',
+                fatype: 'instagram'
+            },
+            {
+                link: 'https://github.com/tshemsedinov',
+                fatype: 'github'
+            },
+            {
+                link: 'https://www.linkedin.com/in/shemsedinov/',
+                fatype: 'linkedin'
+            },
+            {
+                link: 'https://habr.com/users/marcusaurelius/posts/',
+                fatype: 'link'
+            },
+        ]
+    },
+    {
+        image: "images/reporters/orlenko.jpg",
+        name: "Aleksey Orlenko",
+        position: "Senior software engineer" ,
+        company: "Metarhia, KPI",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:
+                    "<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://github.com/aqrln',
+                fatype: 'github'
+            },
+            {
+                link: 'https://twitter.com/aqrln',
+                fatype: 'twitter'
+            },
+        ]
+    },
+    {
+        image: "images/reporters/golikov.jpg",
+        name: "Alex Golikov",
+        position: "Senior software engineer" ,
+        company: "vi",
+        rept: [
+            {
+                title: "Workshop: Software Engendering Fundamentals for JavaScript Developers [Ru]",
+                description:"<p>Selected topics from the software engineering lectures with JavaScript and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive, imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data structures and algorithms, useful software abstractions and code examples, best parts and demo projects with modern technologies usage. Lectures includes over 500 code examples collected after years of practice in different languages ​​and platforms, combined and implemented using the newest features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p>",
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://facebook.com/aleksey.golikov.14',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://www.linkedin.com/in/golikov/',
+                fatype: 'linkedin'
+            },
+            {
+                link: 'https://github.com/agil',
+                fatype: 'github'
+            },
+        ]
+    },
+    {
+        image: "images/reporters/leonid_baida.jpg",
+        name: "Leonid Baida",
+        position: "Lead Front-End Developer" ,
+        company: "SPD-Ukraine",
+        rept: [
+            {
+                title: "If you don't like how your static typing smells, maybe you do it wrong [Ua]",
+                description:
+                "Static typing remains a popular topic for discussions somewhat " +
+                "akin to a battle field. JS development world split up into its " +
+                "proponents and opponents. Don't forget that type-code" +
+                " writing is managed by principles and approached different " +
+                "from those required by vanilla JS. It's a different philosophy, so to say." +
+                " Type JS is very different from non-type one. This becomes a common problem " +
+                "in static type learning and its efficient application. Let's clarify which " +
+                "like JS type code should be. And let's do it step-by-step, getting inspired " +
+                "by strick type programming languages. Let's find out how to apply it so that " +
+                "it proved useful but did not turn into our greatest disappointment." +
+                " (Flow type will be taken as a basis here, but the majority of these " +
+                "examples will be actual for TypeScript as well)."
+            }
+        ],
+        aboutSpeaker: '',
+        socialsRendered: '',
+        socials: [
+            {
+                link: 'https://www.linkedin.com/in/leonid-bayda-46587438/',
+                fatype: 'linkedin-square'
+            },
+            {
+                link: 'https://www.facebook.com/leonid.baida',
+                fatype: 'facebook'
+            },
+            {
+                link: 'https://www.instagram.com/leonidbaida/',
+                fatype: 'instagram'
+            }
+        ]
+    },
     {
       image: "images/reporters/mihail_zachepilo.png",
       name: "Mihail Zachepilo",
@@ -973,34 +973,34 @@ $(document).ready(function(){
         }
       ]
     },
-    {
-      image: "images/reporters/max_klymyshyn.jpg",
-      name: "Max Klymyshyn",
-      position: "Tech Lead",
-      company: "Takeoff Technologies",
-      rept: [
-        {
-          title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
-          description: "",
-        }
-      ],
-      aboutSpeaker:
-        'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
-        ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
-        'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
-        'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.linkedin.com/in/klymyshyn',
-          fatype: 'linkedin'
-        },
-        {
-          link: 'https://twitter.com/maxmaxmaxmax',
-          fatype: 'twitter'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/max_klymyshyn.jpg",
+    //   name: "Max Klymyshyn",
+    //   position: "Tech Lead",
+    //   company: "Takeoff Technologies",
+    //   rept: [
+    //     {
+    //       title: "Workshop: Build blockchain using CRDT and Merkle Trees [Ru]",
+    //       description: "",
+    //     }
+    //   ],
+    //   aboutSpeaker:
+    //     'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
+    //     ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
+    //     'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
+    //     'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.linkedin.com/in/klymyshyn',
+    //       fatype: 'linkedin'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/maxmaxmaxmax',
+    //       fatype: 'twitter'
+    //     },
+    //   ]
+    // },
 
     {
       image: "images/reporters/roman_rodomansky.png",
@@ -1947,7 +1947,6 @@ $(document).ready(function(){
         }
       ]
     },
-
   ];
 
 

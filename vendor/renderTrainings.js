@@ -1,51 +1,51 @@
 $(document).ready(function(){
 
   var oldTrainings = [
-    {
-      image: "images/reporters/max_klymyshyn.jpg",
-      label: "images/workshops/Networking_8A.jpg",
-      name: "Max Klymyshyn",
-      position: "" ,
-      company: "",
-      place: '',
-      date: 8,
-      duration: '2 h',
-      price: '<a href="https://goo.gl/forms/pBQHclytewwTNurm2" target="_blanck">Free</a>',
-      buyLink: 'https://goo.gl/forms/pBQHclytewwTNurm2',
-      free_class: 'free',
-      aboutSpeaker:
-      'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
-      ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
-      'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
-      'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
-      title: "Build blockchain using CRDT and Merkle Trees [Ru]",
-      description: "",
-      topics:[
-        '<ul>\n' +
-        '  <li>intro & basic tools installation</li>\n' +
-        '  <li>blockchain basic implementation</li>\n' +
-        '  <li>low-level transport</li>\n' +
-        '  <li>high-level transport & CRDT payload definition</li>\n' +
-        '  <li>adding distributed properties</li>\n' +
-        '</ul>'
-      ],
-      purpose:
-      '<p>People who developing modern client-side apps with JavaScript should know about distributed' +
-      ' data structures like CRDT.</p>',
-      tools: '<p>Laptop, internet, git, node.js installed on laptop</p>',
-      target: '<p>Middle+ front-end developers</p>',
-      socialsRendered: '',
-      socials: [
-        {
-          link: 'https://www.linkedin.com/in/klymyshyn',
-          fatype: 'linkedin'
-        },
-        {
-          link: 'https://twitter.com/maxmaxmaxmax',
-          fatype: 'twitter'
-        },
-      ]
-    },
+    // {
+    //   image: "images/reporters/max_klymyshyn.jpg",
+    //   label: "images/workshops/Networking_8A.jpg",
+    //   name: "Max Klymyshyn",
+    //   position: "" ,
+    //   company: "",
+    //   place: '',
+    //   date: 8,
+    //   duration: '2 h',
+    //   price: '<a href="https://goo.gl/forms/pBQHclytewwTNurm2" target="_blanck">Free</a>',
+    //   buyLink: 'https://goo.gl/forms/pBQHclytewwTNurm2',
+    //   free_class: 'free',
+    //   aboutSpeaker:
+    //   'Full-stack software engineer for Clojure/ClojureScript/Python/JavaScript-based projects with 15+ years experience in technical' +
+    //   ' team leadership and management of distributed teams. Max interested in distributed systems, data replication and consistency algorithms, ' +
+    //   'information science, functional languages and modern mobile and front-end development. Delivered more than 50 talks within past 5 years ' +
+    //   'about developments and trends in Python, JavaScript, Databases, Dev Processes, Testing Processes and Project Management.',
+    //   title: "Build blockchain using CRDT and Merkle Trees [Ru]",
+    //   description: "",
+    //   topics:[
+    //     '<ul>\n' +
+    //     '  <li>intro & basic tools installation</li>\n' +
+    //     '  <li>blockchain basic implementation</li>\n' +
+    //     '  <li>low-level transport</li>\n' +
+    //     '  <li>high-level transport & CRDT payload definition</li>\n' +
+    //     '  <li>adding distributed properties</li>\n' +
+    //     '</ul>'
+    //   ],
+    //   purpose:
+    //   '<p>People who developing modern client-side apps with JavaScript should know about distributed' +
+    //   ' data structures like CRDT.</p>',
+    //   tools: '<p>Laptop, internet, git, node.js installed on laptop</p>',
+    //   target: '<p>Middle+ front-end developers</p>',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://www.linkedin.com/in/klymyshyn',
+    //       fatype: 'linkedin'
+    //     },
+    //     {
+    //       link: 'https://twitter.com/maxmaxmaxmax',
+    //       fatype: 'twitter'
+    //     },
+    //   ]
+    // },
     // {
     //   id: 1,
     //   image: "images/reporters/nik_graf.jpg",
@@ -237,54 +237,8 @@ $(document).ready(function(){
       ]
     },*/
 
-    // {
-    //   id: 5,
-    //   image: "images/logo.png",
-    //   name: "Gleb Dobzhanskiy & Valentine Mezentsev",
-    //   position: "VP of Engeeniirig & NodeJS developer" ,
-    //   company: "Master of Code Global",
-    //   place: '',
-    //   date: 'July 8',
-    //   duration: '2-3 h',
-    //   price: '',
-    //   aboutSpeaker:
-    //   "<p>Gleb Dobzhanskiy: -I like programming for the fact that I can create things that work without my help. New technologies for me are like a quest, at first you sit and try to understand them, you dig deeper and deeper and then everything works - it's like magic. My last interesting task was working with NLU algorithms. And I am a real Apple ambasador))) I wish all the participants cool conferences, memories and networking.</p>"+
-    //   "<p>Valentine Mezentsev: -I'm a part of bots development department. We are working with Facebook Messenger Bots a lot, but I also have experience with Amazon Alexa and Google Home. My hobbies is working with voice assistant platform(Amazon Alexa), learn something new, gym and watching football. \n</p>",
-    //   title: "Bot Battle: Google Home vs Alexa. [Ru]",
-    //   description:
-    //     "<p>The battle will be based on a tic-tac-toe game through the interaction of 2 bots " +
-    //     "(Amazon Alexa Skill and Actions on Google), which will be connected to the smart Amazon Echo and Google Home speakers.</p>" +
 
-    //     "<p>During workshop we will not write the algorithm of playing tic-tac-toe, we will connect open source libraries that can play tic-tac-toe.</p>" +
 
-    //     "<p>During workshop we will show and tell the participants how to make a skill for Amazon Alexa and Actions on Google, step by step.</p>" +
-
-    //     "<p>For this we will use:  <br>" +
-    //     "for Amazon Alexa - AWS Lambda, Alexa Skill Kit SDK, NLP - Amazon Lex. <br>" +
-    //     "for Actions on Google - Google Cloud Functions, Actions on Google Client Library, NLP - Dialogflow.</p>" +
-
-    //     "<p>As a result, we can start a game in which one of the assistants will start the game and say the first move, and the second " +
-    //     "will accept the voice command and make a decision about its actions. And so until one of them wins. During the game it would be cool" +
-    //     " to connect the TV on which the visualization of moves will be made and the real battle will be seen.</p>" +
-
-    //     "<p>Our mentors will be divided into 2 teams and will create a skill for Alexa and for Google and talk about the main points " +
-    //     "of creating bots. After both teams tell and show all points - the battle will start!</p>",
-    //   topics:[],
-    //   purpose: "Bots and Voice Assistants become more and more popular. It’s good to know and understand how they work and created. Serverless is a cheap and easy way to try Cloud Computing. We will use NodeJS and Amazon Lambda, Google Cloud Function. Ask CLI’s and Google Cloud SDK for a deployment process. Also we will use Amazon Echo and Google Home for a demonstration. Partisipant needed laptops, AWS&Google account.\t",
-    //   tools: "",
-    //   target: 'Anyone who interested in Voice Assistants, NLP’s, Serverless Technologies(Amazon Lambda, Google Cloud Functions). This workshop will be useful for developers who want to create Actions on Google or Amazon Alexa Skill. ',
-    //   socialsRendered: '',
-    //   socials: [
-    //     {
-    //       link: 'https://www.facebook.com/dobzhanskiy',
-    //       fatype: 'facebook'
-    //     },
-    //     {
-    //       link: 'https://www.facebook.com/profile.php?id=100001637934934',
-    //       fatype: 'facebook'
-    //     },
-    //   ]
-    // },
 
     // {
     //   id: 9,
@@ -602,7 +556,7 @@ $(document).ready(function(){
       ]
     },
     {
-      image: "images/reporters/timur_shemsedinov.jpg",
+      image: "images/logo.png",
       label: "images/workshops/Networking_3b.jpg",
       name: "Timur Shemsedinov, Aleksey Orlenko & Alex Golikov",
       position: "Architect/Lecturer, Senior software engineer & Senior software engineer" ,
@@ -860,6 +814,79 @@ $(document).ready(function(){
       socials: [ ]
     },
     {
+      image: "images/logo.png",
+      label: "images/workshops/Networking_13.jpg",
+      name: "Gleb Dobzhanskiy & Valentine Mezentsev",
+      position: "VP of Engeeniirig & NodeJS developer" ,
+      company: "Master of Code Global",
+      place: '',
+      date: 8,
+      duration: '2-3 h',
+      price: 'Free',
+      free_class: 'free',
+      aboutSpeaker:
+        "<p>Gleb Dobzhanskiy: -I like programming for the fact that I can create things " +
+        "that work without my help. New technologies for me are like a quest, at first you " +
+        "sit and try to understand them, you dig deeper and deeper and then everything works" +
+        " - it's like magic. My last interesting task was working with NLU algorithms. And " +
+        "I am a real Apple ambasador))) I wish all the participants cool conferences, memories" +
+        " and networking.</p>"+
+        "<p>Valentine Mezentsev: -I'm a part of bots development department. We are working " +
+        "with Facebook Messenger Bots a lot, but I also have experience with Amazon Alexa and " +
+        "Google Home. My hobbies is working with voice assistant platform(Amazon Alexa), " +
+        "learn something new, gym and watching football. \n</p>",
+      title: "Bot Battle: Google Home vs Alexa. [Ru]",
+      description:
+        "<p>The battle will be based on a tic-tac-toe game through the interaction of 2 bots " +
+        "(Amazon Alexa Skill and Actions on Google), which will be connected to the smart " +
+        "Amazon Echo and Google Home speakers.</p>" +
+        "<p>During workshop we will not write the algorithm of playing tic-tac-toe, we will " +
+        "connect open source libraries that can play tic-tac-toe.</p>" +
+
+        "<p>During workshop we will show and tell the participants how to make a skill for " +
+        "Amazon Alexa and Actions on Google, step by step.</p>" +
+
+        "<p>For this we will use:  <br>" +
+        "for Amazon Alexa - AWS Lambda, Alexa Skill Kit SDK, NLP - Amazon Lex. <br>" +
+        "for Actions on Google - Google Cloud Functions, Actions on Google Client Library," +
+        " NLP - Dialogflow.</p>" +
+
+        "<p>As a result, we can start a game in which one of the assistants will start " +
+        "the game and say the first move, and the second will accept the voice command " +
+        "and make a decision about its actions. And so until one of them wins. During " +
+        "the game it would be cool to connect the TV on which the visualization of moves" +
+        " will be made and the real battle will be seen.</p>" +
+
+        "<p>Our mentors will be divided into 2 teams and will create a skill for Alexa " +
+        "and for Google and talk about the main points of creating bots. After both teams " +
+        "tell and show all points - the battle will start!</p>",
+      topics:[],
+      purpose:
+        "Bots and Voice Assistants become more and more popular. It’s good to " +
+        "know and understand how they work and created. Serverless is a cheap and " +
+        "easy way to try Cloud Computing. We will use NodeJS and Amazon Lambda, " +
+        "Google Cloud Function. Ask CLI’s and Google Cloud SDK for a deployment process. " +
+        "Also we will use Amazon Echo and Google Home for a demonstration. Partisipant" +
+        " needed laptops, AWS&Google account.\t",
+      tools: "",
+      target:
+        'Anyone who interested in Voice Assistants, NLP’s, Serverless Technologies(Amazon' +
+        ' Lambda, Google Cloud Functions). This workshop will be useful for developers who' +
+        ' want to create Actions on Google or Amazon Alexa Skill. ',
+      socialsRendered: '',
+      socials: [
+        {
+          link: 'https://www.facebook.com/dobzhanskiy',
+          fatype: 'facebook'
+        },
+        {
+          link: 'https://www.facebook.com/profile.php?id=100001637934934',
+          fatype: 'facebook'
+        },
+      ]
+    },
+
+        {
       image: "images/reporters/migutsky.jpg",
       label: "images/workshops/Networking_1a.jpg",
       name: "Alexey Migutsky",
@@ -1009,6 +1036,7 @@ $(document).ready(function(){
         },
       ]
     },
+
   ];
 
 
