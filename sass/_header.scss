@@ -35,11 +35,11 @@
 
   &-slide{
     padding-top: 14px;
-    padding-bottom: 40px;
-    background-color: #a7a7a7;
+    padding-bottom: 40px;  
+    // background-color: #a7a7a7;
     height: auto;
-    min-height: 750px;
-    min-height: calc(98vh - 67px);
+    // min-height: 750px;
+    // min-height: calc(98vh - 67px);
 
     hr {
       margin-top: 15px;
@@ -93,10 +93,11 @@
 
   // Styling for the masthead
   .masthead {
-    background-image: url('../images/parallax-img.png');
-    background-position: center center;
-    background-color: #a7a7a7;
-    @include background-cover;
+    // background-image: url('../images/parallax-img.png');
+    // background-image: url('../images/speakers_group.jpg');
+    // background-position: center center;
+    // background-color: #a7a7a7;
+    // @include background-cover;
 
     @media screen and (max-width: 768px){
       padding: 0 10px;

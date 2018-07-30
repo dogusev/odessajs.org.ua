@@ -32,7 +32,7 @@ $(document).ready(function(){
           link: 'https://codecraft.tv',
           fatype: 'link'
         },
-      ]
+      ],
     },
     {
       image: "images/reporters/ivan_jovanovich.jpg",
@@ -60,7 +60,14 @@ $(document).ready(function(){
           link: 'https://ivanjov.com/',
           fatype: 'link'
         }
-      ]
+      ],
+      files:[
+        {
+          title: 'Serverless - the way microservices should be',
+          link:'https://speakerdeck.com/ivanjov/introduction-to-micro-frontends-fluent-conf-2018',
+        }
+      ],
+      filesRendered: '',
     },
     {
       image: "images/reporters/shinkevich.jpg",
@@ -104,7 +111,18 @@ $(document).ready(function(){
           link: 'http://ash-web.by',
           fatype: 'link'
         }
-      ]
+      ],
+      files:[
+        {
+          title: 'Development standards: a step-by-step guide to implement it without pain',
+          link:'https://neesoglasnaja.github.io/OdessaJS2018/',
+        },
+        {
+          title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer',
+          link:'https://mefody.github.io/talks/talk-preparation/',
+        },
+      ],
+      filesRendered: '',
     },
     // {
     //   image: "images/reporters/trishul_goel.png",
@@ -483,8 +501,15 @@ $(document).ready(function(){
                 link: 'https://haroen.me/',
                 fatype: 'link'
             },
-        ]
-    },
+        ],
+        files:[
+          {
+            title: 'You’re probably making an API client',
+            link:'https://haroen.me/presentations/en/api-clients-odessa/',
+          },
+        ],
+        filesRendered: '',
+      },
     // {
     //   image: "images/reporters/alex_renandez.jpeg",
     //   name: "Alex Fernandez",
@@ -779,7 +804,14 @@ $(document).ready(function(){
           link: 'https://mtdv.io',
           fatype: 'link'
         },
-      ]
+      ],
+      files:[
+        {
+          title: 'Microsoft To-Do. Web Architecture',
+          link:'https://slides.com/mr-mig/to-do-web-arch',
+        }
+      ],
+      filesRendered: '',
     },
     {
         image: "images/reporters/timur2018.jpg",
@@ -1349,7 +1381,19 @@ $(document).ready(function(){
           link: 'https://github.com/MeFoDy',
           fatype: 'github'
         }
-      ]
+      ],
+
+      files:[
+        {
+          title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer',
+          link:'https://mefody.github.io/talks/talk-preparation/',
+        },
+        {
+          title: 'Houdini - CSS which is JavaScript',
+          link:'https://mefody.github.io/talks/houdini-css',
+        },
+      ],
+      filesRendered: '',
     },
     {
       image: "images/reporters/valentyn_barmashyn.png",
@@ -1377,7 +1421,14 @@ $(document).ready(function(){
           link: 'https://github.com/Va1',
           fatype: 'github'
         }
-      ]
+      ],
+      files:[
+        {
+          title: 'Rx in React, Rx in Angular and why we all should be friends',
+          link:'https://drive.google.com/file/d/1czdxULKRVMGjDauj_DudHOtYc7wWlDYI/view?usp=sharing',
+        },
+      ],
+      filesRendered: '',
     },
     {
       image: "images/reporters/alexander_shushunov.jpg",
@@ -1501,7 +1552,14 @@ $(document).ready(function(){
           link: 'https://denysdovhan.com/',
           fatype: 'link'
         },
-      ]
+      ],
+      files:[
+        {
+          title: ' Automating GitHub workflow',
+          link:'https://denysdovhan.com/slides-automating-github-workflow/',
+        },
+      ],
+      filesRendered: '',
     },
     {
       image: "images/reporters/valerii_sorokobatko.jpg",
@@ -1953,6 +2011,9 @@ $(document).ready(function(){
   var socialsItem = "<a class='speaker__link' href='${link}' target='_blank'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
   $.template( "socialsTemplate", socialsItem );
 
+  var fileItem = "<a class='speakers-slide__file' href='${link}' title='${title}' target='_blank'></a>";
+  $.template( "filesTemplate", fileItem );
+
   var reportTitles = '';
 
   var speakerItem = "<div class='row '> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
@@ -1962,7 +2023,7 @@ $(document).ready(function(){
     "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
     "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>"+
     "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>"+
-    "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> </div> </div> </div></div>";
+    "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> <div class='speakers-slide__files'>{{html filesRendered}}</div></div> </div> </div></div>";
   $.template( "speakerTemplate", speakerItem );
 
 
@@ -1972,6 +2033,10 @@ $(document).ready(function(){
     // start render all
     $.each(speakers, function(i, sp) {
       $.each($.tmpl("socialsTemplate", sp.socials ), function(a, i){ sp.socialsRendered += i.outerHTML; });
+
+      if(sp.files){
+        $.each($.tmpl("filesTemplate", sp.files ), function(a, i){ sp.filesRendered += i.outerHTML; });
+      }
     });
 
     var renderedSpeakers = [];
