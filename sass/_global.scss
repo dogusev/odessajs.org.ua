@@ -138,3 +138,24 @@ u {
 .flex {
   display: flex;
 }
+
+.desktop_show {
+  display: block;
+}
+
+.mobile_show {
+  display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .desktop_show {
+    display: none;
+  }
+
+  .mobile_show {
+    display: block;
+  }
+    
+}

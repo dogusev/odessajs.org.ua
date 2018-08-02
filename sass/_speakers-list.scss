@@ -296,6 +296,28 @@
       }
     }
 
+    &__files {
+      width: 100%;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    &__file {
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      background-image: url('../images/powerpoint-logo.png');
+      background-position: center;
+      background-size: 30px;
+      background-repeat: no-repeat;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+    }
+
     //
     //display: flex!important;
     //outline: none;
