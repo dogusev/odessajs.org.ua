@@ -147,6 +147,11 @@ u {
   display: none;
 }
 
+.loading-bg {
+  background-image: url(../images/ninja-bg-gray.png);
+  background-size: cover;
+  background-position: center;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -157,5 +162,5 @@ u {
   .mobile_show {
     display: block;
   }
-    
+
 }
