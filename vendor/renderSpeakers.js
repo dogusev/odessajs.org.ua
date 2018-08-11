@@ -690,44 +690,76 @@ $(document).ready(function(){
         }
       ]
     },
+    // {
+    //   image: "images/reporters/roman_sachenko.jpg",
+    //   name: "Roman Sachenko",
+    //   position: "Software Engineer" ,
+    //   company: "DA-14",
+    //   rept: [
+    //     {
+    //       title: "NodeJS Microservices + CQRS + Event Sourcing - Why do I do this? [Ru]",
+    //       description: "Why do I do this? I kept asking myself this question while working on the next project and building microservices-based architecture with CQRS and Event Sourcing. What does this system do and why is it so complicated? I'll tell you about mistakes, which I’ve made, issues, which I've faced with, and solutions, which shouldn’t be applied. I’ll share my own experience and tell about those things, I wish I’d known before I started working on the project."
+    //     }
+    //   ],
+    //   aboutSpeaker: '',
+    //   socialsRendered: '',
+    //   socials: [
+    //     {
+    //       link: 'https://github.com/roman-sachenko',
+    //       fatype: 'github'
+    //     },
+    //     /*{
+    //       link: 'https://www.linkedin.com/in/rsachenko/',
+    //       fatype: 'linkedin-square'
+    //     },
+    //     {
+    //       link: 'https://www.facebook.com/rsachenko',
+    //       fatype: 'facebook'
+    //     },*/
+    //     {
+    //       link: 'https://twitter.com/RSachenko',
+    //       fatype: 'twitter'
+    //     },
+    //     {
+    //       link: 'https://stackoverflow.com/users/5132363/roman-sachenko',
+    //       fatype: 'stack-overflow'
+    //     }/*,
+    //     {
+    //       link: 'https://www.instagram.com/rsachenko/',
+    //       fatype: 'instagram'
+    //     },*/
+    //   ]
+    // },
     {
-      image: "images/reporters/roman_sachenko.jpg",
-      name: "Roman Sachenko",
+      image: "images/program-committee/timofey-lavrenyuk.jpg",
+      name: "Timofey Lavrenyuk",
       position: "Software Engineer" ,
-      company: "DA-14",
+      company: "KeepSolid",
       rept: [
         {
-          title: "NodeJS Microservices + CQRS + Event Sourcing - Why do I do this? [Ru]",
-          description: "Why do I do this? I kept asking myself this question while working on the next project and building microservices-based architecture with CQRS and Event Sourcing. What does this system do and why is it so complicated? I'll tell you about mistakes, which I’ve made, issues, which I've faced with, and solutions, which shouldn’t be applied. I’ll share my own experience and tell about those things, I wish I’d known before I started working on the project."
+          title: "How to make web-applications more native and a user happier with modern browser possibilities [RU]",
+          description: ""
         }
       ],
       aboutSpeaker: '',
       socialsRendered: '',
       socials: [
         {
-          link: 'https://github.com/roman-sachenko',
+          link: 'https://github.com/exelnait',
           fatype: 'github'
         },
-        /*{
-          link: 'https://www.linkedin.com/in/rsachenko/',
+        {
+          link: 'https://www.linkedin.com/in/lavrenyuk-t-042b4263/',
           fatype: 'linkedin-square'
         },
         {
-          link: 'https://www.facebook.com/rsachenko',
+          link: 'https://www.facebook.com/tlavrenyuk',
           fatype: 'facebook'
-        },*/
-        {
-          link: 'https://twitter.com/RSachenko',
-          fatype: 'twitter'
         },
         {
-          link: 'https://stackoverflow.com/users/5132363/roman-sachenko',
+          link: 'https://stackoverflow.com/users/8857437/timofey-lavrenyuk',
           fatype: 'stack-overflow'
-        }/*,
-        {
-          link: 'https://www.instagram.com/rsachenko/',
-          fatype: 'instagram'
-        },*/
+        }
       ]
     },
     {
