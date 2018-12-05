@@ -1,21 +1,23 @@
 footer#footer {
-  background-image: url(../images/footer_bg.png);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  //background-image: url(../images/footer_bg.png);
+  //background-image: url(../images/speakers-waves.png);
+  //background-position: top 50px left;
+  //background-size: cover;
+  //background-repeat: no-repeat;
 
   margin-top: -4rem;
   padding-top: 6rem;
-  font-family: 'Jura', sans-serif;
-
-
+  font-family: 'Gilroy','Jura', sans-serif;
+  .btn{
+      font-family: 'Gilroy' !important;
+    }
   .main_title {
-    font-family: 'Jura', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-size: 45px;
     color: $primary;
   }
   .main_subtitle {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gilroy','Roboto', sans-serif;
     font-size: 24px;
     color: $black;
   }
@@ -88,7 +90,13 @@ footer#footer {
 
   .footer__last {
     padding-top: 4rem;
-    a {padding: 0 15px;}
+    a {
+      padding: 0 15px;
+      font-family: 'Gilroy';
+    }
+  }
+  @media screen and (max-width: 767px){
+    background: white;
   }
 }
 

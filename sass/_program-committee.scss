@@ -4,7 +4,6 @@ section.program-committee {
   #programCommitteeCarousel {
     position: relative;
     margin: 0 auto;
-
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
       transform: translateX(25%);
@@ -219,4 +218,10 @@ section.program-committee {
       }
     }
   }
+  @media (min-width: 767px) {
+    .carousel-control-prev, .carousel-control-next{
+      display: none;
+    }
+  }
+  
 }

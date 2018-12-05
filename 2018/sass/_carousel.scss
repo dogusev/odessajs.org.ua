@@ -1,0 +1,97 @@
+.carousel{
+
+  .carousel-indicators {
+    li {
+      cursor: pointer;
+    }
+  }
+  &.custom-carousel {
+    position: relative;
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      .fa {
+        font-size: 3.2rem;
+        line-height: 40px;
+        color: grey;
+        transition: .2s;
+      }
+
+      &:active {
+        .fa {
+          color: $primary;
+        }
+      }
+    }
+
+    .carousel-control-prev {
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%);
+      left: -50px;
+      height: 45px;
+      width: 25px;
+
+      @media (min-width: 1041px) and (max-width: 1280px) {
+        left: -20px;
+      }
+      @media (max-width: 1040px) {
+        left: 0;
+      }
+      @media (min-width: 576px) and (max-width: 992px) {
+        left: -20px;
+      }
+      .carousel-control-prev-icon {
+        //background-image: url(../images/location/location-prev.png);
+        background-image: none;
+        left: -50px;
+        height: 45px;
+        width: 25px;
+
+        &:active {
+          //background-image: url(../images/speakers-slider-left.png);
+          background-image: none;
+        }
+      }
+    }
+
+    .carousel-control-next {
+      top: 50%;
+      bottom: auto;
+      transform: translateY(-50%);
+      right: -50px;
+      height: 45px;
+      width: 25px;
+
+      @media (min-width: 1041px) and (max-width: 1280px) {
+        right: -20px;
+      }
+      @media (max-width: 1040px) {
+        right: 0;
+      }
+      @media (min-width: 576px) and (max-width: 992px) {
+        right: -20px;
+      }
+
+      .carousel-control-next-icon {
+        //background-image: url(../images/location/location-next.png);
+        background-image: none;
+        right: -50px;
+        height: 45px;
+        width: 25px;
+
+        &:active {
+          //background-image: url(../images/speakers-slider-right.png);
+          background-image: none;
+        }
+      }
+    }
+  }
+}

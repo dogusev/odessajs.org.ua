@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="Conference Front-end, JavaScript developers in Odessa">
+  <meta property="og:image" content="http://odessajs.org/images/logo.png">
+  <meta property="og:title" content="OdessaJS 2018, UA Frontend Conference">
+  <meta property="og:url" content="http://odessajs.org/">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="">
+  <title>OdessaJS - Conference on JavaScript best practices for truly enthusiastic community</title>
+  <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+  <link rel="icon" href="../favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext"
+        rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Jura|Roboto" rel="stylesheet">
+  <link href="../css/main_new.css?v=751f0" rel="stylesheet">
+  <script>!function (f, b, e, v, n, t, s) {
+    if(f.fbq) return;
+    n = f.fbq = function () {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+    };
+    if(!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s);
+  }(window,
+    document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');</script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=549071635216417&ev=PageView&noscript=1"></noscript>
+  <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start' :
+        new Date().getTime(), event : 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-W4MVQ2T');</script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav" style="padding-right: 31px;">
+  <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img
+    src="../images/logo_small_dark.png" alt="OdessaJS logo" class="img-logo"> <span
+    class="header_title">OdessaJS'2018</span> </a>
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation" style="margin-right: 15px;"><span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#speakers">Speakers</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="/#workshops">Workshops</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#sponsorship">Sponsors</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#schedule">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger rounded-circle" href="/#location">Location</a></li>
+        <li class="nav-item nav-item-btn"><a class="js-scroll-trigger btn btn-primary"
+                                             href="https://odessajs2018.ticketforevent.com/">Tickets</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="workshops" class="trainings">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="trainings-info-popup" id="training-modal"
+           style="padding-right: 15px; display: block;">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="img-wrapper w-25"><img class="d-block img-fluid" src="../images/logo.png"
+                                                 style=""></div>
+              <div class="info-wrapper">
+                <div class="speaker-info"><h2><span class="speaker__name" style="">Timur Shemsedinov, Aleksey Orlenko &amp; Alex Golikov</span>
+                </h2>
+                  <div class="speaker__position" style="display: none;"></div>
+                  <div class="speaker__company" style="display: none;"></div>
+                  <div class="training-info">
+                    <div class="training__place" style="display: none;">Location: <span></span></div>
+                    <div class="training__date" style="">Date: <span>July 6</span></div>
+                    <div class="training__duration" style="">Duration: <span>6 h</span></div>
+                    <div class="training__price" style="display: none;">Price: <span></span></div>
+                  </div>
+                </div>
+                <div class="speaker__link-list" style="display: none;"></div>
+              </div>
+              <div class="bg-img"><img src="../images/speakers-waves.png" alt=""></div>
+            </div>
+            <div class="modal-body"><h2 class="modal-body__workshop-title modal-body__title" style="">Software
+              Engendering Fundamentals for JavaScript Developers [Ru]</h2>
+              <hr class="mt-4 mb-4 ml-0">
+              <div class="modal-body__description" style=""><h4 class="modal-body__title">Description</h4>
+                <div class="modal-body__text"><p>Selected topics from the software engineering lectures with JavaScript
+                  and Node.js examples. Includes fundamental concepts and design patterns of functional, reactive,
+                  imperative, declarative, asynchronous, prototype, object-oriented, and metaprogramming, data
+                  structures and algorithms, useful software abstractions and code examples, best parts and demo
+                  projects with modern technologies usage. Lectures includes over 500 code examples collected after
+                  years of practice in different languages ​​and platforms, combined and implemented using the newest
+                  features and syntax of JavaScript. The course includes 75 lectures by Timur Shemsedinov from the
+                  Faculty of Computer Science and Computer Science of the Kiev Polytechnic Institute.</p></div>
+              </div>
+              <div class="modal-body__topics" style=""><h4 class="modal-body__title">Major Topics</h4>
+                <div class="modal-body__text">
+                  <div class="modal-body__text">
+                    <ul>
+                      <li>Basic concepts: contexts and closures, mixins, wrappers, decorators, memoization, chaining,
+                        Factory and Pool, Symbol, Proxy, Map and Set, EventEmitter, Iterator, Typed Arrays, indices and
+                        caching
+                      </li>
+                      <li>Data Structures: Stack, Queue, Decks, Lists: singly, doubly and circular linked list
+                        implemented on classes, prototypes, arrays and closures, other linked structures, ArrayList,
+                        Buffer, binary trees and N-linked trees, balancing and searching, graphs
+                      </li>
+                      <li>Asynchronous programming: callbacks, parallel and sequential collections iteration, control
+                        flow, event flow and data flow approaches, generators, Promise, events, asynchronous function
+                        composition, Data and Key collectors, Async adapters and utilities
+                      </li>
+                      <li>Functional programming: higher order functions, composition, curry, partial application,
+                        functors, function objects, monads, functional inheritance, functional code style comparison and
+                        optimizations
+                      </li>
+                      <li>Structure and architecture: modules, layers, isolation and binding, web services, inter
+                        process communication, bus, broker, pipeline, Inversion of Control and Dependency Injection,
+                        metamprogramming and dynamic binding
+                      </li>
+                      <li>Technologies: websockets, scaling, clustering and balancing, sticky, continuous integration,
+                        live code reload and updating application on the fly, testing, deployment, garbage collection,
+                        memory leaks, object-relational mapping
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body__purpose" style=""><h4 class="modal-body__title">WHY YOU SHOULD COME TO THIS
+                WORKSHOP</h4>
+                <div class="modal-body__text"><p>To get overview of all aspects and techniques in software engendering
+                  because it usually lays behind frameworks and practical skills, but generalization and complex view
+                  allows to find better and elegant solutions in most cases and makes code structural, reusable and
+                  compatible</p></div>
+              </div>
+              <div class="modal-body__tools" style="display: none;"><h4 class="modal-body__title">SKILLS &amp; EQUIPMENT
+                REQUIRED FOR THE WORKSHOP</h4>
+                <div class="modal-body__text"></div>
+              </div>
+              <div class="modal-body__target" style=""><h4 class="modal-body__title">TARGET AUDIENCE</h4>
+                <div class="modal-body__text"><p>I believe developer of any level will find something interesting in
+                  proposed topics</p></div>
+              </div>
+              <div class="modal-body__about-speaker" style="display: none;"><h4 class="modal-body__title">About the
+                Trainer</h4>
+                <div class="modal-body__text"></div>
+              </div>
+              <div class="modal-body__text"><a id="workshop-buy" class="btn btn-primary btn-xl main_button"
+                                               target="_blank" data-link="https://odessajs2018.ticketforevent.com/en/"
+                                               href="https://odessajs2018.ticketforevent.com/en/">Buy tickets</a></div>
+            </div>
+            <div class="modal-footer" style="display: none">
+              <button type="button" class="prev"><img src="images/speakers-slider-left.png" alt=""> Previous Workshop
+              </button>
+              <button type="button" class="next">Next Workshop <img src="images/speakers-slider-right.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
