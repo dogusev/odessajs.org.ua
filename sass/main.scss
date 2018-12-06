@@ -1,4 +1,5 @@
 @import 'fonts';
+@import "mixins";
 
 body {
 	font-family: 'Open sans';
@@ -249,12 +250,28 @@ a {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #e52f3f;
-  color: #fff;
+	background: #c7121f;
+	color: #fff;
+	font-family: 'Gilroy', 'Open Sans' !important;
+	span{
+		font-family: 'Gilroy' !important;
+	}
   &:hover {
     text-decoration: none;
-    background: darken(#e42c40, 5%);
+    background: darken(#c7121f, 5%);
   }
+}
+
+.new_btn{
+	background: url(../images/2019/tickets_bg.png) no-repeat center;
+	background-size: contain;
+	padding: 11px 16px 12px 18px;
+  font-family: Gilroy-Bold;
+  a{
+    @include text-style (#c7121f, 20px, 400, 1.43);
+    font-family: Gilroy-Bold;
+    text-transform: uppercase;
+	}
 }
 
 .btn a {

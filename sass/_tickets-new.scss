@@ -1,0 +1,241 @@
+.tickets_section{
+    background: url(../images/2019/tickets_block_bg.png) repeat-x;
+    margin: 43px 33px 39px 56px;
+    box-sizing: border-box;
+    .container{
+        padding-top: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .text_block{
+            display: flex;
+            width: 100%;
+            max-width: 225px;
+            flex-direction: column;
+            margin-left: 59px;
+            margin-bottom: 65px;
+            .title{
+                @include text-style (#c7121f, 68px, 700, 58.93px);
+                font-family: Gilroy;
+                text-transform: uppercase;
+            }
+            .description{
+                @include text-style (#1f1d1d, 30px, 400, 1.2);
+                font-family: Gilroy;
+                margin-top: 50px;
+                max-width: 180px;
+            }
+        }
+        .tickets_block{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            width: 700px;
+            height: 450px;
+            margin-right: 19px;
+            .ticket{
+                background: url(../images/2019/ticket_texture.png) no-repeat center;
+                position: relative;
+                width: 210px;
+                z-index: 0;
+                height: 432px;
+                &_name{
+                    position: absolute;
+                    top: 40px;
+                    left: 50%;
+                    transform: translateX(-39%);
+                    @include text-style (#1f1d1d, 32px, 700, 1.1);
+                    font-family: Gilroy;
+                    text-transform: uppercase;
+                    width: 100%;
+                    max-width: 156px;
+                    text-align: center;
+                    margin: 0;
+                }
+                &_price{
+                    @include text-style (#1f1d1d, 50px, 700, 55.7px);
+                    font-family: Gilroy-Bold;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 168px;
+                    left: 50%;
+                    transform: translateX(-37%);
+                    width: 100%;
+                    max-width: 136px;
+                    margin: 0;
+                    text-align: center;
+                }
+                &_currency{
+                    @include text-style (#1f1d1d, 19px, 400, 25.52px);
+                    font-family: Gilroy;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 215px;
+                    right: 28px;
+                }
+                &_action{
+                    @include text-style (#c91123, 47px, 400, 1.43);
+                    font-family: Gilroy-Bold;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 45px;
+                    left: 50%;
+                    transform: translateX(-32%);
+                    cursor: pointer;
+                }
+                &_promo{
+                    @include text-style (#c91123, 23px, 700, 22.69px);
+                    font-family: Gilroy;
+                    position: absolute;
+                    top: 240px;
+                    left: 50%;
+                    width: 100%;
+                    max-width: 136px;
+                    transform: translateX(-36%);
+                    text-align: center;
+                }
+            }
+            .red_ticket{
+                background: url(../images/2019/ticket_red.png) no-repeat center;
+                .ticket_name{
+                    color: #FFF;
+                }
+                .ticket_subname{
+                    @include text-style (#FFF, 19px, 500, 1.43);
+                    position: absolute;
+                    top: 70px;
+                    left: 50%;
+                    width: 100%;
+                    max-width: 155px;
+                    transform: translateX(-40%);
+                    text-align: center;
+                }
+                .ticket_price{
+                    color: #FFF;
+                }
+                .ticket_action{
+                    color: #ffb64b;
+                }
+            }
+            .blue_ticket{
+                background: url(../images/2019/ticket_blue.png) no-repeat center;
+                .ticket_name{
+                    @include text-style (#FFF, 28px, 700, 55.7px);
+                    letter-spacing: -0.82px;
+                    font-family: Gilroy;
+                    text-transform: uppercase;
+                    transform: translateX(-42%);
+                }
+                .ticket_desc{
+                    @include text-style (#FFF, 15px, 400, 1.2);
+                    font-family: Roboto;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 101px;
+                    left: 50%;
+                    width: 100%;
+                    max-width: 145px;
+                    transform: translateX(-40%);
+                    text-align: center;
+                }
+                .ticket_action{
+                    color: #ffb64b;
+                }
+            }
+            #ticket_1{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 8;
+                transition: 0.3s all ease-out;
+                &:hover{
+                    z-index: 12;
+                    transform: scale(1.1);
+                }
+            }
+            #ticket_2{
+                position: absolute;
+                bottom: 23px;
+                left: 17%;
+                z-index: 9;
+                transition: 0.3s all ease-out;
+                &:hover{
+                    z-index: 12;
+                    transform: scale(1.1);
+                }
+            }
+            #ticket_3{
+                position: absolute;
+                top: -25px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 10;
+                transition: 0.3s all ease-out;
+                &:hover{
+                    z-index: 12;
+                    transform: translateX(-50%) scale(1.1);
+                }
+            }
+            #ticket_4{
+                position: absolute;
+                bottom: 23px;
+                right: 17%;
+                z-index: 9;
+                transition: 0.3s all ease-out;
+                &:hover{
+                    z-index: 12;
+                    transform: scale(1.1);
+                }
+            }
+            #ticket_5{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: 8;
+                transition: 0.3s all ease-out;
+                &:hover{
+                    z-index: 12;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 968px){
+	.tickets_section{
+		.container{
+			flex-direction: column;
+		}
+	}
+}
+
+@media only screen and (max-width : 768px){
+	.container{
+		box-sizing: border-box;
+		padding: 0 5%;
+	}
+	.tickets_section{
+		margin: 0;
+		.container{
+			.tickets_block{
+				height: inherit;
+				justify-content: center;
+				width: 100%;
+				margin: 0;
+				#ticket_1, #ticket_2, #ticket_3, #ticket_4, #ticket_5{
+					position: static;
+					margin-left: -10px;
+				}
+				#ticket_3{
+					transform: none;
+					&:hover{
+						z-index: 12;
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+	}
+	
+}

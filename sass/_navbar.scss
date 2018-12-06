@@ -15,7 +15,7 @@
       color: darken($primary, .1);
     }
     .header_title {
-      font-family: 'Jura', sans-serif;
+      font-family: 'Gilroy-Bold';
       font-size: 24px;
       margin-left: 20px;
     }
@@ -23,7 +23,7 @@
   .navbar-nav {
     align-items: center;
     justify-content: flex-end;
-    font-family: 'Jura', sans-serif;
+    font-family: Gilroy;
 
     > li.nav-item {
       text-align: center;
@@ -32,7 +32,7 @@
         font-size: 16px;
         //text-transform: uppercase;
         color: $black;
-        font-family: 'Jura', sans-serif;
+        font-family: Gilroy;
         &:hover {
           color: $primary;
         }
@@ -43,20 +43,21 @@
             background-color: transparent;
           }
         }
+      }      
+    }
+    .nav-item-btn {
+      background: url(../images/2019/tickets_bg.png) no-repeat center;
+      @include text-style (#c7121f, 20px, 400, 1.43);
+      background-size: contain;
+      padding: 12px 17px;
+      font-family: Gilroy-Bold;
+      text-transform: uppercase;
+      &:hover{
+        color: white;
       }
-
-      &-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        >.btn {
-          margin: 0 0.8rem;
-
-          @media screen and (max-width: 720px) {
-            margin-top: 15px;
-          }
+        @media screen and (max-width: 720px) {
+          margin-top: 15px;
         }
-      }
     }
   }
   @media (min-width: 992px) {

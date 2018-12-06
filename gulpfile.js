@@ -6,6 +6,16 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var hash_src = require("gulp-hash-src");
 var htmlmin = require('gulp-htmlmin');
+var browserSync = require('browser-sync').create();
+
+
+gulp.task('browser-sync', function() {
+  browserSync.init({
+      server: {
+          baseDir: "./"
+      }
+  });
+});
 
 gulp.task('styles', function() {
   gulp.src('sass/**/*.scss')
@@ -68,5 +78,5 @@ gulp.task('watch', function() {
   gulp.watch(['script.js', 'vendor/**/*.js', 'sass/**/*.scss', 'html/index.html'],['hash']);
 });
 
-gulp.task('default', ['styles', 'script-min', 'hash', 'watch']);
+gulp.task('default', ['styles', 'script-min', 'hash', 'browser-sync','watch']);
 gulp.task('prod', ['styles', 'script-min', 'hash']);

@@ -17,3 +17,24 @@
 	font-weight: 300;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: Gilroy;
+	src: url('../fonts/GilroyLight.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+@font-face {
+	font-family: Gilroy-Bold;
+	src: url('../fonts/GilroyExtraBold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

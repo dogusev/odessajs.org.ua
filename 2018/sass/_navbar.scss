@@ -1,0 +1,99 @@
+// Styling for the navbar
+#mainNav {
+  border-bottom: 1px solid fade-out($gray-900, .9);
+  background-color: $white;
+  @include sans-serif-font;
+  @include transition-all;
+  .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    //text-transform: uppercase;
+    color: $black;
+    @include sans-serif-font;
+    &:focus,
+    &:hover {
+      color: darken($primary, .1);
+    }
+    .header_title {
+      font-family: 'Jura', sans-serif;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+  }
+  .navbar-nav {
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Jura', sans-serif;
+
+    > li.nav-item {
+      text-align: center;
+      > a.nav-link,
+      > a.nav-link:focus {
+        font-size: 16px;
+        //text-transform: uppercase;
+        color: $black;
+        font-family: 'Jura', sans-serif;
+        &:hover {
+          color: $primary;
+        }
+        &.active {
+          color: $primary !important;
+          background-color: transparent;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+
+      &-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >.btn {
+          margin: 0 0.8rem;
+
+          @media screen and (max-width: 720px) {
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      color: fade-out($black, .1);
+      &:focus,
+      &:hover {
+        color: $black;
+      }
+    }
+    .navbar-nav > li.nav-item > a.nav-link {
+      padding: 0.5rem;
+    }
+    .navbar-nav > li.nav-item > a.nav-link,
+    .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: fade-out($black, .1);
+      &:hover {
+        color: $black;
+      }
+    }
+    &.navbar-shrink {
+      border-bottom: 1px solid fade-out($gray-900, .9);
+      background-color: $white;
+      .navbar-brand {
+        color: $primary;
+        &:focus,
+        &:hover {
+          color: darken($primary, .1);
+        }
+      }
+      .navbar-nav > li.nav-item > a.nav-link,
+      .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: $black;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

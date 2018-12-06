@@ -41,7 +41,7 @@ $(document).ready(function() {
   * Bootstrap carousel swipe feature
   * */
 
-  var slidesPerView = $(document).width() < 768 ? 0 : $(document).width() < 1024 ? 1 : 3;
+  var slidesPerView = $(document).width() < 768 ? 0 : $(document).width() < 1024 ? 1 : 1;
 
   $('.program-committee .carousel .carousel-item').each(function(){
     var next = $(this);

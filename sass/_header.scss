@@ -570,3 +570,67 @@ section {
   //  }
   //}
 }
+
+header{
+  background: url(../images/2019/tickets_block_bg.png) repeat-x;
+  margin: 43px 33px 39px 56px;
+  box-sizing: border-box;
+  .container{
+    display: flex;
+    flex-direction: column;
+    .title_block{
+      padding-top: 100px;
+      .title{
+        @include text-style ($primary, 4.2em, 700, 1.43);
+        font-family: Gilroy-Bold;
+      }
+      .title_white{
+        text-transform: uppercase;
+        line-height: 1.1;
+      }
+      .title_orange{
+        max-width: 400px;;
+        @include text-style (#ffb64a, 50px, 700, 1.43);
+        font-family: Gilroy-Bold;
+      }
+      .subtitle{
+        @include text-style (#1f1d1d, 30px, 400, 1.43);
+        font-family: Gilroy;
+      }
+      @media screen and (max-width: 720px) {
+        .title_white{
+          font-size: 3.3em;
+        }
+        .title_orange{
+          font-size: 35px;
+        }
+      }
+    }
+    .btn_container{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      .new_btn{
+        @include text-style (#fff, 20px, 400, 1.43);
+        padding: 12px 17px;
+        font-family: Gilroy-Bold;
+        text-transform: uppercase;
+        background-color: $primary;
+        border: 1px $primary solid;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s all ease-out;
+        min-width: 200px;
+        text-align: center;
+        margin: 0 10px 25px 10px;
+        &:hover{
+          text-decoration: none;
+          background-color: #fff;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
