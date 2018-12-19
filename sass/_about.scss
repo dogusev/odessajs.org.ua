@@ -97,6 +97,9 @@
 
 @media only screen and (max-width : 768px){
 	.about{
+        .bg_2{
+            background: none;
+        }
 		.container{
 			flex-direction: column;
 			align-items: center;

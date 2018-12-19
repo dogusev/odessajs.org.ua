@@ -572,7 +572,8 @@ section {
 }
 
 header{
-  background: url(../images/2019/tickets_block_bg.png) repeat-x;
+  background: url(../images/2019/tickets_block_bg.png);
+  background-size: cover;
   margin: 43px 33px 39px 56px;
   box-sizing: border-box;
   .container{
@@ -603,6 +604,14 @@ header{
         }
         .title_orange{
           font-size: 35px;
+        }
+      }
+      @media screen and (max-width: 440px) {
+        .title_white{
+          font-size: 2.5em;
+        }
+        .title_orange{
+          font-size: 28px;
         }
       }
     }
