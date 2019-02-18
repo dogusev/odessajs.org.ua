@@ -17,6 +17,7 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
+    "natives": "^1.1.6",
     "npm": "^6.0.0"
   },
   "devDependencies": {

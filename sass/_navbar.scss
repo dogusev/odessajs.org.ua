@@ -27,6 +27,27 @@
 
     > li.nav-item {
       text-align: center;
+      >  a.new_btn{
+        display: block;
+        @include text-style (#fff, 20px, 400, 1.43);
+        padding: 5px 12px;
+        font-size: 16px;
+        font-family: Gilroy-Bold;
+        text-transform: uppercase;
+        background-color: $primary;
+        border: 1px $primary solid;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s all ease-out;
+        min-width: 200px;
+        text-align: center;
+        margin: 0 10px;
+        &:hover{
+          text-decoration: none;
+          background-color: #fff;
+          color: $primary;
+        }
+      }
       > a.nav-link,
       > a.nav-link:focus {
         font-size: 16px;
