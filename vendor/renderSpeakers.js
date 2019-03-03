@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     var speakers = [
         {
-            image: "images/reporters/liran-tal.jpeg",
+            image: "images/reporters/liran-tal.png",
             name: "Liran Tal",
             position: "Developer Advocate" ,
             company: "Snyk.io",
@@ -32,7 +32,7 @@ $(document).ready(function(){
         {
             image: "images/reporters/joel-lord.jpg",
             name: "Joel Lord",
-            position: "" ,
+            position: "Developer Evangelist" ,
             company: "Auth0",
             rept: [
                 {
@@ -101,6 +101,26 @@ $(document).ready(function(){
                     link: 'http://eldar.djafarov.com/',
                     fatype: 'link'
                 },
+            ],
+        },
+        {
+            image: "images/reporters/diekussmall.jpg",
+            name: "Diego González-Zúñiga",
+            position: "Senior Developer Advocate" ,
+            company: "Samsung",
+            rept: [
+                {
+                    title: "Immersive Web",
+                    description: "The talk gravitates around the concept of Immersive Technologies, viewing at the possibilities that they bring. It is focused on the intersection with other current Web Technologies and meant to be a source of ideas on how to incorporate WebXR and 3D models in our day to day workflow, in preparation upcoming Virtual and Augmented use cases."
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/diekus',
+                    fatype: 'twitter'
+                }
             ],
         },
     ];

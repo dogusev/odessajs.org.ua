@@ -103,6 +103,52 @@ section.paddings {
 
 }
 
+.fixed-social {
+  padding: 0!important;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  a {
+    display: block;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    text-decoration: none;
+    border: 1px solid #c7121f;
+    text-align: center;
+    margin-right: 10px;
+    transition: all 0.2s linear;
+
+    @media (max-width: 768px) {
+      margin-bottom: 10px;
+    }
+
+    i {
+      font-size: 20px;
+      color: #c7121f;
+      transition: all 0.2s linear;
+    }
+
+    &:hover {
+      background: #c7121f;
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
 
 .btn {}
 
