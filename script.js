@@ -287,7 +287,7 @@ function loadAskQuestionModal($speakerBlock) {
 
 // bondar changes tsarts here
 function initMap() {
-  var center = new google.maps.LatLng(46.457410, 30.749509);
+  var center = new google.maps.LatLng(46.481535, 30.755325);
   var mapOptions = {
     center: center,
     zoom: 14,
@@ -546,7 +546,7 @@ function initMap() {
     //     link: 'javascript: void(0)'
     //   })
     // },
-    {lat: 46.432768, lng: 30.761167,
+    {lat: 46.481535, lng: 30.755325,
       // infoWindow: renderInfoWindowHTML ({
       //   title: 'Intense main program',
       //   content:
