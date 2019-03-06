@@ -495,68 +495,68 @@ function initMap() {
   }
 
   var places = [
-    {
-      lat: 46.481920,
-      lng: 30.747213,
-      infoWindow: renderInfoWindowHTML ({
-        title: 'Full immersion workshops',
-        content:
-        '<ul>' +
-        '<li>july 6</li>' +
-        '<li>Impact Hub</li>' +
-        '</ul>',
-        img: 'images/map_logos/hub.png',
-        link: ''
-      })
-    },
-    {lat: 46.464886, lng: 30.762811,
-      infoWindow: renderInfoWindowHTML ({
-        title: 'Relaxing afterparty',
-        content:
-        '<ul>' +
-        '<li>july 7</li>' +
-        '<li>Otrada beach</li>' +
-        '</ul>',
-        img: 'images/map_logos/beer.png',
-        link: 'javascript: void(0)'
-      })
-    },
-    {lat: 46.454979, lng: 30.768147,
-      infoWindow: renderInfoWindowHTML({
-        title: 'Making new friends. Pre-party',
-        content:
-        '<ul>' +
-        '<li>july 6</li>' +
-        '<li>True Man</li>' +
-        '</ul>',
-        img: 'images/map_logos/trueman.jpg',
-        link: 'https://www.facebook.com/truemanodessa/'
-      })
-    },
-    {lat: 46.454117, lng: 30.766310,
-      infoWindow: renderInfoWindowHTML ({
-        title: 'Seashore bike tour',
-        content:
-        '<ul>' +
-        '<li>july 6</li>' +
-        '<li>Langeron beach</li>' +
-        '<li>Start of the Health track</li>' +
-        '</ul>',
-        img: 'images/map_logos/bike.png',
-        link: 'javascript: void(0)'
-      })
-    },
+    // {
+    //   lat: 46.481920,
+    //   lng: 30.747213,
+    //   infoWindow: renderInfoWindowHTML ({
+    //     title: 'Full immersion workshops',
+    //     content:
+    //     '<ul>' +
+    //     '<li>july 6</li>' +
+    //     '<li>Impact Hub</li>' +
+    //     '</ul>',
+    //     img: 'images/map_logos/hub.png',
+    //     link: ''
+    //   })
+    // },
+    // {lat: 46.464886, lng: 30.762811,
+    //   infoWindow: renderInfoWindowHTML ({
+    //     title: 'Relaxing afterparty',
+    //     content:
+    //     '<ul>' +
+    //     '<li>july 7</li>' +
+    //     '<li>Otrada beach</li>' +
+    //     '</ul>',
+    //     img: 'images/map_logos/beer.png',
+    //     link: 'javascript: void(0)'
+    //   })
+    // },
+    // {lat: 46.454979, lng: 30.768147,
+    //   infoWindow: renderInfoWindowHTML({
+    //     title: 'Making new friends. Pre-party',
+    //     content:
+    //     '<ul>' +
+    //     '<li>july 6</li>' +
+    //     '<li>True Man</li>' +
+    //     '</ul>',
+    //     img: 'images/map_logos/trueman.jpg',
+    //     link: 'https://www.facebook.com/truemanodessa/'
+    //   })
+    // },
+    // {lat: 46.454117, lng: 30.766310,
+    //   infoWindow: renderInfoWindowHTML ({
+    //     title: 'Seashore bike tour',
+    //     content:
+    //     '<ul>' +
+    //     '<li>july 6</li>' +
+    //     '<li>Langeron beach</li>' +
+    //     '<li>Start of the Health track</li>' +
+    //     '</ul>',
+    //     img: 'images/map_logos/bike.png',
+    //     link: 'javascript: void(0)'
+    //   })
+    // },
     {lat: 46.432768, lng: 30.761167,
-      infoWindow: renderInfoWindowHTML ({
-        title: 'Intense main program',
-        content:
-        '<ul>' +
-        '<li>OK-Odessa</li>' +
-        '<li>july 7-8</li>' +
-        '</ul>',
-        img: 'images/map_logos/logo.png',
-        link: 'http://odessajs.org/#schedule'
-      })
+      // infoWindow: renderInfoWindowHTML ({
+      //   title: 'Intense main program',
+      //   content:
+      //   '<ul>' +
+      //   '<li>OK-Odessa</li>' +
+      //   '<li>july 7-8</li>' +
+      //   '</ul>',
+      //   img: 'images/map_logos/logo.png',
+      //   link: 'http://odessajs.org/#schedule'
+      // })
     },
   ];
 
