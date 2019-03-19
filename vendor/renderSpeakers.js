@@ -123,6 +123,37 @@ $(document).ready(function(){
                 }
             ],
         },
+        {
+            image: "images/reporters/alexander-zinchuk.jpg",
+            name: "Alexander Zinchuk",
+            position: "Executive Engineer" ,
+            company: "Anyway Labs",
+            rept: [
+                {
+                    title: "Specification-Driven Development of REST APIs",
+                    description: "A good API specification isn’t just about writing API documentation well. I want to share examples of how one can:<br>" +
+                        "\n" +
+                        "- Make unit tests simpler and more reliable;<br>" +
+                        "- Set up user input preprocessing and validation;<br>" +
+                        "- Automate serialization and ensure response consistency, and evenж<br>" +
+                        "- Enjoy the benefits of static typing;<br>" +
+                        "\n" +
+                        "This approach is a compilation of different discrete ideas, all based on the smart use of an API specification. "
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://github.com/Ajaxy',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://zinchuk.com',
+                    fatype: 'link'
+                }
+            ],
+        },
     ];
 
 
