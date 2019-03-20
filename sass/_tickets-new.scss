@@ -39,6 +39,16 @@
                 width: 210px;
                 z-index: 0;
                 height: 432px;
+                &_subname{
+                    @include text-style (#000, 19px, 500, 1.43);
+                    position: absolute;
+                    top: 110px;
+                    left: 50%;
+                    width: 100%;
+                    max-width: 155px;
+                    transform: translateX(-40%);
+                    text-align: center;
+                }
                 &_name{
                     position: absolute;
                     top: 40px;
@@ -110,6 +120,18 @@
                     transform: translateX(-40%);
                     text-align: center;
                 }
+                .ticket_desc{
+                    @include text-style (#FFF, 34px, 400, 1.2);
+                    font-family: Roboto;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 121px;
+                    left: 50%;
+                    width: 100%;
+                    max-width: 145px;
+                    transform: translateX(-40%);
+                    text-align: center;
+                }
                 .ticket_price{
                     color: #FFF;
                 }
@@ -120,7 +142,7 @@
             .blue_ticket{
                 background: url(../images/2019/ticket_blue.png) no-repeat center;
                 .ticket_name{
-                    @include text-style (#FFF, 28px, 700, 55.7px);
+                    @include text-style (#FFF, 28px, 700, 1.43);
                     letter-spacing: -0.82px;
                     font-family: Gilroy;
                     text-transform: uppercase;
@@ -131,7 +153,7 @@
                     font-family: Roboto;
                     text-transform: uppercase;
                     position: absolute;
-                    top: 101px;
+                    top: 121px;
                     left: 50%;
                     width: 100%;
                     max-width: 145px;
@@ -145,9 +167,10 @@
             #ticket_1{
                 position: absolute;
                 bottom: 0;
-                left: 0;
-                z-index: 8;
+                right: 52%;
+                z-index: 11;
                 transition: 0.3s all ease-out;
+                box-shadow: 30px -15px 30px -20px rgba(0,0,0,0.1);
                 &:hover{
                     z-index: 12;
                     transform: scale(1.1);
@@ -156,9 +179,9 @@
             }
             #ticket_2{
                 position: absolute;
-                bottom: 23px;
-                left: 17%;
-                z-index: 9;
+                bottom: 0px;
+                right: 35%;
+                z-index: 10;
                 transition: 0.3s all ease-out;
                 &:hover{
                     z-index: 12;
@@ -180,7 +203,7 @@
             }
             #ticket_4{
                 position: absolute;
-                bottom: 23px;
+                bottom: 0px;
                 right: 17%;
                 z-index: 9;
                 transition: 0.3s all ease-out;
@@ -192,7 +215,7 @@
             #ticket_5{
                 position: absolute;
                 bottom: 0;
-                right: 0;
+                right: -15px;
                 z-index: 8;
                 transition: 0.3s all ease-out;
                 &:hover{
