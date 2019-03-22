@@ -6,6 +6,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var hash_src = require("gulp-hash-src");
 var htmlmin = require('gulp-htmlmin');
+var gutil = require('gulp-util');
 var browserSync = require('browser-sync').create();
 
 
@@ -48,10 +49,12 @@ gulp.task('script-min', function () {
       'vendor/renderTrainings.js',
       'vendor/renderKeyTopics.js',
       'vendor/renderSchedule.js',
+      'vendor/ticketPopup.js',
       'script.js'
     ])
     .pipe(concat('script.min.js'))
-    .pipe(uglify())
+    .pipe(uglify({ mangle: false }))
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(gulp.dest('./js'));
 });
 

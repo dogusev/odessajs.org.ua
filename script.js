@@ -111,6 +111,10 @@ $(document).ready(function() {
     $( $(e.currentTarget).attr('data-modal-trigger') ).modal('show');
   });
 
+  $('[data-modal-trigger="#ticket-popup"]').click(function(e) {
+    $( $(e.currentTarget).attr('data-modal-trigger') ).modal('show');
+  });
+
 });
 
 function loadAskQuestionModal($speakerBlock) {

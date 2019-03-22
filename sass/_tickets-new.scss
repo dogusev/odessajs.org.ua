@@ -39,6 +39,7 @@
                 width: 210px;
                 z-index: 0;
                 height: 432px;
+                cursor: pointer;
                 &_subname{
                     @include text-style (#000, 19px, 500, 1.43);
                     position: absolute;

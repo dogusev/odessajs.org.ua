@@ -8,12 +8,12 @@
   .modal-dialog {
     .modal-content {
       border-radius: 0;
-      border: 3px solid #e32d42;
-      box-shadow: 20px 40px 0px 1px rgba(227,45,66,1);
+      border: 3px solid $primary;
+      box-shadow: 20px 40px 0px 1px rgba(199, 18, 31, 1);
       overflow: hidden;
 
       @media screen and (max-width: 768px) {
-        border: 2px solid #e32d42;
+        border: 2px solid $primary;
         box-shadow: none;
       }
 
@@ -140,7 +140,7 @@
               &:hover {
 
                 i {
-                  color: #e32d42;
+                  color: $primary;
                 }
               }
             }
@@ -161,7 +161,7 @@
           font-weight: 600;
           margin-bottom: 15px;
           text-transform: uppercase;
-          color: #e32d42;
+          color: $primary;
 
           span {
             text-transform: none;
@@ -245,6 +245,163 @@
   }
 }
 
+.ticket-modal{
+
+  @media screen and (max-width: 767px) {
+    padding-right: 0!important;
+  }
+
+  .modal-dialog {
+    .modal-content {
+      border-radius: 0;
+      border: 3px solid $primary;
+      box-shadow: 20px 40px 0px 1px rgba(199, 18, 31, 1);
+      overflow: hidden;
+
+      @media screen and (max-width: 768px) {
+        border: 2px solid $primary;
+        box-shadow: none;
+      }
+
+
+      .modal-header {
+        padding: 30px 50px;
+        @include justify-content(flex-start);
+        @include align-items(stretch);
+        position: relative;
+        border: none;
+
+        @media (min-width: 300px) and (max-width: 551px) {
+          @include flex-wrap(wrap);
+          justify-content: center;
+        }
+
+        
+
+        
+        .info-wrapper {
+          margin-left: 20px;
+          @include flexbox;
+          @include flex-direction(column);
+          @include justify-content(space-between);
+
+          @media (min-width: 300px) and (max-width: 551px) {
+            margin: 0;
+          }
+
+          
+
+          
+        }
+
+        @media screen and (max-width: 768px) {
+
+        }
+      }
+
+      .modal-body {
+        padding: 30px 50px;
+        border: none;
+
+        &__title {
+          font-family: 'Jura', sans-serif;
+          font-weight: 600;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+          color: $primary;
+
+          span {
+            text-transform: none;
+          }
+        }
+
+        &__text,
+        &__text p {
+          font-family: 'Roboto', sans-serif;
+          margin-bottom: 25px;
+        }
+
+        .modal-body__options{
+          
+          .option{
+            display: flex;
+            border-bottom: #8d8d8d 1px solid;
+            padding: 10px 0;
+            @include align-items(center);
+            &__main{
+              margin: 0;
+              padding-right: 5px;
+            }
+            &__additional{
+              margin: 0;
+              color: $primary;
+            }
+          }
+        }
+
+        .price-block{
+          display: flex;
+          justify-content: center;
+
+          .ticket__price{
+            font-family: Gilroy-Bold;
+            font-size: 50px;
+            color: $primary;
+          }
+          .ticket__currency{
+            font-family: Gilroy;
+            font-size: 19px;
+            color: $primary;
+          }
+        }
+
+
+
+        @media screen and (max-width: 768px) {
+          &__title {
+            font-size: 1.3rem;
+          }
+
+          &__text,
+          &__text p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .modal-footer {
+        border: none;
+        @include flexbox;
+        @include justify-content(center);
+        @include align-items(center);
+
+      }
+
+      @media screen and (max-width: 767px) {
+        .modal-header{
+          padding: 50px 10px 10px;
+        }
+        .modal-body,
+        .modal-footer {
+          padding: 30px 10px;
+        }
+
+      }
+    }
+  }
+}
+
+#ask-form {
+  @media screen and (max-width: 720px){
+    .form-group {
+      display: block;
+    }
+  }
+}
+
+
+
+
 .modal-dialog {
 
   @media (min-width: 768px) and (max-width: 991px) {
@@ -291,4 +448,9 @@
   @media (min-width: 300px) and (max-width: 551px) {
     margin: -27px -21px -15px auto!important;
   }
+}
+
+
+.ticket-popup{
+
 }
