@@ -229,6 +229,25 @@ $(document).ready(function(){
                 },
             ],
         },
+        {
+            image: "images/reporters/maurizio-mangione.jpg",
+            name: "Maurizio Mangione",
+            position: "Developer Advocate" ,
+            company: "DAZN",
+            country: "The Netherlads" ,
+            city: "Amsterdam",
+            rept: [
+                {
+                    title: "Progressive Web Apps",
+                    description: "Get the best out of your Progressive Web App with Workbox JS. Workbox is a modular library made by Google that makes Progressive Web Apps development easier. During this talk, you will learn how to build PWA following the best practices and how to handle multiple caches with a few lines of code."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+            ],
+        },
     ];
 
 
