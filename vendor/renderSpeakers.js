@@ -248,6 +248,41 @@ $(document).ready(function(){
             socials: [
             ],
         },
+        {
+            image: "images/reporters/lev-vidrak.png",
+            name: "Lev Vidrak",
+            position: "Leading the Guild-Masters Team" ,
+            company: "Wix",
+            country: "Israel" ,
+            city: "Tel-Aviv",
+            rept: [
+                {
+                    title: "Introduction to React Native",
+                    description: "React Native is Facebooks’s cross-platform framework, allowing developers to compose apps using JavaScript in a declarative way.<br></br>"+
+
+                    "At Wix.com we are building our mobile app with React Native from the first commit almost three years ago. Scaling a production-grade application, brought us to understand the real cost-benefit of React Native.<br></br>"+
+                    
+                    "In this talk, we'll start by reviewing React Native's main concepts and understand it's architecture. Continue by covering its great benefits, the challenges we overcome, and those we are still facing."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/LevVidrak',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/buttershub',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/levvidrak',
+                    fatype: 'linkedin'
+                },
+            ],
+        },
     ];
 
 
