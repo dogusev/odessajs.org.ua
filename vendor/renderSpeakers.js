@@ -283,6 +283,43 @@ $(document).ready(function(){
                 },
             ],
         },
+        {
+            image: "images/reporters/christian-gill.jpeg",
+            name: "Christian Gill",
+            position: "Senior Software Engineer, Team Lead" ,
+            company: "HousingAnywhere",
+            country: "Netherlands" ,
+            city: "Rotterdam",
+            rept: [
+                {
+                    title: "Functional programming for the people",
+                    description: "There is a lot of mystery around functional programming. Even though libraries like React and Redux brought some of its concepts to JavaScript developers, there is still a lot more to be discovered and many benefits that we can gain from it.<br></br>" +
+
+                    "We'll go through some of the principles and fundamentals of functional programing and how we can leverage them to write composable and declarative JavaScript code."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/gillchristian',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/gillchristian',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/gillchristian/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://dev.to/gillchristian',
+                    fatype: 'link'
+                },
+            ],
+        },
     ];
 
 
