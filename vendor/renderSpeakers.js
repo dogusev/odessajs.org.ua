@@ -195,7 +195,14 @@ $(document).ready(function(){
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
-                
+                {
+                    link: 'https://twitter.com/koorchik',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/koorchik',
+                    fatype: 'github'
+                }
             ],
         },
         {
@@ -246,6 +253,22 @@ $(document).ready(function(){
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
+                {
+                    link: 'https://twitter.com/granze',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/granze',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/granze/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://medium.com/@granze',
+                    fatype: 'medium'
+                },
             ],
         },
         {
