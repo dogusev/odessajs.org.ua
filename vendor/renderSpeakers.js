@@ -6,6 +6,8 @@ $(document).ready(function(){
             name: "Liran Tal",
             position: "Developer Advocate" ,
             company: "Snyk.io",
+            country: "Israel" ,
+            city: "Tel Aviv",
             rept: [
                 {
                     title: "StrangerDanger: Finding Security Vulnerabilities Before They Find You!",
@@ -30,14 +32,28 @@ $(document).ready(function(){
             ],
         },
         {
-            image: "images/reporters/joel-lord.jpg",
+            image: "images/reporters/joel-lord.jpeg",
             name: "Joel Lord",
-            position: "Developer Evangelist" ,
+            position: "Technical Evangelist" ,
             company: "Auth0",
+            country: "Canada" ,
+            city: "Toronto",
             rept: [
                 {
                     title: " I Don't Care About Security (And Neither Should You)",
-                    description: ""
+                    description: "In this talk, the attendees will learn about OAuth, JWTs and OpenID Connect.  By understanding how to use those flows, it will help developers make application more secure and save significant development time.  By using simple examples, the speaker tries to make this talk both informative and entertaining. <br>" + 
+                    " - OAuth<br>" +
+                    " - What is OAuth<br>" +
+                    " - The access code grant<br>" +
+                    " - The implicit grant<br>" +
+                    " - JWTs<br>" +
+                    " - What is a token<br>" +
+                    " - Anatomy of a JWT<br>" +
+                    " - What is a refresh token<br>" +
+                    " - Simple OAuth server code samples and demo<br>" +
+                    " - Open ID Connect<br>" +
+                    " - General flow<br>" +
+                    " - OIDC demo<br>"
                 }
             ],
             aboutSpeaker: '',
@@ -62,6 +78,8 @@ $(document).ready(function(){
             name: "Simona Cotin",
             position: "Senior Cloud Developer Advocate" ,
             company: "Microsoft",
+            country: "UK" ,
+            city: "London",
             rept: [
                 {
                     title: "Build Scalable APIs using GraphQL and Serverless",
@@ -84,6 +102,8 @@ $(document).ready(function(){
             name: "Eldar Dzhafarov",
             position: "CTO" ,
             company: "Cross Platform Solutions GmbH",
+            country: "Germany" ,
+            city: "Berlin",
             rept: [
                 {
                     title: "The Code",
@@ -108,6 +128,8 @@ $(document).ready(function(){
             name: "Diego González-Zúñiga",
             position: "Senior Developer Advocate" ,
             company: "Samsung",
+            country: "UK" ,
+            city: "London",
             rept: [
                 {
                     title: "Immersive Web",
@@ -128,6 +150,8 @@ $(document).ready(function(){
             name: "Alexander Zinchuk",
             position: "Executive Engineer" ,
             company: "Anyway Labs",
+            country: "Spain" ,
+            city: "Malaga",
             rept: [
                 {
                     title: "Specification-Driven Development of REST APIs",
@@ -154,6 +178,148 @@ $(document).ready(function(){
                 }
             ],
         },
+        {
+            image: "images/reporters/viktor-turskyi.jpg",
+            name: "Viktor Turskyi",
+            position: "CEO and Solution architect" ,
+            company: "WebbyLab",
+            country: "Ukraine" ,
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "6 ways to hack your JavaScript application",
+                    description: "This will be 6 live hacking demos. We will not do theory, but will see in practice how small and not always obvious errors lead to significant vulnerabilities in your JavaScript application."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                
+            ],
+        },
+        {
+            image: "images/reporters/farzad-zadeh.jfif",
+            name: "Farzad Yousef Zadeh",
+            position: "Senior Software Engineer" ,
+            company: "Futurice",
+            country: "Finland" ,
+            city: "Helsinki",
+            rept: [
+                {
+                    title: "Developing UIs without a UIs",
+                    description: "Often when we need to develop a user interface (client application in any platform), we're dependent on designs and often we find ourselves modeling our applications based on these designs. But in reality, we might not need any design to develop user interfaces. In this talk, I'll show how using statecharts and headless components can solve the modeling and logic sharing problems."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/farzad_yz',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/farskid',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://farzadyz.com',
+                    fatype: 'instagram'
+                },
+            ],
+        },
+        {
+            image: "images/reporters/maurizio-mangione.jpg",
+            name: "Maurizio Mangione",
+            position: "Developer Advocate" ,
+            company: "DAZN",
+            country: "The Netherlads" ,
+            city: "Amsterdam",
+            rept: [
+                {
+                    title: "Progressive Web Apps",
+                    description: "Get the best out of your Progressive Web App with Workbox JS. Workbox is a modular library made by Google that makes Progressive Web Apps development easier. During this talk, you will learn how to build PWA following the best practices and how to handle multiple caches with a few lines of code."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+            ],
+        },
+        {
+            image: "images/reporters/lev-vidrak.png",
+            name: "Lev Vidrak",
+            position: "Leading the Guild-Masters Team" ,
+            company: "Wix",
+            country: "Israel" ,
+            city: "Tel-Aviv",
+            rept: [
+                {
+                    title: "Introduction to React Native",
+                    description: "React Native is Facebooks’s cross-platform framework, allowing developers to compose apps using JavaScript in a declarative way.<br></br>"+
+
+                    "At Wix.com we are building our mobile app with React Native from the first commit almost three years ago. Scaling a production-grade application, brought us to understand the real cost-benefit of React Native.<br></br>"+
+                    
+                    "In this talk, we'll start by reviewing React Native's main concepts and understand it's architecture. Continue by covering its great benefits, the challenges we overcome, and those we are still facing."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/LevVidrak',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/buttershub',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/levvidrak',
+                    fatype: 'linkedin'
+                },
+            ],
+        },
+        {
+            image: "images/reporters/christian-gill.jpeg",
+            name: "Christian Gill",
+            position: "Senior Software Engineer, Team Lead" ,
+            company: "HousingAnywhere",
+            country: "Netherlands" ,
+            city: "Rotterdam",
+            rept: [
+                {
+                    title: "Functional programming for the people",
+                    description: "There is a lot of mystery around functional programming. Even though libraries like React and Redux brought some of its concepts to JavaScript developers, there is still a lot more to be discovered and many benefits that we can gain from it.<br></br>" +
+
+                    "We'll go through some of the principles and fundamentals of functional programing and how we can leverage them to write composable and declarative JavaScript code."
+                        
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/gillchristian',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/gillchristian',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/gillchristian/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://dev.to/gillchristian',
+                    fatype: 'link'
+                },
+            ],
+        },
     ];
 
 
@@ -171,6 +337,8 @@ $(document).ready(function(){
         "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>"+
         "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
         "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>"+
+        "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country} ,</span>"+
+        "<span class='speakers-slider__info-city' '>${city}</span></p>"+
         "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>"+
         "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> <div class='speakers-slide__files'>{{html filesRendered}}</div></div> </div> </div></div>";
     $.template( "speakerTemplate", speakerItem );
@@ -233,6 +401,8 @@ $(document).ready(function(){
             $modalNameElement = $modalBody.find('.speaker__name'),
             $modalSpeakerPosition = $modalBody.find('.speaker__position'),
             $modalSpeakerCompany = $modalBody.find('.speaker__company'),
+            $modalSpeakerCountry = $modalBody.find('.speaker__country'),
+            $modalSpeakerCity = $modalBody.find('.speaker__city'),
             $modalSpeakerLinks = $modalBody.find('.speaker__link-list'),
             $modalreportsContainer = $modalBody.find('.modal-body__reports'),
             $modalSpeakerAboutText = $modalBody.find('.speaker-text').toggle(false);
@@ -269,6 +439,8 @@ $(document).ready(function(){
                 speakerName = speakerData.name,
                 speakerPosition = speakerData.position,
                 speakerCompany = speakerData.company,
+                speakerCountry = speakerData.country,
+                speakerCity = speakerData.city,
                 reports = speakerData.rept,
                 reportsContent = '',
                 speakerAboutText = speakerData.aboutSpeaker;
@@ -281,6 +453,8 @@ $(document).ready(function(){
             speakerName && $modalNameElement.text(speakerName);
             speakerPosition && $modalSpeakerPosition.text(speakerPosition);
             speakerCompany && $modalSpeakerCompany.text(speakerCompany);
+            speakerCountry && $modalSpeakerCountry.text(speakerCountry);
+            speakerCity && $modalSpeakerCity.text(speakerCity);
 
             reportsContent && $modalreportsContainer.html(reportsContent);
 

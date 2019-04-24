@@ -152,6 +152,26 @@ section.paddings {
 
 .btn {}
 
+.new_btn{
+  @include text-style (#fff, 20px, 400, 1.43);
+  padding: 12px 17px;
+  font-family: Gilroy-Bold;
+  text-transform: uppercase;
+  background-color: $primary;
+  border: 1px $primary solid;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s all ease-out;
+  min-width: 200px;
+  text-align: center;
+  margin: 0 10px 25px 10px;
+  &:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: $primary;
+  }
+}
+
 .img-responsive {
   width: 100%;
   height: auto;

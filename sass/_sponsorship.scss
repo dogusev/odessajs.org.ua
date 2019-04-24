@@ -7,8 +7,9 @@ section#preParty {
   background-repeat: no-repeat;*/
   .main_title {
     font-family: 'Jura', sans-serif;
-    font-size: 32px;
+    font-size: 45px;
     color: $primary;
+    font-weight: 600;
   }
   .main_subtitle {
     font-family: 'Roboto', sans-serif;
@@ -137,3 +138,9 @@ section#diversity {
     font-size: 18px;
   }
 }
+section#sponsorship{
+  .main_title {
+    margin-top: 30px;
+  }
+}
+
