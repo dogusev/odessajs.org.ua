@@ -160,8 +160,6 @@
 <!-- Main Info SLider  -->
 
 
-
-
 <section class="about" id='about'>
     <div class="bg"></div>
     <div class="bg_2"></div>
@@ -223,79 +221,82 @@
 <section class="tickets_section">
 
     <div class="ticket-modal modal fade" id="ticket-modal">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h2 class="modal-body__title">Default Ticket name</h2>
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-body__title">Default Ticket name</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="price-block">
+                        <div class="ticket__price"></div>
+                        <div class="ticket__currency"></div>
                     </div>
-                    <div class="modal-body">
-                            <div class="price-block">
-                                    <div class="ticket__price"></div>
-                                    <div class="ticket__currency"></div>
-                            </div>
-                            
-                            
-                            
-                        <!-- About report -->
-                        <div class="modal-body__reports">
-                            
-                            <div class="modal-body__text">
-                                    <div class="modal-body__options"></div>
-                            </div>
-                        </div>
-                        <!-- About report -->
 
+
+                    <!-- About report -->
+                    <div class="modal-body__reports">
+
+                        <div class="modal-body__text">
+                            <div class="modal-body__options"></div>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                            <a href="" class="ticket__action new_btn"></a>
-                    </div>
+                    <!-- About report -->
+
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="ticket__action new_btn"></a>
                 </div>
             </div>
         </div>
+    </div>
 
-<div class="container">
-    <div class="text_block">
-        <p class="title mb-5">3 DAYS</p>
-        <p class="description">Conference On in-dept JavaScript Technologies</p>
+    <div class="container">
+        <div class="text_block">
+            <p class="title mb-5">3 DAYS</p>
+            <p class="description">Conference On in-dept JavaScript Technologies</p>
+        </div>
+        <div class="tickets_block">
+            <div class="ticket" id="ticket_1" data-modal-trigger="#ticket-modal" data-item-index='0'>
+                <h6 class="ticket_name">Regular Ticket</h6>
+                <p class="ticket_subname">(Price is valid until April 30)</p>
+                <p class="ticket_price">3200</p>
+                <p class="ticket_currency">UAH</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+            <div class="ticket" id="ticket_2" data-target="#ticket-modal" data-modal-trigger="#ticket-modal"
+                 data-item-index='1'>
+                <h6 class="ticket_name">Student Ticket</h6>
+                <p class="ticket_subname">(Full Conference ticket)</p>
+                <p class="ticket_price">2000</p>
+                <p class="ticket_currency">UAH</p>
+                <p class="ticket_promo">Ask for promo code</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+            <!--<div class="ticket" id="ticket_3">
+                <h6 class="ticket_name">Full Pass</h6>
+                <p class="ticket_price">4000</p>
+                <p class="ticket_currency">UAH</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>-->
+            <div class="ticket red_ticket" id="ticket_4" data-modal-trigger="#ticket-modal" data-target="#ticket-modal"
+                 data-item-index='2'>
+                <h6 class="ticket_name">DIVERSITY</h6>
+                <p class="ticket_subname">SCHOLARSHIPS</p>
+                <p class="ticket_desc">Apply for a ticket</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9VNO-Cpoa7t1lS68ih8FRM2tsmHZMAEPWj_PJlbBWsA2DTA/viewform"
+                   class="ticket_action">GET</a>
+            </div>
+            <div class="ticket blue_ticket" id="ticket_5" data-modal-trigger="#ticket-modal" data-target="#ticket-modal"
+                 data-item-index='3'>
+                <h6 class="ticket_name">WORKSHOPS TICKET</h6>
+                <p class="ticket_desc">Tickets for workshops are sold separately from conference tickets</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+        </div>
     </div>
-    <div class="tickets_block">
-        <div class="ticket" id="ticket_1" data-modal-trigger="#ticket-modal" data-item-index='0'>
-            <h6 class="ticket_name">Regular Ticket</h6>
-            <p class="ticket_subname">(Price is valid until April 30)</p>
-            <p class="ticket_price">3200</p>
-            <p class="ticket_currency">UAH</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-        <div class="ticket" id="ticket_2"  data-target="#ticket-modal" data-modal-trigger="#ticket-modal" data-item-index='1'>
-            <h6 class="ticket_name">Student Ticket</h6>
-            <p class="ticket_subname">(Full Conference ticket)</p>
-            <p class="ticket_price">2000</p>
-            <p class="ticket_currency">UAH</p>
-            <p class="ticket_promo">Ask for promo code</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-        <!--<div class="ticket" id="ticket_3">
-            <h6 class="ticket_name">Full Pass</h6>
-            <p class="ticket_price">4000</p>
-            <p class="ticket_currency">UAH</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>-->
-        <div class="ticket red_ticket" id="ticket_4" data-modal-trigger="#ticket-modal" data-target="#ticket-modal" data-item-index='2'>
-            <h6 class="ticket_name">DIVERSITY</h6>
-            <p class="ticket_subname">SCHOLARSHIPS</p>
-            <p class="ticket_desc">Apply for a ticket</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9VNO-Cpoa7t1lS68ih8FRM2tsmHZMAEPWj_PJlbBWsA2DTA/viewform" class="ticket_action">GET</a>
-        </div>
-        <div class="ticket blue_ticket" id="ticket_5" data-modal-trigger="#ticket-modal" data-target="#ticket-modal" data-item-index='3'>
-            <h6 class="ticket_name">WORKSHOPS TICKET</h6>
-            <p class="ticket_desc">Tickets for workshops are sold separately from conference tickets</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-    </div>
-</div>
 </section>
 
 <!--<section id="share" class="share">-->
@@ -523,7 +524,7 @@
                 <h2 class="text-uppercase main_title text-center">
                     <strong>SPONSORS</strong>
                 </h2>
-               <!-- <hr>-->
+                <!-- <hr>-->
             </div>
 
             <div class="col-lg-10 mx-auto animated fadeInLeft">
@@ -626,27 +627,38 @@
                             <div class="row">
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://netpeaksoftware.com/ru/" target="_blank">
-                                        <img data-src="images/partners/netpeak.svg" alt="netpeak" class="img-responsive">
+                                        <img data-src="images/partners/netpeak.svg" alt="netpeak"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://syndicode.com/" target="_blank">
-                                        <img data-src="images/partners/syndicode.png" alt="syndicode" class="img-responsive">
+                                        <img data-src="images/partners/syndicode.png" alt="syndicode"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://frontconf.com/" target="_blank">
-                                        <img data-src="images/partners/frontconf_black.png" alt="frontconf" class="img-responsive">
+                                        <img data-src="images/partners/frontconf_black.png" alt="frontconf"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="http://kharkivcss.org//" target="_blank">
-                                        <img data-src="images/partners/kharkivcss.svg" alt="kharkivcss" class="img-responsive">
+                                        <img data-src="images/partners/kharkivcss.svg" alt="kharkivcss"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://light-it.net/" target="_blank">
-                                        <img data-src="images/partners/light-it.jpg" alt="light-it" class="img-responsive">
+                                        <img data-src="images/partners/light-it.jpg" alt="light-it"
+                                             class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 text-center thank-box mx-auto">
+                                    <a class="w-100" href="https://light-it.net/" target="_blank">
+                                        <img data-src="images/partners/digest.png" alt="Digest Pro"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                             </div>
@@ -684,7 +696,7 @@
                     more”)</a>, the park of Shevchenko"
                 </div>
                 <div class=" h4 text-faded mb-3  text-center">
-                    Use promo code “OdessaJS” to reserve a room in the hotel with a discount 
+                    Use promo code “OdessaJS” to reserve a room in the hotel with a discount
                 </div>
                 <div class=" h4 text-faded mb-3  text-center">
                     booking@blacksea-hotels.com
@@ -728,6 +740,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+
                     <div class="carousel-item active">
                         <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
                             <div class="img-wrapper w-100">
