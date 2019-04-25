@@ -219,7 +219,7 @@ section.program-committee {
       }
     }
   }
-  @media (min-width: 767px) {
+  @media (max-width: 767px) {
     .carousel-control-prev, .carousel-control-next{
       display: none;
     }
