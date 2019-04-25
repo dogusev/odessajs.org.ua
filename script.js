@@ -41,21 +41,21 @@ $(document).ready(function() {
   * Bootstrap carousel swipe feature
   * */
 
-  var slidesPerView = $(document).width() < 768 ? 0 : $(document).width() < 1024 ? 1 : 1;
-
-  $('.program-committee .carousel .carousel-item').each(function(){
-    var next = $(this);
-
-
-    for (var i=0;i<slidesPerView;i++) {
-      next=next.next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-
-      next.children(':first-child').clone().appendTo($(this));
-    }
-  });
+  // var slidesPerView = $(document).width() < 768 ? 0 : $(document).width() < 1024 ? 1 : 1;
+  //
+  // $('.program-committee .carousel .carousel-item').each(function(){
+  //   var next = $(this);
+  //
+  //
+  //   for (var i=0;i<slidesPerView;i++) {
+  //     next=next.next();
+  //     if (!next.length) {
+  //       next = $(this).siblings(':first');
+  //     }
+  //
+  //     next.children(':first-child').clone().appendTo($(this));
+  //   }
+  // });
 
     $('#speakers-carousel').carousel({
         interval: 0
