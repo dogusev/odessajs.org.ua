@@ -61,6 +61,8 @@ $(document).ready(function() {
         interval: 0
     });
 
+    
+
     $('.speakers .carousel .carousel-item').each(function(){
       var slidesPerView =$(document).width() < 1024 ? 0 : 1;
 
@@ -73,6 +75,8 @@ $(document).ready(function() {
         next.children(':first-child').clone().appendTo($(this));
       }
     });
+
+    
 
 
   $('.reports__list-item-theme').click(function () {

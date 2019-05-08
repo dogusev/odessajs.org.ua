@@ -1,4 +1,4 @@
-console.log("hello it's me");
+
 
 $(document).ready(function(){
 
@@ -7,7 +7,7 @@ $(document).ready(function(){
     var tickets = [
         {
             title: "Regular ticket",
-            price: "3200",
+            price: "3500",
             currency: "uah" ,
             action: "buy ticket",
             options: [

@@ -16,6 +16,7 @@ gulp.task('browser-sync', function() {
           baseDir: "./"
       }
   });
+  browserSync.watch(`**/*.*`).on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -43,6 +44,7 @@ gulp.task('script-min', function () {
       'vendor/firebase/firebase.js',
       'vendor/jqcloud/jqcloud-1.0.4.min.js',
       'vendor/beefup/beefup.min.js',
+      'vendor/slick/slick.min.js',
 
       //scripts
       'vendor/renderSpeakers.js',
@@ -50,6 +52,7 @@ gulp.task('script-min', function () {
       'vendor/renderKeyTopics.js',
       'vendor/renderSchedule.js',
       'vendor/ticketPopup.js',
+      'vendor/infoSlider.js',
       'script.js'
     ])
     .pipe(concat('script.min.js'))
