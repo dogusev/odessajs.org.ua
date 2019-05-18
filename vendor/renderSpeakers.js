@@ -1,12 +1,12 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     var speakers = [
         {
             image: "images/reporters/liran-tal.png",
             name: "Liran Tal",
-            position: "Developer Advocate" ,
+            position: "Developer Advocate",
             company: "Snyk.io",
-            country: "Israel" ,
+            country: "Israel",
             city: "Tel Aviv",
             rept: [
                 {
@@ -34,26 +34,26 @@ $(document).ready(function(){
         {
             image: "images/reporters/joel-lord.jpeg",
             name: "Joel Lord",
-            position: "Technical Evangelist" ,
+            position: "Technical Evangelist",
             company: "Auth0",
-            country: "Canada" ,
+            country: "Canada",
             city: "Toronto",
             rept: [
                 {
                     title: " I Don't Care About Security (And Neither Should You)",
-                    description: "In this talk, the attendees will learn about OAuth, JWTs and OpenID Connect.  By understanding how to use those flows, it will help developers make application more secure and save significant development time.  By using simple examples, the speaker tries to make this talk both informative and entertaining. <br>" + 
-                    " - OAuth<br>" +
-                    " - What is OAuth<br>" +
-                    " - The access code grant<br>" +
-                    " - The implicit grant<br>" +
-                    " - JWTs<br>" +
-                    " - What is a token<br>" +
-                    " - Anatomy of a JWT<br>" +
-                    " - What is a refresh token<br>" +
-                    " - Simple OAuth server code samples and demo<br>" +
-                    " - Open ID Connect<br>" +
-                    " - General flow<br>" +
-                    " - OIDC demo<br>"
+                    description: "In this talk, the attendees will learn about OAuth, JWTs and OpenID Connect.  By understanding how to use those flows, it will help developers make application more secure and save significant development time.  By using simple examples, the speaker tries to make this talk both informative and entertaining. <br>" +
+                        " - OAuth<br>" +
+                        " - What is OAuth<br>" +
+                        " - The access code grant<br>" +
+                        " - The implicit grant<br>" +
+                        " - JWTs<br>" +
+                        " - What is a token<br>" +
+                        " - Anatomy of a JWT<br>" +
+                        " - What is a refresh token<br>" +
+                        " - Simple OAuth server code samples and demo<br>" +
+                        " - Open ID Connect<br>" +
+                        " - General flow<br>" +
+                        " - OIDC demo<br>"
                 }
             ],
             aboutSpeaker: '',
@@ -76,9 +76,9 @@ $(document).ready(function(){
         {
             image: "images/reporters/simona-cotin.png",
             name: "Simona Cotin",
-            position: "Senior Cloud Developer Advocate" ,
+            position: "Senior Cloud Developer Advocate",
             company: "Microsoft",
-            country: "UK" ,
+            country: "UK",
             city: "London",
             rept: [
                 {
@@ -100,9 +100,9 @@ $(document).ready(function(){
         {
             image: "images/reporters/eldar-dzhafarov.jpg",
             name: "Eldar Dzhafarov",
-            position: "CTO" ,
+            position: "CTO",
             company: "Cross Platform Solutions GmbH",
-            country: "Germany" ,
+            country: "Germany",
             city: "Berlin",
             rept: [
                 {
@@ -126,9 +126,9 @@ $(document).ready(function(){
         {
             image: "images/reporters/diekussmall.jpg",
             name: "Diego González-Zúñiga",
-            position: "Senior Developer Advocate" ,
+            position: "Senior Developer Advocate",
             company: "Samsung",
-            country: "UK" ,
+            country: "UK",
             city: "London",
             rept: [
                 {
@@ -145,12 +145,44 @@ $(document).ready(function(){
                 }
             ],
         },
+
+        {
+            image: "images/reporters/irina-ziakhor.jpeg",
+            name: "Irina Ziakhor",
+            position: "Functional Lead & Front End Engineer",
+            company: "Very Good Security",
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "Product Engineering mindset: are you ready for the product revolution?",
+                    description: 'Inspirational speech about product engineering mindset. Rapidly developing world challenges us every day. Are you ready for changes? I would like to share my own (and company) experience, best practices and why it’s important for engineers be proactive and solve problems, not only write code. Why that’s a key skill to work and grow in the best product companies and build new innovative products. Grow product community in Ukraine. Make a connection between product you build, code and your customers.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/IrinaZiakhor',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://medium.com/@irinaziakhor',
+                    fatype: 'medium'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/irinaziakhor/detail/contact-info/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
         {
             image: "images/reporters/alexander-zinchuk.jpg",
             name: "Alexander Zinchuk",
-            position: "Executive Engineer" ,
+            position: "Executive Engineer",
             company: "Anyway Labs",
-            country: "Spain" ,
+            country: "Spain",
             city: "Malaga",
             rept: [
                 {
@@ -181,15 +213,15 @@ $(document).ready(function(){
         {
             image: "images/reporters/viktor-turskyi.jpg",
             name: "Viktor Turskyi",
-            position: "CEO and Solution architect" ,
+            position: "CEO and Solution architect",
             company: "WebbyLab",
-            country: "Ukraine" ,
+            country: "Ukraine",
             city: "Kyiv",
             rept: [
                 {
                     title: "6 ways to hack your JavaScript application",
                     description: "This will be 6 live hacking demos. We will not do theory, but will see in practice how small and not always obvious errors lead to significant vulnerabilities in your JavaScript application."
-                        
+
                 }
             ],
             aboutSpeaker: '',
@@ -205,18 +237,56 @@ $(document).ready(function(){
                 }
             ],
         },
+
+        {
+            image: "images/reporters/christina-landvytovych.jpg",
+            name: "Khrystyna Landvytovych",
+            position: "",
+            company: "CroftyLand",
+            country: "Ukraine",
+            city: "-",
+            rept: [
+                {
+                    title: "Animation in the Air",
+                    description: 'If we hear about animation in webDev our first thought that it done by CSS. But I\'m sorry, you know, but that\'s not exactly true. It can be also created by JS!' +
+                        'From the very beginning, you can pick up everything and speak the same language as everyone else.' +
+
+                        'I will show you how to create modern and attractive animations(using GreenSock) that will look SUPER!' +
+
+                        'Your customers will be impressed.Or your employer.But you too will impress yourself.This ensures that you get the level of ""skill"" that you are looking for.You can improve your skills, follow the latest trends and find out what is in trend.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/croftyland',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/Croftyland',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/christina-landvytovych-a86243132/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+
         {
             image: "images/reporters/farzad-zadeh.jfif",
             name: "Farzad Yousef Zadeh",
-            position: "Senior Software Engineer" ,
+            position: "Senior Software Engineer",
             company: "Futurice",
-            country: "Finland" ,
+            country: "Finland",
             city: "Helsinki",
             rept: [
                 {
                     title: "Developing UIs without a UIs",
                     description: "Often when we need to develop a user interface (client application in any platform), we're dependent on designs and often we find ourselves modeling our applications based on these designs. But in reality, we might not need any design to develop user interfaces. In this talk, I'll show how using statecharts and headless components can solve the modeling and logic sharing problems."
-                        
+
                 }
             ],
             aboutSpeaker: '',
@@ -239,15 +309,15 @@ $(document).ready(function(){
         {
             image: "images/reporters/maurizio-mangione.jpg",
             name: "Maurizio Mangione",
-            position: "Developer Advocate" ,
+            position: "Developer Advocate",
             company: "DAZN",
-            country: "The Netherlads" ,
+            country: "The Netherlads",
             city: "Amsterdam",
             rept: [
                 {
                     title: "Progressive Web Apps",
                     description: "Get the best out of your Progressive Web App with Workbox JS. Workbox is a modular library made by Google that makes Progressive Web Apps development easier. During this talk, you will learn how to build PWA following the best practices and how to handle multiple caches with a few lines of code."
-                        
+
                 }
             ],
             aboutSpeaker: '',
@@ -271,22 +341,55 @@ $(document).ready(function(){
                 },
             ],
         },
+
+        {
+            image: "images/reporters/jamie_maria.jpeg",
+            name: "Jamie Maria Schouren",
+            position: "Co-founder",
+            company: "Deity BV",
+            country: "The Netherlands",
+            city: "Eindhoven",
+            rept: [
+                {
+                    title: "The search for App-iness : Progressive Web Apps",
+                    description: 'The search for App-iness : Progressive Web Apps Progressive Web Apps combine the best of the web and the best of apps.They load quickly, even on flaky networks, have an icon on the home screen, can re- engage with users by sending push notifications, and load as top- level, full screen experiences.In this talk Jamie Maria Schouren explains the what, why, and how of Progressive Web Apps, her own quest in search for "app-iness" and with code examples and real life use cases, shows why PWA’s are the future of the web!'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/JamieMariaS',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/deity-io/falcon',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/jamie-maria-schouren-%E2%9C%85-80583145/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+        
         {
             image: "images/reporters/lev-vidrak.png",
             name: "Lev Vidrak",
-            position: "Leading the Guild-Masters Team" ,
+            position: "Leading the Guild-Masters Team",
             company: "Wix",
-            country: "Israel" ,
+            country: "Israel",
             city: "Tel-Aviv",
             rept: [
                 {
                     title: "Introduction to React Native",
-                    description: "React Native is Facebooks’s cross-platform framework, allowing developers to compose apps using JavaScript in a declarative way.<br></br>"+
+                    description: "React Native is Facebooks’s cross-platform framework, allowing developers to compose apps using JavaScript in a declarative way.<br></br>" +
 
-                    "At Wix.com we are building our mobile app with React Native from the first commit almost three years ago. Scaling a production-grade application, brought us to understand the real cost-benefit of React Native.<br></br>"+
-                    
-                    "In this talk, we'll start by reviewing React Native's main concepts and understand it's architecture. Continue by covering its great benefits, the challenges we overcome, and those we are still facing."
-                        
+                        "At Wix.com we are building our mobile app with React Native from the first commit almost three years ago. Scaling a production-grade application, brought us to understand the real cost-benefit of React Native.<br></br>" +
+
+                        "In this talk, we'll start by reviewing React Native's main concepts and understand it's architecture. Continue by covering its great benefits, the challenges we overcome, and those we are still facing."
+
                 }
             ],
             aboutSpeaker: '',
@@ -309,17 +412,17 @@ $(document).ready(function(){
         {
             image: "images/reporters/christian-gill.jpeg",
             name: "Christian Gill",
-            position: "Senior Software Engineer, Team Lead" ,
+            position: "Senior Software Engineer, Team Lead",
             company: "HousingAnywhere",
-            country: "Netherlands" ,
+            country: "Netherlands",
             city: "Rotterdam",
             rept: [
                 {
                     title: "Functional programming for the people",
                     description: "There is a lot of mystery around functional programming. Even though libraries like React and Redux brought some of its concepts to JavaScript developers, there is still a lot more to be discovered and many benefits that we can gain from it.<br></br>" +
 
-                    "We'll go through some of the principles and fundamentals of functional programing and how we can leverage them to write composable and declarative JavaScript code."
-                        
+                        "We'll go through some of the principles and fundamentals of functional programing and how we can leverage them to write composable and declarative JavaScript code."
+
                 }
             ],
             aboutSpeaker: '',
@@ -343,44 +446,227 @@ $(document).ready(function(){
                 },
             ],
         },
+        {
+            image: "images/reporters/noemi-rozpara_cut.jpg",
+            name: "Noemi Rozparal",
+            position: "React Native Developer",
+            company: "Callstack.io",
+            country: "Poland",
+            city: "Wrocław",
+            rept: [
+                {
+                    title: "React Nativ, your UX superhero",
+                    description: 'I have one thesis for you: every programmer is also a UX guy. Do you agree? I hope I can convince you! I’ll talk about the following problems and solutions:' +
+                        '<ul>' +
+                        '<li>Why UX and good interface are not synonyms?</li>' +
+                        '<li>Why proper mobile development is so important for your business?</li>' +
+                        '<li>Why React Native is one of the best solutions?</li>' +
+                        '<li>How to create beautiful and efficient app at the same time?</li>' +
+                        '</ul>' +
+                        'I will show you the ways to improve your app performance.The presentation will contain live coding with React Navigation and React Native Reanimated usage examples. '
+
+
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/noemi_rozpara',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/NoemiRozpara',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/noemi-rozpara-044575159/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.facebook.com/noemirozpara',
+                    fatype: 'facebook'
+                },
+            ],
+        },
+        {
+            image: "images/reporters/nicolo-carpignoli.png",
+            name: "Nicolò Carpignoli",
+            position: "Web Software Engineer",
+            company: "Chialab",
+            country: "Italy",
+            city: "Bologna",
+            rept: [
+                {
+                    title: "Cross Browser Augmented Reality on the Web in ten lines of HTML",
+                    description: 'It shows the potential of Open Source software. It is a great way to start with Augmented Reality, so basically everyone can build a cross browser AR app only knowing basics of HTML and Javascript.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/nicolocarp',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/nicolocarpignoli',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/nicol%C3%B2-carpignoli/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+        {
+            image: "images/reporters/martin_hochel_cut.png",
+            name: "Martin Hochel",
+            position: "UI Tech Lead",
+            company: "TwistoCZ",
+            country: "Czech Republic",
+            city: "Prague",
+            rept: [
+                {
+                    title: "Ultimate React Component Patterns with TypeScript",
+                    description: 'React and TypeScript, the ultimate duo for writing web apps with top notch developer experience. But where to start? What are the gotchas? In this live coding session we will cover all React Component patterns techniques backed by excellent DX and type safety with TypeScript ⚛⚛⚛.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/martin_hotell',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/Hotell',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://linkedin.com/in/hochelmartin',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+        {
+            image: "images/reporters/alfredo_lopez.jpeg",
+            name: "Alfredo Lopez",
+            position: "Director of Engineering",
+            company: "Hearst",
+            country: "USA",
+            city: "New York",
+            rept: [
+                {
+                    title: "Think Fast, First: Empowering a Performance Culture",
+                    description: 'Making room for performance is difficult. It can mean different things to different people and is assumed to happen only after a project is done, but then other priorities take over.' +
+                        'This is the story of establishing a performance culture by empowering non- technical team members to understand, own and act on their performance impact by following a path and checklist for each project.' +
+                        'We’ll cover the different paths to improve Web Performance with some tips and tricks along the way.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/lfredolo',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/lfre',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/lfredo',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+
+        {
+            image: "images/reporters/alexandra-kalinina_cut.jpg",
+            name: "Alexandra Kalinina",
+            position: " Fullstack JS developer",
+            company: "Valor Software",
+            country: "Ukraine",
+            city: "Kharkiv",
+            rept: [
+                {
+                    title: "Mental debugging tips & tricks",
+                    description: 'Sharing very usefull tips&tricks for debugging codebase: ' +
+                        '<ol>' +
+                        '<li>IDE configurations</li>' +
+                        '<li>searching a weak unit (candies for the right answer)</li>' +
+                        '<li>structural replacement (and restrictions)</li>' +
+                        '</ol>'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/korery',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/korel-san',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/alexandra-kalinina-73201548/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+
+        
+
+        
+
+
+        
+
     ];
 
 
     var socialsItem = "<a class='speaker__link' href='${link}' target='_blank'><i class='fa fa-${fatype}' aria-hidden='true'></i></a>";
-    $.template( "socialsTemplate", socialsItem );
+    $.template("socialsTemplate", socialsItem);
 
     var fileItem = "<a class='speakers-slide__file' href='${link}' title='${title}' target='_blank'></a>";
-    $.template( "filesTemplate", fileItem );
+    $.template("filesTemplate", fileItem);
 
     var reportTitles = '';
 
     var speakerItem = "<div class='row '> <div data-modal-trigger='#speaker-modal' data-item-index='__ReplaceWithIndex' class='speakers-slide__item'>" +
         " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
-        "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>"+
-        "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>"+
+        "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>" +
+        "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>" +
         "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
-        "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>"+
-        "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country} ,</span>"+
-        "<span class='speakers-slider__info-city' '>${city}</span></p>"+
-        "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>"+
+        "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>" +
+        "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country} ,</span>" +
+        "<span class='speakers-slider__info-city' '>${city}</span></p>" +
+        "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>" +
         "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> <div class='speakers-slide__files'>{{html filesRendered}}</div></div> </div> </div></div>";
-    $.template( "speakerTemplate", speakerItem );
+    $.template("speakerTemplate", speakerItem);
 
 
 
     function renderSpeakersCarousel() {
 
         // start render all
-        $.each(speakers, function(i, sp) {
-            $.each($.tmpl("socialsTemplate", sp.socials ), function(a, i){ sp.socialsRendered += i.outerHTML; });
+        $.each(speakers, function (i, sp) {
+            $.each($.tmpl("socialsTemplate", sp.socials), function (a, i) { sp.socialsRendered += i.outerHTML; });
 
-            if(sp.files){
-                $.each($.tmpl("filesTemplate", sp.files ), function(a, i){ sp.filesRendered += i.outerHTML; });
+            if (sp.files) {
+                $.each($.tmpl("filesTemplate", sp.files), function (a, i) { sp.filesRendered += i.outerHTML; });
             }
         });
 
         var renderedSpeakers = [];
-        $.each($.tmpl("speakerTemplate", speakers ), function(a, i){
+        $.each($.tmpl("speakerTemplate", speakers), function (a, i) {
             renderedSpeakers.push(i.outerHTML.replace('__ReplaceWithIndex', a));
         });
 
@@ -388,22 +674,22 @@ $(document).ready(function(){
         var ifmobile = $(document).width() < 720;
         // var iftablet = $(document).width() < 960;
 
-        for (var i=0; i< renderedSpeakers.length; i++) {
+        for (var i = 0; i < renderedSpeakers.length; i++) {
             var activeClass = '';
             // var colClass = iftablet ? (ifmobile ? 'col-10' : 'col-md-6') : 'col-lg-4';
-            var colClass ='col-10 col-sm-6 col-lg-4';
-            if (i===0) {
+            var colClass = 'col-10 col-sm-6 col-lg-4';
+            if (i === 0) {
                 activeClass = 'active';
             }
-            finalSliderHtml+= '<div class="speakers-slide '+colClass+'" itemprop="performer" itemscope itemtype="http://schema.org/Person">';
-            finalSliderHtml+=renderedSpeakers[i];
+            finalSliderHtml += '<div class="speakers-slide ' + colClass + '" itemprop="performer" itemscope itemtype="http://schema.org/Person">';
+            finalSliderHtml += renderedSpeakers[i];
 
             // if(!ifmobile && renderedSpeakers[i+1]) {
             //   finalSliderHtml+=renderedSpeakers[i+1];
             //   i++;
             // }
 
-            finalSliderHtml+='</div>'
+            finalSliderHtml += '</div>'
         }
 
 
@@ -413,7 +699,7 @@ $(document).ready(function(){
 
     renderSpeakersCarousel();
 
-    $(document).on('click', '[data-modal-trigger="#speaker-modal"]', function() {
+    $(document).on('click', '[data-modal-trigger="#speaker-modal"]', function () {
         var $speakerInfoBlock = $(this);
         loadSpeakerModal($speakerInfoBlock);
     });
@@ -435,23 +721,23 @@ $(document).ready(function(){
         var $prevButton = $modalBody.find('button.prev');
         var $nextButton = $modalBody.find('button.next');
 
-        $prevButton.unbind('click').click(function(){
-            var prevIndex = speakerIndex == 0 ? (speakers.length-1) : speakerIndex - 1;
+        $prevButton.unbind('click').click(function () {
+            var prevIndex = speakerIndex == 0 ? (speakers.length - 1) : speakerIndex - 1;
 
             $('#speaker-modal').modal('hide');
-            setTimeout(function(){
-                loadSpeakerModal($('[data-item-index="'+prevIndex+'"]'));
-            },600);
+            setTimeout(function () {
+                loadSpeakerModal($('[data-item-index="' + prevIndex + '"]'));
+            }, 600);
 
         });
 
-        $nextButton.unbind('click').click(function(){
-            var nextIndex = speakerIndex == speakers.length-1 ? 0 : speakerIndex + 1;
+        $nextButton.unbind('click').click(function () {
+            var nextIndex = speakerIndex == speakers.length - 1 ? 0 : speakerIndex + 1;
 
             $('#speaker-modal').modal('hide');
-            setTimeout(function(){
-                loadSpeakerModal($('[data-item-index="'+nextIndex+'"]'));
-            },600);
+            setTimeout(function () {
+                loadSpeakerModal($('[data-item-index="' + nextIndex + '"]'));
+            }, 600);
 
         });
 
@@ -469,7 +755,7 @@ $(document).ready(function(){
                 speakerAboutText = speakerData.aboutSpeaker;
 
             reports.forEach(function (item, i, arr) {
-                reportsContent += '<h2 class="modal-body__title">'+ item.title +'</h2>' + '<div class="modal-body__text">'+ item.description +'</div>';
+                reportsContent += '<h2 class="modal-body__title">' + item.title + '</h2>' + '<div class="modal-body__text">' + item.description + '</div>';
             });
 
             speakerAvatar && $modalSpeakerAvatar.attr('src', speakerAvatar);
