@@ -2,12 +2,12 @@
 
 $(document).ready(function(){
 
-   
+
 
     var tickets = [
         {
             title: "Regular ticket",
-            price: "3500",
+            price: "4000",
             currency: "uah" ,
             action: "buy ticket",
             options: [
@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 
 
-    
+
     $(document).on('click', '[data-modal-trigger="#ticket-modal"]', function() {
         console.log('start');
         var $ticketChosen = $(this);
@@ -138,18 +138,18 @@ $(document).ready(function(){
                 optionsContent = '';
 
             options.forEach(function (item, i, arr) {
-                optionsContent += 
+                optionsContent +=
                 '<div class="option">' +
-                '<h4 class="option__main">'+ 
+                '<h4 class="option__main">'+
                 item.main +
-                '</h4>' + 
-                '<p class="option__additional">'+ 
+                '</h4>' +
+                '<p class="option__additional">'+
                 item.additional +
                 '</p>' +
                 '</div>';
             });
 
-            
+
             $modalTicketTitle.text(ticketTitle);
             $modalTicketPrice.text(ticketPrice);
             $modalTicketCurrency.text(ticketCurrency);
