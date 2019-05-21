@@ -244,7 +244,7 @@ $(document).ready(function () {
             position: "",
             company: "CroftyLand",
             country: "Ukraine",
-            city: "-",
+            city: "Kyiv",
             rept: [
                 {
                     title: "Animation in the Air",
@@ -448,7 +448,7 @@ $(document).ready(function () {
         },
         {
             image: "images/reporters/noemi-rozpara_cut.jpg",
-            name: "Noemi Rozparal",
+            name: "Noemi Rozpara",
             position: "React Native Developer",
             company: "Callstack.io",
             country: "Poland",
@@ -622,6 +622,38 @@ $(document).ready(function () {
 
         },
 
+        {
+            image: "images/reporters/yoni-goldberg.jpg",
+            name: "Yoni Goldberg",
+            position: "Architect Consultant",
+            company: "Independent Consultant",
+            country: "Israel",
+            city: "Haifa",
+            rept: [
+                {
+                    title: "5 advanced & shiny testing techniques",
+                    description: 'Let\'s discuss when the traditional testing tools fall short and how modern and emerging techniques can sometimes do better: In the past 10 years, the dev world had gone through dramatic changes but the testing models were left intact leaving us wondering how to test things like web components, Microservice, and Serverless.This session demonstrates the new wave of testing tools(e.g.property - based testing, consumer- driven contract, snapshot, etc) and how they can better fit modern applications.This session aims to inspire with modern testing ideas, but it also packs practical and down - to - earth code demos'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/goldbergyoni',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/i0natan/nodebestpractices',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/yoni-goldberg-760898b/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+
         
 
         
@@ -646,7 +678,7 @@ $(document).ready(function () {
         "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>" +
         "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
         "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>" +
-        "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country} ,</span>" +
+        "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country}, </span>" +
         "<span class='speakers-slider__info-city' '>${city}</span></p>" +
         "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} </br> </br>{{/each}}</p>" +
         "<div class='speakers-slide__info-links'>{{html socialsRendered}}</div> <div class='speakers-slide__files'>{{html filesRendered}}</div></div> </div> </div></div>";
