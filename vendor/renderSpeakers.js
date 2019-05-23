@@ -241,8 +241,8 @@ $(document).ready(function () {
         {
             image: "images/reporters/christina-landvytovych.jpg",
             name: "Khrystyna Landvytovych",
-            position: "",
-            company: "CroftyLand",
+            position: "Frontend developer",
+            company: "UvoTeam",
             country: "Ukraine",
             city: "Kyiv",
             rept: [
@@ -373,7 +373,7 @@ $(document).ready(function () {
             ],
 
         },
-        
+
         {
             image: "images/reporters/lev-vidrak.png",
             name: "Lev Vidrak",
@@ -654,12 +654,63 @@ $(document).ready(function () {
 
         },
 
-        
+        {
+            image: "images/reporters/niels_leenheer.jpg",
+            name: "Niels Leenheer",
+            position: "CTO",
+            company: "Salonhub",
+            country: "The Netherlands",
+            city: "Groningen",
+            rept: [
+                {
+                    title: "Fun with Bluetooth",
+                    description: 'Time for JavaScript to get physical. With WebBluetooth the browser can actually take control of all kinds of physical devices in the real world like lightbulbs, robots and even drones. And nowadays you can even run JavaScript straight on microcontrollers and even little Bluetooth beacons. This talk will teach you the basics that you need to get started.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/html5test',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/NielsLeenheer',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://nielsleenheer.com',
+                    fatype: 'link'
+                },
+            ],
 
-        
+        },
+
+        {
+            image: "images/reporters/ilya_zaprutski.png",
+            name: "Ilya Zaprutski",
+            position: "Team Lead",
+            company: "iTechArt",
+            country: "Belarus",
+            city: "Minsk",
+            rept: [
+                {
+                    title: "The Art of Node.js or how to do something cool using public data",
+                    description: 'Today, economists believe that the most valuable resource is not oil, but data. The Internet, in turn, is the place where we can find any information, the main thing is to know where and what to look for. During the report, I will tell how, having an original idea and a limited budget, make an application that will be really useful, and on which you can make money.'
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+
+            ],
+
+        },
 
 
-        
+
+
+
 
     ];
 
