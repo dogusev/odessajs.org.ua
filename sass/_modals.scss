@@ -163,6 +163,10 @@
           text-transform: uppercase;
           color: $primary;
 
+          .title__lang {
+            color: #000;
+          }
+
           span {
             text-transform: none;
           }
