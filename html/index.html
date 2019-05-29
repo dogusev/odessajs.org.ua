@@ -27,6 +27,8 @@
             rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Jura|Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
 
 
     <link href="css/main_new.css" rel="stylesheet">
@@ -159,8 +161,6 @@
 </header>
 
 <!-- Main Info SLider  -->
-
-
 
 
 <section class="about" id='about'>
@@ -340,79 +340,82 @@
 <section class="tickets_section">
 
     <div class="ticket-modal modal fade" id="ticket-modal">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h2 class="modal-body__title">Default Ticket name</h2>
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-body__title">Default Ticket name</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="price-block">
+                        <div class="ticket__price"></div>
+                        <div class="ticket__currency"></div>
                     </div>
-                    <div class="modal-body">
-                            <div class="price-block">
-                                    <div class="ticket__price"></div>
-                                    <div class="ticket__currency"></div>
-                            </div>
 
 
+                    <!-- About report -->
+                    <div class="modal-body__reports">
 
-                        <!-- About report -->
-                        <div class="modal-body__reports">
-
-                            <div class="modal-body__text">
-                                    <div class="modal-body__options"></div>
-                            </div>
+                        <div class="modal-body__text">
+                            <div class="modal-body__options"></div>
                         </div>
-                        <!-- About report -->
+                    </div>
+                    <!-- About report -->
 
-                    </div>
-                    <div class="modal-footer">
-                            <a href="" class="ticket__action new_btn"></a>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="ticket__action new_btn"></a>
                 </div>
             </div>
         </div>
+    </div>
 
-<div class="container">
-    <div class="text_block">
-        <p class="title mb-5">3 DAYS</p>
-        <p class="description">Conference On in-dept JavaScript Technologies</p>
+    <div class="container">
+        <div class="text_block">
+            <p class="title mb-5">3 DAYS</p>
+            <p class="description">Conference On in-dept JavaScript Technologies</p>
+        </div>
+        <div class="tickets_block">
+            <div class="ticket" id="ticket_1" data-modal-trigger="#ticket-modal" data-item-index='0'>
+                <h6 class="ticket_name">Regular Ticket</h6>
+                <p class="ticket_price">4000</p>
+                <p class="ticket_subname"></p>
+                <p class="ticket_currency">UAH</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+            <div class="ticket" id="ticket_2" data-target="#ticket-modal" data-modal-trigger="#ticket-modal"
+                 data-item-index='1'>
+                <h6 class="ticket_name">Student Ticket</h6>
+                <p class="ticket_subname">(Full Conference ticket)</p>
+                <p class="ticket_price">2000</p>
+                <p class="ticket_currency">UAH</p>
+                <p class="ticket_promo">Ask for promo code</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+            <!--<div class="ticket" id="ticket_3">
+                <h6 class="ticket_name">Full Pass</h6>
+                <p class="ticket_price">4000</p>
+                <p class="ticket_currency">UAH</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>-->
+            <div class="ticket red_ticket" id="ticket_4" data-modal-trigger="#ticket-modal" data-target="#ticket-modal"
+                 data-item-index='2'>
+                <h6 class="ticket_name">DIVERSITY</h6>
+                <p class="ticket_subname">SCHOLARSHIPS</p>
+                <p class="ticket_desc">Apply for a ticket</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9VNO-Cpoa7t1lS68ih8FRM2tsmHZMAEPWj_PJlbBWsA2DTA/viewform"
+                   class="ticket_action">GET</a>
+            </div>
+            <div class="ticket blue_ticket" id="ticket_5" data-modal-trigger="#ticket-modal" data-target="#ticket-modal"
+                 data-item-index='3'>
+                <h6 class="ticket_name">WORKSHOPS TICKET</h6>
+                <p class="ticket_desc">Tickets for workshops are sold separately from conference tickets</p>
+                <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
+            </div>
+        </div>
     </div>
-    <div class="tickets_block">
-        <div class="ticket" id="ticket_1" data-modal-trigger="#ticket-modal" data-item-index='0'>
-            <h6 class="ticket_name">Regular Ticket</h6>
-            <p class="ticket_price">4000</p>
-            <p class="ticket_subname"></p>
-            <p class="ticket_currency">UAH</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-        <div class="ticket" id="ticket_2"  data-target="#ticket-modal" data-modal-trigger="#ticket-modal" data-item-index='1'>
-            <h6 class="ticket_name">Student Ticket</h6>
-            <p class="ticket_subname">(Full Conference ticket)</p>
-            <p class="ticket_price">2000</p>
-            <p class="ticket_currency">UAH</p>
-            <p class="ticket_promo">Ask for promo code</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-        <!--<div class="ticket" id="ticket_3">
-            <h6 class="ticket_name">Full Pass</h6>
-            <p class="ticket_price">4000</p>
-            <p class="ticket_currency">UAH</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>-->
-        <div class="ticket red_ticket" id="ticket_4" data-modal-trigger="#ticket-modal" data-target="#ticket-modal" data-item-index='2'>
-            <h6 class="ticket_name">DIVERSITY</h6>
-            <p class="ticket_subname">SCHOLARSHIPS</p>
-            <p class="ticket_desc">Apply for a ticket</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9VNO-Cpoa7t1lS68ih8FRM2tsmHZMAEPWj_PJlbBWsA2DTA/viewform" class="ticket_action">GET</a>
-        </div>
-        <div class="ticket blue_ticket" id="ticket_5" data-modal-trigger="#ticket-modal" data-target="#ticket-modal" data-item-index='3'>
-            <h6 class="ticket_name">WORKSHOPS TICKET</h6>
-            <p class="ticket_desc">Tickets for workshops are sold separately from conference tickets</p>
-            <a href="https://odessajs2019.ticketforevent.com/" class="ticket_action">BUY</a>
-        </div>
-    </div>
-</div>
 </section>
 
 <!--<section id="share" class="share">-->
@@ -640,7 +643,7 @@
                 <h2 class="text-uppercase main_title text-center">
                     <strong>SPONSORS</strong>
                 </h2>
-               <!-- <hr>-->
+                <!-- <hr>-->
             </div>
 
             <div class="col-lg-10 mx-auto animated fadeInLeft">
@@ -666,7 +669,8 @@
                     <!--<a class="main_button btn btn-primary btn-xl js-scroll-trigger main_button" target="_blank"-->
                     <!--href="ODESSAJS_2018_en.pdf">Become a sponsor</a>-->
                     <a href="odessaJS-presentation-EN-2019.pdf" target="_blank"
-                       class="main_button btn btn-primary btn-xl js-scroll-trigger main_button ask-a-question">Sponsorship Proposal</a>
+                       class="main_button btn btn-primary btn-xl js-scroll-trigger main_button ask-a-question">Sponsorship
+                        Proposal</a>
                 </div>
             </div>
 
@@ -790,32 +794,38 @@
                             <div class="row">
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://netpeaksoftware.com/ru/" target="_blank">
-                                        <img data-src="images/partners/netpeak.svg" alt="netpeak" class="img-responsive">
+                                        <img data-src="images/partners/netpeak.svg" alt="netpeak"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://syndicode.com/" target="_blank">
-                                        <img data-src="images/partners/syndicode.png" alt="syndicode" class="img-responsive">
+                                        <img data-src="images/partners/syndicode.png" alt="syndicode"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://frontconf.com/" target="_blank">
-                                        <img data-src="images/partners/frontconf_black.png" alt="frontconf" class="img-responsive">
+                                        <img data-src="images/partners/frontconf_black.png" alt="frontconf"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="http://kharkivcss.org//" target="_blank">
-                                        <img data-src="images/partners/kharkivcss.svg" alt="kharkivcss" class="img-responsive">
+                                        <img data-src="images/partners/kharkivcss.svg" alt="kharkivcss"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://light-it.net/" target="_blank">
-                                        <img data-src="images/partners/light-it.jpg" alt="light-it" class="img-responsive">
+                                        <img data-src="images/partners/light-it.jpg" alt="light-it"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 text-center thank-box mx-auto">
                                     <a class="w-100" href="https://light-it.net/" target="_blank">
-                                        <img data-src="images/partners/digest.png" alt="Digest Pro" class="img-responsive">
+                                        <img data-src="images/partners/digest.png" alt="Digest Pro"
+                                             class="img-responsive">
                                     </a>
                                 </div>
                             </div>
@@ -875,767 +885,364 @@
         </div>
 
         <div class="row">
-            <div id="programCommitteeCarousel"
-                 class="program-committee-carousel carousel custom-carousel slide col-sm-11"
-                 data-interval="3000">
-                <div class="carousel-inner w-100" role="listbox">
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <div class="carousel-item active">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
-                            </div>
-                            <h2 class="chairman__name">Timofey Lavrenyuk</h2>
-                            <p class="chairman__position">Software Engineer @KeepSolid</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
-                                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/roman-min.png">
-                            </div>
-                            <h2 class="chairman__name">Roman Savitskyi</h2>
-                            <p class="chairman__position">Team lead & tech lead @ Infopulse</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.facebook.com/roman.savitskiy.104">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ivan-soroka.png">
-                            </div>
-                            <h2 class="chairman__name">Ivan Soroka</h2>
-                            <p class="chairman__position">Senior Developer @ Sigma Software</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/ibah-copoka/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/yaroslav-dvorovenko.png">
-                            </div>
-                            <h2 class="chairman__name">Yaroslav Dvorovenko</h2>
-                            <p class="chairman__position">Team lead @ Digitally Inspired</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/yaroslav-dvorovenko/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
+            <div class="program-committee-slider col-12">
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
                     </div>
-                    <div class="carousel-item ">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/roman-min.png">
-                            </div>
-                            <h2 class="chairman__name">Roman Savitskyi</h2>
-                            <p class="chairman__position">Team lead & tech lead @ Infopulse</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.facebook.com/roman.savitskiy.104">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ivan-soroka.png">
-                            </div>
-                            <h2 class="chairman__name">Ivan Soroka</h2>
-                            <p class="chairman__position">Senior Developer @ Sigma Software</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/ibah-copoka/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/yaroslav-dvorovenko.png">
-                            </div>
-                            <h2 class="chairman__name">Yaroslav Dvorovenko</h2>
-                            <p class="chairman__position">Team lead @ Digitally Inspired</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/yaroslav-dvorovenko/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/dmitriy_gusev.jpg">
-                            </div>
-                            <h2 class="chairman__name">Dmitriy Gusev</h2>
-                            <p class="chairman__position">Team-lead & Senior Front-end Develper @ HYS-Enterprise</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/dmitriy-gusev/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
+                    <h2 class="chairman__name">Timofey Lavrenyuk</h2>
+                    <p class="chairman__position">Software Engineer @KeepSolid</p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
+                            <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                        </a>
                     </div>
-                    <div class="carousel-item">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ivan-soroka.png">
-                            </div>
-                            <h2 class="chairman__name">Ivan Soroka</h2>
-                            <p class="chairman__position">Senior Developer @ Sigma Software</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/ibah-copoka/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/yaroslav-dvorovenko.png">
-                            </div>
-                            <h2 class="chairman__name">Yaroslav Dvorovenko</h2>
-                            <p class="chairman__position">Team lead @ Digitally Inspired</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/yaroslav-dvorovenko/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/dmitriy_gusev.jpg">
-                            </div>
-                            <h2 class="chairman__name">Dmitriy Gusev</h2>
-                            <p class="chairman__position">Team-lead & Senior Front-end Develper @ HYS-Enterprise</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/dmitriy-gusev/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ira_kolesnikova.png">
-                            </div>
-                            <h2 class="chairman__name">Irina Kolesnikova</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                                <!--<a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">-->
-                                    <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                                <!--<a class="chairman__link" target="_blank"-->
-                                   <!--href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">-->
-                                    <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                                <!--<a class="chairman__link" target="_blank" href="https://github.com/exelnait">-->
-                                    <!--<i class="fa fa-github" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                                <!--<a class="chairman__link" target="_blank"-->
-                                   <!--href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">-->
-                                    <!--<i class="fa fa-stack-overflow" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/yaroslav-dvorovenko.png">
-                            </div>
-                            <h2 class="chairman__name">Yaroslav Dvorovenko</h2>
-                            <p class="chairman__position">Team lead @ Digitally Inspired</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/yaroslav-dvorovenko/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/dmitriy_gusev.jpg">
-                            </div>
-                            <h2 class="chairman__name">Dmitriy Gusev</h2>
-                            <p class="chairman__position">Team-lead & Senior Front-end Develper @ HYS-Enterprise</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/dmitriy-gusev/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ira_kolesnikova.png">
-                            </div>
-                            <h2 class="chairman__name">Irina Kolesnikova</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank" href="https://github.com/exelnait">-->
-                            <!--<i class="fa fa-github" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">-->
-                            <!--<i class="fa fa-stack-overflow" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/julia_cherniak.jpg">
-                            </div>
-                            <h2 class="chairman__name">Julia Cherniak</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                                <!--<a class="chairman__link" target="_blank"-->
-                                   <!--href="https://www.facebook.com/roman.savitskiy.104">-->
-                                    <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                                <!--<a class="chairman__link" target="_blank"-->
-                                   <!--href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">-->
-                                    <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                                <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/dmitriy_gusev.jpg">
-                            </div>
-                            <h2 class="chairman__name">Dmitriy Gusev</h2>
-                            <p class="chairman__position">Team-lead & Senior Front-end Develper @ HYS-Enterprise</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/dmitriy-gusev/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ira_kolesnikova.png">
-                            </div>
-                            <h2 class="chairman__name">Irina Kolesnikova</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank" href="https://github.com/exelnait">-->
-                            <!--<i class="fa fa-github" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">-->
-                            <!--<i class="fa fa-stack-overflow" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/julia_cherniak.jpg">
-                            </div>
-                            <h2 class="chairman__name">Julia Cherniak</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.facebook.com/roman.savitskiy.104">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
-                            </div>
-                            <h2 class="chairman__name">Timofey Lavrenyuk</h2>
-                            <p class="chairman__position">Software Engineer @KeepSolid</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
-                                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ira_kolesnikova.png">
-                            </div>
-                            <h2 class="chairman__name">Irina Kolesnikova</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank" href="https://github.com/exelnait">-->
-                            <!--<i class="fa fa-github" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">-->
-                            <!--<i class="fa fa-stack-overflow" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/julia_cherniak.jpg">
-                            </div>
-                            <h2 class="chairman__name">Julia Cherniak</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.facebook.com/roman.savitskiy.104">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
-                            </div>
-                            <h2 class="chairman__name">Timofey Lavrenyuk</h2>
-                            <p class="chairman__position">Software Engineer @KeepSolid</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
-                                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/roman-min.png">
-                            </div>
-                            <h2 class="chairman__name">Roman Savitskyi</h2>
-                            <p class="chairman__position">Team lead & tech lead @ Infopulse</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.facebook.com/roman.savitskiy.104">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/julia_cherniak.jpg">
-                            </div>
-                            <h2 class="chairman__name">Julia Cherniak</h2>
-                            <p class="chairman__position"></p>
-                            <!--<div class="chairman__link-list w-100">-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.facebook.com/roman.savitskiy.104">-->
-                            <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--<a class="chairman__link" target="_blank"-->
-                            <!--href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">-->
-                            <!--<i class="fa fa-linkedin" aria-hidden="true"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/timofey-lavrenyuk.jpg">
-                            </div>
-                            <h2 class="chairman__name">Timofey Lavrenyuk</h2>
-                            <p class="chairman__position">Software Engineer @KeepSolid</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank" href="https://www.facebook.com/tlavrenyuk">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/lavrenyuk-t-042b4263/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank" href="https://github.com/exelnait">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://stackoverflow.com/users/8857437/timofey-lavrenyuk">
-                                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/roman-min.png">
-                            </div>
-                            <h2 class="chairman__name">Roman Savitskyi</h2>
-                            <p class="chairman__position">Team lead & tech lead @ Infopulse</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.facebook.com/roman.savitskiy.104">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                        <div class="chairman-info insides-wrapper  col-sm-12 col-md-6 col-lg-3">
-                            <div class="img-wrapper w-100">
-                                <img class="d-block img-fluid" src="images/program-committee/ivan-soroka.png">
-                            </div>
-                            <h2 class="chairman__name">Ivan Soroka</h2>
-                            <p class="chairman__position">Senior Developer @ Sigma Software</p>
-                            <div class="chairman__link-list w-100">
-                                <a class="chairman__link" target="_blank"
-                                   href="https://www.linkedin.com/in/ibah-copoka/">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                            <!--<button class="ask-a-question" data-modal-trigger="#ask-form">Ask a Question</button>-->
-                        </div>
-                    </div>
-
-                <a class="carousel-control-prev" href="#programCommitteeCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true">
-              <i class="fa fa-angle-left"></i>
-            </span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#programCommitteeCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true">
-              <i class="fa fa-angle-right"></i>
-            </span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-
-    </div>
-    <div class="chairman-info-popup modal fade" id="modal-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="img-wrapper w-25">
-                        <img class="d-block img-fluid" src="images/program-committee/gerard-sans.jpg">
-                    </div>
-                    <div class="info-wrapper">
-                        <h2 class="chairman__name">Gerard Sans</h2>
-                        <p class="chairman__position">Google Developer Expert</p>
-                        <div class="chairman__link-list">
-                            <a class="chairman__link" target="_blank" href="https://twitter.com/gerardsans">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a class="chairman__link" target="_blank" href="https://github.com/gsans">
-                                <i class="fa fa-github" aria-hidden="true"></i>
-                            </a>
-                            <a class="chairman__link" target="_blank" href="https://medium.com/@gerard.sans">
-                                <i class="fa fa-medium" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices porta viverra.
-                        Integer facilisis sapien at neque viverra cursus. Aliquam sed lectus eu nisl hendrerit consequat
-                        eget eget magna. Nam tincidunt volutpat nulla vitae pellentesque. Mauris tincidunt iaculis
-                        dolor,
-                        in molestie odio finibus et. In laoreet rutrum dapibus. Curabitur purus orci, maximus nec
-                        faucibus
-                        ut, ultrices vehicula felis. Morbi massa tellus, auctor eget consectetur consectetur, convallis
-                        et
-                        tortor. Morbi quis scelerisque est. Phasellus tellus lacus, condimentum quis tortor quis,
-                        dapibus
-                        vestibulum dolor. Nullam justo elit, lacinia eu rhoncus vel, hendrerit vel arcu. Curabitur
-                        aliquam
-                        aliquam commodo. Mauris non lectus et lorem ornare rhoncus vel quis mauris. Phasellus laoreet
-                        egestas
-                        turpis ut tempor. Mauris pharetra maximus arcu, eu aliquam purus vehicula vitae.
-
-                        Suspendisse id urna eget massa ultricies sodales at a lectus. Donec nunc velit, aliquet eu
-                        ornare et, dapibus eu metus. Suspendisse eu velit dictum odio condimentum iaculis. Mauris
-                        consectetur lacus odio, eleifend bibendum massa consectetur et. Aenean pharetra ut lacus et
-                        varius. Etiam ut metus nec nunc maximus posuere a tristique felis. Quisque egestas nibh tellus,
-                        eget tristique mi condimentum in. Morbi ac eros luctus, pellentesque metus ac, dapibus turpis.
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Vestibulum molestie tristique condimentum.
-
-                        Fusce vel ultrices enim, eu efficitur nisl. Aliquam ut mi sed sem dignissim tristique. Aenean
-                        non fringilla lorem, non pretium ex. Donec in mauris lectus. Vestibulum posuere luctus suscipit.
-                        Etiam sit amet arcu convallis, tristique libero vitae, imperdiet metus. Phasellus at tristique
-                        est,
-                        a pulvinar leo. Aliquam erat volutpat. Cras pharetra faucibus augue nec posuere.
-
-                        Phasellus sollicitudin lorem tellus, quis scelerisque nibh tristique vitae. In fermentum
-                        efficitur
-                        ex et tempus. Nam eleifend egestas tellus. Morbi vitae varius nulla. Nunc massa quam, vehicula
-                        sit
-                        amet arcu eget, tempus suscipit ligula. Nunc iaculis bibendum commodo. Maecenas accumsan nisl
-                        sed
-                        tristique volutpat. Nam id nisl sit amet neque auctor vestibulum eu rhoncus neque. Donec congue,
-                        libero a laoreet mollis, erat nunc porttitor tellus, vitae auctor turpis purus eu quam.
-                        Vestibulum
-                        eget elit nunc. Nulla bibendum nibh a odio suscipit, sit amet aliquam libero bibendum.
-
-                        Maecenas velit nunc, consequat non risus non, blandit mattis justo. Pellentesque libero orci,
-                        laoreet
-                        id enim et, facilisis dapibus erat. Maecenas cursus bibendum neque, ut dictum tortor iaculis eu.
-                        Nulla facilisi. Suspendisse potenti. Aenean in mi semper, scelerisque tortor et, lacinia ipsum.
-                        Nunc
-                        fermentum arcu nunc, a tristique turpis finibus et.
-
-                        In fringilla, dolor sed euismod sagittis, ligula nisl maximus tortor, a faucibus mi tortor sit
-                        amet
-                        diam. Nulla pulvinar dignissim diam. Aenean at quam nunc. Maecenas a venenatis massa, vel
-                        vehicula risus.
-                        Maecenas vel finibus enim. Vivamus sagittis metus pellentesque eros placerat, ac posuere erat
-                        ornare.
-                        Vestibulum ante erat, volutpat nec porta fermentum, accumsan non nulla. Nulla eget varius
-                        lectus.
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        Maecenas
-                        vel euismod augue, id iaculis felis. Vivamus fermentum tristique augue a congue. Duis
-                        consectetur
-                        faucibus nisl eget laoreet. Pellentesque ex turpis, viverra a lobortis in, maximus.</p>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/roman-min.png">
+                    </div>
+                    <h2 class="chairman__name">Roman Savitskyi</h2>
+                    <p class="chairman__position">Team lead & tech lead @ Infopulse</p>
+                    <div class="chairman__link-list w-100">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.facebook.com/roman.savitskiy.104">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/roman-savitskiy-98b49158/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/ivan-soroka.png">
+                    </div>
+                    <h2 class="chairman__name">Ivan Soroka</h2>
+                    <p class="chairman__position">Senior Developer @ Sigma Software</p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/ibah-copoka/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/yaroslav-dvorovenko.png">
+                    </div>
+                    <h2 class="chairman__name">Yaroslav Dvorovenko</h2>
+                    <p class="chairman__position">Team lead @ Digitally Inspired</p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/yaroslav-dvorovenko/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/dmitriy_gusev.jpg">
+                    </div>
+                    <h2 class="chairman__name">Dmitriy Gusev</h2>
+                    <p class="chairman__position">Team-lead & Senior Front-end Develper @ HYS-Enterprise</p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/dmitriy-gusev/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/ira_kolesnikova.png">
+                    </div>
+                    <h2 class="chairman__name">Irina Kolesnikova</h2>
+                    <p class="chairman__position"></p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.facebook.com/ikolesnikova37">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://t.me/Iren77712">
+                            <i class="fa fa-telegram" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.linkedin.com/in/ikolesnikova/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="chairman-info insides-wrapper">
+                    <div class="img-wrapper">
+                        <img class="d-block img-fluid" src="images/program-committee/julia_cherniak.jpg">
+                    </div>
+                    <h2 class="chairman__name">Julia Cherniak</h2>
+                    <p class="chairman__position"></p>
+                    <div class="chairman__link-list">
+                        <a class="chairman__link" target="_blank"
+                           href="https://www.facebook.com/julia.cherniak">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a class="chairman__link" target="_blank"
+                           href="https://t.me/Cherni44ka">
+                            <i class="fa fa-telegram" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="chairman-info-popup modal fade" id="modal-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="img-wrapper w-25">
+                            <img class="d-block img-fluid" src="images/program-committee/gerard-sans.jpg">
+                        </div>
+                        <div class="info-wrapper">
+                            <h2 class="chairman__name">Gerard Sans</h2>
+                            <p class="chairman__position">Google Developer Expert</p>
+                            <div class="chairman__link-list">
+                                <a class="chairman__link" target="_blank" href="https://twitter.com/gerardsans">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a class="chairman__link" target="_blank" href="https://github.com/gsans">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                                <a class="chairman__link" target="_blank" href="https://medium.com/@gerard.sans">
+                                    <i class="fa fa-medium" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices porta viverra.
+                            Integer facilisis sapien at neque viverra cursus. Aliquam sed lectus eu nisl hendrerit
+                            consequat
+                            eget eget magna. Nam tincidunt volutpat nulla vitae pellentesque. Mauris tincidunt iaculis
+                            dolor,
+                            in molestie odio finibus et. In laoreet rutrum dapibus. Curabitur purus orci, maximus nec
+                            faucibus
+                            ut, ultrices vehicula felis. Morbi massa tellus, auctor eget consectetur consectetur,
+                            convallis
+                            et
+                            tortor. Morbi quis scelerisque est. Phasellus tellus lacus, condimentum quis tortor quis,
+                            dapibus
+                            vestibulum dolor. Nullam justo elit, lacinia eu rhoncus vel, hendrerit vel arcu. Curabitur
+                            aliquam
+                            aliquam commodo. Mauris non lectus et lorem ornare rhoncus vel quis mauris. Phasellus
+                            laoreet
+                            egestas
+                            turpis ut tempor. Mauris pharetra maximus arcu, eu aliquam purus vehicula vitae.
 
-    <div id="ask-form" class="form-modal modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>Ask <span class="speaker_ask_name"></span>!</h3>
-                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                            Suspendisse id urna eget massa ultricies sodales at a lectus. Donec nunc velit, aliquet eu
+                            ornare et, dapibus eu metus. Suspendisse eu velit dictum odio condimentum iaculis. Mauris
+                            consectetur lacus odio, eleifend bibendum massa consectetur et. Aenean pharetra ut lacus et
+                            varius. Etiam ut metus nec nunc maximus posuere a tristique felis. Quisque egestas nibh
+                            tellus,
+                            eget tristique mi condimentum in. Morbi ac eros luctus, pellentesque metus ac, dapibus
+                            turpis.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas.
+                            Vestibulum molestie tristique condimentum.
+
+                            Fusce vel ultrices enim, eu efficitur nisl. Aliquam ut mi sed sem dignissim tristique.
+                            Aenean
+                            non fringilla lorem, non pretium ex. Donec in mauris lectus. Vestibulum posuere luctus
+                            suscipit.
+                            Etiam sit amet arcu convallis, tristique libero vitae, imperdiet metus. Phasellus at
+                            tristique
+                            est,
+                            a pulvinar leo. Aliquam erat volutpat. Cras pharetra faucibus augue nec posuere.
+
+                            Phasellus sollicitudin lorem tellus, quis scelerisque nibh tristique vitae. In fermentum
+                            efficitur
+                            ex et tempus. Nam eleifend egestas tellus. Morbi vitae varius nulla. Nunc massa quam,
+                            vehicula
+                            sit
+                            amet arcu eget, tempus suscipit ligula. Nunc iaculis bibendum commodo. Maecenas accumsan
+                            nisl
+                            sed
+                            tristique volutpat. Nam id nisl sit amet neque auctor vestibulum eu rhoncus neque. Donec
+                            congue,
+                            libero a laoreet mollis, erat nunc porttitor tellus, vitae auctor turpis purus eu quam.
+                            Vestibulum
+                            eget elit nunc. Nulla bibendum nibh a odio suscipit, sit amet aliquam libero bibendum.
+
+                            Maecenas velit nunc, consequat non risus non, blandit mattis justo. Pellentesque libero
+                            orci,
+                            laoreet
+                            id enim et, facilisis dapibus erat. Maecenas cursus bibendum neque, ut dictum tortor iaculis
+                            eu.
+                            Nulla facilisi. Suspendisse potenti. Aenean in mi semper, scelerisque tortor et, lacinia
+                            ipsum.
+                            Nunc
+                            fermentum arcu nunc, a tristique turpis finibus et.
+
+                            In fringilla, dolor sed euismod sagittis, ligula nisl maximus tortor, a faucibus mi tortor
+                            sit
+                            amet
+                            diam. Nulla pulvinar dignissim diam. Aenean at quam nunc. Maecenas a venenatis massa, vel
+                            vehicula risus.
+                            Maecenas vel finibus enim. Vivamus sagittis metus pellentesque eros placerat, ac posuere
+                            erat
+                            ornare.
+                            Vestibulum ante erat, volutpat nec porta fermentum, accumsan non nulla. Nulla eget varius
+                            lectus.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas.
+                            Maecenas
+                            vel euismod augue, id iaculis felis. Vivamus fermentum tristique augue a congue. Duis
+                            consectetur
+                            faucibus nisl eget laoreet. Pellentesque ex turpis, viverra a lobortis in, maximus.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="modal-body">
-                    <form action="">
-                        <div class="form-group row">
-                            <input id="ask-to" name="ask-to" type="hidden">
-                            <label for="ask-name" class="col-12 col-md-3 control-label">Name</label>
-                            <div class="col-12 col-md-9">
-                                <input id="ask-name" name="ask-name" type="text" placeholder="Your name *"
-                                       class="form-control" required>
+        <div id="ask-form" class="form-modal modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Ask <span class="speaker_ask_name"></span>!</h3>
+                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group row">
+                                <input id="ask-to" name="ask-to" type="hidden">
+                                <label for="ask-name" class="col-12 col-md-3 control-label">Name</label>
+                                <div class="col-12 col-md-9">
+                                    <input id="ask-name" name="ask-name" type="text" placeholder="Your name *"
+                                           class="form-control" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="ask-mail" class="col-12 col-md-3 control-label">Email</label>
-                            <div class="col-12 col-md-9">
-                                <input id="ask-mail" name="ask-mail" type="email" placeholder="Your email *"
-                                       class="form-control" required>
+                            <div class="form-group row">
+                                <label for="ask-mail" class="col-12 col-md-3 control-label">Email</label>
+                                <div class="col-12 col-md-9">
+                                    <input id="ask-mail" name="ask-mail" type="email" placeholder="Your email *"
+                                           class="form-control" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-12 col-md-3 control-label" for="ask-message">Your message</label>
-                            <div class="col-12 col-md-9">
+                            <div class="form-group row">
+                                <label class="col-12 col-md-3 control-label" for="ask-message">Your message</label>
+                                <div class="col-12 col-md-9">
                   <textarea class="form-control" id="ask-message" name="ask-message"
                             placeholder="Please enter your message here..." rows="5" required></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group text-right">
-                            <button type="submit" class="ask-submit">Send</button>
-                        </div>
-                    </form>
+                            <div class="form-group text-right">
+                                <button type="submit" class="ask-submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="diversity-more" class="form-modal modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="">Diversity scholarships</h3>
-                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-                </div>
+        <div id="diversity-more" class="form-modal modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="">Diversity scholarships</h3>
+                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
 
-                <div class="modal-body">
-                    <p>
-                        We believe in equality and equal possibilities for anyone and everyone. That’s why we seek to
-                        gather together at the Conference the most diverse group of people possible. This could become
-                        achievable thanks to the companies and individuals who donate to our Scholarship Program.
-                    </p>
+                    <div class="modal-body">
+                        <p>
+                            We believe in equality and equal possibilities for anyone and everyone. That’s why we seek
+                            to
+                            gather together at the Conference the most diverse group of people possible. This could
+                            become
+                            achievable thanks to the companies and individuals who donate to our Scholarship Program.
+                        </p>
 
-                    <p>
-                        If you’d like to get involved as an individual, please choose any of the Diversity Support
-                        Tickets or contact us at any time at
-                        <a href="mailto:odessajsconf@gmail.com"><strong>odessajsconf@gmail.com</strong></a>.
-                        If you’re a company representative please contact us and we provide you with different options.
-                    </p>
+                        <p>
+                            If you’d like to get involved as an individual, please choose any of the Diversity Support
+                            Tickets or contact us at any time at
+                            <a href="mailto:odessajsconf@gmail.com"><strong>odessajsconf@gmail.com</strong></a>.
+                            If you’re a company representative please contact us and we provide you with different
+                            options.
+                        </p>
 
-                    <p>
-                        Anyone from an underrepresented group in tech is invited to apply for a scholarship. This
-                        includes, but is not limited to: women, people of color, LGBTQIA+ people, disabled people, and
-                        people facing economic or social hardships.
-                    </p>
-                </div>
+                        <p>
+                            Anyone from an underrepresented group in tech is invited to apply for a scholarship. This
+                            includes, but is not limited to: women, people of color, LGBTQIA+ people, disabled people,
+                            and
+                            people facing economic or social hardships.
+                        </p>
+                    </div>
 
-                <div class="modal-footer">
-                    <p class="mb-2 main_subtitle text-center">
-                        Applications for our scholarship program are open till June 15, 2018.
-                        <br>
-                        <br>
-                        <a class="btn btn-primary mt-1" href="https://goo.gl/forms/hCGyRpp0mAPgvN9s2" target="_blank">Apply</a>
-                    </p>
+                    <div class="modal-footer">
+                        <p class="mb-2 main_subtitle text-center">
+                            Applications for our scholarship program are open till June 15, 2018.
+                            <br>
+                            <br>
+                            <a class="btn btn-primary mt-1" href="https://goo.gl/forms/hCGyRpp0mAPgvN9s2"
+                               target="_blank">Apply</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--<div class="form-container modal fade" id="ask-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-offset-3">
-            <div class="well well-sm">
-              <form class="form-horizontal" action="" method="post">
-                <fieldset>
-                  <legend class="text-center">Contact us</legend>
-                  <div class="form-group">
-                    <label class="col-3 control-label" for="name">Name</label>
-                    <div class="col-9">
-                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-3 control-label" for="email">Your E-mail</label>
-                    <div class="col-9">
-                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="col-3 control-label" for="message">Your message</label>
-                    <div class="col-9">
-                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-12 text-right">
-                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
+    </div>
+        <!--<div class="form-container modal fade" id="ask-form">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 col-offset-3">
+                <div class="well well-sm">
+                  <form class="form-horizontal" action="" method="post">
+                    <fieldset>
+                      <legend class="text-center">Contact us</legend>
+                      <div class="form-group">
+                        <label class="col-3 control-label" for="name">Name</label>
+                        <div class="col-9">
+                          <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-3 control-label" for="email">Your E-mail</label>
+                        <div class="col-9">
+                          <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-3 control-label" for="message">Your message</label>
+                        <div class="col-9">
+                          <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-12 text-right">
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>-->
+        </div>-->
 </section>
 
 <footer id="footer">
@@ -1754,16 +1361,25 @@
        href="https://www.youtube.com/c/OdessaJSConference">
         <i class="fa fa-youtube-play"></i>
     </a>
+    <a target="_blank" class="socials__link"
+       href="https://t.me/Cherni44ka">
+        <i class="fa fa-telegram"></i>
+    </a>
+    <a target="_blank" class="socials__link"
+       href="https://www.instagram.com/odessajsconf/">
+        <i class="fa fa-instagram"></i>
+    </a>
 </section>
 
 <a id="bot-link" href="https://www.messenger.com/t/odessajs" title="Odessia bot" target="_blank"></a>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/script.min.js" type="text/javascript"></script>
 <script src="./fb.js" type="text/javascript"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzoXopiOzGo8FIg2stF6gTn4yM5jo-Ups&callback=initMap"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116592399-1"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script>
     window.dataLayer = window.dataLayer || [];
 

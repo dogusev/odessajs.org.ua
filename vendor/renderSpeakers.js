@@ -455,48 +455,48 @@ $(document).ready(function () {
                 },
             ],
         },
-        {
-            image: "images/reporters/noemi-rozpara_cut.jpg",
-            name: "Noemi Rozpara",
-            position: "React Native Developer",
-            company: "Callstack.io",
-            country: "Poland",
-            city: "Wrocław",
-            rept: [
-                {
-                    title: "React Nativ, your UX superhero",
-                    description: 'I have one thesis for you: every programmer is also a UX guy. Do you agree? I hope I can convince you! I’ll talk about the following problems and solutions:' +
-                        '<ul>' +
-                        '<li>Why UX and good interface are not synonyms?</li>' +
-                        '<li>Why proper mobile development is so important for your business?</li>' +
-                        '<li>Why React Native is one of the best solutions?</li>' +
-                        '<li>How to create beautiful and efficient app at the same time?</li>' +
-                        '</ul>' +
-                        'I will show you the ways to improve your app performance.The presentation will contain live coding with React Navigation and React Native Reanimated usage examples. ',
-                    lang: "[EN]"
-                }
-            ],
-            aboutSpeaker: '',
-            socialsRendered: '',
-            socials: [
-                {
-                    link: 'https://twitter.com/noemi_rozpara',
-                    fatype: 'twitter'
-                },
-                {
-                    link: 'https://github.com/NoemiRozpara',
-                    fatype: 'github'
-                },
-                {
-                    link: 'https://www.linkedin.com/in/noemi-rozpara-044575159/',
-                    fatype: 'linkedin'
-                },
-                {
-                    link: 'https://www.facebook.com/noemirozpara',
-                    fatype: 'facebook'
-                },
-            ],
-        },
+        // {
+        //     image: "images/reporters/noemi-rozpara_cut.jpg",
+        //     name: "Noemi Rozpara",
+        //     position: "React Native Developer",
+        //     company: "Callstack.io",
+        //     country: "Poland",
+        //     city: "Wrocław",
+        //     rept: [
+        //         {
+        //             title: "React Nativ, your UX superhero",
+        //             description: 'I have one thesis for you: every programmer is also a UX guy. Do you agree? I hope I can convince you! I’ll talk about the following problems and solutions:' +
+        //                 '<ul>' +
+        //                 '<li>Why UX and good interface are not synonyms?</li>' +
+        //                 '<li>Why proper mobile development is so important for your business?</li>' +
+        //                 '<li>Why React Native is one of the best solutions?</li>' +
+        //                 '<li>How to create beautiful and efficient app at the same time?</li>' +
+        //                 '</ul>' +
+        //                 'I will show you the ways to improve your app performance.The presentation will contain live coding with React Navigation and React Native Reanimated usage examples. ',
+        //             lang: "[EN]"
+        //         }
+        //     ],
+        //     aboutSpeaker: '',
+        //     socialsRendered: '',
+        //     socials: [
+        //         {
+        //             link: 'https://twitter.com/noemi_rozpara',
+        //             fatype: 'twitter'
+        //         },
+        //         {
+        //             link: 'https://github.com/NoemiRozpara',
+        //             fatype: 'github'
+        //         },
+        //         {
+        //             link: 'https://www.linkedin.com/in/noemi-rozpara-044575159/',
+        //             fatype: 'linkedin'
+        //         },
+        //         {
+        //             link: 'https://www.facebook.com/noemirozpara',
+        //             fatype: 'facebook'
+        //         },
+        //     ],
+        // },
         {
             image: "images/reporters/nicolo-carpignoli.png",
             name: "Nicolò Carpignoli",
@@ -635,10 +635,10 @@ $(document).ready(function () {
         },
 
         {
-            image: "images/reporters/yoni-goldberg.jpg",
+            image: "images/reporters/yoni-goldberg.png",
             name: "Yoni Goldberg",
             position: "Architect Consultant",
-            company: "Independent Consultant",
+            company: "Yoni Goldberg",
             country: "Israel",
             city: "Haifa",
             rept: [

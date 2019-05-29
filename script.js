@@ -57,26 +57,54 @@ $(document).ready(function() {
   //   }
   // });
 
-    $('#speakers-carousel').carousel({
-        interval: 0
+    // $('#speakers-carousel').carousel({
+    //     interval: 0
+    // });
+    //
+    //
+    //
+    // $('.speakers .carousel .carousel-item').each(function(){
+    //   var slidesPerView =$(document).width() < 1024 ? 0 : 1;
+    //
+    //   var next = $(this);
+    //   for (var i=0;i<slidesPerView;i++) {
+    //     next = next.next();
+    //     if (!next.length) {
+    //       next = $(this).siblings(':first');
+    //     }
+    //     next.children(':first-child').clone().appendTo($(this));
+    //   }
+    // });
+
+    $('.program-committee-slider').slick({
+        infinite: true,
+        arrows: true,
+        slidesToShow: 4,
+        slidesToScroll:1,
+        //variableWidth: true
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 568,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
-
-    
-
-    $('.speakers .carousel .carousel-item').each(function(){
-      var slidesPerView =$(document).width() < 1024 ? 0 : 1;
-
-      var next = $(this);
-      for (var i=0;i<slidesPerView;i++) {
-        next = next.next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-      }
-    });
-
-    
 
 
   $('.reports__list-item-theme').click(function () {
