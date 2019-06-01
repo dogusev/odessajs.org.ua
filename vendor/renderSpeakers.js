@@ -497,38 +497,38 @@ $(document).ready(function () {
         //         },
         //     ],
         // },
-        {
-            image: "images/reporters/nicolo-carpignoli.png",
-            name: "Nicolò Carpignoli",
-            position: "Web Software Engineer",
-            company: "Chialab",
-            country: "Italy",
-            city: "Bologna",
-            rept: [
-                {
-                    title: "Cross Browser Augmented Reality on the Web in ten lines of HTML",
-                    description: 'It shows the potential of Open Source software. It is a great way to start with Augmented Reality, so basically everyone can build a cross browser AR app only knowing basics of HTML and Javascript.',
-                    lang: "[EN]"
-                }
-            ],
-            aboutSpeaker: '',
-            socialsRendered: '',
-            socials: [
-                {
-                    link: 'https://twitter.com/nicolocarp',
-                    fatype: 'twitter'
-                },
-                {
-                    link: 'https://github.com/nicolocarpignoli',
-                    fatype: 'github'
-                },
-                {
-                    link: 'https://www.linkedin.com/in/nicol%C3%B2-carpignoli/',
-                    fatype: 'linkedin'
-                },
-            ],
-
-        },
+        // {
+        //     image: "images/reporters/nicolo-carpignoli.png",
+        //     name: "Nicolò Carpignoli",
+        //     position: "Web Software Engineer",
+        //     company: "Chialab",
+        //     country: "Italy",
+        //     city: "Bologna",
+        //     rept: [
+        //         {
+        //             title: "Cross Browser Augmented Reality on the Web in ten lines of HTML",
+        //             description: 'It shows the potential of Open Source software. It is a great way to start with Augmented Reality, so basically everyone can build a cross browser AR app only knowing basics of HTML and Javascript.',
+        //             lang: "[EN]"
+        //         }
+        //     ],
+        //     aboutSpeaker: '',
+        //     socialsRendered: '',
+        //     socials: [
+        //         {
+        //             link: 'https://twitter.com/nicolocarp',
+        //             fatype: 'twitter'
+        //         },
+        //         {
+        //             link: 'https://github.com/nicolocarpignoli',
+        //             fatype: 'github'
+        //         },
+        //         {
+        //             link: 'https://www.linkedin.com/in/nicol%C3%B2-carpignoli/',
+        //             fatype: 'linkedin'
+        //         },
+        //     ],
+        //
+        // },
         {
             image: "images/reporters/martin_hochel_cut.png",
             name: "Martin Hochel",
@@ -741,6 +741,34 @@ $(document).ready(function () {
                 {
                     link: 'https://www.facebook.com/babichssofficial/',
                     fatype: 'facebook'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/artem_frantsiian.png",
+            name: "Artem Frantsiian",
+            position: "Chief Technology Officer",
+            company: "482.solutions",
+            country: "Ukraine",
+            city: "Odessa",
+            rept: [
+                {
+                    title: "Make your OdessaJS coin",
+                    description: 'Make your custom blockchain on Sawtooth framework and create blockexplorer for it. We will consider all parts of blockchain system: DLT and different consensus mechanisms, cryptography and blockchain as a technology, then build our own implementation of blockchain system via Sawtooth framework and JS and then create our blockexplorer on React.',
+                    lang: "[Workshop, EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.linkedin.com/in/artem-frantsiian/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/ArtemFrantsiian',
+                    fatype: 'github'
                 }
             ],
 
