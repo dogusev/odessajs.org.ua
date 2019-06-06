@@ -6,6 +6,12 @@ $(document).ready(function () {
             name: "Liran Tal",
             position: "Developer Advocate",
             company: "Snyk.io",
+            speakerPos: [
+                {
+                    position: "Developer Advocate",
+                    company: "Snyk.io",
+                },
+            ],
             country: "Israel",
             city: "Tel Aviv",
             rept: [
@@ -35,8 +41,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/joel-lord.jpeg",
             name: "Joel Lord",
-            position: "Technical Evangelist",
-            company: "Auth0",
+            speakerPos: [
+                {
+                    position: "Technical Evangelist",
+                    company: "Auth0"
+                },
+            ],
             country: "Canada",
             city: "Toronto",
             rept: [
@@ -78,8 +88,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/simona-cotin.png",
             name: "Simona Cotin",
-            position: "Senior Cloud Developer Advocate",
-            company: "Microsoft",
+            speakerPos: [
+                {
+                    position: "Senior Cloud Developer Advocate",
+                    company: "Microsoft",
+                },
+            ],             
             country: "UK",
             city: "London",
             rept: [
@@ -103,8 +117,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/eldar-dzhafarov.jpg",
             name: "Eldar Dzhafarov",
-            position: "CTO",
-            company: "Cross Platform Solutions GmbH",
+            speakerPos: [
+                {
+                    position: "CTO",
+                    company: "Cross Platform Solutions GmbH",
+                },
+            ],            
             country: "Germany",
             city: "Berlin",
             rept: [
@@ -128,10 +146,49 @@ $(document).ready(function () {
             ],
         },
         {
+            image: "images/reporters/aaron_bassett.jpg",
+            name: "Aaron Bassett",
+            speakerPos: [
+                {
+                    position: "Developer Advocate",
+                    company: "Nexmo",
+                },
+            ],
+            country: "Netherlands",
+            city: "The Hague",
+            rept: [
+                {
+                    title: "When your wetware has too many threads - Tips from an ADHDer on how to improve your focus",
+                    description: "Somewhere between 5% and 12% of adults have ADHD. Even if you do not have the disorder yourself you probably work, live or know someone who does. But the world is not designed for people with ADHD, so to be successful I’ve had to develop techniques to keep my concentration and procrastination in check.",
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/aaronbassett',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://instagram.com/aaronbassett',
+                    fatype: 'instagram'
+                },
+                {
+                    link: 'https://github.com/aaronbassett',
+                    fatype: 'github'
+                },
+            ],
+        },
+        {
             image: "images/reporters/diekussmall.jpg",
             name: "Diego González-Zúñiga",
-            position: "Senior Developer Advocate",
-            company: "Samsung",
+            speakerPos: [
+                {
+                    position: "Senior Developer Advocate",
+                    company: "Samsung",
+                },
+            ],
             country: "UK",
             city: "London",
             rept: [
@@ -154,8 +211,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/irina-ziakhor.jpeg",
             name: "Irina Ziakhor",
-            position: "Functional Lead & Front End Engineer",
-            company: "Very Good Security",
+            speakerPos: [
+                {
+                    position: "Functional Lead & Front End Engineer",
+                    company: "Very Good Security",
+                },
+            ],
             country: "Ukraine",
             city: "Kyiv",
             rept: [
@@ -186,8 +247,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/alexander-zinchuk.jpg",
             name: "Alexander Zinchuk",
-            position: "Executive Engineer",
-            company: "Anyway Labs",
+            speakerPos: [
+                {
+                    position: "Executive Engineer",
+                    company: "Anyway Labs",
+                },
+            ],
             country: "Spain",
             city: "Malaga",
             rept: [
@@ -220,8 +285,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/viktor-turskyi.jpg",
             name: "Viktor Turskyi",
-            position: "CEO and Solution architect",
-            company: "WebbyLab",
+            speakerPos: [
+                {
+                    position: "CEO and Solution architect",
+                    company: "WebbyLab",
+                },
+            ],
             country: "Ukraine",
             city: "Kyiv",
             rept: [
@@ -248,8 +317,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/christina-landvytovych.jpg",
             name: "Khrystyna Landvytovych",
-            position: "Frontend developer",
-            company: "UvoTeam",
+            speakerPos: [
+                {
+                    position: "Frontend developer",
+                    company: "UvoTeam",
+                },
+            ],
             country: "Ukraine",
             city: "Kyiv",
             rept: [
@@ -286,8 +359,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/farzad-zadeh.jfif",
             name: "Farzad Yousef Zadeh",
-            position: "Senior Software Engineer",
-            company: "Futurice",
+            speakerPos: [
+                {
+                    position: "Senior Software Engineer",
+                    company: "Futurice",
+                },
+            ],
             country: "Finland",
             city: "Helsinki",
             rept: [
@@ -317,8 +394,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/maurizio-mangione.jpg",
             name: "Maurizio Mangione",
-            position: "Developer Advocate",
-            company: "DAZN",
+            speakerPos: [
+                {
+                    position: "Developer Advocate",
+                    company: "DAZN",
+                },
+            ], 
             country: "The Netherlads",
             city: "Amsterdam",
             rept: [
@@ -353,8 +434,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/jamie_maria.jpeg",
             name: "Jamie Maria Schouren",
-            position: "Co-founder",
-            company: "Deity BV",
+            speakerPos: [
+                {
+                    position: "Co-founder",
+                    company: "Deity BV",
+                },
+            ],  
             country: "The Netherlands",
             city: "Eindhoven",
             rept: [
@@ -386,8 +471,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/lev-vidrak.png",
             name: "Lev Vidrak",
-            position: "Leading the Guild-Masters Team",
-            company: "Wix",
+            speakerPos: [
+                {
+                    position: "Leading the Guild-Masters Team",
+                    company: "Wix",
+                },
+            ], 
             country: "Israel",
             city: "Tel-Aviv",
             rept: [
@@ -421,8 +510,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/christian-gill.jpeg",
             name: "Christian Gill",
-            position: "Senior Software Engineer, Team Lead",
-            company: "HousingAnywhere",
+            speakerPos: [
+                {
+                    position: "Senior Software Engineer, Team Lead",
+                    company: "HousingAnywhere",
+                },
+            ], 
             country: "Netherlands",
             city: "Rotterdam",
             rept: [
@@ -532,8 +625,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/martin_hochel_cut.png",
             name: "Martin Hochel",
-            position: "UI Tech Lead",
-            company: "TwistoCZ",
+            speakerPos: [
+                {
+                    position: "UI Tech Lead",
+                    company: "TwistoCZ",
+                },
+            ],            
             country: "Czech Republic",
             city: "Prague",
             rept: [
@@ -564,8 +661,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/alfredo_lopez.jpeg",
             name: "Alfredo Lopez",
-            position: "Director of Engineering",
-            company: "Hearst",
+            speakerPos: [
+                {
+                    position: "Director of Engineering",
+                    company: "Hearst",
+                },
+            ],            
             country: "USA",
             city: "New York",
             rept: [
@@ -599,8 +700,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/alexandra-kalinina_cut.jpg",
             name: "Alexandra Kalinina",
-            position: " Fullstack JS developer",
-            company: "Valor Software",
+            speakerPos: [
+                {
+                    position: " Fullstack JS developer",
+                    company: "Valor Software",
+                },
+            ],             
             country: "Ukraine",
             city: "Kharkiv",
             rept: [
@@ -637,8 +742,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/yoni-goldberg.png",
             name: "Yoni Goldberg",
-            position: "Architect Consultant",
-            company: "Yoni Goldberg",
+            speakerPos: [
+                {
+                    position: "Architect Consultant",
+                    company: "Yoni Goldberg",
+                },
+            ],             
             country: "Israel",
             city: "Haifa",
             rept: [
@@ -670,8 +779,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/niels_leenheer.jpg",
             name: "Niels Leenheer",
-            position: "CTO",
-            company: "Salonhub",
+            speakerPos: [
+                {
+                    position: "CTO",
+                    company: "Salonhub",
+                },
+            ],             
             country: "The Netherlands",
             city: "Groningen",
             rept: [
@@ -703,8 +816,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/ilya_zaprutski.png",
             name: "Ilya Zaprutski",
-            position: "Team Lead",
-            company: "iTechArt",
+            speakerPos: [
+                {
+                    position: "Team Lead",
+                    company: "iTechArt",
+                },
+            ],            
             country: "Belarus",
             city: "Minsk",
             rept: [
@@ -724,8 +841,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/babich.jpg",
             name: "Sergiy Babich",
-            position: "CEO",
-            company: "GlobalCSS",
+            speakerPos: [
+                {
+                    position: "CEO",
+                    company: "GlobalCSS",
+                },
+            ],
             country: "Ukraine",
             city: "Lviv",
             rept: [
@@ -748,8 +869,12 @@ $(document).ready(function () {
         {
             image: "images/reporters/artem_frantsiian.png",
             name: "Artem Frantsiian",
-            position: "Chief Technology Officer",
-            company: "482.solutions",
+            speakerPos: [
+                {
+                    position: "Chief Technology Officer",
+                    company: "482.solutions",
+                },
+            ],
             country: "Ukraine",
             city: "Odessa",
             rept: [
@@ -776,8 +901,16 @@ $(document).ready(function () {
         {
             image: "images/reporters/karthickeyan_narasimhan.png",
             name: "Karthickeyan Narasimhan",
-            position: "Senior Software Engineer",
-            company: "Freshworks Inc",
+            speakerPos: [
+                {
+                    position: "Senior Software Engineer",
+                    company: "Freshworks Inc",
+                },
+                {
+                    position: "Tech Speaker",
+                    company: "Mozilla",
+                },
+            ],
             country: "India",
             city: "Chennai",
             rept: [
@@ -821,8 +954,12 @@ $(document).ready(function () {
         " <div class='speakers-slide__img-wrapper'>" + "<img src='${image}' alt=''>" +
         "</div> <div class='speakers-slide__info-wrapper'> <div class='speakers-slide__info'>" +
         "<h3 class='speakers-slide__info-title'><span class='speakers-slide__info-title-name' itemprop='name' >${name}</span></h3>" +
-        "<p class='speakers-slider__info__place-of-work'><span class='speakers-slider__info-position' itemprop='jobTitle'>${position} @</span>" +
-        "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>${company}</u></span></p>" +
+        "<p class='speakers-slider__info__place-of-work'>" +
+        '{{each speakerPos }} ' +
+        "<span class='speakers-slider__info-position' itemprop='jobTitle'>{{html $value.position}}@</span>" +
+        "<span class='speakers-slider__info-company' itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'><u itemprop='name'>{{html $value.company}}</u></span> </br>" +
+        '{{/each}}' +
+        "</p>" +
         "<p class='speakers-slider__info__place'><span class='speakers-slider__info-country' >${country}, </span>" +
         "<span class='speakers-slider__info-city' '>${city}</span></p>" +
         "<p class='speakers-slider__info-rept font-weight-bold'>{{each rept }} {{html $value.title}} {{/each}} <span class='info-rept__lang'>{{each rept }} {{html $value.lang}} {{/each}}</span></br> </br></p>" +
