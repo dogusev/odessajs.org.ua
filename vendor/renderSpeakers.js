@@ -146,6 +146,41 @@ $(document).ready(function () {
             ],
         },
         {
+            image: "images/reporters/aaron_bassett.jpg",
+            name: "Aaron Bassett",
+            speakerPos: [
+                {
+                    position: "Developer Advocate",
+                    company: "Nexmo",
+                },
+            ],
+            country: "Netherlands",
+            city: "The Hague",
+            rept: [
+                {
+                    title: "When your wetware has too many threads - Tips from an ADHDer on how to improve your focus",
+                    description: "Somewhere between 5% and 12% of adults have ADHD. Even if you do not have the disorder yourself you probably work, live or know someone who does. But the world is not designed for people with ADHD, so to be successful I’ve had to develop techniques to keep my concentration and procrastination in check.",
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/aaronbassett',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://instagram.com/aaronbassett',
+                    fatype: 'instagram'
+                },
+                {
+                    link: 'https://github.com/aaronbassett',
+                    fatype: 'github'
+                },
+            ],
+        },
+        {
             image: "images/reporters/diekussmall.jpg",
             name: "Diego González-Zúñiga",
             speakerPos: [
