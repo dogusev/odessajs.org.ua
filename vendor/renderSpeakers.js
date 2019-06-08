@@ -834,7 +834,26 @@ $(document).ready(function () {
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
-
+                {
+                    link: 'https://www.facebook.com/ilya.zaprutski',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/IlyaZaprutski',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/ilya-zaprutski-253ab887/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.instagram.com/ilya.zaprutski/',
+                    fatype: 'instagram'
+                },
+                {
+                    link: 'https://github.com/IlyaZaprutski',
+                    fatype: 'github'
+                }
             ],
 
         },
