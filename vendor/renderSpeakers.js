@@ -487,7 +487,7 @@ $(document).ready(function () {
                         "At Wix.com we are building our mobile app with React Native from the first commit almost three years ago. Scaling a production-grade application, brought us to understand the real cost-benefit of React Native.<br></br>" +
 
                         "In this talk, we'll start by reviewing React Native's main concepts and understand it's architecture. Continue by covering its great benefits, the challenges we overcome, and those we are still facing.",
-                    lang: "[EN]"
+                    lang: "[RU]"
                 }
             ],
             aboutSpeaker: '',
@@ -952,6 +952,42 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://www.linkedin.com/in/hellokarthic/',
+                    fatype: 'linkedin'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/anton_pets.png",
+            name: "Anton Pets",
+            speakerPos: [
+                {
+                    position: "Front-end Software Engineer",
+                    company: "Grammarly",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "How FP made Grammarly codebase error-prone and predictable",
+                    description: 'Developing frontend applications is not simple because crafting UI systems with a complex mutable state spread across the network is inherently difficult. This problem is still very new and thus does not have clear answers.At Grammarly, we have found the methodology that lets us tackle this complexity while keeping our codebase error-prone and predictable. Our approach combines the pragmatic usage of functional programming with static typing. I will start this talk from a gentle introduction to the world of Functional Programming. Then, I will walk you through the real examples of an FP usage in the codebase of Grammarly web editor. I will show you how functional programming can solve typical frontend problems in an effective and elegant way.',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/oopets',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/oopets',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/anton-pets-58b67028/',
                     fatype: 'linkedin'
                 }
             ],
