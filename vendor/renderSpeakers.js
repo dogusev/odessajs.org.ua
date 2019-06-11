@@ -4,8 +4,6 @@ $(document).ready(function () {
         {
             image: "images/reporters/liran-tal.png",
             name: "Liran Tal",
-            position: "Developer Advocate",
-            company: "Snyk.io",
             speakerPos: [
                 {
                     position: "Developer Advocate",
