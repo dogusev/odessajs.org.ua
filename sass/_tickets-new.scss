@@ -184,6 +184,7 @@
                 right: 35%;
                 z-index: 10;
                 transition: 0.3s all ease-out;
+                box-shadow: 30px -15px 30px -20px rgba(0,0,0,0.1);
                 &:hover{
                     z-index: 12;
                     transform: scale(1.1);
