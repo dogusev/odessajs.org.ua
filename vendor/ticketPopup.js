@@ -6,6 +6,34 @@ $(document).ready(function(){
 
     var tickets = [
         {
+            title: "Late Bird Ticket",
+            price: "5000",
+            currency: "uah" ,
+            action: "buy ticket",
+            options: [
+                {
+                    main: '2 tracks of talks and tech corners',
+                    additional: ''
+                },
+                {
+                    main: 'Bicycle tour',
+                    additional: ''
+                },
+                {
+                    main: 'Pre-party',
+                    additional: ' (Soft skill deelopment)'
+                },
+                {
+                    main: 'Morning yoga',
+                    additional: ''
+                },
+                {
+                    main: 'Afterparty',
+                    additional: ''
+                },
+            ],
+        },
+        {
             title: "Regular ticket",
             price: "4000",
             currency: "uah" ,
@@ -88,19 +116,7 @@ $(document).ready(function(){
                     additional: ''
                 },
             ],
-        },
-        {
-            title: "WORKSHOPS TICKET",
-            price: "",
-            currency: "" ,
-            action: "buy ticket",
-            options: [
-                {
-                    main: 'Tickets for workshops are sold separately from conference ticket',
-                    additional: ''
-                },
-            ],
-        },
+        }
     ];
 
 
