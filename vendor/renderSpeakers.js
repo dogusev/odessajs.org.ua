@@ -91,7 +91,7 @@ $(document).ready(function () {
                     position: "Senior Cloud Developer Advocate",
                     company: "Microsoft",
                 },
-            ],             
+            ],
             country: "UK",
             city: "London",
             rept: [
@@ -120,7 +120,7 @@ $(document).ready(function () {
                     position: "CTO",
                     company: "Cross Platform Solutions GmbH",
                 },
-            ],            
+            ],
             country: "Germany",
             city: "Berlin",
             rept: [
@@ -397,7 +397,7 @@ $(document).ready(function () {
                     position: "Developer Advocate",
                     company: "DAZN",
                 },
-            ], 
+            ],
             country: "The Netherlads",
             city: "Amsterdam",
             rept: [
@@ -437,7 +437,7 @@ $(document).ready(function () {
                     position: "Co-founder",
                     company: "Deity BV",
                 },
-            ],  
+            ],
             country: "The Netherlands",
             city: "Eindhoven",
             rept: [
@@ -474,7 +474,7 @@ $(document).ready(function () {
                     position: "Leading the Guild-Masters Team",
                     company: "Wix",
                 },
-            ], 
+            ],
             country: "Israel",
             city: "Tel-Aviv",
             rept: [
@@ -513,7 +513,7 @@ $(document).ready(function () {
                     position: "Senior Software Engineer, Team Lead",
                     company: "HousingAnywhere",
                 },
-            ], 
+            ],
             country: "Netherlands",
             city: "Rotterdam",
             rept: [
@@ -628,7 +628,7 @@ $(document).ready(function () {
                     position: "UI Tech Lead",
                     company: "TwistoCZ",
                 },
-            ],            
+            ],
             country: "Czech Republic",
             city: "Prague",
             rept: [
@@ -664,7 +664,7 @@ $(document).ready(function () {
                     position: "Director of Engineering",
                     company: "Hearst",
                 },
-            ],            
+            ],
             country: "USA",
             city: "New York",
             rept: [
@@ -703,7 +703,7 @@ $(document).ready(function () {
                     position: " Fullstack JS developer",
                     company: "Valor Software",
                 },
-            ],             
+            ],
             country: "Ukraine",
             city: "Kharkiv",
             rept: [
@@ -745,7 +745,7 @@ $(document).ready(function () {
                     position: "Architect Consultant",
                     company: "Yoni Goldberg",
                 },
-            ],             
+            ],
             country: "Israel",
             city: "Haifa",
             rept: [
@@ -782,7 +782,7 @@ $(document).ready(function () {
                     position: "CTO",
                     company: "Salonhub",
                 },
-            ],             
+            ],
             country: "The Netherlands",
             city: "Groningen",
             rept: [
@@ -819,7 +819,7 @@ $(document).ready(function () {
                     position: "Team Lead",
                     company: "iTechArt",
                 },
-            ],            
+            ],
             country: "Belarus",
             city: "Minsk",
             rept: [
@@ -1113,26 +1113,32 @@ $(document).ready(function () {
         if (speakerData) {
             var speakerAvatar = speakerData.image,
                 speakerName = speakerData.name,
-                speakerPosition = speakerData.position,
+                speakerPos = speakerData.speakerPos,
                 speakerCompany = speakerData.company,
                 speakerCountry = speakerData.country,
                 speakerCity = speakerData.city,
                 reports = speakerData.rept,
                 reportsContent = '',
+                positionContent = '',
                 speakerAboutText = speakerData.aboutSpeaker;
 
             reports.forEach(function (item, i, arr) {
                 reportsContent += '<h2 class="modal-body__title">' + item.title + '<span class="title__lang">' + item.lang + '</span>' + '</h2>' + '<div class="modal-body__text">' + item.description + '</div>';
             });
 
+            speakerPos.forEach(function (item, i, arr) {
+                positionContent += '<p class="speaker-position">' + item.position + '<span >' + item.company + '</span>' + '</p>';
+            });
+
             speakerAvatar && $modalSpeakerAvatar.attr('src', speakerAvatar);
             speakerName && $modalNameElement.text(speakerName);
-            speakerPosition && $modalSpeakerPosition.text(speakerPosition);
+            // speakerPosition && $modalSpeakerPosition.text(speakerPosition.position, speakerPosition.company);
             speakerCompany && $modalSpeakerCompany.text(speakerCompany);
             speakerCountry && $modalSpeakerCountry.text(speakerCountry);
             speakerCity && $modalSpeakerCity.text(speakerCity);
 
             reportsContent && $modalreportsContainer.html(reportsContent);
+            positionContent && $modalSpeakerPosition.html(positionContent);
 
             speakerAboutText && $modalSpeakerAboutText.find('.modal-body__text').text(speakerAboutText).end().toggle(true);
             $modalSpeakerLinks.html($speakerInfoBlock.find('.speakers-slide__info-links').html());
