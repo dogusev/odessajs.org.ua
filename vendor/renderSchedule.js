@@ -1,45 +1,45 @@
 $(document).ready(function () {
 
   var talks6july = [
-    {time: '16:00 - 16:30', author: '', title: 'Registration and welcome drinks'},
-    {time: '16:30 - 17:00', author: 'Eyal Eizenberg **', title: 'The Psychology of building your first open source. [en]'},
-    {time: '17:00 - 17:30', author: 'Aleksandr Khokhlov ***', title: 'Do not chase the hype train. Just steal ideas.'},
-    {time: '17:30 - 18:00', author: 'Aleksandra Shinkevich and Nikita Dubko *', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer. [ru]'},
-    {time: '18:00 - 18:30', author: 'Mike MacCana **', title: 'Deploying your JS app in 2018 [en]'},
-    {time: '18:30 - 19:00', author: 'Denis Radin ***', title: 'Let`s write your first pixel shader. [ru]'},
-    {time: '19:00', author: '', title: 'Q&A Session'}
+    // {time: '16:00 - 16:30', author: '', title: 'Registration and welcome drinks'},
+    // {time: '16:30 - 17:00', author: 'Eyal Eizenberg **', title: 'The Psychology of building your first open source. [en]'},
+    // {time: '17:00 - 17:30', author: 'Aleksandr Khokhlov ***', title: 'Do not chase the hype train. Just steal ideas.'},
+    // {time: '17:30 - 18:00', author: 'Aleksandra Shinkevich and Nikita Dubko *', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer. [ru]'},
+    // {time: '18:00 - 18:30', author: 'Mike MacCana **', title: 'Deploying your JS app in 2018 [en]'},
+    // {time: '18:30 - 19:00', author: 'Denis Radin ***', title: 'Let`s write your first pixel shader. [ru]'},
+    // {time: '19:00', author: '', title: 'Q&A Session'}
   ];
 
   var talks7july = [
     {
-      time: '07:45 - 09:00',
+      time: '07:00 - 08:00',
       talks: [
-        {author: '', title: 'Yoga'}
+        {author: '', title: 'Morning Yoga'}
       ]
     },
     {
-      time: '08:30 - 09:30',
+      time: '08:00 - 09:30',
       talks: [
         {author: '', title: 'Registration'}
       ]
     },
     {
-      time: '09:30 - 10:00',
+      time: '09:30 - 10:10',
       talks: [
-        {place: 'Hall A', author: 'Gerard Sans ***', title: 'Advanced State Management using ngrx v5. [en]'},
-        {place: 'Hall B', author: 'Artem Zakharchenko *', title: 'What I have to do at OdessaJS Conference. [TechCorner] [ru]'},
+        {place: 'Hall A', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
+        {place: 'Hall B', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
         {place: '', author: '', title: ''}
 
       ]
     },
     {
-      time: '10:00 - 10:10',
+      time: '10:10 - 10:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '10:10 - 10:40',
+      time: '10:20 - 11:00',
       talks: [
         {place: 'Hall A', author: 'Roman Rodomansky and Andrew Yasinishyn ***', title: 'The New Media and What It Takes to Create a News Website in 2018. [ua]'},
         {place: 'Hall B', author: 'Andrey Kucherenko ***', title: 'Copy paste detector for 150+ languages on JavaScript. [ru]'},
