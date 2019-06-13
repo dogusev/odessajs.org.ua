@@ -12,19 +12,19 @@ $(document).ready(function () {
 
   var talks7july = [
     {
-      time: '07:00 - 08:00',
+      time: '07:00-08:00',
       talks: [
         {author: '', title: 'Morning Yoga'}
       ]
     },
     {
-      time: '08:00 - 09:30',
+      time: '08:00-09:30',
       talks: [
         {author: '', title: 'Registration'}
       ]
     },
     {
-      time: '09:30 - 10:10',
+      time: '09:30-10:10',
       talks: [
         {place: 'Hall A', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
         {place: 'Hall B', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
@@ -33,350 +33,251 @@ $(document).ready(function () {
       ]
     },
     {
-      time: '10:10 - 10:20',
+      time: '10:10-10:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '10:20 - 11:00',
+      time: '10:20-11:00',
       talks: [
-        {place: 'Hall A', author: 'Roman Rodomansky and Andrew Yasinishyn ***', title: 'The New Media and What It Takes to Create a News Website in 2018. [ua]'},
-        {place: 'Hall B', author: 'Andrey Kucherenko ***', title: 'Copy paste detector for 150+ languages on JavaScript. [ru]'},
-        {place: 'Hall C', author: 'Gerard Sans', title: ''}
-      ]
-    },
-    {
-      time: '10:40 - 10:50',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '10:50 - 11:20',
-      talks: [
-        {place: 'Hall A', author: 'Ivan Jovanovic ***', title: 'Serverless - the way microservices should be. [en]'},
-        {place: 'Hall B', author: 'Sergiy Babich', title: 'Mutilation and suffering: How I decided to create a project using only Web Components without any framework. [ua]'},
+        {place: 'Hall A', author: 'Niels Leenheer (all)', title: 'Fun with Bluetooth [EN]'},
+        {place: 'Hall B', author: 'Alexander Zinchuk (mid-sr)', title: 'Specification-Driven Development of REST APIs [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '11:20 - 11:35',
+      time: '11:00-11:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:35 - 12:15',
+      time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Yuriy Sherstyuk **', title: 'Algorithms  in Front End: from V8 to VDOM. [ru]'},
-        {place: 'Hall B', author: 'Ksenia Redunova **', title: 'Estimates: is there a silver bullet? [TechCorner] [ru]'},
-        {place: 'Hall C', author: 'Ivan Jovanovic', title: ''}
-      ]
-    },
-    {
-      time: '12:15 - 12:25',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '12:25 - 12:55',
-      talks: [
-        {place: 'Hall A', author: 'Nik Graf **', title: 'Get started with Reason and ReasonReact. [en]'},
-        {place: 'Hall B', author: 'Alex Migutsky *', title: 'Architecture evolution of Microsoft To-Do web app. [TechCorner + slides] [ru]'},
+        {place: 'Hall A', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
+        {place: 'Hall B', author: 'Valerii Sorokobatko (mid)', title: ''},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '12:55 - 13:05',
+      time: '12:00-12:10',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '13:05 - 13:45',
+      time: '12:10-12:50',
       talks: [
-        {place: 'Hall A', author: 'Rowdy Rabouw **', title: 'Unleash your web skills on native. [en]'},
-        {place: 'Hall B', author: 'Valentine Mezentsev, Gleb Dobzhanskyi, Vitalii Hurin *', title: 'Bot Building: channels, platforms, NLU. [TechCorner] [Ru]'},
-        {author: 'Nik Graf', title: ''}
-        ]
+        {place: 'Hall A', author: 'To be defined', title: ''},
+        {place: 'Hall B', author: 'Maurizio Mangione (all)', title: 'Progressive Web Apps [EN]'},
+        {place: '', author: '', title: ''}
+      ]
     },
     {
-      time: '13:45 - 14:45',
+      time: '12:50-15:00',
       talks: [
         {author: '', title: 'Lunch'}
       ]
     },
     {
-      time: '14:45 - 15:15',
+      time: '15:00-15:40',
       talks: [
-        {place: 'Hall A', author: 'Eyal Eizenberg **', title: 'Redux-cornell. [en]'},
-        {place: 'Hall B', author: 'Andrew Mykhaliuk **', title: 'Excuse me, I have to assemble Frontend.'},
-        {author: 'Rowdy Rabouw', title: ''}
-        ]
+        {place: 'Hall A', author: 'To be defined', title: ''},
+        {place: 'Hall B', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
+        {place: '', author: '', title: ''}
+      ]
     },
     {
-      time: '15:15-15:25',
+      time: '15:40-15:50',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '15:25-16:00',
+      time: '15:50-16:30',
       talks: [
-        {place: 'Hall A', author: 'Nikita Dubko ***', title: 'Houdini - css which is JavaScript. [ru]'},
-        {place: 'Hall B', author: 'Philip Shurpik **', title: 'OK Google. What\'s next?. [Tech Corner] [ru]'},
+        {place: 'Hall A', author: 'Aaron Basset (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
+        {place: 'Hall B', author: 'Anton Pets (mid)', title: 'How FP made Grammarly codebase error-prone and predictable [RU]'},
         {author: '', title: ''}
         ]
     },
     {
-      time: '16:00-16:15',
+      time: '16:30-16:40',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '16:15-16:45',
+      time: '16:40-17:20',
       talks: [
-        {place: 'Hall A', author: 'Patrick Kettner **', title: 'JavaScript without javascript. [en]'},
+        {place: 'Hall A', author: 'Alfredo Lopez (mid)', title: 'Think Fast, First: Empowering a Performance Culture [EN]'},
         {place: '', author: '', title: ''},
-        {place: '', author: '', title: ''}
-      ]
-    },
-    {
-      time: '16:45-16:55',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '16:55-17:35',
-      talks: [
-        {place: 'Hall A', author: 'David Kopal **', title: 'Unleash the power of the higher-order components. [en]'},
-        {place: 'Hall B', author: 'Arkadiy Pilguk ***', title: 'Real-world application of computer vision and machine. [ru]'},
-        {author: 'Patrick Kettner', title: ''}
-      ]
-    },
-    {
-      time: '17:35-17:45',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '17:45-18:15',
-      talks: [
-        {place: 'Hall A', author: 'Ilya Ivanov **', title: 'Advanced React-Native. [ru]'},
-        {place: 'Hall B', author: 'Oleg Chorny ***', title: 'Cloud Native Observability. [ru]'},
-        {author: 'David Kopal', title: ''}
+        {author: '', title: ''}
         ]
     },
     {
-      time: '18:15-18:25',
+      time: '17:20 - 17:40',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '18:25-18:55',
+      time: '17:40 - 18:20',
       talks: [
-        {place: 'Hall A', author: 'Henning Muszynski **', title: 'The ABC of Coded Style Guides. [en]'},
-        {place: 'Hall B', author: 'Denys Dovhan **', title: 'Automating GitHub workflow with probot. [ua]'},
-        {place: '', author: '', title: ''}
+        {place: 'Hall A', author: 'Jamie Maria Schouren (all)', title: 'The search for App-iness : Progressive Web Apps [EN]'},
+        {place: 'Hall B', author: 'Eldar Dzhafarov (mid-sr)', title: 'The Code [RU]'},
+        {author: '', title: ''}
+        ]
+    },
+    {
+      time: '18:20-18:30',
+      talks: [
+        {author: '', title: 'Break'}
       ]
     },
     {
-      time: '20:00',
+      time: '18:30-19:00',
       talks: [
-        {author: '', title: 'Afterparty with drinks and snacks.'}
+        {author: '', title: 'Sponsors\' Prizes Raffle'}
+      ]
+    },
+    {
+      time: '19:00-22:00',
+      talks: [
+        {author: '', title: 'Afterparty '}
       ]
     }
   ];
 
   var talks8july = [
+    // {
+    //   time: '08:30 - 09:30',
+    //   talks: [
+    //     {author: '', title: 'Yoga'}
+    //   ]
+    // },
     {
-      time: '08:30 - 09:30',
-      talks: [
-        {author: '', title: 'Yoga'}
-      ]
-    },
-    {
-      time: '09:30 - 10:10',
+      time: '9:30-10:10',
       talks: [      
-        {place: 'Hall A', author: 'Gabriel Mičko', title: 'WebRTC talk for OdessaJS. [en]'},
-        {place: 'Hall B', author: 'Mihail Zachepilo ***', title: 'WebAssembly powered Machine Learning. [ru]'}
+        {place: 'Hall A', author: 'Joel Lord (all)', title: 'I Don\'t Care About Security (And Neither Should You) [EN]'},
+        {place: 'Hall B', author: 'Roman Sachenko (mid)', title: ''},
       ],
       workshops: [
-        // {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
-        {place: 'Hall С - workshop', author: 'Valentine Mezentsev, Gleb Dobzhanskyi **', title: '<b>Workshop <br> 10:00 - 13:00</b> Bot Battle: Google Home vs Alexa. [ru]'},
-        {place: 'Hall D - workshop', author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov *', title: '<b>Workshop <br> 09:00-16:00</b> Software Engendering Fundamentals for JavaScript Developers. [ru]'},
-        {place: 'Hall E - workshop', author: 'Alex Migutsky', title: '<b>Workshop <br> 09:00 - 12:00 </b> Growing your career as software engineer. [ru]'}
+        {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
+        {place: '', author: '', title: ''},
       ]
     },
     {
-      time: '10:10 - 10:20',
+      time: '10:10-10:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '10:20 - 10:50',
+      time: '10:20-11:00',
       talks: [
-        {place: 'Hall A', author: 'Viktor Turskyi **', title: 'How to create a VR application with React. [en]'},
-        {place: 'Hall B', author: 'Denis Artyuhovich **', title: 'Evolution of Web Performance. [ru]'},
+        {place: '', author: '', title: ''},
+        {place: 'Hall B', author: 'Yoni Goldberg (mid)', title: '5 advanced & shiny testing techniques [EN]'},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '10:50 - 11:00',
+      time: '11:00-11:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:00 - 11:40',
+      time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Ivan Jovanovic ***', title: 'Introduction to Micro Frontends. [en]'},
-        {place: 'Hall B', author: 'Ivan Goncharov **', title: 'W.T.F. is GraphQL? [ua]'},
+        {place: 'Hall A', author: 'Oleksandra Kalinina', title: 'Mental debugging tips & tricks [RU]'},
+        {place: '', author: '', title: ''},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '11:40 - 11:55',
+      time: '12:00-12:10',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:55 - 12:25',
+      time: '12:10 - 12:50',
       talks: [
-        {place: 'Hall A', author: 'Rustam Aliyev and Ivan Martynov **', title: 'From monolith web app to micro-frontends – How we extended microservices architecture to frontend. [en/ru]'},
-        {place: 'Hall B', author: 'Savitskyi Roman *', title: 'Chrome Dev Tools. New & Tips. [ua]'},
+        {place: 'Hall A', author: 'Diego González-Zúñiga', title: 'Immersive Web [EN]'},
+        {place: '', author: '', title: ''},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '12:25 - 12:35',
+      time: '12:50-15:00',
       talks: [
-        {author: '', title: 'Break'}
+        {author: '', title: 'Lunch'}
       ]
     },
     {
-      time: '12:35 - 13:05',
+      time: '15:00-15:40',
       talks: [
-        {place: 'Hall A', author: 'Patrick Kettner *', title: 'Creating magic with houdini. [en]'},
-        {place: 'Hall B', author: 'Leonid Baida **', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'},
+        {place: 'Hall A', author: 'Christian Gill (jun-mid)', title: 'Functional programming for the people [EN]'},
+        {place: 'Hall B', author: 'Ilya Zaprutsky', title: 'The Art of Node.js or how to do something cool using public data [RU]'},
 
         // {place: 'Hall B', author: 'Roman Rodomansky ***', title: 'Processes automation within the company. [Tech Corner] [ua]'},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '13:05 - 13:15',
+      time: '15:40-15:50',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '13:15 - 13:45',
+      time: '15:50-16:30',
       talks: [
-        {place: 'Hall A', author: 'Asim Hussain ***', title: 'How to scale an SPA to 1M views for $1? [en]'},
-        {place: 'Hall B', author: 'Aleksandr Shushunov **', title: 'Let\'s kill lifecycle. [ru]'},
-        {place: 'Hall C', author: 'Gerard Sans', title: 'Global Diversity CFP Day Odessa [en]'}
-      ]
-    },
-    {
-      time: '13:45 - 14:45',
-      talks: [
-        {author: '', title: 'Lunch'}
-      ]
-    },
-    {
-      time: '14:45 - 15:15',
-      talks: [
-        {place: 'Hall A', author: 'Aleksandra Shinkevich', title: 'Development standards: a step-by-step guide to implement it without pain'},
-        {place: 'Hall B', author: 'Alex Troush ***', title: 'The existential crisis in a blockchain era. [ru]'},
-        {place: '', author: '', title: ''}
-      ]
-    },
-    {
-      time: '15:15 - 15:25',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '15:25 - 15:55',
-      talks: [
-        {place: 'Hall A', author: 'Valerii Sorokobatko ***', title: 'Passing strings using (in)finite-state-machine and prepack. [ru]'},
-        {place: 'Hall B', author: 'Oleksandr Skachkov ***', title: 'WebAssembly vs JavaScript: What is faster? [ru]'},
-        {place: '', author: '', title: ''}
-      ]
-    },
-    {
-      time: '15:55 - 16:10',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '16:10 - 16:40',
-      talks: [
-        {place: 'Hall A', author: 'Radoslav Stankov **', title: 'React Refactoring Patterns. [en]'},
-        {place: 'Hall B', author: 'Valentyn Barmashyn **', title: 'RxJS in React, RxJS in Angular and why we all should be friends. [ru]'},
-        {place: '', author: '', title: ''}
-      ]
-    },
-    {
-      time: '16:40 - 16:50',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '16:50 - 17:20',
-      talks: [
-        {place: 'Hall A', author: 'Haroen Viaene *', title: 'You’re probably making an API client. [en]'},
         {place: '', author: '', title: ''},
-        {place: 'Hall C', author: 'Yuriy Sherstyuk', title: 'Full-Time Remote Only [Tech Corner] [ru]'},
-      ]
-    },
-    {
-      time: '17:20 - 17:30',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '17:30 - 18:00',
-      talks: [
-        {place: 'Hall A', author: 'Denis Radin ***', title: 'Mining crypto in browser_ GPU, WebAssembly and all the good things to try. [ru]'},
-        // {place: 'Hall A', author: 'Artem Zakharchenko *', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago. [ru]'},
-        // {place: 'Hall B', author: 'Leonid Baida **', title: 'Flow typing: your path from experiments to final implementation in an enterprise project. [ua]'},
-        {place: '', author: '', title: ''},
-        {place: 'Hall C', author: 'R. Rodomansky & A. Yasinishyn ***', title: 'Processes automation within the company. [Tech Corner] [ua]'}
-      ]
-    },
-    {
-      time: '18:00 - 18:10',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '18:10 - 18:40',
-      talks: [
-        {place: 'Hall A', author: 'Artem Zakharchenko *', title: 'What happens when you don\'t write the code. What advises would I like to take 10 years ago. [ru]'},
-        // {place: 'Hall B', author: 'Savitskyi Roman *', title: 'Chrome Dev Tools. New & Tips. [ua]'},
-        {place: '', author: '', title: ''},
+        {place: 'Hall B', author: 'Farzad Yousefzadeh (jun-mid)', title: 'Developing UIs without a UIs [EN]'},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '19:00 - 20:30',
+      time: '16:30-16:40',
       talks: [
-        {author: '', title: 'Speakers Dinner'}
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '16:40-17:20',
+      talks: [
+        {place: '', author: '', title: ''},
+        {place: 'Hall B', author: 'Irina Ziakhor ', title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'},
+        {place: '', author: '', title: ''}
+      ]
+    },
+    {
+      time: '17:20-17:40',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '17:40-18:20',
+      talks: [
+        {place: '', author: '', title: ''},
+        {place: 'Hall B', author: 'Liran Tal (all)', title: 'StrangerDanger: Finding Security Vulnerabilities Before They Find You! [EN]'},
+        {place: '', author: '', title: ''}
+      ]
+    },
+    {
+      time: '18:20-18:30',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+      time: '18:30-19:00',
+      talks: [
+        {author: '', title: 'Sponsors\' Prizes Raffle'}
       ]
     }
   ];
