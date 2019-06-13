@@ -34,8 +34,8 @@ $(document).ready(function(){
             ],
         },
         {
-            title: "Regular ticket",
-            price: "4000",
+            title: "One Day Ticket",
+            price: "2700",
             currency: "uah" ,
             action: "buy ticket",
             options: [
@@ -63,7 +63,7 @@ $(document).ready(function(){
         },
         {
             title: "Student ticket",
-            price: "2000",
+            price: "2500",
             currency: "uah" ,
             action: "buy ticket",
             options: [
