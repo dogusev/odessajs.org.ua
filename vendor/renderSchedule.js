@@ -55,8 +55,8 @@ $(document).ready(function () {
     {
       time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
-        {place: 'Hall B', author: 'Valerii Sorokobatko (mid)', title: ''},
+        {place: 'Hall A', author: 'Sergiy Babich (jun-mid) ', title: 'How to start enjoy your Angular Rx and NGRX [UA]'},
+        {place: 'Hall B', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -83,7 +83,7 @@ $(document).ready(function () {
     {
       time: '15:00-15:40',
       talks: [
-        {place: 'Hall A', author: 'To be defined', title: ''},
+        {place: '', author: '', title: ''},
         {place: 'Hall B', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
         {place: '', author: '', title: ''}
       ]
@@ -164,8 +164,8 @@ $(document).ready(function () {
         {place: 'Hall B', author: 'Roman Sachenko (mid)', title: ''},
       ],
       workshops: [
-        {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
-        {place: '', author: '', title: ''},
+        // {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
+        // {place: '', author: '', title: ''},
       ]
     },
     {
