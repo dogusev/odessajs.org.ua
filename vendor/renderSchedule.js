@@ -353,7 +353,6 @@ $(document).ready(function () {
     '        <div class="schedule__report-hall">' +
     '          {{html title }}' +
     '          <div class="schedule__reporter">${author}</div>' +
-    '          <div class="schedule__place">${place}</div>' +
     '         </div>';
   $.template("hallBlockTemplate", hallBlock);
 

@@ -991,6 +991,130 @@ $(document).ready(function () {
             ],
 
         },
+        {
+            image: "images/reporters/sorokobatko.jpg",
+            name: "Valerii Sorokobatko",
+            speakerPos: [
+                {
+                    position: "",
+                    company: "Wix",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "",
+                    description: '',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/tuchk4',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'http://twitter.com/tuchk4',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://github.com/tuchk4',
+                    fatype: 'github'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/saif_jerbi.jpg",
+            name: "Saif Jerbi",
+            speakerPos: [
+                {
+                    position: "Frontend Tech Lead",
+                    company: "Vermeg",
+                }
+            ],
+            country: "Tunisia",
+            city: "Tunis",
+            rept: [
+                {
+                    title: "Pluggable Web application using Angular and NodeJS",
+                    description: 'Let\'s learn together how we develop a pluggable angular app. We will develop a platform with a marketplace, from which the user can install some extension to the app. It will be mainly a dashboard, and the different widgets will be installed at runtime by the end user.',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/jerbi.saif',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/JerbiSaif',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/saifjerbi/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/SaifJerbi',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://stackoverflow.com/users/1368125/saif-jerbi',
+                    fatype: 'stackoverflow'
+                },
+                {
+                    link: 'https://medium.com/@SaifJerbi',
+                    fatype: 'link'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/klymyshyn.png",
+            name: "Maksym Klymyshyn",
+            speakerPos: [
+                {
+                    position: "Software Architect",
+                    company: "Takeoff Technologies",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "Handling partial failures in a distributed environment with Saga",
+                    description: 'Handle partial failures within a distributed environment of Microservices world using Saga approach. How to lower the probability of inconsistent state within the distributed system.',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/max.klymyshyn',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/maxmaxmaxmax',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://linkedin.com/in/klymyshyn/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/joymax',
+                    fatype: 'github'
+                }
+            ],
+
+        },
 
     ];
 
