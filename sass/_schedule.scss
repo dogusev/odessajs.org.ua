@@ -4,6 +4,12 @@
   //background: url('../images/ninja-bg.1.png') no-repeat 50% 0 #8b8b8b;
   //background-color: #8b8b8b;
 
+  .main_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: $primary;
+  }
+
   // Alex
   &__trueman {
     position: relative;
