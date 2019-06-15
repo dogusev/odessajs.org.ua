@@ -48,7 +48,7 @@ gulp.task('script-min', function () {
 
       //scripts
       'vendor/renderSpeakers.js',
-      'vendor/renderTrainings-old.js',
+      'vendor/renderTrainings.js',
       'vendor/renderKeyTopics.js',
       'vendor/renderSchedule.js',
       'vendor/ticketPopup.js',

@@ -1,33 +1,7 @@
 $(document).ready(function () {
 
-    var speakers = [
-        // {
-        //     image: "images/reporters/",
-        //     name: "",
-        //     speakerPos: [
-        //         {
-        //             position: "",
-        //             company: "",
-        //         },
-        //     ],
-        //     country: "",
-        //     city: "",
-        //     rept: [
-        //         {
-        //             title: "",
-        //             description: '',
-        //             lang: "[]"
-        //         }
-        //     ],
-        //     aboutSpeaker: '',
-        //     socialsRendered: '',
-        //     socials: [
-        //         {
-        //             link: '',
-        //             fatype: ''
-        //         }
-        //     ],
-        // },
+    var workshops = [
+
         {
             image: "images/reporters/karthickeyan_narasimhan.png",
             name: "Karthickeyan Narasimhan",
@@ -286,7 +260,6 @@ $(document).ready(function () {
                 }
             ],
         },
-
     ];
 
 
@@ -316,10 +289,10 @@ $(document).ready(function () {
 
 
 
-    function renderSpeakersCarousel() {
+    function renderWorkshopsCarousel() {
 
         // start render all
-        $.each(speakers, function (i, sp) {
+        $.each(workshops, function (i, sp) {
             $.each($.tmpl("socialsTemplate", sp.socials), function (a, i) { sp.socialsRendered += i.outerHTML; });
 
             if (sp.files) {
@@ -327,16 +300,16 @@ $(document).ready(function () {
             }
         });
 
-        var renderedSpeakers = [];
-        $.each($.tmpl("speakerTemplate", speakers), function (a, i) {
-            renderedSpeakers.push(i.outerHTML.replace('__ReplaceWithIndex', a));
+        var renderedWorkshops = [];
+        $.each($.tmpl("speakerTemplate", workshops), function (a, i) {
+            renderedWorkshops.push(i.outerHTML.replace('__ReplaceWithIndex', a));
         });
 
         var finalSliderHtml = '';
         var ifmobile = $(document).width() < 720;
         // var iftablet = $(document).width() < 960;
 
-        for (var i = 0; i < renderedSpeakers.length; i++) {
+        for (var i = 0; i < renderedWorkshops.length; i++) {
             var activeClass = '';
             // var colClass = iftablet ? (ifmobile ? 'col-10' : 'col-md-6') : 'col-lg-4';
             var colClass = 'col-10 col-sm-6 col-lg-4';
@@ -344,10 +317,10 @@ $(document).ready(function () {
                 activeClass = 'active';
             }
             finalSliderHtml += '<div class="speakers-slide ' + colClass + '" itemprop="performer" itemscope itemtype="http://schema.org/Person">';
-            finalSliderHtml += renderedSpeakers[i];
+            finalSliderHtml += renderedWorkshops[i];
 
-            // if(!ifmobile && renderedSpeakers[i+1]) {
-            //   finalSliderHtml+=renderedSpeakers[i+1];
+            // if(!ifmobile && renderedWorkshops[i+1]) {
+            //   finalSliderHtml+=renderedWorkshops[i+1];
             //   i++;
             // }
 
@@ -359,7 +332,7 @@ $(document).ready(function () {
         $('#workshopsSlider').html(finalSliderHtml);
     }
 
-    renderSpeakersCarousel();
+    renderWorkshopsCarousel();
 
     $(document).on('click', '[data-modal-trigger="#workshops-modal"]', function () {
         var $speakerInfoBlock = $(this);
@@ -403,7 +376,7 @@ $(document).ready(function () {
 
         });
 
-        var speakerData = speakers[speakerIndex];
+        var speakerData = workshops[speakerIndex];
 
         if (speakerData) {
             var speakerAvatar = speakerData.image,
