@@ -1043,6 +1043,102 @@ $(document).ready(function () {
             ],
 
         },
+        {
+            image: "images/reporters/sachenko.jpg",
+            name: "Roman Sachenko",
+            speakerPos: [
+                {
+                    position: "Software Engineer",
+                    company: "DA-14 Corp",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kharkiv",
+            rept: [
+                {
+                    title: "Serverless (AWS) - things I'd like to knew",
+                    description: 'I\'d like to bring to light a list of things I\'d want to know before I started my new project. Right before I decided to use the serverless architecture solution. So consequently I could get rid of the problems that forced me to change functionality again and again. I\'ll provide my experience starting from the basic stuff and finishing with security issues.',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/rsachenko',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/rsachenko',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/rsachenko/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.instagram.com/rsachenko/',
+                    fatype: 'instagram'
+                },
+                {
+                    link: 'https://github.com/roman-sachenko',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://stackoverflow.com/users/5132363/roman-sachenko',
+                    fatype: 'stackoverflow'
+                },
+                {
+                    link: 'https://medium.com/@rsachenko',
+                    fatype: 'link'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/maciej_treder.png",
+            name: "Maciej Treder",
+            speakerPos: [
+                {
+                    position: "Senior Software Development Engineer",
+                    company: "Akamai Technologies",
+                }
+            ],
+            country: "Poland",
+            city: "Kraków",
+            rept: [
+                {
+                    title: "Angular Universal - a medicine for the Angular + SEO/CDN issues",
+                    description: 'Are you ready for production? Are you sure? Is your application prefetchable? Is it readable for search engine robots? Will it fit into Content Delivery Network? Do you want to make it even faster? Meet the Server-Side Rendering concept. Learn how to bring first meaningful paint immediately, work with server-side Angular code, optimize API calls and more!',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/MaciejTreder',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/maciej-treder',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/maciejtreder',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://stackoverflow.com/users/2849613/maciej-treder',
+                    fatype: 'stackoverflow'
+                },
+                {
+                    link: 'https://www.maciejtreder.com',
+                    fatype: 'link'
+                }
+            ],
+
+        },
 
     ];
 
