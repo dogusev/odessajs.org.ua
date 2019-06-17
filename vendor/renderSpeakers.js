@@ -1179,7 +1179,7 @@ $(document).ready(function () {
             });
 
             speakerPos.forEach(function (item, i, arr) {
-                positionContent += '<p class="speaker-position">' + item.position + '<span >' + item.company + '</span>' + '</p>';
+                positionContent += '<p class="speaker-position">' + item.position + '@' + '<span >' + item.company + '</span>' + '</p>';
             });
 
             speakerAvatar && $modalSpeakerAvatar.attr('src', speakerAvatar);
