@@ -994,7 +994,7 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://stackoverflow.com/users/1368125/saif-jerbi',
-                    fatype: 'stackoverflow'
+                    fatype: 'stack-overflow'
                 },
                 {
                     link: 'https://medium.com/@SaifJerbi',
@@ -1086,7 +1086,7 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://stackoverflow.com/users/5132363/roman-sachenko',
-                    fatype: 'stackoverflow'
+                    fatype: 'stack-overflow'
                 },
                 {
                     link: 'https://medium.com/@rsachenko',
@@ -1130,7 +1130,7 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://stackoverflow.com/users/2849613/maciej-treder',
-                    fatype: 'stackoverflow'
+                    fatype: 'stack-overflow'
                 },
                 {
                     link: 'https://www.maciejtreder.com',
