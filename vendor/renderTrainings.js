@@ -213,7 +213,7 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://stackoverflow.com/users/1368125/saif-jerbi',
-                    fatype: 'stackoverflow'
+                    fatype: 'stack-overflow'
                 },
                 {
                     link: 'https://medium.com/@SaifJerbi',
@@ -257,6 +257,37 @@ $(document).ready(function () {
                 {
                     link: 'https://github.com/kucherenko',
                     fatype: 'github'
+                }
+            ],
+        },
+        {
+            image: "images/reporters/dmytro_selin.png",
+            name: "Dmytro Selin",
+            speakerPos: [
+                {
+                    position: "Software Architect",
+                    company: "SoftServe",
+                },
+            ],
+            country: "Ukraine",
+            city: "Dnipro",
+            rept: [
+                {
+                    title: "WebAssembly - Everything in browser, from bitcoin miners to python interpreter",
+                    description: 'The more browsers evolve, the more advanced is tech behind them. On of Next-Big-Thing it webassembly, which could drastically improve perfomance of in-browser apps and allow heavy-load apps like games, ML, blockchain miners to work with great perfomance. On workshop we\'ll try to see and implement what is possible right now to get ready to what will be possible in near future',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/dmytro.selin.bc',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/dmitry-selin/',
+                    fatype: 'linkedin'
                 }
             ],
         },
