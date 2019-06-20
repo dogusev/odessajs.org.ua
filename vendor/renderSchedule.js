@@ -26,8 +26,8 @@ $(document).ready(function () {
     {
       time: '09:30-10:10',
       talks: [
-        {place: 'Hall A', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
-        {place: 'Hall B', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
+        {place: '', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
+        {place: '', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
         {place: '', author: '', title: ''}
 
       ]
@@ -41,8 +41,8 @@ $(document).ready(function () {
     {
       time: '10:20-11:00',
       talks: [
-        {place: 'Hall A', author: 'Niels Leenheer (all)', title: 'Fun with Bluetooth [EN]'},
-        {place: 'Hall B', author: 'Alexander Zinchuk (mid-sr)', title: 'Specification-Driven Development of REST APIs [RU]'},
+        {place: '', author: 'Niels Leenheer (all)', title: 'Fun with Bluetooth [EN]'},
+        {place: '', author: 'Alexander Zinchuk (mid-sr)', title: 'Specification-Driven Development of REST APIs [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -55,9 +55,9 @@ $(document).ready(function () {
     {
       time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Sergiy Babich (jun-mid) ', title: 'How to start enjoy your Angular Rx and NGRX [UA]'},
-        {place: 'Hall B', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
-        {place: '', author: '', title: ''}
+        {place: '', author: 'Sergiy Babich (jun-mid) ', title: 'How to start enjoy your Angular Rx and NGRX [UA]'},
+        {place: '', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
+        {place: '12.00-14.00', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'}
       ]
     },
     {
@@ -69,7 +69,7 @@ $(document).ready(function () {
     {
       time: '12:10-12:50',
       talks: [
-        {place: 'Hall A', author: 'To be defined', title: ''},
+        {place: 'Hall A', author: '', title: ''},
         {place: 'Hall B', author: 'Maurizio Mangione (all)', title: 'Progressive Web Apps [EN]'},
         {place: '', author: '', title: ''}
       ]
@@ -84,7 +84,7 @@ $(document).ready(function () {
       time: '15:00-15:40',
       talks: [
         {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
+        {place: '', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -97,7 +97,7 @@ $(document).ready(function () {
     {
       time: '15:50-16:30',
       talks: [
-        {place: 'Hall A', author: 'Aaron Basset (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
+        {place: 'Hall A', author: 'Liran Tal (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
         {place: 'Hall B', author: 'Anton Pets (mid)', title: 'How FP made Grammarly codebase error-prone and predictable [RU]'},
         {author: '', title: ''}
         ]
@@ -349,12 +349,13 @@ $(document).ready(function () {
     '              </div>';
   $.template("InfoBlockTemplate_2", infoBlock_2);
 
-  var hallBlock =
-    '        <div class="schedule__report-hall">' +
-    '          {{html title }}' +
-    '          <div class="schedule__reporter">${author}</div>' +
-    '         </div>';
-  $.template("hallBlockTemplate", hallBlock);
+    var hallBlock =
+        '        <div class="schedule__report-hall">' +
+        '          <div class="schedule__place">${place}</div>' +
+        '          {{html title }}' +
+        '          <div class="schedule__reporter">${author}</div>' +
+        '         </div>';
+    $.template("hallBlockTemplate", hallBlock);
 
 
   renderTalksTable();

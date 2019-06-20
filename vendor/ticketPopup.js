@@ -41,7 +41,7 @@ $(document).ready(function(){
             options: [
                 {
                     main: '2 tracks of talks and tech corners',
-                    additional: ''
+                    additional: 'Gives possibitity to visit one conference day for your choice: 20th or 21st of July'
                 },
                 {
                     main: 'Bicycle tour',
