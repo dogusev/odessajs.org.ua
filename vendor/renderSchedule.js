@@ -1,13 +1,10 @@
 $(document).ready(function () {
 
   var talks6july = [
-    // {time: '16:00 - 16:30', author: '', title: 'Registration and welcome drinks'},
-    // {time: '16:30 - 17:00', author: 'Eyal Eizenberg **', title: 'The Psychology of building your first open source. [en]'},
-    // {time: '17:00 - 17:30', author: 'Aleksandr Khokhlov ***', title: 'Do not chase the hype train. Just steal ideas.'},
-    // {time: '17:30 - 18:00', author: 'Aleksandra Shinkevich and Nikita Dubko *', title: 'Get prepared for your performance. Speaker\'s guidelines from an organizer. [ru]'},
-    // {time: '18:00 - 18:30', author: 'Mike MacCana **', title: 'Deploying your JS app in 2018 [en]'},
-    // {time: '18:30 - 19:00', author: 'Denis Radin ***', title: 'Let`s write your first pixel shader. [ru]'},
-    // {time: '19:00', author: '', title: 'Q&A Session'}
+    // {time: '', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
+    // {time: '', author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time'},
+    // {time: '', author: 'Nick Lototskiy', title: ''},
+    // {time: '', author: 'Alex Bordun', title: ''},
   ];
 
   var talks7july = [
@@ -26,8 +23,8 @@ $(document).ready(function () {
     {
       time: '09:30-10:10',
       talks: [
-        {place: 'Hall A', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
-        {place: 'Hall B', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
+        {place: '', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
+        {place: '', author: 'Simona Cotin (mid)', title: 'Build Scalable APIs using GraphQL and Serverless [EN]'},
         {place: '', author: '', title: ''}
 
       ]
@@ -41,8 +38,8 @@ $(document).ready(function () {
     {
       time: '10:20-11:00',
       talks: [
-        {place: 'Hall A', author: 'Niels Leenheer (all)', title: 'Fun with Bluetooth [EN]'},
-        {place: 'Hall B', author: 'Alexander Zinchuk (mid-sr)', title: 'Specification-Driven Development of REST APIs [RU]'},
+        {place: '', author: 'Niels Leenheer (all)', title: 'Fun with Bluetooth [EN]'},
+        {place: '', author: 'Alexander Zinchuk (mid-sr)', title: 'Specification-Driven Development of REST APIs [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -55,9 +52,9 @@ $(document).ready(function () {
     {
       time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Sergiy Babich (jun-mid) ', title: 'How to start enjoy your Angular Rx and NGRX [UA]'},
-        {place: 'Hall B', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
-        {place: '', author: '', title: ''}
+        {place: '', author: 'Sergiy Babich (jun-mid) ', title: 'How to start enjoy your Angular Rx and NGRX [UA]'},
+        {place: '', author: 'Martin Hochel (mid-sr)', title: 'Ultimate React Component Patterns with TypeScript [EN]'},
+        {place: '12.00-14.00 [workshop]', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'}
       ]
     },
     {
@@ -69,9 +66,9 @@ $(document).ready(function () {
     {
       time: '12:10-12:50',
       talks: [
-        {place: 'Hall A', author: 'To be defined', title: ''},
+        {place: 'Hall A', author: '', title: ''},
         {place: 'Hall B', author: 'Maurizio Mangione (all)', title: 'Progressive Web Apps [EN]'},
-        {place: '', author: '', title: ''}
+        {place: '14:00-16:00 [workshop]', author: 'Artem Frantsiian', title: 'Make your OdessaJS coin'}
       ]
     },
     {
@@ -84,7 +81,7 @@ $(document).ready(function () {
       time: '15:00-15:40',
       talks: [
         {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
+        {place: '', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -97,9 +94,9 @@ $(document).ready(function () {
     {
       time: '15:50-16:30',
       talks: [
-        {place: 'Hall A', author: 'Aaron Basset (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
-        {place: 'Hall B', author: 'Anton Pets (mid)', title: 'How FP made Grammarly codebase error-prone and predictable [RU]'},
-        {author: '', title: ''}
+        {place: '', author: 'Liran Tal (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
+        {place: '', author: 'Anton Pets (mid)', title: 'How FP made Grammarly codebase error-prone and predictable [RU]'},
+        {place: '16.00-18.00 [workshop]',author: 'Aaron Basset ', title: 'Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers'}
         ]
     },
     {
@@ -111,8 +108,8 @@ $(document).ready(function () {
     {
       time: '16:40-17:20',
       talks: [
-        {place: 'Hall A', author: 'Alfredo Lopez (mid)', title: 'Think Fast, First: Empowering a Performance Culture [EN]'},
-        {place: '', author: '', title: ''},
+        {place: '', author: 'Alfredo Lopez (mid)', title: 'Think Fast, First: Empowering a Performance Culture [EN]'},
+        {place: '', author: 'Sponsors', title: ''},
         {author: '', title: ''}
         ]
     },
@@ -125,8 +122,8 @@ $(document).ready(function () {
     {
       time: '17:40 - 18:20',
       talks: [
-        {place: 'Hall A', author: 'Jamie Maria Schouren (all)', title: 'The search for App-iness : Progressive Web Apps [EN]'},
-        {place: 'Hall B', author: 'Eldar Dzhafarov (mid-sr)', title: 'The Code [RU]'},
+        {place: '', author: 'Jamie Maria Schouren (all)', title: 'The search for App-iness : Progressive Web Apps [EN]'},
+        {place: '', author: 'Eldar Dzhafarov (mid-sr)', title: 'The Code [RU]'},
         {author: '', title: ''}
         ]
     },
@@ -160,11 +157,11 @@ $(document).ready(function () {
     {
       time: '9:30-10:10',
       talks: [      
-        {place: 'Hall A', author: 'Joel Lord (all)', title: 'I Don\'t Care About Security (And Neither Should You) [EN]'},
-        {place: 'Hall B', author: 'Roman Sachenko (mid)', title: ''},
+        {place: '', author: 'Joel Lord (all)', title: 'I Don\'t Care About Security (And Neither Should You) [EN]'},
+        {place: '', author: 'Roman Sachenko (mid)', title: ''},
       ],
       workshops: [
-        // {place: 'Hall C - workshop', author: 'Nik Graf **', title: '<b>Workshop <br> 09:00 - 17:00</b> Build Serverless Node.js Application on AWS. [en]'},
+        {place: '9.00 - 11.00 [workshop]', author: 'Dmytro Selin', title: 'WebAssembly - Everything in browser, from bitcoin miners to python interpreter'},
         // {place: '', author: '', title: ''},
       ]
     },
@@ -177,8 +174,8 @@ $(document).ready(function () {
     {
       time: '10:20-11:00',
       talks: [
-        {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Yoni Goldberg (mid)', title: '5 advanced & shiny testing techniques [EN]'},
+        {place: '', author: 'Max Klymyshyn (sr) ', title: 'Handling partial failures in a distributed environment with Saga [RU]'},
+        {place: '', author: 'Yoni Goldberg (mid)', title: '5 advanced & shiny testing techniques [EN]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -191,9 +188,9 @@ $(document).ready(function () {
     {
       time: '11:20-12:00',
       talks: [
-        {place: 'Hall A', author: 'Oleksandra Kalinina', title: 'Mental debugging tips & tricks [RU]'},
-        {place: '', author: '', title: ''},
-        {place: '', author: '', title: ''}
+        {place: '', author: 'Oleksandra Kalinina', title: 'Mental debugging tips & tricks [RU]'},
+        {place: '', author: 'Saif Jerbi (sr) ', title: 'Pluggable Web application using Angular and NodeJS [EN]'},
+        {place: '11.00-14.00 [workshop]', author: 'Karthic Keyan', title: 'Building Cross Browser Extension - From Zero to Hero'}
       ]
     },
     {
@@ -205,9 +202,9 @@ $(document).ready(function () {
     {
       time: '12:10 - 12:50',
       talks: [
-        {place: 'Hall A', author: 'Diego González-Zúñiga', title: 'Immersive Web [EN]'},
+        {place: '', author: 'Aaron Basset', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
         {place: '', author: '', title: ''},
-        {place: '', author: '', title: ''}
+        {place: '14:00 - 16:00 [workshop]', author: 'Saif Jerbi', title: 'Pluggable Web application using Angular and NodeJS'}
       ]
     },
     {
@@ -219,10 +216,8 @@ $(document).ready(function () {
     {
       time: '15:00-15:40',
       talks: [
-        {place: 'Hall A', author: 'Christian Gill (jun-mid)', title: 'Functional programming for the people [EN]'},
-        {place: 'Hall B', author: 'Ilya Zaprutsky', title: 'The Art of Node.js or how to do something cool using public data [RU]'},
-
-        // {place: 'Hall B', author: 'Roman Rodomansky ***', title: 'Processes automation within the company. [Tech Corner] [ua]'},
+        {place: '', author: 'Christian Gill (jun-mid)', title: 'Functional programming for the people [EN]'},
+        {place: '', author: 'Ilya Zaprutsky', title: 'The Art of Node.js or how to do something cool using public data [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -235,8 +230,8 @@ $(document).ready(function () {
     {
       time: '15:50-16:30',
       talks: [
-        {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Farzad Yousefzadeh (jun-mid)', title: 'Developing UIs without a UIs [EN]'},
+        {place: '', author: 'Khrystyna Landvytovych (jun-mid)', title: 'Animation in the Air [UA]'},
+        {place: '', author: 'Diego González-Zúñiga', title: 'Immersive Web [EN]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -249,8 +244,8 @@ $(document).ready(function () {
     {
       time: '16:40-17:20',
       talks: [
-        {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Irina Ziakhor ', title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'},
+        {place: '', author: 'Maciej Treder (mid)', title: 'Angular Universal - a medicine for the Angular + SEO/CDN issues'},
+        {place: '', author: 'Irina Ziakhor (all)', title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -263,8 +258,8 @@ $(document).ready(function () {
     {
       time: '17:40-18:20',
       talks: [
-        {place: '', author: '', title: ''},
-        {place: 'Hall B', author: 'Liran Tal (all)', title: 'StrangerDanger: Finding Security Vulnerabilities Before They Find You! [EN]'},
+        {place: '', author: 'Valerii Sorokobatko (mid)', title: ''},
+        {place: '', author: 'Farzad Yousefzadeh (jun-mid)', title: 'Develop UIs without any UIs (UI is just a state consumer)'},
         {place: '', author: '', title: ''}
       ]
     },
@@ -282,16 +277,39 @@ $(document).ready(function () {
     }
   ];
 
+
   var workshop6july = [
-    {time: '09:00 - 16:00', talks: [ { author: 'Ivan Jovanovic ***', title: 'Testing javascript applications.' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'Gerard Sans **', title: 'Fullstack graphQl using react with Gerard Sans. [en]' },]},
-    {time: '09:00 - 17:00', talks: [ { author: 'Nik Graf **', title: 'Get Started with Reason & ReasonReact. [en]' },]},
-    {time: '09:00 - 16:00', talks: [ { author: 'Timur Shemsedinov, Aleksey Orlenko, Alex Golikov ', title: 'Software Engendering Fundamentals for JavaScript Developer.' },]},
-    {time: '09:00 - 12:00', talks: [ { author: 'Alex Migutsky *', title: 'Growing your career as software engineer. [ru]' },]},
+    {
+      time: '14:00-16:00',
+      talks: [
+        {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'}
+      ]
+    },
+    // {time: '14:00-16:00', talks: [ { author: 'Mike Solomon', title: 'Testing JS code that consumes APIs' },]},
+    // {time: '', talks: [ { author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time' },]},
+    // {time: '', talks: [ { author: 'Nick Lototskiy', title: '' },]},
+    // {time: '', talks: [ { author: 'Alex Bordun', title: '' },]},
     // {time: '15:00 - 15:00', talks: [ { author: '', title: '' },]}
 
     // {time: '09:00 - 17:00', talks: [ { author: 'David Mullerchen ', title: 'Angular 101. [en]' },]},
     // {time: '12:00 - 15:00', talks: [ { author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle: Google Home vs Alexa. [Ru]' },]}
+  ];
+
+  var talks19july = [
+    {
+      time: '14:00-16:00',
+      talks: [
+        {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
+        {author: 'Sergiy Babich', title: ''}
+      ]
+    },
+    {
+      time: '16:00-18:00',
+      talks: [
+        {author: 'Alex Bordun', title: ''},
+        {author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time'}
+      ]
+    },
   ];
 
 
@@ -349,12 +367,13 @@ $(document).ready(function () {
     '              </div>';
   $.template("InfoBlockTemplate_2", infoBlock_2);
 
-  var hallBlock =
-    '        <div class="schedule__report-hall">' +
-    '          {{html title }}' +
-    '          <div class="schedule__reporter">${author}</div>' +
-    '         </div>';
-  $.template("hallBlockTemplate", hallBlock);
+    var hallBlock =
+        '        <div class="schedule__report-hall">' +
+        '          <div class="schedule__place">${place}</div>' +
+        '          {{html title }}' +
+        '          <div class="schedule__reporter">${author}</div>' +
+        '         </div>';
+    $.template("hallBlockTemplate", hallBlock);
 
 
   renderTalksTable();
@@ -405,7 +424,13 @@ $(document).ready(function () {
       splitLines: true
     });
 
+    var july19_schedule = '';
 
+    renderSchedulesWithHalls({
+      data: talks19july,
+      render: july19_schedule,
+      selector: '#july19_schedule'
+    });
 
     // _____________________________________________
 

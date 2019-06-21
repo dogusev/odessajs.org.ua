@@ -41,8 +41,8 @@ $(document).ready(function () {
             name: "Joel Lord",
             speakerPos: [
                 {
-                    position: "Technical Evangelist",
-                    company: "Auth0"
+                    position: "Developer Advocate",
+                    company: "Red Hat OpenShift"
                 },
             ],
             country: "Canada",
