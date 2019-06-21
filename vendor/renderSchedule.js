@@ -279,14 +279,37 @@ $(document).ready(function () {
 
 
   var workshop6july = [
-    {time: '', talks: [ { author: 'Mike Solomon', title: 'Testing JS code that consumes APIs' },]},
-    {time: '', talks: [ { author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time' },]},
-    {time: '', talks: [ { author: 'Nick Lototskiy', title: '' },]},
-    {time: '', talks: [ { author: 'Alex Bordun', title: '' },]},
+    {
+      time: '14:00-16:00',
+      talks: [
+        {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'}
+      ]
+    },
+    // {time: '14:00-16:00', talks: [ { author: 'Mike Solomon', title: 'Testing JS code that consumes APIs' },]},
+    // {time: '', talks: [ { author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time' },]},
+    // {time: '', talks: [ { author: 'Nick Lototskiy', title: '' },]},
+    // {time: '', talks: [ { author: 'Alex Bordun', title: '' },]},
     // {time: '15:00 - 15:00', talks: [ { author: '', title: '' },]}
 
     // {time: '09:00 - 17:00', talks: [ { author: 'David Mullerchen ', title: 'Angular 101. [en]' },]},
     // {time: '12:00 - 15:00', talks: [ { author: 'Valentine Mezentsev, Gleb Dobzhanskyi ', title: 'Bot Battle: Google Home vs Alexa. [Ru]' },]}
+  ];
+
+  var talks19july = [
+    {
+      time: '14:00-16:00',
+      talks: [
+        {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
+        {author: 'Sergiy Babich', title: ''}
+      ]
+    },
+    {
+      time: '16:00-18:00',
+      talks: [
+        {author: 'Alex Bordun', title: ''},
+        {author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time'}
+      ]
+    },
   ];
 
 
@@ -401,7 +424,13 @@ $(document).ready(function () {
       splitLines: true
     });
 
+    var july19_schedule = '';
 
+    renderSchedulesWithHalls({
+      data: talks19july,
+      render: july19_schedule,
+      selector: '#july19_schedule'
+    });
 
     // _____________________________________________
 
