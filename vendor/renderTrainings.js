@@ -149,7 +149,7 @@ $(document).ready(function () {
                 },
             ],
             country: "Finland",
-            city: "",
+            city: "Helsinki",
             rept: [
                 {
                     title: "Testing JS code that consumes APIs",

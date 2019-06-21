@@ -924,7 +924,7 @@ $(document).ready(function () {
             name: "Valerii Sorokobatko",
             speakerPos: [
                 {
-                    position: "",
+                    position: "Software Engineer",
                     company: "Wix",
                 }
             ],
