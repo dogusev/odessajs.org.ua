@@ -191,7 +191,7 @@ $(document).ready(function () {
             city: "London",
             rept: [
                 {
-                    title: "Immersive Web",
+                    title: "Incorporating Immersive Experiences into the Web",
                     description: "The talk gravitates around the concept of Immersive Technologies, viewing at the possibilities that they bring. It is focused on the intersection with other current Web Technologies and meant to be a source of ideas on how to incorporate WebXR and 3D models in our day to day workflow, in preparation upcoming Virtual and Augmented use cases.",
                     lang: "[EN]"
                 }
@@ -1134,6 +1134,46 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://www.maciejtreder.com',
+                    fatype: 'link'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/charlie_robbins.jpeg",
+            name: "Charlie Robbins",
+            speakerPos: [
+                {
+                    position: "Senior Director, Engineering",
+                    company: "GoDaddy",
+                }
+            ],
+            country: "USA",
+            city: "New York City",
+            rept: [
+                {
+                    title: "Delivering Flexible Design Systems",
+                    description: 'Design Systems are the language that binds UX and Engineering together at scale. The nuances in their delivery are many spanning multiple disciplines and workflows from maintaining living documentation to deployment & rollback across many consuming products. This talk will explore what Design Systems are, how they can be built, documented and delivered at scale. It will cover topics such as: * What makes a good Component example? * How can I coordinate deployment of a Design System across multiple product teams? It will compare & contrast choices in answering these questions along with demos of how Charlie\'s team at GoDaddy delivers Design Systems at scale across dozens of product teams and nearly 19 million customers using React, Storybook, and more.',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/indexzero',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://linkedin.com/in/charlierobbins',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/indexzero',
+                    fatype: 'github'
+                },
+                {
+                    link: 'http://godaddy.github.io',
                     fatype: 'link'
                 }
             ],
