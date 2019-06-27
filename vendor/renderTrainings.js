@@ -24,6 +24,8 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
+            description: 'Browser Extensions/Add-ons helps us to personalize our browser as per our needs. We all have used a number of browser extensions in our life to improve our browsing experience either in chrome, firefox or opera. Instead of just being an End-User, Why not create one? and become a cross-browser extension developer. WebExtension API will help us (javascript developers) convert into a Browser Extension Developer by the end of this workshop. Using the power of Javascript along with the WebExtension API, We can now write extensions that can work in almost all browsers. No need to maintain separate codebase of extension for each browser. In this workshop, We will build 3 portable cross-browser extension together step by step, live in the session and provide you an excellent hands-on experience. During the process, You\'ll also learn: - The anatomy of WebExtensions API - Get introduced to cool APIs like Context Menu, tabs, Alarm, Notifications and many more. - Learn to build 3 exciting cross-browser extensions for your daily use. - Running & Debugging the extension - & finally, publish the extension to AMO (addons.mozilla.org) At the end of this workshop, The participants will gain good knowledge to build an extension on their own that can perform tasks as per their wish.',
+
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -51,6 +53,41 @@ $(document).ready(function () {
                     company: "482.solutions",
                 },
             ],
+            description:
+                "<p class='description-subtitle'>Why do people have to come to your workshop?</p>" +
+                "<p>- Blockchain is a hip technology that is increasingly capturing the market. Companies such as Intel, IBM, Microsoft, Amazon are looking in this direction and developing it. Facebook, Telegram, Visa are taking the first steps in creating their solutions. At this workshop people will get PRACTICAL skills to create their own cryptocurrency based on the Intel framework within the framework of the Hyperledger project from the Linux Foundation, which will give invaluable experience and help specialists remain in demand for a long time.</p>" +
+                "<p class='description-subtitle'>What knowledge and skills do you want participants have?</p>" +
+                "<ul>" +
+                "<li>Basic theoretical skills about technology</li>" +
+                "<li>Knowledge of the Sawtooth framework</li>" +
+                "<li>Skills for building blockchain systems</li>" +
+                "<li>Skills to build decentralized React applications</li>" +
+                "<li>Skills of writing a library</li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>What tools do you use during the workshop?</p>" +
+                "<ul>" +
+                "<li>Docker (docker-compose)</li>" +
+                "<li>Sawtooth</li>" +
+                "<li>React</li>" +
+                "<li>NodeJS</li>" +
+                "<li>different JS libraries and tools</li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>What equipment is needed for the workshop?</p>" +
+                "<p>- Computer, with MacOS or Ubuntu system and characteristics sufficient for stable simultaneous operation of the docker and several JS applications.</p>" +
+                "<p class='description-subtitle'>Who the workshop will be useful for?</p>" +
+                "<ul>" +
+                "<li>for developers, enthusiasts who are ready to quickly and accurately absorb information. This will give them the opportunity to gain maximum experience.</li>" +
+                "<li>for developers who want to practice and look in other directions. This will allow them to decide what they want to do.</li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>Should the participants somehow prepare before the workshop?</p>" +
+                "<ul>" +
+                "<li>You need to install docker and docker-compose, have a basic understanding of how to use these tools</li>" +
+                "<li>You must install NodeJS version 8 or higher</li>" +
+                "<li>Check that you can install <a target='_blank' href='https://www.npmjs.com/package/sawtooth-sdk'>https://www.npmjs.com/package/sawtooth-sdk</a> </li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>About the speaker:</p>" +
+                "<p>- I have worked in many areas: web applications, blockchain technology, game industry, IoT. In these areas I have practical experience and understanding of business requirements.</p>" +
+                "<p>- The main hobby at the moment is football.</p>",
             country: "Ukraine",
             city: "Odessa",
             rept: [
@@ -92,6 +129,7 @@ $(document).ready(function () {
                     lang: "[UA]"
                 }
             ],
+            description: 'At this workshop we\'ll update "not-so-handy" and not-so-readable angular app to something more nice and predictable.',
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -122,6 +160,10 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
+            description: "When using WebSockets to communicate between your server and the client every new browser context–tab, window, iframe, and so on–is likely to create another WebSocket connection. All these open connections can quickly take a toll on your server resources, or if you’re using a PaaS which charges for each connection, it could quickly add up to a big bill.\n" +
+                "\n" +
+                "In this workshop, we’ll look at how you can use SharedWorkers to create a single persistent WebSocket which can be used by every browser context to communicate with your Django Channels WebSocket server",
+
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -157,6 +199,12 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
+            description:
+                "<ul>" +
+                "<li>People should come to my workshop if they would like to learn how to write better integration tests.  If they have ever run into issues or bugs integrating with APIs or databases, this workshop is for them!  It will save them time in their development process and help get rid of several annoying and stressful bugs through clean and light testing practices.  By the end of the workshop, I would love for them to know how to write a good unit test and a good integration test and how to deploy these tests to a CI environment with ease.  We will use VSCode and get all of the necessary packages from NPM.  No external services are needed, but as we will be using several VSCode plugins, it will be useful for participants to have that editor ready.</li>" +
+                "<li>The ideal participant in this workshop is someone who is developing an app for a client or team with an opaque or fragile API. For example, if you are working on apps that integrate with banking or crypto APIs, this is a great way to future-proof them!  The workshop is mostly geared towards junior developers, but senior developers will learn new things as well!  And they may be able to help out some of the junior devs.  No special prep needs to be done before the workshop.</li>" +
+                "<li>I am the trainer, and my main area of expertise is Python and JavaScript programming.  I have a PhD in Music and Math and have mostly worked as a digital music designer and music ensemble director before starting my own company.  My favorite holiday these days is spending the weekend in the Finnish wilderness!</li>" +
+                "</ul>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -192,6 +240,20 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
+            description:
+                "<p>Developers thinks that runtime modular architecture is very heavy to implement.</p>" +
+                "<p>My workshop will turn around a real use case of modular architecture. So we will see together how we can implement a runtime pluggable application in Angular and NodeJS, how we package modules (plugins) and how we can load them at runtime into our Angular application.</p>" +
+                "<p>In the workshop, we will develop a platform with a marketplace, from which the user can install some extensions to the running app. It will be mainly a dashboard and different widgets that will be installed at runtime by the end user.</p>" +
+                "<p>This workshop can be held by any developer who have basic knowledge in Angular and NodeJS.</p>" +
+                "<p class='description-subtitle'>We need :</p>" +
+                "<ul>" +
+                "<li>VS Code</li>" +
+                "<li>NodeJS</li>" +
+                "<li>Yarn</li>" +
+                "<li>Angular CLI 6+</li>" +
+                "<li>And internet access :)</li>" +
+                "</ul>" +
+                "<p>Everyone will be welcome to the workshop.</p>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -239,6 +301,8 @@ $(document).ready(function () {
                     lang: "[RU]"
                 }
             ],
+            description: 'We will get in touch popular node.js framework named Nest.JS. Will deep dive in functionality, aspects of usage of different components like DB, sockets, dependency injections. Will try to touch different community developed modules and components.',
+
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -278,6 +342,15 @@ $(document).ready(function () {
                     lang: "[RU]"
                 }
             ],
+            description:
+                "<p>Developers should visit my workshop to find out what they can do in modern browsers that are about to become a full-fledged OS.</p>" +
+                "<p>What do participants need to know before the workshop?</p>" +
+                "<p>Knowledge of what webassembly provides for running all sorts of applications that were previously not very suitable for the browser.</p>" +
+                "<p>Necessary equipment: laptops with an installed docker and code editor</p>" +
+                "<p>Workshop would be useful for all web developers who want to look further than form layouts. It makes sense to install pre-docker and figure out how it works. Better to have some experience with javascript and command line.</p>" +
+                "<p class='description-subtitle'>About the speaker: </p>" +
+                "<p>I’ve been working in IT for 15 year. During this time, managed to change a lot of approaches, languages, stacks and technologies from assembler to blockchain. Now the main sphere is the web and everything connected with it.</p>" +
+                "<p>Hobbies: auto quests and mountain skiing. </p>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -417,12 +490,13 @@ $(document).ready(function () {
                 speakerCountry = speakerData.country,
                 speakerCity = speakerData.city,
                 reports = speakerData.rept,
+                description = speakerData.description,
                 reportsContent = '',
                 positionContent = '',
                 speakerAboutText = speakerData.aboutSpeaker;
 
             reports.forEach(function (item, i, arr) {
-                reportsContent += '<h2 class="modal-body__title">' + item.title + '<span class="title__lang">' + item.lang + '</span>' + '</h2>' + '<div class="modal-body__text">' + item.description + '</div>';
+                reportsContent += '<h2 class="modal-body__title">' + item.title + '<span class="title__lang">' + item.lang + '</span>' + '</h2>' + '<div class="modal-body__text"></div>';
             });
 
             speakerPos.forEach(function (item, i, arr) {
@@ -439,7 +513,8 @@ $(document).ready(function () {
             reportsContent && $modalreportsContainer.html(reportsContent);
             positionContent && $modalSpeakerPosition.html(positionContent);
 
-            speakerAboutText && $modalSpeakerAboutText.find('.modal-body__text').text(speakerAboutText).end().toggle(true);
+            speakerAboutText && $modalSpeakerAboutText.find('.modal-body__text').html(speakerAboutText).end().toggle(true);
+            description && $modalreportsContainer.find('.modal-body__text').html(description).end().toggle(true);
             $modalSpeakerLinks.html($speakerInfoBlock.find('.speakers-slide__info-links').html());
 
 
