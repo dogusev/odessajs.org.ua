@@ -8,6 +8,7 @@ var hash_src = require("gulp-hash-src");
 var htmlmin = require('gulp-htmlmin');
 var gutil = require('gulp-util');
 var browserSync = require('browser-sync').create();
+var imagemin = require('gulp-imagemin');
 
 
 gulp.task('browser-sync', function() {
@@ -17,6 +18,22 @@ gulp.task('browser-sync', function() {
       }
   });
   browserSync.watch(`**/*.*`).on('change', browserSync.reload);
+});
+
+
+gulp.task('img', function () {
+  return gulp.src('images/**/*.*')
+    .pipe(imagemin({
+      interlaced: true,
+      progressive: true,
+      optimizationLevel: 5,
+      svgoPlugins: [
+        {
+          removeViewBox: true
+        }
+      ]
+    }))
+    .pipe(gulp.dest('./img-min/'));
 });
 
 gulp.task('styles', function() {
@@ -29,6 +46,8 @@ gulp.task('styles', function() {
     .pipe(cssmin())
     .pipe(gulp.dest('./css/'))
 });
+
+
 
 gulp.task('script-min', function () {
   return gulp.src([
@@ -84,5 +103,5 @@ gulp.task('watch', function() {
   gulp.watch(['script.js', 'vendor/**/*.js', 'sass/**/*.scss', 'html/index.html'],['hash']);
 });
 
-gulp.task('default', ['styles', 'script-min', 'hash', 'browser-sync','watch']);
+gulp.task('default', ['styles',/*'img',*/ 'script-min', 'hash', 'browser-sync','watch']);
 gulp.task('prod', ['styles', 'script-min', 'hash']);
