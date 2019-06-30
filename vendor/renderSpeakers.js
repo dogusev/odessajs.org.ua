@@ -896,7 +896,7 @@ $(document).ready(function () {
             city: "Kyiv",
             rept: [
                 {
-                    title: "How FP made Grammarly codebase error-prone and predictable",
+                    title: "How FP made Grammarly codebase error free and predictable",
                     description: 'Developing frontend applications is not simple because crafting UI systems with a complex mutable state spread across the network is inherently difficult. This problem is still very new and thus does not have clear answers.At Grammarly, we have found the methodology that lets us tackle this complexity while keeping our codebase error-prone and predictable. Our approach combines the pragmatic usage of functional programming with static typing. I will start this talk from a gentle introduction to the world of Functional Programming. Then, I will walk you through the real examples of an FP usage in the codebase of Grammarly web editor. I will show you how functional programming can solve typical frontend problems in an effective and elegant way.',
                     lang: "[RU]"
                 }
@@ -1056,7 +1056,7 @@ $(document).ready(function () {
             city: "Kharkiv",
             rept: [
                 {
-                    title: "Serverless (AWS) - things I'd like to knew",
+                    title: "Serverless (AWS) - things I wish I knew",
                     description: 'I\'d like to bring to light a list of things I\'d want to know before I started my new project. Right before I decided to use the serverless architecture solution. So consequently I could get rid of the problems that forced me to change functionality again and again. I\'ll provide my experience starting from the basic stuff and finishing with security issues.',
                     lang: "[RU]"
                 }
