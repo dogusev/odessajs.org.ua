@@ -2,21 +2,22 @@
     /*width: 100vw;
     width: 1500px;
     height: 500px;*/
-    width: 100vw;
+    // width: 100vw;
     height: 100vh; 
     box-sizing: border-box;  
-    //overflow: hidden; 
+    overflow: hidden; 
+    padding: 0;
     
     .slider-wrapper{
         width: 100%;
-        //overflow: hidden;
+        overflow: hidden;
         height: 100%;
     }
     .slick-dots{
         position: absolute;
         
         left: 50%;
-        bottom: -35px;
+        bottom: 35px;
         margin: 0;
         padding: 0;
         display: flex;
@@ -117,6 +118,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 65%;
+            margin: 0 auto;
         }
         .dots{
             position: absolute;
@@ -184,6 +187,17 @@
             height: 230px;
             top: 63px;
             left: 50px;
+
+            img {
+                width: 100%;
+            }
+
+            @media screen and (max-width: 1100px) {
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                left: 18px;
+            }
         }
         .ice-cream2{
             position: absolute;
@@ -195,6 +209,12 @@
             z-index: 2;
             bottom: 63px;
             right: 50px;
+
+            @media screen and (max-width: 1100px) {
+                width: 120px;
+                height: 120px;
+                right: 30px;
+            }
         }
         
         
@@ -406,6 +426,7 @@
 }
 
 @media screen and (max-width: 1024px){
+    .info{
     .slick-next{
         right: 3% !important;
     }
@@ -508,4 +529,5 @@
         }
         
     }
+}
 }

@@ -4,6 +4,40 @@ section#speakers, section#workshops {
   //background-size: contain;
   //background-repeat: no-repeat;
 
+  #workshops-carousel {
+    #workshopsSlider {
+       .slick-prev {
+          left: -25px;
+
+          @media  (max-width: 800px){
+              left: -15px;
+            }
+          @media  (max-width: 600px){
+              left: 0px;
+            }
+          
+          &:active {
+            background-image: url("../images/speakers-slider-left.png");
+          }
+    }
+    
+    .slick-next {
+     right: -25px;
+
+     @media  (max-width: 800px){
+        right: -15px;
+      }
+     @media  (max-width: 600px){
+        right: 0px;
+      }
+    
+     &:active {
+       background-image: url("../images/speakers-slider-right.png");
+     }
+    }
+  }
+}
+
   .main_title {
     font-family: 'Jura', sans-serif;
     font-size: 45px;

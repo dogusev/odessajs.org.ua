@@ -83,25 +83,43 @@
     //  height: 72px;
     //}
     //
-    //.slick-prev {
-    //  left: 0;
-    //
-    //  &:active {
-    //    background-image: url("../images/speakers-slider-left.png");
-    //  }
-    //}
-    //
-    //.slick-next {
-    //  right: 0;
-    //
-    //  &:active {
-    //    background-image: url("../images/speakers-slider-right.png");
-    //  }
-    //}
+    .slick-prev {
+     left: -25px;
+
+     @media  (max-width: 800px){
+        left: -15px;
+      }
+     @media  (max-width: 600px){
+        left: 0px;
+      }
+    
+     &:active {
+       background-image: url("../images/speakers-slider-left.png");
+     }
+    }
+    
+    .slick-next {
+     right: -25px;
+
+     @media  (max-width: 800px){
+        right: -15px;
+      }
+     @media  (max-width: 600px){
+        right: 0px;
+      }
+    
+     &:active {
+       background-image: url("../images/speakers-slider-right.png");
+     }
+    }
   }
 
   &-slide {
     margin: 0 auto 20px;
+      
+   
+
+      
     &__item {
       //@include flexbox;
       //@include justify-content(flex-start);
@@ -118,6 +136,20 @@
       transition: .2s;
       overflow: hidden;
 
+      @media (max-width: 1024px) {
+        margin: 0 auto;
+      }
+
+      @media  (max-width: 600px){
+        max-width: 250px;
+        margin: 0 auto;
+      }
+
+      @media  (max-width: 380px){
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -128,15 +160,13 @@
         border-radius: 9px;
       }
 
-      @media (max-width: 1024px) {
-        margin: 0;
-      }
+      
     }
 
     &__img-wrapper {
       //height: 100%;
       position: relative;
-      min-height: 350px;
+      // min-height: 350px;
       height: auto;
       background-color: #e8e8e9;
       background-image: url(../images/ninja-bg-gray.png);
@@ -173,7 +203,7 @@
       }
 
       @media (max-width: 1200px) {
-        min-height: 290px;
+        // min-height: 290px;
       }
 
       @media (max-width: 1024px) {
@@ -181,21 +211,21 @@
       }
 
       @media (max-width: 992px) {
-        min-height: 330px;
+        // min-height: 330px;
       }
 
       @media (max-width: 768px) {
         padding-left: 0;
         padding-right: 0;
-        min-height: 240px;
+        // min-height: 240px;
       }
 
       @media (max-width: 575px) {
-        min-height: 300px;
+        // min-height: 300px;
       }
 
       @media (max-width: 400px) {
-        min-height: 220px;
+        // min-height: 220px;
       }
 
       img {
