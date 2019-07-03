@@ -84,11 +84,11 @@ $(document).ready(function () {
             ],
         },
         {
-            image: "images/reporters/simona-cotin.png",
-            name: "Simona Cotin",
+            image: "images/reporters/asimhussain.png",
+            name: "Asim Hussain",
             speakerPos: [
                 {
-                    position: "Senior Cloud Developer Advocate",
+                    position: "Cloud Developer Advocate",
                     company: "Microsoft",
                 },
             ],
@@ -107,8 +107,16 @@ $(document).ready(function () {
             socialsRendered: '',
             socials: [
                 {
-                    link: 'https://twitter.com/simona_cotin',
+                    link: 'https://github.com/jawache',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://twitter.com/jawache',
                     fatype: 'twitter'
+                },
+                {
+                    link: 'https://codecraft.tv/',
+                    fatype: 'link'
                 }
             ],
         },
