@@ -235,7 +235,7 @@ $(document).ready(function () {
             city: "Tunis",
             rept: [
                 {
-                    title: "Pluggable Web application using Angular and NodeJS [Workshop]",
+                    title: "Pluggable Web application using Angular and NodeJS",
                     description: 'Let\'s learn together how we develop a pluggable angular app. We will develop a platform with a marketplace, from which the user can install some extension to the app. It will be mainly a dashboard, and the different widgets will be installed at runtime by the end user.',
                     lang: "[EN]"
                 }
@@ -296,7 +296,7 @@ $(document).ready(function () {
             city: "Kiev",
             rept: [
                 {
-                    title: "NestJS web framework workshop",
+                    title: "NestJS web framework",
                     description: 'We will get in touch popular node.js framework named Nest.JS. Will deep dive in functionality, aspects of usage of different components like DB, sockets, dependency injections. Will try to touch different community developed modules and components.',
                     lang: "[RU]"
                 }
