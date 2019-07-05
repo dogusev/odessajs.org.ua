@@ -306,7 +306,7 @@ $(document).ready(function () {
     {
       time: '16:00-18:00',
       talks: [
-        {author: 'Alex Bordun', title: 'Adding PWA features to your web application on Node.js'},
+        {author: ' ', title: ''},
         {author: 'Andrey Kucherenko', title: 'Headlined as mocking the internet real-time'}
       ]
     },
