@@ -655,4 +655,19 @@
       }
     }
   }
+
+  .title {
+    background: #cc0e27;
+    text-align: center;
+    padding-top: 50px;
+
+    h1 {
+      font-family: Gilroy-Bold, sans-serif;
+      font-size: 48px;
+      line-height: 56px;
+      font-weight: 500;
+      color: #fff;
+      margin: 0;
+    }
+  }
 }
