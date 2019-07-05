@@ -1188,6 +1188,41 @@ $(document).ready(function () {
 
         },
 
+        {
+            image: "images/reporters/nifontov.jpg",
+            name: "Yuri Nifontov",
+            speakerPos: [
+                {
+                    position: "Development Team Leader",
+                    company: "Beetroot",
+                }
+            ],
+            country: "Ukraine",
+            city: "Odessa",
+            rept: [
+                {
+                    title: "A Typical Monday on the Development Team",
+                    description: 'Successful projects are like puzzles, composed of the day-to-day work of every team member. Team Lead Yuri tells about a typical day of developers, QAs, team leads, and account managers, and reflects on the soft skills needed to transform typical days into productive ones. \n' +
+                        '\n' +
+                        'Referring to good and not-so-good cases, we will talk about key milestones of a day: the start of work, standups and meetings, the working process, interaction with colleagues and clients, wrapping up, and after-work activities. It’s going to be interesting! ',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.linkedin.com/in/yuriynifontov/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.instagram.com/eloquent.trebuchet/',
+                    fatype: 'instagram'
+                }
+            ],
+
+        },
+
     ];
 
 
