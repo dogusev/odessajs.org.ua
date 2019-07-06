@@ -1222,6 +1222,42 @@ $(document).ready(function () {
             ],
 
         },
+        {
+            image: "images/reporters/cherednikov.jpg",
+            name: "Anton Cherednikov",
+            speakerPos: [
+                {
+                    position: "Tech Lead",
+                    company: "Nova Poshta",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "Modules and Artifacts in NPM",
+                    description: 'Best practice, how to cook npm packages, issues with packages, how to avoid failures, where to store these modules for different size projects.',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/profile.php?id=100009501190852',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/anton-cherednikov/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.instagram.com/_cherednikov/',
+                    fatype: 'instagram'
+                }
+            ],
+
+        },
 
     ];
 

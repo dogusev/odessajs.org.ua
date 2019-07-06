@@ -94,7 +94,7 @@ $(document).ready(function () {
     {
       time: '15:50-16:30',
       talks: [
-        {place: '', author: 'Liran Tal (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
+        {place: '', author: 'Liran Tal (all)', title: 'StrangerDanger: Finding Security Vulnerabilities Before They Find You! [EN]'},
         {place: '', author: 'Anton Pets (mid)', title: 'How FP made Grammarly codebase error-prone and predictable [RU]'},
         {place: '16.00-18.00 [workshop]',author: 'Aaron Basset ', title: 'Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers'}
         ]
@@ -148,12 +148,12 @@ $(document).ready(function () {
   ];
 
   var talks8july = [
-    // {
-    //   time: '08:30 - 09:30',
-    //   talks: [
-    //     {author: '', title: 'Yoga'}
-    //   ]
-    // },
+    {
+      time: '08:30 - 09:30',
+      talks: [
+        {author: '', title: 'Outdoor yoga, Entrance'}
+      ]
+    },
     {
       time: '9:30-10:10',
       talks: [      
@@ -180,13 +180,13 @@ $(document).ready(function () {
       ]
     },
     {
-      time: '11:00-11:20',
+      time: '11:00-11:10',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '11:20-12:00',
+      time: '11:10-11:50',
       talks: [
         {place: '', author: 'Oleksandra Kalinina (all)', title: 'Mental debugging tips & tricks [RU]'},
         {place: '', author: 'Saif Jerbi (sr) ', title: 'Pluggable Web application using Angular and NodeJS [EN]'},
@@ -194,27 +194,41 @@ $(document).ready(function () {
       ]
     },
     {
-      time: '12:00-12:10',
+      time: '11:50-12:00',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '12:10 - 12:50',
+      time: '12:00 - 12:40',
       talks: [
         {place: '', author: 'Aaron Basset (all)', title: 'When your wetware has too many threads - Tips from an ADHDer on how to improve your focus [EN]'},
-        {place: '', author: '', title: ''},
+        {place: '', author: 'Anton Cherednikov (mid)', title: 'Modules and Artifacts in NPM'},
         {place: '14:00 - 16:00 [workshop]', author: 'Saif Jerbi', title: 'Pluggable Web application using Angular and NodeJS'}
       ]
     },
     {
-      time: '12:50-15:00',
+      time: '12:40-12:50',
+      talks: [
+        {author: '', title: 'Break'}
+      ]
+    },
+    {
+        time: '12:50-13:30',
+        talks: [
+            {place: '', author: 'Maciej Treder (mid)', title: 'Angular Universal - a medicine for the Angular + SEO/CDN issues'},
+            {place: '', author: 'Irina Ziakhor (all)', title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'},
+            {place: '', author: '', title: ''}
+        ]
+    },
+    {
+      time: '13:30-15:30',
       talks: [
         {author: '', title: 'Lunch'}
       ]
     },
     {
-      time: '15:00-15:40',
+      time: '15:30-16:10',
       talks: [
         {place: '', author: 'Christian Gill (jun-mid)', title: 'Functional programming for the people [EN]'},
         {place: '', author: 'Ilya Zaprutsky', title: 'The Art of Node.js or how to do something cool using public data [RU]'},
@@ -222,59 +236,45 @@ $(document).ready(function () {
       ]
     },
     {
-      time: '15:40-15:50',
+      time: '16:10-16:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '15:50-16:30',
+      time: '16:20-17:00',
       talks: [
-        {place: '', author: 'Khrystyna Landvytovych (jun-mid)', title: 'Animation in the Air [UA]'},
-        {place: '', author: 'Diego González-Zúñiga', title: 'Immersive Web [EN]'},
+        {place: '', author: 'Khrystyna Landvytovych (jun-mid)', title: 'Animation in the Air'},
+        {place: '', author: 'Diego González-Zúñiga', title: 'Immersive Web'},
         {place: '', author: '', title: ''}
       ]
     },
     {
-      time: '16:30-16:40',
+      time: '17:00-17:20',
       talks: [
         {author: '', title: 'Break'}
       ]
     },
     {
-      time: '16:40-17:20',
-      talks: [
-        {place: '', author: 'Maciej Treder (mid)', title: 'Angular Universal - a medicine for the Angular + SEO/CDN issues'},
-        {place: '', author: 'Irina Ziakhor (all)', title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'},
-        {place: '', author: '', title: ''}
-      ]
-    },
-    {
-      time: '17:20-17:40',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '17:40-18:20',
+      time: '17:20-18:00',
       talks: [
         {place: '', author: 'Valerii Sorokobatko (mid)', title: ''},
         {place: '', author: 'Farzad Yousefzadeh (jun-mid)', title: 'Develop UIs without any UIs (UI is just a state consumer)'},
         {place: '', author: '', title: ''}
       ]
     },
-    {
-      time: '18:20-18:30',
-      talks: [
-        {author: '', title: 'Break'}
-      ]
-    },
-    {
-      time: '18:30-19:00',
-      talks: [
-        {author: '', title: 'Sponsors\' Prizes Raffle'}
-      ]
-    }
+    // {
+    //   time: '18:20-18:30',
+    //   talks: [
+    //     {author: '', title: 'Break'}
+    //   ]
+    // },
+    // {
+    //   time: '18:30-19:00',
+    //   talks: [
+    //     {author: '', title: 'Sponsors\' Prizes Raffle'}
+    //   ]
+    // }
   ];
 
 
