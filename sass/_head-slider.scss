@@ -135,7 +135,6 @@
         }
     }
     .slide-1{
-        background-image: url(../images/head-slider/red_bg_slide_1.jpg);
         position: relative;
         display: flex;
         justify-content: center;
@@ -145,9 +144,16 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url(../images/head-slider/white_rectangle_block_1.png);
+            background: #c8212b;
             z-index: 1;
-            top: 20px;
+            top: 0;
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
         .text-block{
             display: flex;
