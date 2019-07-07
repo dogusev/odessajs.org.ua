@@ -46,12 +46,16 @@ $(document).ready(function () {
             },
             {
                 breakpoint: 1280,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 2,
-                    infinite: true,
-                }
+                settings: "unslick"
             },
+            // {
+            //     breakpoint: 1280,
+            //     settings: {
+            //         slidesToShow: 4,
+            //         slidesToScroll: 2,
+            //         infinite: true,
+            //     }
+            // },
         ]
     });
     $('#workshopsSlider').slick({
@@ -80,11 +84,7 @@ $(document).ready(function () {
             },
             {
                 breakpoint: 1280,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 2,
-                    infinite: true,
-                }
+                settings: "unslick"
             },
         ]
     });
