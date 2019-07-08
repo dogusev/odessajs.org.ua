@@ -1223,7 +1223,7 @@ $(document).ready(function () {
 
         },
         {
-            image: "images/reporters/cherednikov.jpg",
+            image: "images/reporters/cherednikov.png",
             name: "Anton Cherednikov",
             speakerPos: [
                 {
