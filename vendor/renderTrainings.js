@@ -364,6 +364,53 @@ $(document).ready(function () {
                 }
             ],
         },
+        {
+            image: "images/reporters/alex-bordun.jpg",
+            name: "Oleksandr Bordun",
+            speakerPos: [
+                {
+                    position: "Lead NodeJS",
+                    company: "DEITY",
+                },
+            ],
+            country: "Ukraine",
+            city: "Dnipro",
+            rept: [
+                {
+                    title: "Adding PWA features to your web application on Node.js",
+                    description: 'Learn how to build from scratch or add to the existing Node web-application PWA (Progressive Web Apps) features like Offline mode and Caching capabilities via ServiceWorkers. This will be a practical workshop where you will be able to build a tiny web-application using Node.js with PWA capabilities',
+                    lang: "[RU]"
+                }
+            ],
+            description:
+                '<p class="description-subtitle">By the end you will know</p>' +
+                '<ul>\n' +
+                '  <li> How to build a simple web-application using Node.js that is able to "work" offline and show a user-friendly notification </li>\n' +
+                '  <li> How to cache your web-app assets to be able to use them while working offline (like styles and JS files)</li>\n' +
+                '  <li> How to befriend with Google Search Engine and Lighthouse</li>\n' +
+                '</ul>' +
+                '<p class="description-subtitle">Why you should come to this workshop</p>' +
+                '<p>Modern web technologies are constantly evolving, so in order to be among the best - your application must be able to handle all possible scenarios, even when a visitor goes offline. Search engines love when your application cares about its visitors. </p>' +
+                '<p class="description-subtitle">Skills & equipment required for the workshop</p>' +
+                '<p>Since this is going to be a practical workshop, it\'s desired to have a laptop with you. You will be able to follow with the presenter through the code and try to build your own application. Node.js and npm must be installed on your laptop as we will be installing some external packages required for building such web-applications. </p>'+
+                '<p class="description-subtitle">Target audience</p>' +
+                '<p>This workshop will require a minimal JavaScript experience, some basic experience with working with node.js web-server applications and knowledge of how node/npm work.</p>' +
+                '<p class="description-subtitle">About the speaker:</p>' +
+                '<p>Lead NodeJS / ReactJS developer DEITY</p>' +
+                '<p>Alex Bordun is passionate about his work, modern web technologies and tech events. Alex started off as a PHP developer but he soon transitioned to the JavaScript development because of its modern approach, eco-system and flexibility. He gets his kick out of solving complicated tasks. He likes to travel and used to play a lot of paintball…but lately he’s been working on a few small ‘pet’ projects in his spare time…so basically…he loves to code…24-7.</p>',
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/borales',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/Borales',
+                    fatype: 'github'
+                },
+            ],
+        },
     ];
 
 

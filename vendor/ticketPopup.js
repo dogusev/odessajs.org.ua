@@ -41,7 +41,7 @@ $(document).ready(function(){
             options: [
                 {
                     main: '2 tracks of talks and tech corners',
-                    additional: 'Gives possibitity to visit one conference day for your choice: 20th or 21st of July'
+                    additional: 'Gives possibility to visit one conference day for your choice: 20th or 21st of July'
                 },
                 {
                     main: 'Bicycle tour',
@@ -49,7 +49,7 @@ $(document).ready(function(){
                 },
                 {
                     main: 'Pre-party',
-                    additional: ' (Soft skill deelopment)'
+                    additional: ' (Soft skill development)'
                 },
                 {
                     main: 'Morning yoga',
