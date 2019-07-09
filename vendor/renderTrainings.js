@@ -54,8 +54,10 @@ $(document).ready(function () {
                 },
             ],
             description:
-                "<p class='description-subtitle'>Why do people have to come to your workshop?</p>" +
-                "<p>- Blockchain is a hip technology that is increasingly capturing the market. Companies such as Intel, IBM, Microsoft, Amazon are looking in this direction and developing it. Facebook, Telegram, Visa are taking the first steps in creating their solutions. At this workshop people will get PRACTICAL skills to create their own cryptocurrency based on the Intel framework within the framework of the Hyperledger project from the Linux Foundation, which will give invaluable experience and help specialists remain in demand for a long time.</p>" +
+                "<p class='description-subtitle'>Description</p>" +
+                "<p>Blockchain is a hip technology that is increasingly capturing the market. Companies such as Intel, IBM, Microsoft, Amazon are looking in this direction and developing it. Facebook, Telegram, Visa are taking the first steps in creating their solutions.</p>" +
+                "<p class='description-subtitle'>By the end you will know</p>" +
+                "<p>At this workshop people will get PRACTICAL skills to create their own cryptocurrency based on the Intel framework within the framework of the Hyperledger project from the Linux Foundation, which will give invaluable experience and help specialists remain in demand for a long time.</p>" +
                 "<p class='description-subtitle'>What knowledge and skills do you want participants have?</p>" +
                 "<ul>" +
                 "<li>Basic theoretical skills about technology</li>" +
@@ -63,6 +65,14 @@ $(document).ready(function () {
                 "<li>Skills for building blockchain systems</li>" +
                 "<li>Skills to build decentralized React applications</li>" +
                 "<li>Skills of writing a library</li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>What equipment is needed for the workshop?</p>" +
+                "<p>- Computer, with MacOS or Ubuntu system and characteristics sufficient for stable simultaneous operation of the docker and several JS applications.</p>" +
+                "<p class='description-subtitle'>Should the participants somehow prepare before the workshop?</p>" +
+                "<ul>" +
+                "<li>You need to install docker and docker-compose, have a basic understanding of how to use these tools</li>" +
+                "<li>You must install NodeJS version 8 or higher</li>" +
+                "<li>Check that you can install <a target='_blank' href='https://www.npmjs.com/package/sawtooth-sdk'>https://www.npmjs.com/package/sawtooth-sdk</a> </li>" +
                 "</ul>" +
                 "<p class='description-subtitle'>What tools do you use during the workshop?</p>" +
                 "<ul>" +
@@ -72,18 +82,10 @@ $(document).ready(function () {
                 "<li>NodeJS</li>" +
                 "<li>different JS libraries and tools</li>" +
                 "</ul>" +
-                "<p class='description-subtitle'>What equipment is needed for the workshop?</p>" +
-                "<p>- Computer, with MacOS or Ubuntu system and characteristics sufficient for stable simultaneous operation of the docker and several JS applications.</p>" +
-                "<p class='description-subtitle'>Who the workshop will be useful for?</p>" +
+                "<p class='description-subtitle'>Target audience</p>" +
                 "<ul>" +
                 "<li>for developers, enthusiasts who are ready to quickly and accurately absorb information. This will give them the opportunity to gain maximum experience.</li>" +
                 "<li>for developers who want to practice and look in other directions. This will allow them to decide what they want to do.</li>" +
-                "</ul>" +
-                "<p class='description-subtitle'>Should the participants somehow prepare before the workshop?</p>" +
-                "<ul>" +
-                "<li>You need to install docker and docker-compose, have a basic understanding of how to use these tools</li>" +
-                "<li>You must install NodeJS version 8 or higher</li>" +
-                "<li>Check that you can install <a target='_blank' href='https://www.npmjs.com/package/sawtooth-sdk'>https://www.npmjs.com/package/sawtooth-sdk</a> </li>" +
                 "</ul>" +
                 "<p class='description-subtitle'>About the speaker:</p>" +
                 "<p>- I have worked in many areas: web applications, blockchain technology, game industry, IoT. In these areas I have practical experience and understanding of business requirements.</p>" +
@@ -129,7 +131,29 @@ $(document).ready(function () {
                     lang: "[UA]"
                 }
             ],
-            description: 'At this workshop we\'ll update "not-so-handy" and not-so-readable angular app to something more nice and predictable.',
+            description:
+                "<p class='description-subtitle'>Description</p>" +
+                "<p>How to use Observables in component properly? How to forget about headache from non-unsubscribed subscriptions? Why your store is so big and complicated? Why it is so difficult to use store in components and why you need to write so much code for only one action?</p>" +
+                "<p>All of us faced such questions working with Angular any trying not to lose control over application state. But store keep getting bigger and less readable, actions number is increasing at enormous rates, and your components starting to live by themselves." +
+                "<p>Sergiy Babich would not offer you a silver bullet for all these problems, but he can tell how to simplify most of these things and share few lifehacks, which helped him to stay sane when working with Angular projects.</p>" +
+                "<p class='description-subtitle'>By the end you will know</p>" +
+                "<p>At Sergiy's workshop we will analyze most common RxJS and NGRX usage mistakes, learn ways of fixing those mistakes, take a look at NGRX 8 and even will learn a few interesting secrets from Sergiy's personal experience!</p>" +
+                "<p class='description-subtitle'>Why you should come to this workshop</p>" +
+                "<p>Code editor of your choice, NodeJS and yarn package manager installed. All participants would get a link to sample repository, it should be downloaded and all dependencies installed before start.</p>" +
+                "<p class='description-subtitle'>Agenda</p>" +
+                "<ul>" +
+                "<li>Sample project exploring;</li>" +
+                "<li>Locating mistakes and bad solutions for application state handling;</li>" +
+                "<li>Ways to unsubscribe from Subscription;</li>" +
+                "<li>Using async pipe;</li>" +
+                "<li>Reactive forms and Observables;</li>" +
+                "<li>NGRX 8;</li>" +
+                "<li>Lifehacks from Babich;</li>" +
+                "</ul>" +
+                "<p class='description-subtitle'>Target audience</p>" +
+                "<p>This workshop will be useful for mature specialists and beginners as well. One should be familiar with Angular, RxJS and NGRX to be able to participate.12 is comfort size of audience, maximum is 20 with assistants</p>" +
+                "<p class='description-subtitle'>About the speaker</p>" +
+                "<p>Sergiy Babich - awesome frontend developer, founder and organizer of LvivCSS conference. His total experience in frontend is heading to its first ten year anniversary, and his total web experience would be celebrating its first fifteen. For the last two years he is working with Angular only, but, to be honest, he loves all frontend. Even HTML.</p>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -200,11 +224,18 @@ $(document).ready(function () {
                 }
             ],
             description:
-                "<ul>" +
-                "<li>People should come to my workshop if they would like to learn how to write better integration tests.  If they have ever run into issues or bugs integrating with APIs or databases, this workshop is for them!  It will save them time in their development process and help get rid of several annoying and stressful bugs through clean and light testing practices.  By the end of the workshop, I would love for them to know how to write a good unit test and a good integration test and how to deploy these tests to a CI environment with ease.  We will use VSCode and get all of the necessary packages from NPM.  No external services are needed, but as we will be using several VSCode plugins, it will be useful for participants to have that editor ready.</li>" +
-                "<li>The ideal participant in this workshop is someone who is developing an app for a client or team with an opaque or fragile API. For example, if you are working on apps that integrate with banking or crypto APIs, this is a great way to future-proof them!  The workshop is mostly geared towards junior developers, but senior developers will learn new things as well!  And they may be able to help out some of the junior devs.  No special prep needs to be done before the workshop.</li>" +
-                "<li>I am the trainer, and my main area of expertise is Python and JavaScript programming.  I have a PhD in Music and Math and have mostly worked as a digital music designer and music ensemble director before starting my own company.  My favorite holiday these days is spending the weekend in the Finnish wilderness!</li>" +
-                "</ul>",
+                '<p class="description-subtitle">By the end you will know</p>' +
+                'By the end of the workshop, I would love for them to know how to write a good unit test and a good integration test and how to deploy these tests to a CI environment with ease.' +
+                '<p class="description-subtitle">Why you should come to this workshop</p>' +
+                '<p>People should come to my workshop if they would like to learn how to write better integration tests. If they have ever run into issues or bugs integrating with APIs or databases, this workshop is for them! It will save them time in their development process and help get rid of several annoying and stressful bugs through clean and light testing practices.</p>' +
+                '<p class="description-subtitle">Skills & equipment required for the workshop</p>' +
+                '<p>We will use VSCode and get all of the necessary packages from NPM. No external services are needed, but as we will be using several VSCode plugins, it will be useful for participants to have that editor ready.</p>' +
+                '<p class="description-subtitle">Target audience</p>' +
+                '<p>The ideal participant in this workshop is someone who is developing an app for a client or team with an opaque or fragile API. For example, if you are working on apps that integrate with banking or crypto APIs, this is a great way to future-proof them! The workshop is mostly geared towards junior developers, but senior developers will learn new things as well! And they may be able to help out some of the junior devs. No special prep needs to be done before the workshop.</p>' +
+                '<p class="description-subtitle">Target audience</p>' +
+                '<p>The ideal participant in this workshop is someone who is developing an app for a client or team with an opaque or fragile API. For example, if you are working on apps that integrate with banking or crypto APIs, this is a great way to future-proof them! The workshop is mostly geared towards junior developers, but senior developers will learn new things as well! And they may be able to help out some of the junior devs. No special prep needs to be done before the workshop.</p>' +
+                '<p class="description-subtitle">About the speaker</p>' +
+                '<p>I am a trainer, and my main area of expertise is Python and JavaScript programming. I have a PhD in Music and Math and have mostly worked as a digital music designer and music ensemble director before starting my own company. My favorite holiday these days is spending the weekend in the Finnish wilderness!</p>',
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -301,7 +332,15 @@ $(document).ready(function () {
                     lang: "[RU]"
                 }
             ],
-            description: 'We will get in touch popular node.js framework named Nest.JS. Will deep dive in functionality, aspects of usage of different components like DB, sockets, dependency injections. Will try to touch different community developed modules and components.',
+            description:
+                "<p class='description-subtitle'>Description</p>" +
+                "<p>During the workshop participants will touch different aspects of NestJS. We will start with philosophy, architecture overview, project bootstrapping, frameworks parts overview. As a practical part of the workshop we will try to create a new project, use frameworks parts, add third party modules, work with swagger, websockets, database.</p>" +
+                "<p class='description-subtitle'>Why do people have to come to your workshop?</p>" +
+                "<p>People can try in touch popular web framework named NestJS. The skills achieved during the workshop people can apply for build scalable and maintainable node.js applications.</p>" +
+                "<p class='description-subtitle'>Target audience</p>" +
+                "<p>Node.JS developers who looking for good tool for building BE/REST services.</p>" +
+                "<p class='description-subtitle'>About the speaker</p>" +
+                "<p>Andrey Kucherenko is an engineer, an architect, an author of open source project jscpd. Andrey has been working in IT for 15 years. He participated in the big amount of projects from different domain arias, he developed and conducted a lot of training for engineers. He was a speaker at international and local conferences. There are main arias of his interests: frontend, backend, architecture, mobile, methodologies of software development, code quality. Hobby: archery, bike, swimming </p>",
 
             aboutSpeaker: '',
             socialsRendered: '',
