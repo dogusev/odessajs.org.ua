@@ -1258,6 +1258,87 @@ $(document).ready(function () {
             ],
 
         },
+        {
+            image: "images/reporters/adel_salakh.png",
+            name: "Adel Salakh",
+            speakerPos: [
+                {
+                    position: "Tech Lead",
+                    company: "Beetroot",
+                }
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "Strongly typed web applications or how to stop worrying and love the typechecker",
+                    description: 'The introduction of typed JavaScript dialects such as TypeScript and Flow changed the way we make web applications. Armed with a type-checker developers can now be more confident in their code.\n' +
+                        'Despite this, often critical parts of web applications suffer from poor type coverage and weak types. This leads to whole classes of bugs and problems. We will demonstrate different techniques for preventing this and show you how to make sure you are getting the most out of your types and the type-checker.',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://github.com/adelsz',
+                    fatype: 'github'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/adel-salakh-69301213a/',
+                    fatype: 'linkedin'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/gromov.png",
+            name: "Nick Gromov",
+            speakerPos: [
+                {
+                    position: "Senior Web Developer",
+                    company: "AB Soft",
+                }
+            ],
+            country: "Ukraine",
+            city: "Odessa",
+            rept: [
+                {
+                    title: "Algorithms in JavaScript",
+                    description: 'How to determine the time complexity of the algorithm? Where are the algorithms used in JavaScript, and could we use algorithms in JavaScript development every day?',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/Nick.Gromov.92',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/Nick_Gromov_92',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/nick-gromov-1614b7125/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://www.instagram.com/nick_gromov_92/',
+                    fatype: 'instagram'
+                },
+                {
+                    link: 'https://stackoverflow.com/users/11759684/nick-gromov',
+                    fatype: 'stack-overflow'
+                },
+                {
+                    link: 'https://gitlab.com/NickGromov92',
+                    fatype: 'github'
+                }
+            ],
+
+        },
 
     ];
 

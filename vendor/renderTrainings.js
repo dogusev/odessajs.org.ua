@@ -24,7 +24,21 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
-            description: 'Browser Extensions/Add-ons helps us to personalize our browser as per our needs. We all have used a number of browser extensions in our life to improve our browsing experience either in chrome, firefox or opera. Instead of just being an End-User, Why not create one? and become a cross-browser extension developer. WebExtension API will help us (javascript developers) convert into a Browser Extension Developer by the end of this workshop. Using the power of Javascript along with the WebExtension API, We can now write extensions that can work in almost all browsers. No need to maintain separate codebase of extension for each browser. In this workshop, We will build 3 portable cross-browser extension together step by step, live in the session and provide you an excellent hands-on experience. During the process, You\'ll also learn: - The anatomy of WebExtensions API - Get introduced to cool APIs like Context Menu, tabs, Alarm, Notifications and many more. - Learn to build 3 exciting cross-browser extensions for your daily use. - Running & Debugging the extension - & finally, publish the extension to AMO (addons.mozilla.org) At the end of this workshop, The participants will gain good knowledge to build an extension on their own that can perform tasks as per their wish.',
+            description:
+                "<p class='description-subtitle'>Description</p>" +
+                "<p>Browser Extensions/Add-ons helps us to personalize our browser as per our needs. We all have used a number of browser extensions in our life to improve our browsing experience either in chrome, firefox or opera. Instead of just being an End-User, Why not create one? and become a cross-browser extension developer. </p>" +
+                "<p class='description-subtitle'>By the end you will know</p>" +
+                "<p>WebExtension API will help us (javascript developers) convert into a Browser Extension Developer by the end of this workshop. Using the power of Javascript along with the WebExtension API, We can now write extensions that can work in almost all browsers. No need to maintain separate codebase of extension for each browser</p>" +
+                "<p class='description-subtitle'>Why you should come to this workshop</p>" +
+                "<p>In this workshop, We will build 3 portable cross-browser extension together step by step, live in the session and provide you an excellent hands-on experience. During the process, You'll also learn:</p>" +
+                "<ul>" +
+                "<li>The anatomy of WebExtensions API</li>" +
+                "<li>Get introduced to cool APIs like Context Menu, tabs, Alarm, Notifications and many more.</li>" +
+                "<li>Learn to build 3 exciting cross-browser extensions for your daily use.</li>" +
+                "<li>Running & Debugging the extension</li>" +
+                "<li>& finally, publish the extension to AMO (addons.mozilla.org)</li>" +
+                "</ul>" +
+                "<p>At the end of this workshop participants will gain good knowledge to build an extension on their own that can perform tasks as per their wish.</p>",
 
             aboutSpeaker: '',
             socialsRendered: '',
@@ -184,9 +198,11 @@ $(document).ready(function () {
                     lang: "[EN]"
                 }
             ],
-            description: "When using WebSockets to communicate between your server and the client every new browser context–tab, window, iframe, and so on–is likely to create another WebSocket connection. All these open connections can quickly take a toll on your server resources, or if you’re using a PaaS which charges for each connection, it could quickly add up to a big bill.\n" +
-                "\n" +
-                "In this workshop, we’ll look at how you can use SharedWorkers to create a single persistent WebSocket which can be used by every browser context to communicate with your Django Channels WebSocket server",
+            description:
+                '<p class="description-subtitle">Description</p>' +
+                '<p>When using WebSockets to communicate between your server and the client every new browser context–tab, window, iframe, and so on–is likely to create another WebSocket connection. All these open connections can quickly take a toll on your server resources, or if you’re using a PaaS which charges for each connection, it could quickly add up to a big bill. </p>' +
+                '<p class="description-subtitle">Why you should come to this workshop</p>' +
+                '<pIn this workshop, we’ll look at how you can use SharedWorkers to create a single persistent WebSocket which can be used by every browser context to communicate with your Django Channels WebSocket server></p>',
 
             aboutSpeaker: '',
             socialsRendered: '',
@@ -272,11 +288,11 @@ $(document).ready(function () {
                 }
             ],
             description:
-                "<p>Developers thinks that runtime modular architecture is very heavy to implement.</p>" +
-                "<p>My workshop will turn around a real use case of modular architecture. So we will see together how we can implement a runtime pluggable application in Angular and NodeJS, how we package modules (plugins) and how we can load them at runtime into our Angular application.</p>" +
+                "<p class='description-subtitle'>Description</p>" +
+                "<p>Developers thinks that runtime modular architecture is very heavy to implement.My workshop will turn around a real use case of modular architecture. So we will see together how we can implement a runtime pluggable application in Angular and NodeJS, how we package modules (plugins) and how we can load them at runtime into our Angular application.</p>" +
+                "<p class='description-subtitle'>Why you should come to this workshop</p>" +
                 "<p>In the workshop, we will develop a platform with a marketplace, from which the user can install some extensions to the running app. It will be mainly a dashboard and different widgets that will be installed at runtime by the end user.</p>" +
-                "<p>This workshop can be held by any developer who have basic knowledge in Angular and NodeJS.</p>" +
-                "<p class='description-subtitle'>We need :</p>" +
+                "<p class='description-subtitle'>Skills & equipment required for the workshop</p>" +
                 "<ul>" +
                 "<li>VS Code</li>" +
                 "<li>NodeJS</li>" +
@@ -284,7 +300,8 @@ $(document).ready(function () {
                 "<li>Angular CLI 6+</li>" +
                 "<li>And internet access :)</li>" +
                 "</ul>" +
-                "<p>Everyone will be welcome to the workshop.</p>",
+                "<p class='description-subtitle'>Target audience</p>" +
+                "<p>This workshop can be held by any developer who have basic knowledge in Angular and NodeJS. Everyone will be welcome to the workshop</p>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -382,14 +399,14 @@ $(document).ready(function () {
                 }
             ],
             description:
+                "<p class='description-subtitle'>Why you should come to this workshop</p>" +
                 "<p>Developers should visit my workshop to find out what they can do in modern browsers that are about to become a full-fledged OS.</p>" +
-                "<p>What do participants need to know before the workshop?</p>" +
-                "<p>Knowledge of what webassembly provides for running all sorts of applications that were previously not very suitable for the browser.</p>" +
-                "<p>Necessary equipment: laptops with an installed docker and code editor</p>" +
+                "<p class='description-subtitle'>Skills & equipment required for the workshop</p>" +
+                "<p>Knowledge of what webassembly provides for running all sorts of applications that were previously not very suitable for the browser. Necessary equipment: laptops with an installed docker and code editor</p>" +
+                "<p class='description-subtitle'>Target audience</p>" +
                 "<p>Workshop would be useful for all web developers who want to look further than form layouts. It makes sense to install pre-docker and figure out how it works. Better to have some experience with javascript and command line.</p>" +
-                "<p class='description-subtitle'>About the speaker: </p>" +
-                "<p>I’ve been working in IT for 15 year. During this time, managed to change a lot of approaches, languages, stacks and technologies from assembler to blockchain. Now the main sphere is the web and everything connected with it.</p>" +
-                "<p>Hobbies: auto quests and mountain skiing. </p>",
+                "<p class='description-subtitle'>About the speaker:</p>" +
+                "<p>I’ve been working in IT for 15 year. During this time, managed to change a lot of approaches, languages, stacks and technologies from assembler to blockchain. Now the main sphere is the web and everything connected with it. Hobbies: auto quests and mountain skiing.</p>",
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
@@ -448,6 +465,56 @@ $(document).ready(function () {
                     link: 'https://github.com/Borales',
                     fatype: 'github'
                 },
+            ],
+        },
+        {
+            image: "images/reporters/klymyshyn.png",
+            name: "Maksym Klymyshyn",
+            speakerPos: [
+                {
+                    position: "Software Architect",
+                    company: "Takeoff Technologies",
+                },
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "Communication reliability within Distributed Systems",
+                    description: 'I\'m going to briefly go trough most popular Resiliency patterns, retrying strategies and communication tactics in context of Microservices.',
+                    lang: "[RU]"
+                }
+            ],
+            description:
+                '<p class="description-subtitle">Description</p>' +
+                '<p>I\'m going to briefly go trough most popular Resiliency patterns, retrying strategies and communication tactics in context of Microservices.</p>' +
+                '<p class="description-subtitle">Target audience</p>' +
+                '<p>Mid+ modern organizations moving towards Microservices (hence, into Distributed Systems world) to gain mid and long-term benefits such as contract-based development (or API-first development) which leads to multiple independent pipelines of development processes. Yet with such benefits tradeoffs of distributes systems comes in. The purpose of my workshop is to point a direction and give a broader understanding of the common problems within DS environment.</p>' +
+                '<p class="description-subtitle">What kind of tools will you use for that? What equipment is needed for the workshop?</p>' +
+                '<p>Nothing specific</p>' +
+                '<p class="description-subtitle">Who needs this workshop?</p>' +
+                '<p>Software Architects and mid+ developers who are interested in Distributed Systems or moving towards it.</p>' +
+                '<p class="description-subtitle">About speaker</p>' +
+                '<p>Maksym specialized in software architecture, distributed systems, technical team leadership, and management of distributed teams with 7+ years of experience with eGrocery and grocery retail automation.</p>',
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/max.klymyshyn',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://twitter.com/maxmaxmaxmax',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'http://linkedin.com/in/klymyshyn/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://github.com/joymax',
+                    fatype: 'github'
+                }
             ],
         },
     ];
