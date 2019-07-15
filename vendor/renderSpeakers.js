@@ -716,13 +716,8 @@ $(document).ready(function () {
             city: "Kharkiv",
             rept: [
                 {
-                    title: "Mental debugging tips & tricks",
-                    description: 'Sharing very usefull tips&tricks for debugging codebase: ' +
-                        '<ol>' +
-                        '<li>IDE configurations</li>' +
-                        '<li>searching a weak unit (candies for the right answer)</li>' +
-                        '<li>structural replacement (and restrictions)</li>' +
-                        '</ol>',
+                    title: "Game of professionals. Mental debugging tips & trics",
+                    description: 'Only working tools for debugging, training in a mental map building and the program execution context, ways of conveying information to young professionals and much more you will hear, see and feel in this presentation, which will be held in the format of the game professionals.',
                     lang: "[RU]"
                 }
             ],
