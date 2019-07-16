@@ -389,6 +389,24 @@ $(document).ready(function () {
 
     var talks19july = [
         {
+            time: 'Speech 1',
+            talks: [
+                {author: 'Yuriy Nifontov', title: 'Monday of the development team'}
+            ]
+        },
+        {
+            time: 'Speech 2',
+            talks: [
+                {author: 'Roman Savitskyi', title: 'Як козаки проект вигравали або троє на галер [UKR]'}
+            ]
+        },
+        {
+            time: 'Speech 3',
+            talks: [
+                {author: 'Dmitriy Gusev and Kristina Chemerska', title: 'Как общаться с людьми, если они тебя раздражают [RUS]'}
+            ]
+        },
+        {
             time: '12:00-14:30',
             talks: [
                 {author: 'Speakers lunch', title: ''}
