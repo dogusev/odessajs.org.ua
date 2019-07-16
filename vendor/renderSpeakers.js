@@ -633,8 +633,8 @@ $(document).ready(function () {
             name: "Martin Hochel",
             speakerPos: [
                 {
-                    position: "UI Tech Lead",
-                    company: "TwistoCZ",
+                    position: "Principal Engineer",
+                    company: "Productboard",
                 },
             ],
             country: "Czech Republic",
@@ -717,7 +717,7 @@ $(document).ready(function () {
             rept: [
                 {
                     title: "Game of professionals. Mental debugging tips & trics",
-                    description: 'Only working tools for debugging, training in a mental map building and the program execution context, ways of conveying information to young professionals and much more you will hear, see and feel in this presentation, which will be held in the format of the game professionals.',
+                    description: 'Only working tools for debugging, training in a mental map building and the program execution context, ways of conveying information to young professionals and much more you will hear, see and feel in this presentation, which will be held in the format of the professional game.',
                     lang: "[RU]"
                 }
             ],
@@ -1200,7 +1200,7 @@ $(document).ready(function () {
                     description: 'Successful projects are like puzzles, composed of the day-to-day work of every team member. Team Lead Yuri tells about a typical day of developers, QAs, team leads, and account managers, and reflects on the soft skills needed to transform typical days into productive ones. \n' +
                         '\n' +
                         'Referring to good and not-so-good cases, we will talk about key milestones of a day: the start of work, standups and meetings, the working process, interaction with colleagues and clients, wrapping up, and after-work activities. It’s going to be interesting! ',
-                    lang: "[EN]"
+                    lang: "[RU]"
                 }
             ],
             aboutSpeaker: '',

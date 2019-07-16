@@ -429,8 +429,8 @@ $(document).ready(function () {
                     company: "DEITY",
                 },
             ],
-            country: "Ukraine",
-            city: "Dnipro",
+            country: "Poland",
+            city: "Krakov",
             rept: [
                 {
                     title: "Adding PWA features to your web application on Node.js",
