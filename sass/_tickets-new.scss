@@ -170,6 +170,20 @@
                     color: #ffb64b;
                 }
             }
+
+            #ticket_0{
+                position: absolute;
+                bottom: 0;
+                z-index: 12;
+                transition: 0.3s all ease-out;
+                box-shadow: 30px -15px 30px -20px rgba(0,0,0,0.1);
+                &:hover{
+                    z-index: 12;
+                    transform: scale(1.1);
+                    box-shadow: 50px -25px 50px -30px rgba(0,0,0,0.1);
+                }
+            }
+
             #ticket_1{
                 position: absolute;
                 bottom: 0;
