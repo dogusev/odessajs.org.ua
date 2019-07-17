@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     var talks7july = [
         {
-            time: '07:00-08:00',
+            time: '08:25-09:25',
             talks: [
                 {author: '', title: 'Morning Yoga'}
             ]
@@ -182,15 +182,15 @@ $(document).ready(function () {
             ]
         },
         {
-            time: '18:30-19:00',
+            time: '18:20-18:40',
             talks: [
                 {author: '', title: 'Sponsors\' Prizes Raffle'}
             ]
         },
         {
-            time: '19:00-22:00',
+            time: '19:00-21:00',
             talks: [
-                {author: '', title: 'Afterparty '}
+                {author: '', title: 'Afterparty at True Man Hot Boat night club'}
             ]
         }
     ];
@@ -203,6 +203,12 @@ $(document).ready(function () {
             ]
         },
         {
+            time: '08:30 - 09:30',
+            talks: [
+                {author: '', title: 'Registration for guests who has one day ticket'}
+            ]
+        },
+        {
             time: '9:30-10:10',
             talks: [
                 {
@@ -210,7 +216,7 @@ $(document).ready(function () {
                     author: 'Joel Lord (all)',
                     title: 'I Don\'t Care About Security (And Neither Should You) [EN]'
                 },
-                {place: '', author: 'Roman Sachenko (mid)', title: 'Serverless (AWS) — things I\'d like to knew [RU]'},
+                {place: '', author: 'Roman Sachenko (mid)', title: 'Serverless (AWS) — things I\'d like to knew [RU] ONLINE'},
             ],
             workshops: [
                 {
@@ -361,12 +367,18 @@ $(document).ready(function () {
         //     {author: '', title: 'Break'}
         //   ]
         // },
-        // {
-        //   time: '18:30-19:00',
-        //   talks: [
-        //     {author: '', title: 'Sponsors\' Prizes Raffle'}
-        //   ]
-        // }
+        {
+          time: '18:00-18:20',
+          talks: [
+            {author: '', title: 'Sponsors\' Prizes Raffle'}
+          ]
+        },
+        {
+            time: '18:20-19:00',
+            talks: [
+                {author: '', title: 'Closure of the Conference.'}
+            ]
+        }
     ];
 
 
@@ -389,24 +401,6 @@ $(document).ready(function () {
 
     var talks19july = [
         {
-            time: 'Speech 1',
-            talks: [
-                {author: 'Yuriy Nifontov', title: 'Monday of the development team'}
-            ]
-        },
-        {
-            time: 'Speech 2',
-            talks: [
-                {author: 'Roman Savitskyi', title: 'Як козаки проект вигравали або троє на галер [UKR]'}
-            ]
-        },
-        {
-            time: 'Speech 3',
-            talks: [
-                {author: 'Dmitriy Gusev and Kristina Chemerska', title: 'Как общаться с людьми, если они тебя раздражают [RUS]'}
-            ]
-        },
-        {
             time: '12:00-14:30',
             talks: [
                 {author: 'Speakers lunch', title: ''}
@@ -415,8 +409,9 @@ $(document).ready(function () {
         {
             time: '14:00-16:00',
             talks: [
-                {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
-                {author: 'Saif Jerbi', title: 'Pluggable platform using Angular and NodeJS [EN]'}
+                {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs [EN]'},
+                {author: 'Saif Jerbi', title: 'Pluggable platform using Angular and NodeJS [EN]'},
+                {author: 'Nick Lototskiy', title: 'Rx.js что я делаю не так? [RU]'}
             ]
         },
         {
@@ -424,17 +419,70 @@ $(document).ready(function () {
             talks: [
                 {
                     author: 'Sergiy Babich',
-                    title: 'Practicing on making Angular app more friendly in terms of data handling'
+                    title: 'Practicing on making Angular app more friendly in terms of data handling [UA]'
                 },
-                {author: 'Andrey Kucherenko', title: 'Get experience with NestJS '}
+                {author: 'Andrey Kucherenko', title: 'Get experience with NestJS [RU]'},
+                {author: '', title: ''}
             ]
         },
         {
-            time: '18:00-20:00',
+            time: "17:30",
             talks: [
-                {author: 'Pre-party', title: 'Soft skills development'}
+                {
+                    author : 'Registation',
+                    title: 'Pre-party'
+                }
             ]
         },
+        {
+            time: '18:00 - 18:40',
+            talks: [
+                {author: 'Ksenia Redunova', title: 'Presentation Karaoke  [EN]'}
+            ]
+        },
+        {
+            time: "18:40 - 18:50",
+            talks: [
+                {
+                    author : 'Break'
+                }
+            ]
+        },
+        {
+            time: '18:50 - 19:30',
+            talks: [
+                {author: 'Yuriy Nifontov', title: 'Monday of the development team [RU]'}
+            ]
+        },
+        {
+            time: "19:30 - 19:40",
+            talks: [
+                {
+                    author : 'Break'
+                }
+            ]
+        },
+        {
+            time: '19:40 - 20:40',
+            talks: [
+                {author: 'Roman Savitskyi', title: 'Як козаки проект вигравали або троє на галер [UA]'}
+            ]
+        },
+        {
+            time: "120:40 - 20:50",
+            talks: [
+                {
+                    author : 'Break'
+                }
+            ]
+        },
+        {
+            time: '20:50 - 21:30',
+            talks: [
+                {author: 'Dmitriy Gusev and Kristina Chemerska', title: 'Как общаться с людьми, если они тебя раздражают [RU]'}
+            ]
+        },
+
     ];
 
 
