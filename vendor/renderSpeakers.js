@@ -1334,6 +1334,91 @@ $(document).ready(function () {
             ],
 
         },
+        {
+            image: "images/reporters/ksenia_redunova.jpg",
+            name: "Ksenia Redunova",
+            speakerPos: [
+                {
+                    position: "Tam Lead",
+                    company: "Lohika",
+                }
+            ],
+            country: "Ukraine",
+            city: "Odessa",
+            rept: [
+                {
+                    title: "Presentation Karaoke (Pre - party)",
+                    description: '',
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/redunova',
+                    fatype: 'facebook'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/redunovaksenia/',
+                    fatype: 'linkedin'
+                },
+            ],
+
+        },
+        {
+            image: "images/reporters/dmitry.jpg",
+            name: "Dmitry Mindra",
+            speakerPos: [
+                {
+                    position: "Senior Manager",
+                    company: "Oracle",
+                }
+            ],
+            country: "Ukraine",
+            city: "Odessa",
+            rept: [
+                {
+                    title: "Storytelling Tech corner (Pre - party)",
+                    description: '',
+                    lang: ""
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.facebook.com/dmytro.mindra',
+                    fatype: 'facebook'
+                }
+            ],
+
+        },
+        {
+            image: "images/reporters/kris.png",
+            name: "Kristina Chemerska",
+            speakerPos: [
+                {
+                    position: "",
+                    company: "",
+                }
+            ],
+            country: "",
+            city: "",
+            rept: [
+                {
+                    title: "Как общаться с людьми, если они тебя раздражают (Pre - party)",
+                    description: '',
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+
+            ],
+
+        },
 
     ];
 
