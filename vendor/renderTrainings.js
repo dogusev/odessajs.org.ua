@@ -517,6 +517,43 @@ $(document).ready(function () {
                 }
             ],
         },
+        {
+            image: "images/reporters/nick-lototskiy.jpg",
+            name: "Nick Lototskiy",
+            speakerPos: [
+                {
+                    position: "Software Architect",
+                    company: "Takeoff Technologies",
+                },
+            ],
+            country: "Ukraine",
+            city: "Kharkiv",
+            rept: [
+                {
+                    title: "Rx.js - what I do wrong?",
+                    description: 'Workshop described about Rx,.js library. The first and thae main goal how to create observables in the right way without re-invent the wheel. The socond how to switch to observable mind? Why so dangerous nested observables  and how to change your mindset for change 5th to 6th library version. Also would be disscussed main mistakes working with observables.',
+                    lang: "[RU]"
+                }
+            ],
+            description:
+                '<p class="description-subtitle">Description</p>' +
+                '<p>Workshop described about Rx,.js library. The first and thae main goal how to create observables in the right way without re-invent the wheel. The socond how to switch to observable mind? Why so dangerous nested observables  and how to change your mindset for change 5th to 6th library version. Also would be disscussed main mistakes working with observables.</p>' +
+                '<p>If you use observables you van avoid new mistakes. If you never use them you hear about the great mechanism for working with reactive data. </p>' +
+                '<p class="description-subtitle">Target audience</p>' +
+                '<p>JS developers, angular develoers, node.js developers(middle level)</p>' +
+                '<p class="description-subtitle">What kind of tools will you use for that? What equipment is needed for the workshop?</p>' +
+                '<a target="_blank" class="mb-3" href="https://www.youtube.com/watch?v=LpE4vuJnCcA">Nick Lototskiy - When should I start writing my unit tests ?</a>' +
+                '<p class="description-subtitle">About speaker</p>' +
+                '<p>Nick Lototskiy. DevOps lead at Namecheap.com. More than 15 years in IT. Nick conduct all steps from automation QA to Technical Expert. Author more than 10 courses about JS, Node.js, Angular, etc. </p>',
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://github.com/maltez',
+                    fatype: 'github'
+                }
+            ],
+        },
     ];
 
 
