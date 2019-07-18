@@ -453,7 +453,7 @@ $(document).ready(function () {
             time: "17:30",
             talks: [
                 {
-                    author : 'Registation',
+                    author : 'Registation - Pre-party',
                     title: ''
                 }
             ]
