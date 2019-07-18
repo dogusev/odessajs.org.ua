@@ -1343,7 +1343,7 @@ $(document).ready(function () {
             city: "Kyiv",
             rept: [
                 {
-                    title: "Storytelling Tech corner (Pre - party)",
+                    title: "Storytelling Tech corner",
                     description: 'In this technical corner, I will share my experience in public speaking. I will tell you about\n' +
                         '- what storytelling is and how you can use it in a presentation.\n' +
                         '- how writing lessons help me in preparing conference talks,\n' +
@@ -1367,12 +1367,12 @@ $(document).ready(function () {
             name: "Kristina Chemerska",
             speakerPos: [
                 {
-                    position: "",
-                    company: "",
+                    position: "People Partner",
+                    company: "HYS Enterprise",
                 }
             ],
-            country: "",
-            city: "",
+            country: "Ukraine",
+            city: "Odessa",
             rept: [
                 {
                     title: "Как общаться с людьми, если они тебя раздражают (Pre - party)",
@@ -1383,7 +1383,10 @@ $(document).ready(function () {
             aboutSpeaker: '',
             socialsRendered: '',
             socials: [
-
+                {
+                    link: "https://www.facebook.com/chrystysmay",
+                    fatype: "facebook"
+                }
             ],
 
         },

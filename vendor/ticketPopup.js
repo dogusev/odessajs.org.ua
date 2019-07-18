@@ -36,7 +36,7 @@ $(document).ready(function(){
         },
         {
             title: "One Day Ticket",
-            price: "2700",
+            price: "3000",
             currency: "uah" ,
             action: "buy ticket",
             options: [
