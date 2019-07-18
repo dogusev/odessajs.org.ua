@@ -923,42 +923,6 @@ $(document).ready(function () {
 
         },
         {
-            image: "images/reporters/sorokobatko.jpg",
-            name: "Valerii Sorokobatko",
-            speakerPos: [
-                {
-                    position: "Software Engineer",
-                    company: "Wix",
-                }
-            ],
-            country: "Ukraine",
-            city: "Kyiv",
-            rept: [
-                {
-                    title: "",
-                    description: '',
-                    lang: "[RU]"
-                }
-            ],
-            aboutSpeaker: '',
-            socialsRendered: '',
-            socials: [
-                {
-                    link: 'https://www.facebook.com/tuchk4',
-                    fatype: 'facebook'
-                },
-                {
-                    link: 'http://twitter.com/tuchk4',
-                    fatype: 'twitter'
-                },
-                {
-                    link: 'http://github.com/tuchk4',
-                    fatype: 'github'
-                }
-            ],
-
-        },
-        {
             image: "images/reporters/saif_jerbi.jpg",
             name: "Saif Jerbi",
             speakerPos: [
@@ -1348,7 +1312,7 @@ $(document).ready(function () {
             rept: [
                 {
                     title: "Presentation Karaoke (Pre - party)",
-                    description: '',
+                    description: 'Public speaking skills are important in our work and even everyday life. Sometimes it\'s difficult to get relaxed and improvise when talking to an audience all by yourself. I will play a game with an audience to train their improvisation talents and public speaking skills. We\'ll have lots of fun!',
                     lang: "[EN]"
                 }
             ],
@@ -1371,16 +1335,20 @@ $(document).ready(function () {
             name: "Dmitry Mindra",
             speakerPos: [
                 {
-                    position: "Senior Manager",
-                    company: "Oracle",
+                    position: "Engineering Manager",
+                    company: "Grammarly",
                 }
             ],
             country: "Ukraine",
-            city: "Odessa",
+            city: "Kyiv",
             rept: [
                 {
                     title: "Storytelling Tech corner (Pre - party)",
-                    description: '',
+                    description: 'In this technical corner, I will share my experience in public speaking. I will tell you about\n' +
+                        '- what storytelling is and how you can use it in a presentation.\n' +
+                        '- how writing lessons help me in preparing conference talks,\n' +
+                        '- what I learned from master-classes in public speaking,\n' +
+                        'And of course, I will answer your questions.',
                     lang: ""
                 }
             ],
@@ -1388,8 +1356,8 @@ $(document).ready(function () {
             socialsRendered: '',
             socials: [
                 {
-                    link: 'https://www.facebook.com/dmytro.mindra',
-                    fatype: 'facebook'
+                    link: 'https://www.linkedin.com/in/dmytromindra/',
+                    fatype: 'linkedin'
                 }
             ],
 

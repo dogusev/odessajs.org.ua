@@ -554,6 +554,31 @@ $(document).ready(function () {
                 }
             ],
         },
+        {
+            image: "images/reporters/ihor_areshkin.jpg",
+            name: "Areshkin Ihor",
+            speakerPos: [
+                {
+                    position: "Software Architect",
+                    company: "Takeoff Technologies",
+                },
+            ],
+            country: "Ukraine",
+            city: "Kharkiv",
+            rept: [
+                {
+                    title: "Mobile photography",
+                    description: '',
+                    lang: "[RU]"
+                }
+            ],
+            description:
+                '',
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+            ],
+        },
     ];
 
 
