@@ -361,42 +361,6 @@ $(document).ready(function () {
             ],
 
         },
-
-        {
-            image: "images/reporters/farzad-zadeh.jfif",
-            name: "Farzad Yousef Zadeh",
-            speakerPos: [
-                {
-                    position: "Senior Software Engineer",
-                    company: "Futurice",
-                },
-            ],
-            country: "Finland",
-            city: "Helsinki",
-            rept: [
-                {
-                    title: "Developing UIs without a UIs",
-                    description: "Often when we need to develop a user interface (client application in any platform), we're dependent on designs and often we find ourselves modeling our applications based on these designs. But in reality, we might not need any design to develop user interfaces. In this talk, I'll show how using statecharts and headless components can solve the modeling and logic sharing problems.",
-                    lang: "[EN]"
-                }
-            ],
-            aboutSpeaker: '',
-            socialsRendered: '',
-            socials: [
-                {
-                    link: 'https://twitter.com/farzad_yz',
-                    fatype: 'twitter'
-                },
-                {
-                    link: 'https://github.com/farskid',
-                    fatype: 'github'
-                },
-                {
-                    link: 'https://farzadyz.com',
-                    fatype: 'instagram'
-                },
-            ],
-        },
         {
             image: "images/reporters/maurizio-mangione.jpg",
             name: "Maurizio Mangione",
@@ -1343,12 +1307,14 @@ $(document).ready(function () {
             city: "Kyiv",
             rept: [
                 {
-                    title: "Storytelling Tech corner",
-                    description: 'In this technical corner, I will share my experience in public speaking. I will tell you about\n' +
-                        '- what storytelling is and how you can use it in a presentation.\n' +
-                        '- how writing lessons help me in preparing conference talks,\n' +
-                        '- what I learned from master-classes in public speaking,\n' +
-                        'And of course, I will answer your questions.',
+                    title: "The art of storytelling",
+                    description: '<p>In this technical corner, I will share my experience in public speaking. I will tell you about:</p>' +
+                        '<ul>' +
+                        '<li>What storytelling is and how you can use it in a presentation</li>' +
+                        '<li>How writing lessons help me in preparing conference talks</li>' +
+                        '<li>What I learned from master-classes in public speaking</li>' +
+                        '</ul>' +
+                        '<p>And of course, I will answer your questions.</p>',
                     lang: ""
                 }
             ],

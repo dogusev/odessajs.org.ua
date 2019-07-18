@@ -378,8 +378,8 @@ $(document).ready(function () {
                 {place: '', author: '', title: ''},
                 {
                     place: '',
-                    author: 'Farzad Yousefzadeh (jun-mid)',
-                    title: 'Develop UIs without any UIs (UI is just a state consumer)'
+                    author: '',
+                    title: ''
                 },
                 {place: '', author: '', title: ''},
                 {place: '', author: '', title: ''}
@@ -453,7 +453,7 @@ $(document).ready(function () {
             time: "17:30",
             talks: [
                 {
-                    author : 'Registation',
+                    author : 'Registation - Pre-party',
                     title: ''
                 }
             ]
