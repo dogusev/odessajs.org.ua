@@ -489,7 +489,7 @@ $(document).ready(function () {
         {
             time: '19:40 - 20:40',
             talks: [
-                {author: 'Roman Savitskyi', title: 'Як козаки проект вигравали або троє на галер [UA]'}
+                {author: 'Roman Savitskyi', title: 'How cossacks win projects [UA]'}
             ]
         },
         {
