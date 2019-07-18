@@ -25,7 +25,8 @@ $(document).ready(function () {
             talks: [
                 {place: '', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
                 {place: '', author: 'Asim Hussain (all)', title: 'The Future of Machine Learning & JavaScript [EN]'},
-                {place: '8.30-10.00 [workshop]', author: 'Andrey Kucherenko', title: 'Get experience with NextJS [RU]'}
+                {place: '8.30-10.00 [workshop]', author: 'Andrey Kucherenko', title: 'Get experience with NestJS [RU]'},
+                {place: '', author: '', title: ''}
 
             ]
         },
@@ -48,7 +49,8 @@ $(document).ready(function () {
                     place: '10.30-11.00',
                     author: 'Maxym Klymyshin',
                     title: 'Communication reliability within distributed systems [RU]'
-                }
+                },
+                {place: '', author: '', title: ''}
             ]
         },
         {
@@ -70,7 +72,8 @@ $(document).ready(function () {
                     author: 'Martin Hochel (mid-sr)',
                     title: 'Ultimate React Component Patterns with TypeScript [EN]'
                 },
-                {place: '11.00-13.00 [workshop]', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'}
+                {place: '11.00-13.00 [workshop]', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
+                {place: '11.00-13.00 [Managers corner]', author: 'Dmitriy Gusev, Roman Savitskyi, Zakhor', title: 'Seniors mindset.'}
             ]
         },
         {
@@ -84,7 +87,9 @@ $(document).ready(function () {
             talks: [
                 {place: '', author: 'Nick Gromov', title: 'Algorithms in JavaScript  [RU]'},
                 {place: '', author: 'Maurizio Mangione (all)', title: 'Progressive Web Apps [EN]'},
-                {place: '13:00-15:00 [workshop]', author: 'Artem Frantsiian', title: 'Make your OdessaJS coin'}
+                {place: '13:00-15:00 [workshop]', author: 'Artem Frantsiian', title: 'Make your OdessaJS coin [RU]'},
+                {place: '13:00-15:00 [Tech corner]', author: 'Viktor Turskyi, Andrey Kucherenko, Dvorovenko', title: 'Frontend architecture'}
+
             ]
         },
         {
@@ -106,7 +111,8 @@ $(document).ready(function () {
                     place: '15:00-17:00 [workshop]',
                     author: 'Aaron Basset ',
                     title: 'Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers [EN]'
-                }
+                },
+                {place: '13:00-15:00 [Event"s corner]', author: 'Roman Savitskyi , Sergiy Babich,  Julia Cherniak', title: 'IT events in Ukraine. How and why'}
             ]
         },
         {
@@ -132,7 +138,8 @@ $(document).ready(function () {
                     place: '17:00-18:30 [workshop]',
                     author: 'Oleksandr Bordun',
                     title: 'Adding PWA features to your web application on Node.JS[ru]'
-                }
+                },
+                {place: '13:00-15:00 [Tech corner]', author: 'Jamie Maria, Oleksandr Bordun, Sergiy Babich, Mangione', title: 'Progressive Web Apps'}
             ]
         },
         {
@@ -154,6 +161,7 @@ $(document).ready(function () {
                     author: 'Adel Salakh ',
                     title: 'Strongly typed web applications or how to stop worrying and love the typechecker [EN]'
                 },
+                {author: '', title: ''},
                 {author: '', title: ''}
             ]
         },
@@ -172,6 +180,7 @@ $(document).ready(function () {
                     title: 'The search for App-iness : Progressive Web Apps [EN]'
                 },
                 {place: '', author: 'Eldar Dzhafarov (mid-sr)', title: 'The Code [RU]'},
+                {author: '', title: ''},
                 {author: '', title: ''}
             ]
         },
@@ -182,7 +191,7 @@ $(document).ready(function () {
             ]
         },
         {
-            time: '18:20-18:40',
+            time: '18:30-18:40',
             talks: [
                 {author: '', title: 'Sponsors\' Prizes Raffle'}
             ]
@@ -217,14 +226,17 @@ $(document).ready(function () {
                     title: 'I Don\'t Care About Security (And Neither Should You) [EN]'
                 },
                 {place: '', author: 'Roman Sachenko (mid)', title: 'Serverless (AWS) — things I\'d like to knew [RU] ONLINE'},
-            ],
-            workshops: [
                 {
                     place: '9:30-11:30 [workshop]',
                     author: 'Dmytro Selin',
-                    title: 'WebAssembly - Everything in browser, from bitcoin miners to python interpreter'
+                    title: 'WebAssembly - Everything in browser, from bitcoin miners to python interpreter [RU]'
                 },
-                // {place: '', author: '', title: ''},
+                {
+                    place: '',
+                    author: '',
+                    title: ''
+                },
+
             ]
         },
         {
@@ -242,7 +254,9 @@ $(document).ready(function () {
                     title: 'Handling partial failures in a distributed environment with Saga [RU]'
                 },
                 {place: '', author: 'Yoni Goldberg (mid)', title: '5 advanced & shiny testing techniques [EN]'},
-                {place: '', author: '', title: ''}
+                {place: '', author: '', title: ''},
+                {place: '11:00 [Tech corner]', author: 'Mindra', title: 'Storytelling'}
+
             ]
         },
         {
@@ -264,6 +278,11 @@ $(document).ready(function () {
                     place: '11:30-14:30 [workshop]',
                     author: 'Karthic Keyan',
                     title: 'Building Cross Browser Extension - From Zero to Hero'
+                },
+                {
+                    place: '11:30-14:30 [workshop] (Hall D)',
+                    author: 'Ihor Areshkin',
+                    title: 'Mobile photography [RU]'
                 }
             ]
         },
@@ -286,7 +305,8 @@ $(document).ready(function () {
                     place: '14:30-16:30 [workshop]',
                     author: 'Saif Jerbi',
                     title: 'Pluggable Web application using Angular and NodeJS'
-                }
+                },
+                {place: '', author: '', title: ''}
             ]
         },
         {
@@ -308,6 +328,7 @@ $(document).ready(function () {
                     author: 'Irina Ziakhor (all)',
                     title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'
                 },
+                {place: '', author: '', title: ''},
                 {place: '', author: '', title: ''}
             ]
         },
@@ -326,6 +347,7 @@ $(document).ready(function () {
                     author: 'Ilya Zaprutsky',
                     title: 'The Art of Node.js or how to do something cool using public data [RU]'
                 },
+                {place: '', author: '', title: ''},
                 {place: '', author: '', title: ''}
             ]
         },
@@ -340,6 +362,7 @@ $(document).ready(function () {
             talks: [
                 {place: '', author: 'Khrystyna Landvytovych (jun-mid)', title: 'Animation in the Air'},
                 {place: '', author: 'Diego González-Zúñiga', title: 'Immersive Web'},
+                {place: '', author: '', title: ''},
                 {place: '', author: '', title: ''}
             ]
         },
@@ -352,12 +375,13 @@ $(document).ready(function () {
         {
             time: '17:20-18:00',
             talks: [
-                {place: '', author: 'Valerii Sorokobatko (mid)', title: 'Architecture and Developer Experience  [RU]'},
+                {place: '', author: '', title: ''},
                 {
                     place: '',
                     author: 'Farzad Yousefzadeh (jun-mid)',
                     title: 'Develop UIs without any UIs (UI is just a state consumer)'
                 },
+                {place: '', author: '', title: ''},
                 {place: '', author: '', title: ''}
             ]
         },
@@ -430,7 +454,7 @@ $(document).ready(function () {
             talks: [
                 {
                     author : 'Registation',
-                    title: 'Pre-party'
+                    title: ''
                 }
             ]
         },
@@ -469,7 +493,7 @@ $(document).ready(function () {
             ]
         },
         {
-            time: "120:40 - 20:50",
+            time: "20:40 - 20:50",
             talks: [
                 {
                     author : 'Break'
@@ -479,7 +503,7 @@ $(document).ready(function () {
         {
             time: '20:50 - 21:30',
             talks: [
-                {author: 'Dmitriy Gusev and Kristina Chemerska', title: 'Как общаться с людьми, если они тебя раздражают [RU]'}
+                {author: 'Dmitriy Gusev and Kristina Chemerska', title: 'How to communicate with people if they are annoying [RU]'}
             ]
         },
 

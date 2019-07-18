@@ -5,37 +5,10 @@ $(document).ready(function(){
 
 
     var tickets = [
+
         {
-            title: "Late Chanse Ticket",
+            title: "Last Chance Ticket",
             price: "5800",
-            currency: "uah" ,
-            action: "buy ticket",
-            options: [
-                {
-                    main: '2 tracks of talks and tech corners',
-                    additional: ''
-                },
-                {
-                    main: 'Bicycle tour',
-                    additional: ''
-                },
-                {
-                    main: 'Pre-party',
-                    additional: ' (Soft skill deelopment)'
-                },
-                {
-                    main: 'Morning yoga',
-                    additional: ''
-                },
-                {
-                    main: 'Afterparty',
-                    additional: ''
-                },
-            ],
-        },
-        {
-            title: "Late Bird Ticket",
-            price: "5000",
             currency: "uah" ,
             action: "buy ticket",
             options: [
