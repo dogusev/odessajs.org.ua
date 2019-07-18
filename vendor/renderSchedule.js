@@ -434,17 +434,18 @@ $(document).ready(function () {
             time: '14:00-16:00',
             talks: [
                 {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs [EN]'},
-                {author: 'Saif Jerbi', title: 'Pluggable platform using Angular and NodeJS [EN]'},
+                {
+                    author: 'Sergiy Babich',
+                    title: 'Practicing on making Angular app more friendly in terms of data handling [UA]'
+                },
                 {author: 'Nick Lototskiy', title: 'Rx.js что я делаю не так? [RU]'}
             ]
         },
         {
             time: '16:00-18:00',
             talks: [
-                {
-                    author: 'Sergiy Babich',
-                    title: 'Practicing on making Angular app more friendly in terms of data handling [UA]'
-                },
+                {author: 'Saif Jerbi', title: 'Pluggable platform using Angular and NodeJS [EN]'},
+
                 {author: 'Andrey Kucherenko', title: 'Get experience with NestJS [RU]'},
                 {author: '', title: ''}
             ]
