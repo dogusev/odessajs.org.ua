@@ -46,9 +46,9 @@ $(document).ready(function () {
                     title: 'Specification-Driven Development of REST APIs [RU]'
                 },
                 {
-                    place: '10.30-11.00',
-                    author: 'Maxym Klymyshin',
-                    title: 'Communication reliability within distributed systems [RU]'
+                    place: '',
+                    author: '',
+                    title: ''
                 },
                 {place: '', author: '', title: ''}
             ]
@@ -302,9 +302,9 @@ $(document).ready(function () {
                 },
                 {place: '', author: 'Anton Cherednikov (mid)', title: 'Modules and Artifacts in NPM'},
                 {
-                    place: '14:30-16:30 [workshop]',
-                    author: 'Saif Jerbi',
-                    title: 'Pluggable Web application using Angular and NodeJS'
+                    place: '14.30-15.00 [workshop]',
+                    author: 'Maxym Klymyshin',
+                    title: 'Communication reliability within distributed systems [RU]'
                 },
                 {place: '', author: '', title: ''}
             ]
@@ -328,7 +328,11 @@ $(document).ready(function () {
                     author: 'Irina Ziakhor (all)',
                     title: 'Product Engineering mindset: are you ready for the product revolution? [RU]'
                 },
-                {place: '', author: '', title: ''},
+                {
+                    place: '15:10-17:10 [workshop]',
+                    author: 'Saif Jerbi',
+                    title: 'Pluggable Web application using Angular and NodeJS'
+                },
                 {place: '', author: '', title: ''}
             ]
         },
@@ -429,8 +433,8 @@ $(document).ready(function () {
             talks: [
                 {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs [EN]'},
                 {
-                    author: 'Sergiy Babich',
-                    title: 'Practicing on making Angular app more friendly in terms of data handling [UA]'
+                    author: '',
+                    title: ''
                 },
                 {author: 'Nick Lototskiy', title: 'Rx.js что я делаю не так? [RU]'}
             ]
@@ -441,7 +445,10 @@ $(document).ready(function () {
                 {author: 'Saif Jerbi', title: 'Pluggable platform using Angular and NodeJS [EN]'},
 
                 {author: 'Andrey Kucherenko', title: 'Get experience with NestJS [RU]'},
-                {author: '', title: ''}
+                {
+                    author: 'Sergiy Babich',
+                    title: 'Practicing on making Angular app more friendly in terms of data handling [UA]'
+                },
             ]
         },
         {
