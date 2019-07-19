@@ -8,12 +8,7 @@ $(document).ready(function () {
     ];
 
     var talks7july = [
-        {
-            time: '08:25-09:25',
-            talks: [
-                {author: '', title: 'Morning Yoga'}
-            ]
-        },
+
         {
             time: '08:00-09:30',
             talks: [
@@ -21,10 +16,16 @@ $(document).ready(function () {
             ]
         },
         {
+            time: '08:25-09:25',
+            talks: [
+                {author: '', title: 'Morning Yoga'}
+            ]
+        },
+        {
             time: '09:30-10:10',
             talks: [
                 {place: '', author: 'Viktor Turskyi (all)', title: '6 ways to hack your JavaScript application [RU]'},
-                {place: '', author: 'Asim Hussain (all)', title: 'The Future of Machine Learning & JavaScript [EN]'},
+                {place: '', author: 'Asim Hussain (all)', title: 'Save the world, one line at a time [EN]'},
                 {place: '8.30-10.00 [workshop]', author: 'Andrey Kucherenko', title: 'Get experience with NestJS [RU]'},
                 {place: '', author: '', title: ''}
 
@@ -45,12 +46,8 @@ $(document).ready(function () {
                     author: 'Alexander Zinchuk (mid-sr)',
                     title: 'Specification-Driven Development of REST APIs [RU]'
                 },
-                {
-                    place: '',
-                    author: '',
-                    title: ''
-                },
-                {place: '', author: '', title: ''}
+                {place: '11.00-13.00 [workshop]', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
+                {place: '11.00-13.00 [Managers corner]', author: 'Dmitriy Gusev, Roman Savitskyi, Zakhor', title: 'Seniors mindset.'}
             ]
         },
         {
@@ -72,8 +69,8 @@ $(document).ready(function () {
                     author: 'Martin Hochel (mid-sr)',
                     title: 'Ultimate React Component Patterns with TypeScript [EN]'
                 },
-                {place: '11.00-13.00 [workshop]', author: 'Mike Solomon', title: 'Testing JS code that consumes APIs'},
-                {place: '11.00-13.00 [Managers corner]', author: 'Dmitriy Gusev, Roman Savitskyi, Zakhor', title: 'Seniors mindset.'}
+                {place: '13:00-15:00 [workshop]', author: 'Artem Frantsiian', title: 'Make your OdessaJS coin [RU]'},
+                {place: '13:00-15:00 [Tech corner]', author: 'Viktor Turskyi, Andrey Kucherenko, Dvorovenko', title: 'Frontend architecture'}
             ]
         },
         {
@@ -87,8 +84,12 @@ $(document).ready(function () {
             talks: [
                 {place: '', author: 'Nick Gromov', title: 'Algorithms in JavaScript  [RU]'},
                 {place: '', author: 'Maurizio Mangione (all)', title: 'Progressive Web Apps [EN]'},
-                {place: '13:00-15:00 [workshop]', author: 'Artem Frantsiian', title: 'Make your OdessaJS coin [RU]'},
-                {place: '13:00-15:00 [Tech corner]', author: 'Viktor Turskyi, Andrey Kucherenko, Dvorovenko', title: 'Frontend architecture'}
+                {
+                    place: '15:00-17:00 [workshop]',
+                    author: 'Aaron Basset ',
+                    title: 'Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers [EN]'
+                },
+                {place: '15:00-17:00 [workshop] [Hall D]', author: 'Denys Samoylenko', title: 'JS learning lifehacks: common programmer\'s mistakes“'}
 
             ]
         },
@@ -108,11 +109,11 @@ $(document).ready(function () {
                 },
                 {place: '', author: 'Lev Vidrak (all)', title: 'Introduction to React Native] [RU]'},
                 {
-                    place: '15:00-17:00 [workshop]',
-                    author: 'Aaron Basset ',
-                    title: 'Reduce, Reuse, Recycle - Persisting WebSocket connections with SharedWorkers [EN]'
+                    place: '17:00-18:30 [workshop]',
+                    author: 'Oleksandr Bordun',
+                    title: 'Adding PWA features to your web application on Node.JS[ru]'
                 },
-                {place: '13:00-15:00 [Event"s corner]', author: 'Roman Savitskyi , Sergiy Babich,  Julia Cherniak', title: 'IT events in Ukraine. How and why'}
+                {place: '13:00-15:00 [Event"s corner]', author: 'Roman Savitskyi , Sergiy Babich.', title: 'IT events in Ukraine. How and why'}
             ]
         },
         {
@@ -134,11 +135,7 @@ $(document).ready(function () {
                     author: 'Anton Pets (mid)',
                     title: 'How FP made Grammarly codebase error-prone and predictable [RU]'
                 },
-                {
-                    place: '17:00-18:30 [workshop]',
-                    author: 'Oleksandr Bordun',
-                    title: 'Adding PWA features to your web application on Node.JS[ru]'
-                },
+                {author: '', title: ''},
                 {place: '13:00-15:00 [Tech corner]', author: 'Jamie Maria, Oleksandr Bordun, Sergiy Babich, Mangione', title: 'Progressive Web Apps'}
             ]
         },
@@ -205,16 +202,17 @@ $(document).ready(function () {
     ];
 
     var talks8july = [
+
         {
             time: '08:30 - 09:30',
             talks: [
-                {author: '', title: 'Outdoor yoga, Entrance'}
+                {author: '', title: 'Registration for guests who has One day ticket'}
             ]
         },
         {
             time: '08:30 - 09:30',
             talks: [
-                {author: '', title: 'Registration for guests who has one day ticket'}
+                {author: '', title: 'Outdoor yoga, Entrance'}
             ]
         },
         {
@@ -255,7 +253,7 @@ $(document).ready(function () {
                 },
                 {place: '', author: 'Yoni Goldberg (mid)', title: '5 advanced & shiny testing techniques [EN]'},
                 {place: '', author: '', title: ''},
-                {place: '11:00 [Tech corner]', author: 'Mindra', title: 'Storytelling'}
+                {place: '11:00 [Tech corner]', author: 'Mindra', title: 'Art of storytelling'}
 
             ]
         },
@@ -272,7 +270,7 @@ $(document).ready(function () {
                 {
                     place: '',
                     author: 'Saif Jerbi (sr) ',
-                    title: 'Pluggable Web application using Angular and NodeJS [EN]'
+                    title: 'Pluggable platform using Angular and NodeJS [EN]'
                 },
                 {
                     place: '11:30-14:30 [workshop]',
@@ -396,15 +394,15 @@ $(document).ready(function () {
         //   ]
         // },
         {
-          time: '18:00-18:20',
+          time: '17:00-17:20',
           talks: [
             {author: '', title: 'Sponsors\' Prizes Raffle'}
           ]
         },
         {
-            time: '18:20-19:00',
+            time: '',
             talks: [
-                {author: '', title: 'Closure of the Conference.'}
+                {author: '', title: 'Close of conference'}
             ]
         }
     ];

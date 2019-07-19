@@ -96,7 +96,7 @@ $(document).ready(function () {
             city: "London",
             rept: [
                 {
-                    title: "Build Scalable APIs using GraphQL and Serverless",
+                    title: "Save the world, one line at a time",
                     description: "Current trends in software and backend architecture have been evolving towards a more loosely coupled more granular design. I am sure most of you have heard of microservice based architectures. The latest development on that front in the past couple of years has been the advent of serverless which allows you to run applications in very cost effective ephemeral services. This is why it is important to have a proper gateway for your API that is able to route all your requests to the designated endpoint.\n" +
                         "GraphQL stands out in that respect as being a mature open sourced standard started at Facebook. We will first have a look at how we set up our own GraphQL server locally, then we will explore the Query language and schema definitions it provides which allows you essentially query your mesh of services from a single point of entry. The beauty of that is it will notify you early if any of your endpoints is misbehaving or the schemas are out of date by erring out. Another advantage of this is that it allows for your API documentation to be a real time process and it will give you what one may call an API playground where you can query and explore your API.\n" +
                         "After we explore our serverless API we will have a look at the more advanced features and standards around mutators and resolvers and then we will close by going all in, full serverless and deploy our graphql server to a function in the cloud.",
