@@ -425,12 +425,6 @@ $(document).ready(function () {
 
     var talks19july = [
         {
-            time: '12:00-14:30',
-            talks: [
-                {author: 'Speakers lunch', title: ''}
-            ]
-        },
-        {
             time: '14:00-16:00',
             talks: [
                 {author: 'Mike Solomon', title: 'Testing JS code that consumes APIs [EN]'},
