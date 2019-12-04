@@ -1,0 +1,389 @@
+.schedule {
+  //margin: -150px 0 0;
+  //padding-top: 480px;
+  //background: url('../images/ninja-bg.1.png') no-repeat 50% 0 #8b8b8b;
+  //background-color: #8b8b8b;
+
+  #july19_schedule {
+
+    .schedule__report-hall {
+      min-height: 68px;
+    }
+  }
+
+  .main_title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: $primary;
+  }
+
+  // Alex
+  &__trueman {
+    position: relative;
+    display: flex;
+    min-height: 50px;
+    min-width: 550px;
+    color: #ffffff;
+    background-color: #e32d42;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      right: 50%;
+      width: 60%;
+      height: 50px;
+      background-color: #fff;
+      transform: translate(-50%, 0) skewX(-30deg);
+    }
+    &-header {
+      width: 200px;
+      padding-left: 50px;
+    }
+    &-info {
+      flex-grow: 1;
+      z-index: 10;
+      text-align: center;
+      color: #e32d42;
+    }
+    &-facebook {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      a {
+        .fa-stack {
+          transition: all ease .3s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        color: #ffffff;
+        .fa-circle {
+          color: #ffffff;
+        }
+        .fa-facebook {
+          color: #e32d42;
+        }
+      }
+    }
+
+    @media screen and (max-width: 767px){
+      align-items: center;
+      &::before {
+        display: none;
+      }
+      &-header {
+        padding-left: 15px;
+        width: 100px;
+      }
+
+      &-facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+      }
+
+      &-info {
+        color: #fff;
+      }
+    }
+  }
+
+  &__inner {
+    padding: 0 20px;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    margin-bottom: 50px;
+    min-width: 550px;
+
+    .schedule__report-hall {
+      min-height: 56px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    // Alex
+    // Nothing chenge ???
+    // &--8-july {
+    //   min-width: 900px;
+    // }
+  }
+
+  &__hall-titles {
+    display: flex;
+    margin-left: 150px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #212529;
+    @media screen and (max-width: 720px) {
+      margin-left: 100px;
+      font-size: 13px;
+    }
+  }
+
+  &__hall-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  &__hall-title-a,
+  &__hall-title-b,
+  &__hall-title-c,
+  &__hall-title-d,
+  &__hall-title-e,
+  &__hall-title-f {
+    // width: 50%;
+    text-align: center;
+    display: inline-block;
+    &--hexenary {
+      width: 16.66666666666667%;
+    }
+    &--triple {
+      width: 33%;
+    }
+    &--squad {
+      width: 25%;
+    }
+  }
+
+  // &__hall-title-c {
+  //   width: 33%;
+  //   text-align: center;
+  //   display: inline-block;
+  // }
+
+  &__hall-title-tc {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    &--squad {
+      width: 25%;
+    }
+  }
+
+  &__title {
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jura';
+    font-weight: 600;
+    margin-bottom: 40px;
+    @media screen and (max-width: 720px) {
+      font-size: 40px;
+      letter-spacing: -1px;
+    }
+  }
+
+  &__second-title {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Jura';
+    margin-bottom: 30px;
+    font-weight: 600;
+    @media screen and (max-width: 720px) {
+      font-size: 30px;
+      letter-spacing: -1px;
+    }
+  }
+
+  &__bottom-bg {
+    height: 309px;
+    width: 100%;
+    background: url('../images/schedule.png') no-repeat 50% 100%;
+  }
+  &__info {
+    display: flex;
+    margin-bottom: 8px;
+    &-time {
+      padding-left: 25px;
+      color: #fff;
+      font-size: 16px;
+      min-width: 150px;
+      max-width: 150px;
+      height: 56px;
+      line-height: 56px;
+      background: url('../images/connector-1.1.png') no-repeat 100% 50% #838383;
+      &--hatching {
+        background: url('../images/connector-hatching.png')  no-repeat 100% 50% #db2b3d;
+      }
+      @media screen and (max-width: 720px) {
+        // width: 100px;
+        font-size: 13px;
+        padding-left: 5px;
+        min-width: 130px;
+        max-width: 130px;
+      }
+    }
+    &-text {
+      flex: 1;
+      height: 56px;
+      line-height: 56px;
+      color: #fff;
+      font-size: 16px;
+      background: #767676;
+      padding-left: 15px;
+      position: relative;
+      overflow: hidden;
+      @media screen and (max-width: 720px) {
+        font-size: 13px;
+      }
+      &--hatching {
+        background: url('../images/hatching.png') repeat -1px 0 #cd1f31;
+        @media screen and (max-width: 720px) {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      &--with-margin {
+        margin-right: 13px;
+      }
+      &-icon {
+        display: inline-block;
+        margin: -4px 10px 0 0;
+        vertical-align: middle;
+        &.form {
+          width: 34px;
+          height: 37px;
+          background: url('../images/form.png') no-repeat 0 0;
+        }
+        &.cup {
+          width: 41px;
+          height: 41px;
+          background: url('../images/cup.png') no-repeat 0 0;
+        }
+        &.key {
+          width: 38px;
+          height: 38px;
+          background: url('../images/key.png') no-repeat 0 0;
+        }
+        &.dinner {
+          width: 34px;
+          height: 32px;
+          background: url('../images/dinner.png') no-repeat 0 0;
+        }
+        &.pizza {
+          width: 34px;
+          height: 32px;
+          background: url('../images/dinner.png') no-repeat 0 0;
+        }
+      }
+      &--note {
+        display: block;
+        position: absolute;
+        top: 15px;
+        font-size: 9px;
+        padding-left: 15px;
+        color: antiquewhite;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+
+  &__reporter {
+    color: $primary;
+  }
+
+  &__place {
+    font-size: 16px;
+    font-weight: bold;
+    color: $primary;
+
+  }
+
+  &__report {
+    margin-bottom: 8px;
+    display: flex;
+    &.splitted {
+      border-bottom: 1px solid #767676;
+    }
+    &-time {
+      position: absolute;
+      padding-left: 25px;
+      color: $primary;
+      font-size: 16px;
+      min-width: 150px;
+      max-width: 150px;
+      height: 56px;
+      line-height: 56px;
+      background: url('../images/connector-2.1.png') no-repeat 100% 50% #fff;
+      @media screen and (max-width: 720px) {
+        padding-left: 5px;
+        font-size: 13px;
+        min-width: 130px;
+        max-width: 130px;
+      }
+    }
+
+    >.schedule__report-hall {
+      &:nth-child(2) {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
+    }
+
+    &-hall {
+      //padding: 25px;
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: center;
+      // flex: 1;
+      // text-align: center;
+
+      width: 100%;
+      padding: 10px;
+      background: #fff;
+      font-size: 16px;
+
+      &-cont {
+        margin-left: 155px;
+
+        @media screen and (max-width: 720px) {
+          margin-left: 135px;
+        }
+      }
+
+      @media screen and (max-width: 720px) {
+        font-size: 13px;
+      }
+
+      &:first-child {
+        background: #fff;
+      }
+      &:nth-child(2n) {
+        background: #d2d2d2;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+
+  }
+
+  .main_subtitle {
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+      margin-bottom: 0;
+      text-align: left!important;
+    }
+  }
+
+}

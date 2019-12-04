@@ -1,0 +1,74 @@
+section.hotels-partners {
+
+  .hotels-list {
+    align-items: stretch;
+
+  }
+  .main-title {
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: $primary;
+    margin-top: 15px;
+  }
+
+  .main_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 30px;
+  }
+
+  .thank-box {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .thank-box__title {
+      font-size: 20px;
+      color: $primary;
+      margin-bottom: 15px;
+    }
+
+    .thank-box__discount {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    a.img-wrapper {
+      display: block;
+      width: 100%;
+      height: 200px;
+      max-width: 300px;
+      margin: 0 auto 10px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    a.mail-to {
+      color: #000!important;
+      word-break: break-all;
+    }
+  }
+
+  @media screen and (max-width: 991.98px) {
+
+    .thank-box {
+
+      .thank-box__title {
+        min-height: 60px;
+      }
+
+      a.mail-to {
+        min-height: 48px;
+      }
+    }
+  }
+}
+
