@@ -1,0 +1,12 @@
+section#infographics {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  @include background-cover;
+  .container {
+    max-width: none;
+  }
+
+  .infographics-container{
+    padding: 0;
+  }
+}

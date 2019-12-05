@@ -1,0 +1,38 @@
+.entertainment {
+
+  &__item {
+    text-align: center;
+
+    .img-wrapper {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    h6 {
+      margin-bottom: 15px;
+      font-family: 'Jura', sans-serif;
+      font-size: 28px;
+      color: $primary;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      color: $black;
+
+      strong {
+        color: #c7121f;
+      }
+    }
+  }
+}
