@@ -11,6 +11,12 @@ body {
   padding-top: 63px;
 }
 
+@media screen and (max-width: 365.98px) {
+  body {
+    padding-top: 103px!important;
+  }
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
