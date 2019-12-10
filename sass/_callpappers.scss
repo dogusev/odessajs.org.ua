@@ -1,0 +1,34 @@
+.callpappers {
+
+	
+	.callpappers__title {
+		font-size: 2rem;
+		font-weight: 700;
+        text-align: center;
+        line-height: 1.3;
+        
+        @media screen and (max-width: 768px) {
+            font-size: 1.6rem;
+        }
+	}
+
+	.callpappers__description {
+		font-size: 1.2rem;
+		line-height: 1.3;
+        margin-top: 12px;
+        
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+	}
+
+	.callpappers__btn-container {
+		display: flex;
+		align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .btn {
+            padding: 10px 24px;
+        }
+	}
+}
