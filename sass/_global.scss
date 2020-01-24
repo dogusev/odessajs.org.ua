@@ -235,4 +235,12 @@ u {
     display: block;
   }
 
+  
+
+}
+@media screen and (max-width: 600px) {
+  .img-logo {
+    width: 50px;
+    height: auto;
+  }
 }

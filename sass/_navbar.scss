@@ -5,11 +5,19 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
+
+    @media (max-width: 600px) {
+        margin-right: 0px;
+      }
+      
     display: inline-flex;
     align-items: center;
     //text-transform: uppercase;
     color: $black;
     @include sans-serif-font;
+
+    
+
     &:focus,
     &:hover {
       color: darken($primary, .1);
@@ -18,6 +26,10 @@
       font-family: 'Gilroy-Bold';
       font-size: 24px;
       margin-left: 20px;
+
+      @media (max-width: 600px) {
+        margin-left: 5px;
+      }
     }
   }
   .navbar-nav {
