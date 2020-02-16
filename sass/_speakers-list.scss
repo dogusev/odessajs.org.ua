@@ -166,7 +166,8 @@
     &__img-wrapper {
       //height: 100%;
       position: relative;
-      // min-height: 350px;
+      // max-height: 240px;
+      min-height: 350px;
       height: auto;
       background-color: #e8e8e9;
       background-image: url(../images/ninja-bg-gray.png);
@@ -203,7 +204,7 @@
       }
 
       @media (max-width: 1200px) {
-        // min-height: 290px;
+        min-height: 215px;
       }
 
       @media (max-width: 1024px) {
@@ -225,13 +226,14 @@
       }
 
       @media (max-width: 400px) {
-        // min-height: 220px;
+        min-height: 220px;
       }
 
       img {
         width: 100%;
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
+        height: 100%;
         //height: 160px;
         //object-fit: cover;
 

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     var speakers = [
         {
-            image: "img-min/2020/speakers/VLADIMIR NOVIK.jpg",
+            image: "img-min/2020/speakers/vladimir_novic.jpg",
             name: "Vladimir Novick",
             speakerPos: [
                 {
@@ -42,7 +42,7 @@ $(document).ready(function () {
             ],
         },
         {
-            image: "img-min/2020/speakers/JAMIE MARIA SCHOUREN.jpg",
+            image: "img-min/2020/speakers/jamie_maria_schouren.jpg",
             name: "Jamie Maria Schouren ",
             speakerPos: [
                 {
@@ -77,6 +77,41 @@ $(document).ready(function () {
                 },
                 {
                     link: 'https://github.com/deity-io/falcon',
+                    fatype: 'github'
+                },
+            ],
+        },
+        {
+            image: "img-min/2020/speakers/joel_lord.jpg",
+            name: "Joel Lord",
+            speakerPos: [
+                {
+                    position: "Developer Advocate",
+                    company: "Red Hat OpenShift",
+                },
+            ],
+            country: "Canada",
+            city: "Toronto",
+            rept: [
+                {
+                    title: "Kube Restaraunt",
+                    description: "",
+                    lang: "[EN]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://www.linkedin.com/in/joel-lord/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://twitter.com/joel__lord',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://github.com/joellord',
                     fatype: 'github'
                 },
             ],
