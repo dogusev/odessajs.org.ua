@@ -203,7 +203,6 @@
                 right: 35%;
                 z-index: 10;
                 transition: 0.3s all ease-out;
-                box-shadow: 30px -15px 30px -20px rgba(0,0,0,0.1);
                 &:hover{
                     z-index: 12;
                     transform: scale(1.1);
@@ -212,7 +211,8 @@
             }
             #ticket_3{
                 position: absolute;
-                top: -25px;
+                // top: -25px;
+                bottom: 0;
                 left: 50%;
                 transform: translateX(-50%);
                 z-index: 10;
@@ -278,8 +278,9 @@
 				justify-content: center;
 				width: 100%;
 				margin: 0;
-				#ticket_1, #ticket_2, #ticket_3, #ticket_4, #ticket_5{
-					position: relative;
+				#ticket_0, #ticket_1, #ticket_2, #ticket_3, #ticket_4, #ticket_5{
+                    position: relative;
+                    position: static;
                     top: 0;
                     left: 0;
 					margin-left: -10px;
