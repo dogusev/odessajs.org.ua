@@ -23,12 +23,18 @@
 	}
 
 	.callpappers__btn-container {
-		display: flex;
+        display: flex;
+        flex-direction: column;
 		align-items: center;
         justify-content: center;
         margin-top: 20px;
         .btn {
             padding: 10px 24px;
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
 	}
 }
