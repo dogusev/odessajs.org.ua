@@ -189,15 +189,15 @@ $(document).ready(function () {
                     title: "GIF IS DEAD. WHO'S NEXT?",
                     description: "It is a talk about animated images formats that went after GIF.Which one will be better: mp4, webm, apng, sprites or vector- based ? Actually no right answer.I want to cover this topic from different sides: HTML app, WebGL game and how to automate preparing of animations for different platforms." +
                         "<h4> What will your listeners take for themselves from your talk?</h4>" +
-                        "Much of knowledge I want to cover in this topic currently not presented in well - known docs or caniuse.com.I am not focused on 'good story about the future'.It's a mostly practical valued talk to solve this question here and now. I'll cover animations topic from different sides: how the developer can produce own script to convert frames from designers, how to deliver different formats for browsers and exactly much more disadvantages of working with videos"+
-                            "<h4> What so special your talk has, that is absent in the documentation ?</h4>" +
-                            "<ul>" +
-                            "<li> different animation formats for web</li>" +
-                            "<li> which format has a better balance between supporting, size and quality</li>" +
-                            "<li> preparing of videos for different platforms using ffmpeg and automation of it</li>" +
-                            "<li> problems of using of videos in WebGL applications</li>" +
-                            "<li> how to make cross - platform transparent video</li>" +
-                            "<ul>",
+                        "Much of knowledge I want to cover in this topic currently not presented in well - known docs or caniuse.com.I am not focused on 'good story about the future'.It's a mostly practical valued talk to solve this question here and now. I'll cover animations topic from different sides: how the developer can produce own script to convert frames from designers, how to deliver different formats for browsers and exactly much more disadvantages of working with videos" +
+                        "<h4> What so special your talk has, that is absent in the documentation ?</h4>" +
+                        "<ul>" +
+                        "<li> different animation formats for web</li>" +
+                        "<li> which format has a better balance between supporting, size and quality</li>" +
+                        "<li> preparing of videos for different platforms using ffmpeg and automation of it</li>" +
+                        "<li> problems of using of videos in WebGL applications</li>" +
+                        "<li> how to make cross - platform transparent video</li>" +
+                        "<ul>",
                     lang: "[EN]"
                 }
             ],
@@ -246,6 +246,48 @@ $(document).ready(function () {
                 {
                     link: 'https://github.com/koorchik',
                     fatype: 'github'
+                },
+            ],
+        },
+        {
+            image: "img-min/2020/speakers/timofey_lavrenyuk.jpeg",
+            name: "Timofey Lavrenyuk",
+            speakerPos: [
+                {
+                    position: "Software Engineer",
+                    company: "Corcentric",
+                },
+            ],
+            country: "Ukraine",
+            city: "Kyiv",
+            rept: [
+                {
+                    title: "About Dart",
+                    description: "Dart is a coding language aimed to correct JavaScript flaws. Though it does its job perfectly, Dart didn't manage to become popular among developers." +
+                        "In this talk we're going to discuss:" +
+                        "<ul>" +
+                        "<li> - what's so special about Dart to use it instead of JavaScript</li>" +
+                        "<li> - historical data about the language</li>" +
+                        "<li> - why you need to try Dart even if you're not going to code in it</li>" +
+                        "<li> - how we use it developing a small project and will continue using this language</li>" +
+                        "</ul>",
+                    lang: "[RU]"
+                }
+            ],
+            aboutSpeaker: '',
+            socialsRendered: '',
+            socials: [
+                {
+                    link: 'https://twitter.com/geek_timofey',
+                    fatype: 'twitter'
+                },
+                {
+                    link: 'https://www.linkedin.com/in/lavrenyuk-t-042b4263/',
+                    fatype: 'linkedin'
+                },
+                {
+                    link: 'https://medium.com/@timofeylavrenuk',
+                    fatype: 'medium'
                 },
             ],
         }

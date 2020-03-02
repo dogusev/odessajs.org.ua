@@ -36,12 +36,9 @@
   }
   .container {
     padding-top: 70px;
-    //padding-bottom: 70px;
     display: flex;
   }
   .title_block {
-    //width: 50%;
-    //margin-left: 70px;
     .title {
       @include text-style (#FFF, 40px, 500, 1.2);
       font-family: Gilroy-Bold;
@@ -49,7 +46,6 @@
     }
   }
   .info_block {
-    //width: 50%;
     margin-bottom: 20px;
     .properties {
       display: flex;
