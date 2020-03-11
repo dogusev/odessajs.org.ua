@@ -307,7 +307,7 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "React Mentor",
-          company: "Bioritmo"
+          company: ""
         }
       ],
       country: "Brazil",
