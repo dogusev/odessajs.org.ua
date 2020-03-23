@@ -58,15 +58,10 @@ $(document).ready(function() {
         {
           title: "Software Architectures gone wild (Speech)",
           description:
+            "<h4>SOFTWARE ARCHITECTURES GONE WILD</h4>" +
             "Buckle-up and get ready for a (half) rush hour through the world of Software Architectures! Everyone who works in software has heard of terms like ‘monoliths’, ‘headless’ , ‘microservices’ and even ’service oriented architectures’. We all know what they are, but how much do we really know about them? In this half an hour, we will show you the differences, the similarities, when to use them, when not to use them, the success stories and of course: the massive failures. Get ready for a comedic blast, architecture is going to be fast and fun! " +
-            "<h4> Plan and theses of your speech</h4>" +
-            "The talk will be about different software architectures and how they evolved over time.I will talk about: monolithic architectures, headless, microservices and service oriented architectures.On all architectures I will explain what it is, how to use it, and also how not to use it.I will tell the advantages and the disadvantages per architecture and show examples of live websites and live software using it.The talk will be energetic, fast and fun.There will be no boring bullet point list, or a lot of text.There will be a lot of images, jokes, and real life examples.At the end I will show how to get started yourself with some GraphQL and of course javascript!" +
-            "<h4> What is the value of your talk, on what do you want to inspire the listeners ?</h4>" +
-            "I want to bring knowledge to the audience and inspire them to try new architectures.For years all developers are using the same because they are used to it, and the new architectures were only for ‘big companies’.Now everyone can use the new technologies, and they can start it today.One of the things I also would like to show is that architectures are not boring, they can be fun! I will show real life examples of things going well, and things going bad.It will be very visual and fun." +
-            "<h4> What will your listeners take for themselves from your talk ?</h4>" +
-            "It will be a very honest and fun talk.Software architectures are always very boring, and not something(front - end / javascript) developers want to be bother with.However in this talk I will try to make it fun, but also show the real side.In documentation it only highlights the good sides, never the ‘real’ sides." +
-            "<h4> What will listeners take:</h4>" +
-            "Listeners will get more knowledge and will be able to make a real good decision for the architecture for their(next) project, which will help them in the later process.",
+            "<h4>WHAT THE HACK?! UNICORNS ON STEROIDS</h4>" +
+            "Ever wondered how companies such as Facebook, Netflix and AirBnB were able to grow as fast as they did? How they started, what method they used? Growth hacking started as a strategy for early-stage startups who need massive growth in a short time on a (very) small budget, with a team of engineers and marketeers. In this fun and energetic talk Jamie Maria will explain the basics of Growth Hacking, what it is, how it is done, how the Unicorns we know today were able to get BIG in no-time - and most importantly, how you can growth hack your company!",
           lang: "[EN]"
         },
         {
@@ -154,7 +149,7 @@ $(document).ready(function() {
       rept: [
         {
           title:
-            "TESTING IN PRODUCTION - A PRACTICAL OVERVIEW WITH LIVE EXAMPLES",
+            "Testing in production - a practical overview with live examples",
           description:
             "This is probably a mega-trend in testing which is covered in many 2020 conferences. It doesn't mean simply testing over production rather a set of techniques that makes the tests more realistic. Most talks on this matter are theoretic, mine aims to bring this fascinating trend down to earth and show live how Node.js code and test runners can discover severe issues that couldn't be discovered using traditional testing. Specifically, we're about to explore techniques like tap-compare, silent releases, traffic shadowing and more",
           lang: "[EN]"
@@ -194,19 +189,10 @@ $(document).ready(function() {
       city: "Saint-Petersburg",
       rept: [
         {
-          title: "GIF IS DEAD. WHO'S NEXT?",
+          title: "Gif is dead. Who's next?",
           description:
-            "It is a talk about animated images formats that went after GIF.Which one will be better: mp4, webm, apng, sprites or vector- based ? Actually no right answer.I want to cover this topic from different sides: HTML app, WebGL game and how to automate preparing of animations for different platforms." +
-            "<h4> What will your listeners take for themselves from your talk?</h4>" +
-            "Much of knowledge I want to cover in this topic currently not presented in well - known docs or caniuse.com.I am not focused on 'good story about the future'.It's a mostly practical valued talk to solve this question here and now. I'll cover animations topic from different sides: how the developer can produce own script to convert frames from designers, how to deliver different formats for browsers and exactly much more disadvantages of working with videos" +
-            "<h4> What so special your talk has, that is absent in the documentation ?</h4>" +
-            "<ul>" +
-            "<li> different animation formats for web</li>" +
-            "<li> which format has a better balance between supporting, size and quality</li>" +
-            "<li> preparing of videos for different platforms using ffmpeg and automation of it</li>" +
-            "<li> problems of using of videos in WebGL applications</li>" +
-            "<li> how to make cross - platform transparent video</li>" +
-            "<ul>",
+            "<h4>Gif is dead. Who's next?</h4>" +
+            "It is a talk about animated images formats that went after GIF. Which one will be better: mp4, webm, apng, sprites or vector-based? Actually no right answer. I want to cover this topic from different sides: HTML app, WebGL game and how to automate preparing of animations for different platforms.",
           lang: "[EN]"
         }
       ],
@@ -268,7 +254,7 @@ $(document).ready(function() {
         }
       ],
       country: "Ukraine",
-      city: "Kyiv",
+      city: "Odessa",
       rept: [
         {
           title: "About Dart",
@@ -302,7 +288,7 @@ $(document).ready(function() {
       ]
     },
     {
-      image: "img-min/2020/speakers/caroline_soares.jpg",
+      image: "img-min/2020/speakers/carol_soares.jpg",
       name: "Caroline Soares",
       speakerPos: [
         {
@@ -317,27 +303,9 @@ $(document).ready(function() {
           title: "Acessibility with JS",
           description:
             "<h4>Short overview</h4>" +
-            "We live in a world of about 1 billion people with some kind of disability.More than three billion do not have internet access or have poor access.How are we developing applications to make the web of the future more accessible and inclusive through our code? Let's understand how JavaScript can help change this scenario." +
-            "<h4>Plan and theses</h4>" +
-            "Scenario - data and information about the internet and its users." +
-            "My presentation - How to live in poverty simulates the quality of my internet access." +
-            "Problem - What mistakes we make in software development, bad practices, and bad project planning." +
-            "Solution - How can we use JS in a way where we make the web really inclusive and accessible to everyone by presenting ideas, practices and tools." +
-            "References." +
-            "<h4>Presentation will be divided into five moments:</h4>" +
-            "<ul>" +
-            "<li><h5>Accessibility context:</h5> data and information about internet users, people with disabilities or some kind of limitation, types of devices and gadgets that we have today that help us been more inclusive.</li>" +
-            "<li><h5>About me:</h5> how growing up with poor access and bad devices made me pay attention about how we make web applications.</li>" +
-            "<li><h5>Problem:</h5> mistakes, coding practices, and project planning that we do wrong and get in the way of developing a good application for all the users.</li>" +
-            "<li><h5>Solutions:</h5> why / how JS is a good way to develop an inclusive and accessible web for everybody, why and how to build a good site can improve and increase performance.</li>" +
-            "<li><h5>References:</h5> how to continue studying the topic, what content I used and recommend to read / watch.</li>" +
-            "</ul >" +
-            "<h4>Value of the talk, on what do you want to inspire the listeners ?</h4>" +
-            "Helping developers understand the power we have in our hands to change the reality of millions of people through the codes we make." +
-            "<h4>What will your listeners take for themselves from the talk ?</h4>" +
-            "Understand why accessibility and inclusion is important in our society, learn good practices of coding from a person who is a advocate of diversity and inclusion in tech community, leading a women community focused in poor people in tech working with open source. " +
-            "<h4>What so special this talk has, that is absent in the documentation ?</h4>" +
-            "Lessons and good practices on accessibility and inclusion.Learn the breadth of the term diversity.And how can we make code that impacts more and better all users.",
+            "We live in a world of about 1 billion people with some kind of disability. More than three billion do not have internet access or have poor access. How are we developing applications to make the web of the future more accessible and inclusive through our code? Let's understand how JavaScript can help change this scenario." +
+            "<h4>Bio</h4>" +
+            "Frontend Engineer and React instructor based in Sao Paulo/Brazil. I'm studying modern software engineer at a public university. Also, I have a strong presence in events and tech community here giving tech talks, organizing meetups and contributing to open source projects. Recently, I've been creating tech and career content focused on diversity and people who are new in the area. ",
           lang: "[EN]"
         }
       ],
@@ -359,6 +327,250 @@ $(document).ready(function() {
         {
           link: "https://divaloper.com.br/",
           fatype: "link"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/dmitriy_gusev.jpg",
+      name: "Dmitriy Gusev",
+      speakerPos: [
+        {
+          position: "Team Lead",
+          company: "Oracle"
+        }
+      ],
+      country: "Ukraine",
+      city: "Odessa",
+      rept: [
+        {
+          title: "JS was invented in Odessa",
+          description:
+            "JavaScript is wild and dangerous. I’ve been using it for years and time to time faced with the same issues." +
+            "Also being an interviewer I talked to lots of people. And most of them able to answer the questions correctly, but can not explain why it works so." +
+            "In my talk, I prepared examples of ‘what is wrong with JS’ and explained why it works so based on ECMA specifications." +
+            "I've been working on startup Q-Page - landing page builder" +
+            "Many years ago, I started as .Net developer, before the day I met JS =)" +
+            "JS - one love.  What are 3 things I enjoy  except coding is" +
+            "spending time with my wife and 3 y.o. son" +
+            "and traveling around",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/dmitriy-gusev/",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://github.com/dogusev",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/maxym_klymyshyn.jpg",
+      name: "Maxym Klymyshyn",
+      speakerPos: [
+        {
+          position: "Engineering Lead",
+          company: "Takeoff Technologies"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title: "Crafting Software Architecture decisions",
+          description:
+            "Software Architecture is an overloaded term nowadays. Let's dig deep into its meaning: how to define software architecture, what's right, what's wrong. What's considered as software architecture, and what's not. What's not technical debt? What needs to be addressed to make better decisions as a technical leader." +
+            "<ul>" +
+            "<li>How to evaluate potential software architecture</li>" +
+            "<li>Identification & Elimination of Technical Debt</li>" +
+            "<li>Constant learning based on feedback</li>" +
+            "<li>Software Architecture is an overloaded term nowadays. Let's dig deep into its meaning: how to define software architecture, how to define tech debt, what's the definition of right and wrong, what needs should be addressed to make better decisions as a technical leader.</li>" +
+            "</ul>" +
+            "<h4>Audience:</h4>" +
+            "Software Architects, Tech Leads, Product Managers" +
+            "<h4>Bio:</h4>" +
+            "technical leadership, software architecture, organization design, people management, product management Maksym specialized in software architecture, distributed systems, technical team leadership, and management of distributed teams with 7+ years of experience with eGrocery and grocery retail automation.",
+          lang: "[EN]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "http://linkedin.com/in/klymyshyn",
+          fatype: "linkedin"
+        },
+        {
+          link: "http://github.com/joymax",
+          fatype: "github"
+        },
+        {
+          link: "http://twitter.com/maxmaxmaxmax",
+          fatype: "twitter"
+        },
+        {
+          link: "takeoff.com",
+          fatype: "link"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/andrii_shumada.jpg",
+      name: "Andrii Shumada",
+      speakerPos: [
+        {
+          position: "Software Developer",
+          company: "Everad Group"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title: "No excuses for not writing tests!",
+          description:
+            "Hey you! Why do you not writing tests? Maybe you don’t know why do you need to write them? Maybe you have doubts about who should write tests? Or your manager doesn’t give you time to write tests? Or you just don’t know how to write tests or choose the right technologies, or how to choose between UI, integration or unit test for your case? Come to my talk, and we will figure out that together! ",
+          lang: "[EN]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/andriishumada/",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://github.com/eagleeye",
+          fatype: "github"
+        },
+        {
+          link: "https://twitter.com/eagleeye_s",
+          fatype: "twitter"
+        },
+        {
+          link: "https://eagleeye.github.io/",
+          fatype: "link"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/roman_yakobchuk.jpg",
+      name: "Roman Yakobchuk",
+      speakerPos: [
+        {
+          position: "Site Enginering Manager",
+          company: "Wix"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title:
+            "Developer career roadmap: a journey from intern to… whatever makes you happy",
+          description:
+            "I’ve been working with juniors for a while. It’s hard to count workshops, lectures, training, and consulting sessions, but over 1000 students finished my React courses, 29 people started their career with our Wix Kickstart program. And the most frequent question I’ve got is the one that any professional should be asking: what else should I learn? How can I reach a new level?" +
+            "In this lecture, I’ll share with you my very opinionated knowledge map on developing yourself." +
+            "We will talk about the following topics:" +
+            "<ul>" +
+            "<li>What is essential, how to continually revisit what you think you now.</li>" +
+            "<li>How to set new goals, what are the hard and soft skills, how to acquire them.</li>" +
+            "<li>How to check are you going your way or just doing something because it seems right.</li>" +
+            "</ul>" +
+            "The awful question by HR: ‘Where do you see yourself in 5 years’ can suddenly make sense. Do you want to become a Team Lead or R&D manager, maybe you’ll be more effective as a Tech Lead, Architect, or Consultant. Perhaps it’s some narrow expertise, or even you’re real passion is Design or Product Management. Let’s find out.",
+          lang: "[EN]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "(https://www.linkedin.com/in/ya-roman",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://github.com/romabelka",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/vitalii_petrenko.jpg",
+      name: "Vitalii Petrenko",
+      speakerPos: [
+        {
+          position: "Game Designer",
+          company: "ZenwayCode"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kharkiv",
+      rept: [
+        {
+          title: "Ember.js in 2020? Why not!?",
+          description:
+            "<h4>Short overview</h4>" +
+            "Why Ember good in modern 'VirtualDOM-world'. What's new in Ember. What about performance?. Ember vs Angular vs React vs Vue." +
+            "<h4>Plan of the speach</h4>" +
+            "<ul>" +
+            "<li>What is Ember</li>" +
+            "<li>Why it's good</li>" +
+            "<li>Learning curve</li>" +
+            "<li>Compare to Angular</li>" +
+            "<li>Performance</li>" +
+            "<li>Ember vs React vs Vue</li>" +
+            "<li>Bad parts</li>" +
+            "<li>Do not fear it!</li>" +
+            "<li>Conclusion</li>" +
+            "</ul>",
+          lang: "[EN]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/zenway_js",
+          fatype: "twitter"
+        },
+        {
+          link: "https://github.com/zenway_js",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/anton_cherednikov.jpg",
+      name: "Anton Cherednikov",
+      speakerPos: [
+        {
+          position: "Technical Lead",
+          company: "code.store"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title:
+            "How to build efficient backend based on microservice architecture",
+          description:
+            "This speech about micro-services, approaches, and practices in their construction. How to effectively build communication between micro-services and what approaches are commonly used for this. We will talk a little about distributed transactions. Will touch the topic of infrastructure, monitoring, and scaling components.",
+          lang: "[EN]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/anton-cherednikov/",
+          fatype: "linkedin"
         }
       ]
     }
