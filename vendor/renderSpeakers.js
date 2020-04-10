@@ -48,7 +48,7 @@ $(document).ready(function() {
       name: "Jamie Maria Schouren ",
       speakerPos: [
         {
-          position: "Chief Strategy Officer",
+          position: "Co-founder",
           company: "DEITY BV"
         }
       ],
@@ -59,24 +59,13 @@ $(document).ready(function() {
           title: "Software Architectures gone wild (Speech)",
           description:
             "<h4>SOFTWARE ARCHITECTURES GONE WILD</h4>" +
-            "Buckle-up and get ready for a (half) rush hour through the world of Software Architectures! Everyone who works in software has heard of terms like ‘monoliths’, ‘headless’ , ‘microservices’ and even ’service oriented architectures’. We all know what they are, but how much do we really know about them? In this half an hour, we will show you the differences, the similarities, when to use them, when not to use them, the success stories and of course: the massive failures. Get ready for a comedic blast, architecture is going to be fast and fun! " +
-            "<h4>WHAT THE HACK?! UNICORNS ON STEROIDS</h4>" +
-            "Ever wondered how companies such as Facebook, Netflix and AirBnB were able to grow as fast as they did? How they started, what method they used? Growth hacking started as a strategy for early-stage startups who need massive growth in a short time on a (very) small budget, with a team of engineers and marketeers. In this fun and energetic talk Jamie Maria will explain the basics of Growth Hacking, what it is, how it is done, how the Unicorns we know today were able to get BIG in no-time - and most importantly, how you can growth hack your company!",
+            "Buckle-up and get ready for a (half) rush hour through the world of Software Architectures! Everyone who works in software has heard of terms like ‘monoliths’, ‘headless’ , ‘microservices’ and even ’service oriented architectures’. We all know what they are, but how much do we really know about them? In this half an hour, we will show you the differences, the similarities, when to use them, when not to use them, the success stories and of course: the massive failures. Get ready for a comedic blast, architecture is going to be fast and fun! ",
           lang: "[EN]"
         },
         {
           title: "What the Hack?! Unicorns on Steroids (TechCorner)",
           description:
-            "<h4>Summary:</h4>" +
-            "Ever wondered how companies such as Facebook, Netflix and AirBnB were able to grow as fast as they did? How they started, what method they used? Growth hacking started as a strategy for early - stage startups who need massive growth in a short time on a(very) small budget, with a team of engineers and marketeers.In this fun and energetic talk Jamie Maria will explain the basics of Growth Hacking, what it is, how it is done, how the Unicorns we know today were able to get BIG in no - time - and most importantly, how you can growth hack your company!" +
-            "<h4> Plan and theses of your speech </h4>" +
-            "The talk will be about what growth hacking is, and especially how companies like facebook, uber, airbnb and others got super big in a very short time without money.Did you know Netflix was a company sending actual dvd’s by post ? And that airbnb got big because they ‘hacked’ craigslist and where able to place hundreds of ads without paying for it ? This talk will also show how marketing and developers work together to make the product super successful, how you can make your company successful without waiting for a ’sales person’ to go out and sell it.It is all about hacking, data and making sure you are in the right spot and the right time.And you don’t need money for that!" +
-            "<h4> What is the value of your talk, on what do you want to inspire the listeners?</h4>" +
-            "The value is that many companies(and developers) are working very traditional: developers build a product, marketing makes a flyer, sales tries to sell it.This is a long process, takes a lot of time and is not fun at all.I want to show you can do it differently: if the developer is involved very early with the marketing working together, you can adapt quickly, support your early users and make a product super big with a lot of users within no - time.But one of the most important things; a growth hack team NEEDS a developer.I want to show the role of the developer here." +
-            "<h4> What will your listeners take for themselves from your talk ?</h4>" +
-            "On a tech conference most talks are about how to update x or how to build x in javascript.This talk is different.It shows a new way of working, a new role as a developer, and it will be done with a lot of real life examples and case studies." +
-            "<h4> What will listeners take:</h4>" +
-            "Listeners will take away that they as a developer are a huge part of the success of the company, and how they can make their company / idea really big with no budget and no expensive sales people.",
+            "Ever wondered how companies such as Facebook, Netflix and AirBnB were able to grow as fast as they did? How they started, what method they used? Growth hacking started as a strategy for early-stage startups who need massive growth in a short time on a (very) small budget, with a team of engineers and marketeers. In this fun and energetic talk Jamie Maria will explain the basics of Growth Hacking, what it is, how it is done, how the Unicorns we know today were able to get BIG in no-time - and most importantly, how you can growth hack your company!",
 
           lang: "[EN]"
         }
@@ -193,7 +182,7 @@ $(document).ready(function() {
           description:
             "<h4>Gif is dead. Who's next?</h4>" +
             "It is a talk about animated images formats that went after GIF. Which one will be better: mp4, webm, apng, sprites or vector-based? Actually no right answer. I want to cover this topic from different sides: HTML app, WebGL game and how to automate preparing of animations for different platforms.",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -228,7 +217,7 @@ $(document).ready(function() {
         {
           title: "Effective NodeJS Application Development ",
           description: "",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -262,10 +251,10 @@ $(document).ready(function() {
             "Dart is a coding language aimed to correct JavaScript flaws. Though it does its job perfectly, Dart didn't manage to become popular among developers." +
             "In this talk we're going to discuss:" +
             "<ul>" +
-            "<li> - what's so special about Dart to use it instead of JavaScript</li>" +
-            "<li> - historical data about the language</li>" +
-            "<li> - why you need to try Dart even if you're not going to code in it</li>" +
-            "<li> - how we use it developing a small project and will continue using this language</li>" +
+            "<li>  what's so special about Dart to use it instead of JavaScript</li>" +
+            "<li>  historical data about the language</li>" +
+            "<li>  why you need to try Dart even if you're not going to code in it</li>" +
+            "<li>  how we use it developing a small project and will continue using this language</li>" +
             "</ul>",
           lang: "[RU]"
         }
@@ -293,14 +282,14 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "React Mentor",
-          company: ""
+          company: "Bioritmo "
         }
       ],
       country: "Brazil",
       city: "São Paulo",
       rept: [
         {
-          title: "Acessibility with JS",
+          title: "Accessibility with JS",
           description:
             "<h4>Short overview</h4>" +
             "We live in a world of about 1 billion people with some kind of disability. More than three billion do not have internet access or have poor access. How are we developing applications to make the web of the future more accessible and inclusive through our code? Let's understand how JavaScript can help change this scenario." +
@@ -395,7 +384,7 @@ $(document).ready(function() {
             "Software Architects, Tech Leads, Product Managers" +
             "<h4>Bio:</h4>" +
             "technical leadership, software architecture, organization design, people management, product management Maksym specialized in software architecture, distributed systems, technical team leadership, and management of distributed teams with 7+ years of experience with eGrocery and grocery retail automation.",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -424,8 +413,8 @@ $(document).ready(function() {
       name: "Andrii Shumada",
       speakerPos: [
         {
-          position: "Software Developer",
-          company: "Everad Group"
+          position: "TeamLead",
+          company: "WalkMe and Ciklum"
         }
       ],
       country: "Ukraine",
@@ -435,7 +424,7 @@ $(document).ready(function() {
           title: "No excuses for not writing tests!",
           description:
             "Hey you! Why do you not writing tests? Maybe you don’t know why do you need to write them? Maybe you have doubts about who should write tests? Or your manager doesn’t give you time to write tests? Or you just don’t know how to write tests or choose the right technologies, or how to choose between UI, integration or unit test for your case? Come to my talk, and we will figure out that together! ",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -484,7 +473,7 @@ $(document).ready(function() {
             "<li>How to check are you going your way or just doing something because it seems right.</li>" +
             "</ul>" +
             "The awful question by HR: ‘Where do you see yourself in 5 years’ can suddenly make sense. Do you want to become a Team Lead or R&D manager, maybe you’ll be more effective as a Tech Lead, Architect, or Consultant. Perhaps it’s some narrow expertise, or even you’re real passion is Design or Product Management. Let’s find out.",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -505,8 +494,8 @@ $(document).ready(function() {
       name: "Vitalii Petrenko",
       speakerPos: [
         {
-          position: "Game Designer",
-          company: "ZenwayCode"
+          position: " JS Master",
+          company: "Evolvice"
         }
       ],
       country: "Ukraine",
@@ -529,7 +518,7 @@ $(document).ready(function() {
             "<li>Do not fear it!</li>" +
             "<li>Conclusion</li>" +
             "</ul>",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -540,7 +529,7 @@ $(document).ready(function() {
           fatype: "twitter"
         },
         {
-          link: "https://github.com/zenway_js",
+          link: "hhttps://github.com/zenway-js",
           fatype: "github"
         }
       ]
@@ -562,7 +551,7 @@ $(document).ready(function() {
             "How to build efficient backend based on microservice architecture",
           description:
             "This speech about micro-services, approaches, and practices in their construction. How to effectively build communication between micro-services and what approaches are commonly used for this. We will talk a little about distributed transactions. Will touch the topic of infrastructure, monitoring, and scaling components.",
-          lang: "[EN]"
+          lang: "[RU]"
         }
       ],
       aboutSpeaker: "",
@@ -570,6 +559,220 @@ $(document).ready(function() {
       socials: [
         {
           link: "https://www.linkedin.com/in/anton-cherednikov/",
+          fatype: "linkedin"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/ilya_zprutski.jpg",
+      name: "Ilya Zaprutsi",
+      speakerPos: [
+        {
+          position: "Team Lead",
+          company: "iTechArt"
+        }
+      ],
+      country: "Belarus",
+      city: "Minsk",
+      rept: [
+        {
+          title: "How to improve your app using browser apis",
+          description:
+            "Over the past years, browsers have rapidly increased the number of useful apis that help to improve our applications both in terms of performance and in terms of user experience. But in recent times, I have increasingly noticed that developers have not heard of many of them. So we’ll talk about these features and how literally a few lines of code can improve your application. And I hope that after my speech you will have a desire to integrate new APIs into your projects.",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/ilya-zaprutski-253ab887/",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://twitter.com/IlyaZaprutski",
+          fatype: "twitter"
+        },
+        {
+          link: "https://github.com/IlyaZaprutski",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/roman_savitskyi.jpg",
+      name: "Roman Savitskyi",
+      speakerPos: [
+        {
+          position: "Tech lead",
+          company: "Infopulse"
+        }
+      ],
+      country: "Ukraine",
+      city: "Zhytomyr",
+      rept: [
+        {
+          title: "Web performance metrics",
+          description:
+            "Вебпродуктивність. Що ще тут розповісти? Всі ми знаємо, що це важливо, як не отримувати таких проблем і до чого це призводить. Але якщо необхідно вирішити проблему серед тонни ресурсів важко обрати потрібний. Моя доповідь не тільки про рішення проблеми, а про находження інструментів та метрик для рішення проблеми. Чому саме ці метрики варто використовувати і як з цим жити. Метрики, практики, проблеми, рішення. Які різні поняття, а насправді це цепочки, які нам разом необхідно виставити в логічний ряд. Запрошую Вас побрейнштормити разом!",
+          lang: "[UA]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.facebook.com/roman.savitskiy.104",
+          fatype: "facebook"
+        },
+        {
+          link: "https://www.linkedin.com/in/roman-savitskiy-98b49158/",
+          fatype: "linkedin"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/nick_lototskiy.jpg",
+      name: "Nick Lototskiy",
+      speakerPos: [
+        {
+          position: "DevOps Evangelist",
+          company: "Namecheap Inc."
+        }
+      ],
+      country: "Ukraine",
+      city: "Kharkiv",
+      rept: [
+        {
+          title: "Prepare your NodeJS application for Kubernetes.",
+          description:
+            "How we can prepare our NodeJS application for Kubernetes? What is must have our application for going to Kubernetes? How this affect to application structure? Why containerization is so important? How you can troubleshoot application? How to configure health-checks and logging? How store secretes? We will touch all these topics in presentation. </br> As devops evangelist I feel pain when developers give me non-prepared application. Very often we need to rewright some parts of application and even stop releases. I hope my presentation helps to other people to avoid some mistakes. ",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.facebook.com/nick.lototskiy",
+          fatype: "facebook"
+        },
+        {
+          link: "https://www.linkedin.com/in/nick-lototskiy-68881b2b/",
+          fatype: "linkedin"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/aleksandr_zinchuk.jpg",
+      name: "Alexander Zinchuk",
+      speakerPos: [
+        {
+          position: "Executive Engineer",
+          company: "Anyway Labs"
+        }
+      ],
+      country: "Spain",
+      city: "Malaga",
+      rept: [
+        {
+          title: "(Almost) winning the Telegram Web App contest",
+          description:
+            "This is a story about taking part in the largest JavaScript competition that took us half a year and forced to re-invent React, emphasizing speed, bundle size and attention to detail. </br> Developer competitions may be really thrilling as they force you to get out of a comfort zone to take some really low-level approaches. As we were unable to use any libraries, we needed to build up a reliable combination of our own implementations of common patterns. Among other things, I will share some useful tricks shedding light on different aspects of modern browsers and apps performance.",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.facebook.com/alexander.zinchuk",
+          fatype: "facebook"
+        },
+        {
+          link: "https://twitter.com/ajaxy_ru",
+          fatype: "twitter"
+        },
+        {
+          link: "https://es.linkedin.com/in/ajaxy/en",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://github.com/Ajaxy",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/mykhailo_sobko.jpg",
+      name: "Mikhail Sobko",
+      speakerPos: [
+        {
+          position: "Web Development Manager",
+          company: "Astound Commerce"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title: "Fear & Loathing of Team Leadership",
+          description:
+            'Last 3 years I\'ve been working closely with the career development of really great engineers around the globe.I noticed an interesting thing in common. Despite the level of technical expertise and strong relevant experience, potential promotion to the Team Lead position causes fear, panic, and desire to lock yourself in a bedroom in order to procrastinate watching the last season of Silicon Valley "I\'m not good enough to be the Team Lead!" "I will lose my technical skills!" "How can I be a boss for my friends?!" <br>Impostor syndrome, Fear of the golden cage, is TL the next step of career development or one-way ticket? <br>Giving my speech I will try to answer the most thorny questions and provide the audience with guidance on how to act if you want to be a good Team Leader. <br>' +
+            "<ul>" +
+            "<li>Is there any life after Senior position?</li>" +
+            "<li>How to be a good TL?</li>" +
+            "<li>In what direction should I build my career TL or SA?</li>" +
+            "</ul>" +
+            "I've been asked these questions so a lot of times during regular one on one meetings with my teammates." +
+            "I believe that this topic will provide the audience with answers to the most common questions and help to eliminate a lot of fears and stereotypes about the Team Lead position." +
+            "p.s. I promise that there will be a lot of fun ;)",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/mikhailsobko/",
+          fatype: "linkedin"
+        },
+        {
+          link: "https://github.com/Mykhail",
+          fatype: "github"
+        }
+      ]
+    },
+    {
+      image: "img-min/2020/speakers/denis_zavgorodny.jpg",
+      name: "Denis Zavgorodny",
+      speakerPos: [
+        {
+          position: "Frontend engineer",
+          company: "Yola"
+        }
+      ],
+      country: "Ukraine",
+      city: "Kyiv",
+      rept: [
+        {
+          title: "What about Biometric and U2F Token Web Authentication?",
+          description:
+            "Is a password web authentification convenient? We will talk about web authentification evolution, figure out how to authenticate a user in the browser and will learn about U2F authentification. Do you familiar with WebAuthn? Asymmetric cryptography and RSA key have become available on the frontend side. We will try to figure out what it is and how it works. We will learn about how we can use it." +
+            "Also, we will journey to the backend side and will figure out how to work with keys and what does biometry has to do with it." +
+            "There are a million ways to lose your credentials on the Web. But there are not so many ways how to identify the user in the browser. We are threatened by phishing, keylogging and a bunch of ways how to possess our credentials. So, WebAuthn is a specification for the purpose of strongly authenticating users without overheads (almost).",
+          lang: "[RU]"
+        }
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/DenisZavgorodny",
+          fatype: "twitter"
+        },
+        {
+          link: "https://www.linkedin.com/in/denis-zavgorodny-6449726b/",
           fatype: "linkedin"
         }
       ]
