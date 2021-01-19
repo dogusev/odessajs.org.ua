@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   var speakers = [
     {
       image: "img-min/2020/speakers/vladimir_novic.jpg",
@@ -6,42 +6,42 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Software Architect & Consultant, Google Developer Expert",
-          company: ""
-        }
+          company: "",
+        },
       ],
-      country: "",
-      city: "",
+      country: "Israel",
+      city: "Ashkelon",
       rept: [
         {
           title: "Moving from JavaScript to ReasonML",
           description:
             "Created by Jordan Walke at Facebook, ReasonML is a syntax extension and toolchain for OCaml (functional programming language) that lets you write simple, fast, and quality type-safe code leveraging JavaScript and OCaml ecosystems. The cool part is that Reason looks very close to JavaScript, but it has functional languages constructs such as pattern matching, variants and amazing type system. In this talk we understand what benefits ReasonML gives us compared to JavaScript/TypeScript/Flow, why it's used in critical financial web apps, in Facebook Messenger and how we can start using it in our existing JavaScript projects using both familiar JS ecosystem we are so used to. There is a saying 'In Reason if it compiles - it works' - we will see why this is actually true and not just a saying.",
-          lang: "[EN]"
+          lang: "[EN]",
         },
         {
           title:
             "Architecting scalable serverless applications with GraphQL api",
           description:
             "In this talk, we will see what are the benefits of building event-driven Realtime GraphQL backend and what problems it will solve. We will see how we can bootstrap our GraphQL backend fast with free and open-source Hasura engine and connect it to serverless functions for custom business logic, providing our web or mobile apps with infinitely scalable backend with modern GraphQL API.",
-          lang: "[EN]"
-        }
+          lang: "[EN]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://github.com/vnovick",
-          fatype: "github"
+          fatype: "github",
         },
         {
           link: "https://twitter.com/VladimirNovick",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://www.linkedin.com/in/vnovick",
-          fatype: "linkedin"
-        }
-      ]
+          fatype: "linkedin",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/jamie_maria_schouren.jpg",
@@ -49,8 +49,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Co-founder",
-          company: "DEITY BV"
-        }
+          company: "DEITY BV",
+        },
       ],
       country: "The Netherlands",
       city: "Eindhoven",
@@ -60,15 +60,15 @@ $(document).ready(function() {
           description:
             "<h4>SOFTWARE ARCHITECTURES GONE WILD</h4>" +
             "Buckle-up and get ready for a (half) rush hour through the world of Software Architectures! Everyone who works in software has heard of terms like ‘monoliths’, ‘headless’ , ‘microservices’ and even ’service oriented architectures’. We all know what they are, but how much do we really know about them? In this half an hour, we will show you the differences, the similarities, when to use them, when not to use them, the success stories and of course: the massive failures. Get ready for a comedic blast, architecture is going to be fast and fun! ",
-          lang: "[EN]"
+          lang: "[EN]",
         },
         {
           title: "What the Hack?! Unicorns on Steroids (TechCorner)",
           description:
             "Ever wondered how companies such as Facebook, Netflix and AirBnB were able to grow as fast as they did? How they started, what method they used? Growth hacking started as a strategy for early-stage startups who need massive growth in a short time on a (very) small budget, with a team of engineers and marketeers. In this fun and energetic talk Jamie Maria will explain the basics of Growth Hacking, what it is, how it is done, how the Unicorns we know today were able to get BIG in no-time - and most importantly, how you can growth hack your company!",
 
-          lang: "[EN]"
-        }
+          lang: "[EN]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
@@ -76,17 +76,17 @@ $(document).ready(function() {
         {
           link:
             "https://www.linkedin.com/in/jamie-maria-schouren-%E2%9C%85-80583145/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://twitter.com/JamieMariaS",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://github.com/deity-io/falcon",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/joel_lord.jpg",
@@ -94,8 +94,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Developer Advocate",
-          company: "Red Hat OpenShift"
-        }
+          company: "Red Hat OpenShift",
+        },
       ],
       country: "Canada",
       city: "Toronto",
@@ -104,25 +104,25 @@ $(document).ready(function() {
           title: "Kube Restaraunt",
           description:
             "You’ve been to a restaurant before, right? Have you noticed how everything is structured? Everyone has a job and there is a chain of command. You can’t just walk into the kitchen and tell the cook how you want your steak done.  Kubernetes is actually very similar to this. You will deploy some pods that do specific things and set the rules of communications that dictate how they all talk to each other. By expanding on the idea of a restaurant, the speaker will slowly introduce some of the basic concepts behind modern DevOps in a fun and easy to understand way. The attendees will come out of this talk with a whole new perspective on what Kubernetes does and how to apply this in their software development practices.",
-          lang: "[EN]"
-        }
+          lang: "[EN]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/joel-lord/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://twitter.com/joel__lord",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://github.com/joellord",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/yoni_goldberg.jpg",
@@ -130,8 +130,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Architect Consultant",
-          company: "Yoni Goldberg"
-        }
+          company: "Yoni Goldberg",
+        },
       ],
       country: "Israel",
       city: "Haifa",
@@ -141,29 +141,29 @@ $(document).ready(function() {
             "Testing in production - a practical overview with live examples",
           description:
             "This is probably a mega-trend in testing which is covered in many 2020 conferences. It doesn't mean simply testing over production rather a set of techniques that makes the tests more realistic. Most talks on this matter are theoretic, mine aims to bring this fascinating trend down to earth and show live how Node.js code and test runners can discover severe issues that couldn't be discovered using traditional testing. Specifically, we're about to explore techniques like tap-compare, silent releases, traffic shadowing and more",
-          lang: "[EN]"
-        }
+          lang: "[EN]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/yoni-goldberg-760898b/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://twitter.com/goldbergyoni",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://github.com/goldbergyoni",
-          fatype: "github"
+          fatype: "github",
         },
         {
           link: "https://goldbergyoni.com/",
-          fatype: "link"
-        }
-      ]
+          fatype: "link",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/aleksandr_korotaev.jpg",
@@ -171,8 +171,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Front-End developer",
-          company: "Tinkoff"
-        }
+          company: "Tinkoff",
+        },
       ],
       country: "Russia",
       city: "Saint-Petersburg",
@@ -182,25 +182,25 @@ $(document).ready(function() {
           description:
             "<h4>Gif is dead. Who's next?</h4>" +
             "It is a talk about animated images formats that went after GIF. Which one will be better: mp4, webm, apng, sprites or vector-based? Actually no right answer. I want to cover this topic from different sides: HTML app, WebGL game and how to automate preparing of animations for different platforms.",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/lekzd/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://twitter.com/mamu_eval",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://github.com/lekzd",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/viktor_turskyi.jpg",
@@ -208,8 +208,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "CEO and Solution architect",
-          company: "WebbyLab"
-        }
+          company: "WebbyLab",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -217,21 +217,21 @@ $(document).ready(function() {
         {
           title: "Effective NodeJS Application Development ",
           description: "",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://twitter.com/koorchik",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://github.com/koorchik",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/timofey_lavrenyuk.jpeg",
@@ -239,14 +239,14 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Software Engineer",
-          company: "Provectus"
-        }
+          company: "Provectus",
+        },
       ],
       country: "Ukraine",
       city: "Odessa",
       rept: [
         {
-          title: "About Dart",
+          title: "Non-hype dart and why you should try it",
           description:
             "Dart is a coding language aimed to correct JavaScript flaws. Though it does its job perfectly, Dart didn't manage to become popular among developers." +
             "In this talk we're going to discuss:" +
@@ -256,68 +256,25 @@ $(document).ready(function() {
             "<li>  why you need to try Dart even if you're not going to code in it</li>" +
             "<li>  how we use it developing a small project and will continue using this language</li>" +
             "</ul>",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://twitter.com/geek_timofey",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://www.linkedin.com/in/lavrenyuk-t-042b4263/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://medium.com/@timofeylavrenuk",
-          fatype: "medium"
-        }
-      ]
-    },
-    {
-      image: "img-min/2020/speakers/carol_soares.jpg",
-      name: "Caroline Soares",
-      speakerPos: [
-        {
-          position: "React Mentor",
-          company: "Bioritmo "
-        }
+          fatype: "medium",
+        },
       ],
-      country: "Brazil",
-      city: "São Paulo",
-      rept: [
-        {
-          title: "Accessibility with JS",
-          description:
-            "<h4>Short overview</h4>" +
-            "We live in a world of about 1 billion people with some kind of disability. More than three billion do not have internet access or have poor access. How are we developing applications to make the web of the future more accessible and inclusive through our code? Let's understand how JavaScript can help change this scenario." +
-            "<h4>Bio</h4>" +
-            "Frontend Engineer and React instructor based in Sao Paulo/Brazil. I'm studying modern software engineer at a public university. Also, I have a strong presence in events and tech community here giving tech talks, organizing meetups and contributing to open source projects. Recently, I've been creating tech and career content focused on diversity and people who are new in the area. ",
-          lang: "[EN]"
-        }
-      ],
-      aboutSpeaker: "",
-      socialsRendered: "",
-      socials: [
-        {
-          link: "https://twitter.com/carolcode",
-          fatype: "twitter"
-        },
-        {
-          link: "https://www.linkedin.com/in/carolcode/",
-          fatype: "linkedin"
-        },
-        {
-          link: "https://github.com/carolcodes",
-          fatype: "github"
-        },
-        {
-          link: "https://divaloper.com.br/",
-          fatype: "link"
-        }
-      ]
     },
     {
       image: "img-min/2020/speakers/dmitriy_gusev.jpg",
@@ -325,8 +282,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Team Lead",
-          company: "Oracle"
-        }
+          company: "Oracle",
+        },
       ],
       country: "Ukraine",
       city: "Odessa",
@@ -342,21 +299,21 @@ $(document).ready(function() {
             "JS - one love.  What are 3 things I enjoy  except coding is" +
             "spending time with my wife and 3 y.o. son" +
             "and traveling around",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/dmitriy-gusev/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://github.com/dogusev",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/maxym_klymyshyn.jpg",
@@ -364,8 +321,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Engineering Lead",
-          company: "Takeoff Technologies"
-        }
+          company: "Takeoff Technologies",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -384,29 +341,29 @@ $(document).ready(function() {
             "Software Architects, Tech Leads, Product Managers" +
             "<h4>Bio:</h4>" +
             "technical leadership, software architecture, organization design, people management, product management Maksym specialized in software architecture, distributed systems, technical team leadership, and management of distributed teams with 7+ years of experience with eGrocery and grocery retail automation.",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "http://linkedin.com/in/klymyshyn",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "http://github.com/joymax",
-          fatype: "github"
+          fatype: "github",
         },
         {
           link: "http://twitter.com/maxmaxmaxmax",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "takeoff.com",
-          fatype: "link"
-        }
-      ]
+          fatype: "link",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/andrii_shumada.jpg",
@@ -414,8 +371,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "TeamLead",
-          company: "WalkMe and Ciklum"
-        }
+          company: "WalkMe and Ciklum",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -424,29 +381,29 @@ $(document).ready(function() {
           title: "No excuses for not writing tests!",
           description:
             "Hey you! Why do you not writing tests? Maybe you don’t know why do you need to write them? Maybe you have doubts about who should write tests? Or your manager doesn’t give you time to write tests? Or you just don’t know how to write tests or choose the right technologies, or how to choose between UI, integration or unit test for your case? Come to my talk, and we will figure out that together! ",
-          lang: "[RU]"
-        }
+          lang: "[UA]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/andriishumada/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://github.com/eagleeye",
-          fatype: "github"
+          fatype: "github",
         },
         {
           link: "https://twitter.com/eagleeye_s",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://eagleeye.github.io/",
-          fatype: "link"
-        }
-      ]
+          fatype: "link",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/roman_yakobchuk.jpg",
@@ -454,8 +411,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Site Enginering Manager",
-          company: "Wix"
-        }
+          company: "Wix",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -473,21 +430,21 @@ $(document).ready(function() {
             "<li>How to check are you going your way or just doing something because it seems right.</li>" +
             "</ul>" +
             "The awful question by HR: ‘Where do you see yourself in 5 years’ can suddenly make sense. Do you want to become a Team Lead or R&D manager, maybe you’ll be more effective as a Tech Lead, Architect, or Consultant. Perhaps it’s some narrow expertise, or even you’re real passion is Design or Product Management. Let’s find out.",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "(https://www.linkedin.com/in/ya-roman",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://github.com/romabelka",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/vitalii_petrenko.jpg",
@@ -495,8 +452,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: " JS Master",
-          company: "Evolvice"
-        }
+          company: "Evolvice",
+        },
       ],
       country: "Ukraine",
       city: "Kharkiv",
@@ -518,21 +475,21 @@ $(document).ready(function() {
             "<li>Do not fear it!</li>" +
             "<li>Conclusion</li>" +
             "</ul>",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://twitter.com/zenway_js",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "hhttps://github.com/zenway-js",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/anton_cherednikov.jpg",
@@ -540,8 +497,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Technical Lead",
-          company: "code.store"
-        }
+          company: "code.store",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -551,53 +508,17 @@ $(document).ready(function() {
             "How to build efficient backend based on microservice architecture",
           description:
             "This speech about micro-services, approaches, and practices in their construction. How to effectively build communication between micro-services and what approaches are commonly used for this. We will talk a little about distributed transactions. Will touch the topic of infrastructure, monitoring, and scaling components.",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/anton-cherednikov/",
-          fatype: "linkedin"
-        }
-      ]
-    },
-    {
-      image: "img-min/2020/speakers/ilya_zprutski.jpg",
-      name: "Ilya Zaprutsi",
-      speakerPos: [
-        {
-          position: "Team Lead",
-          company: "iTechArt"
-        }
-      ],
-      country: "Belarus",
-      city: "Minsk",
-      rept: [
-        {
-          title: "How to improve your app using browser apis",
-          description:
-            "Over the past years, browsers have rapidly increased the number of useful apis that help to improve our applications both in terms of performance and in terms of user experience. But in recent times, I have increasingly noticed that developers have not heard of many of them. So we’ll talk about these features and how literally a few lines of code can improve your application. And I hope that after my speech you will have a desire to integrate new APIs into your projects.",
-          lang: "[RU]"
-        }
-      ],
-      aboutSpeaker: "",
-      socialsRendered: "",
-      socials: [
-        {
-          link: "https://www.linkedin.com/in/ilya-zaprutski-253ab887/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
-        {
-          link: "https://twitter.com/IlyaZaprutski",
-          fatype: "twitter"
-        },
-        {
-          link: "https://github.com/IlyaZaprutski",
-          fatype: "github"
-        }
-      ]
+      ],
     },
     {
       image: "img-min/2020/speakers/roman_savitskyi.jpg",
@@ -605,8 +526,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Tech lead",
-          company: "Infopulse"
-        }
+          company: "Infopulse",
+        },
       ],
       country: "Ukraine",
       city: "Zhytomyr",
@@ -615,21 +536,21 @@ $(document).ready(function() {
           title: "Web performance metrics",
           description:
             "Вебпродуктивність. Що ще тут розповісти? Всі ми знаємо, що це важливо, як не отримувати таких проблем і до чого це призводить. Але якщо необхідно вирішити проблему серед тонни ресурсів важко обрати потрібний. Моя доповідь не тільки про рішення проблеми, а про находження інструментів та метрик для рішення проблеми. Чому саме ці метрики варто використовувати і як з цим жити. Метрики, практики, проблеми, рішення. Які різні поняття, а насправді це цепочки, які нам разом необхідно виставити в логічний ряд. Запрошую Вас побрейнштормити разом!",
-          lang: "[UA]"
-        }
+          lang: "[UA]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.facebook.com/roman.savitskiy.104",
-          fatype: "facebook"
+          fatype: "facebook",
         },
         {
           link: "https://www.linkedin.com/in/roman-savitskiy-98b49158/",
-          fatype: "linkedin"
-        }
-      ]
+          fatype: "linkedin",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/nick_lototskiy.jpg",
@@ -637,31 +558,31 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "DevOps Evangelist",
-          company: "Namecheap Inc."
-        }
+          company: "Namecheap Inc.",
+        },
       ],
       country: "Ukraine",
       city: "Kharkiv",
       rept: [
         {
-          title: "Prepare your NodeJS application for Kubernetes.",
+          title: "Prepare your NodeJS application for Kubernetes",
           description:
             "How we can prepare our NodeJS application for Kubernetes? What is must have our application for going to Kubernetes? How this affect to application structure? Why containerization is so important? How you can troubleshoot application? How to configure health-checks and logging? How store secretes? We will touch all these topics in presentation. </br> As devops evangelist I feel pain when developers give me non-prepared application. Very often we need to rewright some parts of application and even stop releases. I hope my presentation helps to other people to avoid some mistakes. ",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.facebook.com/nick.lototskiy",
-          fatype: "facebook"
+          fatype: "facebook",
         },
         {
           link: "https://www.linkedin.com/in/nick-lototskiy-68881b2b/",
-          fatype: "linkedin"
-        }
-      ]
+          fatype: "linkedin",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/aleksandr_zinchuk.jpg",
@@ -669,8 +590,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Executive Engineer",
-          company: "Anyway Labs"
-        }
+          company: "Anyway Labs",
+        },
       ],
       country: "Spain",
       city: "Malaga",
@@ -679,29 +600,29 @@ $(document).ready(function() {
           title: "(Almost) winning the Telegram Web App contest",
           description:
             "This is a story about taking part in the largest JavaScript competition that took us half a year and forced to re-invent React, emphasizing speed, bundle size and attention to detail. </br> Developer competitions may be really thrilling as they force you to get out of a comfort zone to take some really low-level approaches. As we were unable to use any libraries, we needed to build up a reliable combination of our own implementations of common patterns. Among other things, I will share some useful tricks shedding light on different aspects of modern browsers and apps performance.",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.facebook.com/alexander.zinchuk",
-          fatype: "facebook"
+          fatype: "facebook",
         },
         {
           link: "https://twitter.com/ajaxy_ru",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://es.linkedin.com/in/ajaxy/en",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://github.com/Ajaxy",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/mykhailo_sobko.jpg",
@@ -709,8 +630,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Web Development Manager",
-          company: "Astound Commerce"
-        }
+          company: "Astound Commerce",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -727,21 +648,21 @@ $(document).ready(function() {
             "I've been asked these questions so a lot of times during regular one on one meetings with my teammates." +
             "I believe that this topic will provide the audience with answers to the most common questions and help to eliminate a lot of fears and stereotypes about the Team Lead position." +
             "p.s. I promise that there will be a lot of fun ;)",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://www.linkedin.com/in/mikhailsobko/",
-          fatype: "linkedin"
+          fatype: "linkedin",
         },
         {
           link: "https://github.com/Mykhail",
-          fatype: "github"
-        }
-      ]
+          fatype: "github",
+        },
+      ],
     },
     {
       image: "img-min/2020/speakers/denis_zavgorodny.jpg",
@@ -749,8 +670,8 @@ $(document).ready(function() {
       speakerPos: [
         {
           position: "Frontend engineer",
-          company: "Yola"
-        }
+          company: "Yola",
+        },
       ],
       country: "Ukraine",
       city: "Kyiv",
@@ -761,22 +682,283 @@ $(document).ready(function() {
             "Is a password web authentification convenient? We will talk about web authentification evolution, figure out how to authenticate a user in the browser and will learn about U2F authentification. Do you familiar with WebAuthn? Asymmetric cryptography and RSA key have become available on the frontend side. We will try to figure out what it is and how it works. We will learn about how we can use it." +
             "Also, we will journey to the backend side and will figure out how to work with keys and what does biometry has to do with it." +
             "There are a million ways to lose your credentials on the Web. But there are not so many ways how to identify the user in the browser. We are threatened by phishing, keylogging and a bunch of ways how to possess our credentials. So, WebAuthn is a specification for the purpose of strongly authenticating users without overheads (almost).",
-          lang: "[RU]"
-        }
+          lang: "[RU]",
+        },
       ],
       aboutSpeaker: "",
       socialsRendered: "",
       socials: [
         {
           link: "https://twitter.com/DenisZavgorodny",
-          fatype: "twitter"
+          fatype: "twitter",
         },
         {
           link: "https://www.linkedin.com/in/denis-zavgorodny-6449726b/",
-          fatype: "linkedin"
-        }
-      ]
-    }
+          fatype: "linkedin",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/arun_michael_dsouza.png",
+      name: "Arun Michael Dsouza",
+      speakerPos: [
+        {
+          position: "Senior Software Engineer",
+          company: "Publicis Sapient",
+        },
+      ],
+      country: "UK",
+      city: "London",
+      rept: [
+        {
+          title: "Solving the JavaScript Transpilation Mystery",
+          description:
+            "I always wondered how the 'modern' JavaScript that I write gets converted into code that the browser is able to understand. It just boggled my mind! It set me off on a quest to solve this mystery because it was more or less like a black box for me, I had no idea what was going on inside! <br>" +
+            "Modern/Non-standard JS => Magic happens => Browser understandable JS<br>" +
+            "This talk tends to take everyone on a journey driven by curiosity and the desire to understand the inner workings of compilers/transpilers. We’ll be deep diving into how the JavaScript parser works and how the workings have been implemented in JS based transpilation tools (most notably Babel), how the process essentially creates an abstract syntax tree and the transformations that are performed upon the tree nodes. <br>",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/amdsouza92",
+          fatype: "twitter",
+        },
+        {
+          link: "https://www.linkedin.com/in/arunmichaeldsouza/",
+          fatype: "linkedin",
+        },
+        {
+          link: "https://github.com/ArunMichaelDsouza",
+          fatype: "github",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/boris_litvinsky.jpg",
+      name: "Boris Litvinsky",
+      speakerPos: [
+        {
+          position: "Tech Lead",
+          company: "WIX",
+        },
+      ],
+      country: "Israel",
+      city: "Beer Sheva",
+      rept: [
+        {
+          title: "Hooking into React Hooks mental model",
+          description:
+            "Just as fire was discovered by first men, so were React Hooks by frontend developers - an immensely powerful tool, often misunderstood, abused and misused. </br>" +
+            "React comes with amazing docs that cover the basics of Hooks, but leave us to figure out the rest on our own. Questions like: Should everything be a hook? What should the custom hook contain? How big should it be?  What should we name them? Do they change our approach to Functional components and how do hooks affect the overall architecture of the app? All remain unanswered and up to the developer’s interpretation. </br>" +
+            "In this talk, we will explore a mental model my team at Wix has adopted. A different way of thinking about React Hooks, that helped us answer all of the questions above. We will also see how Hooks allow for a dramatically better overall architecture of frontend apps, and discuss their effect of testing.",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/borislit ",
+          fatype: "twitter",
+        },
+        {
+          link: "https://www.linkedin.com/in/borislit/",
+          fatype: "linkedin",
+        },
+        {
+          link: "http://github.com/borislit",
+          fatype: "github",
+        },
+        {
+          link: "https://www.facebook.com/borislit/ ",
+          fatype: "facebook",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/vilva_athiban.jpeg",
+      name: "Vilva Athiban P.B.",
+      speakerPos: [
+        {
+          position: "JavaScript Developer",
+          company: "Omio",
+        },
+      ],
+      country: "Germany",
+      city: "Berlin",
+      rept: [
+        {
+          title:
+            "TypeSafe Caching for React (Native): Incredible DX with GraphQL Tooling",
+          description:
+            "Handling Cache / Offline data is definitely challenging irrespective of the platform (Web or React Native). When the data scales with multi-level nesting, its definitely a pain to read or write from localStorage / AsyncStorage and maintaining the application becomes harder. This talk will explain the advantages of using Graphql tooling to handle cache data, thereby drastically improving developer experience and making maintenance of the application easier. </br>" +
+            "Tools like `GraphQL-codegen` auto-generates `types` based on server-side schema and makes it available for frontend. In addition to types, it can create framework specific reusable components / hooks / HOCs etc. Further, it helps us managing all the graphQL related files / code in a handy way. This tool can also be added to pr-checker to ensure accountability of the fields between frontend and backend. Extending this tool with `Apollo-cache-persist` provides us a beautiful way to maintain, re-use, share and organise cache data. Since its type-safe and gives possibility of autocomplete with intelli-sense, developers can be highly productive with this tooling and eco-system. Codebase also stays highly scalable and easily maintained. It is highly resistant to run-time errors as most issues are captured during development. </br>" +
+            "In addition to managing cache efficiently, it also provides features for better , type-safe local state management and sharing cached data across different parts of the application. This ensures consistency of the data across the application. </br>",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/vilvaathibanpb",
+          fatype: "twitter",
+        },
+        {
+          link: "https://www.linkedin.com/in/vilvaathiban/",
+          fatype: "linkedin",
+        },
+        {
+          link: " http://github.com/vilvaathibanpb",
+          fatype: "github",
+        },
+        {
+          link: "https://www.facebook.com/vilva.athiban.3",
+          fatype: "facebook",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/tit_kovalenko.jpg",
+      name: "Tit Kovalenko",
+      speakerPos: [
+        {
+          position: "Software Engineer",
+          company: "Wix",
+        },
+      ],
+      country: "Ukraine",
+      city: "",
+      rept: [
+        {
+          title: "GraphqQL + TypeScript: Cookbook for Frontend",
+          description:
+            "Overview and practical examples of usage GraphQL with Typescript while building Web Application The talk will help to improve the speed of development and make and application more robust because of Typescript and GraphQL type systems",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/tkvlnk/ ",
+          fatype: "linkedin",
+        },
+        {
+          link: "https://github.com/tkvlnk",
+          fatype: "github",
+        },
+        {
+          link: "https://www.facebook.com/tkvlnk/  ",
+          fatype: "facebook",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/aleks_zinevych.jpg",
+      name: "Aleks Zinevych",
+      speakerPos: [
+        {
+          position: "Competence Lead",
+          company: "Perfectial",
+        },
+      ],
+      country: "Ukraine",
+      city: "Lviv",
+      rept: [
+        {
+          title: "Micro Frontends. New hype or real need",
+          description:
+            "This talk is about Micro Frontends in real life and real projects. Briefly describe the nature of Micro Frontend architecture and how you can build it, I would like to share my own experience in building web applications using Micro Frontend architecture. We will discuss some known issues and tips and tricks which might are important to follow this approach properly. I will show some examples of how this might work and which problems can be solved by using microservices approach in frontend development.",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/@a_zinewicz",
+          fatype: "twitter",
+        },
+        {
+          link: "https://medium.com/@aleksanderzinewicz",
+          fatype: "medium",
+        },
+        {
+          link: "https://www.facebook.com/aleks.zinevych ",
+          fatype: "facebook",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/konstantin_kulaksyz.jpg",
+      name: "Konstantin Kulaksyz",
+      speakerPos: [
+        {
+          position: "Frontend Developer",
+          company: "DataArt",
+        },
+      ],
+      country: "Ukraine",
+      city: "Odessa",
+      rept: [
+        {
+          title: "Vue.js – The Best Practices",
+          description:
+            "How to develop web applications using Vue.js and implemen best practices from the first day of development. </br>" +
+            "Consider practical recommendations for using Vue.js, based on personal experience, thoughtful reading of documentation and analysis of best practices suggested by other developers. </br>" +
+            "During the talk, you will learn what you can implement today in your development practice to make your web applications on Vue.js more productive and the development process more efficient.",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://www.linkedin.com/in/konstantin-kulaksyz-b86ab9149/ ",
+          fatype: "linkedin",
+        },
+        {
+          link: "https://www.facebook.com/web4uvak",
+          fatype: "facebook",
+        },
+      ],
+    },
+    {
+      image: "img-min/2020/speakers/ian_lavriushev.jpg",
+      name: "Ian Lavriushev",
+      speakerPos: [
+        {
+          position: "Frontend Developer",
+          company: "",
+        },
+      ],
+      country: "Russia",
+      city: "Saint-Petersburg",
+      rept: [
+        {
+          title: "Developing projects via Effector",
+          description:
+            "We'll try not to be afraid of networks in our products and turn them into our friend        My opinion - nowadays we have lots of garbage in everyday frontend devs routine, we can work it out and also they can be fit into products more deeply    ",
+          lang: "[EN]",
+        },
+      ],
+      aboutSpeaker: "",
+      socialsRendered: "",
+      socials: [
+        {
+          link: "https://twitter.com/YanLobaty",
+          fatype: "twitter",
+        },
+        {
+          link: "https://github.com/YanLobat",
+          fatype: "github",
+        },
+      ],
+    },
   ];
 
   var socialsItem =
@@ -809,20 +991,20 @@ $(document).ready(function() {
 
   function renderSpeakersCarousel() {
     // start render all
-    $.each(speakers, function(i, sp) {
-      $.each($.tmpl("socialsTemplate", sp.socials), function(a, i) {
+    $.each(speakers, function (i, sp) {
+      $.each($.tmpl("socialsTemplate", sp.socials), function (a, i) {
         sp.socialsRendered += i.outerHTML;
       });
 
       if (sp.files) {
-        $.each($.tmpl("filesTemplate", sp.files), function(a, i) {
+        $.each($.tmpl("filesTemplate", sp.files), function (a, i) {
           sp.filesRendered += i.outerHTML;
         });
       }
     });
 
     var renderedSpeakers = [];
-    $.each($.tmpl("speakerTemplate", speakers), function(a, i) {
+    $.each($.tmpl("speakerTemplate", speakers), function (a, i) {
       renderedSpeakers.push(i.outerHTML.replace("__ReplaceWithIndex", a));
     });
 
@@ -856,7 +1038,7 @@ $(document).ready(function() {
 
   renderSpeakersCarousel();
 
-  $(document).on("click", '[data-modal-trigger="#speaker-modal"]', function() {
+  $(document).on("click", '[data-modal-trigger="#speaker-modal"]', function () {
     var $speakerInfoBlock = $(this);
     loadSpeakerModal($speakerInfoBlock);
   });
@@ -878,22 +1060,22 @@ $(document).ready(function() {
     var $prevButton = $modalBody.find("button.prev");
     var $nextButton = $modalBody.find("button.next");
 
-    $prevButton.unbind("click").click(function() {
+    $prevButton.unbind("click").click(function () {
       var prevIndex =
         speakerIndex == 0 ? speakers.length - 1 : speakerIndex - 1;
 
       $("#speaker-modal").modal("hide");
-      setTimeout(function() {
+      setTimeout(function () {
         loadSpeakerModal($('[data-item-index="' + prevIndex + '"]'));
       }, 600);
     });
 
-    $nextButton.unbind("click").click(function() {
+    $nextButton.unbind("click").click(function () {
       var nextIndex =
         speakerIndex == speakers.length - 1 ? 0 : speakerIndex + 1;
 
       $("#speaker-modal").modal("hide");
-      setTimeout(function() {
+      setTimeout(function () {
         loadSpeakerModal($('[data-item-index="' + nextIndex + '"]'));
       }, 600);
     });
@@ -912,7 +1094,7 @@ $(document).ready(function() {
         positionContent = "",
         speakerAboutText = speakerData.aboutSpeaker;
 
-      reports.forEach(function(item, i, arr) {
+      reports.forEach(function (item, i, arr) {
         reportsContent +=
           '<h2 class="modal-body__title">' +
           item.title +
@@ -925,15 +1107,17 @@ $(document).ready(function() {
           "</div>";
       });
 
-      speakerPos.forEach(function(item, i, arr) {
+      speakerPos.forEach(function (item, i, arr) {
+        // positionContent += `<p class="speaker-position"> ${item.position} ${
+        //   item.position && item.company ? "@" : ""
+        // } <span>${item.company}</span></p>`;
         positionContent +=
           '<p class="speaker-position">' +
-          item.position +
-          "@" +
-          "<span >" +
+          item.position+
+          (item.position && item.company ? "@" : "") +
+          "<span>" +
           item.company +
-          "</span>" +
-          "</p>";
+          "</span></p>";
       });
 
       speakerAvatar && $modalSpeakerAvatar.attr("src", speakerAvatar);
