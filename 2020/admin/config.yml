@@ -1,0 +1,268 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "committee"
+    label: "Committee"
+    folder: "src/pages/committee"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "chairman-post"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Photo", name: "image", widget: image}
+      - {label: "Position", name: "position", widget: "string"}
+      - label: "Socials"
+        name: "socials"
+        widget: "list"
+        fields:
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "select", options: ["github", "telegram", "twitter", "linkedin", "facebook-f", "custom"]}
+  - name: "partners"
+    label: "Partners"
+    folder: "src/pages/partners"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner-post"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Type", name: "type", widget: "select", options: ["GOLD", "HONOURED PARTNERS", "MEDIA PARTNERS"]}
+      - {label: "Photo", name: "image", widget: image}
+      - {label: "Link", name: "link", widget: "string"}
+  - name: "hotels"
+    label: "Hotels"
+    folder: "src/pages/hotels"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hotel-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Photo", name: "image", widget: image}
+      - {label: "Discount", name: "discount", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+  - name: "speakers"
+    label: "Speakers"
+    folder: "src/pages/speakers"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "speaker-post"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Photo", name: "image", widget: image}
+      - {name: "country", label: "Country", widget: "string"}
+      - {name: "city", label: "City", widget: "string"}
+      - {label: "About", name: "about", widget: "text"}
+      - name: "positions"
+        label: "Positions"
+        widget: "list"
+        fields:
+          - {label: "Position", name: "position", widget: "string"}
+          - {label: "Company", name: "company", widget: "string"}
+      - name: "reports"
+        label: "Reports"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Lang", name: "lang", widget: "select", options: ["RU", "EN", "UA"]}
+      - label: "Socials"
+        name: "socials"
+        widget: "list"
+        fields:
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "select", options: ["github", "twitter", "linkedin", "facebook-f"]}
+  - name: "video"
+    label: "Video"
+    folder: "src/pages/video"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "video-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {name: "url", label: "Url", widget: "string"}
+      - {name: "description", label: "Description", widget: "text"}
+  - name: "workshops"
+    label: "Workshops"
+    folder: "src/pages/workshops"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workshop-post"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Photo", name: "image", widget: image}
+      - {name: "country", label: "Country", widget: "string"}
+      - {name: "city", label: "City", widget: "string"}
+      - {label: "About", name: "about", widget: "text"}
+      - name: "positions"
+        label: "Positions"
+        widget: "list"
+        fields:
+          - {label: "Position", name: "position", widget: "string"}
+          - {label: "Company", name: "company", widget: "string"}
+      - name: "reports"
+        label: "Reports"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Lang", name: "lang", widget: "select", options: ["RU", "EN", "UA"]}
+      - label: "Socials"
+        name: "socials"
+        widget: "list"
+        fields:
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "select", options: ["github", "twitter", "linkedin", "facebook-f"]}
+  - name: 'schedule'
+    label: 'Schedule'
+    folder: "src/pages/schedule"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule-day"}
+      - {label: "Day", name: "day", widget: "datetime"}
+      - {label: 'Title', name: 'title', widget: 'string', required: false}
+      - label: 'Events'
+        name: 'events'
+        widget: 'list'
+        fields:
+          - {label: "TimeFrom", name: "timeFrom", widget: "string"}
+          - {label: "TimeTo", name: "timeTo", widget: "string"}
+          - {label: "Title", name: 'title', widget: 'string', hint: 'Name of action or speech'}
+          - {label: "Flow", name: 'flow', widget: 'select', options: ['first', 'second']}
+          - {label: "Description/Author ", name: 'description', widget: 'text', required: false, hint: 'Detailed description or simple author name'}
+          - {lable: "Break", name: 'break', widget: "boolean", default: false, hint: 'Will not show time-from to time-to' }
+        sortableFields: ["timeFrom"]
+
+  - name: 'about-slider'
+    label: 'About Slider'
+    folder: "src/pages/about-slider"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-slider-post"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Photo", name: "image", widget: image}
+    sortableFields: ["title"]
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - label: head_data
+            name: head_data
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: image, name: image, widget: image}
+          - label: info_slider_data
+            name: info_slider_data
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - label: firstSlide
+                name: firstSlide
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: markdown}
+              - label: secondSlide
+                name: secondSlide
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: markdown}
+              - label: thirdSlide
+                name: thirdSlide
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: markdown}
+          - label: callpappers_data
+            name: callpappers_data
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: description, name: description, widget: text}
+              - {label: btn__text, name: btn__text, widget: string}
+              - {label: btn__link, name: btn__link, widget: string}
+          - label: AboutData
+            name: about_data
+            widget: object
+            fields:
+              - {label: Subtitle, name: subtitle, widget: string}
+              - label: Benefits
+                name: benefits
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Subtitle, name: subtitle, widget: string}
+              - lable: SM
+                name: sm
+                widget: list
+                fields:
+                  - {label: link, name: link, widget: string}
+                  - {label: class, name: class, widget: string}
+          - label: location_data
+            name: location_data
+            widget: object
+            fields:
+              - {label: image, name: image, widget: image}
+          - label: tickets_data
+            name: tickets_data
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: subtitle, name: subtitle, widget: string}
+              - {label: description, name: description, widget: text}
+              - label: tickets
+                name: tickets
+                widget: list
+                fields:
+                  - {label: name, name: name, widget: string}
+                  - {label: subname, name: subname, widget: string, required: false}
+                  - {label: desc, name: desc, widge: text, required: false}
+                  - {label: color, name: color, widget: string, required: false}
+                  - {label: action, name: action, widget: string}
+                  - {label: price, name: price, widget: number}
+                  - {label: promo, name: promo, widget: string}
+                  - {label: link, name: link, widget: string, required: false}
+      - file: "src/pages/about/index.md"
+        label: "-x- About"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/products/index.md"
+        label: "-x- Products Page"
+        name: "products"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+          - {label: Full_image, name: full_image, widget: image}
+          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
